@@ -1,26 +1,114 @@
 @import "tailwindcss";
+@import "katex/dist/katex.min.css";
+
+/* next-themes uses a `.dark` class on <html>; wire Tailwind's dark: variant to it. */
+@custom-variant dark (&:where(.dark, .dark *));
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #0f172a;
+  --card: #ffffff;
+  --card-foreground: #0f172a;
+  --muted: #f1f5f9;
+  --muted-foreground: #64748b;
+  --border: #e2e8f0;
+  --primary: #4f46e5;
+  --primary-foreground: #ffffff;
+  --accent: #eef2ff;
+  --accent-foreground: #3730a3;
+  --success: #16a34a;
+  --danger: #dc2626;
+  --ring: #6366f1;
+}
+
+.dark {
+  --background: #0b1120;
+  --foreground: #e2e8f0;
+  --card: #0f172a;
+  --card-foreground: #e2e8f0;
+  --muted: #1e293b;
+  --muted-foreground: #94a3b8;
+  --border: #1e293b;
+  --primary: #6366f1;
+  --primary-foreground: #ffffff;
+  --accent: #1e1b4b;
+  --accent-foreground: #c7d2fe;
+  --success: #22c55e;
+  --danger: #f87171;
+  --ring: #818cf8;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-border: var(--border);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-success: var(--success);
+  --color-danger: var(--danger);
+  --color-ring: var(--ring);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer base {
+  * {
+    border-color: var(--border);
+  }
+  body {
+    background: var(--background);
+    color: var(--foreground);
+    font-family: var(--font-sans), system-ui, sans-serif;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+/* KaTeX: keep inline math from looking oversized. */
+.katex {
+  font-size: 1.05em;
+}
+
+/* Lightweight markdown styling for stems, passages, and explanations. */
+.prose-gmat {
+  line-height: 1.7;
+}
+.prose-gmat p {
+  margin: 0.5rem 0;
+}
+.prose-gmat p:first-child {
+  margin-top: 0;
+}
+.prose-gmat p:last-child {
+  margin-bottom: 0;
+}
+.prose-gmat strong {
+  font-weight: 600;
+}
+.prose-gmat ul {
+  list-style: disc;
+  padding-left: 1.25rem;
+  margin: 0.5rem 0;
+}
+.prose-gmat ol {
+  list-style: decimal;
+  padding-left: 1.25rem;
+  margin: 0.5rem 0;
+}
+.prose-gmat h1,
+.prose-gmat h2,
+.prose-gmat h3 {
+  font-weight: 600;
+  margin: 0.75rem 0 0.25rem;
+}
+.prose-gmat code {
+  background: var(--muted);
+  padding: 0.1rem 0.3rem;
+  border-radius: 0.25rem;
+  font-family: var(--font-mono), monospace;
+  font-size: 0.9em;
 }
