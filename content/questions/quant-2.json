@@ -1,0 +1,350 @@
+[
+  {
+    "id": "red-blue-token-ratio",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "ratios",
+    "subtopic": "part-to-part ratio change",
+    "skillsTested": ["translate a ratio into variables", "track a quantity added to one group"],
+    "difficulty": "easy",
+    "difficultyScore": { "conceptual": 1, "steps": 2, "trap": 1, "computation": 1, "sum": 5 },
+    "difficultyDrivers": ["one ratio variable is enough", "only one linear equation is required", "main trap is answering with the red count instead of the blue count"],
+    "stem": "In a box of tokens, the ratio of red tokens to blue tokens is $3:5$. After $10$ red tokens are added and no blue tokens are added, the number of red tokens equals the number of blue tokens. How many blue tokens were originally in the box?",
+    "choices": [
+      { "key": "A", "text": "$15$" },
+      { "key": "B", "text": "$20$" },
+      { "key": "C", "text": "$25$" },
+      { "key": "D", "text": "$30$" },
+      { "key": "E", "text": "$50$" }
+    ],
+    "correctAnswer": { "format": "single", "value": "C" },
+    "distractorRationale": {
+      "A": "This is the original number of red tokens when $k=5$; it is tempting because the red side of the ratio is computed first, but the question asks for blue tokens.",
+      "B": "This treats the added $10$ tokens as if they made up half the final blue count, but the equation must compare $3k+10$ with $5k$.",
+      "D": "This adds the $10$ new red tokens to the original red count and reports the final red count, not the original blue count.",
+      "E": "This multiplies the blue ratio part by the added $10$ tokens, incorrectly treating $10$ as one ratio unit."
+    },
+    "explanation": "Let the original numbers of red and blue tokens be $3k$ and $5k$. After $10$ red tokens are added, $3k+10=5k$, so $10=2k$ and $k=5$. The original number of blue tokens was $5k=25$.",
+    "estimatedTimeSeconds": 75,
+    "tags": ["ratio", "linear-equation", "easy-quant"]
+  },
+  {
+    "id": "marked-price-from-discount",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "percents",
+    "subtopic": "successive percent relationships",
+    "skillsTested": ["convert percent statements to multipliers", "work backward from sale price to marked price"],
+    "difficulty": "easy",
+    "difficultyScore": { "conceptual": 2, "steps": 2, "trap": 2, "computation": 1, "sum": 7 },
+    "difficultyDrivers": ["two percent relationships must be sequenced correctly", "arithmetic is light", "trap is adding or subtracting percents instead of using multipliers"],
+    "stem": "A retailer marks an item at a price and then sells it for $20\\%$ less than the marked price. The sale price is $40\\%$ greater than the item's cost of \\$50. What is the marked price?",
+    "choices": [
+      { "key": "A", "text": "\\$56.00" },
+      { "key": "B", "text": "\\$70.00" },
+      { "key": "C", "text": "\\$84.00" },
+      { "key": "D", "text": "\\$87.50" },
+      { "key": "E", "text": "\\$90.00" }
+    ],
+    "correctAnswer": { "format": "single", "value": "D" },
+    "distractorRationale": {
+      "A": "This takes $20\\%$ off the sale price instead of recognizing that the sale price is already after the discount.",
+      "B": "This is the sale price, not the marked price.",
+      "C": "This adds $20\\%$ of the sale price to the sale price; undoing a $20\\%$ discount requires division by $0.80$.",
+      "E": "This treats the $20\\%$ discount as a flat \\$20 difference from the sale price."
+    },
+    "explanation": "The sale price is $1.40(50)=70$. If $M$ is the marked price, then $0.80M=70$, so $M=70/0.80=87.5$. The marked price is \\$87.50.",
+    "estimatedTimeSeconds": 90,
+    "tags": ["percent", "discount", "easy-quant"]
+  },
+  {
+    "id": "absolute-value-solution-product",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "algebra",
+    "subtopic": "absolute-value equations",
+    "skillsTested": ["split an absolute-value equation into cases", "verify case restrictions", "combine multiple solutions"],
+    "difficulty": "medium",
+    "difficultyScore": { "conceptual": 2, "steps": 3, "trap": 3, "computation": 2, "sum": 10 },
+    "difficultyDrivers": ["requires two cases", "solutions must be checked against the absolute-value condition", "question asks for the product, not the sum or one solution"],
+    "stem": "What is the product of all real values of $x$ that satisfy $|2x-3|=x+5$?",
+    "choices": [
+      { "key": "A", "text": "$-16/3$" },
+      { "key": "B", "text": "$-22/3$" },
+      { "key": "C", "text": "$-4$" },
+      { "key": "D", "text": "$8$" },
+      { "key": "E", "text": "$22/3$" }
+    ],
+    "correctAnswer": { "format": "single", "value": "A" },
+    "distractorRationale": {
+      "B": "This is the negative of the sum of the two valid solutions, not their product.",
+      "C": "This can result from distributing the negative sign incorrectly in the second case.",
+      "D": "This uses only the solution from the positive case and ignores the second valid solution.",
+      "E": "This is the sum of the two valid solutions, but the question asks for the product."
+    },
+    "explanation": "If $2x-3\\ge 0$, then $2x-3=x+5$, so $x=8$, which is valid. If $2x-3<0$, then $-(2x-3)=x+5$, so $-2x+3=x+5$, $-3x=2$, and $x=-2/3$, which is also valid. The product is $8(-2/3)=-16/3$.",
+    "estimatedTimeSeconds": 120,
+    "tags": ["absolute-value", "casework", "medium-quant"]
+  },
+  {
+    "id": "two-machines-after-start",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "rates-work",
+    "subtopic": "work completed before collaboration",
+    "skillsTested": ["convert times to work rates", "subtract completed work", "apply combined rates"],
+    "difficulty": "medium",
+    "difficultyScore": { "conceptual": 2, "steps": 3, "trap": 2, "computation": 2, "sum": 9 },
+    "difficultyDrivers": ["requires accounting for work already completed", "combined rate begins only after the first interval", "fraction arithmetic is moderate"],
+    "stem": "Machine A can seal one batch of envelopes in $6$ hours, and machine B can seal the same batch in $10$ hours. Machine A works alone for $2$ hours, and then machine B joins machine A. How many hours after machine B joins will it take the two machines to finish the batch?",
+    "choices": [
+      { "key": "A", "text": "$1.5$" },
+      { "key": "B", "text": "$2$" },
+      { "key": "C", "text": "$2.5$" },
+      { "key": "D", "text": "$3$" },
+      { "key": "E", "text": "$4$" }
+    ],
+    "correctAnswer": { "format": "single", "value": "C" },
+    "distractorRationale": {
+      "A": "This uses an incorrect remaining fraction after the first $2$ hours.",
+      "B": "This treats the remaining work as if machine A alone continued at the combined rate.",
+      "D": "This is close to the result of averaging the individual times rather than adding rates.",
+      "E": "This is approximately the time for both machines to do the entire batch from the start, not the time after B joins."
+    },
+    "explanation": "Machine A's rate is $1/6$ batch per hour. In $2$ hours, A completes $2/6=1/3$ of the batch, so $2/3$ remains. Together, A and B work at $1/6+1/10=4/15$ batch per hour. The time needed is $(2/3)/(4/15)=(2/3)(15/4)=2.5$ hours.",
+    "estimatedTimeSeconds": 120,
+    "tags": ["work-rate", "combined-rate", "medium-quant"]
+  },
+  {
+    "id": "perpendicular-diagonals-trapezoid",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "geometry",
+    "subtopic": "isosceles trapezoid with perpendicular diagonals",
+    "skillsTested": ["model a geometric figure with coordinates", "use perpendicular slopes or dot products", "compute trapezoid area"],
+    "difficulty": "hard",
+    "difficultyScore": { "conceptual": 4, "steps": 4, "trap": 3, "computation": 3, "sum": 14 },
+    "difficultyDrivers": ["no diagram is provided", "requires choosing an efficient coordinate representation", "perpendicular diagonals determine the height indirectly"],
+    "stem": "An isosceles trapezoid has bases of lengths $10$ and $22$. Its diagonals are perpendicular. What is the area of the trapezoid?",
+    "choices": [
+      { "key": "A", "text": "$144$" },
+      { "key": "B", "text": "$176$" },
+      { "key": "C", "text": "$240$" },
+      { "key": "D", "text": "$256$" },
+      { "key": "E", "text": "$352$" }
+    ],
+    "correctAnswer": { "format": "single", "value": "D" },
+    "distractorRationale": {
+      "A": "This can result from using the half-difference of the bases in place of the full horizontal run of a diagonal.",
+      "B": "This uses half of the longer base as the height, but the height is determined by the perpendicular diagonals, not by a base length.",
+      "C": "This is consistent with a near-Pythagorean estimate for the height but does not satisfy the perpendicular-diagonal condition.",
+      "E": "This treats the longer base as the height, overcounting the area."
+    },
+    "explanation": "Place the longer base from $(-11,0)$ to $(11,0)$ and the shorter base from $(-5,h)$ to $(5,h)$. One diagonal has direction vector $(16,h)$ and the other has direction vector $(-16,h)$. Perpendicular diagonals have dot product $0$, so $(16)(-16)+h^2=0$, giving $h^2=256$ and $h=16$. The area is $((10+22)/2)(16)=16(16)=256$.",
+    "estimatedTimeSeconds": 150,
+    "tags": ["coordinate-geometry", "trapezoid", "hard-quant"]
+  },
+  {
+    "id": "access-code-one-pair",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "counting-probability",
+    "subtopic": "arrangements with exactly one repeated pair",
+    "skillsTested": ["count arrangements with restrictions", "handle a leading-zero constraint", "avoid overcounting repeated digits"],
+    "difficulty": "hard",
+    "difficultyScore": { "conceptual": 4, "steps": 4, "trap": 4, "computation": 3, "sum": 15 },
+    "difficultyDrivers": ["the leading digit restriction interacts with the repeated-pair condition", "a naive count includes invalid leading-zero codes", "requires separating or subtracting cases cleanly"],
+    "stem": "A $5$-digit access code is formed from the digits $0$ through $9$. The first digit cannot be $0$. The code must contain exactly one pair of equal digits, with the other three digits all distinct from the paired digit and from one another. How many such access codes are possible?",
+    "choices": [
+      { "key": "A", "text": "$30240$" },
+      { "key": "B", "text": "$40320$" },
+      { "key": "C", "text": "$45360$" },
+      { "key": "D", "text": "$50400$" },
+      { "key": "E", "text": "$60480$" }
+    ],
+    "correctAnswer": { "format": "single", "value": "C" },
+    "distractorRationale": {
+      "A": "This is a plausible partial count that omits cases in which the repeated pair includes the first digit.",
+      "B": "This often comes from choosing the repeated digit and three other digits but undercounting their positions.",
+      "D": "This is the count when leading zero is allowed; it fails to remove invalid codes beginning with $0$.",
+      "E": "This overcounts by allowing more than one repeated pair or by treating the two equal positions as distinguishable."
+    },
+    "explanation": "First ignore the leading-zero restriction. Choose the digit that is repeated in $10$ ways, choose its two positions in $C(5,2)=10$ ways, and fill the remaining positions with an ordered selection of $3$ distinct digits from the other $9$ digits: $9\\cdot 8\\cdot 7=504$. This gives $10(10)(504)=50400$ codes. Now subtract those that begin with $0$. If the repeated digit is $0$, choose the other zero position in $4$ ways and fill the other three positions with distinct nonzero digits in $9\\cdot 8\\cdot 7=504$ ways, giving $2016$. If the repeated digit is nonzero, choose it in $9$ ways, choose its two positions among the last four in $C(4,2)=6$ ways, and fill the remaining two positions with ordered distinct nonzero digits other than the paired digit in $8\\cdot 7=56$ ways, giving $3024$. Invalid codes total $2016+3024=5040$, so the valid count is $50400-5040=45360$.",
+    "estimatedTimeSeconds": 180,
+    "tags": ["counting", "repetition", "leading-zero", "hard-quant"]
+  },
+  {
+    "id": "red-blue-marble-ratio",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "ratios",
+    "subtopic": "part-to-whole ratio",
+    "skillsTested": ["ratio reasoning", "unitary method"],
+    "difficulty": "easy",
+    "difficultyScore": { "conceptual": 1, "steps": 1, "trap": 1, "computation": 1, "sum": 4 },
+    "difficultyDrivers": ["Single ratio setup", "One-step arithmetic", "Minimal trap potential"],
+    "stem": "A bag contains red and blue marbles in the ratio $4:7$. If there are $44$ marbles in all, how many marbles are red?",
+    "choices": [
+      { "key": "A", "text": "$11$" },
+      { "key": "B", "text": "$16$" },
+      { "key": "C", "text": "$20$" },
+      { "key": "D", "text": "$24$" },
+      { "key": "E", "text": "$28$" }
+    ],
+    "correctAnswer": { "format": "single", "value": "B" },
+    "distractorRationale": {
+      "A": "Treats the ratio as a difference instead of a part count.",
+      "C": "Adds the ratio parts incorrectly.",
+      "D": "Uses the blue count or doubles the red count by mistake.",
+      "E": "Confuses the total number of parts with one color count."
+    },
+    "explanation": "The ratio has $4+7=11$ equal parts. Since $44\\div 11=4$, each part is $4$. Red marbles account for $4\\times 4=16$.",
+    "estimatedTimeSeconds": 60,
+    "tags": ["ratios", "part-whole", "one-step"]
+  },
+  {
+    "id": "sweater-discount-sale-price",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "percents",
+    "subtopic": "discount price",
+    "skillsTested": ["percent decrease", "mental arithmetic"],
+    "difficulty": "easy",
+    "difficultyScore": { "conceptual": 1, "steps": 1, "trap": 1, "computation": 1, "sum": 4 },
+    "difficultyDrivers": ["Direct percent decrease", "No multi-stage adjustment", "Low computational load"],
+    "stem": "A store marks a sweater down by $25\\%$ from its original price of \\$80. What is the sale price?",
+    "choices": [
+      { "key": "A", "text": "\\$50" },
+      { "key": "B", "text": "\\$60" },
+      { "key": "C", "text": "\\$65" },
+      { "key": "D", "text": "\\$70" },
+      { "key": "E", "text": "\\$75" }
+    ],
+    "correctAnswer": { "format": "single", "value": "B" },
+    "distractorRationale": {
+      "A": "Subtracts too much, as if the discount were larger than 25%.",
+      "C": "Applies the discount to the wrong base or rounds incorrectly.",
+      "D": "Confuses a 25% discount with a 12.5% discount.",
+      "E": "Ignores the discount almost entirely."
+    },
+    "explanation": "A $25\\%$ discount means the buyer pays $75\\%$ of the original price. Thus the sale price is $0.75\\times 80=60$.",
+    "estimatedTimeSeconds": 60,
+    "tags": ["percents", "discount", "sale-price"]
+  },
+  {
+    "id": "linear-system-find-x",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "algebra",
+    "subtopic": "linear equations",
+    "skillsTested": ["system of equations", "substitution"],
+    "difficulty": "medium",
+    "difficultyScore": { "conceptual": 3, "steps": 3, "trap": 2, "computation": 2, "sum": 10 },
+    "difficultyDrivers": ["Requires substitution across two equations", "Moderate algebraic manipulation", "Answer depends on isolating the target variable"],
+    "stem": "If $2x + y = 17$ and $x - y = 1$, what is the value of $x$?",
+    "choices": [
+      { "key": "A", "text": "$4$" },
+      { "key": "B", "text": "$5$" },
+      { "key": "C", "text": "$6$" },
+      { "key": "D", "text": "$7$" },
+      { "key": "E", "text": "$8$" }
+    ],
+    "correctAnswer": { "format": "single", "value": "C" },
+    "distractorRationale": {
+      "A": "Drops the contribution of $y$ or solves only one equation.",
+      "B": "Uses $x+y=17$ instead of $2x+y=17$.",
+      "D": "Adds the equations without adjusting signs correctly.",
+      "E": "Carries an arithmetic slip after substitution."
+    },
+    "explanation": "From $x-y=1$, $y=x-1$. Substitute into $2x+y=17$: $2x+(x-1)=17$. So $3x=18$ and $x=6$.",
+    "estimatedTimeSeconds": 90,
+    "tags": ["algebra", "system-of-equations", "substitution"]
+  },
+  {
+    "id": "two-machines-tank",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "rates-work",
+    "subtopic": "combined rates",
+    "skillsTested": ["work rates", "fraction arithmetic"],
+    "difficulty": "medium",
+    "difficultyScore": { "conceptual": 3, "steps": 3, "trap": 2, "computation": 2, "sum": 10 },
+    "difficultyDrivers": ["Two-stage rate process", "Requires combining rates then isolating remaining work", "Easy to make a fractional error"],
+    "stem": "Machine A can fill a tank in $5$ hours. Machine B can fill the same tank in $8$ hours. They work together for $2$ hours, then B stops. How many additional hours does A need to finish filling the tank?",
+    "choices": [
+      { "key": "A", "text": "$1\\tfrac{1}{2}$" },
+      { "key": "B", "text": "$1\\tfrac{3}{4}$" },
+      { "key": "C", "text": "$2$" },
+      { "key": "D", "text": "$2\\tfrac{1}{4}$" },
+      { "key": "E", "text": "$2\\tfrac{1}{2}$" }
+    ],
+    "correctAnswer": { "format": "single", "value": "B" },
+    "distractorRationale": {
+      "A": "Rounds the remaining work too aggressively.",
+      "C": "Forgets that some work was already completed together.",
+      "D": "Uses the combined rate for the entire problem.",
+      "E": "Treats the remaining work as if A worked alone from the start."
+    },
+    "explanation": "Together, the rate is $\\frac15+\\frac18=\\frac{13}{40}$ tank per hour. In $2$ hours they complete $\\frac{26}{40}=\\frac{13}{20}$, leaving $\\frac{7}{20}$. A alone works at $\\frac15$ per hour, so the remaining time is $\\frac{7/20}{1/5}=\\frac{7}{4}=1\\tfrac{3}{4}$ hours.",
+    "estimatedTimeSeconds": 100,
+    "tags": ["rates", "work", "fraction-operations"]
+  },
+  {
+    "id": "digit-sum-even-counting",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "counting-probability",
+    "subtopic": "digit arrangements",
+    "skillsTested": ["combinatorics", "casework", "parity"],
+    "difficulty": "hard",
+    "difficultyScore": { "conceptual": 4, "steps": 4, "trap": 3, "computation": 3, "sum": 14 },
+    "difficultyDrivers": ["Requires enumerating valid digit sets", "Needs parity filtering after counting combinations", "Several tempting overcounts"],
+    "stem": "How many $4$-digit positive integers can be formed using distinct digits from $1$ through $9$ such that the digits sum to $18$ and the number is even?",
+    "choices": [
+      { "key": "A", "text": "$96$" },
+      { "key": "B", "text": "$108$" },
+      { "key": "C", "text": "$120$" },
+      { "key": "D", "text": "$132$" },
+      { "key": "E", "text": "$144$" }
+    ],
+    "correctAnswer": { "format": "single", "value": "C" },
+    "distractorRationale": {
+      "A": "Counts only a subset of the valid digit sets.",
+      "B": "Forgets that each valid set can place an even digit in the units place in multiple ways.",
+      "D": "Overcounts by including ordered arrangements that reuse digits.",
+      "E": "Uses the number of valid sets but inflates the permutation count."
+    },
+    "explanation": "There are $11$ four-digit sets of distinct digits from $1$ to $9$ whose sum is $18$. Exactly one of those sets, $\\{1,3,5,9\\}$, has no even digits. For the other $10$ sets, there are exactly $2$ even digits in the set, and each set yields $2\\cdot 3! = 12$ even numbers because any even digit can go in the units place and the remaining three digits can be arranged in $3!$ ways. So the total is $10\\times 12 = 120$.",
+    "estimatedTimeSeconds": 180,
+    "tags": ["counting", "digit-sets", "parity"]
+  },
+  {
+    "id": "triangle-altitude-foot",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "geometry",
+    "subtopic": "triangles-altitude",
+    "skillsTested": ["pythagorean theorem", "triangle area logic", "algebraic geometry"],
+    "difficulty": "hard",
+    "difficultyScore": { "conceptual": 4, "steps": 4, "trap": 3, "computation": 3, "sum": 14 },
+    "difficultyDrivers": ["Uses a non-obvious altitude relation", "Requires combining side lengths with a perpendicular foot", "A common setup error changes the answer"],
+    "stem": "In triangle $ABC$, the side lengths are $13$, $14$, and $15$. Point $P$ lies on side $AC$ so that $BP$ is perpendicular to $AC$. If $AB=13$, $BC=14$, and $AC=15$, what is the length of $AP$?",
+    "choices": [
+      { "key": "A", "text": "$\\frac{27}{5}$" },
+      { "key": "B", "text": "$\\frac{31}{5}$" },
+      { "key": "C", "text": "$\\frac{33}{5}$" },
+      { "key": "D", "text": "$7$" },
+      { "key": "E", "text": "$8$" }
+    ],
+    "correctAnswer": { "format": "single", "value": "C" },
+    "distractorRationale": {
+      "A": "Uses the wrong side as the hypotenuse in the right-triangle setup.",
+      "B": "Makes a sign error in the coordinate or formula approach.",
+      "D": "Rounds the exact value too early.",
+      "E": "Confuses the altitude length with the horizontal distance $AP$."
+    },
+    "explanation": "With $AC=15$, $AB=13$, and $BC=14$, let $AP=x$. Then $x^2+h^2=13^2$ and $(15-x)^2+h^2=14^2$. Subtracting gives $(15-x)^2-x^2=14^2-13^2=27$, so $225-30x=27$. Hence $30x=198$ and $x=\\frac{33}{5}$.",
+    "estimatedTimeSeconds": 180,
+    "tags": ["geometry", "triangles", "altitude"]
+  }
+]

@@ -1,0 +1,302 @@
+[
+  {
+    "id": "electric-truck-operating-cost-assumption",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "assumption",
+    "subtopic": "unstated cost comparison",
+    "skillsTested": ["identify a necessary assumption", "distinguish operating costs from capital costs"],
+    "difficulty": "easy",
+    "difficultyScore": { "conceptual": 2, "steps": 2, "trap": 2, "computation": 1, "sum": 7 },
+    "difficultyDrivers": ["argument has a clear gap between selected savings and total operating costs", "answer can be tested by negation", "distractors use related but nonessential facts"],
+    "stem": "Which of the following is an assumption on which the argument depends?",
+    "passageOrStimulus": "The town of Lydon plans to replace half of its gasoline garbage trucks with electric trucks next year. Electric trucks have lower fuel costs and require less routine engine maintenance than gasoline trucks. Therefore, Lydon's sanitation department will spend less on operating its truck fleet next year than it does this year.",
+    "choices": [
+      { "key": "A", "text": "The sanitation department will collect at least as much trash next year as it does this year." },
+      { "key": "B", "text": "The lower fuel and maintenance costs of the electric trucks will not be fully offset by other operating expenses associated with using those trucks." },
+      { "key": "C", "text": "Electric garbage trucks can carry more trash per trip than gasoline garbage trucks can." },
+      { "key": "D", "text": "No neighboring town currently uses electric trucks for garbage collection." },
+      { "key": "E", "text": "The purchase price of an electric garbage truck is lower than the purchase price of a gasoline garbage truck." }
+    ],
+    "correctAnswer": { "format": "single", "value": "B" },
+    "distractorRationale": {
+      "A": "Workload could affect costs, but the argument does not require trash volume to stay the same or increase.",
+      "C": "Greater capacity might further reduce costs, but the argument's stated basis is fuel and maintenance savings, not carrying capacity.",
+      "D": "Neighboring towns are irrelevant to whether Lydon's own fleet operating costs will decline.",
+      "E": "This is tempting because it concerns cost, but the conclusion is about operating costs, not purchase prices."
+    },
+    "explanation": "The argument compares fuel and maintenance savings with total fleet operating costs. The flaw is an incomplete cost comparison: other operating expenses for electric trucks could offset the savings. Choice B is necessary because, if those other operating expenses fully offset the fuel and maintenance savings, the conclusion would not follow.",
+    "estimatedTimeSeconds": 75,
+    "tags": ["critical-reasoning", "assumption", "cost-benefit"]
+  },
+  {
+    "id": "hotel-dispensers-cleanliness-strengthen",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "strengthen",
+    "subtopic": "causal mechanism",
+    "skillsTested": ["strengthen a causal explanation", "separate relevant mechanism evidence from background facts"],
+    "difficulty": "medium",
+    "difficultyScore": { "conceptual": 3, "steps": 3, "trap": 3, "computation": 1, "sum": 10 },
+    "difficultyDrivers": ["requires linking the observed change to the proposed mechanism", "several choices discuss the hotel but not the cleanliness mechanism", "moderate causal-reasoning trap"],
+    "stem": "Which of the following, if true, most strengthens the manager's explanation?",
+    "passageOrStimulus": "Six months ago, the Harbor Inn replaced single-use shampoo bottles in its guest rooms with refillable wall dispensers. Since then, guest complaints about room cleanliness have fallen by $18\\%$. The manager explains the decline by claiming that housekeepers now spend less time replacing individual bottles and more time cleaning rooms.",
+    "choices": [
+      { "key": "A", "text": "Many Harbor Inn guests report that they prefer refillable dispensers because the dispensers reduce plastic waste." },
+      { "key": "B", "text": "During the same six-month period, guest complaints about noise in rooms also declined." },
+      { "key": "C", "text": "Housekeeping logs show that, after the switch, the average time formerly spent restocking individual bottles was reassigned to bathroom and surface cleaning tasks." },
+      { "key": "D", "text": "The Harbor Inn did not change its room rates during the six months after the dispensers were installed." },
+      { "key": "E", "text": "The refillable dispensers cost the Harbor Inn less per guest-night than the single-use bottles did." }
+    ],
+    "correctAnswer": { "format": "single", "value": "C" },
+    "distractorRationale": {
+      "A": "This supports a different benefit of dispensers, not the claim that cleaning improved because housekeeping time was reallocated.",
+      "B": "This suggests a broader change in guest experience and may even raise an alternative explanation; it does not support the stated mechanism.",
+      "D": "Stable room rates do not connect dispensers to fewer cleanliness complaints.",
+      "E": "Lower toiletry cost is financially relevant but does not show that rooms became cleaner."
+    },
+    "explanation": "The manager's explanation is causal: dispensers reduced restocking time, and the saved time improved cleaning. The flaw is that the argument assumes the saved time was actually used for cleaning tasks. Choice C directly supports that mechanism, making the explanation more credible.",
+    "estimatedTimeSeconds": 120,
+    "tags": ["critical-reasoning", "strengthen", "causal-mechanism"]
+  },
+  {
+    "id": "budgeting-app-growth-weaken",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "weaken",
+    "subtopic": "alternative cause",
+    "skillsTested": ["weaken a causal conclusion", "recognize an alternative explanation for an observed increase"],
+    "difficulty": "medium",
+    "difficultyScore": { "conceptual": 3, "steps": 3, "trap": 4, "computation": 1, "sum": 11 },
+    "difficultyDrivers": ["requires separating timing from causation", "correct answer introduces a competing cause for most new paid accounts", "distractors discuss user attitudes or costs without addressing growth"],
+    "stem": "Which of the following, if true, most seriously weakens the company's claim?",
+    "passageOrStimulus": "After a budgeting app added a feature that displays weekly expert spending tips, the number of paid user accounts doubled over the next quarter. The company claims that the new feature was the reason for the increase and plans to invest most of next quarter's development budget in similar advice features.",
+    "choices": [
+      { "key": "A", "text": "Existing paid users opened the expert spending tips feature more often than they opened any other new feature in the app." },
+      { "key": "B", "text": "During that quarter, the app was bundled with a large bank's premium checking account, and the bank paid for most of the newly created paid accounts." },
+      { "key": "C", "text": "In a survey, many users who had tried the expert spending tips feature rated it as easy to understand." },
+      { "key": "D", "text": "The expert spending tips feature required less development time than several features the company had previously considered." },
+      { "key": "E", "text": "Some users who canceled their paid accounts during the quarter cited password-reset problems as their main reason for canceling." }
+    ],
+    "correctAnswer": { "format": "single", "value": "B" },
+    "distractorRationale": {
+      "A": "High usage by existing users makes the feature look appealing, but it does not explain why the number of paid accounts doubled.",
+      "C": "Ease of understanding is favorable evidence for the feature and does not weaken the causal claim.",
+      "D": "Development time affects cost, not whether the feature caused the growth in accounts.",
+      "E": "This concerns cancellations rather than the source of the increase in paid accounts; it does not provide a competing explanation for the doubling."
+    },
+    "explanation": "The company's reasoning commits a post hoc causal flaw: it treats growth after the feature launch as growth caused by the feature. Choice B supplies a strong alternative cause for the increase, since most new paid accounts came through the bank bundle rather than through demand for the expert tips feature.",
+    "estimatedTimeSeconds": 120,
+    "tags": ["critical-reasoning", "weaken", "alternative-cause"]
+  },
+  {
+    "id": "green-tea-sleep-study-flaw",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "flaw",
+    "subtopic": "correlation and sampling",
+    "skillsTested": ["identify a causal flaw", "detect overgeneralization from a self-selected sample"],
+    "difficulty": "hard",
+    "difficultyScore": { "conceptual": 5, "steps": 4, "trap": 4, "computation": 1, "sum": 14 },
+    "difficultyDrivers": ["correct answer combines two reasoning defects", "several distractors identify limitations that are not decisive", "requires distinguishing observed association from warranted recommendation"],
+    "stem": "The reasoning in the argument is most vulnerable to criticism on which of the following grounds?",
+    "passageOrStimulus": "Researchers at a wellness company analyzed data from adults who voluntarily used the company's sleep-tracking app for at least $90$ nights. Users who reported drinking two or more cups of green tea per day slept, on average, $20$ minutes longer per night than users who reported drinking no green tea. The company concludes that drinking green tea causes longer sleep and should be marketed as a sleep aid for adults.",
+    "choices": [
+      { "key": "A", "text": "It fails to identify which brands of green tea were consumed by the app users." },
+      { "key": "B", "text": "It treats a correlation observed in a self-selected group as sufficient to establish a causal effect in a broader population." },
+      { "key": "C", "text": "It relies on an average amount of sleep rather than reporting the exact sleep duration of every user in the study." },
+      { "key": "D", "text": "It does not show that users who drank green tea enjoyed the taste of green tea." },
+      { "key": "E", "text": "It assumes that no adult who drinks green tea also drinks coffee or other caffeinated beverages." }
+    ],
+    "correctAnswer": { "format": "single", "value": "B" },
+    "distractorRationale": {
+      "A": "Brand differences might matter in some studies, but the argument's central leap is from observed association to causal recommendation.",
+      "C": "Averages can legitimately support comparative claims; the problem is not the use of an average by itself.",
+      "D": "Taste preference is irrelevant to whether green tea causes longer sleep.",
+      "E": "Other caffeinated beverages could be a confounding factor, but this choice is too extreme: the argument need not assume no such overlap at all."
+    },
+    "explanation": "The flaw is correlation-to-causation combined with an overgeneralization from a self-selected sample. The data show that app users who reported drinking green tea slept longer on average, but they do not show that green tea caused the difference or that the result applies broadly to adults outside the volunteer app-user group.",
+    "estimatedTimeSeconds": 150,
+    "tags": ["critical-reasoning", "flaw", "correlation-causation", "sampling"]
+  },
+  {
+    "id": "digital-parking-signs-paradox",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "paradox",
+    "subtopic": "information causing congestion",
+    "skillsTested": ["resolve an apparent discrepancy", "identify how an intervention can change distribution rather than total demand"],
+    "difficulty": "hard",
+    "difficultyScore": { "conceptual": 4, "steps": 5, "trap": 4, "computation": 1, "sum": 14 },
+    "difficultyDrivers": ["must preserve the facts that total spaces and total cars stayed constant", "correct answer explains redistribution and queuing", "distractors mention parking-related facts without resolving the time increase"],
+    "stem": "Which of the following, if true, best resolves the apparent discrepancy?",
+    "passageOrStimulus": "Last year, Metroville installed digital signs at downtown entrances showing how many spaces were available in each public parking garage. The total number of downtown parking spaces did not change, and the number of cars entering downtown on weekdays remained about the same. Nevertheless, transportation surveys found that the average time drivers spent looking for parking increased after the signs were installed.",
+    "choices": [
+      { "key": "A", "text": "The digital signs were most frequently checked by drivers entering downtown during the morning rush hour." },
+      { "key": "B", "text": "After the signs were installed, many drivers converged on the same garages showing a small number of open spaces, creating queues that often lasted until those spaces were gone." },
+      { "key": "C", "text": "Several private garages downtown installed brighter lighting during the same year." },
+      { "key": "D", "text": "Most drivers surveyed said the new signs were easier to read than the old static maps of downtown garages." },
+      { "key": "E", "text": "The hourly fee at one downtown garage was lower than fees at most other garages both before and after the signs were installed." }
+    ],
+    "correctAnswer": { "format": "single", "value": "B" },
+    "distractorRationale": {
+      "A": "Frequent use of the signs shows that drivers noticed them, but it does not explain why search times increased.",
+      "C": "Garage lighting is not connected to the amount of time spent looking for parking.",
+      "D": "Easier-to-read signs would more naturally predict shorter search times, not longer ones.",
+      "E": "A fee difference that existed both before and after the signs were installed does not explain the new increase in average search time."
+    },
+    "explanation": "The apparent paradox is that better information coincided with longer search times despite unchanged supply and demand. The flaw in the expectation is assuming that information necessarily distributes drivers efficiently. Choice B resolves the discrepancy by showing that the signs changed the distribution of drivers: many drivers chased the same reported openings, producing queues and wasted search time.",
+    "estimatedTimeSeconds": 150,
+    "tags": ["critical-reasoning", "paradox", "causal-explanation"]
+  },
+  {
+    "id": "warehouse-lighting-assumption",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "assumption",
+    "subtopic": "causal assumption",
+    "skillsTested": ["necessary assumption", "cause-effect reasoning"],
+    "difficulty": "easy",
+    "difficultyScore": { "conceptual": 2, "steps": 2, "trap": 1, "computation": 2, "sum": 7 },
+    "difficultyDrivers": ["Single causal assumption", "Straightforward answer choice comparison", "Minimal logical nesting"],
+    "stem": "Which of the following is an assumption on which the manager's conclusion depends?",
+    "passageOrStimulus": "A warehouse installed motion-activated lighting in February. The electricity bill for March was lower than the bill for January. The manager concludes that the new lighting reduced electricity costs.",
+    "choices": [
+      { "key": "A", "text": "The warehouse had fewer customers in March than in January." },
+      { "key": "B", "text": "The motion-activated lights were installed before the March bill was measured." },
+      { "key": "C", "text": "No other change affecting electricity use occurred between January and March." },
+      { "key": "D", "text": "The old lights were still functioning when the new lights were installed." },
+      { "key": "E", "text": "The warehouse's sales increased in March." }
+    ],
+    "correctAnswer": { "format": "single", "value": "C" },
+    "distractorRationale": {
+      "A": "Could affect electricity use, but the argument does not require a customer count.",
+      "B": "Chronology matters, but the manager already states the installation happened in February.",
+      "D": "Irrelevant to whether the bill change was caused by the new lights.",
+      "E": "Higher sales do not directly address the electricity-cost claim."
+    },
+    "explanation": "The conclusion that the new lighting reduced electricity costs assumes that no other intervening change explains the lower March bill. Without that, the bill could have fallen for some unrelated reason. That is the causal assumption gap.",
+    "estimatedTimeSeconds": 75,
+    "tags": ["assumption", "causal", "strengthen-gap"]
+  },
+  {
+    "id": "tutorial-game-strengthen",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "strengthen",
+    "subtopic": "experiment support",
+    "skillsTested": ["strengthen", "evidence evaluation"],
+    "difficulty": "medium",
+    "difficultyScore": { "conceptual": 3, "steps": 3, "trap": 2, "computation": 2, "sum": 10 },
+    "difficultyDrivers": ["Requires identifying supporting evidence versus mere background", "One answer must directly reinforce the causal claim", "Several choices are superficially plausible"],
+    "stem": "Which of the following, if true, most strengthens the developer's conclusion?",
+    "passageOrStimulus": "A game developer added a short tutorial before the first level of a mobile puzzle game. In the first month after the change, a larger percentage of new players completed level 5. The developer concludes that the tutorial improved player retention.",
+    "choices": [
+      { "key": "A", "text": "The tutorial version of the game had a slightly larger download size than the earlier version." },
+      { "key": "B", "text": "Players who saw the tutorial spent less time on level 1 than players who did not see it." },
+      { "key": "C", "text": "Players in the tutorial month had about the same prior gaming experience as players in the previous month, and the only intentional design change was the tutorial." },
+      { "key": "D", "text": "The game offered a new cosmetic prize in the month after the tutorial was added." },
+      { "key": "E", "text": "Some players skipped the tutorial after the first few days." }
+    ],
+    "correctAnswer": { "format": "single", "value": "C" },
+    "distractorRationale": {
+      "A": "Could slightly affect downloads, but not the retention claim.",
+      "B": "Shows faster early play, not necessarily better retention.",
+      "D": "Introduces a confounding change that would weaken, not strengthen.",
+      "E": "Does not show whether the tutorial itself caused higher completion."
+    },
+    "explanation": "To strengthen a causal conclusion, the best support is to rule out alternative explanations. Choice C says the player groups were comparable and that the tutorial was the only intentional change, which makes it more likely the tutorial caused the improved retention.",
+    "estimatedTimeSeconds": 90,
+    "tags": ["strengthen", "causal", "experiment"]
+  },
+  {
+    "id": "locker-theft-weaken",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "weaken",
+    "subtopic": "policy claim",
+    "skillsTested": ["weaken", "causal reasoning"],
+    "difficulty": "medium",
+    "difficultyScore": { "conceptual": 3, "steps": 3, "trap": 2, "computation": 2, "sum": 10 },
+    "difficultyDrivers": ["Needs identifying the key vulnerable causal link", "Requires separating direct from indirect effects", "Several distractors describe irrelevant details"],
+    "stem": "Which of the following, if true, most weakens the management's argument?",
+    "passageOrStimulus": "An apartment complex plans to install package lockers in the lobby. Management argues that the lockers will reduce package theft because residents will no longer leave deliveries unattended in the lobby.",
+    "choices": [
+      { "key": "A", "text": "The lockers will require residents to enter a code to retrieve their packages." },
+      { "key": "B", "text": "The complex has recently added more video cameras in the lobby." },
+      { "key": "C", "text": "Most package thefts at the complex occur after packages are removed from lockers and left outside apartment doors." },
+      { "key": "D", "text": "Residents who receive many packages tend to be home during the day." },
+      { "key": "E", "text": "The lockers are made of metal and are difficult to move." }
+    ],
+    "correctAnswer": { "format": "single", "value": "C" },
+    "distractorRationale": {
+      "A": "Supports the idea that the lockers are secure.",
+      "B": "Could reduce theft independently, but does not attack the locker argument as directly.",
+      "D": "Irrelevant to whether lockers reduce theft.",
+      "E": "Describes durability, which is not the weak point in the reasoning."
+    },
+    "explanation": "The argument assumes lockers will stop theft by removing packages from the lobby. Choice C shows that theft mainly happens later, after packages leave the lockers, so the lockers would not address the real source of the problem. That directly weakens the reasoning.",
+    "estimatedTimeSeconds": 90,
+    "tags": ["weaken", "causal", "locker-policy"]
+  },
+  {
+    "id": "annual-membership-flaw",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "flaw",
+    "subtopic": "self-selection",
+    "skillsTested": ["identify flaw", "causal correlation"],
+    "difficulty": "hard",
+    "difficultyScore": { "conceptual": 4, "steps": 4, "trap": 4, "computation": 2, "sum": 14 },
+    "difficultyDrivers": ["Requires recognizing a classic self-selection flaw", "Answer choices distinguish similar causal errors", "The conclusion overreaches from observational data"],
+    "stem": "Which of the following best describes the flaw in the marketing team's reasoning?",
+    "passageOrStimulus": "A gym surveyed people who joined in January and found that those who bought annual memberships were more likely to still be attending three months later than those who paid month to month. The gym's marketing team concludes that annual memberships cause people to be more committed to exercise.",
+    "choices": [
+      { "key": "A", "text": "It treats a short-term survey as though it proved a long-term result." },
+      { "key": "B", "text": "It assumes, without support, that people who chose annual memberships may already have been more committed to exercise than people who chose monthly memberships." },
+      { "key": "C", "text": "It ignores the fact that all gym members eventually stop exercising." },
+      { "key": "D", "text": "It relies on attendance data that could not have been measured accurately." },
+      { "key": "E", "text": "It concludes that monthly memberships are more expensive than annual memberships." }
+    ],
+    "correctAnswer": { "format": "single", "value": "B" },
+    "distractorRationale": {
+      "A": "The study is about three months later, but the flaw is not mainly about time span.",
+      "C": "Overstates the argument; the conclusion is not about all members stopping.",
+      "D": "No accuracy problem was stated; the issue is interpretation of the comparison.",
+      "E": "Pricing is irrelevant to the causal claim."
+    },
+    "explanation": "The team infers that annual memberships cause commitment, but the observed difference may simply reflect self-selection: people already more committed to exercise may be more likely to buy annual memberships. That is a correlation-versus-causation flaw.",
+    "estimatedTimeSeconds": 120,
+    "tags": ["flaw", "self-selection", "causation"]
+  },
+  {
+    "id": "writing-center-wait-time-paradox",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "paradox",
+    "subtopic": "resolve-discrepancy",
+    "skillsTested": ["paradox resolution", "causal explanation"],
+    "difficulty": "hard",
+    "difficultyScore": { "conceptual": 4, "steps": 4, "trap": 3, "computation": 4, "sum": 15 },
+    "difficultyDrivers": ["Two trends seem to point in opposite directions", "The best answer must explain both simultaneously", "Several choices explain only one half of the discrepancy"],
+    "stem": "Which of the following, if true, most helps explain the apparent discrepancy?",
+    "passageOrStimulus": "At a university, the number of students visiting the writing center increased this semester, yet the average time students spent waiting for help decreased.",
+    "choices": [
+      { "key": "A", "text": "Students this semester submitted longer drafts than students last semester." },
+      { "key": "B", "text": "The writing center began requiring students to check in at a front desk before joining a queue." },
+      { "key": "C", "text": "The writing center hired additional tutors and opened evening hours, while the increase in student visits was modest." },
+      { "key": "D", "text": "Students were told that visiting the writing center could improve grades." },
+      { "key": "E", "text": "Some students who visited the writing center also used peer tutoring." }
+    ],
+    "correctAnswer": { "format": "single", "value": "C" },
+    "distractorRationale": {
+      "A": "Would tend to increase wait time, not reduce it.",
+      "B": "Changes the queue structure, but does not explain why waits would fall despite more visitors.",
+      "D": "Could increase traffic, but not the lower waiting time.",
+      "E": "Does not address the center's own wait time."
+    },
+    "explanation": "The discrepancy is resolved if the center had more staffing and expanded hours, so it could serve more students even as visits rose. Choice C explains both trends at once. This is a classic resolution of an apparent discrepancy.",
+    "estimatedTimeSeconds": 120,
+    "tags": ["paradox", "discrepancy", "resolution"]
+  }
+]
