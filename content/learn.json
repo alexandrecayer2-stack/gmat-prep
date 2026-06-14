@@ -1,0 +1,114 @@
+[
+  {
+    "id": "learn-quant-percentages",
+    "section": "quant",
+    "topic": "percentages",
+    "title": "Percent change & reverse percents",
+    "orderIndex": 1,
+    "body": "**Rule.** A change of $p\\%$ multiplies a value by $(1 \\pm p/100)$. An increase of 20% is $\\times 1.2$; a decrease of 20% is $\\times 0.8$. Successive percent changes **multiply** — they never add.\n\n**Why it matters.** Most percent traps come from adding changes (e.g. \"+20% then −20% returns to start\"). It does not: $1.2 \\times 0.8 = 0.96$, a 4% net loss.\n\n**Example.** A price rises 10% to \\$66. The original was $66 \\div 1.1 = 60$, *not* $66 \\times 0.9$. To reverse a percent increase, divide; don't apply the percent backward."
+  },
+  {
+    "id": "learn-quant-ratios",
+    "section": "quant",
+    "topic": "ratios",
+    "title": "Working with ratios",
+    "orderIndex": 2,
+    "body": "**Rule.** A ratio $a : b$ means quantities are $ak$ and $bk$ for some multiplier $k$. Find $k$ from the given total or one known part, then scale.\n\n**Why it matters.** Ratios hide the actual count. Turning $a:b$ into $ak, bk$ converts a ratio problem into ordinary arithmetic.\n\n**Example.** Boys : girls $= 3 : 5$ with 20 girls. The 5 parts equal 20, so $k = 4$ and boys $= 3 \\times 4 = 12$. The total is $(3+5)k = 32$."
+  },
+  {
+    "id": "learn-quant-exponents",
+    "section": "quant",
+    "topic": "exponents",
+    "title": "Exponent rules",
+    "orderIndex": 3,
+    "body": "**Rule.** $a^m \\cdot a^n = a^{m+n}$, $\\;(a^m)^n = a^{mn}$, $\\;a^{-n} = 1/a^n$, $\\;a^0 = 1$.\n\n**Why it matters.** When an equation mixes bases like 2, 4, 8, 16, rewrite everything in the **same base** and equate exponents. This turns an exponential equation into a linear one.\n\n**Example.** $2^x \\cdot 4^{x+1} = 16^{x-1}$. Write $4 = 2^2,\\ 16 = 2^4$: left $= 2^{3x+2}$, right $= 2^{4x-4}$. So $3x+2 = 4x-4 \\Rightarrow x = 6$."
+  },
+  {
+    "id": "learn-quant-rates",
+    "section": "quant",
+    "topic": "rates",
+    "title": "Rates, distance & average speed",
+    "orderIndex": 4,
+    "body": "**Rule.** Distance $=$ rate $\\times$ time. **Average speed** $=$ total distance $\\div$ total time — never the average of the speeds.\n\n**Why it matters.** Equal-distance trips at two speeds tempt you to average the speeds; that is wrong unless the *times* are equal.\n\n**Example.** 120 mi at 40 mph (3 h) then 120 mi at 60 mph (2 h): 240 mi in 5 h $= 48$ mph, not 50."
+  },
+  {
+    "id": "learn-quant-work",
+    "section": "quant",
+    "topic": "work",
+    "title": "Work-rate problems",
+    "orderIndex": 5,
+    "body": "**Rule.** Convert each worker to a **rate** (job per unit time) and **add** rates that work together; subtract a drain. If A finishes in $a$ hours, A's rate is $1/a$ per hour.\n\n**Why it matters.** Times do not add, but rates do. Adding times is the most common mistake.\n\n**Example.** Fill rates $1/6 + 1/4$ minus drain $1/12 = \\tfrac{2+3-1}{12} = \\tfrac{1}{3}$ tank/hour, so the tank fills in 3 hours."
+  },
+  {
+    "id": "learn-quant-number-properties",
+    "section": "quant",
+    "topic": "number properties",
+    "title": "Number properties essentials",
+    "orderIndex": 6,
+    "body": "**Rule.** Use **prime factorization**. A perfect square has every prime exponent **even**. Divisibility, GCD, and LCM all fall out of the prime factors.\n\n**Why it matters.** \"Must be\" divisibility questions are really questions about minimum prime exponents.\n\n**Example.** If $n^2$ is divisible by $72 = 2^3 \\cdot 3^2$, then $n^2$ must contain $2^4$ (exponents are even), so $n$ contains $2^2 \\cdot 3 = 12$. Thus 12 must divide $n$."
+  },
+  {
+    "id": "learn-quant-averages",
+    "section": "quant",
+    "topic": "averages",
+    "title": "Averages & weighted averages",
+    "orderIndex": 7,
+    "body": "**Rule.** Average $=$ sum $\\div$ count, so **sum $=$ average $\\times$ count**. For groups of different sizes, weight each average by its count.\n\n**Why it matters.** Recovering the *sum* is the key move in most mean problems, and weighting prevents the \"just average the averages\" error.\n\n**Example.** A class of 10 averages 70 and a class of 30 averages 90. Overall $= \\dfrac{10\\cdot 70 + 30\\cdot 90}{40} = \\dfrac{3400}{40} = 85$ — closer to 90 because that group is larger."
+  },
+  {
+    "id": "learn-quant-probability",
+    "section": "quant",
+    "topic": "probability",
+    "title": "Counting & probability basics",
+    "orderIndex": 8,
+    "body": "**Rule.** Combinations $\\binom{n}{k} = \\dfrac{n!}{k!(n-k)!}$ count unordered selections. Probability $=$ favorable $\\div$ total. For \"**at least one**,\" use the complement: $P(\\text{at least one}) = 1 - P(\\text{none})$.\n\n**Why it matters.** The complement turns messy casework into one quick subtraction.\n\n**Example.** Choose 3 from 4 men + 3 women. $P(\\text{no women}) = \\binom{4}{3}/\\binom{7}{3} = 4/35$, so $P(\\ge 1\\text{ woman}) = 1 - 4/35 = 31/35$."
+  },
+  {
+    "id": "learn-verbal-weaken-strengthen",
+    "section": "verbal",
+    "topic": "weaken",
+    "title": "Critical Reasoning: weaken & strengthen",
+    "orderIndex": 9,
+    "body": "**Rule.** First isolate the **conclusion** and the **evidence**, then attack or defend the *gap* between them. To **weaken** a causal claim, supply an **alternative cause** or break the link; to **strengthen**, rule alternatives out.\n\n**Why it matters.** Wrong answers are usually true statements that don't touch the gap. Right answers change how well the evidence supports the conclusion.\n\n**Example.** \"Bike-share launched, congestion fell, so bikes caused it.\" A new subway line opening at the same time *weakens* it (another cause); evidence that no other change occurred *strengthens* it."
+  },
+  {
+    "id": "learn-verbal-assumption",
+    "section": "verbal",
+    "topic": "assumption",
+    "title": "Critical Reasoning: the negation test",
+    "orderIndex": 10,
+    "body": "**Rule.** A necessary assumption is something the argument **needs** to be true. Test a choice by **negating** it: if the negation destroys the argument, it is the assumption.\n\n**Why it matters.** The negation test cleanly separates required assumptions from merely helpful or out-of-scope statements.\n\n**Example.** \"Lowering lead in water will cut lead poisoning.\" Assumption: residents get meaningful lead exposure *from water*. Negate it — they get none from water — and the conclusion collapses, confirming it was assumed."
+  },
+  {
+    "id": "learn-verbal-rc",
+    "section": "verbal",
+    "topic": "reading comprehension",
+    "title": "RC: read for structure, not detail",
+    "orderIndex": 11,
+    "body": "**Rule.** On the first read, map the **structure**: main point, the author's opinion, and the role each paragraph plays. Don't memorize details — you can return for them.\n\n**Why it matters.** Main-idea and function questions reward a structural read; detail questions are open-book, so locate and verify rather than recall.\n\n**Example.** A passage that states a classic model, then spends three paragraphs on a scholar who *qualified* it, has the purpose \"describe research that complicated an accepted view\" — recognizable from structure alone."
+  },
+  {
+    "id": "learn-di-data-sufficiency",
+    "section": "data_insights",
+    "topic": "data sufficiency",
+    "title": "The Data Sufficiency framework (AD / BCE)",
+    "orderIndex": 12,
+    "body": "**Rule.** Decide *whether* you can answer, not the answer itself. Test statement (1) alone: if sufficient, the answer is **A or D**; if not, **B, C, or E**. Then test (2) alone, and only combine them if neither alone works.\n\n**Why it matters.** The AD/BCE split prevents the cardinal DS sin — letting one statement's information leak into your judgment of the other.\n\n**Example.** \"Is $x>0$? (1) $x^2>0$ (2) $x^3>0$.\" (1) allows negatives → not sufficient (eliminate A, D). (2) forces $x>0$ → sufficient → answer **B**."
+  },
+  {
+    "id": "learn-di-table-graphics",
+    "section": "data_insights",
+    "topic": "table analysis",
+    "title": "Reading tables & graphs under time pressure",
+    "orderIndex": 13,
+    "body": "**Rule.** Read the question **before** the data, then sort or scan only for what's asked. Watch units, axis scales, and totals-vs-rates. Each statement in Table Analysis is independent — judge it on its own.\n\n**Why it matters.** These items reward targeted lookups, not full comprehension. Sorting by the relevant column answers most \"highest/lowest/how many\" prompts instantly.\n\n**Example.** \"Does the highest total also have the highest per-capita value?\" Sort by total, note the top row, then check its per-capita rank — often they differ, making the statement false."
+  },
+  {
+    "id": "learn-di-twopart-msr",
+    "section": "data_insights",
+    "topic": "two-part analysis",
+    "title": "Two-Part & Multi-Source approach",
+    "orderIndex": 14,
+    "body": "**Rule.** In **Two-Part Analysis**, the two columns are usually linked by one relationship; solve each column's condition separately against the shared answer list. In **Multi-Source Reasoning**, the answer often lives at the **intersection** of two tabs — check every condition against *all* sources.\n\n**Why it matters.** Both formats punish using only one source or one column's logic. Cross-checking is the whole game.\n\n**Example.** Revenue $R = 3u + 12$. \"Units when $R=48$\" gives $u=12$; \"Revenue when $u=20$\" gives $R=72$ — two independent reads of one equation, one per column."
+  }
+]

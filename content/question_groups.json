@@ -1,0 +1,23 @@
+[
+  {
+    "id": "rc-passage-commons",
+    "section": "verbal",
+    "title": "Governing the Commons",
+    "passage": "For decades, economists invoked the \"tragedy of the commons\" to argue that resources held in common—fisheries, grazing lands, irrigation systems—were destined for overexploitation. The logic seemed unassailable: because each user captures the full benefit of taking one more unit while bearing only a fraction of the cost, rational individuals will deplete a shared resource even as they recognize the collective harm. The standard remedies followed directly: either privatize the resource or place it under centralized state control.\n\nBeginning in the 1970s, however, the political economist Elinor Ostrom challenged this consensus. Drawing on field studies of communities that had managed forests, fisheries, and water systems sustainably for generations, she documented arrangements that were neither private nor state-run. Swiss villagers governing alpine pastures and Japanese communities managing common woodlands had devised their own rules, monitored one another's behavior, and imposed graduated sanctions for violations—penalties that began mildly and stiffened only for repeat offenders.\n\nOstrom did not claim that communities always succeed; many do collapse. Rather, she identified design principles common to the durable cases. Successful groups defined clear boundaries around both the resource and who could use it, matched their rules to local conditions, and ensured that those affected by the rules could participate in revising them. Crucially, low-cost mechanisms for resolving disputes allowed conflicts to be settled before they corroded cooperation.\n\nHer work did not so much refute the original model as bound it. The tragedy of the commons describes what happens in the absence of institutions; it is not a law of nature but a description of one particular institutional vacuum."
+  },
+  {
+    "id": "msr-shipping",
+    "section": "data_insights",
+    "title": "Warehouse Shipping",
+    "sources": [
+      {
+        "title": "Operations Email",
+        "content": "**From:** Operations Manager\n\nOur warehouse can ship a maximum of **500 packages per day**. Standard packages cost **\\$4 each** to ship; express packages cost **\\$9 each**. Express shipping is only available for orders placed **before noon**."
+      },
+      {
+        "title": "Customer Policy",
+        "content": "Customers who spend **over \\$200** receive free **standard** shipping. **Express** shipping is never free. Returns must be initiated within **30 days** of delivery."
+      }
+    ]
+  }
+]

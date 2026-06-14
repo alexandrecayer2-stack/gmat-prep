@@ -1,0 +1,164 @@
+[
+  {
+    "id": "quant-easy-percent-1",
+    "section": "quant",
+    "type": "problem_solving",
+    "difficulty": "easy",
+    "topic": "percentages",
+    "stem": "A shirt originally priced at \\$40 is discounted by 25%. What is the sale price?",
+    "choices": [
+      { "key": "A", "text": "$10" },
+      { "key": "B", "text": "$25" },
+      { "key": "C", "text": "$30" },
+      { "key": "D", "text": "$32" },
+      { "key": "E", "text": "$35" }
+    ],
+    "correctAnswer": { "format": "single", "value": "C" },
+    "explanation": "A 25% discount removes 25% of \\$40, which is \\$10, so the sale price is \\$40 − \\$10 = **\\$30**. Shortcut: you pay 100% − 25% = 75% of the price, and 0.75 × 40 = 30.",
+    "estimatedTimeSeconds": 60
+  },
+  {
+    "id": "quant-easy-average-1",
+    "section": "quant",
+    "type": "problem_solving",
+    "difficulty": "easy",
+    "topic": "averages",
+    "stem": "The average (arithmetic mean) of 5 numbers is 12. What is the sum of the 5 numbers?",
+    "choices": [
+      { "key": "A", "text": "17" },
+      { "key": "B", "text": "24" },
+      { "key": "C", "text": "50" },
+      { "key": "D", "text": "60" },
+      { "key": "E", "text": "72" }
+    ],
+    "correctAnswer": { "format": "single", "value": "D" },
+    "explanation": "Sum = average × count = 12 × 5 = **60**. The mean times the number of terms always recovers the total.",
+    "estimatedTimeSeconds": 45
+  },
+  {
+    "id": "quant-easy-ratio-1",
+    "section": "quant",
+    "type": "problem_solving",
+    "difficulty": "easy",
+    "topic": "ratios",
+    "stem": "In a class the ratio of boys to girls is 3 : 5. If there are 20 girls, how many boys are there?",
+    "choices": [
+      { "key": "A", "text": "8" },
+      { "key": "B", "text": "12" },
+      { "key": "C", "text": "15" },
+      { "key": "D", "text": "20" },
+      { "key": "E", "text": "32" }
+    ],
+    "correctAnswer": { "format": "single", "value": "B" },
+    "explanation": "The 5 parts representing girls equal 20, so each part is 20 ÷ 5 = 4. Boys are 3 parts: 3 × 4 = **12**.",
+    "estimatedTimeSeconds": 60
+  },
+  {
+    "id": "quant-medium-numprop-1",
+    "section": "quant",
+    "type": "problem_solving",
+    "difficulty": "medium",
+    "topic": "number properties",
+    "stem": "If $n$ is a positive integer and $n^2$ is divisible by 72, what is the largest positive integer that must be a divisor of $n$ ?",
+    "choices": [
+      { "key": "A", "text": "6" },
+      { "key": "B", "text": "12" },
+      { "key": "C", "text": "24" },
+      { "key": "D", "text": "36" },
+      { "key": "E", "text": "72" }
+    ],
+    "correctAnswer": { "format": "single", "value": "B" },
+    "explanation": "Factor 72 = $2^3 \\cdot 3^2$. In a perfect square every prime exponent is even, so for $n^2$ to contain $2^3$ it must actually contain $2^4$, meaning $n$ contains $2^2$. For the $3^2$, $n$ must contain $3^1$. Therefore $n$ must be divisible by $2^2 \\cdot 3 = 12$. The smallest case $n = 12$ gives $n^2 = 144 = 72 \\cdot 2$, confirming **12**.",
+    "estimatedTimeSeconds": 150
+  },
+  {
+    "id": "quant-medium-rate-1",
+    "section": "quant",
+    "type": "problem_solving",
+    "difficulty": "medium",
+    "topic": "rates",
+    "stem": "A car travels 120 miles at 40 miles per hour and then another 120 miles at 60 miles per hour. What is the car's average speed for the entire 240-mile trip?",
+    "choices": [
+      { "key": "A", "text": "45 mph" },
+      { "key": "B", "text": "48 mph" },
+      { "key": "C", "text": "50 mph" },
+      { "key": "D", "text": "52 mph" },
+      { "key": "E", "text": "55 mph" }
+    ],
+    "correctAnswer": { "format": "single", "value": "B" },
+    "explanation": "Average speed = total distance ÷ total time, **not** the average of the two speeds. First leg: 120 ÷ 40 = 3 h. Second leg: 120 ÷ 60 = 2 h. Total: 240 miles in 5 h = **48 mph**. The tempting answer 50 (the simple average) is the classic trap.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "quant-medium-word-1",
+    "section": "quant",
+    "type": "problem_solving",
+    "difficulty": "medium",
+    "topic": "word problems",
+    "stem": "A jar contains only nickels (5 cents) and dimes (10 cents) worth \\$2.50 in total. If there are 32 coins in the jar, how many of them are dimes?",
+    "choices": [
+      { "key": "A", "text": "8" },
+      { "key": "B", "text": "14" },
+      { "key": "C", "text": "18" },
+      { "key": "D", "text": "20" },
+      { "key": "E", "text": "22" }
+    ],
+    "correctAnswer": { "format": "single", "value": "C" },
+    "explanation": "Let $n$ = nickels and $d$ = dimes. Then $n + d = 32$ and $5n + 10d = 250$. Divide the second equation by 5: $n + 2d = 50$. Subtract the first: $d = 18$ (and $n = 14$). Check: 14 × 5 + 18 × 10 = 70 + 180 = 250 cents = \\$2.50. **18 dimes**.",
+    "estimatedTimeSeconds": 135
+  },
+  {
+    "id": "quant-hard-prob-1",
+    "section": "quant",
+    "type": "problem_solving",
+    "difficulty": "hard",
+    "topic": "probability",
+    "stem": "A committee of 3 people is to be chosen at random from a group of 4 men and 3 women. What is the probability that the committee includes at least one woman?",
+    "choices": [
+      { "key": "A", "text": "4/35" },
+      { "key": "B", "text": "18/35" },
+      { "key": "C", "text": "22/35" },
+      { "key": "D", "text": "31/35" },
+      { "key": "E", "text": "34/35" }
+    ],
+    "correctAnswer": { "format": "single", "value": "D" },
+    "explanation": "Use the complement. Total committees: $\\binom{7}{3} = 35$. Committees with no women (all 3 from the 4 men): $\\binom{4}{3} = 4$. So P(no women) = 4/35, and P(at least one woman) = $1 - \\frac{4}{35} = \\frac{31}{35}$.",
+    "estimatedTimeSeconds": 150
+  },
+  {
+    "id": "quant-hard-work-1",
+    "section": "quant",
+    "type": "problem_solving",
+    "difficulty": "hard",
+    "topic": "work",
+    "stem": "Pipe A can fill a tank in 6 hours and pipe B can fill the same tank in 4 hours. A drain pipe C can empty the full tank in 12 hours. If all three are open at the same time, how many hours will it take to fill the empty tank?",
+    "choices": [
+      { "key": "A", "text": "2" },
+      { "key": "B", "text": "2.4" },
+      { "key": "C", "text": "3" },
+      { "key": "D", "text": "3.5" },
+      { "key": "E", "text": "4" }
+    ],
+    "correctAnswer": { "format": "single", "value": "C" },
+    "explanation": "Add rates (drain is negative): $\\frac{1}{6} + \\frac{1}{4} - \\frac{1}{12}$. Using a common denominator of 12: $\\frac{2}{12} + \\frac{3}{12} - \\frac{1}{12} = \\frac{4}{12} = \\frac{1}{3}$ of the tank per hour. Time = 1 ÷ (1/3) = **3 hours**.",
+    "estimatedTimeSeconds": 150
+  },
+  {
+    "id": "quant-hard-exponent-1",
+    "section": "quant",
+    "type": "problem_solving",
+    "difficulty": "hard",
+    "topic": "exponents",
+    "stem": "If $2^x \\cdot 4^{x+1} = 16^{x-1}$, what is the value of $x$ ?",
+    "choices": [
+      { "key": "A", "text": "2" },
+      { "key": "B", "text": "4" },
+      { "key": "C", "text": "5" },
+      { "key": "D", "text": "6" },
+      { "key": "E", "text": "8" }
+    ],
+    "correctAnswer": { "format": "single", "value": "D" },
+    "explanation": "Rewrite everything in base 2: $4 = 2^2$ and $16 = 2^4$. The left side becomes $2^x \\cdot 2^{2(x+1)} = 2^{x + 2x + 2} = 2^{3x+2}$. The right side becomes $2^{4(x-1)} = 2^{4x-4}$. Equate exponents: $3x + 2 = 4x - 4$, so $x = 6$.",
+    "estimatedTimeSeconds": 150
+  }
+]

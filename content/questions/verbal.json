@@ -1,0 +1,138 @@
+[
+  {
+    "id": "verbal-medium-weaken-1",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "difficulty": "medium",
+    "topic": "weaken",
+    "passageOrStimulus": "City A introduced a bike-share program last year. Since then, traffic congestion in the downtown core has decreased by 15%. City officials conclude that the bike-share program caused the reduction in congestion.",
+    "stem": "Which of the following, if true, most seriously weakens the officials' conclusion?",
+    "choices": [
+      { "key": "A", "text": "The bike-share program has proven especially popular with tourists visiting the city." },
+      { "key": "B", "text": "During the same period, the city opened a new subway line serving the downtown core." },
+      { "key": "C", "text": "Bike-share programs have reduced congestion in several comparable cities." },
+      { "key": "D", "text": "The number of cars registered in City A rose slightly over the past year." },
+      { "key": "E", "text": "The bike-share program cost more to operate than the city had projected." }
+    ],
+    "correctAnswer": { "format": "single", "value": "B" },
+    "explanation": "The conclusion is causal: the bike-share program reduced congestion. The best way to weaken a causal claim is to supply an **alternative cause** for the same effect. (B) introduces a new subway line opening in the same area during the same period, which could account for the drop in congestion instead of the bikes. (C) strengthens; (A) and (E) are irrelevant to what caused the decrease; (D) doesn't explain the decrease.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "verbal-medium-strengthen-1",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "difficulty": "medium",
+    "topic": "strengthen",
+    "passageOrStimulus": "A company observed that employees who take a 10-minute walk each afternoon report higher productivity than those who do not. Management concludes that requiring all employees to take a daily afternoon walk will raise the company's overall productivity.",
+    "stem": "Which of the following, if true, most strengthens the conclusion?",
+    "choices": [
+      { "key": "A", "text": "Employees who currently walk also tend to exercise regularly outside of work." },
+      { "key": "B", "text": "Productivity is notoriously difficult to measure with precision." },
+      { "key": "C", "text": "At a similar company, productivity rose measurably after afternoon walks were made mandatory." },
+      { "key": "D", "text": "Some employees would prefer to take their walk in the morning instead." },
+      { "key": "E", "text": "The 10-minute walks slightly reduce the total time employees spend at their desks." }
+    ],
+    "correctAnswer": { "format": "single", "value": "C" },
+    "explanation": "The argument moves from a correlation (walkers are more productive) to a prediction about a mandate. (C) provides direct evidence that the very intervention proposed—*requiring* walks—actually raised productivity elsewhere, supporting the causal leap. (A) weakens it by suggesting a confound (the walkers differ in other ways); (B) and (E) cut against the conclusion; (D) is irrelevant.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "verbal-hard-assumption-1",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "difficulty": "hard",
+    "topic": "assumption",
+    "passageOrStimulus": "A new additive will reduce the concentration of lead in our town's drinking water to levels well within the safety standard. Therefore, introducing the additive will reduce the incidence of lead poisoning among the town's residents.",
+    "stem": "The argument depends on which of the following assumptions?",
+    "choices": [
+      { "key": "A", "text": "Lead poisoning is the most common illness among the town's residents." },
+      { "key": "B", "text": "A meaningful share of residents' lead exposure comes from drinking water." },
+      { "key": "C", "text": "The additive has no harmful side effects of its own." },
+      { "key": "D", "text": "The town can afford to purchase the additive for the foreseeable future." },
+      { "key": "E", "text": "Other towns have already adopted the additive with success." }
+    ],
+    "correctAnswer": { "format": "single", "value": "B" },
+    "explanation": "Apply the **negation test**. If essentially *none* of residents' lead exposure came from drinking water (say it all came from old paint), then cutting the water's lead level would not reduce lead poisoning—and the conclusion collapses. So (B) is required. (A), (D), and (E) are not needed for the conclusion; (C) concerns a different harm, not whether lead poisoning specifically declines.",
+    "estimatedTimeSeconds": 135
+  },
+  {
+    "id": "verbal-easy-inference-1",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "difficulty": "easy",
+    "topic": "inference",
+    "passageOrStimulus": "Every plant in the greenhouse requires direct sunlight in order to bloom. The ferns located in the greenhouse receive no direct sunlight at all.",
+    "stem": "If the statements above are true, which of the following must also be true?",
+    "choices": [
+      { "key": "A", "text": "The ferns are the only plants in the greenhouse that fail to bloom." },
+      { "key": "B", "text": "The ferns in the greenhouse will not bloom." },
+      { "key": "C", "text": "Every other plant in the greenhouse will bloom." },
+      { "key": "D", "text": "The ferns would bloom if they were moved outdoors." },
+      { "key": "E", "text": "Direct sunlight alone is enough to make any plant bloom." }
+    ],
+    "correctAnswer": { "format": "single", "value": "B" },
+    "explanation": "Direct sunlight is **necessary** for any greenhouse plant to bloom. The ferns are greenhouse plants that get no direct sunlight, so the necessary condition is unmet and they cannot bloom—(B) must be true. (E) confuses necessary with sufficient; (A) and (C) make claims about other plants we can't support; (D) assumes sunlight is the only requirement.",
+    "estimatedTimeSeconds": 90
+  },
+  {
+    "id": "verbal-medium-rc-mainidea-1",
+    "section": "verbal",
+    "type": "reading_comprehension",
+    "difficulty": "medium",
+    "topic": "main idea",
+    "groupId": "rc-passage-commons",
+    "orderIndex": 1,
+    "stem": "The primary purpose of the passage is to",
+    "choices": [
+      { "key": "A", "text": "argue that common resources should, in nearly all cases, be privatized" },
+      { "key": "B", "text": "describe how one scholar's research complicated a widely accepted economic model" },
+      { "key": "C", "text": "explain the mathematical foundations of the tragedy of the commons" },
+      { "key": "D", "text": "compare resource management practices in Switzerland and Japan" },
+      { "key": "E", "text": "propose a specific new set of rules for governing fisheries" }
+    ],
+    "correctAnswer": { "format": "single", "value": "B" },
+    "explanation": "The passage lays out the standard tragedy-of-the-commons view, then devotes most of its length to how Ostrom's fieldwork qualified that view. That is exactly (B). (A) and (D) seize on details (privatization, the two countries) rather than the whole; (C) is never developed; (E) overstates—Ostrom identified principles, she did not propose fishery rules.",
+    "estimatedTimeSeconds": 90
+  },
+  {
+    "id": "verbal-easy-rc-detail-1",
+    "section": "verbal",
+    "type": "reading_comprehension",
+    "difficulty": "easy",
+    "topic": "detail",
+    "groupId": "rc-passage-commons",
+    "orderIndex": 2,
+    "stem": "According to the passage, the \"graduated sanctions\" used by the communities Ostrom studied are best described as",
+    "choices": [
+      { "key": "A", "text": "penalties that can be imposed only by a central authority" },
+      { "key": "B", "text": "rewards given to users who conserve the resource" },
+      { "key": "C", "text": "penalties that begin mildly and become more severe for repeat offenders" },
+      { "key": "D", "text": "fees charged for the right to access the shared resource" },
+      { "key": "E", "text": "rules that define which individuals are permitted to use a resource" }
+    ],
+    "correctAnswer": { "format": "single", "value": "C" },
+    "explanation": "The second paragraph defines graduated sanctions as \"penalties that began mildly and stiffened only for repeat offenders\"—precisely (C). (A) contradicts the point that these systems were neither private nor state-run; (B) reverses penalty into reward; (D) and (E) describe other features mentioned in the passage, not graduated sanctions.",
+    "estimatedTimeSeconds": 75
+  },
+  {
+    "id": "verbal-hard-rc-function-1",
+    "section": "verbal",
+    "type": "reading_comprehension",
+    "difficulty": "hard",
+    "topic": "function",
+    "groupId": "rc-passage-commons",
+    "orderIndex": 3,
+    "stem": "The author includes the final paragraph most likely in order to",
+    "choices": [
+      { "key": "A", "text": "concede that Ostrom's research ultimately proved inconclusive" },
+      { "key": "B", "text": "clarify the precise relationship between Ostrom's findings and the original model" },
+      { "key": "C", "text": "introduce a new objection to community-based resource management" },
+      { "key": "D", "text": "argue that formal institutions are unnecessary for managing shared resources" },
+      { "key": "E", "text": "forecast how common resources will be governed in the future" }
+    ],
+    "correctAnswer": { "format": "single", "value": "B" },
+    "explanation": "The closing paragraph states that Ostrom's work \"did not so much refute the original model as bound it\"—it specifies *when* the tragedy applies (an institutional vacuum). That is a clarification of how her findings relate to the model, i.e., (B). (A) misreads \"many do collapse\"; (C) introduces no new objection; (D) is the opposite of the passage's emphasis on institutions; (E) makes no prediction.",
+    "estimatedTimeSeconds": 105
+  }
+]

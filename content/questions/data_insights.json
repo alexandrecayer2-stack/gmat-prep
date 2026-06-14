@@ -1,0 +1,186 @@
+[
+  {
+    "id": "di-medium-ds-1",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "difficulty": "medium",
+    "topic": "data sufficiency",
+    "stem": "Is $x > 0$ ?\n\n(1) $x^2 > 0$\n\n(2) $x^3 > 0$",
+    "correctAnswer": { "format": "single", "value": "B" },
+    "explanation": "**Statement (1):** $x^2 > 0$ only tells you that $x \\neq 0$; $x$ could be positive or negative. Not sufficient.\n\n**Statement (2):** An odd power preserves sign, so $x^3 > 0$ forces $x > 0$. Sufficient.\n\nSince (2) alone works and (1) alone does not, the answer is **B**.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "di-hard-ds-1",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "difficulty": "hard",
+    "topic": "data sufficiency",
+    "stem": "If $x$ and $y$ are positive integers, what is the value of $x + y$ ?\n\n(1) $xy = 12$\n\n(2) $x$ and $y$ are both even, and $x < y$",
+    "correctAnswer": { "format": "single", "value": "C" },
+    "explanation": "**Statement (1):** $xy = 12$ allows $(1,12), (2,6), (3,4)$, etc., giving different sums. Not sufficient.\n\n**Statement (2):** Infinitely many even pairs with $x < y$. Not sufficient.\n\n**Together:** Among the factor pairs of 12, only $(2,6)$ has *both* numbers even, and $x < y$ fixes $x = 2, y = 6$. So $x + y = 8$. Sufficient together but neither alone — the answer is **C**.",
+    "estimatedTimeSeconds": 165
+  },
+  {
+    "id": "di-medium-graphics-1",
+    "section": "data_insights",
+    "type": "graphics_interpretation",
+    "difficulty": "medium",
+    "topic": "graphics interpretation",
+    "stem": "The scatterplot shows the number of hours eight students spent studying and the score each earned on a test. Use the drop-down menus to complete the statements so that they are consistent with the data.",
+    "assets": {
+      "chart": {
+        "type": "scatter",
+        "title": "Hours studied vs. test score",
+        "xKey": "hours",
+        "xLabel": "Hours studied",
+        "yLabel": "Test score",
+        "series": [{ "key": "score", "label": "Test score" }],
+        "data": [
+          { "hours": 1, "score": 52 },
+          { "hours": 2, "score": 58 },
+          { "hours": 3, "score": 62 },
+          { "hours": 4, "score": 70 },
+          { "hours": 5, "score": 75 },
+          { "hours": 6, "score": 80 },
+          { "hours": 7, "score": 86 },
+          { "hours": 8, "score": 92 }
+        ]
+      },
+      "dropdowns": [
+        {
+          "key": "b1",
+          "before": "The relationship between hours studied and test score is best described as",
+          "after": ".",
+          "options": [
+            { "value": "positive" },
+            { "value": "negative" },
+            { "value": "no correlation" }
+          ]
+        },
+        {
+          "key": "b2",
+          "before": "A student who studied for 5 hours scored approximately",
+          "after": "points.",
+          "options": [
+            { "value": "55" },
+            { "value": "65" },
+            { "value": "75" },
+            { "value": "85" }
+          ]
+        }
+      ]
+    },
+    "correctAnswer": { "format": "dropdowns", "value": { "b1": "positive", "b2": "75" } },
+    "explanation": "As hours studied increase, scores rise steadily, so the association is **positive**. Reading the point at 5 hours on the horizontal axis, the corresponding score is **75**.",
+    "estimatedTimeSeconds": 150
+  },
+  {
+    "id": "di-medium-table-1",
+    "section": "data_insights",
+    "type": "table_analysis",
+    "difficulty": "medium",
+    "topic": "table analysis",
+    "stem": "The table lists five countries with their total GDP, population, and GDP per capita. You may sort the table to help you. For each statement, select True if it can be determined to be true from the data, and False otherwise.",
+    "assets": {
+      "table": {
+        "sortable": true,
+        "caption": "Selected economic indicators",
+        "columns": [
+          { "key": "country", "label": "Country" },
+          { "key": "gdp", "label": "GDP ($B)", "numeric": true },
+          { "key": "population", "label": "Population (M)", "numeric": true },
+          { "key": "perCapita", "label": "GDP per capita ($)", "numeric": true }
+        ],
+        "rows": [
+          { "country": "Aravia", "gdp": 800, "population": 40, "perCapita": 20000 },
+          { "country": "Borland", "gdp": 1200, "population": 30, "perCapita": 40000 },
+          { "country": "Cestia", "gdp": 500, "population": 50, "perCapita": 10000 },
+          { "country": "Dovia", "gdp": 1500, "population": 60, "perCapita": 25000 },
+          { "country": "Eshan", "gdp": 300, "population": 12, "perCapita": 25000 }
+        ]
+      },
+      "dichotomous": { "labels": ["True", "False"] }
+    },
+    "choices": [
+      { "key": "s1", "text": "The country with the highest total GDP also has the highest GDP per capita." },
+      { "key": "s2", "text": "More than half of the countries listed have a GDP per capita of at least $20,000." },
+      { "key": "s3", "text": "The country with the smallest population has the highest GDP per capita." }
+    ],
+    "correctAnswer": {
+      "format": "dichotomous",
+      "value": { "s1": "False", "s2": "True", "s3": "False" }
+    },
+    "explanation": "**s1 — False.** The highest total GDP is Dovia (\\$1,500B), but the highest GDP per capita is Borland (\\$40,000); Dovia's is only \\$25,000.\n\n**s2 — True.** Four of the five countries (Aravia, Borland, Dovia, Eshan) have per-capita GDP of at least \\$20,000 — that is more than half.\n\n**s3 — False.** The smallest population is Eshan (12M), whose per-capita GDP (\\$25,000) is not the highest; Borland's \\$40,000 is.",
+    "estimatedTimeSeconds": 180
+  },
+  {
+    "id": "di-hard-twopart-1",
+    "section": "data_insights",
+    "type": "two_part_analysis",
+    "difficulty": "hard",
+    "topic": "two-part analysis",
+    "stem": "A company's revenue $R$ (in thousands of dollars) is related to the number of units sold $u$ by the equation $R = 3u + 12$. In the table, select the number of **Units** that corresponds to a revenue of \\$48 thousand, and the **Revenue** produced when 20 units are sold. Make exactly one selection in each column.",
+    "assets": {
+      "twoPart": {
+        "columns": [
+          { "key": "partA", "label": "Units (when R = 48)" },
+          { "key": "partB", "label": "Revenue (when u = 20)" }
+        ]
+      }
+    },
+    "choices": [
+      { "key": "r1", "text": "8" },
+      { "key": "r2", "text": "12" },
+      { "key": "r3", "text": "16" },
+      { "key": "r4", "text": "24" },
+      { "key": "r5", "text": "60" },
+      { "key": "r6", "text": "72" }
+    ],
+    "correctAnswer": { "format": "two_part", "value": { "partA": "r2", "partB": "r6" } },
+    "explanation": "**Units when R = 48:** solve $3u + 12 = 48 \\Rightarrow 3u = 36 \\Rightarrow u = 12$ → choose **12**.\n\n**Revenue when u = 20:** $R = 3(20) + 12 = 72$ → choose **72**.",
+    "estimatedTimeSeconds": 165
+  },
+  {
+    "id": "di-medium-msr-1",
+    "section": "data_insights",
+    "type": "multi_source_reasoning",
+    "difficulty": "medium",
+    "topic": "multi-source reasoning",
+    "groupId": "msr-shipping",
+    "orderIndex": 1,
+    "stem": "Based on the two sources, which of the following orders would qualify for free shipping?",
+    "choices": [
+      { "key": "A", "text": "A $250 order shipped by express" },
+      { "key": "B", "text": "A $180 order shipped by standard" },
+      { "key": "C", "text": "A $220 order shipped by standard" },
+      { "key": "D", "text": "A $300 order shipped by express" },
+      { "key": "E", "text": "A $150 order shipped by standard, placed before noon" }
+    ],
+    "correctAnswer": { "format": "single", "value": "C" },
+    "explanation": "Free shipping requires (i) spending **over \\$200** and (ii) **standard** shipping, since express is never free. Only (C) — a \\$220 standard order — meets both. (A) and (D) are express; (B) and (E) are \\$200 or less.",
+    "estimatedTimeSeconds": 150
+  },
+  {
+    "id": "di-hard-msr-2",
+    "section": "data_insights",
+    "type": "multi_source_reasoning",
+    "difficulty": "hard",
+    "topic": "multi-source reasoning",
+    "groupId": "msr-shipping",
+    "orderIndex": 2,
+    "stem": "Based on the two sources, select Yes for each statement that must be true and No for each that need not be true.",
+    "assets": { "dichotomous": { "labels": ["Yes", "No"] } },
+    "choices": [
+      { "key": "s1", "text": "An order placed at 2 p.m. can be shipped by express." },
+      { "key": "s2", "text": "Shipping 500 standard packages in a single day would cost $2,000 and is within the daily limit." },
+      { "key": "s3", "text": "A customer may initiate a return 45 days after delivery." }
+    ],
+    "correctAnswer": {
+      "format": "dichotomous",
+      "value": { "s1": "No", "s2": "Yes", "s3": "No" }
+    },
+    "explanation": "**s1 — No.** Express is available only for orders placed before noon; 2 p.m. is too late.\n\n**s2 — Yes.** 500 × \\$4 = \\$2,000, and 500 packages equals the stated daily maximum, so it is within the limit.\n\n**s3 — No.** Returns must be initiated within 30 days of delivery, so 45 days is too late.",
+    "estimatedTimeSeconds": 180
+  }
+]
