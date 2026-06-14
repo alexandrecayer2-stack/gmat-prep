@@ -1,65 +1,66 @@
-import Image from "next/image";
+import Link from 'next/link';
+import { ArrowRight } from 'lucide-react';
+import {
+  QUESTION_TYPE_LABELS,
+  SECTIONS,
+  SECTION_LABELS,
+  SECTION_TYPES,
+} from '@/lib/domain/constants';
+import { DashboardStats } from '@/components/dashboard-stats';
 
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
+    <div className="mx-auto max-w-5xl space-y-10 px-4 py-8">
+      <section className="rounded-2xl border border-border bg-gradient-to-br from-accent/60 to-card p-6 sm:p-8">
+        <h1 className="text-2xl font-bold tracking-tight sm:text-3xl">
+          GMAT Focus practice that mirrors the real exam
+        </h1>
+        <p className="mt-2 max-w-2xl text-sm text-muted-foreground sm:text-base">
+          Three sections — Quantitative Reasoning, Verbal Reasoning, and Data Insights — with
+          realistic question types, honest difficulty levels, instant explanations, and progress
+          tracking.
+        </p>
+        <div className="mt-4 flex flex-wrap gap-3">
+          <Link
+            href="/practice"
+            className="inline-flex items-center gap-1 rounded-lg bg-primary px-4 py-2 text-sm font-medium text-primary-foreground hover:opacity-90"
           >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
+            Start practicing <ArrowRight className="size-4" />
+          </Link>
+          <Link
+            href="/learn"
+            className="inline-flex items-center gap-1 rounded-lg border border-border px-4 py-2 text-sm font-medium hover:bg-muted"
           >
-            Documentation
-          </a>
+            Browse Learn cards
+          </Link>
         </div>
-      </main>
+      </section>
+
+      <DashboardStats />
+
+      <section>
+        <h2 className="mb-3 text-xs font-semibold uppercase tracking-wide text-muted-foreground">
+          Practice by section
+        </h2>
+        <div className="grid gap-4 sm:grid-cols-3">
+          {SECTIONS.map((s) => (
+            <div key={s} className="flex flex-col rounded-xl border border-border bg-card p-4">
+              <h3 className="font-medium">{SECTION_LABELS[s]}</h3>
+              <ul className="mt-2 flex-1 space-y-1 text-xs text-muted-foreground">
+                {SECTION_TYPES[s].map((t) => (
+                  <li key={t}>{QUESTION_TYPE_LABELS[t]}</li>
+                ))}
+              </ul>
+              <Link
+                href={`/practice?section=${s}`}
+                className="mt-3 inline-flex items-center gap-1 text-sm font-medium text-primary hover:underline"
+              >
+                Practice <ArrowRight className="size-3.5" />
+              </Link>
+            </div>
+          ))}
+        </div>
+      </section>
     </div>
   );
 }
