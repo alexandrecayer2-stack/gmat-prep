@@ -1,0 +1,97 @@
+[
+  {
+    "id": "qx4-profit-markup",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "profit",
+    "difficulty": "easy",
+    "stem": "A merchant buys a widget for \\$80 and sells it at a profit of 35%. What is the selling price?",
+    "choices": [
+      { "key": "A", "text": "$100" },
+      { "key": "B", "text": "$108" },
+      { "key": "C", "text": "$104" },
+      { "key": "D", "text": "$112" },
+      { "key": "E", "text": "$115" }
+    ],
+    "correctAnswer": { "format": "single", "value": "B" },
+    "explanation": "A 35% profit means the selling price is $1.35$ times the cost: $1.35 \\times 80 = 108$, so the selling price is \\$108.",
+    "estimatedTimeSeconds": 60,
+    "tags": ["percent", "profit", "easy-quant"]
+  },
+  {
+    "id": "qx4-overlapping-sets",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "sets",
+    "difficulty": "medium",
+    "stem": "In a class of $40$ students, $25$ study French and $18$ study Spanish. If $7$ students study both languages, how many study neither language?",
+    "choices": [
+      { "key": "A", "text": "$4$" },
+      { "key": "B", "text": "$5$" },
+      { "key": "C", "text": "$9$" },
+      { "key": "D", "text": "$11$" },
+      { "key": "E", "text": "$15$" }
+    ],
+    "correctAnswer": { "format": "single", "value": "A" },
+    "explanation": "By inclusion-exclusion, the number studying at least one language is $25 + 18 - 7 = 36$. So those studying neither are $40 - 36 = 4$.",
+    "estimatedTimeSeconds": 90,
+    "tags": ["sets", "inclusion-exclusion", "medium-quant"]
+  },
+  {
+    "id": "qx4-inequality-range",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "inequalities",
+    "difficulty": "medium",
+    "stem": "If $3 < 2x - 1 < 9$, which of the following could be the value of $x$?",
+    "choices": [
+      { "key": "A", "text": "$1$" },
+      { "key": "B", "text": "$2$" },
+      { "key": "C", "text": "$4$" },
+      { "key": "D", "text": "$5$" },
+      { "key": "E", "text": "$6$" }
+    ],
+    "correctAnswer": { "format": "single", "value": "C" },
+    "explanation": "Add $1$ throughout: $4 < 2x < 10$. Divide by $2$: $2 < x < 5$. Among the choices, only $4$ lies strictly between $2$ and $5$ (the endpoints are excluded).",
+    "estimatedTimeSeconds": 90,
+    "tags": ["inequalities", "medium-quant"]
+  },
+  {
+    "id": "qx4-sequence-recursive",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "sequences",
+    "difficulty": "hard",
+    "stem": "In a sequence, the first term is $1$, and each term after the first is $3$ more than twice the previous term. What is the fourth term?",
+    "choices": [
+      { "key": "A", "text": "$61$" },
+      { "key": "B", "text": "$45$" },
+      { "key": "C", "text": "$33$" },
+      { "key": "D", "text": "$29$" },
+      { "key": "E", "text": "$23$" }
+    ],
+    "correctAnswer": { "format": "single", "value": "D" },
+    "explanation": "Each term is $a_n = 2a_{n-1} + 3$. So $a_1=1$, $a_2=2(1)+3=5$, $a_3=2(5)+3=13$, and $a_4=2(13)+3=29$.",
+    "estimatedTimeSeconds": 120,
+    "tags": ["sequences", "recursion", "hard-quant"]
+  },
+  {
+    "id": "qx4-exponents-pow",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "exponents",
+    "difficulty": "hard",
+    "stem": "If $2^{x+2} = 32$, what is the value of $3^{x}$?",
+    "choices": [
+      { "key": "A", "text": "$9$" },
+      { "key": "B", "text": "$18$" },
+      { "key": "C", "text": "$27$" },
+      { "key": "D", "text": "$54$" },
+      { "key": "E", "text": "$81$" }
+    ],
+    "correctAnswer": { "format": "single", "value": "C" },
+    "explanation": "Since $32 = 2^5$, the equation $2^{x+2}=2^5$ gives $x+2=5$, so $x=3$. Then $3^x = 3^3 = 27$.",
+    "estimatedTimeSeconds": 105,
+    "tags": ["exponents", "hard-quant"]
+  }
+]

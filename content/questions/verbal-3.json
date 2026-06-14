@@ -1,0 +1,214 @@
+[
+  {
+    "id": "cr3-speed-limit-evaluate",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "evaluate",
+    "difficulty": "medium",
+    "stem": "The answer to which of the following questions would be most useful in evaluating the council's argument?",
+    "passageOrStimulus": "A city council claims that lowering the downtown speed limit from 50 to 40 kilometers per hour will reduce the number of pedestrian injuries. As evidence, the council notes that a neighboring city saw pedestrian injuries fall in the year after it lowered its downtown speed limit.",
+    "choices": [
+      { "key": "A", "text": "Did the neighboring city also increase police traffic patrols at the same time it lowered its speed limit?" },
+      { "key": "B", "text": "Do most drivers in the city support lowering the speed limit?" },
+      { "key": "C", "text": "What was the average downtown commute time before the proposed change?" },
+      { "key": "D", "text": "Is the neighboring city larger in population than the city itself?" },
+      { "key": "E", "text": "How many pedestrians typically use downtown crosswalks each day?" }
+    ],
+    "correctAnswer": { "format": "single", "value": "A" },
+    "distractorRationale": {
+      "B": "Driver opinion does not bear on whether the lower limit actually reduces injuries.",
+      "C": "Commute time is a side effect, not evidence about the injury-reduction claim.",
+      "D": "Relative population size does not determine whether the speed limit caused the change.",
+      "E": "Pedestrian volume is background; it does not test the causal link."
+    },
+    "explanation": "The council infers that the speed limit caused the neighboring city's drop in injuries. The argument is strongest if no other change could explain that drop. Knowing whether patrols also increased (A) directly tests for an alternative cause: if they did, the comparison is undermined; if they did not, it is strengthened.",
+    "estimatedTimeSeconds": 105,
+    "tags": ["critical-reasoning", "evaluate", "alternative-cause"]
+  },
+  {
+    "id": "cr3-safety-course-inference",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "inference",
+    "difficulty": "medium",
+    "stem": "If the statements above are true, which of the following must also be true?",
+    "passageOrStimulus": "Everyone who completed the safety course received a certificate. None of the contractors received a certificate.",
+    "choices": [
+      { "key": "A", "text": "Everyone who received a certificate completed the safety course." },
+      { "key": "B", "text": "No contractor completed the safety course." },
+      { "key": "C", "text": "Every employee completed the safety course." },
+      { "key": "D", "text": "Some contractors completed the safety course but did not receive a certificate." },
+      { "key": "E", "text": "Everyone who completed the safety course is an employee." }
+    ],
+    "correctAnswer": { "format": "single", "value": "B" },
+    "distractorRationale": {
+      "A": "This is the converse; completing guarantees a certificate, but a certificate need not require completing.",
+      "C": "Nothing is said about whether employees completed the course.",
+      "D": "This contradicts the premises: anyone who completed the course received a certificate.",
+      "E": "The passage never restricts course-completers to employees."
+    },
+    "explanation": "Anyone who completed the course received a certificate. Since no contractor received a certificate, no contractor can have completed the course (otherwise they would have one). Therefore B must be true.",
+    "estimatedTimeSeconds": 105,
+    "tags": ["critical-reasoning", "inference", "must-be-true"]
+  },
+  {
+    "id": "cr3-bypass-boldface",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "describe the reasoning",
+    "difficulty": "hard",
+    "stem": "In the argument, the two portions in boldface play which of the following roles?",
+    "passageOrStimulus": "**The new highway bypass was expected to reduce traffic in the town center.** Yet in the year after the bypass opened, traffic in the town center actually rose. Some local officials have blamed the bypass for the increase. However, **the rise was most likely caused by the opening of a large shopping mall in the town center during the same year.**",
+    "choices": [
+      { "key": "A", "text": "The first is a conclusion the argument draws; the second is evidence offered in support of that conclusion." },
+      { "key": "B", "text": "The first is a prediction that the evidence shows was not borne out; the second is the explanation the author favors for what actually occurred." },
+      { "key": "C", "text": "The first states the author's main conclusion; the second states an objection that the author concedes." },
+      { "key": "D", "text": "The first is an assumption required by the argument; the second is the argument's main conclusion." },
+      { "key": "E", "text": "Both portions are claims that the author ultimately rejects." }
+    ],
+    "correctAnswer": { "format": "single", "value": "B" },
+    "distractorRationale": {
+      "A": "The first is a prediction, not a conclusion, and the second is not support for it.",
+      "C": "The first is not the author's conclusion; the author's point is the alternative cause in the second portion.",
+      "D": "The first is a stated expectation, not an unstated assumption.",
+      "E": "The author endorses the second portion rather than rejecting it."
+    },
+    "explanation": "The first boldface is a prediction (the bypass would reduce traffic) that the subsequent evidence shows did not come true. The second boldface is the explanation the author endorses for the actual outcome (the new mall). That matches choice B.",
+    "estimatedTimeSeconds": 135,
+    "tags": ["critical-reasoning", "boldface", "describe-reasoning"]
+  },
+  {
+    "id": "cr3-weekly-magazine-assumption",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "assumption",
+    "difficulty": "medium",
+    "stem": "The publisher's expectation depends on which of the following assumptions?",
+    "passageOrStimulus": "A publisher will switch its magazine from monthly to weekly publication. It expects total annual advertising revenue to rise, because it will then sell advertising space in 52 issues per year instead of 12.",
+    "choices": [
+      { "key": "A", "text": "The amount of advertising space sold per issue will not fall so much that total annual advertising space sold declines." },
+      { "key": "B", "text": "Readers generally prefer weekly magazines to monthly magazines." },
+      { "key": "C", "text": "The cost of producing the magazine will not increase after the switch." },
+      { "key": "D", "text": "Most competing magazines are also published weekly." },
+      { "key": "E", "text": "The magazine's total circulation will more than double after the switch." }
+    ],
+    "correctAnswer": { "format": "single", "value": "A" },
+    "distractorRationale": {
+      "B": "Reader preference does not directly determine advertising revenue.",
+      "C": "Production cost concerns profit, not the advertising-revenue conclusion.",
+      "D": "What competitors do is irrelevant to this publisher's revenue.",
+      "E": "The argument is about ad space across more issues, not a specific circulation increase."
+    },
+    "explanation": "More issues only raise total ad revenue if the per-issue advertising does not shrink enough to cancel the gain. Negate A — each weekly issue sells so little ad space that the annual total falls — and the expectation collapses. So A is a necessary assumption.",
+    "estimatedTimeSeconds": 105,
+    "tags": ["critical-reasoning", "assumption", "negation-test"]
+  },
+  {
+    "id": "rc-tz-main-purpose",
+    "section": "verbal",
+    "type": "reading_comprehension",
+    "topic": "main idea",
+    "difficulty": "medium",
+    "groupId": "rc-time-zones",
+    "orderIndex": 1,
+    "stem": "The primary purpose of the passage is to",
+    "choices": [
+      { "key": "A", "text": "argue that railroad companies should not have been allowed to control timekeeping" },
+      { "key": "B", "text": "explain how and why standardized time zones came to be adopted" },
+      { "key": "C", "text": "compare nineteenth-century timekeeping in North America with that in Europe" },
+      { "key": "D", "text": "describe the technical operation of nineteenth-century railroads" },
+      { "key": "E", "text": "trace the development of mechanical clock-making technology" }
+    ],
+    "correctAnswer": { "format": "single", "value": "B" },
+    "distractorRationale": {
+      "A": "The passage notes resistance but does not argue that railroads should have been barred.",
+      "C": "Europe is never discussed.",
+      "D": "Railroad operations are mentioned only as the cause of the timekeeping problem.",
+      "E": "Clock technology is not the passage's subject."
+    },
+    "explanation": "The passage describes the problem that local times created for railroads and recounts how the railroads' standard time zones were adopted and received. Its purpose is to explain how and why standard time came about, which is choice B.",
+    "estimatedTimeSeconds": 90,
+    "tags": ["reading-comprehension", "main-idea"]
+  },
+  {
+    "id": "rc-tz-detail-clocks",
+    "section": "verbal",
+    "type": "reading_comprehension",
+    "topic": "detail",
+    "difficulty": "easy",
+    "groupId": "rc-time-zones",
+    "orderIndex": 2,
+    "stem": "According to the passage, before standardized time most towns set their clocks by",
+    "choices": [
+      { "key": "A", "text": "the schedule of the nearest railroad" },
+      { "key": "B", "text": "a standard established by the national government" },
+      { "key": "C", "text": "the position of the sun" },
+      { "key": "D", "text": "agreement with neighboring towns" },
+      { "key": "E", "text": "the arrival time of the first daily train" }
+    ],
+    "correctAnswer": { "format": "single", "value": "C" },
+    "distractorRationale": {
+      "A": "Railroad time came later and is what replaced local solar time.",
+      "B": "Government standardization followed only decades after the railroads acted.",
+      "D": "The passage describes independent local time, not inter-town agreement.",
+      "E": "Train arrivals are not mentioned as the basis for local clocks."
+    },
+    "explanation": "The first paragraph states that towns kept their own local time, 'setting their clocks by the sun so that noon occurred when the sun was highest overhead.' That is choice C.",
+    "estimatedTimeSeconds": 75,
+    "tags": ["reading-comprehension", "detail"]
+  },
+  {
+    "id": "rc-tz-inference-unusual",
+    "section": "verbal",
+    "type": "reading_comprehension",
+    "topic": "inference",
+    "difficulty": "hard",
+    "groupId": "rc-time-zones",
+    "orderIndex": 3,
+    "stem": "The passage suggests that the adoption of standard time zones was notable in that it",
+    "choices": [
+      { "key": "A", "text": "was reversed within a few decades of being introduced" },
+      { "key": "B", "text": "resulted from a private commercial agreement rather than from government action" },
+      { "key": "C", "text": "was initially opposed by the railroad companies themselves" },
+      { "key": "D", "text": "took hold in large cities long before it reached smaller towns" },
+      { "key": "E", "text": "required the invention of new clock technology to put into effect" }
+    ],
+    "correctAnswer": { "format": "single", "value": "B" },
+    "distractorRationale": {
+      "A": "The passage says the system reshaped public life and persists, not that it was reversed.",
+      "C": "The railroads led the change; they did not oppose it.",
+      "D": "No claim is made that large cities adopted it before small towns.",
+      "E": "The passage never says new clock technology was needed."
+    },
+    "explanation": "The closing paragraph stresses that 'a commercial need rather than a political mandate' produced standard time, and that official government adoption came only later. The striking feature is that a private commercial agreement, not government action, drove it — choice B.",
+    "estimatedTimeSeconds": 105,
+    "tags": ["reading-comprehension", "inference"]
+  },
+  {
+    "id": "rc-tz-function-nolaw",
+    "section": "verbal",
+    "type": "reading_comprehension",
+    "topic": "function",
+    "difficulty": "medium",
+    "groupId": "rc-time-zones",
+    "orderIndex": 4,
+    "stem": "The author notes that cities reset their clocks 'even though no law required them to' primarily in order to",
+    "choices": [
+      { "key": "A", "text": "criticize cities for acting without proper legal authority" },
+      { "key": "B", "text": "emphasize how voluntarily and rapidly the railroads' private standard was adopted" },
+      { "key": "C", "text": "argue that the change to railroad time was technically illegal" },
+      { "key": "D", "text": "explain why formal government adoption was delayed for decades" },
+      { "key": "E", "text": "show that most cities in fact resisted switching to railroad time" }
+    ],
+    "correctAnswer": { "format": "single", "value": "B" },
+    "distractorRationale": {
+      "A": "The author is not criticizing the cities.",
+      "C": "Legality is not the author's point.",
+      "D": "The delay in government adoption is a separate fact, not the purpose of this phrase.",
+      "E": "The phrase shows rapid adoption, the opposite of resistance."
+    },
+    "explanation": "The phrase underscores that, with no legal compulsion, cities still switched 'within months.' It highlights how voluntary and fast the adoption of the private standard was — choice B.",
+    "estimatedTimeSeconds": 90,
+    "tags": ["reading-comprehension", "function"]
+  }
+]

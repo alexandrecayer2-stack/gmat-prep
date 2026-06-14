@@ -19,5 +19,26 @@
         "content": "Customers who spend **over \\$200** receive free **standard** shipping. **Express** shipping is never free. Returns must be initiated within **30 days** of delivery."
       }
     ]
+  },
+  {
+    "id": "rc-time-zones",
+    "section": "verbal",
+    "title": "Standard Time Zones",
+    "passage": "Before the late nineteenth century, most towns kept their own local time, setting their clocks by the sun so that noon occurred when the sun was highest overhead. A traveler moving east or west would find the time shift by a few minutes with every town. For most of history this caused little trouble, since travel was slow and schedules were loose. The railroad changed that. As rail networks spread, trains running on dozens of incompatible local times made timetables bewildering and collisions more likely, since two trains might disagree about the very minute they shared a track.\n\nTo impose order, railway companies—not governments—took the lead. In 1883, the major North American railroads adopted a system dividing the continent into a small number of standard time zones, within each of which all clocks would read the same time. The plan was a private agreement, yet it quickly reshaped public life: cities reset their clocks to \"railroad time\" within months, even though no law required them to. Official government adoption followed only decades later.\n\nThe standardization was not universally welcomed. Some communities resented surrendering their \"natural\" local noon to a distant railroad's convenience, viewing it as a loss of local identity. Others saw the change as a triumph of efficiency and modern coordination. What is striking, in retrospect, is how a commercial need rather than a political mandate produced one of the most pervasive frameworks of modern life—a shared system of time that most people now take entirely for granted."
+  },
+  {
+    "id": "msr-courier",
+    "section": "data_insights",
+    "title": "Courier Delivery",
+    "sources": [
+      {
+        "title": "Pricing",
+        "content": "**Standard delivery:** a \\$5 base charge plus \\$2 per kilogram. **Express delivery:** a flat \\$12, available only for packages under **10 kg**. Packages over **20 kg** require a separate freight quote."
+      },
+      {
+        "title": "Schedule",
+        "content": "**Standard** delivery takes **3 business days**; **express** delivery takes **1 business day**. No deliveries occur on weekends. Orders placed after **4 p.m.** are processed the next business day."
+      }
+    ]
   }
 ]

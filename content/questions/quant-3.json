@@ -1,0 +1,152 @@
+[
+  {
+    "id": "q3-consecutive-even-sum",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "number properties",
+    "difficulty": "easy",
+    "stem": "The sum of three consecutive even integers is $48$. What is the greatest of the three integers?",
+    "choices": [
+      { "key": "A", "text": "$14$" },
+      { "key": "B", "text": "$16$" },
+      { "key": "C", "text": "$18$" },
+      { "key": "D", "text": "$20$" },
+      { "key": "E", "text": "$22$" }
+    ],
+    "correctAnswer": { "format": "single", "value": "C" },
+    "distractorRationale": {
+      "A": "This is the smallest of the three integers, not the greatest.",
+      "B": "This is the middle integer (the average), not the greatest.",
+      "D": "This overshoots; $18+20+22=60$, not $48$.",
+      "E": "This is the greatest of a set that sums to $60$, not $48$."
+    },
+    "explanation": "Let the integers be $n$, $n+2$, $n+4$. Then $3n+6=48$, so $3n=42$ and $n=14$. The greatest integer is $n+4=18$.",
+    "estimatedTimeSeconds": 60,
+    "tags": ["number-properties", "consecutive-integers", "easy-quant"]
+  },
+  {
+    "id": "q3-simple-interest",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "percents",
+    "difficulty": "easy",
+    "stem": "An account pays $6\\%$ simple annual interest. How much interest does a deposit of \\$500 earn in $2$ years?",
+    "choices": [
+      { "key": "A", "text": "\\$30" },
+      { "key": "B", "text": "\\$36" },
+      { "key": "C", "text": "\\$60" },
+      { "key": "D", "text": "\\$62" },
+      { "key": "E", "text": "\\$120" }
+    ],
+    "correctAnswer": { "format": "single", "value": "C" },
+    "distractorRationale": {
+      "A": "This is the interest for a single year, not two years.",
+      "B": "This applies the rate to only part of the principal or miscomputes.",
+      "D": "This adds a stray amount; simple interest does not compound.",
+      "E": "This treats the rate as $12\\%$ or doubles the principal."
+    },
+    "explanation": "Simple interest is principal × rate × time = $500 \\times 0.06 \\times 2 = 60$. The interest earned is \\$60.",
+    "estimatedTimeSeconds": 60,
+    "tags": ["percents", "simple-interest", "easy-quant"]
+  },
+  {
+    "id": "q3-acid-mixture",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "word problems",
+    "difficulty": "medium",
+    "stem": "A chemist has $10$ liters of a $50\\%$ acid solution. How many liters of pure water must be added to dilute it to a $40\\%$ acid solution?",
+    "choices": [
+      { "key": "A", "text": "$2$" },
+      { "key": "B", "text": "$2.5$" },
+      { "key": "C", "text": "$3$" },
+      { "key": "D", "text": "$4$" },
+      { "key": "E", "text": "$5$" }
+    ],
+    "correctAnswer": { "format": "single", "value": "B" },
+    "distractorRationale": {
+      "A": "This results from setting the new concentration to $42\\%$ or a similar slip.",
+      "C": "This rounds the answer up incorrectly.",
+      "D": "This would dilute to about $35.7\\%$, below the target.",
+      "E": "This treats the $10\\%$ drop as if it required adding half the volume."
+    },
+    "explanation": "The amount of acid is fixed at $0.50 \\times 10 = 5$ liters. Adding $x$ liters of water gives concentration $\\frac{5}{10+x}=0.40$. So $5=0.40(10+x)=4+0.4x$, giving $0.4x=1$ and $x=2.5$ liters.",
+    "estimatedTimeSeconds": 120,
+    "tags": ["word-problems", "mixtures", "medium-quant"]
+  },
+  {
+    "id": "q3-trains-meet",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "rates",
+    "difficulty": "medium",
+    "stem": "Two stations are $300$ miles apart. At the same moment, a train leaves each station traveling toward the other, one at $50$ miles per hour and the other at $70$ miles per hour. How many hours pass before the two trains meet?",
+    "choices": [
+      { "key": "A", "text": "$2$" },
+      { "key": "B", "text": "$2.5$" },
+      { "key": "C", "text": "$3$" },
+      { "key": "D", "text": "$4$" },
+      { "key": "E", "text": "$6$" }
+    ],
+    "correctAnswer": { "format": "single", "value": "B" },
+    "distractorRationale": {
+      "A": "This uses a combined speed of $150$ mph, not $120$.",
+      "C": "This divides $300$ by only one of the two speeds incorrectly.",
+      "D": "This uses the slower train's speed alone ($300/70 \\approx 4.3$).",
+      "E": "This uses the faster train's speed alone ($300/50=6$)."
+    },
+    "explanation": "When two objects move toward each other, their speeds add. The closing speed is $50+70=120$ mph, so they meet after $300/120=2.5$ hours.",
+    "estimatedTimeSeconds": 90,
+    "tags": ["rates", "relative-speed", "medium-quant"]
+  },
+  {
+    "id": "q3-remainder-crt",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "number properties",
+    "difficulty": "hard",
+    "stem": "When the positive integer $n$ is divided by $5$, the remainder is $3$. When $n$ is divided by $7$, the remainder is $4$. What is the least possible value of $n$?",
+    "choices": [
+      { "key": "A", "text": "$13$" },
+      { "key": "B", "text": "$18$" },
+      { "key": "C", "text": "$23$" },
+      { "key": "D", "text": "$25$" },
+      { "key": "E", "text": "$38$" }
+    ],
+    "correctAnswer": { "format": "single", "value": "B" },
+    "distractorRationale": {
+      "A": "$13$ leaves remainder $3$ on division by $5$ but remainder $6$ on division by $7$.",
+      "C": "$23$ leaves remainder $3$ on division by $5$ but remainder $2$ on division by $7$.",
+      "D": "$25$ is divisible by $5$ (remainder $0$).",
+      "E": "$38$ satisfies both conditions but is not the least such value."
+    },
+    "explanation": "Numbers leaving remainder $3$ when divided by $5$ are $3, 8, 13, 18, 23, \\dots$. Among these, test the remainder on division by $7$: $18=2(7)+4$, so $18$ leaves remainder $4$. Thus the least value is $18$.",
+    "estimatedTimeSeconds": 135,
+    "tags": ["number-properties", "remainders", "hard-quant"]
+  },
+  {
+    "id": "q3-prob-same-color",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "probability",
+    "difficulty": "hard",
+    "stem": "A jar contains $4$ red marbles and $6$ green marbles. Two marbles are drawn at random without replacement. What is the probability that both marbles are the same color?",
+    "choices": [
+      { "key": "A", "text": "$1/3$" },
+      { "key": "B", "text": "$2/5$" },
+      { "key": "C", "text": "$7/15$" },
+      { "key": "D", "text": "$1/2$" },
+      { "key": "E", "text": "$8/15$" }
+    ],
+    "correctAnswer": { "format": "single", "value": "C" },
+    "distractorRationale": {
+      "A": "This counts only the probability that both are red.",
+      "B": "This forgets to subtract one from the count on the second draw (uses replacement).",
+      "D": "This is the probability of drawing one of each color, not the same color.",
+      "E": "This counts only the probability that both are green."
+    },
+    "explanation": "P(both red) $=\\frac{4}{10}\\cdot\\frac{3}{9}=\\frac{12}{90}$. P(both green) $=\\frac{6}{10}\\cdot\\frac{5}{9}=\\frac{30}{90}$. Adding, P(same color) $=\\frac{42}{90}=\\frac{7}{15}$.",
+    "estimatedTimeSeconds": 135,
+    "tags": ["probability", "without-replacement", "hard-quant"]
+  }
+]

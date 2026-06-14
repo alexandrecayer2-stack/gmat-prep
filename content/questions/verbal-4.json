@@ -1,0 +1,84 @@
+[
+  {
+    "id": "cr4-bakery-loyalty-strengthen",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "strengthen",
+    "difficulty": "medium",
+    "stem": "Which of the following, if true, most strengthens the owner's conclusion?",
+    "passageOrStimulus": "A bakery introduced a loyalty card that gives a customer a free pastry after ten purchases. In the three months since, the bakery's total pastry sales have risen by 25%. The owner concludes that the loyalty card caused the increase in sales.",
+    "choices": [
+      { "key": "A", "text": "The bakery's main competitor closed its doors during the same three-month period." },
+      { "key": "B", "text": "Customers who enrolled in the loyalty card bought pastries far more frequently after enrolling than comparable customers who did not enroll." },
+      { "key": "C", "text": "The free pastry awarded after ten purchases is the least expensive item the bakery sells." },
+      { "key": "D", "text": "The bakery spent less on advertising this year than it did last year." },
+      { "key": "E", "text": "Some customers who signed up for the loyalty card never returned to the bakery." }
+    ],
+    "correctAnswer": { "format": "single", "value": "B" },
+    "explanation": "The owner makes a causal claim: the card drove the sales increase. (B) strengthens it by showing the proposed mechanism at work—enrollees bought more than comparable non-enrollees. (A) supplies an alternative cause (weakens); (C) and (D) are irrelevant to the cause of the rise; (E) weakens.",
+    "estimatedTimeSeconds": 105,
+    "tags": ["critical-reasoning", "strengthen", "causal"]
+  },
+  {
+    "id": "cr4-four-day-week-weaken",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "weaken",
+    "difficulty": "medium",
+    "stem": "Which of the following, if true, most seriously weakens the conclusion?",
+    "passageOrStimulus": "A company switched to a four-day workweek and found that productivity, measured by tasks completed per week, rose by 15% over the next quarter. Management concluded that the shorter workweek caused the productivity gain.",
+    "choices": [
+      { "key": "A", "text": "Employees reported being more satisfied with the four-day schedule than with the previous one." },
+      { "key": "B", "text": "Competing firms in the same industry did not adopt a four-day workweek." },
+      { "key": "C", "text": "The four-day workweek reduced the company's monthly office electricity costs." },
+      { "key": "D", "text": "During the same quarter, the company deployed new software that automated many of the routine tasks counted in the productivity measure." },
+      { "key": "E", "text": "Productivity at the company had been roughly flat for the two years before the change." }
+    ],
+    "correctAnswer": { "format": "single", "value": "D" },
+    "explanation": "The conclusion is causal. (D) weakens it by supplying an alternative cause: new automation software inflated the task count during the same period, so the shorter week may not be responsible. (A) and (C) are side effects; (B) is irrelevant; (E) tends to support the causal story rather than weaken it.",
+    "estimatedTimeSeconds": 105,
+    "tags": ["critical-reasoning", "weaken", "alternative-cause"]
+  },
+  {
+    "id": "rc-commons-inference",
+    "section": "verbal",
+    "type": "reading_comprehension",
+    "topic": "inference",
+    "difficulty": "medium",
+    "groupId": "rc-passage-commons",
+    "orderIndex": 4,
+    "stem": "It can be inferred that the Swiss and Japanese communities discussed in the passage",
+    "choices": [
+      { "key": "A", "text": "depended on national governments to enforce resource limits" },
+      { "key": "B", "text": "eventually sold their shared resources to private owners" },
+      { "key": "C", "text": "sustained their resources through rules they devised themselves, rather than through privatization or state control" },
+      { "key": "D", "text": "were ultimately unable to prevent overexploitation of their resources" },
+      { "key": "E", "text": "raised penalties to the maximum from the very first violation" }
+    ],
+    "correctAnswer": { "format": "single", "value": "C" },
+    "explanation": "The passage offers these communities as cases of arrangements that were 'neither private nor state-run,' governed by rules the users themselves devised and monitored. That is (C). (A) and (B) contradict that; (D) reverses their documented success; (E) contradicts the description of graduated sanctions that begin mildly.",
+    "estimatedTimeSeconds": 100,
+    "tags": ["reading-comprehension", "inference"]
+  },
+  {
+    "id": "rc-commons-detail2",
+    "section": "verbal",
+    "type": "reading_comprehension",
+    "topic": "detail",
+    "difficulty": "medium",
+    "groupId": "rc-passage-commons",
+    "orderIndex": 5,
+    "stem": "According to the passage, one design principle shared by durable resource-managing communities was that those affected by the rules could",
+    "choices": [
+      { "key": "A", "text": "take part in modifying the rules" },
+      { "key": "B", "text": "transfer their access rights to outsiders" },
+      { "key": "C", "text": "avoid penalties entirely for first offenses" },
+      { "key": "D", "text": "appeal disputes to a central government agency" },
+      { "key": "E", "text": "disregard the defined boundaries of the resource" }
+    ],
+    "correctAnswer": { "format": "single", "value": "A" },
+    "explanation": "Among the design principles, the passage states that successful groups 'ensured that those affected by the rules could participate in revising them'—(A). The other options contradict the passage's emphasis on clear boundaries, graduated sanctions, and self-governance rather than appeal to a central authority.",
+    "estimatedTimeSeconds": 90,
+    "tags": ["reading-comprehension", "detail"]
+  }
+]

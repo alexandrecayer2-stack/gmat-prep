@@ -1,0 +1,192 @@
+[
+  {
+    "id": "ds3-value-x",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "algebra",
+    "difficulty": "easy",
+    "stem": "What is the value of $x$?\n(1) $3x=12$\n(2) $x+5=9$",
+    "correctAnswer": { "format": "single", "value": "D" },
+    "explanation": "Statement (1) gives $x=4$. Statement (2) gives $x=4$. Each statement alone determines $x$, so the answer is D.",
+    "estimatedTimeSeconds": 60,
+    "tags": ["data-sufficiency", "algebra", "easy-di"]
+  },
+  {
+    "id": "ds3-x-greater-y",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "inequalities",
+    "difficulty": "medium",
+    "stem": "Is $x>y$?\n(1) $x-y>0$\n(2) $x^2>y^2$",
+    "correctAnswer": { "format": "single", "value": "A" },
+    "explanation": "Statement (1): $x-y>0$ means $x>y$ directly, so it is sufficient. Statement (2): $x^2>y^2$ means $|x|>|y|$, which does not fix the order; for example $x=-3, y=1$ gives $x^2>y^2$ but $x<y$, while $x=3, y=1$ gives $x>y$. So (2) is not sufficient. The answer is A.",
+    "estimatedTimeSeconds": 105,
+    "tags": ["data-sufficiency", "inequalities", "medium-di"]
+  },
+  {
+    "id": "ds3-divisible-by-12",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "number-properties",
+    "difficulty": "hard",
+    "stem": "Is the positive integer $n$ divisible by $12$?\n(1) $n$ is divisible by $6$.\n(2) $n$ is divisible by $8$.",
+    "correctAnswer": { "format": "single", "value": "C" },
+    "explanation": "Statement (1) alone is insufficient: $n=6$ is not divisible by $12$, but $n=12$ is. Statement (2) alone is insufficient: $n=8$ is not divisible by $12$, but $n=24$ is. Together, $n$ is divisible by both $6$ and $8$, hence by their least common multiple $24$. Since $12$ divides $24$, $n$ is divisible by $12$. Sufficient together but not alone, so the answer is C.",
+    "estimatedTimeSeconds": 135,
+    "tags": ["data-sufficiency", "number-properties", "lcm", "hard-di"]
+  },
+  {
+    "id": "gi3-quarterly-sales",
+    "section": "data_insights",
+    "type": "graphics_interpretation",
+    "topic": "graphics interpretation",
+    "difficulty": "medium",
+    "stem": "The bar chart shows a company's sales, in thousands of dollars, for each quarter of last year. Use the drop-down menus to complete the statements so that they are consistent with the data.",
+    "assets": {
+      "chart": {
+        "type": "bar",
+        "title": "Quarterly sales (thousands of dollars)",
+        "xKey": "quarter",
+        "xLabel": "Quarter",
+        "yLabel": "Sales ($000s)",
+        "series": [{ "key": "sales", "label": "Sales" }],
+        "data": [
+          { "quarter": "Q1", "sales": 120 },
+          { "quarter": "Q2", "sales": 150 },
+          { "quarter": "Q3", "sales": 90 },
+          { "quarter": "Q4", "sales": 180 }
+        ]
+      },
+      "dropdowns": [
+        {
+          "key": "b1",
+          "before": "The quarter with the highest sales was",
+          "after": ".",
+          "options": [{ "value": "Q1" }, { "value": "Q2" }, { "value": "Q3" }, { "value": "Q4" }]
+        },
+        {
+          "key": "b2",
+          "before": "Total sales for the year were",
+          "after": "thousand dollars.",
+          "options": [{ "value": "480" }, { "value": "510" }, { "value": "540" }, { "value": "600" }]
+        }
+      ]
+    },
+    "correctAnswer": { "format": "dropdowns", "value": { "b1": "Q4", "b2": "540" } },
+    "explanation": "Reading the bars, Q4 is tallest at $180$, so it has the highest sales. The annual total is $120+150+90+180=540$ thousand dollars.",
+    "estimatedTimeSeconds": 120,
+    "tags": ["graphics-interpretation", "bar-chart", "medium-di"]
+  },
+  {
+    "id": "ta3-employee-records",
+    "section": "data_insights",
+    "type": "table_analysis",
+    "topic": "table analysis",
+    "difficulty": "medium",
+    "stem": "The table lists five employees with their department, annual salary, and years of service. You may sort the table. For each statement, select True if it can be determined to be true from the data, and False otherwise.",
+    "assets": {
+      "table": {
+        "sortable": true,
+        "caption": "Employee records",
+        "columns": [
+          { "key": "name", "label": "Employee" },
+          { "key": "dept", "label": "Department" },
+          { "key": "salary", "label": "Salary ($)", "numeric": true },
+          { "key": "years", "label": "Years of service", "numeric": true }
+        ],
+        "rows": [
+          { "name": "Adams", "dept": "Sales", "salary": 62000, "years": 3 },
+          { "name": "Brown", "dept": "Engineering", "salary": 88000, "years": 6 },
+          { "name": "Chen", "dept": "Sales", "salary": 71000, "years": 8 },
+          { "name": "Diaz", "dept": "Marketing", "salary": 59000, "years": 2 },
+          { "name": "Evans", "dept": "Engineering", "salary": 95000, "years": 5 }
+        ]
+      },
+      "dichotomous": { "labels": ["True", "False"] }
+    },
+    "choices": [
+      { "key": "s1", "text": "The highest-paid employee also has the most years of service." },
+      { "key": "s2", "text": "Every employee in Engineering earns more than every employee in Sales." },
+      { "key": "s3", "text": "More than half of the employees have at least 5 years of service." }
+    ],
+    "correctAnswer": {
+      "format": "dichotomous",
+      "value": { "s1": "False", "s2": "True", "s3": "True" }
+    },
+    "explanation": "**s1 — False.** The highest-paid employee is Evans ($95{,}000$), but the most years of service belongs to Chen ($8$ years).\n\n**s2 — True.** Engineering salaries are $88{,}000$ (Brown) and $95{,}000$ (Evans); Sales salaries are $62{,}000$ (Adams) and $71{,}000$ (Chen). The lowest Engineering salary ($88{,}000$) exceeds the highest Sales salary ($71{,}000$).\n\n**s3 — True.** Years of service are $3, 6, 8, 2, 5$; three of the five ($6, 8, 5$) are at least $5$, which is more than half.",
+    "estimatedTimeSeconds": 165,
+    "tags": ["table-analysis", "sorting", "medium-di"]
+  },
+  {
+    "id": "tp3-linear-system",
+    "section": "data_insights",
+    "type": "two_part_analysis",
+    "topic": "two-part analysis",
+    "difficulty": "medium",
+    "stem": "Two numbers $x$ and $y$ satisfy $x+y=10$ and $x-y=4$. In the table, select the value of $x$ and the value of $y$. Make exactly one selection in each column.",
+    "assets": {
+      "twoPart": {
+        "columns": [
+          { "key": "partX", "label": "Value of x" },
+          { "key": "partY", "label": "Value of y" }
+        ]
+      }
+    },
+    "choices": [
+      { "key": "r1", "text": "$2$" },
+      { "key": "r2", "text": "$3$" },
+      { "key": "r3", "text": "$5$" },
+      { "key": "r4", "text": "$6$" },
+      { "key": "r5", "text": "$7$" },
+      { "key": "r6", "text": "$8$" }
+    ],
+    "correctAnswer": { "format": "two_part", "value": { "partX": "r5", "partY": "r2" } },
+    "explanation": "Adding the equations: $(x+y)+(x-y)=10+4$, so $2x=14$ and $x=7$. Then $y=10-7=3$. So $x=7$ and $y=3$.",
+    "estimatedTimeSeconds": 120,
+    "tags": ["two-part-analysis", "linear-system", "medium-di"]
+  },
+  {
+    "id": "msr-courier-cost",
+    "section": "data_insights",
+    "type": "multi_source_reasoning",
+    "topic": "multi-source reasoning",
+    "difficulty": "medium",
+    "groupId": "msr-courier",
+    "orderIndex": 1,
+    "stem": "Based on the two sources, what is the cost of sending a $4$ kg package by standard delivery?",
+    "choices": [
+      { "key": "A", "text": "\\$9" },
+      { "key": "B", "text": "\\$11" },
+      { "key": "C", "text": "\\$13" },
+      { "key": "D", "text": "\\$15" },
+      { "key": "E", "text": "\\$20" }
+    ],
+    "correctAnswer": { "format": "single", "value": "C" },
+    "explanation": "Standard delivery costs a \\$5 base plus \\$2 per kilogram. For a $4$ kg package: $5 + 2(4) = 13$. The cost is \\$13.",
+    "estimatedTimeSeconds": 120,
+    "tags": ["multi-source-reasoning", "data-insights"]
+  },
+  {
+    "id": "msr-courier-yesno",
+    "section": "data_insights",
+    "type": "multi_source_reasoning",
+    "topic": "multi-source reasoning",
+    "difficulty": "hard",
+    "groupId": "msr-courier",
+    "orderIndex": 2,
+    "stem": "Based on the two sources, select Yes for each statement that must be true and No for each that need not be true.",
+    "assets": { "dichotomous": { "labels": ["Yes", "No"] } },
+    "choices": [
+      { "key": "s1", "text": "A 12 kg package can be sent by express delivery." },
+      { "key": "s2", "text": "A 25 kg package requires a freight quote." },
+      { "key": "s3", "text": "A standard order placed at 5 p.m. on Monday is delivered on Wednesday of the same week." }
+    ],
+    "correctAnswer": {
+      "format": "dichotomous",
+      "value": { "s1": "No", "s2": "Yes", "s3": "No" }
+    },
+    "explanation": "**s1 — No.** Express delivery is available only for packages under $10$ kg, and $12$ kg exceeds that limit.\n\n**s2 — Yes.** Packages over $20$ kg require a freight quote, and $25 > 20$.\n\n**s3 — No.** An order placed after 4 p.m. is processed the next business day (Tuesday). Standard delivery then takes $3$ business days (Wednesday, Thursday, Friday), so it arrives Friday, not Wednesday.",
+    "estimatedTimeSeconds": 165,
+    "tags": ["multi-source-reasoning", "data-insights"]
+  }
+]

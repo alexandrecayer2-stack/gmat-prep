@@ -1,0 +1,331 @@
+[
+  {
+    "id": "ds4-even-integer",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "number-properties",
+    "difficulty": "easy",
+    "stem": "Is the integer $k$ even?\n(1) $k = 2m$ for some integer $m$.\n(2) $k > 3$.",
+    "correctAnswer": { "format": "single", "value": "A" },
+    "explanation": "Statement (1): $k = 2m$ means $k$ is even — sufficient. Statement (2): $k > 3$ could be $4$ (even) or $5$ (odd) — not sufficient. Only (1) alone works, so the answer is A.",
+    "estimatedTimeSeconds": 75,
+    "tags": ["data-sufficiency", "number-properties", "easy-di"]
+  },
+  {
+    "id": "ds4-divisible-by-four",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "number-properties",
+    "difficulty": "medium",
+    "stem": "If $n$ is a positive integer, is $n$ divisible by $4$?\n(1) $n$ is even.\n(2) $n/2$ is even.",
+    "correctAnswer": { "format": "single", "value": "B" },
+    "explanation": "Statement (1): $n$ even allows $n=2$ (not divisible by $4$) or $n=4$ (divisible) — not sufficient. Statement (2): if $n/2$ is even, then $n/2 = 2j$, so $n = 4j$, which is divisible by $4$ — sufficient. Only (2) alone works, so the answer is B.",
+    "estimatedTimeSeconds": 105,
+    "tags": ["data-sufficiency", "number-properties", "medium-di"]
+  },
+  {
+    "id": "ds4-x-squared-16",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "algebra",
+    "difficulty": "medium",
+    "stem": "What is the value of $x$?\n(1) $x^2 = 16$\n(2) $x^4 = 256$",
+    "correctAnswer": { "format": "single", "value": "E" },
+    "explanation": "Statement (1): $x = 4$ or $x = -4$ — not unique. Statement (2): $x^4 = 256$ gives $x^2 = 16$, so again $x = \\pm 4$ — not unique. Together they still allow both values, so the answer is E.",
+    "estimatedTimeSeconds": 105,
+    "tags": ["data-sufficiency", "algebra", "medium-di"]
+  },
+  {
+    "id": "gi4-monthly-sales-bar",
+    "section": "data_insights",
+    "type": "graphics_interpretation",
+    "topic": "graphics interpretation",
+    "difficulty": "easy",
+    "stem": "The bar chart shows a store's sales, in units, for five months. Use the drop-down menus to complete the statements so that they are consistent with the data.",
+    "assets": {
+      "chart": {
+        "type": "bar",
+        "title": "Monthly sales (units)",
+        "xKey": "month",
+        "xLabel": "Month",
+        "yLabel": "Units",
+        "series": [{ "key": "sales", "label": "Sales" }],
+        "data": [
+          { "month": "Jan", "sales": 20 },
+          { "month": "Feb", "sales": 35 },
+          { "month": "Mar", "sales": 30 },
+          { "month": "Apr", "sales": 45 },
+          { "month": "May", "sales": 25 }
+        ]
+      },
+      "dropdowns": [
+        { "key": "b1", "before": "The month with the highest sales was", "after": ".", "options": [{ "value": "February" }, { "value": "April" }, { "value": "May" }] },
+        { "key": "b2", "before": "Total sales across the five months were", "after": "units.", "options": [{ "value": "145" }, { "value": "155" }, { "value": "165" }] }
+      ]
+    },
+    "correctAnswer": { "format": "dropdowns", "value": { "b1": "April", "b2": "155" } },
+    "explanation": "April has the tallest bar at 45 units. The total is 20 + 35 + 30 + 45 + 25 = 155 units.",
+    "estimatedTimeSeconds": 90,
+    "tags": ["graphics-interpretation", "bar-chart", "easy-di"]
+  },
+  {
+    "id": "gi4-temperature-line",
+    "section": "data_insights",
+    "type": "graphics_interpretation",
+    "topic": "graphics interpretation",
+    "difficulty": "medium",
+    "stem": "The line graph shows the midday temperature, in degrees Celsius, on five consecutive days. Use the drop-down menus to complete the statements.",
+    "assets": {
+      "chart": {
+        "type": "line",
+        "title": "Midday temperature (Celsius)",
+        "xKey": "day",
+        "xLabel": "Day",
+        "yLabel": "Degrees C",
+        "series": [{ "key": "temp", "label": "Temperature" }],
+        "data": [
+          { "day": "Mon", "temp": 10 },
+          { "day": "Tue", "temp": 14 },
+          { "day": "Wed", "temp": 12 },
+          { "day": "Thu", "temp": 18 },
+          { "day": "Fri", "temp": 20 }
+        ]
+      },
+      "dropdowns": [
+        { "key": "b1", "before": "The greatest day-to-day increase occurred from", "after": ".", "options": [{ "value": "Mon to Tue" }, { "value": "Wed to Thu" }, { "value": "Thu to Fri" }] },
+        { "key": "b2", "before": "The average temperature over the five days was", "after": "degrees.", "options": [{ "value": "13.6" }, { "value": "14.8" }, { "value": "15.2" }] }
+      ]
+    },
+    "correctAnswer": { "format": "dropdowns", "value": { "b1": "Wed to Thu", "b2": "14.8" } },
+    "explanation": "Day-to-day changes are +4, -2, +6, +2; the greatest increase is +6, from Wed to Thu. The average is (10 + 14 + 12 + 18 + 20) / 5 = 74 / 5 = 14.8 degrees.",
+    "estimatedTimeSeconds": 120,
+    "tags": ["graphics-interpretation", "line-chart", "medium-di"]
+  },
+  {
+    "id": "gi4-price-demand-scatter",
+    "section": "data_insights",
+    "type": "graphics_interpretation",
+    "topic": "graphics interpretation",
+    "difficulty": "hard",
+    "stem": "The scatterplot shows weekly demand for a product at five different prices. Use the drop-down menus to complete the statements.",
+    "assets": {
+      "chart": {
+        "type": "scatter",
+        "title": "Price vs. demand",
+        "xKey": "price",
+        "xLabel": "Price (dollars)",
+        "yLabel": "Demand (units)",
+        "series": [{ "key": "demand", "label": "Demand" }],
+        "data": [
+          { "price": 2, "demand": 90 },
+          { "price": 4, "demand": 80 },
+          { "price": 6, "demand": 72 },
+          { "price": 8, "demand": 60 },
+          { "price": 10, "demand": 50 }
+        ]
+      },
+      "dropdowns": [
+        { "key": "b1", "before": "The relationship between price and demand is", "after": ".", "options": [{ "value": "positive" }, { "value": "negative" }, { "value": "nonexistent" }] },
+        { "key": "b2", "before": "As the price rises from 2 to 10, demand changes by about", "after": "units per dollar.", "options": [{ "value": "-3" }, { "value": "-5" }, { "value": "-8" }] }
+      ]
+    },
+    "correctAnswer": { "format": "dropdowns", "value": { "b1": "negative", "b2": "-5" } },
+    "explanation": "Demand falls as price rises, so the relationship is negative. From price 2 to price 10, demand goes from 90 to 50, a change of -40 over 8 dollars, or about -5 units per dollar.",
+    "estimatedTimeSeconds": 135,
+    "tags": ["graphics-interpretation", "scatter", "hard-di"]
+  },
+  {
+    "id": "ta4-product-revenue",
+    "section": "data_insights",
+    "type": "table_analysis",
+    "topic": "table analysis",
+    "difficulty": "easy",
+    "stem": "The table shows four products with their price, units sold, and revenue. You may sort the table. For each statement, select True if it can be determined to be true from the data, and False otherwise.",
+    "assets": {
+      "table": {
+        "sortable": true,
+        "caption": "Product sales",
+        "columns": [
+          { "key": "product", "label": "Product" },
+          { "key": "price", "label": "Price ($)", "numeric": true },
+          { "key": "units", "label": "Units sold", "numeric": true },
+          { "key": "revenue", "label": "Revenue ($)", "numeric": true }
+        ],
+        "rows": [
+          { "product": "A", "price": 10, "units": 50, "revenue": 500 },
+          { "product": "B", "price": 20, "units": 30, "revenue": 600 },
+          { "product": "C", "price": 15, "units": 45, "revenue": 675 },
+          { "product": "D", "price": 25, "units": 20, "revenue": 500 }
+        ]
+      },
+      "dichotomous": { "labels": ["True", "False"] }
+    },
+    "choices": [
+      { "key": "s1", "text": "Product C generated the highest revenue." },
+      { "key": "s2", "text": "The product with the highest price sold the fewest units." },
+      { "key": "s3", "text": "More than half of the products sold at least 40 units." }
+    ],
+    "correctAnswer": { "format": "dichotomous", "value": { "s1": "True", "s2": "True", "s3": "False" } },
+    "explanation": "s1 — True. Revenues are 500, 600, 675, 500; C's 675 is the highest. s2 — True. The highest price is D at 25, and D sold the fewest units (20). s3 — False. Only A (50) and C (45) sold at least 40 units; that is 2 of 4, exactly half, not more than half.",
+    "estimatedTimeSeconds": 135,
+    "tags": ["table-analysis", "easy-di"]
+  },
+  {
+    "id": "ta4-city-density",
+    "section": "data_insights",
+    "type": "table_analysis",
+    "topic": "table analysis",
+    "difficulty": "medium",
+    "stem": "The table lists five cities with their population, area, and population density. You may sort the table. For each statement, select True or False.",
+    "assets": {
+      "table": {
+        "sortable": true,
+        "caption": "City statistics",
+        "columns": [
+          { "key": "city", "label": "City" },
+          { "key": "population", "label": "Population (thousands)", "numeric": true },
+          { "key": "area", "label": "Area (km2)", "numeric": true },
+          { "key": "density", "label": "Density (per km2)", "numeric": true }
+        ],
+        "rows": [
+          { "city": "Alpha", "population": 600, "area": 200, "density": 3000 },
+          { "city": "Beta", "population": 450, "area": 450, "density": 1000 },
+          { "city": "Gamma", "population": 800, "area": 400, "density": 2000 },
+          { "city": "Delta", "population": 300, "area": 60, "density": 5000 },
+          { "city": "Epsilon", "population": 500, "area": 250, "density": 2000 }
+        ]
+      },
+      "dichotomous": { "labels": ["True", "False"] }
+    },
+    "choices": [
+      { "key": "s1", "text": "The city with the largest population also has the largest area." },
+      { "key": "s2", "text": "The most densely populated city has the smallest area." },
+      { "key": "s3", "text": "More than half of the cities have a density of at least 2,500 per km2." }
+    ],
+    "correctAnswer": { "format": "dichotomous", "value": { "s1": "False", "s2": "True", "s3": "False" } },
+    "explanation": "s1 — False. The largest population is Gamma (800), but the largest area is Beta (450). s2 — True. The most densely populated city is Delta (5000 per km2), which also has the smallest area (60 km2). s3 — False. Densities are 3000, 1000, 2000, 5000, 2000; only two (3000 and 5000) are at least 2,500 — not more than half of five.",
+    "estimatedTimeSeconds": 165,
+    "tags": ["table-analysis", "medium-di"]
+  },
+  {
+    "id": "ta4-box-office",
+    "section": "data_insights",
+    "type": "table_analysis",
+    "topic": "table analysis",
+    "difficulty": "hard",
+    "stem": "The table shows five films with their production budget, box-office gross, and audience rating (all monetary figures in millions of dollars). You may sort the table. For each statement, select True or False.",
+    "assets": {
+      "table": {
+        "sortable": true,
+        "caption": "Film performance",
+        "columns": [
+          { "key": "title", "label": "Film" },
+          { "key": "budget", "label": "Budget (M)", "numeric": true },
+          { "key": "gross", "label": "Gross (M)", "numeric": true },
+          { "key": "rating", "label": "Rating", "numeric": true }
+        ],
+        "rows": [
+          { "title": "Nova", "budget": 50, "gross": 200, "rating": 7.5 },
+          { "title": "Echo", "budget": 80, "gross": 150, "rating": 6.0 },
+          { "title": "Pulse", "budget": 30, "gross": 180, "rating": 8.0 },
+          { "title": "Drift", "budget": 120, "gross": 90, "rating": 5.5 },
+          { "title": "Glow", "budget": 40, "gross": 160, "rating": 7.0 }
+        ]
+      },
+      "dichotomous": { "labels": ["True", "False"] }
+    },
+    "choices": [
+      { "key": "s1", "text": "The film with the highest gross also had the highest budget." },
+      { "key": "s2", "text": "Every film with a rating of at least 7.0 grossed more than its budget." },
+      { "key": "s3", "text": "More than half of the films grossed at least twice their budget." }
+    ],
+    "correctAnswer": { "format": "dichotomous", "value": { "s1": "False", "s2": "True", "s3": "True" } },
+    "explanation": "s1 — False. The highest gross is Nova (200), but the highest budget is Drift (120). s2 — True. Films rated at least 7.0 are Nova (200 vs 50), Pulse (180 vs 30), and Glow (160 vs 40); each grossed more than its budget. s3 — True. Gross at least twice budget holds for Nova (200 vs 100), Pulse (180 vs 60), and Glow (160 vs 80) — 3 of 5, more than half.",
+    "estimatedTimeSeconds": 180,
+    "tags": ["table-analysis", "hard-di"]
+  },
+  {
+    "id": "tp4-taxi-fare",
+    "section": "data_insights",
+    "type": "two_part_analysis",
+    "topic": "two-part analysis",
+    "difficulty": "easy",
+    "stem": "A taxi charges a base fare of \\$3 plus \\$2 per mile. In the table, select the fare for a 5-mile trip and the number of miles for a \\$17 trip. Make exactly one selection in each column.",
+    "assets": {
+      "twoPart": {
+        "columns": [
+          { "key": "partA", "label": "Fare for 5 miles" },
+          { "key": "partB", "label": "Miles for a $17 trip" }
+        ]
+      }
+    },
+    "choices": [
+      { "key": "r1", "text": "5" },
+      { "key": "r2", "text": "7" },
+      { "key": "r3", "text": "9" },
+      { "key": "r4", "text": "11" },
+      { "key": "r5", "text": "13" },
+      { "key": "r6", "text": "17" }
+    ],
+    "correctAnswer": { "format": "two_part", "value": { "partA": "r5", "partB": "r2" } },
+    "explanation": "The fare is $3 + 2 \\times \\text{miles}$ dollars. For 5 miles: $3 + 2(5) = 13$ — choose 13. For a \\$17 trip: $3 + 2m = 17$, so $m = 7$ — choose 7.",
+    "estimatedTimeSeconds": 120,
+    "tags": ["two-part-analysis", "easy-di"]
+  },
+  {
+    "id": "tp4-production-cost",
+    "section": "data_insights",
+    "type": "two_part_analysis",
+    "topic": "two-part analysis",
+    "difficulty": "medium",
+    "stem": "The cost $C$, in dollars, to produce $n$ units is $C = 4n + 50$. In the table, select the cost to produce 25 units and the number of units that can be produced for \\$290. Make exactly one selection in each column.",
+    "assets": {
+      "twoPart": {
+        "columns": [
+          { "key": "partA", "label": "Cost for 25 units" },
+          { "key": "partB", "label": "Units for $290" }
+        ]
+      }
+    },
+    "choices": [
+      { "key": "r1", "text": "60" },
+      { "key": "r2", "text": "100" },
+      { "key": "r3", "text": "150" },
+      { "key": "r4", "text": "200" },
+      { "key": "r5", "text": "240" },
+      { "key": "r6", "text": "290" }
+    ],
+    "correctAnswer": { "format": "two_part", "value": { "partA": "r3", "partB": "r1" } },
+    "explanation": "Cost for 25 units: $C = 4(25) + 50 = 150$ — choose 150. Units for \\$290: $4n + 50 = 290$, so $4n = 240$ and $n = 60$ — choose 60.",
+    "estimatedTimeSeconds": 135,
+    "tags": ["two-part-analysis", "medium-di"]
+  },
+  {
+    "id": "tp4-quadratic-fn",
+    "section": "data_insights",
+    "type": "two_part_analysis",
+    "topic": "two-part analysis",
+    "difficulty": "hard",
+    "stem": "The function $f$ is defined by $f(x) = x^2 - 2x$. In the table, select the positive value of $x$ for which $f(x) = 15$ and the value of $f(4)$. Make exactly one selection in each column.",
+    "assets": {
+      "twoPart": {
+        "columns": [
+          { "key": "partA", "label": "Positive x with f(x)=15" },
+          { "key": "partB", "label": "Value of f(4)" }
+        ]
+      }
+    },
+    "choices": [
+      { "key": "r1", "text": "-3" },
+      { "key": "r2", "text": "3" },
+      { "key": "r3", "text": "5" },
+      { "key": "r4", "text": "8" },
+      { "key": "r5", "text": "15" },
+      { "key": "r6", "text": "24" }
+    ],
+    "correctAnswer": { "format": "two_part", "value": { "partA": "r3", "partB": "r4" } },
+    "explanation": "Solve $f(x) = 15$: $x^2 - 2x - 15 = 0$, so $(x - 5)(x + 3) = 0$, giving $x = 5$ or $x = -3$; the positive value is $5$. And $f(4) = 4^2 - 2(4) = 16 - 8 = 8$.",
+    "estimatedTimeSeconds": 165,
+    "tags": ["two-part-analysis", "hard-di"]
+  }
+]
