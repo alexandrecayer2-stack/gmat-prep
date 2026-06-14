@@ -1,0 +1,1226 @@
+[
+  {
+    "id": "q041",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "assumption",
+    "difficulty": "easy",
+    "stem": "A museum added evening hours and soon saw more membership renewals. Which assumption is required by the argument?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "The museum hired additional security staff for the evening hours."
+      },
+      {
+        "key": "B",
+        "text": "Many members who can visit only at night would otherwise be unable to attend."
+      },
+      {
+        "key": "C",
+        "text": "Most members prefer modern art to ancient art."
+      },
+      {
+        "key": "D",
+        "text": "Evening hours cost less to operate than daytime hours."
+      },
+      {
+        "key": "E",
+        "text": "The museum will advertise the evening hours on social media."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "The argument claims the evening hours caused the rise in renewals. That requires assuming the new hours attracted members who otherwise could not have visited. Choice B.",
+    "estimatedTimeSeconds": 75,
+    "tags": [
+      "assumption"
+    ],
+    "orderIndex": 1
+  },
+  {
+    "id": "q042",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "weaken",
+    "difficulty": "easy",
+    "stem": "A retail chain plans to close two stores, saying the closures will raise profit because the stores lose money. Which statement, if true, most weakens the plan's justification?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "The stores are located inside shopping centers."
+      },
+      {
+        "key": "B",
+        "text": "The stores generate many profitable online orders from nearby customers."
+      },
+      {
+        "key": "C",
+        "text": "The stores have large windows facing the street."
+      },
+      {
+        "key": "D",
+        "text": "The chain plans to open a new website."
+      },
+      {
+        "key": "E",
+        "text": "Employees at the stores have worked there for many years."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "If the stores produce profitable online orders from local customers, closing them could reduce revenue that is not reflected in the stores' own losses. That weakens the justification. Choice B.",
+    "estimatedTimeSeconds": 75,
+    "tags": [
+      "weaken"
+    ],
+    "orderIndex": 2
+  },
+  {
+    "id": "q043",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "strengthen",
+    "difficulty": "easy",
+    "stem": "A city says a new bus lane reduced commute times on a major avenue. Which statement most strengthens the claim?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Rush-hour travel times fell on the avenue after the bus lane was installed."
+      },
+      {
+        "key": "B",
+        "text": "Bus drivers were given new uniforms at the same time."
+      },
+      {
+        "key": "C",
+        "text": "Traffic lights throughout the city were lengthened."
+      },
+      {
+        "key": "D",
+        "text": "Fuel prices rose during the same month."
+      },
+      {
+        "key": "E",
+        "text": "The city's population increased slightly."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "A direct before-and-after drop on the same avenue supports the claim that the bus lane helped reduce commute times. Choice A.",
+    "estimatedTimeSeconds": 75,
+    "tags": [
+      "strengthen"
+    ],
+    "orderIndex": 3
+  },
+  {
+    "id": "q044",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "inference",
+    "difficulty": "easy",
+    "stem": "All public charging stations in the town are downtown. The town has at least one public charging station. Which statement can be inferred?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Some downtown facilities are public charging stations."
+      },
+      {
+        "key": "B",
+        "text": "All downtown facilities are public charging stations."
+      },
+      {
+        "key": "C",
+        "text": "Some volunteer-staffed facilities are downtown."
+      },
+      {
+        "key": "D",
+        "text": "No charging stations are open 24 hours."
+      },
+      {
+        "key": "E",
+        "text": "All downtown facilities are open 24 hours."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "If all charging stations are downtown and at least one exists, then some downtown facilities are public charging stations. Choice A.",
+    "estimatedTimeSeconds": 60,
+    "tags": [
+      "inference"
+    ],
+    "orderIndex": 4
+  },
+  {
+    "id": "q045",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "evaluate",
+    "difficulty": "easy",
+    "stem": "A school plans to replace paper homework with online homework and expects completion rates to rise. Which information would be most useful in evaluating the plan?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "How many trees the school currently uses for paper homework"
+      },
+      {
+        "key": "B",
+        "text": "What share of students have reliable internet access outside school"
+      },
+      {
+        "key": "C",
+        "text": "Whether teachers prefer grading on tablets"
+      },
+      {
+        "key": "D",
+        "text": "Whether other schools already use online homework"
+      },
+      {
+        "key": "E",
+        "text": "How large the computer lab is"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "The plan depends on students being able to submit work online. The share with reliable internet access directly affects whether completion rates are likely to rise. Choice B.",
+    "estimatedTimeSeconds": 75,
+    "tags": [
+      "evaluate"
+    ],
+    "orderIndex": 5
+  },
+  {
+    "id": "q046",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "boldface",
+    "difficulty": "easy",
+    "stem": "A study found that students in later-start schools slept more and scored higher on quizzes. **Therefore, the district should delay the start time for all high schools.** **The later-start schools also had the same curriculum and teacher experience as the comparison schools.** Which option best describes the roles of the boldfaced statements?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "The first is a conclusion; the second is a premise."
+      },
+      {
+        "key": "B",
+        "text": "The first is a premise; the second is a conclusion."
+      },
+      {
+        "key": "C",
+        "text": "Both are premises."
+      },
+      {
+        "key": "D",
+        "text": "Both are conclusions."
+      },
+      {
+        "key": "E",
+        "text": "The first is an objection; the second is an assumption."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "The first boldface sentence is the argument's conclusion: it recommends delaying the start time. The second boldface sentence is a factual statement used as support, so it is a premise. Choice A.",
+    "estimatedTimeSeconds": 80,
+    "tags": [
+      "boldface"
+    ],
+    "orderIndex": 6
+  },
+  {
+    "id": "q047",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "flaw",
+    "difficulty": "medium",
+    "stem": "The average salary at Company A is higher than the average salary at Company B. Therefore, employees at Company A are more productive than employees at Company B. Which flaw best describes the reasoning?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "It confuses necessary and sufficient conditions."
+      },
+      {
+        "key": "B",
+        "text": "It appeals to authority."
+      },
+      {
+        "key": "C",
+        "text": "It assumes what it tries to prove."
+      },
+      {
+        "key": "D",
+        "text": "It draws a conclusion about individuals from a comparison of group averages."
+      },
+      {
+        "key": "E",
+        "text": "It ignores all numerical evidence."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "D"
+    },
+    "explanation": "The argument jumps from a difference in group averages to a claim about productivity of employees. That is a flawed inference from group statistics to a conclusion about individuals. Choice D.",
+    "estimatedTimeSeconds": 70,
+    "tags": [
+      "flaw"
+    ],
+    "orderIndex": 7
+  },
+  {
+    "id": "q048",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "paradox",
+    "difficulty": "medium",
+    "stem": "A bakery raised the price of its signature cake by 20%, yet sales of the cake increased. Which statement, if true, best helps resolve the apparent paradox?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "The bakery reduced the size of the cake while keeping the price constant."
+      },
+      {
+        "key": "B",
+        "text": "Competitors also raised their prices during the same month."
+      },
+      {
+        "key": "C",
+        "text": "The price increase signaled that the cake was newly made with higher-quality ingredients, attracting more customers."
+      },
+      {
+        "key": "D",
+        "text": "The bakery advertised the cake less often than before."
+      },
+      {
+        "key": "E",
+        "text": "Customers bought fewer cakes overall in the town."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "If customers interpreted the higher price as a sign of higher quality, demand could rise even after the price increase. Choice C.",
+    "estimatedTimeSeconds": 75,
+    "tags": [
+      "paradox"
+    ],
+    "orderIndex": 8
+  },
+  {
+    "id": "q049",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "assumption",
+    "difficulty": "medium",
+    "stem": "A clinic will switch from phone reminders to text reminders because texting costs less. The clinic concludes that reminder costs will therefore fall. Which assumption is required?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "The clinic's patients strongly dislike email."
+      },
+      {
+        "key": "B",
+        "text": "Text messages will reach patients as reliably as phone calls do."
+      },
+      {
+        "key": "C",
+        "text": "The clinic will never use phone calls again."
+      },
+      {
+        "key": "D",
+        "text": "All patients own expensive smartphones."
+      },
+      {
+        "key": "E",
+        "text": "The clinic will hire new staff to manage reminders."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "The cost savings matter only if text reminders are effective enough to replace calls. The argument needs the assumption that texts reach patients as reliably as phone calls. Choice B.",
+    "estimatedTimeSeconds": 75,
+    "tags": [
+      "assumption"
+    ],
+    "orderIndex": 9
+  },
+  {
+    "id": "q050",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "weaken",
+    "difficulty": "medium",
+    "stem": "A company says that after it adopted a 4-day workweek, productivity rose by 8%, so the new schedule caused the gain. Which statement most weakens the claim?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "The company also added a new cafeteria."
+      },
+      {
+        "key": "B",
+        "text": "Most employees reported enjoying the shorter workweek."
+      },
+      {
+        "key": "C",
+        "text": "Product quality stayed the same while output increased."
+      },
+      {
+        "key": "D",
+        "text": "The company surveyed only managers."
+      },
+      {
+        "key": "E",
+        "text": "The company installed new software that automated several tasks at the same time."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "E"
+    },
+    "explanation": "If automation was introduced at the same time, the productivity gain may have been caused by the software rather than the shorter workweek. Choice E.",
+    "estimatedTimeSeconds": 75,
+    "tags": [
+      "weaken"
+    ],
+    "orderIndex": 10
+  },
+  {
+    "id": "q051",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "strengthen",
+    "difficulty": "medium",
+    "stem": "A report claims that a new fertilizer increased crop yields. Which statement most strengthens the claim?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "The fertilizer was tested on matching plots, with some plots receiving a placebo treatment."
+      },
+      {
+        "key": "B",
+        "text": "The farm's weather was warmer than usual."
+      },
+      {
+        "key": "C",
+        "text": "The farmer planned to buy more fertilizer next year."
+      },
+      {
+        "key": "D",
+        "text": "The crop prices rose after harvest."
+      },
+      {
+        "key": "E",
+        "text": "The soil had been used for many years."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "A controlled comparison between treated plots and placebo plots makes it more likely that the fertilizer, rather than some other factor, caused the higher yield. Choice A.",
+    "estimatedTimeSeconds": 75,
+    "tags": [
+      "strengthen"
+    ],
+    "orderIndex": 11
+  },
+  {
+    "id": "q052",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "inference",
+    "difficulty": "medium",
+    "stem": "Every consultant on Team Blue has completed certification. No certified consultant works on weekends. Some Team Blue consultants work remotely. Which statement can be inferred?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Some remote workers are not consultants."
+      },
+      {
+        "key": "B",
+        "text": "Some Team Blue consultants work on weekends."
+      },
+      {
+        "key": "C",
+        "text": "No Team Blue consultant works on weekends."
+      },
+      {
+        "key": "D",
+        "text": "All certified consultants work remotely."
+      },
+      {
+        "key": "E",
+        "text": "Some Team Blue consultants are not certified."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "Team Blue consultants are certified, and certified consultants do not work on weekends. Therefore, no Team Blue consultant works on weekends. Choice C.",
+    "estimatedTimeSeconds": 65,
+    "tags": [
+      "inference"
+    ],
+    "orderIndex": 12
+  },
+  {
+    "id": "q053",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "evaluate",
+    "difficulty": "hard",
+    "stem": "A library is considering installing solar panels and expects them to reduce operating expenses over 15 years. Which information would be most useful in evaluating the plan?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "How many books the library lends each month"
+      },
+      {
+        "key": "B",
+        "text": "Whether the library has already bought solar panels"
+      },
+      {
+        "key": "C",
+        "text": "How many events the library hosts each year"
+      },
+      {
+        "key": "D",
+        "text": "Expected maintenance and replacement costs of the panels"
+      },
+      {
+        "key": "E",
+        "text": "Whether nearby libraries use solar power"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "D"
+    },
+    "explanation": "To judge whether the panels reduce expenses, the library needs to know the costs of maintaining and eventually replacing them. Those costs determine whether the projected savings are real. Choice D.",
+    "estimatedTimeSeconds": 80,
+    "tags": [
+      "evaluate"
+    ],
+    "orderIndex": 13
+  },
+  {
+    "id": "q054",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "boldface",
+    "difficulty": "hard",
+    "stem": "An analyst notes that sales rose after a new ad campaign launched. **The campaign must have caused the increase.** But sales also rose in regions where the ads never ran. **The regional comparison is more reliable than the raw sales totals.** Which option best describes the roles of the boldfaced statements?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "The first is a conclusion; the second is a premise."
+      },
+      {
+        "key": "B",
+        "text": "The first is a premise; the second is a conclusion."
+      },
+      {
+        "key": "C",
+        "text": "Both are premises."
+      },
+      {
+        "key": "D",
+        "text": "Both are conclusions."
+      },
+      {
+        "key": "E",
+        "text": "The first is an objection; the second is a conclusion."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "The first boldface sentence is the analyst's conclusion. The second boldface sentence is a factual comparison used to support a challenge to the conclusion, so it functions as a premise in the argument structure. Choice A.",
+    "estimatedTimeSeconds": 80,
+    "tags": [
+      "boldface"
+    ],
+    "orderIndex": 14
+  },
+  {
+    "id": "q055",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "flaw",
+    "difficulty": "hard",
+    "stem": "Neighborhoods with more parks tend to have lower crime rates. Therefore, building more parks will reduce crime. Which flaw best describes the reasoning?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "It appeals to popularity."
+      },
+      {
+        "key": "B",
+        "text": "It infers causation from correlation."
+      },
+      {
+        "key": "C",
+        "text": "It compares unlike things."
+      },
+      {
+        "key": "D",
+        "text": "It treats a necessary condition as sufficient."
+      },
+      {
+        "key": "E",
+        "text": "It uses an analogy that is too weak."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "The argument assumes that because two things are associated, one must cause the other. That is a correlation-to-causation flaw. Choice B.",
+    "estimatedTimeSeconds": 70,
+    "tags": [
+      "flaw"
+    ],
+    "orderIndex": 15
+  },
+  {
+    "id": "q056",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "paradox",
+    "difficulty": "hard",
+    "stem": "A firm's customer satisfaction scores rose after it reduced support staff. Which statement, if true, best helps explain the surprising result?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "The company cut support staff and also removed its call center."
+      },
+      {
+        "key": "B",
+        "text": "Fewer customers used the product after the cuts."
+      },
+      {
+        "key": "C",
+        "text": "The company raised prices after the cuts."
+      },
+      {
+        "key": "D",
+        "text": "The surveys were completed by employees, not customers."
+      },
+      {
+        "key": "E",
+        "text": "The company introduced a self-service help system and chatbot that resolved issues more quickly."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "E"
+    },
+    "explanation": "A faster self-service system and chatbot could offset the smaller staff and improve customers' experience, explaining why satisfaction rose. Choice E.",
+    "estimatedTimeSeconds": 75,
+    "tags": [
+      "paradox"
+    ],
+    "orderIndex": 16
+  },
+  {
+    "id": "q057",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "assumption",
+    "difficulty": "hard",
+    "stem": "A restaurant moves its tasting menu to Tuesdays because customers will be more willing to try unfamiliar dishes on slower nights. Which assumption is required?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "The restaurant will lower the price of the tasting menu."
+      },
+      {
+        "key": "B",
+        "text": "Customers never change their dining habits."
+      },
+      {
+        "key": "C",
+        "text": "The restaurant will advertise only on social media."
+      },
+      {
+        "key": "D",
+        "text": "Tuesdays will still attract enough diners for the tasting menu to be profitable."
+      },
+      {
+        "key": "E",
+        "text": "The chef prefers Tuesdays to weekends."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "D"
+    },
+    "explanation": "The reasoning assumes that Tuesday demand will still be sufficient for the tasting menu to succeed; otherwise the move could reduce revenue even if diners are adventurous. Choice D.",
+    "estimatedTimeSeconds": 75,
+    "tags": [
+      "assumption"
+    ],
+    "orderIndex": 17
+  },
+  {
+    "id": "q058",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "weaken",
+    "difficulty": "hard",
+    "stem": "A company says a new training program reduced employee errors. Which statement most weakens the claim?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "The employees who attended the training already had fewer errors before the program began."
+      },
+      {
+        "key": "B",
+        "text": "The training lasted two days instead of one."
+      },
+      {
+        "key": "C",
+        "text": "Some employees said they enjoyed the program."
+      },
+      {
+        "key": "D",
+        "text": "The company's software was upgraded after the program."
+      },
+      {
+        "key": "E",
+        "text": "Managers praised the training materials."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "If the employees who took the training were already making fewer errors, the improvement may have reflected the initial difference rather than the program itself. Choice A.",
+    "estimatedTimeSeconds": 75,
+    "tags": [
+      "weaken"
+    ],
+    "orderIndex": 18
+  },
+  {
+    "id": "q059",
+    "section": "verbal",
+    "type": "reading_comprehension",
+    "topic": "main idea",
+    "difficulty": "easy",
+    "stem": "According to the passage, what is the main point about urban beekeeping?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Urban beekeeping is always harmful to city ecosystems."
+      },
+      {
+        "key": "B",
+        "text": "Rooftop hives produce more honey than park hives in every city."
+      },
+      {
+        "key": "C",
+        "text": "City bees do best when the local habitat is diverse, so adding more hives alone is not enough."
+      },
+      {
+        "key": "D",
+        "text": "Pesticides are the only factor that affects honey production."
+      },
+      {
+        "key": "E",
+        "text": "Pollination in cities is impossible without rural land nearby."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "The passage argues that urban beekeeping succeeds only when the surrounding habitat is diverse enough to support the bees; simply increasing hive numbers is not sufficient. Choice C.",
+    "estimatedTimeSeconds": 70,
+    "tags": [
+      "rc",
+      "main idea"
+    ],
+    "groupId": "rc-p1",
+    "orderIndex": 1
+  },
+  {
+    "id": "q060",
+    "section": "verbal",
+    "type": "reading_comprehension",
+    "topic": "detail",
+    "difficulty": "easy",
+    "stem": "In the study described in the passage, hive health was strongest under which condition?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Where traffic is heaviest"
+      },
+      {
+        "key": "B",
+        "text": "Where flowering plants are diverse and nearby green spaces are pesticide-free"
+      },
+      {
+        "key": "C",
+        "text": "Only on rooftops"
+      },
+      {
+        "key": "D",
+        "text": "Only in parks with large ponds"
+      },
+      {
+        "key": "E",
+        "text": "Near industrial districts"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "The passage says hive health was strongest where flowering plants were diverse and where the immediate surroundings included small, pesticide-free green spaces. Choice B.",
+    "estimatedTimeSeconds": 60,
+    "tags": [
+      "rc",
+      "detail"
+    ],
+    "groupId": "rc-p1",
+    "orderIndex": 2
+  },
+  {
+    "id": "q061",
+    "section": "verbal",
+    "type": "reading_comprehension",
+    "topic": "inference",
+    "difficulty": "medium",
+    "stem": "Which inference is best supported by the passage?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "More hives automatically increase honey production."
+      },
+      {
+        "key": "B",
+        "text": "Disease is more common in rural areas than in cities."
+      },
+      {
+        "key": "C",
+        "text": "Urban bees cannot survive without rooftop hives."
+      },
+      {
+        "key": "D",
+        "text": "Adding more hives without more floral diversity could worsen conditions."
+      },
+      {
+        "key": "E",
+        "text": "Pollination is unrelated to the surrounding environment."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "D"
+    },
+    "explanation": "Because the researchers cautioned that more hives without improved floral diversity could intensify competition and stress, the best inference is that adding hives alone could worsen conditions. Choice D.",
+    "estimatedTimeSeconds": 75,
+    "tags": [
+      "rc",
+      "inference"
+    ],
+    "groupId": "rc-p1",
+    "orderIndex": 3
+  },
+  {
+    "id": "q062",
+    "section": "verbal",
+    "type": "reading_comprehension",
+    "topic": "function",
+    "difficulty": "medium",
+    "stem": "What is the function of the passage's final sentence?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "It warns readers against a simplistic policy recommendation."
+      },
+      {
+        "key": "B",
+        "text": "It introduces a contradictory finding."
+      },
+      {
+        "key": "C",
+        "text": "It provides a detailed statistical result."
+      },
+      {
+        "key": "D",
+        "text": "It shifts the passage to a historical discussion."
+      },
+      {
+        "key": "E",
+        "text": "It offers a definition of an urban hive."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "The final sentence cautions that expanding hive numbers without improving the habitat could be counterproductive. It functions as a warning against a simplistic solution. Choice A.",
+    "estimatedTimeSeconds": 70,
+    "tags": [
+      "rc",
+      "function"
+    ],
+    "groupId": "rc-p1",
+    "orderIndex": 4
+  },
+  {
+    "id": "q063",
+    "section": "verbal",
+    "type": "reading_comprehension",
+    "topic": "main idea",
+    "difficulty": "easy",
+    "stem": "What is the main idea of the passage about multispectral imaging in restoration?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "The old solvents are more effective than imaging."
+      },
+      {
+        "key": "B",
+        "text": "Imaging replaces all judgment in restoration work."
+      },
+      {
+        "key": "C",
+        "text": "Conservators now ignore historical value."
+      },
+      {
+        "key": "D",
+        "text": "Imaging helps restorers analyze works before intervening, but it does not eliminate the need for judgment."
+      },
+      {
+        "key": "E",
+        "text": "Restoration is now always faster and cheaper."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "D"
+    },
+    "explanation": "The passage presents multispectral imaging as a useful tool that lets conservators study a work before cleaning it, while emphasizing that human judgment is still necessary. Choice D.",
+    "estimatedTimeSeconds": 70,
+    "tags": [
+      "rc",
+      "main idea"
+    ],
+    "groupId": "rc-p2",
+    "orderIndex": 1
+  },
+  {
+    "id": "q064",
+    "section": "verbal",
+    "type": "reading_comprehension",
+    "topic": "detail",
+    "difficulty": "medium",
+    "stem": "According to the passage, what has reduced accidental loss of fragile layers in some restorations?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "It has eliminated the need for any chemical cleaning."
+      },
+      {
+        "key": "B",
+        "text": "It can always identify every pigment without error."
+      },
+      {
+        "key": "C",
+        "text": "It has made restorations universally cheaper."
+      },
+      {
+        "key": "D",
+        "text": "It has reduced accidental damage by letting teams map composition before touching the surface."
+      },
+      {
+        "key": "E",
+        "text": "It has made murals easier to repaint from scratch."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "D"
+    },
+    "explanation": "The passage says teams now map the composition before touching the surface, which has reduced accidental loss of fragile layers in several cases. Choice D.",
+    "estimatedTimeSeconds": 65,
+    "tags": [
+      "rc",
+      "detail"
+    ],
+    "groupId": "rc-p2",
+    "orderIndex": 2
+  },
+  {
+    "id": "q065",
+    "section": "verbal",
+    "type": "reading_comprehension",
+    "topic": "inference",
+    "difficulty": "hard",
+    "stem": "Which inference is best supported by the passage?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "The technique is useless for valuable works."
+      },
+      {
+        "key": "B",
+        "text": "The technique is best used only after a work has been fully cleaned."
+      },
+      {
+        "key": "C",
+        "text": "The technique is especially attractive when the cost is justified by the historical value of the work."
+      },
+      {
+        "key": "D",
+        "text": "The technique always produces the same result as traditional inspection."
+      },
+      {
+        "key": "E",
+        "text": "The technique is mainly designed for outdoor sculptures."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "The passage notes that imaging can be slower and more expensive, and that advocates see the cost as justified when the work has historical value that cannot be recovered if lost. That supports choice C.",
+    "estimatedTimeSeconds": 80,
+    "tags": [
+      "rc",
+      "inference"
+    ],
+    "groupId": "rc-p2",
+    "orderIndex": 3
+  },
+  {
+    "id": "q066",
+    "section": "verbal",
+    "type": "reading_comprehension",
+    "topic": "function",
+    "difficulty": "hard",
+    "stem": "What is the function of the sentence, 'The technique does not replace judgment, because some spectral signatures overlap and can be misread'?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "It emphasizes uncertainty to avoid overstating the technique's value."
+      },
+      {
+        "key": "B",
+        "text": "It introduces a new restoration method unrelated to the main topic."
+      },
+      {
+        "key": "C",
+        "text": "It proves that restoration no longer needs experts."
+      },
+      {
+        "key": "D",
+        "text": "It shifts the passage from analysis to anecdote."
+      },
+      {
+        "key": "E",
+        "text": "It qualifies the earlier praise by noting a limitation of the technique."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "E"
+    },
+    "explanation": "This sentence qualifies the earlier positive discussion by explaining that imaging has limits and cannot fully replace expert judgment. Choice E.",
+    "estimatedTimeSeconds": 75,
+    "tags": [
+      "rc",
+      "function"
+    ],
+    "groupId": "rc-p2",
+    "orderIndex": 4
+  },
+  {
+    "id": "q067",
+    "section": "verbal",
+    "type": "reading_comprehension",
+    "topic": "main idea",
+    "difficulty": "easy",
+    "stem": "What is the main point of the passage about offshore wind farms?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Offshore wind farms affect marine life in uneven ways, so they should be assessed site by site."
+      },
+      {
+        "key": "B",
+        "text": "Wind farms always increase biodiversity in the sea."
+      },
+      {
+        "key": "C",
+        "text": "Fish avoid all turbine foundations permanently."
+      },
+      {
+        "key": "D",
+        "text": "Construction has no measurable effect on fish populations."
+      },
+      {
+        "key": "E",
+        "text": "The study focuses mainly on coastal birds."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "The passage explains that wind farms can help some species and displace others, so their effects must be evaluated site by site. Choice A.",
+    "estimatedTimeSeconds": 70,
+    "tags": [
+      "rc",
+      "main idea"
+    ],
+    "groupId": "rc-p3",
+    "orderIndex": 1
+  },
+  {
+    "id": "q068",
+    "section": "verbal",
+    "type": "reading_comprehension",
+    "topic": "detail",
+    "difficulty": "medium",
+    "stem": "According to the study, what happened to fish populations near turbine foundations during construction?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "They disappeared completely during construction and never returned."
+      },
+      {
+        "key": "B",
+        "text": "They increased only in open water areas."
+      },
+      {
+        "key": "C",
+        "text": "They dipped during construction and then rebounded later."
+      },
+      {
+        "key": "D",
+        "text": "They stayed exactly the same throughout the study."
+      },
+      {
+        "key": "E",
+        "text": "They were unaffected only near turbine foundations."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "The passage says fish populations near turbine foundations initially dipped during construction but later rebounded. Choice C.",
+    "estimatedTimeSeconds": 65,
+    "tags": [
+      "rc",
+      "detail"
+    ],
+    "groupId": "rc-p3",
+    "orderIndex": 2
+  },
+  {
+    "id": "q069",
+    "section": "verbal",
+    "type": "reading_comprehension",
+    "topic": "inference",
+    "difficulty": "hard",
+    "stem": "Which inference is best supported by the passage?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "The study proves that offshore wind farms always harm fish."
+      },
+      {
+        "key": "B",
+        "text": "A structure may help one species while displacing another."
+      },
+      {
+        "key": "C",
+        "text": "Open-water species thrive near all artificial reefs."
+      },
+      {
+        "key": "D",
+        "text": "Construction never matters once the farm is built."
+      },
+      {
+        "key": "E",
+        "text": "The researchers ignored species differences."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "Because some species clustered around the foundations while open-water species remained sparse, the passage supports the inference that a structure can benefit one species while displacing another. Choice B.",
+    "estimatedTimeSeconds": 75,
+    "tags": [
+      "rc",
+      "inference"
+    ],
+    "groupId": "rc-p3",
+    "orderIndex": 3
+  },
+  {
+    "id": "q070",
+    "section": "verbal",
+    "type": "reading_comprehension",
+    "topic": "function",
+    "difficulty": "hard",
+    "stem": "What is the function of the final sentence, in which the authors argue that wind farms should be evaluated site by site?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "It dismisses the study as unimportant."
+      },
+      {
+        "key": "B",
+        "text": "It provides an emotional appeal."
+      },
+      {
+        "key": "C",
+        "text": "It changes the topic to the economics of wind power."
+      },
+      {
+        "key": "D",
+        "text": "It summarizes the authors' cautious conclusion about evaluating each site separately."
+      },
+      {
+        "key": "E",
+        "text": "It introduces a counterexample to the study's central finding."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "D"
+    },
+    "explanation": "The final sentence states the authors' cautious conclusion: effects vary, so each site should be judged individually. Choice D.",
+    "estimatedTimeSeconds": 70,
+    "tags": [
+      "rc",
+      "function"
+    ],
+    "groupId": "rc-p3",
+    "orderIndex": 4
+  }
+]

@@ -1,0 +1,1651 @@
+[
+  {
+    "id": "q071",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "algebra",
+    "difficulty": "easy",
+    "stem": "What is the value of $x$?\n(1) $x^2 = 25$\n(2) $x > 0$",
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "Statement (1) gives $x^2=25$, so $x$ could be $5$ or $-5$ and is not unique. Statement (2) says $x>0$, which still does not determine $x$. Together, $x^2=25$ and $x>0$ force $x=5$. Therefore, both statements together are sufficient, but neither alone is sufficient. Choice C.",
+    "estimatedTimeSeconds": 75,
+    "tags": [
+      "algebra"
+    ],
+    "orderIndex": 1
+  },
+  {
+    "id": "q072",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "geometry",
+    "difficulty": "easy",
+    "stem": "Is quadrilateral $WXYZ$ a rectangle?\n(1) Opposite sides of $WXYZ$ are parallel.\n(2) One angle of $WXYZ$ measures $90^\\circ$.",
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "Statement (1) says opposite sides are parallel, which could describe any parallelogram and is not enough to prove the figure is a rectangle. Statement (2) says one angle is $90^\\circ$, which alone is also not enough. Together, a parallelogram with one right angle must be a rectangle. Choice C.",
+    "estimatedTimeSeconds": 80,
+    "tags": [
+      "geometry"
+    ],
+    "orderIndex": 2
+  },
+  {
+    "id": "q073",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "number properties",
+    "difficulty": "easy",
+    "stem": "Is integer $n$ divisible by 12?\n(1) $n$ is divisible by 4.\n(2) $n$ is divisible by 3.",
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "Statement (1) gives divisibility by 4, which is not enough to conclude divisibility by 12. Statement (2) gives divisibility by 3, which is also not enough. Together, divisibility by 4 and 3 implies divisibility by 12 for an integer. Choice C.",
+    "estimatedTimeSeconds": 75,
+    "tags": [
+      "number properties"
+    ],
+    "orderIndex": 3
+  },
+  {
+    "id": "q074",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "statistics",
+    "difficulty": "easy",
+    "stem": "What is the average (arithmetic mean) of the 6 numbers in a data set?\n(1) The 6 numbers have a sum of 72.\n(2) The median of the 6 numbers is 10.",
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "Statement (1) gives the sum of the 6 numbers as 72, so the mean is $72/6=12$. That is sufficient. Statement (2) gives the median, which does not determine the mean. Choice A.",
+    "estimatedTimeSeconds": 70,
+    "tags": [
+      "statistics"
+    ],
+    "orderIndex": 4
+  },
+  {
+    "id": "q075",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "inequalities",
+    "difficulty": "medium",
+    "stem": "Is $x = y$?\n(1) $x > 0$\n(2) $y > 0$",
+    "correctAnswer": {
+      "format": "single",
+      "value": "E"
+    },
+    "explanation": "Statement (1) says only that $x>0$, which does not determine whether $x=y$. Statement (2) says only that $y>0$, which also does not determine whether $x=y$. Together, $x$ and $y$ can still be equal or unequal. For example, $x=1,y=1$ works, and $x=1,y=2$ also works. Choice E.",
+    "estimatedTimeSeconds": 80,
+    "tags": [
+      "inequalities"
+    ],
+    "orderIndex": 5
+  },
+  {
+    "id": "q076",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "rates/work",
+    "difficulty": "medium",
+    "stem": "How long does machine A take to complete a job alone?\n(1) Machines A and B, working together, complete the job in 4 hours.\n(2) Machine B alone takes 12 hours, and together A and B complete the job in 4 hours.",
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "Statement (1) says A and B together finish the job in 4 hours, which is not enough to isolate A's individual time. Statement (2) says B alone takes 12 hours and together they take 4 hours, so the combined rate is $1/4$ and B's rate is $1/12$. A's rate is $1/4-1/12=1/6$, so A alone takes 6 hours. Statement (2) is sufficient. Choice B.",
+    "estimatedTimeSeconds": 85,
+    "tags": [
+      "rates",
+      "work"
+    ],
+    "orderIndex": 6
+  },
+  {
+    "id": "q077",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "overlapping sets",
+    "difficulty": "medium",
+    "stem": "In a survey, how many students belong to both Club A and Club B?\n(1) Exactly 30 students belong to at least one of the two clubs.\n(2) 18 students belong to Club A and 20 students belong to Club B.",
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "Statement (1) says 30 students were in at least one of the two clubs. That alone does not determine the overlap. Statement (2) says 18 are in Club A and 20 are in Club B, which also does not determine the overlap without the union or the number in neither. Together, the union is 30 and the total memberships are 18 + 20. So the overlap is $18+20-30=8$. Both together are sufficient. Choice C.",
+    "estimatedTimeSeconds": 85,
+    "tags": [
+      "overlapping sets"
+    ],
+    "orderIndex": 7
+  },
+  {
+    "id": "q078",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "algebra",
+    "difficulty": "medium",
+    "stem": "What is the value of $x$?\n(1) $2x + 5 = 17$\n(2) $x^2 = 16$",
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "Statement (1) gives a single linear equation, $2x+5=17$, so $2x=12$ and $x=6$. That is sufficient. Statement (2), $x^2=16$, leaves $x=4$ or $x=-4$ and is not sufficient. Choice A.",
+    "estimatedTimeSeconds": 70,
+    "tags": [
+      "algebra"
+    ],
+    "orderIndex": 8
+  },
+  {
+    "id": "q079",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "geometry",
+    "difficulty": "hard",
+    "stem": "Is triangle $ABC$ isosceles?\n(1) Two sides of triangle $ABC$ are equal in length.\n(2) Two angles of triangle $ABC$ are equal.",
+    "correctAnswer": {
+      "format": "single",
+      "value": "D"
+    },
+    "explanation": "Statement (1) says two sides are equal, which by definition makes the triangle isosceles. Statement (2) says two angles are equal, which also guarantees the triangle is isosceles because equal angles in a triangle imply the opposite sides are equal. Each statement alone is sufficient. Choice D.",
+    "estimatedTimeSeconds": 75,
+    "tags": [
+      "geometry"
+    ],
+    "orderIndex": 9
+  },
+  {
+    "id": "q080",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "statistics",
+    "difficulty": "hard",
+    "stem": "What is the median of the 7 numbers in a data set?\n(1) The mean of the 7 numbers is 15.\n(2) The range of the 7 numbers is 12.",
+    "correctAnswer": {
+      "format": "single",
+      "value": "E"
+    },
+    "explanation": "Statement (1) gives the mean, which does not determine the median. Statement (2) gives the range, which also does not determine the median. Even together, the mean and range do not pin down the middle value uniquely. For example, different 7-number sets can have the same mean and range but different medians. Choice E.",
+    "estimatedTimeSeconds": 85,
+    "tags": [
+      "statistics"
+    ],
+    "orderIndex": 10
+  },
+  {
+    "id": "q081",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "number properties",
+    "difficulty": "hard",
+    "stem": "Is integer $n$ even?\n(1) $n$ is divisible by 8.\n(2) $n$ is a multiple of 4.",
+    "correctAnswer": {
+      "format": "single",
+      "value": "D"
+    },
+    "explanation": "Statement (1) says $n$ is divisible by 8, which guarantees that $n$ is even. Statement (2) says $n$ is a multiple of 4, which also guarantees that $n$ is even. Each statement alone is sufficient. Choice D.",
+    "estimatedTimeSeconds": 70,
+    "tags": [
+      "number properties"
+    ],
+    "orderIndex": 11
+  },
+  {
+    "id": "q082",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "overlapping sets",
+    "difficulty": "hard",
+    "stem": "In a survey of 50 students, how many belong to both Club X and Club Y?\n(1) Exactly 40 students belong to at least one of the two clubs.\n(2) 18 students belong only to Club X, 22 belong only to Club Y, and 8 belong to neither club.",
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "Statement (1) says 50 students were surveyed and 40 were in at least one of the two clubs. That does not determine the overlap. Statement (2) says 18 were in Club X only, 22 were in Club Y only, and 8 were in neither club. Since the total surveyed is 50, the number in both clubs is $50-18-22-8=2$, so statement (2) alone is sufficient. Choice B.",
+    "estimatedTimeSeconds": 85,
+    "tags": [
+      "overlapping sets"
+    ],
+    "orderIndex": 12
+  },
+  {
+    "id": "q083",
+    "section": "data_insights",
+    "type": "graphics_interpretation",
+    "topic": "chart reading",
+    "difficulty": "easy",
+    "stem": "Use the chart to complete the statement.",
+    "correctAnswer": {
+      "format": "dropdowns",
+      "value": {
+        "b1": "170"
+      }
+    },
+    "explanation": "The chart shows 170 visits in March, so the correct dropdown value is 170.",
+    "estimatedTimeSeconds": 45,
+    "tags": [
+      "graphics",
+      "chart"
+    ],
+    "assets": {
+      "chart": {
+        "type": "line",
+        "title": "Monthly visits",
+        "xKey": "month",
+        "xLabel": "Month",
+        "yLabel": "Visits",
+        "series": [
+          {
+            "key": "visits",
+            "label": "Visits"
+          }
+        ],
+        "data": [
+          {
+            "month": "Jan",
+            "visits": 120
+          },
+          {
+            "month": "Feb",
+            "visits": 135
+          },
+          {
+            "month": "Mar",
+            "visits": 170
+          },
+          {
+            "month": "Apr",
+            "visits": 160
+          }
+        ]
+      },
+      "dropdowns": [
+        {
+          "key": "b1",
+          "before": "In March, visits were ",
+          "after": ".",
+          "options": [
+            {
+              "value": "130"
+            },
+            {
+              "value": "150"
+            },
+            {
+              "value": "170"
+            },
+            {
+              "value": "180"
+            }
+          ]
+        }
+      ]
+    },
+    "orderIndex": 13
+  },
+  {
+    "id": "q084",
+    "section": "data_insights",
+    "type": "graphics_interpretation",
+    "topic": "chart reading",
+    "difficulty": "easy",
+    "stem": "Use the chart to complete the statement.",
+    "correctAnswer": {
+      "format": "dropdowns",
+      "value": {
+        "b1": "5"
+      }
+    },
+    "explanation": "In Q4, Store A sold 55 units and Store B sold 50 units. The difference is 5 units.",
+    "estimatedTimeSeconds": 45,
+    "tags": [
+      "graphics",
+      "bar chart"
+    ],
+    "assets": {
+      "chart": {
+        "type": "bar",
+        "title": "Store sales",
+        "xKey": "quarter",
+        "xLabel": "Quarter",
+        "yLabel": "Units sold",
+        "series": [
+          {
+            "key": "storeA",
+            "label": "Store A"
+          },
+          {
+            "key": "storeB",
+            "label": "Store B"
+          }
+        ],
+        "data": [
+          {
+            "quarter": "Q1",
+            "storeA": 40,
+            "storeB": 30
+          },
+          {
+            "quarter": "Q2",
+            "storeA": 50,
+            "storeB": 35
+          },
+          {
+            "quarter": "Q3",
+            "storeA": 60,
+            "storeB": 45
+          },
+          {
+            "quarter": "Q4",
+            "storeA": 55,
+            "storeB": 50
+          }
+        ]
+      },
+      "dropdowns": [
+        {
+          "key": "b1",
+          "before": "In Q4, Store A sold ",
+          "after": " more units than Store B.",
+          "options": [
+            {
+              "value": "0"
+            },
+            {
+              "value": "5"
+            },
+            {
+              "value": "10"
+            },
+            {
+              "value": "15"
+            }
+          ]
+        }
+      ]
+    },
+    "orderIndex": 14
+  },
+  {
+    "id": "q085",
+    "section": "data_insights",
+    "type": "graphics_interpretation",
+    "topic": "chart reading",
+    "difficulty": "medium",
+    "stem": "Use the chart to complete the statement.",
+    "correctAnswer": {
+      "format": "dropdowns",
+      "value": {
+        "b1": "52"
+      }
+    },
+    "explanation": "Team 3 has 28 adult completions and 24 youth completions. The total is $28+24=52$.",
+    "estimatedTimeSeconds": 50,
+    "tags": [
+      "graphics",
+      "sum"
+    ],
+    "assets": {
+      "chart": {
+        "type": "bar",
+        "title": "Course completions",
+        "xKey": "team",
+        "xLabel": "Team",
+        "yLabel": "Completions",
+        "series": [
+          {
+            "key": "adults",
+            "label": "Adults"
+          },
+          {
+            "key": "youth",
+            "label": "Youth"
+          }
+        ],
+        "data": [
+          {
+            "team": "Team 1",
+            "adults": 22,
+            "youth": 18
+          },
+          {
+            "team": "Team 2",
+            "adults": 25,
+            "youth": 20
+          },
+          {
+            "team": "Team 3",
+            "adults": 28,
+            "youth": 24
+          },
+          {
+            "team": "Team 4",
+            "adults": 30,
+            "youth": 26
+          }
+        ]
+      },
+      "dropdowns": [
+        {
+          "key": "b1",
+          "before": "The total number of completions for Team 3 was ",
+          "after": ".",
+          "options": [
+            {
+              "value": "48"
+            },
+            {
+              "value": "50"
+            },
+            {
+              "value": "52"
+            },
+            {
+              "value": "54"
+            }
+          ]
+        }
+      ]
+    },
+    "orderIndex": 15
+  },
+  {
+    "id": "q086",
+    "section": "data_insights",
+    "type": "graphics_interpretation",
+    "topic": "chart reading",
+    "difficulty": "medium",
+    "stem": "Use the chart to complete the statement.",
+    "correctAnswer": {
+      "format": "dropdowns",
+      "value": {
+        "b1": "82"
+      }
+    },
+    "explanation": "At 8 study hours, the point on the scatter plot is 82. The correct value is 82.",
+    "estimatedTimeSeconds": 45,
+    "tags": [
+      "graphics",
+      "scatter"
+    ],
+    "assets": {
+      "chart": {
+        "type": "scatter",
+        "title": "Study hours and test scores",
+        "xKey": "hours",
+        "xLabel": "Study hours",
+        "yLabel": "Score",
+        "series": [
+          {
+            "key": "score",
+            "label": "Score"
+          }
+        ],
+        "data": [
+          {
+            "hours": 2,
+            "score": 68
+          },
+          {
+            "hours": 4,
+            "score": 74
+          },
+          {
+            "hours": 6,
+            "score": 78
+          },
+          {
+            "hours": 8,
+            "score": 82
+          },
+          {
+            "hours": 10,
+            "score": 88
+          }
+        ]
+      },
+      "dropdowns": [
+        {
+          "key": "b1",
+          "before": "A student who studied 8 hours scored ",
+          "after": ".",
+          "options": [
+            {
+              "value": "78"
+            },
+            {
+              "value": "80"
+            },
+            {
+              "value": "82"
+            },
+            {
+              "value": "84"
+            }
+          ]
+        }
+      ]
+    },
+    "orderIndex": 16
+  },
+  {
+    "id": "q087",
+    "section": "data_insights",
+    "type": "graphics_interpretation",
+    "topic": "chart reading",
+    "difficulty": "hard",
+    "stem": "Use the chart to complete the statement.",
+    "correctAnswer": {
+      "format": "dropdowns",
+      "value": {
+        "b1": "2024"
+      }
+    },
+    "explanation": "Add the two series in each year: 75, 83, 95, and 105. The largest total is in 2024.",
+    "estimatedTimeSeconds": 50,
+    "tags": [
+      "graphics",
+      "trend"
+    ],
+    "assets": {
+      "chart": {
+        "type": "line",
+        "title": "Annual revenue",
+        "xKey": "year",
+        "xLabel": "Year",
+        "yLabel": "Revenue",
+        "series": [
+          {
+            "key": "alpha",
+            "label": "Alpha"
+          },
+          {
+            "key": "beta",
+            "label": "Beta"
+          }
+        ],
+        "data": [
+          {
+            "year": "2021",
+            "alpha": 40,
+            "beta": 35
+          },
+          {
+            "year": "2022",
+            "alpha": 45,
+            "beta": 38
+          },
+          {
+            "year": "2023",
+            "alpha": 50,
+            "beta": 45
+          },
+          {
+            "year": "2024",
+            "alpha": 55,
+            "beta": 50
+          }
+        ]
+      },
+      "dropdowns": [
+        {
+          "key": "b1",
+          "before": "The year with the highest combined revenue was ",
+          "after": ".",
+          "options": [
+            {
+              "value": "2021"
+            },
+            {
+              "value": "2022"
+            },
+            {
+              "value": "2023"
+            },
+            {
+              "value": "2024"
+            }
+          ]
+        }
+      ]
+    },
+    "orderIndex": 17
+  },
+  {
+    "id": "q088",
+    "section": "data_insights",
+    "type": "graphics_interpretation",
+    "topic": "chart reading",
+    "difficulty": "hard",
+    "stem": "Use the chart to complete the statement.",
+    "correctAnswer": {
+      "format": "dropdowns",
+      "value": {
+        "b1": "Wed"
+      }
+    },
+    "explanation": "The chart shows 20 inbound calls and 20 outbound calls on Wednesday, so the values are equal on Wed.",
+    "estimatedTimeSeconds": 45,
+    "tags": [
+      "graphics",
+      "equality"
+    ],
+    "assets": {
+      "chart": {
+        "type": "bar",
+        "title": "Support calls",
+        "xKey": "day",
+        "xLabel": "Day",
+        "yLabel": "Calls",
+        "series": [
+          {
+            "key": "inbound",
+            "label": "Inbound"
+          },
+          {
+            "key": "outbound",
+            "label": "Outbound"
+          }
+        ],
+        "data": [
+          {
+            "day": "Mon",
+            "inbound": 24,
+            "outbound": 18
+          },
+          {
+            "day": "Tue",
+            "inbound": 22,
+            "outbound": 20
+          },
+          {
+            "day": "Wed",
+            "inbound": 20,
+            "outbound": 20
+          },
+          {
+            "day": "Thu",
+            "inbound": 26,
+            "outbound": 19
+          }
+        ]
+      },
+      "dropdowns": [
+        {
+          "key": "b1",
+          "before": "Inbound and outbound calls were equal on ",
+          "after": ".",
+          "options": [
+            {
+              "value": "Mon"
+            },
+            {
+              "value": "Tue"
+            },
+            {
+              "value": "Wed"
+            },
+            {
+              "value": "Thu"
+            }
+          ]
+        }
+      ]
+    },
+    "orderIndex": 18
+  },
+  {
+    "id": "q089",
+    "section": "data_insights",
+    "type": "table_analysis",
+    "topic": "table analysis",
+    "difficulty": "easy",
+    "stem": "For each statement, determine whether it is True or False according to the table.",
+    "choices": [
+      {
+        "key": "s1",
+        "text": "East has the highest number of orders."
+      },
+      {
+        "key": "s2",
+        "text": "South has more returns than North."
+      },
+      {
+        "key": "s3",
+        "text": "West has the fewest staff."
+      }
+    ],
+    "correctAnswer": {
+      "format": "dichotomous",
+      "value": {
+        "s1": "True",
+        "s2": "False",
+        "s3": "True"
+      }
+    },
+    "explanation": "East has 130 orders, the largest value in the table, so s1 is True. South has 10 returns versus North's 12, so s2 is False. West has 6 staff, the smallest staff count, so s3 is True.",
+    "estimatedTimeSeconds": 45,
+    "tags": [
+      "table",
+      "comparison"
+    ],
+    "assets": {
+      "table": {
+        "sortable": true,
+        "caption": "Branch performance",
+        "columns": [
+          {
+            "key": "branch",
+            "label": "Branch"
+          },
+          {
+            "key": "orders",
+            "label": "Orders",
+            "numeric": true
+          },
+          {
+            "key": "returns",
+            "label": "Returns",
+            "numeric": true
+          },
+          {
+            "key": "staff",
+            "label": "Staff",
+            "numeric": true
+          }
+        ],
+        "rows": [
+          {
+            "branch": "North",
+            "orders": 120,
+            "returns": 12,
+            "staff": 8
+          },
+          {
+            "branch": "South",
+            "orders": 95,
+            "returns": 10,
+            "staff": 7
+          },
+          {
+            "branch": "East",
+            "orders": 130,
+            "returns": 15,
+            "staff": 9
+          },
+          {
+            "branch": "West",
+            "orders": 110,
+            "returns": 8,
+            "staff": 6
+          }
+        ]
+      },
+      "dichotomous": {
+        "labels": [
+          "True",
+          "False"
+        ]
+      }
+    },
+    "orderIndex": 19
+  },
+  {
+    "id": "q090",
+    "section": "data_insights",
+    "type": "table_analysis",
+    "topic": "table analysis",
+    "difficulty": "easy",
+    "stem": "For each statement, determine whether it is True or False according to the table.",
+    "choices": [
+      {
+        "key": "s1",
+        "text": "Library C has the most members."
+      },
+      {
+        "key": "s2",
+        "text": "Library B held fewer events than Library D."
+      },
+      {
+        "key": "s3",
+        "text": "Library A had the most new members."
+      }
+    ],
+    "correctAnswer": {
+      "format": "dichotomous",
+      "value": {
+        "s1": "True",
+        "s2": "True",
+        "s3": "False"
+      }
+    },
+    "explanation": "Library C has 260 members, the highest count, so s1 is True. Library B held 11 events and Library D held 12, so s2 is True. Library A had 32 new members, while Library C had 35, so s3 is False.",
+    "estimatedTimeSeconds": 45,
+    "tags": [
+      "table",
+      "library"
+    ],
+    "assets": {
+      "table": {
+        "sortable": true,
+        "caption": "Library activity",
+        "columns": [
+          {
+            "key": "library",
+            "label": "Library"
+          },
+          {
+            "key": "members",
+            "label": "Members",
+            "numeric": true
+          },
+          {
+            "key": "new",
+            "label": "New Members",
+            "numeric": true
+          },
+          {
+            "key": "events",
+            "label": "Events",
+            "numeric": true
+          }
+        ],
+        "rows": [
+          {
+            "library": "A",
+            "members": 240,
+            "new": 32,
+            "events": 14
+          },
+          {
+            "library": "B",
+            "members": 180,
+            "new": 28,
+            "events": 11
+          },
+          {
+            "library": "C",
+            "members": 260,
+            "new": 35,
+            "events": 15
+          },
+          {
+            "library": "D",
+            "members": 210,
+            "new": 30,
+            "events": 12
+          }
+        ]
+      },
+      "dichotomous": {
+        "labels": [
+          "True",
+          "False"
+        ]
+      }
+    },
+    "orderIndex": 20
+  },
+  {
+    "id": "q091",
+    "section": "data_insights",
+    "type": "table_analysis",
+    "topic": "table analysis",
+    "difficulty": "medium",
+    "stem": "For each statement, determine whether it is True or False according to the table.",
+    "choices": [
+      {
+        "key": "s1",
+        "text": "Operations has the highest budget."
+      },
+      {
+        "key": "s2",
+        "text": "Marketing has fewer delayed projects than IT."
+      },
+      {
+        "key": "s3",
+        "text": "Research and IT completed the same number of projects."
+      }
+    ],
+    "correctAnswer": {
+      "format": "dichotomous",
+      "value": {
+        "s1": "True",
+        "s2": "False",
+        "s3": "False"
+      }
+    },
+    "explanation": "Operations has the largest budget at 55, so s1 is True. Marketing has 6 delayed projects and IT has 5, so s2 is False. Research completed 18 projects and IT completed 17, so s3 is False.",
+    "estimatedTimeSeconds": 45,
+    "tags": [
+      "table",
+      "projects"
+    ],
+    "assets": {
+      "table": {
+        "sortable": true,
+        "caption": "Department project summary",
+        "columns": [
+          {
+            "key": "dept",
+            "label": "Department"
+          },
+          {
+            "key": "completed",
+            "label": "Completed",
+            "numeric": true
+          },
+          {
+            "key": "delayed",
+            "label": "Delayed",
+            "numeric": true
+          },
+          {
+            "key": "budget",
+            "label": "Budget",
+            "numeric": true
+          }
+        ],
+        "rows": [
+          {
+            "dept": "Research",
+            "completed": 18,
+            "delayed": 4,
+            "budget": 50
+          },
+          {
+            "dept": "Marketing",
+            "completed": 15,
+            "delayed": 6,
+            "budget": 45
+          },
+          {
+            "dept": "Operations",
+            "completed": 20,
+            "delayed": 3,
+            "budget": 55
+          },
+          {
+            "dept": "IT",
+            "completed": 17,
+            "delayed": 5,
+            "budget": 48
+          }
+        ]
+      },
+      "dichotomous": {
+        "labels": [
+          "True",
+          "False"
+        ]
+      }
+    },
+    "orderIndex": 21
+  },
+  {
+    "id": "q092",
+    "section": "data_insights",
+    "type": "table_analysis",
+    "topic": "table analysis",
+    "difficulty": "medium",
+    "stem": "For each statement, determine whether it is True or False according to the table.",
+    "choices": [
+      {
+        "key": "s1",
+        "text": "East is the longest route."
+      },
+      {
+        "key": "s2",
+        "text": "West has the shortest travel time."
+      },
+      {
+        "key": "s3",
+        "text": "South has more tolls than East."
+      }
+    ],
+    "correctAnswer": {
+      "format": "dichotomous",
+      "value": {
+        "s1": "True",
+        "s2": "True",
+        "s3": "True"
+      }
+    },
+    "explanation": "East has the greatest distance at 45, so s1 is True. West has the smallest time at 48, so s2 is True. South has 8 tolls and East has 5, so s3 is True.",
+    "estimatedTimeSeconds": 45,
+    "tags": [
+      "table",
+      "routes"
+    ],
+    "assets": {
+      "table": {
+        "sortable": true,
+        "caption": "Commute routes",
+        "columns": [
+          {
+            "key": "route",
+            "label": "Route"
+          },
+          {
+            "key": "distance",
+            "label": "Distance",
+            "numeric": true
+          },
+          {
+            "key": "time",
+            "label": "Time",
+            "numeric": true
+          },
+          {
+            "key": "tolls",
+            "label": "Tolls",
+            "numeric": true
+          }
+        ],
+        "rows": [
+          {
+            "route": "North",
+            "distance": 42,
+            "time": 55,
+            "tolls": 6
+          },
+          {
+            "route": "South",
+            "distance": 38,
+            "time": 50,
+            "tolls": 8
+          },
+          {
+            "route": "East",
+            "distance": 45,
+            "time": 60,
+            "tolls": 5
+          },
+          {
+            "route": "West",
+            "distance": 40,
+            "time": 48,
+            "tolls": 7
+          }
+        ]
+      },
+      "dichotomous": {
+        "labels": [
+          "True",
+          "False"
+        ]
+      }
+    },
+    "orderIndex": 22
+  },
+  {
+    "id": "q093",
+    "section": "data_insights",
+    "type": "table_analysis",
+    "topic": "table analysis",
+    "difficulty": "hard",
+    "stem": "For each statement, determine whether it is True or False according to the table.",
+    "choices": [
+      {
+        "key": "s1",
+        "text": "Product B has the highest profit."
+      },
+      {
+        "key": "s2",
+        "text": "Product D sold the most units."
+      },
+      {
+        "key": "s3",
+        "text": "Product A has the lowest price."
+      }
+    ],
+    "correctAnswer": {
+      "format": "dichotomous",
+      "value": {
+        "s1": "True",
+        "s2": "True",
+        "s3": "False"
+      }
+    },
+    "explanation": "Product B has the greatest profit at 22, so s1 is True. Product D sold 95 units, the most in the table, so s2 is True. Product D has the lowest price at 11, not Product A, so s3 is False.",
+    "estimatedTimeSeconds": 45,
+    "tags": [
+      "table",
+      "profit"
+    ],
+    "assets": {
+      "table": {
+        "sortable": true,
+        "caption": "Product performance",
+        "columns": [
+          {
+            "key": "product",
+            "label": "Product"
+          },
+          {
+            "key": "profit",
+            "label": "Profit",
+            "numeric": true
+          },
+          {
+            "key": "units",
+            "label": "Units",
+            "numeric": true
+          },
+          {
+            "key": "price",
+            "label": "Price",
+            "numeric": true
+          }
+        ],
+        "rows": [
+          {
+            "product": "A",
+            "profit": 18,
+            "units": 90,
+            "price": 12
+          },
+          {
+            "product": "B",
+            "profit": 22,
+            "units": 80,
+            "price": 15
+          },
+          {
+            "product": "C",
+            "profit": 20,
+            "units": 85,
+            "price": 14
+          },
+          {
+            "product": "D",
+            "profit": 16,
+            "units": 95,
+            "price": 11
+          }
+        ]
+      },
+      "dichotomous": {
+        "labels": [
+          "True",
+          "False"
+        ]
+      }
+    },
+    "orderIndex": 23
+  },
+  {
+    "id": "q094",
+    "section": "data_insights",
+    "type": "table_analysis",
+    "topic": "table analysis",
+    "difficulty": "hard",
+    "stem": "For each statement, determine whether it is True or False according to the table.",
+    "choices": [
+      {
+        "key": "s1",
+        "text": "City C has the most visitors."
+      },
+      {
+        "key": "s2",
+        "text": "City B has the highest rating."
+      },
+      {
+        "key": "s3",
+        "text": "City D has a lower cost than City A."
+      }
+    ],
+    "correctAnswer": {
+      "format": "dichotomous",
+      "value": {
+        "s1": "True",
+        "s2": "True",
+        "s3": "True"
+      }
+    },
+    "explanation": "City C has 150 visitors, the highest total, so s1 is True. City B has the highest rating at 5, so s2 is True. City D's cost is 8, which is lower than City A's cost of 9, so s3 is True.",
+    "estimatedTimeSeconds": 45,
+    "tags": [
+      "table",
+      "cities"
+    ],
+    "assets": {
+      "table": {
+        "sortable": true,
+        "caption": "City comparison",
+        "columns": [
+          {
+            "key": "city",
+            "label": "City"
+          },
+          {
+            "key": "visitors",
+            "label": "Visitors",
+            "numeric": true
+          },
+          {
+            "key": "cost",
+            "label": "Cost",
+            "numeric": true
+          },
+          {
+            "key": "rating",
+            "label": "Rating",
+            "numeric": true
+          }
+        ],
+        "rows": [
+          {
+            "city": "A",
+            "visitors": 140,
+            "cost": 9,
+            "rating": 4
+          },
+          {
+            "city": "B",
+            "visitors": 125,
+            "cost": 7,
+            "rating": 5
+          },
+          {
+            "city": "C",
+            "visitors": 150,
+            "cost": 10,
+            "rating": 4
+          },
+          {
+            "city": "D",
+            "visitors": 135,
+            "cost": 8,
+            "rating": 3
+          }
+        ]
+      },
+      "dichotomous": {
+        "labels": [
+          "True",
+          "False"
+        ]
+      }
+    },
+    "orderIndex": 24
+  },
+  {
+    "id": "q095",
+    "section": "data_insights",
+    "type": "two_part_analysis",
+    "topic": "algebra",
+    "difficulty": "easy",
+    "stem": "For the system of equations $2x+y=11$ and $x-y=1$, determine the values of $x$ and $y$.",
+    "choices": [
+      {
+        "key": "r1",
+        "text": "2"
+      },
+      {
+        "key": "r2",
+        "text": "3"
+      },
+      {
+        "key": "r3",
+        "text": "4"
+      },
+      {
+        "key": "r4",
+        "text": "5"
+      },
+      {
+        "key": "r5",
+        "text": "6"
+      },
+      {
+        "key": "r6",
+        "text": "7"
+      }
+    ],
+    "correctAnswer": {
+      "format": "two_part",
+      "value": {
+        "partA": "r3",
+        "partB": "r2"
+      }
+    },
+    "explanation": "Add the equations: $3x=12$, so $x=4$. Substitute into $x-y=1$ to get $4-y=1$, so $y=3$. Thus part A is 4 and part B is 3.",
+    "estimatedTimeSeconds": 60,
+    "tags": [
+      "algebra",
+      "system"
+    ],
+    "assets": {
+      "twoPart": {
+        "columns": [
+          {
+            "key": "partA",
+            "label": "What is x?"
+          },
+          {
+            "key": "partB",
+            "label": "What is y?"
+          }
+        ]
+      }
+    },
+    "orderIndex": 25
+  },
+  {
+    "id": "q096",
+    "section": "data_insights",
+    "type": "two_part_analysis",
+    "topic": "percents",
+    "difficulty": "easy",
+    "stem": "A jacket costs 80 units and is discounted by 25%. Determine the discounted price and the amount saved.",
+    "choices": [
+      {
+        "key": "r1",
+        "text": "15"
+      },
+      {
+        "key": "r2",
+        "text": "20"
+      },
+      {
+        "key": "r3",
+        "text": "55"
+      },
+      {
+        "key": "r4",
+        "text": "60"
+      },
+      {
+        "key": "r5",
+        "text": "65"
+      },
+      {
+        "key": "r6",
+        "text": "70"
+      }
+    ],
+    "correctAnswer": {
+      "format": "two_part",
+      "value": {
+        "partA": "r4",
+        "partB": "r2"
+      }
+    },
+    "explanation": "The discount is $25\\%$ of 80, which is 20. The discounted price is $80-20=60$. So part A is 60 and part B is 20.",
+    "estimatedTimeSeconds": 60,
+    "tags": [
+      "percents"
+    ],
+    "assets": {
+      "twoPart": {
+        "columns": [
+          {
+            "key": "partA",
+            "label": "Discounted price"
+          },
+          {
+            "key": "partB",
+            "label": "Savings"
+          }
+        ]
+      }
+    },
+    "orderIndex": 26
+  },
+  {
+    "id": "q097",
+    "section": "data_insights",
+    "type": "two_part_analysis",
+    "topic": "geometry",
+    "difficulty": "medium",
+    "stem": "A rectangle has perimeter 34 and length 11. Determine its width and area.",
+    "choices": [
+      {
+        "key": "r1",
+        "text": "6"
+      },
+      {
+        "key": "r2",
+        "text": "11"
+      },
+      {
+        "key": "r3",
+        "text": "22"
+      },
+      {
+        "key": "r4",
+        "text": "33"
+      },
+      {
+        "key": "r5",
+        "text": "44"
+      },
+      {
+        "key": "r6",
+        "text": "66"
+      }
+    ],
+    "correctAnswer": {
+      "format": "two_part",
+      "value": {
+        "partA": "r1",
+        "partB": "r6"
+      }
+    },
+    "explanation": "For a rectangle, $2(11+w)=34$, so $11+w=17$ and $w=6$. The area is $11\\cdot 6=66$. Thus part A is 6 and part B is 66.",
+    "estimatedTimeSeconds": 60,
+    "tags": [
+      "geometry",
+      "rectangle"
+    ],
+    "assets": {
+      "twoPart": {
+        "columns": [
+          {
+            "key": "partA",
+            "label": "Width"
+          },
+          {
+            "key": "partB",
+            "label": "Area"
+          }
+        ]
+      }
+    },
+    "orderIndex": 27
+  },
+  {
+    "id": "q098",
+    "section": "data_insights",
+    "type": "two_part_analysis",
+    "topic": "rates",
+    "difficulty": "medium",
+    "stem": "A car travels at 60 kilometers per hour. Determine the time needed to travel 180 kilometers and the distance traveled in 1.5 hours.",
+    "choices": [
+      {
+        "key": "r1",
+        "text": "3"
+      },
+      {
+        "key": "r2",
+        "text": "60"
+      },
+      {
+        "key": "r3",
+        "text": "90"
+      },
+      {
+        "key": "r4",
+        "text": "120"
+      },
+      {
+        "key": "r5",
+        "text": "150"
+      },
+      {
+        "key": "r6",
+        "text": "180"
+      }
+    ],
+    "correctAnswer": {
+      "format": "two_part",
+      "value": {
+        "partA": "r1",
+        "partB": "r3"
+      }
+    },
+    "explanation": "Time is $180/60=3$ hours. In 1.5 hours, the car travels $60\\times 1.5=90$ kilometers. So part A is 3 and part B is 90.",
+    "estimatedTimeSeconds": 60,
+    "tags": [
+      "rates"
+    ],
+    "assets": {
+      "twoPart": {
+        "columns": [
+          {
+            "key": "partA",
+            "label": "Time traveled"
+          },
+          {
+            "key": "partB",
+            "label": "Distance in 1.5 hours"
+          }
+        ]
+      }
+    },
+    "orderIndex": 28
+  },
+  {
+    "id": "q099",
+    "section": "data_insights",
+    "type": "two_part_analysis",
+    "topic": "counting/probability",
+    "difficulty": "hard",
+    "stem": "A committee of 3 people is chosen from 12 women and 8 men. Determine the number of committees with exactly two women and the probability that a randomly chosen committee has at least one man.",
+    "choices": [
+      {
+        "key": "r1",
+        "text": "220"
+      },
+      {
+        "key": "r2",
+        "text": "360"
+      },
+      {
+        "key": "r3",
+        "text": "528"
+      },
+      {
+        "key": "r4",
+        "text": "46/57"
+      },
+      {
+        "key": "r5",
+        "text": "1/2"
+      },
+      {
+        "key": "r6",
+        "text": "8/9"
+      }
+    ],
+    "correctAnswer": {
+      "format": "two_part",
+      "value": {
+        "partA": "r3",
+        "partB": "r4"
+      }
+    },
+    "explanation": "Exactly two women means choose 2 of the 12 women and 1 of the 8 men: $\\binom{12}{2}\\cdot 8=66\\cdot 8=528$. For the probability of at least one man, use the complement: subtract the all-women committees from all committees. Total committees are $\\binom{20}{3}=1140$, and all-women committees are $\\binom{12}{3}=220$. So the probability is $1-220/1140=920/1140=46/57$. Thus part A is 528 and part B is 46/57.",
+    "estimatedTimeSeconds": 60,
+    "tags": [
+      "counting",
+      "probability"
+    ],
+    "assets": {
+      "twoPart": {
+        "columns": [
+          {
+            "key": "partA",
+            "label": "Number of 3-person committees with exactly two women"
+          },
+          {
+            "key": "partB",
+            "label": "Probability that a committee has at least one man"
+          }
+        ]
+      }
+    },
+    "orderIndex": 29
+  },
+  {
+    "id": "q100",
+    "section": "data_insights",
+    "type": "two_part_analysis",
+    "topic": "counting/probability",
+    "difficulty": "hard",
+    "stem": "A bag contains 5 red marbles, 4 blue marbles, and 3 green marbles. Two marbles are drawn without replacement. Determine the number of ways to draw two red marbles and the probability of drawing two marbles of different colors.",
+    "choices": [
+      {
+        "key": "r1",
+        "text": "10"
+      },
+      {
+        "key": "r2",
+        "text": "47/66"
+      },
+      {
+        "key": "r3",
+        "text": "1/2"
+      },
+      {
+        "key": "r4",
+        "text": "2/3"
+      },
+      {
+        "key": "r5",
+        "text": "3/4"
+      },
+      {
+        "key": "r6",
+        "text": "5/6"
+      }
+    ],
+    "correctAnswer": {
+      "format": "two_part",
+      "value": {
+        "partA": "r1",
+        "partB": "r2"
+      }
+    },
+    "explanation": "The number of ways to choose 2 red marbles is $\\binom{5}{2}=10$. The total number of unordered pairs is $\\binom{12}{2}=66$. The number of same-color pairs is $\\binom{5}{2}+\\binom{4}{2}+\\binom{3}{2}=10+6+3=19$, so the number of different-color pairs is $66-19=47$. Therefore the probability is $47/66$. Part A is 10 and part B is 47/66.",
+    "estimatedTimeSeconds": 60,
+    "tags": [
+      "counting",
+      "probability"
+    ],
+    "assets": {
+      "twoPart": {
+        "columns": [
+          {
+            "key": "partA",
+            "label": "Number of two-marble draws with two red marbles"
+          },
+          {
+            "key": "partB",
+            "label": "Probability of two marbles of different colors"
+          }
+        ]
+      }
+    },
+    "orderIndex": 30
+  }
+]

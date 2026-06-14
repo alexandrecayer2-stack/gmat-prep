@@ -1,0 +1,20 @@
+[
+  {
+    "id": "rc-p1",
+    "section": "verbal",
+    "title": "Urban beekeeping and habitat diversity",
+    "passage": "Urban beekeeping is often praised as a way to bolster pollination in city gardens, but the practice does not simply transfer rural methods into dense neighborhoods. In a recent study, researchers compared hives on rooftops, in parks, and near heavily trafficked streets. Hive health was strongest where flowering plants were diverse and where the immediate surroundings included small, pesticide-free green spaces. By contrast, hives placed in otherwise green districts with little variety in blooms produced less honey and showed more disease. The researchers concluded that the urban environment can support bees only when it offers a patchwork of complementary habitats. They cautioned that adding more hives without improving floral diversity could intensify competition and stress rather than increase pollination."
+  },
+  {
+    "id": "rc-p2",
+    "section": "verbal",
+    "title": "Multispectral imaging in restoration",
+    "passage": "Conservators once relied on solvents and direct visual inspection to restore faded murals. A newer approach uses multispectral imaging to reveal underdrawings and later corrections, allowing restorers to distinguish original pigment from grime or past repairs. The technique does not replace judgment, because some spectral signatures overlap and can be misread. Yet it changes the sequence of work: instead of cleaning first and analyzing later, teams now map the composition before touching the surface. This has reduced accidental loss of fragile layers in several cases, although it has also made some restorations slower and more expensive. Advocates say the added cost is justified when the work has historical value that cannot be recovered if removed."
+  },
+  {
+    "id": "rc-p3",
+    "section": "verbal",
+    "title": "Offshore wind farms and marine life",
+    "passage": "Offshore wind farms have prompted concern about effects on marine life. In one long-term study, researchers observed that fish populations near turbine foundations initially dipped during construction but later rebounded. Some species clustered around the submerged structures, which appear to function as artificial reefs. The pattern, however, was not uniform: species that prefer open water remained sparse, and the researchers found no evidence that the farms increased overall biodiversity in the region. The study's authors argued that the facilities should be evaluated site by site, since a structure that benefits one species may displace another."
+  }
+]

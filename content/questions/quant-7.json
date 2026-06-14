@@ -1,0 +1,1602 @@
+[
+  {
+    "id": "q001",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "percents",
+    "difficulty": "easy",
+    "stem": "A bookstore sold 250 novels. If 18% of them were sold during a promotion, how many novels were sold during the promotion?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "40"
+      },
+      {
+        "key": "B",
+        "text": "45"
+      },
+      {
+        "key": "C",
+        "text": "50"
+      },
+      {
+        "key": "D",
+        "text": "55"
+      },
+      {
+        "key": "E",
+        "text": "60"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "Compute $18\\%$ of $250$: $0.18\\times 250=45$. The correct answer is 45, which is choice B.",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "percents"
+    ],
+    "orderIndex": 1
+  },
+  {
+    "id": "q002",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "fractions",
+    "difficulty": "easy",
+    "stem": "What is the value of $\\frac{5}{8}\\div\\frac{5}{12}$?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "3/2"
+      },
+      {
+        "key": "B",
+        "text": "6/5"
+      },
+      {
+        "key": "C",
+        "text": "5/3"
+      },
+      {
+        "key": "D",
+        "text": "12/5"
+      },
+      {
+        "key": "E",
+        "text": "1/2"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "Divide by multiplying by the reciprocal: $\\frac{5}{8}\\cdot\\frac{12}{5}=\\frac{12}{8}=\\frac{3}{2}$. So the answer is A.",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "fractions"
+    ],
+    "orderIndex": 2
+  },
+  {
+    "id": "q003",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "ratios",
+    "difficulty": "easy",
+    "stem": "The ratio of red beads to blue beads is $7:5$. If there are 72 beads in all, how many are red?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "36"
+      },
+      {
+        "key": "B",
+        "text": "42"
+      },
+      {
+        "key": "C",
+        "text": "45"
+      },
+      {
+        "key": "D",
+        "text": "48"
+      },
+      {
+        "key": "E",
+        "text": "50"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "The ratio has $7+5=12$ equal parts. Each part is $72\\div 12=6$, so red beads are $7\\times 6=42$. The answer is B.",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "ratios"
+    ],
+    "orderIndex": 3
+  },
+  {
+    "id": "q004",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "averages",
+    "difficulty": "easy",
+    "stem": "The average of four numbers is 11. Three of the numbers are 8, 10, and 12. What is the fourth number?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "12"
+      },
+      {
+        "key": "B",
+        "text": "13"
+      },
+      {
+        "key": "C",
+        "text": "14"
+      },
+      {
+        "key": "D",
+        "text": "15"
+      },
+      {
+        "key": "E",
+        "text": "16"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "The total of the four numbers is $4\\times 11=44$. The known three sum to $8+10+12=30$. So the missing number is $44-30=14$. Choice C.",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "averages"
+    ],
+    "orderIndex": 4
+  },
+  {
+    "id": "q005",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "number properties",
+    "difficulty": "easy",
+    "stem": "What is the remainder when $7^3+5$ is divided by 6?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "0"
+      },
+      {
+        "key": "B",
+        "text": "1"
+      },
+      {
+        "key": "C",
+        "text": "2"
+      },
+      {
+        "key": "D",
+        "text": "3"
+      },
+      {
+        "key": "E",
+        "text": "4"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "$7^3+5=343+5=348$. Since $348\\div 6=58$ exactly, the remainder is 0. The answer is A.",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "number properties"
+    ],
+    "orderIndex": 5
+  },
+  {
+    "id": "q006",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "algebra",
+    "difficulty": "easy",
+    "stem": "Solve for $x$: $3(2x-5)=21$.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "4"
+      },
+      {
+        "key": "B",
+        "text": "5"
+      },
+      {
+        "key": "C",
+        "text": "6"
+      },
+      {
+        "key": "D",
+        "text": "7"
+      },
+      {
+        "key": "E",
+        "text": "8"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "Distribute: $6x-15=21$. Then $6x=36$, so $x=6$. Choice C.",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "algebra"
+    ],
+    "orderIndex": 6
+  },
+  {
+    "id": "q007",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "geometry",
+    "difficulty": "easy",
+    "stem": "A rectangle has a perimeter of 34 and a width of 6. What is its length?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "9"
+      },
+      {
+        "key": "B",
+        "text": "10"
+      },
+      {
+        "key": "C",
+        "text": "11"
+      },
+      {
+        "key": "D",
+        "text": "12"
+      },
+      {
+        "key": "E",
+        "text": "13"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "For a rectangle, $2(L+6)=34$, so $L+6=17$ and $L=11$. The answer is C.",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "geometry"
+    ],
+    "orderIndex": 7
+  },
+  {
+    "id": "q008",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "coordinate geometry",
+    "difficulty": "easy",
+    "stem": "What is the distance between the points $(2,1)$ and $(8,5)$?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "2sqrt(10)"
+      },
+      {
+        "key": "B",
+        "text": "2sqrt(11)"
+      },
+      {
+        "key": "C",
+        "text": "2sqrt(13)"
+      },
+      {
+        "key": "D",
+        "text": "sqrt(52)"
+      },
+      {
+        "key": "E",
+        "text": "4sqrt(3)"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "Use the distance formula: $\\sqrt{(8-2)^2+(5-1)^2}=\\sqrt{6^2+4^2}=\\sqrt{52}=2\\sqrt{13}$. The correct choice is C.",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "coordinate geometry"
+    ],
+    "orderIndex": 8
+  },
+  {
+    "id": "q009",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "rates",
+    "difficulty": "easy",
+    "stem": "A car travels 120 kilometers at 60 kilometers per hour and then 180 kilometers at 90 kilometers per hour. What is its average speed for the whole trip?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "70"
+      },
+      {
+        "key": "B",
+        "text": "72"
+      },
+      {
+        "key": "C",
+        "text": "75"
+      },
+      {
+        "key": "D",
+        "text": "80"
+      },
+      {
+        "key": "E",
+        "text": "90"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "Total distance is $120+180=300$. Total time is $120/60+180/90=2+2=4$ hours. Average speed is $300/4=75$. Choice C.",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "rates"
+    ],
+    "orderIndex": 9
+  },
+  {
+    "id": "q010",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "work",
+    "difficulty": "easy",
+    "stem": "Machine A can complete a job in 8 hours, and machine B can complete the same job in 12 hours. If they work together, how long will it take to complete the job?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "4"
+      },
+      {
+        "key": "B",
+        "text": "4.5"
+      },
+      {
+        "key": "C",
+        "text": "4.8"
+      },
+      {
+        "key": "D",
+        "text": "5"
+      },
+      {
+        "key": "E",
+        "text": "6"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "Their combined rate is $\\frac{1}{8}+\\frac{1}{12}=\\frac{5}{24}$ job per hour. Time for one job is $1\\div \\frac{5}{24}=\\frac{24}{5}=4.8$ hours. Choice C.",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "work"
+    ],
+    "orderIndex": 10
+  },
+  {
+    "id": "q011",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "mixtures",
+    "difficulty": "easy",
+    "stem": "A 30-liter solution that is 20% acid is mixed with a 10-liter solution that is 50% acid. What is the concentration of acid in the final mixture?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "25%"
+      },
+      {
+        "key": "B",
+        "text": "26%"
+      },
+      {
+        "key": "C",
+        "text": "27.5%"
+      },
+      {
+        "key": "D",
+        "text": "30%"
+      },
+      {
+        "key": "E",
+        "text": "32.5%"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "Acid amounts are $30\\times 0.20=6$ liters and $10\\times 0.50=5$ liters, for a total of 11 liters of acid. The mixture has 40 liters total, so concentration is $11/40=27.5\\%$. Choice C.",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "mixtures"
+    ],
+    "orderIndex": 11
+  },
+  {
+    "id": "q012",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "exponents",
+    "difficulty": "easy",
+    "stem": "Simplify $2^6\\cdot 4^3$.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "512"
+      },
+      {
+        "key": "B",
+        "text": "1024"
+      },
+      {
+        "key": "C",
+        "text": "2048"
+      },
+      {
+        "key": "D",
+        "text": "4096"
+      },
+      {
+        "key": "E",
+        "text": "8192"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "D"
+    },
+    "explanation": "$4^3=(2^2)^3=2^6$. So $2^6\\cdot 4^3=2^6\\cdot 2^6=2^{12}=4096$. Choice D.",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "exponents"
+    ],
+    "orderIndex": 12
+  },
+  {
+    "id": "q013",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "inequalities",
+    "difficulty": "easy",
+    "stem": "What is the greatest integer value of $x$ that satisfies $-2<3x+1\\le 10$?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "1"
+      },
+      {
+        "key": "B",
+        "text": "2"
+      },
+      {
+        "key": "C",
+        "text": "3"
+      },
+      {
+        "key": "D",
+        "text": "4"
+      },
+      {
+        "key": "E",
+        "text": "5"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "Solve the compound inequality: $-3<3x\\le 9$, so $-1<x\\le 3$. The greatest integer that works is 3, which is choice C.",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "inequalities"
+    ],
+    "orderIndex": 13
+  },
+  {
+    "id": "q014",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "statistics",
+    "difficulty": "easy",
+    "stem": "What is the median of the data set $\\{4,7,7,9,12,13,18\\}$?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "7"
+      },
+      {
+        "key": "B",
+        "text": "8"
+      },
+      {
+        "key": "C",
+        "text": "9"
+      },
+      {
+        "key": "D",
+        "text": "10"
+      },
+      {
+        "key": "E",
+        "text": "11"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "The set has 7 values, already in order. The middle value is the 4th term, 9. Choice C.",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "statistics"
+    ],
+    "orderIndex": 14
+  },
+  {
+    "id": "q015",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "sequences",
+    "difficulty": "medium",
+    "stem": "In an arithmetic sequence, the first term is 7 and the common difference is 4. What is the 9th term?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "35"
+      },
+      {
+        "key": "B",
+        "text": "37"
+      },
+      {
+        "key": "C",
+        "text": "39"
+      },
+      {
+        "key": "D",
+        "text": "41"
+      },
+      {
+        "key": "E",
+        "text": "43"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "Use $a_n=a_1+(n-1)d$. So $a_9=7+8\\cdot 4=7+32=39$. Choice C.",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "sequences"
+    ],
+    "orderIndex": 15
+  },
+  {
+    "id": "q016",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "probability",
+    "difficulty": "medium",
+    "stem": "Two fair six-sided dice are rolled. What is the probability that the sum is 8?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "1/6"
+      },
+      {
+        "key": "B",
+        "text": "1/9"
+      },
+      {
+        "key": "C",
+        "text": "5/36"
+      },
+      {
+        "key": "D",
+        "text": "1/12"
+      },
+      {
+        "key": "E",
+        "text": "1/18"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "The favorable outcomes are $(2,6),(3,5),(4,4),(5,3),(6,2)$, for 5 outcomes out of 36 equally likely outcomes. So the probability is $5/36$. Choice C.",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "probability"
+    ],
+    "orderIndex": 16
+  },
+  {
+    "id": "q017",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "counting",
+    "difficulty": "medium",
+    "stem": "How many distinct 3-digit even integers can be formed using the digits 1, 2, 3, 4, and 5, with no repeated digit?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "18"
+      },
+      {
+        "key": "B",
+        "text": "20"
+      },
+      {
+        "key": "C",
+        "text": "24"
+      },
+      {
+        "key": "D",
+        "text": "30"
+      },
+      {
+        "key": "E",
+        "text": "36"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "The units digit must be 2 or 4: 2 choices. Then the hundreds digit has 4 choices and the tens digit has 3 choices. Total $2\\cdot 4\\cdot 3=24$. Choice C.",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "counting"
+    ],
+    "orderIndex": 17
+  },
+  {
+    "id": "q018",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "fractions",
+    "difficulty": "medium",
+    "stem": "If $\\frac{3}{5}$ of a number is 18, what is the number?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "24"
+      },
+      {
+        "key": "B",
+        "text": "27"
+      },
+      {
+        "key": "C",
+        "text": "30"
+      },
+      {
+        "key": "D",
+        "text": "32"
+      },
+      {
+        "key": "E",
+        "text": "36"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "Let the number be $n$. Then $\\frac{3}{5}n=18$, so $n=18\\cdot \\frac{5}{3}=30$. Choice C.",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "fractions"
+    ],
+    "orderIndex": 18
+  },
+  {
+    "id": "q019",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "percents",
+    "difficulty": "medium",
+    "stem": "A price increases from 80 to 92. By what percent did the price increase?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "10%"
+      },
+      {
+        "key": "B",
+        "text": "12%"
+      },
+      {
+        "key": "C",
+        "text": "15%"
+      },
+      {
+        "key": "D",
+        "text": "18%"
+      },
+      {
+        "key": "E",
+        "text": "20%"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "The increase is $92-80=12$. The percent increase is $12/80=0.15=15\\%$. Choice C.",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "percents"
+    ],
+    "orderIndex": 19
+  },
+  {
+    "id": "q020",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "number properties",
+    "difficulty": "medium",
+    "stem": "What is the least positive integer that is divisible by both 12 and 18?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "18"
+      },
+      {
+        "key": "B",
+        "text": "24"
+      },
+      {
+        "key": "C",
+        "text": "30"
+      },
+      {
+        "key": "D",
+        "text": "36"
+      },
+      {
+        "key": "E",
+        "text": "48"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "D"
+    },
+    "explanation": "Find the LCM: $12=2^2\\cdot 3$ and $18=2\\cdot 3^2$, so $\\mathrm{LCM}=2^2\\cdot 3^2=36$. Choice D.",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "number properties"
+    ],
+    "orderIndex": 20
+  },
+  {
+    "id": "q021",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "algebra",
+    "difficulty": "medium",
+    "stem": "If $x-2y=7$ and $x=13$, what is the value of $y$?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "1"
+      },
+      {
+        "key": "B",
+        "text": "2"
+      },
+      {
+        "key": "C",
+        "text": "3"
+      },
+      {
+        "key": "D",
+        "text": "4"
+      },
+      {
+        "key": "E",
+        "text": "5"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "Substitute $x=13$ into $x-2y=7$: $13-2y=7$. Then $-2y=-6$, so $y=3$. Choice C.",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "algebra"
+    ],
+    "orderIndex": 21
+  },
+  {
+    "id": "q022",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "geometry",
+    "difficulty": "medium",
+    "stem": "A right triangle has legs of lengths 9 and 12. What is its area?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "36"
+      },
+      {
+        "key": "B",
+        "text": "45"
+      },
+      {
+        "key": "C",
+        "text": "54"
+      },
+      {
+        "key": "D",
+        "text": "60"
+      },
+      {
+        "key": "E",
+        "text": "72"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "The area of a right triangle is $\\frac{1}{2}bh$. So the area is $\\frac{1}{2}\\cdot 9\\cdot 12=54$. Choice C.",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "geometry"
+    ],
+    "orderIndex": 22
+  },
+  {
+    "id": "q023",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "coordinate geometry",
+    "difficulty": "medium",
+    "stem": "What is the midpoint of the segment connecting $( -2,4 )$ and $(6,10)$?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "(1,7)"
+      },
+      {
+        "key": "B",
+        "text": "(2,7)"
+      },
+      {
+        "key": "C",
+        "text": "(2,6)"
+      },
+      {
+        "key": "D",
+        "text": "(3,7)"
+      },
+      {
+        "key": "E",
+        "text": "(4,8)"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "The midpoint is the average of each coordinate: $\\left(\\frac{-2+6}{2},\\frac{4+10}{2}\\right)=(2,7)$. Choice B.",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "coordinate geometry"
+    ],
+    "orderIndex": 23
+  },
+  {
+    "id": "q024",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "rates",
+    "difficulty": "medium",
+    "stem": "Two trains start 30 miles apart and move toward each other. One travels 40 miles per hour and the other travels 50 miles per hour. How long will it take them to meet?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "15 minutes"
+      },
+      {
+        "key": "B",
+        "text": "18 minutes"
+      },
+      {
+        "key": "C",
+        "text": "20 minutes"
+      },
+      {
+        "key": "D",
+        "text": "25 minutes"
+      },
+      {
+        "key": "E",
+        "text": "30 minutes"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "Their combined speed is $40+50=90$ miles per hour. Time is $30/90=1/3$ hour, which is 20 minutes. Choice C.",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "rates"
+    ],
+    "orderIndex": 24
+  },
+  {
+    "id": "q025",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "statistics",
+    "difficulty": "medium",
+    "stem": "The mean of 5 numbers is 14. If four of the numbers sum to 50, what is the fifth number?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "18"
+      },
+      {
+        "key": "B",
+        "text": "19"
+      },
+      {
+        "key": "C",
+        "text": "20"
+      },
+      {
+        "key": "D",
+        "text": "21"
+      },
+      {
+        "key": "E",
+        "text": "22"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "The total of the 5 numbers is $5\\times 14=70$. The missing number is $70-50=20$. Choice C.",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "statistics"
+    ],
+    "orderIndex": 25
+  },
+  {
+    "id": "q026",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "sequences",
+    "difficulty": "medium",
+    "stem": "In a geometric sequence, the first term is 3 and each term is twice the previous term. What is the 5th term?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "24"
+      },
+      {
+        "key": "B",
+        "text": "36"
+      },
+      {
+        "key": "C",
+        "text": "48"
+      },
+      {
+        "key": "D",
+        "text": "54"
+      },
+      {
+        "key": "E",
+        "text": "60"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "The sequence is $3,6,12,24,48$. So the 5th term is 48. Choice C.",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "sequences"
+    ],
+    "orderIndex": 26
+  },
+  {
+    "id": "q027",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "probability",
+    "difficulty": "medium",
+    "stem": "A bag contains 3 red balls and 5 blue balls. If one ball is chosen at random, what is the probability that it is red?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "1/4"
+      },
+      {
+        "key": "B",
+        "text": "3/8"
+      },
+      {
+        "key": "C",
+        "text": "2/5"
+      },
+      {
+        "key": "D",
+        "text": "1/2"
+      },
+      {
+        "key": "E",
+        "text": "5/8"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "There are 3 favorable outcomes out of 8 total balls, so the probability is $3/8$. Choice B.",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "probability"
+    ],
+    "orderIndex": 27
+  },
+  {
+    "id": "q028",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "counting",
+    "difficulty": "hard",
+    "stem": "How many ways are there to choose 2 students from a group of 7?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "14"
+      },
+      {
+        "key": "B",
+        "text": "18"
+      },
+      {
+        "key": "C",
+        "text": "21"
+      },
+      {
+        "key": "D",
+        "text": "28"
+      },
+      {
+        "key": "E",
+        "text": "35"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "The number of combinations is $\\binom{7}{2}=\\frac{7\\cdot 6}{2\\cdot 1}=21$. Choice C.",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "counting"
+    ],
+    "orderIndex": 28
+  },
+  {
+    "id": "q029",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "geometry",
+    "difficulty": "hard",
+    "stem": "What is the circumference of a circle with radius 7?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "7pi"
+      },
+      {
+        "key": "B",
+        "text": "14pi"
+      },
+      {
+        "key": "C",
+        "text": "21pi"
+      },
+      {
+        "key": "D",
+        "text": "28pi"
+      },
+      {
+        "key": "E",
+        "text": "49pi"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "Circumference is $2\\pi r$. With $r=7$, the circumference is $2\\pi\\cdot 7=14\\pi$. Choice B.",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "geometry"
+    ],
+    "orderIndex": 29
+  },
+  {
+    "id": "q030",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "algebra",
+    "difficulty": "hard",
+    "stem": "If $x+2y=14$ and $x-y=5$, what is the value of $x$?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "6"
+      },
+      {
+        "key": "B",
+        "text": "7"
+      },
+      {
+        "key": "C",
+        "text": "8"
+      },
+      {
+        "key": "D",
+        "text": "9"
+      },
+      {
+        "key": "E",
+        "text": "10"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "Subtract the second equation from the first: $3y=9$, so $y=3$. Then $x-y=5$ gives $x=8$. Choice C.",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "algebra"
+    ],
+    "orderIndex": 30
+  },
+  {
+    "id": "q031",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "number properties",
+    "difficulty": "hard",
+    "stem": "What is the greatest common divisor of 24 and 36?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "6"
+      },
+      {
+        "key": "B",
+        "text": "8"
+      },
+      {
+        "key": "C",
+        "text": "10"
+      },
+      {
+        "key": "D",
+        "text": "12"
+      },
+      {
+        "key": "E",
+        "text": "18"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "D"
+    },
+    "explanation": "Factor the numbers: $24=2^3\\cdot 3$ and $36=2^2\\cdot 3^2$. The common factors are $2^2\\cdot 3=12$. Choice D.",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "number properties"
+    ],
+    "orderIndex": 31
+  },
+  {
+    "id": "q032",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "percents",
+    "difficulty": "hard",
+    "stem": "A coat is marked down from 90 to 72. What is the percent discount?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "15%"
+      },
+      {
+        "key": "B",
+        "text": "18%"
+      },
+      {
+        "key": "C",
+        "text": "20%"
+      },
+      {
+        "key": "D",
+        "text": "22%"
+      },
+      {
+        "key": "E",
+        "text": "25%"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "The discount is $90-72=18$. The percent discount is $18/90=0.20=20\\%$. Choice C.",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "percents"
+    ],
+    "orderIndex": 32
+  },
+  {
+    "id": "q033",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "fractions",
+    "difficulty": "hard",
+    "stem": "What is the value of $\\left(1\\frac{1}{2}\\right)\\left(2\\frac{2}{3}\\right)$?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "3"
+      },
+      {
+        "key": "B",
+        "text": "4"
+      },
+      {
+        "key": "C",
+        "text": "5"
+      },
+      {
+        "key": "D",
+        "text": "6"
+      },
+      {
+        "key": "E",
+        "text": "7"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "Convert to improper fractions: $1\\frac{1}{2}=\\frac{3}{2}$ and $2\\frac{2}{3}=\\frac{8}{3}$. Then $\\frac{3}{2}\\cdot \\frac{8}{3}=4$. Choice B.",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "fractions"
+    ],
+    "orderIndex": 33
+  },
+  {
+    "id": "q034",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "work",
+    "difficulty": "hard",
+    "stem": "Pipe A can fill a tank in 10 hours and pipe B can fill the same tank in 15 hours. If both pipes are opened together, how long will it take to fill the tank?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "5 hours"
+      },
+      {
+        "key": "B",
+        "text": "6 hours"
+      },
+      {
+        "key": "C",
+        "text": "7 hours"
+      },
+      {
+        "key": "D",
+        "text": "8 hours"
+      },
+      {
+        "key": "E",
+        "text": "9 hours"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "The combined rate is $\\frac{1}{10}+\\frac{1}{15}=\\frac{5}{30}=\\frac{1}{6}$ tank per hour. So the tank fills in 6 hours. Choice B.",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "work"
+    ],
+    "orderIndex": 34
+  },
+  {
+    "id": "q035",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "coordinate geometry",
+    "difficulty": "hard",
+    "stem": "What is the slope of the line through the points $(1,2)$ and $(5,10)$?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "1"
+      },
+      {
+        "key": "B",
+        "text": "2"
+      },
+      {
+        "key": "C",
+        "text": "3"
+      },
+      {
+        "key": "D",
+        "text": "4"
+      },
+      {
+        "key": "E",
+        "text": "5"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "Slope is $\\frac{10-2}{5-1}=\\frac{8}{4}=2$. Choice B.",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "coordinate geometry"
+    ],
+    "orderIndex": 35
+  },
+  {
+    "id": "q036",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "inequalities",
+    "difficulty": "hard",
+    "stem": "How many integers satisfy $|2x-1|<7$?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "4"
+      },
+      {
+        "key": "B",
+        "text": "5"
+      },
+      {
+        "key": "C",
+        "text": "6"
+      },
+      {
+        "key": "D",
+        "text": "7"
+      },
+      {
+        "key": "E",
+        "text": "8"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "$|2x-1|<7$ means $-7<2x-1<7$. Add 1: $-6<2x<8$. Divide by 2: $-3<x<4$. The integers are $-2,-1,0,1,2,3$, so there are 6. Choice C.",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "inequalities"
+    ],
+    "orderIndex": 36
+  },
+  {
+    "id": "q037",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "exponents",
+    "difficulty": "hard",
+    "stem": "What is the remainder when $3^{10}$ is divided by 4?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "0"
+      },
+      {
+        "key": "B",
+        "text": "1"
+      },
+      {
+        "key": "C",
+        "text": "2"
+      },
+      {
+        "key": "D",
+        "text": "3"
+      },
+      {
+        "key": "E",
+        "text": "4"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "Because $3^2=9\\equiv 1\\pmod 4$, we have $3^{10}=(3^2)^5\\equiv 1^5\\equiv 1\\pmod 4$. The remainder is 1. Choice B.",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "exponents"
+    ],
+    "orderIndex": 37
+  },
+  {
+    "id": "q038",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "mixtures",
+    "difficulty": "hard",
+    "stem": "A 20-liter solution is 30% salt. How many liters of water must be added to make the solution 25% salt?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "2"
+      },
+      {
+        "key": "B",
+        "text": "3"
+      },
+      {
+        "key": "C",
+        "text": "4"
+      },
+      {
+        "key": "D",
+        "text": "5"
+      },
+      {
+        "key": "E",
+        "text": "6"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "The amount of salt is fixed at $20\\times 0.30=6$ liters. If the final concentration is 25%, then $6$ is 25% of the new total, so the total volume must be $6/0.25=24$ liters. Therefore $24-20=4$ liters of water are needed. Choice C.",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "mixtures"
+    ],
+    "orderIndex": 38
+  },
+  {
+    "id": "q039",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "statistics",
+    "difficulty": "hard",
+    "stem": "A data set has a minimum value of 5 and a range of 12. What is the maximum value?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "13"
+      },
+      {
+        "key": "B",
+        "text": "14"
+      },
+      {
+        "key": "C",
+        "text": "15"
+      },
+      {
+        "key": "D",
+        "text": "16"
+      },
+      {
+        "key": "E",
+        "text": "17"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "E"
+    },
+    "explanation": "Range equals maximum minus minimum, so maximum = $5+12=17$. Choice E.",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "statistics"
+    ],
+    "orderIndex": 39
+  },
+  {
+    "id": "q040",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "counting",
+    "difficulty": "hard",
+    "stem": "How many 2-letter codes can be formed from the letters A, B, C, D, and E if repetition is not allowed and order matters?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "10"
+      },
+      {
+        "key": "B",
+        "text": "15"
+      },
+      {
+        "key": "C",
+        "text": "20"
+      },
+      {
+        "key": "D",
+        "text": "25"
+      },
+      {
+        "key": "E",
+        "text": "30"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "There are 5 choices for the first letter and 4 for the second, so the total is $5\\cdot 4=20$. Choice C.",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "counting"
+    ],
+    "orderIndex": 40
+  }
+]
