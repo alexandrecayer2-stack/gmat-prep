@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { ThemeToggle } from './theme-toggle';
+import { AccountMenu } from '@/components/auth/account-menu';
 import { cn } from '@/lib/utils';
 
 const LINKS = [
@@ -40,7 +41,8 @@ export function Nav() {
             );
           })}
         </nav>
-        <div className="ml-auto pl-2">
+        <div className="ml-auto flex items-center gap-2 pl-2">
+          <AccountMenu />
           <ThemeToggle />
         </div>
       </div>
