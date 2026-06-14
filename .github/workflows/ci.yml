@@ -1,0 +1,26 @@
+name: CI
+
+# Content-quality gate + types + unit tests on every push and PR. The gate
+# (npm run validate) re-derives answers, detects duplicates, and checks $-escaping
+# so bad content can never be merged. No database or secrets required.
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - name: Validate content (answers, duplicates, escaping)
+        run: npm run validate
+      - name: Typecheck
+        run: npm run typecheck
+      - name: Unit tests
+        run: npm test
