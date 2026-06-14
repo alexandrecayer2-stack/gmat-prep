@@ -46,7 +46,8 @@ export async function getUserStats(supabase: SupabaseClient, userId: string): Pr
   const { data, error } = await supabase
     .from('attempts')
     .select('is_correct, questions(section, topic, difficulty)')
-    .eq('user_id', userId);
+    .eq('user_id', userId)
+    .eq('context', 'practice');
   if (error) throw new Error(error.message);
 
   const stats: UserStats = {

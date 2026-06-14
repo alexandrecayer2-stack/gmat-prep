@@ -89,6 +89,70 @@ export async function getPracticeQuestions(filter: QuestionFilter): Promise<Ques
   return arrangeUnits(questions, groupsById);
 }
 
+// Pick up to `n` items from a section, spread across difficulties.
+function pickSpread(items: Question[], n: number): Question[] {
+  const buckets: Record<Difficulty, Question[]> = { easy: [], medium: [], hard: [] };
+  for (const q of items) buckets[q.difficulty].push(q);
+  (['easy', 'medium', 'hard'] as Difficulty[]).forEach((d) => shuffle(buckets[d]));
+  const order: Difficulty[] = ['medium', 'easy', 'hard'];
+  const picked: Question[] = [];
+  let progressed = true;
+  while (picked.length < n && progressed) {
+    progressed = false;
+    for (const d of order) {
+      if (picked.length >= n) break;
+      const next = buckets[d].shift();
+      if (next) {
+        picked.push(next);
+        progressed = true;
+      }
+    }
+  }
+  return picked;
+}
+
+/**
+ * A balanced diagnostic set: up to `perSection` questions per section spread
+ * across difficulties, ordered section-by-section (Quant → Verbal → Data
+ * Insights) with grouped questions (RC / Multi-Source) kept adjacent.
+ */
+export async function getDiagnosticQuestions(perSection = 5): Promise<QuestionWithGroup[]> {
+  const supabase = await createClient();
+  const { data, error } = await supabase.from('questions').select('*');
+  if (error) throw new Error(error.message);
+  const all = ((data ?? []) as unknown as QuestionRow[]).map(mapQuestion);
+
+  const groupIds = [...new Set(all.map((q) => q.groupId).filter(Boolean))] as string[];
+  const groupsById: Record<string, QuestionGroup> = {};
+  if (groupIds.length) {
+    const { data: gdata, error: gerr } = await supabase
+      .from('question_groups')
+      .select('*')
+      .in('id', groupIds);
+    if (gerr) throw new Error(gerr.message);
+    for (const g of ((gdata ?? []) as unknown as GroupRow[]).map(mapGroup)) groupsById[g.id] = g;
+  }
+
+  const sections: Section[] = ['quant', 'verbal', 'data_insights'];
+  const out: QuestionWithGroup[] = [];
+  for (const section of sections) {
+    const picked = pickSpread(
+      all.filter((q) => q.section === section),
+      perSection,
+    );
+    picked.sort((a, b) => {
+      const ga = a.groupId ?? a.id;
+      const gb = b.groupId ?? b.id;
+      if (ga === gb) return a.orderIndex - b.orderIndex;
+      return ga < gb ? -1 : 1;
+    });
+    for (const q of picked) {
+      out.push({ ...q, group: q.groupId ? (groupsById[q.groupId] ?? null) : null });
+    }
+  }
+  return out;
+}
+
 export async function getSectionCounts(): Promise<Record<Section, number>> {
   const supabase = await createClient();
   const { data, error } = await supabase.from('questions').select('section');
