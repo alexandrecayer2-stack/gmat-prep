@@ -1,0 +1,425 @@
+[
+  {
+    "id": "ds5-system", "section": "data_insights", "type": "data_sufficiency", "topic": "algebra", "difficulty": "easy",
+    "stem": "What is the value of $x$?\n(1) $x + y = 12$\n(2) $x - y = 4$",
+    "correctAnswer": { "format": "single", "value": "C" },
+    "explanation": "Each statement alone has infinitely many solutions. Together, adding the equations gives $2x = 16$, so $x = 8$. Sufficient together but not alone — the answer is C.",
+    "estimatedTimeSeconds": 75
+  },
+  {
+    "id": "ds5-positive", "section": "data_insights", "type": "data_sufficiency", "topic": "inequalities", "difficulty": "medium",
+    "stem": "Is $x$ positive?\n(1) $x^3 > 0$\n(2) $x^2 > 4$",
+    "correctAnswer": { "format": "single", "value": "A" },
+    "explanation": "Statement (1): an odd power keeps the sign, so $x^3 > 0$ means $x > 0$ — sufficient. Statement (2): $x^2 > 4$ means $x > 2$ or $x < -2$ — not sufficient. The answer is A.",
+    "estimatedTimeSeconds": 105
+  },
+  {
+    "id": "ds5-greater-10", "section": "data_insights", "type": "data_sufficiency", "topic": "inequalities", "difficulty": "medium",
+    "stem": "Is $x > 10$?\n(1) $x > 5$\n(2) $x = 12$",
+    "correctAnswer": { "format": "single", "value": "B" },
+    "explanation": "Statement (1): $x > 5$ allows values both above and below $10$ — not sufficient. Statement (2): $x = 12 > 10$ — sufficient. The answer is B.",
+    "estimatedTimeSeconds": 75
+  },
+  {
+    "id": "ds5-int-square", "section": "data_insights", "type": "data_sufficiency", "topic": "number-properties", "difficulty": "hard",
+    "stem": "What is the value of the integer $x$?\n(1) $x^2 < 10$\n(2) $x$ is odd.",
+    "correctAnswer": { "format": "single", "value": "E" },
+    "explanation": "Statement (1): $x \\in \\{-3,-2,-1,0,1,2,3\\}$ — not unique. Statement (2): infinitely many odd integers — not unique. Together, $x \\in \\{-3,-1,1,3\\}$ — still not unique. The answer is E.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "gi5-votes-bar", "section": "data_insights", "type": "graphics_interpretation", "topic": "graphics interpretation", "difficulty": "easy",
+    "stem": "The bar chart shows the number of votes each of four districts cast for a measure. Use the drop-down menus to complete the statements.",
+    "assets": {
+      "chart": {
+        "type": "bar", "title": "Votes by district", "xKey": "district", "xLabel": "District", "yLabel": "Votes",
+        "series": [{ "key": "votes", "label": "Votes" }],
+        "data": [
+          { "district": "North", "votes": 120 },
+          { "district": "South", "votes": 200 },
+          { "district": "East", "votes": 150 },
+          { "district": "West", "votes": 80 }
+        ]
+      },
+      "dropdowns": [
+        { "key": "b1", "before": "The district that cast the most votes was", "after": ".", "options": [{ "value": "North" }, { "value": "South" }, { "value": "East" }] },
+        { "key": "b2", "before": "The four districts cast a total of", "after": "votes.", "options": [{ "value": "500" }, { "value": "550" }, { "value": "600" }] }
+      ]
+    },
+    "correctAnswer": { "format": "dropdowns", "value": { "b1": "South", "b2": "550" } },
+    "explanation": "South has the tallest bar at 200 votes. The total is 120 + 200 + 150 + 80 = 550 votes.",
+    "estimatedTimeSeconds": 90
+  },
+  {
+    "id": "gi5-visitors-line", "section": "data_insights", "type": "graphics_interpretation", "topic": "graphics interpretation", "difficulty": "medium",
+    "stem": "The line graph shows the number of visitors to a website over five weeks. Use the drop-down menus to complete the statements.",
+    "assets": {
+      "chart": {
+        "type": "line", "title": "Weekly website visitors", "xKey": "week", "xLabel": "Week", "yLabel": "Visitors",
+        "series": [{ "key": "visitors", "label": "Visitors" }],
+        "data": [
+          { "week": "W1", "visitors": 1000 },
+          { "week": "W2", "visitors": 1500 },
+          { "week": "W3", "visitors": 1200 },
+          { "week": "W4", "visitors": 1800 },
+          { "week": "W5", "visitors": 2500 }
+        ]
+      },
+      "dropdowns": [
+        { "key": "b1", "before": "The greatest week-to-week increase occurred from", "after": ".", "options": [{ "value": "W1 to W2" }, { "value": "W3 to W4" }, { "value": "W4 to W5" }] },
+        { "key": "b2", "before": "Total visitors across the five weeks were", "after": ".", "options": [{ "value": "7000" }, { "value": "8000" }, { "value": "9000" }] }
+      ]
+    },
+    "correctAnswer": { "format": "dropdowns", "value": { "b1": "W4 to W5", "b2": "8000" } },
+    "explanation": "Week-to-week changes are +500, -300, +600, +700; the largest is +700, from W4 to W5. The total is 1000 + 1500 + 1200 + 1800 + 2500 = 8000.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "gi5-practice-scatter", "section": "data_insights", "type": "graphics_interpretation", "topic": "graphics interpretation", "difficulty": "medium",
+    "stem": "The scatterplot shows the number of errors five students made on a task versus the hours they practiced. Use the drop-down menus to complete the statements.",
+    "assets": {
+      "chart": {
+        "type": "scatter", "title": "Practice vs. errors", "xKey": "hours", "xLabel": "Hours practiced", "yLabel": "Errors",
+        "series": [{ "key": "errors", "label": "Errors" }],
+        "data": [
+          { "hours": 1, "errors": 20 },
+          { "hours": 2, "errors": 15 },
+          { "hours": 3, "errors": 12 },
+          { "hours": 4, "errors": 8 },
+          { "hours": 5, "errors": 5 }
+        ]
+      },
+      "dropdowns": [
+        { "key": "b1", "before": "The relationship between hours practiced and errors is", "after": ".", "options": [{ "value": "positive" }, { "value": "negative" }, { "value": "nonexistent" }] },
+        { "key": "b2", "before": "A student who practiced for 4 hours made about", "after": "errors.", "options": [{ "value": "5" }, { "value": "8" }, { "value": "12" }] }
+      ]
+    },
+    "correctAnswer": { "format": "dropdowns", "value": { "b1": "negative", "b2": "8" } },
+    "explanation": "Errors fall as practice rises, so the relationship is negative. Reading the point at 4 hours, the student made 8 errors.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "gi5-profit-bar", "section": "data_insights", "type": "graphics_interpretation", "topic": "graphics interpretation", "difficulty": "hard",
+    "stem": "The bar chart shows a company's monthly profit, in thousands of dollars, where negative bars indicate a loss. Use the drop-down menus to complete the statements.",
+    "assets": {
+      "chart": {
+        "type": "bar", "title": "Monthly profit (thousands of dollars)", "xKey": "month", "xLabel": "Month", "yLabel": "Profit",
+        "series": [{ "key": "profit", "label": "Profit" }],
+        "data": [
+          { "month": "Jan", "profit": 10 },
+          { "month": "Feb", "profit": -5 },
+          { "month": "Mar", "profit": 8 },
+          { "month": "Apr", "profit": 12 },
+          { "month": "May", "profit": -2 }
+        ]
+      },
+      "dropdowns": [
+        { "key": "b1", "before": "The month with the lowest profit was", "after": ".", "options": [{ "value": "January" }, { "value": "February" }, { "value": "May" }] },
+        { "key": "b2", "before": "The number of months with a profit above zero was", "after": ".", "options": [{ "value": "2" }, { "value": "3" }, { "value": "4" }] }
+      ]
+    },
+    "correctAnswer": { "format": "dropdowns", "value": { "b1": "February", "b2": "3" } },
+    "explanation": "February has the lowest value at -5 (the largest loss). Profits above zero occur in January (10), March (8), and April (12) — that is 3 months.",
+    "estimatedTimeSeconds": 135
+  },
+  {
+    "id": "ta5-scores", "section": "data_insights", "type": "table_analysis", "topic": "table analysis", "difficulty": "easy",
+    "stem": "The table lists five students with their test scores. You may sort the table. For each statement, select True or False.",
+    "assets": {
+      "table": {
+        "sortable": true, "caption": "Test scores",
+        "columns": [
+          { "key": "student", "label": "Student" },
+          { "key": "score", "label": "Score", "numeric": true }
+        ],
+        "rows": [
+          { "student": "Ann", "score": 85 },
+          { "student": "Bob", "score": 72 },
+          { "student": "Cara", "score": 90 },
+          { "student": "Dan", "score": 68 },
+          { "student": "Eve", "score": 78 }
+        ]
+      },
+      "dichotomous": { "labels": ["True", "False"] }
+    },
+    "choices": [
+      { "key": "s1", "text": "Cara has the highest score." },
+      { "key": "s2", "text": "More than half of the students scored above 80." },
+      { "key": "s3", "text": "The lowest score is below 70." }
+    ],
+    "correctAnswer": { "format": "dichotomous", "value": { "s1": "True", "s2": "False", "s3": "True" } },
+    "explanation": "s1 — True. Cara's 90 is the highest. s2 — False. Only Ann (85) and Cara (90) scored above 80; that is 2 of 5, not more than half. s3 — True. The lowest score, Dan's 68, is below 70.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "ta5-gdp", "section": "data_insights", "type": "table_analysis", "topic": "table analysis", "difficulty": "medium",
+    "stem": "The table lists five countries with their GDP and annual growth rate. You may sort the table. For each statement, select True or False.",
+    "assets": {
+      "table": {
+        "sortable": true, "caption": "Economic data",
+        "columns": [
+          { "key": "country", "label": "Country" },
+          { "key": "gdp", "label": "GDP ($B)", "numeric": true },
+          { "key": "growth", "label": "Growth (%)", "numeric": true }
+        ],
+        "rows": [
+          { "country": "P", "gdp": 500, "growth": 3 },
+          { "country": "Q", "gdp": 800, "growth": 2 },
+          { "country": "R", "gdp": 300, "growth": 5 },
+          { "country": "S", "gdp": 600, "growth": 4 },
+          { "country": "T", "gdp": 400, "growth": 1 }
+        ]
+      },
+      "dichotomous": { "labels": ["True", "False"] }
+    },
+    "choices": [
+      { "key": "s1", "text": "The country with the largest GDP also has the highest growth rate." },
+      { "key": "s2", "text": "More than half of the countries have a growth rate above 2%." },
+      { "key": "s3", "text": "The country with the smallest GDP has the highest growth rate." }
+    ],
+    "correctAnswer": { "format": "dichotomous", "value": { "s1": "False", "s2": "True", "s3": "True" } },
+    "explanation": "s1 — False. The largest GDP is Q (800), but the highest growth is R (5%). s2 — True. Growth rates above 2% are 3, 5, 4 — three of five. s3 — True. The smallest GDP is R (300), which also has the highest growth (5%).",
+    "estimatedTimeSeconds": 150
+  },
+  {
+    "id": "ta5-inventory", "section": "data_insights", "type": "table_analysis", "topic": "table analysis", "difficulty": "medium",
+    "stem": "The table lists four products with their current stock, reorder level, and price. A product needs reordering when its stock is below its reorder level. You may sort the table. For each statement, select True or False.",
+    "assets": {
+      "table": {
+        "sortable": true, "caption": "Inventory",
+        "columns": [
+          { "key": "product", "label": "Product" },
+          { "key": "stock", "label": "In stock", "numeric": true },
+          { "key": "reorder", "label": "Reorder level", "numeric": true },
+          { "key": "price", "label": "Price ($)", "numeric": true }
+        ],
+        "rows": [
+          { "product": "W1", "stock": 40, "reorder": 50, "price": 10 },
+          { "product": "W2", "stock": 70, "reorder": 60, "price": 8 },
+          { "product": "W3", "stock": 30, "reorder": 30, "price": 12 },
+          { "product": "W4", "stock": 20, "reorder": 25, "price": 15 }
+        ]
+      },
+      "dichotomous": { "labels": ["True", "False"] }
+    },
+    "choices": [
+      { "key": "s1", "text": "Product W1 needs reordering." },
+      { "key": "s2", "text": "More than half of the products are at or above their reorder level." },
+      { "key": "s3", "text": "The most expensive product needs reordering." }
+    ],
+    "correctAnswer": { "format": "dichotomous", "value": { "s1": "True", "s2": "False", "s3": "True" } },
+    "explanation": "s1 — True. W1's stock (40) is below its reorder level (50). s2 — False. At or above reorder level: W2 (70 vs 60) and W3 (30 vs 30) — 2 of 4, exactly half, not more. s3 — True. The most expensive product is W4 (15), whose stock (20) is below its reorder level (25).",
+    "estimatedTimeSeconds": 165
+  },
+  {
+    "id": "ta5-athletes", "section": "data_insights", "type": "table_analysis", "topic": "table analysis", "difficulty": "hard",
+    "stem": "The table lists five athletes with their total points, games played, and points per game. You may sort the table. For each statement, select True or False.",
+    "assets": {
+      "table": {
+        "sortable": true, "caption": "Season statistics",
+        "columns": [
+          { "key": "athlete", "label": "Athlete" },
+          { "key": "points", "label": "Points", "numeric": true },
+          { "key": "games", "label": "Games", "numeric": true },
+          { "key": "ppg", "label": "Points per game", "numeric": true }
+        ],
+        "rows": [
+          { "athlete": "A", "points": 240, "games": 20, "ppg": 12 },
+          { "athlete": "B", "points": 180, "games": 15, "ppg": 12 },
+          { "athlete": "C", "points": 300, "games": 25, "ppg": 12 },
+          { "athlete": "D", "points": 220, "games": 20, "ppg": 11 },
+          { "athlete": "E", "points": 150, "games": 10, "ppg": 15 }
+        ]
+      },
+      "dichotomous": { "labels": ["True", "False"] }
+    },
+    "choices": [
+      { "key": "s1", "text": "The athlete with the most points also has the highest points per game." },
+      { "key": "s2", "text": "Every athlete who played more than 18 games scored at least 200 points." },
+      { "key": "s3", "text": "More than half of the athletes average at least 12 points per game." }
+    ],
+    "correctAnswer": { "format": "dichotomous", "value": { "s1": "False", "s2": "True", "s3": "True" } },
+    "explanation": "s1 — False. The most points is C (300), but the highest points per game is E (15). s2 — True. Athletes with more than 18 games are A (20, 240), C (25, 300), and D (20, 220); each scored at least 200. s3 — True. Points per game of at least 12: A, B, C, and E — four of five.",
+    "estimatedTimeSeconds": 180
+  },
+  {
+    "id": "tp5-phone-plan", "section": "data_insights", "type": "two_part_analysis", "topic": "two-part analysis", "difficulty": "easy",
+    "stem": "A phone plan charges \\$20 per month plus \\$0.10 per minute. In the table, select the cost of a month with 100 minutes and the number of minutes in a month that costs \\$35. Make exactly one selection in each column.",
+    "assets": {
+      "twoPart": {
+        "columns": [
+          { "key": "partA", "label": "Cost for 100 minutes" },
+          { "key": "partB", "label": "Minutes in a $35 month" }
+        ]
+      }
+    },
+    "choices": [
+      { "key": "r1", "text": "25" },
+      { "key": "r2", "text": "30" },
+      { "key": "r3", "text": "35" },
+      { "key": "r4", "text": "100" },
+      { "key": "r5", "text": "150" },
+      { "key": "r6", "text": "200" }
+    ],
+    "correctAnswer": { "format": "two_part", "value": { "partA": "r2", "partB": "r5" } },
+    "explanation": "Cost for 100 minutes: $20 + 0.10(100) = 30$ — choose 30. Minutes for a \\$35 month: $20 + 0.10m = 35$, so $0.10m = 15$ and $m = 150$ — choose 150.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "tp5-line-eval", "section": "data_insights", "type": "two_part_analysis", "topic": "two-part analysis", "difficulty": "medium",
+    "stem": "A line is given by $y = 2x + 3$. In the table, select the value of $y$ when $x = 5$ and the value of $x$ when $y = 15$. Make exactly one selection in each column.",
+    "assets": {
+      "twoPart": {
+        "columns": [
+          { "key": "partA", "label": "y when x = 5" },
+          { "key": "partB", "label": "x when y = 15" }
+        ]
+      }
+    },
+    "choices": [
+      { "key": "r1", "text": "5" },
+      { "key": "r2", "text": "6" },
+      { "key": "r3", "text": "11" },
+      { "key": "r4", "text": "13" },
+      { "key": "r5", "text": "15" },
+      { "key": "r6", "text": "33" }
+    ],
+    "correctAnswer": { "format": "two_part", "value": { "partA": "r4", "partB": "r2" } },
+    "explanation": "When $x = 5$: $y = 2(5) + 3 = 13$ — choose 13. When $y = 15$: $15 = 2x + 3$, so $2x = 12$ and $x = 6$ — choose 6.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "tp5-rectangle", "section": "data_insights", "type": "two_part_analysis", "topic": "two-part analysis", "difficulty": "medium",
+    "stem": "A rectangle has a perimeter of $36$ and a length of $12$. In the table, select the width of the rectangle and its area. Make exactly one selection in each column.",
+    "assets": {
+      "twoPart": {
+        "columns": [
+          { "key": "partA", "label": "Width" },
+          { "key": "partB", "label": "Area" }
+        ]
+      }
+    },
+    "choices": [
+      { "key": "r1", "text": "6" },
+      { "key": "r2", "text": "9" },
+      { "key": "r3", "text": "18" },
+      { "key": "r4", "text": "24" },
+      { "key": "r5", "text": "72" },
+      { "key": "r6", "text": "144" }
+    ],
+    "correctAnswer": { "format": "two_part", "value": { "partA": "r1", "partB": "r5" } },
+    "explanation": "Perimeter: $2(12 + w) = 36$, so $12 + w = 18$ and $w = 6$ — choose 6. Area: $12 \\times 6 = 72$ — choose 72.",
+    "estimatedTimeSeconds": 135
+  },
+  {
+    "id": "tp5-exp-fn", "section": "data_insights", "type": "two_part_analysis", "topic": "two-part analysis", "difficulty": "hard",
+    "stem": "The function $f$ is defined by $f(x) = 2^{x}$. In the table, select the value of $f(5)$ and the value of $x$ for which $f(x) = 64$. Make exactly one selection in each column.",
+    "assets": {
+      "twoPart": {
+        "columns": [
+          { "key": "partA", "label": "f(5)" },
+          { "key": "partB", "label": "x with f(x) = 64" }
+        ]
+      }
+    },
+    "choices": [
+      { "key": "r1", "text": "5" },
+      { "key": "r2", "text": "6" },
+      { "key": "r3", "text": "16" },
+      { "key": "r4", "text": "32" },
+      { "key": "r5", "text": "64" },
+      { "key": "r6", "text": "128" }
+    ],
+    "correctAnswer": { "format": "two_part", "value": { "partA": "r4", "partB": "r2" } },
+    "explanation": "$f(5) = 2^5 = 32$ — choose 32. For $f(x) = 64$: $2^x = 64 = 2^6$, so $x = 6$ — choose 6.",
+    "estimatedTimeSeconds": 150
+  },
+  {
+    "id": "msr-fest-pass-cost", "section": "data_insights", "type": "multi_source_reasoning", "topic": "multi-source reasoning", "difficulty": "medium",
+    "groupId": "msr-festival", "orderIndex": 1,
+    "stem": "Based on the sources, how much does a student pay for a Full Pass?",
+    "choices": [
+      { "key": "A", "text": "$100.00" },
+      { "key": "B", "text": "$112.50" },
+      { "key": "C", "text": "$120.00" },
+      { "key": "D", "text": "$150.00" },
+      { "key": "E", "text": "$187.50" }
+    ],
+    "correctAnswer": { "format": "single", "value": "B" },
+    "explanation": "A Full Pass is \\$150, and students receive 25% off: $150 \\times 0.75 = 112.50$. The student pays \\$112.50.",
+    "estimatedTimeSeconds": 105
+  },
+  {
+    "id": "msr-fest-max-screenings", "section": "data_insights", "type": "multi_source_reasoning", "topic": "multi-source reasoning", "difficulty": "medium",
+    "groupId": "msr-festival", "orderIndex": 2,
+    "stem": "What is the maximum number of screenings a single Day Pass holder could attend?",
+    "choices": [
+      { "key": "A", "text": "4" },
+      { "key": "B", "text": "5" },
+      { "key": "C", "text": "10" },
+      { "key": "D", "text": "15" },
+      { "key": "E", "text": "20" }
+    ],
+    "correctAnswer": { "format": "single", "value": "B" },
+    "explanation": "A Day Pass covers a single day, which has 5 screenings, and screenings do not overlap, so the holder can attend all 5 — but no more, since the pass is valid for only one day.",
+    "estimatedTimeSeconds": 105
+  },
+  {
+    "id": "msr-fest-yesno", "section": "data_insights", "type": "multi_source_reasoning", "topic": "multi-source reasoning", "difficulty": "hard",
+    "groupId": "msr-festival", "orderIndex": 3,
+    "stem": "Based on the sources, select Yes for each statement that must be true and No otherwise.",
+    "assets": { "dichotomous": { "labels": ["Yes", "No"] } },
+    "choices": [
+      { "key": "s1", "text": "A Full Pass costs less than buying a separate Day Pass for each of the four days." },
+      { "key": "s2", "text": "A non-student attending only one day saves money by buying a Full Pass instead of a Day Pass." },
+      { "key": "s3", "text": "Across all screenings, the festival can seat at most 4,000 distinct attendees." }
+    ],
+    "correctAnswer": { "format": "dichotomous", "value": { "s1": "Yes", "s2": "No", "s3": "Yes" } },
+    "explanation": "s1 — Yes. Four Day Passes cost 4 x 40 = 160, more than the 150 Full Pass. s2 — No. One day costs 40 with a Day Pass versus 150 for a Full Pass, so the Full Pass is more expensive for a single day. s3 — Yes. There are 20 screenings of 200 seats each, 4,000 seat-slots in all; since each distinct attendee occupies at least one, at most 4,000 distinct people can attend.",
+    "estimatedTimeSeconds": 165
+  },
+  {
+    "id": "msr-gym-first-month", "section": "data_insights", "type": "multi_source_reasoning", "topic": "multi-source reasoning", "difficulty": "medium",
+    "groupId": "msr-gym", "orderIndex": 1,
+    "stem": "What does a new Basic member pay in the first month, including the joining fee?",
+    "choices": [
+      { "key": "A", "text": "$30" },
+      { "key": "B", "text": "$40" },
+      { "key": "C", "text": "$50" },
+      { "key": "D", "text": "$60" },
+      { "key": "E", "text": "$70" }
+    ],
+    "correctAnswer": { "format": "single", "value": "C" },
+    "explanation": "The Basic plan is \\$30 per month, plus a one-time \\$20 joining fee for every new member: $30 + 20 = 50$. The first month costs \\$50.",
+    "estimatedTimeSeconds": 105
+  },
+  {
+    "id": "msr-gym-plus-three", "section": "data_insights", "type": "multi_source_reasoning", "topic": "multi-source reasoning", "difficulty": "medium",
+    "groupId": "msr-gym", "orderIndex": 2,
+    "stem": "What is a new Plus member's total cost for the first three months, including the joining fee?",
+    "choices": [
+      { "key": "A", "text": "$150" },
+      { "key": "B", "text": "$160" },
+      { "key": "C", "text": "$170" },
+      { "key": "D", "text": "$180" },
+      { "key": "E", "text": "$200" }
+    ],
+    "correctAnswer": { "format": "single", "value": "C" },
+    "explanation": "The Plus plan is \\$50 per month for three months, plus a one-time \\$20 joining fee: $3 \\times 50 + 20 = 170$. The total is \\$170.",
+    "estimatedTimeSeconds": 105
+  },
+  {
+    "id": "msr-gym-yesno", "section": "data_insights", "type": "multi_source_reasoning", "topic": "multi-source reasoning", "difficulty": "hard",
+    "groupId": "msr-gym", "orderIndex": 3,
+    "stem": "Based on the sources, select Yes for each statement that must be true and No otherwise.",
+    "assets": { "dichotomous": { "labels": ["Yes", "No"] } },
+    "choices": [
+      { "key": "s1", "text": "In a month in which a Basic member attends 3 group classes, that member pays more than a Plus member would that month." },
+      { "key": "s2", "text": "A member may freeze their membership for 3 months in a single year at no charge." },
+      { "key": "s3", "text": "Every new member pays a joining fee, regardless of which plan they choose." }
+    ],
+    "correctAnswer": { "format": "dichotomous", "value": { "s1": "Yes", "s2": "No", "s3": "Yes" } },
+    "explanation": "s1 — Yes. A Basic member with 3 drop-in classes pays 30 + 3 x 10 = 60, while a Plus member pays 50. s2 — No. Members may freeze for at most 2 months per year at no charge, not 3. s3 — Yes. The one-time joining fee applies to every new member regardless of plan.",
+    "estimatedTimeSeconds": 165
+  }
+]

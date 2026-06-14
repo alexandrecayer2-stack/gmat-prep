@@ -1,0 +1,362 @@
+[
+  {
+    "id": "rc-oct-main", "section": "verbal", "type": "reading_comprehension", "topic": "main idea", "difficulty": "medium",
+    "groupId": "rc-octopus", "orderIndex": 1,
+    "stem": "The primary purpose of the passage is to",
+    "choices": [
+      { "key": "A", "text": "prove that octopus arms think entirely independently of the brain" },
+      { "key": "B", "text": "describe octopuses' vertebrate-like behaviors and the debate over how to characterize their intelligence" },
+      { "key": "C", "text": "compare octopus and vertebrate intelligence point by point" },
+      { "key": "D", "text": "explain the digestive anatomy of the octopus" },
+      { "key": "E", "text": "argue that octopuses are smarter than most vertebrates" }
+    ],
+    "correctAnswer": { "format": "single", "value": "B" },
+    "explanation": "The passage presents striking octopus behaviors, notes the unusual distributed nervous system, and lays out the open debate about whether the intelligence is best seen as 'one mind or many.' That is (B). (A) and (E) overstate; (C) and (D) are narrow details.",
+    "estimatedTimeSeconds": 90
+  },
+  {
+    "id": "rc-oct-detail", "section": "verbal", "type": "reading_comprehension", "topic": "detail", "difficulty": "easy",
+    "groupId": "rc-octopus", "orderIndex": 2,
+    "stem": "According to the passage, about two-thirds of an octopus's neurons are located in its",
+    "choices": [
+      { "key": "A", "text": "central brain" },
+      { "key": "B", "text": "eyes" },
+      { "key": "C", "text": "arms" },
+      { "key": "D", "text": "skin" },
+      { "key": "E", "text": "heart" }
+    ],
+    "correctAnswer": { "format": "single", "value": "C" },
+    "explanation": "The first paragraph states that roughly two-thirds of an octopus's neurons lie not in its central brain but in its arms — (C).",
+    "estimatedTimeSeconds": 60
+  },
+  {
+    "id": "rc-oct-inference", "section": "verbal", "type": "reading_comprehension", "topic": "inference", "difficulty": "medium",
+    "groupId": "rc-octopus", "orderIndex": 3,
+    "stem": "The passage suggests that experiments seeming to show an arm acting on its own are difficult to interpret because",
+    "choices": [
+      { "key": "A", "text": "such results can usually be redescribed as the central brain delegating a routine task" },
+      { "key": "B", "text": "octopuses cannot be observed in laboratory settings" },
+      { "key": "C", "text": "the arms contain no neurons of their own" },
+      { "key": "D", "text": "octopuses never repeat the same behavior" },
+      { "key": "E", "text": "the vertebrate model of cognition applies directly to octopuses" }
+    ],
+    "correctAnswer": { "format": "single", "value": "A" },
+    "explanation": "The passage notes that the very experiments revealing an arm acting 'on its own' can usually be redescribed as the brain delegating a routine task, which is why the two accounts are hard to separate — (A).",
+    "estimatedTimeSeconds": 90
+  },
+  {
+    "id": "rc-oct-function", "section": "verbal", "type": "reading_comprehension", "topic": "function", "difficulty": "hard",
+    "groupId": "rc-octopus", "orderIndex": 4,
+    "stem": "The phrase \"one mind or many\" functions primarily to",
+    "choices": [
+      { "key": "A", "text": "assert that the octopus definitely has many separate minds" },
+      { "key": "B", "text": "describe the octopus's physical symmetry" },
+      { "key": "C", "text": "explain the mechanics of how octopuses hunt" },
+      { "key": "D", "text": "frame the unresolved question of how octopus intelligence should be understood" },
+      { "key": "E", "text": "compare octopuses to colonies of social insects" }
+    ],
+    "correctAnswer": { "format": "single", "value": "D" },
+    "explanation": "The phrase names the central unsettled question the passage builds toward — whether the octopus's intelligence is one mind or many. Its role is to frame that open question, (D).",
+    "estimatedTimeSeconds": 105
+  },
+  {
+    "id": "rc-pat-main", "section": "verbal", "type": "reading_comprehension", "topic": "main idea", "difficulty": "medium",
+    "groupId": "rc-patents", "orderIndex": 1,
+    "stem": "The primary purpose of the passage is to",
+    "choices": [
+      { "key": "A", "text": "argue that patents should be abolished" },
+      { "key": "B", "text": "explain the procedure for licensing overlapping patents" },
+      { "key": "C", "text": "argue that the value of patents depends on the structure of the industry to which they apply" },
+      { "key": "D", "text": "prove that patents always increase innovation" },
+      { "key": "E", "text": "describe the pharmaceutical industry" }
+    ],
+    "correctAnswer": { "format": "single", "value": "C" },
+    "explanation": "The passage grants the standard pro-patent case for pharmaceuticals, then shows it can fail in cumulative-innovation fields, concluding that effects depend on industry structure — (C). (A) and (D) are too strong; (B) and (E) are details.",
+    "estimatedTimeSeconds": 95
+  },
+  {
+    "id": "rc-pat-detail", "section": "verbal", "type": "reading_comprehension", "topic": "detail", "difficulty": "easy",
+    "groupId": "rc-patents", "orderIndex": 2,
+    "stem": "The passage presents pharmaceuticals as an example of an industry in which patents",
+    "choices": [
+      { "key": "A", "text": "primarily encourage litigation rather than research" },
+      { "key": "B", "text": "broadly succeed in encouraging innovation" },
+      { "key": "C", "text": "block cumulative invention" },
+      { "key": "D", "text": "are largely unnecessary" },
+      { "key": "E", "text": "require licensing dozens of overlapping patents" }
+    ],
+    "correctAnswer": { "format": "single", "value": "B" },
+    "explanation": "Pharmaceuticals are cited as the case where high development costs and easily copied products make the pro-patent logic work and the evidence broadly supports it — (B).",
+    "estimatedTimeSeconds": 70
+  },
+  {
+    "id": "rc-pat-inference", "section": "verbal", "type": "reading_comprehension", "topic": "inference", "difficulty": "medium",
+    "groupId": "rc-patents", "orderIndex": 3,
+    "stem": "It can be inferred that, in a field where innovation is cumulative, a single patent holder",
+    "choices": [
+      { "key": "A", "text": "always accelerates innovation for the whole field" },
+      { "key": "B", "text": "cannot earn any profit from the patent" },
+      { "key": "C", "text": "is required to license the patent at no cost" },
+      { "key": "D", "text": "has little effect on other firms' work" },
+      { "key": "E", "text": "can block another firm's project by withholding a license" }
+    ],
+    "correctAnswer": { "format": "single", "value": "E" },
+    "explanation": "The passage says a firm may need to license dozens of overlapping patents, 'any one of whose holders can block the project.' So a single holder can block another firm — (E).",
+    "estimatedTimeSeconds": 95
+  },
+  {
+    "id": "rc-pat-function", "section": "verbal", "type": "reading_comprehension", "topic": "function", "difficulty": "hard",
+    "groupId": "rc-patents", "orderIndex": 4,
+    "stem": "The author observes that the patent system is 'largely uniform, while the industries it governs are not' chiefly in order to",
+    "choices": [
+      { "key": "A", "text": "identify the central difficulty facing patent policymakers" },
+      { "key": "B", "text": "argue that all industries should be regulated identically" },
+      { "key": "C", "text": "praise the consistency of patent law" },
+      { "key": "D", "text": "explain why pharmaceutical research is unprofitable" },
+      { "key": "E", "text": "recommend abolishing patents in the software industry" }
+    ],
+    "correctAnswer": { "format": "single", "value": "A" },
+    "explanation": "The mismatch between a uniform system and varied industries is presented as the problem policymakers must grapple with — (A). The other options misread the author's measured stance.",
+    "estimatedTimeSeconds": 105
+  },
+  {
+    "id": "rc-haw-main", "section": "verbal", "type": "reading_comprehension", "topic": "main idea", "difficulty": "medium",
+    "groupId": "rc-hawthorne", "orderIndex": 1,
+    "stem": "The primary purpose of the passage is to",
+    "choices": [
+      { "key": "A", "text": "recount the Hawthorne studies and how their accepted interpretation has been complicated" },
+      { "key": "B", "text": "prove that lighting has no effect on worker productivity" },
+      { "key": "C", "text": "argue that workers should never be observed" },
+      { "key": "D", "text": "explain modern standards for factory lighting" },
+      { "key": "E", "text": "describe the founding of the Hawthorne Works" }
+    ],
+    "correctAnswer": { "format": "single", "value": "A" },
+    "explanation": "The passage recounts the puzzling results, the famous 'Hawthorne effect' interpretation, and recent reexaminations that complicate it — (A). The others are too narrow or overstated.",
+    "estimatedTimeSeconds": 90
+  },
+  {
+    "id": "rc-haw-detail", "section": "verbal", "type": "reading_comprehension", "topic": "detail", "difficulty": "easy",
+    "groupId": "rc-hawthorne", "orderIndex": 2,
+    "stem": "According to the passage, productivity at the Hawthorne Works rose when the lighting was",
+    "choices": [
+      { "key": "A", "text": "brightened only" },
+      { "key": "B", "text": "dimmed only" },
+      { "key": "C", "text": "left completely unchanged from the start" },
+      { "key": "D", "text": "brightened, dimmed, and even returned to its original state" },
+      { "key": "E", "text": "replaced entirely with natural light" }
+    ],
+    "correctAnswer": { "format": "single", "value": "D" },
+    "explanation": "The puzzle was that productivity rose under brighter light, dimmer light, and when conditions were returned to the original state — (D).",
+    "estimatedTimeSeconds": 70
+  },
+  {
+    "id": "rc-haw-inference", "section": "verbal", "type": "reading_comprehension", "topic": "inference", "difficulty": "medium",
+    "groupId": "rc-hawthorne", "orderIndex": 3,
+    "stem": "Recent reexaminations of the original data suggest that the productivity gains may have been caused mainly by",
+    "choices": [
+      { "key": "A", "text": "the workers' awareness of being observed" },
+      { "key": "B", "text": "changes such as pay, supervision, and scheduled rest breaks" },
+      { "key": "C", "text": "improvements in lighting technology" },
+      { "key": "D", "text": "the physical size of the factory" },
+      { "key": "E", "text": "the season of the year in which the studies were run" }
+    ],
+    "correctAnswer": { "format": "single", "value": "B" },
+    "explanation": "The passage says recent analysts find that factors such as pay, supervision, and rest breaks — not mere observation — better explain the changes, (B).",
+    "estimatedTimeSeconds": 95
+  },
+  {
+    "id": "rc-haw-function", "section": "verbal", "type": "reading_comprehension", "topic": "function", "difficulty": "hard",
+    "groupId": "rc-hawthorne", "orderIndex": 4,
+    "stem": "The author describes the episode as carrying a \"double lesson\" primarily to",
+    "choices": [
+      { "key": "A", "text": "argue that the Hawthorne effect does not exist at all" },
+      { "key": "B", "text": "praise the rigor of the original researchers" },
+      { "key": "C", "text": "note both that observation can change behavior and that an appealing explanation can outrun the evidence" },
+      { "key": "D", "text": "recommend that factories dim their lighting" },
+      { "key": "E", "text": "explain why the original data could never be reexamined" }
+    ],
+    "correctAnswer": { "format": "single", "value": "C" },
+    "explanation": "The closing paragraph draws two lessons: subjects may behave differently when watched, and an appealing explanation can harden into fact before the data are reexamined — (C).",
+    "estimatedTimeSeconds": 105
+  },
+  {
+    "id": "rc-con-main", "section": "verbal", "type": "reading_comprehension", "topic": "main idea", "difficulty": "medium",
+    "groupId": "rc-container", "orderIndex": 1,
+    "stem": "The primary purpose of the passage is to",
+    "choices": [
+      { "key": "A", "text": "describe in detail how cargo was loaded before containers" },
+      { "key": "B", "text": "argue that the shipping container was a poorly engineered design" },
+      { "key": "C", "text": "explain the metallurgy of steel shipping containers" },
+      { "key": "D", "text": "argue that the container's success owed more to standardization than to the design itself" },
+      { "key": "E", "text": "trace the rise of one particular shipping company" }
+    ],
+    "correctAnswer": { "format": "single", "value": "D" },
+    "explanation": "The passage reframes the container's success: the box was simple, and the decisive step was persuading the industry to standardize — (D).",
+    "estimatedTimeSeconds": 90
+  },
+  {
+    "id": "rc-con-detail", "section": "verbal", "type": "reading_comprehension", "topic": "detail", "difficulty": "easy",
+    "groupId": "rc-container", "orderIndex": 2,
+    "stem": "According to the passage, before containerization cargo was",
+    "choices": [
+      { "key": "A", "text": "loaded onto ships piece by piece" },
+      { "key": "B", "text": "transported only by truck" },
+      { "key": "C", "text": "already packed in standardized steel boxes" },
+      { "key": "D", "text": "handled entirely by machines" },
+      { "key": "E", "text": "shipped only between two ports" }
+    ],
+    "correctAnswer": { "format": "single", "value": "A" },
+    "explanation": "The passage states cargo was loaded piece by piece, a slow, labor-intensive process that kept costs high — (A).",
+    "estimatedTimeSeconds": 70
+  },
+  {
+    "id": "rc-con-inference", "section": "verbal", "type": "reading_comprehension", "topic": "inference", "difficulty": "medium",
+    "groupId": "rc-container", "orderIndex": 3,
+    "stem": "The passage suggests that incompatible designs delayed the benefits of containerization because",
+    "choices": [
+      { "key": "A", "text": "steel boxes were too costly to manufacture" },
+      { "key": "B", "text": "ports refused to handle any containers at all" },
+      { "key": "C", "text": "a container is useful only if equipment everywhere shares the same dimensions" },
+      { "key": "D", "text": "trucks were physically unable to carry containers" },
+      { "key": "E", "text": "shipping firms preferred to keep loading cargo by hand" }
+    ],
+    "correctAnswer": { "format": "single", "value": "C" },
+    "explanation": "The passage stresses that a box useful at one port but not another offers little advantage; the value depends on shared dimensions everywhere — (C).",
+    "estimatedTimeSeconds": 95
+  },
+  {
+    "id": "rc-con-function", "section": "verbal", "type": "reading_comprehension", "topic": "function", "difficulty": "hard",
+    "groupId": "rc-container", "orderIndex": 4,
+    "stem": "The author mentions firms 'surrendering the chance to lock customers into a proprietary system' mainly in order to",
+    "choices": [
+      { "key": "A", "text": "criticize those firms for making poor business decisions" },
+      { "key": "B", "text": "explain what the industry gave up in order to gain a shared network" },
+      { "key": "C", "text": "argue that proprietary systems are always more profitable" },
+      { "key": "D", "text": "describe the engineering details of the container" },
+      { "key": "E", "text": "credit government regulation for the change" }
+    ],
+    "correctAnswer": { "format": "single", "value": "B" },
+    "explanation": "The phrase highlights the trade-off behind standardization: firms gave up proprietary lock-in to gain the larger benefits of a shared network — (B).",
+    "estimatedTimeSeconds": 105
+  },
+  {
+    "id": "cr5-led-weaken", "section": "verbal", "type": "critical_reasoning", "topic": "weaken", "difficulty": "medium",
+    "stem": "Which of the following, if true, most weakens the officials' conclusion?",
+    "passageOrStimulus": "A city replaced its old streetlights with brighter LED lights and observed that nighttime traffic accidents fell by 20% over the following year. Officials concluded that the brighter LED lighting caused the decline.",
+    "choices": [
+      { "key": "A", "text": "The LED lights use significantly less electricity than the old streetlights." },
+      { "key": "B", "text": "The city also lowered the nighttime speed limit on its busiest roads during the same year." },
+      { "key": "C", "text": "Drivers reported that the LED lights made the roads easier to see at night." },
+      { "key": "D", "text": "Neighboring cities did not switch to LED streetlights that year." },
+      { "key": "E", "text": "The old streetlights had been in service for more than twenty years." }
+    ],
+    "correctAnswer": { "format": "single", "value": "B" },
+    "explanation": "The conclusion is causal. (B) supplies an alternative cause—a simultaneous speed-limit reduction could explain the drop in accidents, undermining the claim that the lights were responsible. (A) and (E) are irrelevant; (C) and (D) slightly support the officials.",
+    "estimatedTimeSeconds": 105
+  },
+  {
+    "id": "cr5-reading-assumption", "section": "verbal", "type": "critical_reasoning", "topic": "assumption", "difficulty": "medium",
+    "stem": "The administrators' prediction depends on which of the following assumptions?",
+    "passageOrStimulus": "A school will require every student to take a daily 20-minute in-class reading period. Administrators predict that students' reading test scores will rise as a result.",
+    "choices": [
+      { "key": "A", "text": "Students currently spend no time reading at all." },
+      { "key": "B", "text": "The teachers support adding the reading period." },
+      { "key": "C", "text": "The reading period will not merely replace time students already spent reading on their own." },
+      { "key": "D", "text": "Reading scores are the most important measure of a student's success." },
+      { "key": "E", "text": "Every student enjoys reading." }
+    ],
+    "correctAnswer": { "format": "single", "value": "C" },
+    "explanation": "Negate (C): if the mandated period only displaces reading students already did, total reading does not rise and scores need not improve, so the prediction collapses. (A) is too strong; (B), (D), (E) are irrelevant to the score prediction.",
+    "estimatedTimeSeconds": 105
+  },
+  {
+    "id": "cr5-oatmilk-strengthen", "section": "verbal", "type": "critical_reasoning", "topic": "strengthen", "difficulty": "medium",
+    "stem": "Which of the following, if true, most strengthens the manager's claim?",
+    "passageOrStimulus": "A coffee chain began offering oat milk as a free alternative to dairy. In the months afterward, its total beverage sales rose. The chain's manager claims the oat-milk option caused the increase.",
+    "choices": [
+      { "key": "A", "text": "Oat milk costs the chain more per liter than dairy milk does." },
+      { "key": "B", "text": "Several competing chains also offer oat milk." },
+      { "key": "C", "text": "Oat milk has a longer shelf life than dairy milk." },
+      { "key": "D", "text": "A customer survey found that many new customers came specifically to try the oat-milk drinks." },
+      { "key": "E", "text": "Some longtime customers say they dislike the taste of oat milk." }
+    ],
+    "correctAnswer": { "format": "single", "value": "D" },
+    "explanation": "(D) supports the causal claim by tying the sales increase directly to the new option—new customers came for oat-milk drinks. (A), (B), (C) are irrelevant to the cause of the rise; (E) cuts against it.",
+    "estimatedTimeSeconds": 105
+  },
+  {
+    "id": "cr5-engineers-inference", "section": "verbal", "type": "critical_reasoning", "topic": "inference", "difficulty": "medium",
+    "stem": "If the statements above are true, which of the following must also be true?",
+    "passageOrStimulus": "All of the firm's senior engineers have a graduate degree. No one in the firm's marketing department has a graduate degree.",
+    "choices": [
+      { "key": "A", "text": "No senior engineer works in the marketing department." },
+      { "key": "B", "text": "Everyone with a graduate degree is a senior engineer." },
+      { "key": "C", "text": "Every senior engineer works in the marketing department." },
+      { "key": "D", "text": "Some marketing staff are senior engineers." },
+      { "key": "E", "text": "The firm employs more engineers than marketers." }
+    ],
+    "correctAnswer": { "format": "single", "value": "A" },
+    "explanation": "Senior engineers all hold graduate degrees; no one in marketing does. So a senior engineer cannot be in marketing—(A). (B) is the converse; (C) and (D) contradict the premises; (E) is unsupported.",
+    "estimatedTimeSeconds": 105
+  },
+  {
+    "id": "cr5-bookformat-evaluate", "section": "verbal", "type": "critical_reasoning", "topic": "evaluate", "difficulty": "hard",
+    "stem": "The answer to which of the following questions would be most useful in evaluating whether the shorter format will increase profits?",
+    "passageOrStimulus": "A publisher claims that its new, shorter book format will increase profits, because shorter books cost less to print. Critics counter that the shorter format will reduce sales.",
+    "choices": [
+      { "key": "A", "text": "Do readers generally prefer hardcover or paperback books?" },
+      { "key": "B", "text": "How many titles does the publisher release each year?" },
+      { "key": "C", "text": "Are the publisher's main competitors also shortening their books?" },
+      { "key": "D", "text": "How long has the publisher been in business?" },
+      { "key": "E", "text": "Will the savings in printing costs outweigh any revenue lost to reduced sales?" }
+    ],
+    "correctAnswer": { "format": "single", "value": "E" },
+    "explanation": "Profit depends on net effect: printing savings versus lost sales revenue. (E) directly tests that balance—if savings outweigh lost revenue, profits rise; if not, they fall. The others don't bear on the profit question.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "cr5-museum-paradox", "section": "verbal", "type": "critical_reasoning", "topic": "paradox", "difficulty": "hard",
+    "stem": "Which of the following, if true, best resolves the apparent discrepancy?",
+    "passageOrStimulus": "After a museum began charging an admission fee, the number of daily visitors fell, yet the museum's total revenue from visitors rose.",
+    "choices": [
+      { "key": "A", "text": "The museum reduced its opening hours shortly after introducing the fee." },
+      { "key": "B", "text": "Many visitors complained about having to pay the new fee." },
+      { "key": "C", "text": "Before the fee, admission had been free, so the museum had collected no admission revenue at all." },
+      { "key": "D", "text": "The museum's most popular exhibit closed during the period studied." },
+      { "key": "E", "text": "Several nearby museums also charge admission fees." }
+    ],
+    "correctAnswer": { "format": "single", "value": "C" },
+    "explanation": "If admission had been free, prior admission revenue was zero. Charging even a modest fee yields positive revenue from the remaining paying visitors, so revenue can rise although attendance falls—(C). The others don't explain the rise in revenue.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "cr5-herbaltea-flaw", "section": "verbal", "type": "critical_reasoning", "topic": "flaw", "difficulty": "hard",
+    "stem": "The reasoning in the argument is most vulnerable to criticism on which of the following grounds?",
+    "passageOrStimulus": "A wellness blog surveyed its readers and found that those who drink herbal tea report lower stress than those who do not. The blog concludes that drinking herbal tea reduces stress for people in general.",
+    "choices": [
+      { "key": "A", "text": "It fails to specify which varieties of herbal tea were consumed." },
+      { "key": "B", "text": "It does not describe how the herbal tea was prepared." },
+      { "key": "C", "text": "It assumes that stress can be measured with perfect precision." },
+      { "key": "D", "text": "It draws a causal, general conclusion from a correlation found among a self-selected group of readers." },
+      { "key": "E", "text": "It overlooks the cost of buying herbal tea." }
+    ],
+    "correctAnswer": { "format": "single", "value": "D" },
+    "explanation": "The argument leaps from a correlation in a self-selected readership to a causal claim about people in general—(D), a correlation-causation plus generalization flaw. The others are minor or irrelevant.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "cr5-fourday-boldface", "section": "verbal", "type": "critical_reasoning", "topic": "describe the reasoning", "difficulty": "hard",
+    "stem": "In the argument, the two portions in boldface play which of the following roles?",
+    "passageOrStimulus": "**A consultant recommended that the company adopt a four-day workweek in order to cut costs.** The company did so, but its costs did not fall. Some managers blamed the new schedule. However, **the costs stayed high mainly because the company expanded into a new market during the same quarter.**",
+    "choices": [
+      { "key": "A", "text": "The first is the conclusion the author draws; the second is evidence offered to support it." },
+      { "key": "B", "text": "The first is a recommendation that was acted on but did not produce the predicted result; the second is the explanation the author favors for the outcome." },
+      { "key": "C", "text": "The first is an objection that the author rejects; the second is the author's main conclusion." },
+      { "key": "D", "text": "Both portions are claims that the author ultimately rejects." },
+      { "key": "E", "text": "The first is an assumption the argument requires; the second is a counterexample to it." }
+    ],
+    "correctAnswer": { "format": "single", "value": "B" },
+    "explanation": "The first boldface is a recommendation that was adopted but failed to deliver the predicted cost cut; the second is the author's preferred explanation (the market expansion) for why costs stayed high—(B).",
+    "estimatedTimeSeconds": 135
+  }
+]

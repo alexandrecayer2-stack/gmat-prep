@@ -1,0 +1,56 @@
+[
+  {
+    "id": "rc-octopus",
+    "section": "verbal",
+    "title": "Octopus Cognition",
+    "passage": "Among invertebrates, octopuses display a range of behaviors that biologists once reserved for vertebrates. In laboratory settings, octopuses have unscrewed jars to reach prey, navigated mazes, and, in some accounts, recognized individual human handlers. What makes these feats notable is not merely their difficulty but the unusual architecture of the animal that performs them. Roughly two-thirds of an octopus's neurons lie not in its central brain but in its arms, each of which can taste, touch, and act with a striking degree of independence.\n\nThis distributed nervous system has prompted debate about how octopus cognition should be described. Some researchers argue that the arms exhibit a kind of local intelligence, solving problems without central direction. Others caution that coordinated behavior need not imply independent decision-making; the central brain may set a goal that the arms merely carry out. Distinguishing the two accounts is difficult, because the very experiments that seem to show an arm acting on its own can usually be redescribed as the brain delegating a routine task.\n\nWhat is clear is that the octopus does not fit the familiar model in which a single command center directs the body. Whether its intelligence is best understood as one mind or many remains unsettled. The animal's value to science may lie precisely in that discomfort: it presses researchers to ask whether the concepts they use to describe minds were ever as general as they had assumed."
+  },
+  {
+    "id": "rc-patents",
+    "section": "verbal",
+    "title": "Patents and Innovation",
+    "passage": "Patents are often defended as a straightforward engine of innovation: by granting inventors a temporary monopoly, they let creators recover the cost of research and so encourage more of it. The logic is intuitive, and for industries with high development costs and easily copied products—pharmaceuticals are the standard example—the evidence broadly supports it.\n\nYet economists have grown wary of treating the patent system as uniformly beneficial. In fields where innovation is cumulative, each advance building directly on many predecessors, broad patents can raise the cost of further invention rather than lower it. A firm wishing to develop a new product may need to license dozens of overlapping patents, any one of whose holders can block the project. Some studies of software and semiconductors suggest that, past a point, additional patenting tracks litigation more closely than it tracks genuine research.\n\nNone of this implies that patents should be abolished. It suggests instead that their effects depend on the structure of the industry to which they apply. A policy calibrated for the pharmaceutical laboratory may misfire in a field where progress is incremental and collaborative. The difficulty for policymakers is that the patent system is largely uniform, while the industries it governs are not."
+  },
+  {
+    "id": "rc-hawthorne",
+    "section": "verbal",
+    "title": "The Hawthorne Studies",
+    "passage": "In the 1920s and 1930s, researchers at the Hawthorne Works, a factory outside Chicago, set out to measure how lighting and other working conditions affected productivity. The results were puzzling. Productivity rose when the lighting was brightened—but it also rose when the lighting was dimmed, and even when conditions were returned to their original state. No single physical variable seemed to account for the gains.\n\nThe most famous interpretation, advanced decades later, held that the workers were responding not to the lighting but to the attention of being studied. Knowing they were observed, the argument went, they worked harder regardless of conditions. This \"Hawthorne effect\" became a staple of social science, a caution that the act of measurement can alter what is measured.\n\nMore recent reexaminations of the original data have complicated this tidy story. Some analysts find that factors such as changes in pay, supervision, and scheduled rest breaks—not mere observation—better explain the productivity changes. The episode now carries a double lesson. It warns, as always, that subjects may behave differently when watched; but it also illustrates how an appealing explanation can outrun the evidence and harden into accepted fact long before the data are reexamined."
+  },
+  {
+    "id": "rc-container",
+    "section": "verbal",
+    "title": "The Shipping Container",
+    "passage": "Few innovations of the twentieth century reshaped global trade as quietly as the shipping container. Before its adoption, cargo was loaded onto ships piece by piece, a slow and labor-intensive process that kept freight costs high and ports congested. A standardized steel box that could be packed once and then moved seamlessly among ships, trains, and trucks promised to cut those costs sharply.\n\nThe obstacle was not engineering but coordination. A container is useful only if ships, cranes, railcars, and trucks everywhere are built to the same dimensions; a box that fits one port's equipment but not another's offers little advantage. For years, competing firms promoted incompatible designs, and the benefits of containerization went largely unrealized. Only after the industry agreed on common standards in the 1960s did the system's advantages materialize, and freight costs fell steeply.\n\nThe container's history is often told as the triumph of a single clever design. It is better understood as the triumph of standardization. The box itself was simple; the hard part was persuading an entire industry to converge on one set of specifications—surrendering the chance to lock customers into a proprietary system in exchange for the far larger gains of a network that everyone could use."
+  },
+  {
+    "id": "msr-festival",
+    "section": "data_insights",
+    "title": "Film Festival",
+    "sources": [
+      {
+        "title": "Passes",
+        "content": "The festival sells two passes. A **Day Pass** costs **\\$40** and admits the holder to any screenings on a single day. A **Full Pass** costs **\\$150** and admits the holder to all screenings on all four days. Students receive **25% off** any pass."
+      },
+      {
+        "title": "Schedule",
+        "content": "The festival runs **four days**, with **5 screenings each day** (20 screenings in all). Each screening seats **200 people**. A ticket holder may attend at most one screening at a time, and screenings do not overlap within a day."
+      }
+    ]
+  },
+  {
+    "id": "msr-gym",
+    "section": "data_insights",
+    "title": "Gym Membership",
+    "sources": [
+      {
+        "title": "Plans",
+        "content": "The gym offers a **Basic** plan at **\\$30 per month** (gym floor only) and a **Plus** plan at **\\$50 per month** (gym floor plus all group classes). A one-time **\\$20 joining fee** applies to every new member regardless of plan."
+      },
+      {
+        "title": "Rules",
+        "content": "Group classes are included only with the **Plus** plan; Basic members may attend a class for a **\\$10** drop-in fee. Members may **freeze** their membership for up to **2 months per year** at no charge. Cancellation requires **30 days' notice**."
+      }
+    ]
+  }
+]

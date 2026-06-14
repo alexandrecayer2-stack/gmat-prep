@@ -14,6 +14,7 @@ import {
   questionGroupsFileSchema,
   learnArticlesFileSchema,
   type ValidatedQuestion,
+  type ValidatedQuestionGroup,
 } from '../src/lib/domain/schema';
 
 const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
@@ -44,9 +45,16 @@ function fail(file: string, error: ZodError): never {
 }
 
 // ---- Load + validate ----
-const groupsParsed = questionGroupsFileSchema.safeParse(loadJson(join(CONTENT, 'question_groups.json')));
-if (!groupsParsed.success) fail('question_groups.json', groupsParsed.error);
-const groups = groupsParsed.data;
+// All files matching content/question_groups*.json (so passages/sources can be
+// split across files, like questions).
+const groups: ValidatedQuestionGroup[] = [];
+for (const file of readdirSync(CONTENT)
+  .filter((f) => /^question_groups.*\.json$/.test(f))
+  .sort()) {
+  const parsed = questionGroupsFileSchema.safeParse(loadJson(join(CONTENT, file)));
+  if (!parsed.success) fail(file, parsed.error);
+  groups.push(...parsed.data);
+}
 
 const qDir = join(CONTENT, 'questions');
 const questions: ValidatedQuestion[] = [];
