@@ -7,6 +7,7 @@ import {
   SECTION_TYPES,
 } from '@/lib/domain/constants';
 import { DashboardStats } from '@/components/dashboard-stats';
+import { PlanCard } from '@/components/plan/plan-card';
 
 export default function Home() {
   return (
@@ -35,6 +36,8 @@ export default function Home() {
           </Link>
         </div>
       </section>
+
+      <PlanCard />
 
       <DashboardStats />
 
