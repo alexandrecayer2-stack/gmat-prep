@@ -155,11 +155,11 @@
     "orderIndex": 1,
     "stem": "Based on the two sources, what is the cost of sending a $4$ kg package by standard delivery?",
     "choices": [
-      { "key": "A", "text": "\\$9" },
-      { "key": "B", "text": "\\$11" },
-      { "key": "C", "text": "\\$13" },
-      { "key": "D", "text": "\\$15" },
-      { "key": "E", "text": "\\$20" }
+      { "key": "A", "text": "$9" },
+      { "key": "B", "text": "$11" },
+      { "key": "C", "text": "$13" },
+      { "key": "D", "text": "$15" },
+      { "key": "E", "text": "$20" }
     ],
     "correctAnswer": { "format": "single", "value": "C" },
     "explanation": "Standard delivery costs a \\$5 base plus \\$2 per kilogram. For a $4$ kg package: $5 + 2(4) = 13$. The cost is \\$13.",

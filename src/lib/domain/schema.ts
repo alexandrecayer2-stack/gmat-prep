@@ -96,6 +96,11 @@ export const questionSchema = z
     sourceNote: z.string().optional(),
     estimatedTimeSeconds: z.number().int().positive().default(120),
     orderIndex: z.number().int().default(0),
+    // Optional machine-checkable re-derivation of the labeled answer. A JS
+    // expression (returning a boolean) that the content gate evaluates with the
+    // question in scope — see scripts/lib/content-gate.ts. Authoring-only: it is
+    // never persisted to the database (the seed maps explicit columns).
+    answerCheck: z.string().min(1).optional(),
   })
   .superRefine((q, ctx) => {
     // section <-> type consistency

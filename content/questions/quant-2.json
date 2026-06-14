@@ -40,11 +40,11 @@
     "difficultyDrivers": ["two percent relationships must be sequenced correctly", "arithmetic is light", "trap is adding or subtracting percents instead of using multipliers"],
     "stem": "A retailer marks an item at a price and then sells it for $20\\%$ less than the marked price. The sale price is $40\\%$ greater than the item's cost of \\$50. What is the marked price?",
     "choices": [
-      { "key": "A", "text": "\\$56.00" },
-      { "key": "B", "text": "\\$70.00" },
-      { "key": "C", "text": "\\$84.00" },
-      { "key": "D", "text": "\\$87.50" },
-      { "key": "E", "text": "\\$90.00" }
+      { "key": "A", "text": "$56.00" },
+      { "key": "B", "text": "$70.00" },
+      { "key": "C", "text": "$84.00" },
+      { "key": "D", "text": "$87.50" },
+      { "key": "E", "text": "$90.00" }
     ],
     "correctAnswer": { "format": "single", "value": "D" },
     "distractorRationale": {
@@ -214,11 +214,11 @@
     "difficultyDrivers": ["Direct percent decrease", "No multi-stage adjustment", "Low computational load"],
     "stem": "A store marks a sweater down by $25\\%$ from its original price of \\$80. What is the sale price?",
     "choices": [
-      { "key": "A", "text": "\\$50" },
-      { "key": "B", "text": "\\$60" },
-      { "key": "C", "text": "\\$65" },
-      { "key": "D", "text": "\\$70" },
-      { "key": "E", "text": "\\$75" }
+      { "key": "A", "text": "$50" },
+      { "key": "B", "text": "$60" },
+      { "key": "C", "text": "$65" },
+      { "key": "D", "text": "$70" },
+      { "key": "E", "text": "$75" }
     ],
     "correctAnswer": { "format": "single", "value": "B" },
     "distractorRationale": {

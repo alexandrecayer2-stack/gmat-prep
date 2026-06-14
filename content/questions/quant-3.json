@@ -32,11 +32,11 @@
     "difficulty": "easy",
     "stem": "An account pays $6\\%$ simple annual interest. How much interest does a deposit of \\$500 earn in $2$ years?",
     "choices": [
-      { "key": "A", "text": "\\$30" },
-      { "key": "B", "text": "\\$36" },
-      { "key": "C", "text": "\\$60" },
-      { "key": "D", "text": "\\$62" },
-      { "key": "E", "text": "\\$120" }
+      { "key": "A", "text": "$30" },
+      { "key": "B", "text": "$36" },
+      { "key": "C", "text": "$60" },
+      { "key": "D", "text": "$62" },
+      { "key": "E", "text": "$120" }
     ],
     "correctAnswer": { "format": "single", "value": "C" },
     "distractorRationale": {
@@ -46,6 +46,7 @@
       "E": "This treats the rate as $12\\%$ or doubles the principal."
     },
     "explanation": "Simple interest is principal × rate × time = $500 \\times 0.06 \\times 2 = 60$. The interest earned is \\$60.",
+    "answerCheck": "num(text(answer)) === 500 * 0.06 * 2",
     "estimatedTimeSeconds": 60,
     "tags": ["percents", "simple-interest", "easy-quant"]
   },

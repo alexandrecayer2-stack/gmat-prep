@@ -8,6 +8,8 @@
     "start": "next start",
     "lint": "eslint",
     "seed": "tsx scripts/seed.ts",
+    "validate": "tsx scripts/validate.ts",
+    "typecheck": "tsc --noEmit",
     "check:answers": "node scripts/check-answers.mjs",
     "db:start": "supabase start",
     "db:stop": "supabase stop",

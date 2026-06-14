@@ -16,6 +16,7 @@ import {
   type LearnRow,
   type QuestionRow,
 } from './mappers';
+import { targetCount, type MockConfig } from '@/lib/domain/mock';
 
 export interface QuestionFilter {
   section?: Section;
@@ -149,6 +150,50 @@ export async function getDiagnosticQuestions(perSection = 5): Promise<QuestionWi
     for (const q of picked) {
       out.push({ ...q, group: q.groupId ? (groupsById[q.groupId] ?? null) : null });
     }
+  }
+  return out;
+}
+
+export interface MockSectionSet {
+  section: Section;
+  questions: QuestionWithGroup[];
+}
+
+/**
+ * Build a mock exam: for each configured section, draw `targetCount` questions
+ * matching the difficulty preference (spread across difficulties when
+ * "balanced"), keeping grouped questions (RC / Multi-Source) contiguous. Returns
+ * one entry per section in canonical order; sections with no questions are
+ * dropped.
+ */
+export async function getMockQuestions(config: MockConfig): Promise<MockSectionSet[]> {
+  const supabase = await createClient();
+  const { data, error } = await supabase.from('questions').select('*');
+  if (error) throw new Error(error.message);
+  const all = ((data ?? []) as unknown as QuestionRow[]).map(mapQuestion);
+
+  const groupIds = [...new Set(all.map((q) => q.groupId).filter(Boolean))] as string[];
+  const groupsById: Record<string, QuestionGroup> = {};
+  if (groupIds.length) {
+    const { data: gdata, error: gerr } = await supabase
+      .from('question_groups')
+      .select('*')
+      .in('id', groupIds);
+    if (gerr) throw new Error(gerr.message);
+    for (const g of ((gdata ?? []) as unknown as GroupRow[]).map(mapGroup)) groupsById[g.id] = g;
+  }
+
+  const out: MockSectionSet[] = [];
+  for (const section of config.sections) {
+    const pool = all.filter((q) => q.section === section);
+    // For a specific difficulty, narrow the pool but fall back to the whole
+    // section if that would leave too little to fill the exam.
+    const narrowed =
+      config.difficulty === 'balanced' ? pool : pool.filter((q) => q.difficulty === config.difficulty);
+    const source = narrowed.length >= 1 ? narrowed : pool;
+    const picked = pickSpread(source, targetCount(section, config.length));
+    if (picked.length === 0) continue;
+    out.push({ section, questions: arrangeUnits(picked, groupsById) });
   }
   return out;
 }
