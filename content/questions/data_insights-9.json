@@ -1,0 +1,1671 @@
+[
+  {
+    "id": "qc-ds-01",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "algebra",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "What is the value of $x$?\n\n(1) $2x+5=17$\n(2) $x-3=4$",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "D"
+    },
+    "explanation": "From (1), $2x=12$, so $x=6$. From (2), $x=7$. Each statement alone determines $x$, so either statement alone is sufficient.",
+    "estimatedTimeSeconds": 100,
+    "tags": [
+      "algebra"
+    ]
+  },
+  {
+    "id": "qc-ds-02",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "number_properties",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "Is integer $n$ divisible by $3$?\n\n(1) $n=6k+3$ for some integer $k$.\n(2) $n$ leaves a remainder of $1$ when divided by $3$.",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "D"
+    },
+    "explanation": "From (1), $n=3(2k+1)$, so $n$ is always divisible by $3$. Statement (2) tells us $n$ is not divisible by $3$, which does not answer the yes/no question on its own.",
+    "estimatedTimeSeconds": 100,
+    "tags": [
+      "number_properties"
+    ]
+  },
+  {
+    "id": "qc-ds-03",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "geometry",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "What is the area of rectangle $R$?\n\n(1) The length of $R$ is $8$.\n(2) The perimeter of $R$ is $24$.",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "(1) gives only one side. (2) gives only $l+w=12$. Together, with $l=8$, we get $w=4$, so area $=8\\cdot 4=32$.",
+    "estimatedTimeSeconds": 100,
+    "tags": [
+      "geometry"
+    ]
+  },
+  {
+    "id": "qc-ds-04",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "algebra",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "Is $x=2$?\n\n(1) $x^2=4$\n(2) $x$ is an even integer.",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "E"
+    },
+    "explanation": "(1) allows $x=2$ or $x=-2$. (2) allows many even integers. Together, $x$ can still be $2$ or $-2$, so the value is not fixed.",
+    "estimatedTimeSeconds": 100,
+    "tags": [
+      "algebra"
+    ]
+  },
+  {
+    "id": "qc-ds-05",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "statistics",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "What is the mean of the 5 numbers?\n\n(1) Their sum is $60$.\n(2) Their median is $12$.",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "If the sum of 5 numbers is $60$, the mean is $60/5=12$. The median does not determine the mean.",
+    "estimatedTimeSeconds": 100,
+    "tags": [
+      "statistics"
+    ]
+  },
+  {
+    "id": "qc-ds-06",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "rates_work",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "How long will it take Machines A and B to finish the job together?\n\n(1) Machine A can finish the job in 6 hours.\n(2) Machine B can finish the same job in 8 hours.",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "Each statement alone gives only one machine's rate. Together, the combined rate is $1/6+1/8=7/24$ job per hour, so the time is $24/7$ hours.",
+    "estimatedTimeSeconds": 100,
+    "tags": [
+      "rates_work"
+    ]
+  },
+  {
+    "id": "qc-ds-07",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "overlapping_sets",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "How many students are in at least one of clubs A and B?\n\n(1) Club A has 20 members, club B has 15 members, and 5 students are in both clubs.\n(2) Club A has 20 members.",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "Statement (1) gives $20+15-5=30$ students in at least one club. Statement (2) alone is not enough.",
+    "estimatedTimeSeconds": 100,
+    "tags": [
+      "overlapping_sets"
+    ]
+  },
+  {
+    "id": "qc-ds-08",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "geometry",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "Is triangle $T$ acute?\n\n(1) Two angles of $T$ are $50^\\circ$ and $60^\\circ$.\n(2) The largest angle of $T$ is less than $90^\\circ$.",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "D"
+    },
+    "explanation": "(1) implies the third angle is $70^\\circ$, so the triangle is acute. (2) also directly says the largest angle is less than $90^\\circ$, which is sufficient. Either statement alone is sufficient.",
+    "estimatedTimeSeconds": 100,
+    "tags": [
+      "geometry"
+    ]
+  },
+  {
+    "id": "qc-ds-09",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "inequalities",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "stem": "Is $x<1$?\n\n(1) $x^2<1$.\n(2) $x>0$.",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "(1) gives $-1<x<1$, which is insufficient. (2) gives $x>0$, which is insufficient. Together, $0<x<1$, so yes, $x<1$.",
+    "estimatedTimeSeconds": 100,
+    "tags": [
+      "inequalities"
+    ]
+  },
+  {
+    "id": "qc-ds-10",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "number_properties",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "stem": "Is integer $n$ prime?\n\n(1) $n$ is an odd integer greater than 2.\n(2) $n$ has exactly two positive divisors.",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "Odd and greater than 2 does not guarantee prime. Having exactly two positive divisors is the definition of prime.",
+    "estimatedTimeSeconds": 100,
+    "tags": [
+      "number_properties"
+    ]
+  },
+  {
+    "id": "qc-ds-11",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "statistics",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "stem": "What is the average of the 4 numbers?\n\n(1) Their sum is $44$.\n(2) Their median is $11$.",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "If the sum of 4 numbers is $44$, the average is $44/4=11$. The median alone is not enough.",
+    "estimatedTimeSeconds": 100,
+    "tags": [
+      "statistics"
+    ]
+  },
+  {
+    "id": "qc-ds-12",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "algebra",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "stem": "Is $x$ an integer?\n\n(1) $x^2=16$.\n(2) $x>0$.",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "(1) gives $x=\\pm 4$, so not sufficient. (2) gives many possibilities, so not sufficient. Together, $x=4$, which is an integer.",
+    "estimatedTimeSeconds": 100,
+    "tags": [
+      "algebra"
+    ]
+  },
+  {
+    "id": "qc-gi-01",
+    "section": "data_insights",
+    "type": "graphics_interpretation",
+    "topic": "trends",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "Use the chart to answer the dropdown statements.",
+    "assets": {
+      "chart": {
+        "type": "bar",
+        "title": "Quarterly Revenue",
+        "xKey": "quarter",
+        "xLabel": "Quarter",
+        "yLabel": "Revenue",
+        "series": [
+          {
+            "key": "rev",
+            "label": "Revenue"
+          }
+        ],
+        "data": [
+          {
+            "quarter": "Q1",
+            "rev": 40
+          },
+          {
+            "quarter": "Q2",
+            "rev": 50
+          },
+          {
+            "quarter": "Q3",
+            "rev": 60
+          },
+          {
+            "quarter": "Q4",
+            "rev": 80
+          }
+        ]
+      },
+      "dropdowns": [
+        {
+          "key": "b1",
+          "before": "The revenue in Q4 was ",
+          "after": ".",
+          "options": [
+            {
+              "value": "70"
+            },
+            {
+              "value": "75"
+            },
+            {
+              "value": "80"
+            },
+            {
+              "value": "85"
+            }
+          ]
+        },
+        {
+          "key": "b2",
+          "before": "The percent increase from Q1 to Q4 was ",
+          "after": ".",
+          "options": [
+            {
+              "value": "75 percent"
+            },
+            {
+              "value": "90 percent"
+            },
+            {
+              "value": "100 percent"
+            },
+            {
+              "value": "110 percent"
+            }
+          ]
+        }
+      ]
+    },
+    "correctAnswer": {
+      "format": "dropdowns",
+      "value": {
+        "b1": "80",
+        "b2": "100 percent"
+      }
+    },
+    "explanation": "From the chart, Q4 revenue is 80. The increase from 40 to 80 is 40, and 40/40 = 1, so the increase is 100 percent.",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "trend",
+      "percent"
+    ]
+  },
+  {
+    "id": "qc-gi-02",
+    "section": "data_insights",
+    "type": "graphics_interpretation",
+    "topic": "trends",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "Use the chart to answer the dropdown statements.",
+    "assets": {
+      "chart": {
+        "type": "line",
+        "title": "Monthly Sign-Ups",
+        "xKey": "month",
+        "xLabel": "Month",
+        "yLabel": "Sign-ups",
+        "series": [
+          {
+            "key": "u",
+            "label": "Sign-ups"
+          }
+        ],
+        "data": [
+          {
+            "month": "Jan",
+            "u": 30
+          },
+          {
+            "month": "Feb",
+            "u": 45
+          },
+          {
+            "month": "Mar",
+            "u": 60
+          },
+          {
+            "month": "Apr",
+            "u": 75
+          }
+        ]
+      },
+      "dropdowns": [
+        {
+          "key": "b1",
+          "before": "The number of sign-ups in Apr was ",
+          "after": ".",
+          "options": [
+            {
+              "value": "60"
+            },
+            {
+              "value": "70"
+            },
+            {
+              "value": "75"
+            },
+            {
+              "value": "80"
+            }
+          ]
+        },
+        {
+          "key": "b2",
+          "before": "The increase from Jan to Apr was ",
+          "after": ".",
+          "options": [
+            {
+              "value": "40"
+            },
+            {
+              "value": "45"
+            },
+            {
+              "value": "50"
+            },
+            {
+              "value": "55"
+            }
+          ]
+        }
+      ]
+    },
+    "correctAnswer": {
+      "format": "dropdowns",
+      "value": {
+        "b1": "75",
+        "b2": "45"
+      }
+    },
+    "explanation": "Apr is 75. The increase from 30 to 75 is 45.",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "line chart",
+      "change"
+    ]
+  },
+  {
+    "id": "qc-gi-03",
+    "section": "data_insights",
+    "type": "graphics_interpretation",
+    "topic": "trends",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "Use the chart to answer the dropdown statements.",
+    "assets": {
+      "chart": {
+        "type": "bar",
+        "title": "Orders by Day",
+        "xKey": "day",
+        "xLabel": "Day",
+        "yLabel": "Orders",
+        "series": [
+          {
+            "key": "o",
+            "label": "Orders"
+          }
+        ],
+        "data": [
+          {
+            "day": "Mon",
+            "o": 18
+          },
+          {
+            "day": "Tue",
+            "o": 24
+          },
+          {
+            "day": "Wed",
+            "o": 30
+          },
+          {
+            "day": "Thu",
+            "o": 36
+          }
+        ]
+      },
+      "dropdowns": [
+        {
+          "key": "b1",
+          "before": "The average number of orders per day was ",
+          "after": ".",
+          "options": [
+            {
+              "value": "24"
+            },
+            {
+              "value": "25"
+            },
+            {
+              "value": "26"
+            },
+            {
+              "value": "27"
+            }
+          ]
+        },
+        {
+          "key": "b2",
+          "before": "The ratio of Thu orders to Mon orders was ",
+          "after": ".",
+          "options": [
+            {
+              "value": "1.5"
+            },
+            {
+              "value": "2"
+            },
+            {
+              "value": "2.5"
+            },
+            {
+              "value": "3"
+            }
+          ]
+        }
+      ]
+    },
+    "correctAnswer": {
+      "format": "dropdowns",
+      "value": {
+        "b1": "27",
+        "b2": "2"
+      }
+    },
+    "explanation": "Average is (18+24+30+36)/4 = 108/4 = 27. Ratio 36:18 = 2:1, so the ratio is 2.",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "average",
+      "ratio"
+    ]
+  },
+  {
+    "id": "qc-gi-04",
+    "section": "data_insights",
+    "type": "graphics_interpretation",
+    "topic": "trends",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "Use the chart to answer the dropdown statements.",
+    "assets": {
+      "chart": {
+        "type": "scatter",
+        "title": "Study Hours vs Score",
+        "xKey": "hours",
+        "xLabel": "Hours",
+        "yLabel": "Score",
+        "series": [
+          {
+            "key": "s",
+            "label": "Score"
+          }
+        ],
+        "data": [
+          {
+            "hours": 1,
+            "s": 55
+          },
+          {
+            "hours": 2,
+            "s": 60
+          },
+          {
+            "hours": 3,
+            "s": 70
+          },
+          {
+            "hours": 4,
+            "s": 80
+          }
+        ]
+      },
+      "dropdowns": [
+        {
+          "key": "b1",
+          "before": "The score when study hours were 4 was ",
+          "after": ".",
+          "options": [
+            {
+              "value": "70"
+            },
+            {
+              "value": "75"
+            },
+            {
+              "value": "80"
+            },
+            {
+              "value": "85"
+            }
+          ]
+        },
+        {
+          "key": "b2",
+          "before": "The score increased by ",
+          "after": " points from 1 hour to 4 hours.",
+          "options": [
+            {
+              "value": "20"
+            },
+            {
+              "value": "25"
+            },
+            {
+              "value": "30"
+            },
+            {
+              "value": "35"
+            }
+          ]
+        }
+      ]
+    },
+    "correctAnswer": {
+      "format": "dropdowns",
+      "value": {
+        "b1": "80",
+        "b2": "25"
+      }
+    },
+    "explanation": "At 4 hours, the score is 80. The increase from 55 to 80 is 25.",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "scatter",
+      "difference"
+    ]
+  },
+  {
+    "id": "qc-gi-05",
+    "section": "data_insights",
+    "type": "graphics_interpretation",
+    "topic": "trends",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "stem": "Use the chart to answer the dropdown statements.",
+    "assets": {
+      "chart": {
+        "type": "line",
+        "title": "Inventory Remaining",
+        "xKey": "day",
+        "xLabel": "Day",
+        "yLabel": "Units",
+        "series": [
+          {
+            "key": "inv",
+            "label": "Units"
+          }
+        ],
+        "data": [
+          {
+            "day": "Day 1",
+            "inv": 120
+          },
+          {
+            "day": "Day 2",
+            "inv": 96
+          },
+          {
+            "day": "Day 3",
+            "inv": 72
+          },
+          {
+            "day": "Day 4",
+            "inv": 48
+          }
+        ]
+      },
+      "dropdowns": [
+        {
+          "key": "b1",
+          "before": "The inventory on Day 3 was ",
+          "after": " units.",
+          "options": [
+            {
+              "value": "60"
+            },
+            {
+              "value": "72"
+            },
+            {
+              "value": "84"
+            },
+            {
+              "value": "96"
+            }
+          ]
+        },
+        {
+          "key": "b2",
+          "before": "The percent decrease from Day 1 to Day 4 was ",
+          "after": ".",
+          "options": [
+            {
+              "value": "50 percent"
+            },
+            {
+              "value": "55 percent"
+            },
+            {
+              "value": "60 percent"
+            },
+            {
+              "value": "65 percent"
+            }
+          ]
+        }
+      ]
+    },
+    "correctAnswer": {
+      "format": "dropdowns",
+      "value": {
+        "b1": "72",
+        "b2": "60 percent"
+      }
+    },
+    "explanation": "Day 3 inventory is 72. The decrease from 120 to 48 is 72, and 72/120 = 0.6, so the decrease is 60 percent.",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "inventory",
+      "percent"
+    ]
+  },
+  {
+    "id": "qc-gi-06",
+    "section": "data_insights",
+    "type": "graphics_interpretation",
+    "topic": "trends",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "stem": "Use the chart to answer the dropdown statements.",
+    "assets": {
+      "chart": {
+        "type": "bar",
+        "title": "Customers by Store",
+        "xKey": "store",
+        "xLabel": "Store",
+        "yLabel": "Customers",
+        "series": [
+          {
+            "key": "c",
+            "label": "Customers"
+          }
+        ],
+        "data": [
+          {
+            "store": "A",
+            "c": 150
+          },
+          {
+            "store": "B",
+            "c": 180
+          },
+          {
+            "store": "C",
+            "c": 210
+          },
+          {
+            "store": "D",
+            "c": 240
+          }
+        ]
+      },
+      "dropdowns": [
+        {
+          "key": "b1",
+          "before": "The store with the most customers had ",
+          "after": " customers.",
+          "options": [
+            {
+              "value": "220"
+            },
+            {
+              "value": "230"
+            },
+            {
+              "value": "240"
+            },
+            {
+              "value": "250"
+            }
+          ]
+        },
+        {
+          "key": "b2",
+          "before": "The difference between Store D and Store A was ",
+          "after": " customers.",
+          "options": [
+            {
+              "value": "80"
+            },
+            {
+              "value": "85"
+            },
+            {
+              "value": "90"
+            },
+            {
+              "value": "95"
+            }
+          ]
+        }
+      ]
+    },
+    "correctAnswer": {
+      "format": "dropdowns",
+      "value": {
+        "b1": "240",
+        "b2": "90"
+      }
+    },
+    "explanation": "Store D has 240 customers. The difference between D and A is 240 - 150 = 90.",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "comparison",
+      "difference"
+    ]
+  },
+  {
+    "id": "qc-ta-01",
+    "section": "data_insights",
+    "type": "table_analysis",
+    "topic": "comparison",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "Use the table to evaluate each statement.",
+    "assets": {
+      "table": {
+        "sortable": true,
+        "caption": "Branch Performance",
+        "columns": [
+          {
+            "key": "branch",
+            "label": "Branch"
+          },
+          {
+            "key": "sales",
+            "label": "Sales",
+            "numeric": true
+          },
+          {
+            "key": "profit",
+            "label": "Profit",
+            "numeric": true
+          }
+        ],
+        "rows": [
+          {
+            "branch": "North",
+            "sales": 120,
+            "profit": 18
+          },
+          {
+            "branch": "South",
+            "sales": 150,
+            "profit": 20
+          },
+          {
+            "branch": "East",
+            "sales": 90,
+            "profit": 12
+          },
+          {
+            "branch": "West",
+            "sales": 160,
+            "profit": 16
+          }
+        ]
+      },
+      "dichotomous": {
+        "labels": [
+          "True",
+          "False"
+        ]
+      }
+    },
+    "choices": [
+      {
+        "key": "s1",
+        "text": "South has the highest sales."
+      },
+      {
+        "key": "s2",
+        "text": "West has a profit margin of 10 percent."
+      },
+      {
+        "key": "s3",
+        "text": "East has sales below 100."
+      }
+    ],
+    "correctAnswer": {
+      "format": "dichotomous",
+      "value": {
+        "s1": "False",
+        "s2": "True",
+        "s3": "True"
+      }
+    },
+    "explanation": "South has sales of 150, which is the highest. West's profit margin is 16/160 = 10 percent. East's sales are 90, which is below 100.",
+    "estimatedTimeSeconds": 100,
+    "tags": [
+      "sales",
+      "profit",
+      "margin"
+    ]
+  },
+  {
+    "id": "qc-ta-02",
+    "section": "data_insights",
+    "type": "table_analysis",
+    "topic": "comparison",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "Use the table to evaluate each statement.",
+    "assets": {
+      "table": {
+        "sortable": true,
+        "caption": "Project Costs",
+        "columns": [
+          {
+            "key": "project",
+            "label": "Project"
+          },
+          {
+            "key": "budget",
+            "label": "Budget",
+            "numeric": true
+          },
+          {
+            "key": "spent",
+            "label": "Spent",
+            "numeric": true
+          }
+        ],
+        "rows": [
+          {
+            "project": "A",
+            "budget": 50,
+            "spent": 45
+          },
+          {
+            "project": "B",
+            "budget": 60,
+            "spent": 55
+          },
+          {
+            "project": "C",
+            "budget": 40,
+            "spent": 42
+          },
+          {
+            "project": "D",
+            "budget": 70,
+            "spent": 68
+          }
+        ]
+      },
+      "dichotomous": {
+        "labels": [
+          "True",
+          "False"
+        ]
+      }
+    },
+    "choices": [
+      {
+        "key": "s1",
+        "text": "Project C stayed within budget."
+      },
+      {
+        "key": "s2",
+        "text": "Project D overspent by 5."
+      },
+      {
+        "key": "s3",
+        "text": "Project B spent less than Project A."
+      }
+    ],
+    "correctAnswer": {
+      "format": "dichotomous",
+      "value": {
+        "s1": "False",
+        "s2": "False",
+        "s3": "False"
+      }
+    },
+    "explanation": "Project C overspent by 2, so it did not stay within budget. Project D overspent by 68 - 70 = -2, so it did not overspend by 5. Project B spent 55, which is not less than Project A's 45.",
+    "estimatedTimeSeconds": 100,
+    "tags": [
+      "budget",
+      "costs",
+      "comparison"
+    ]
+  },
+  {
+    "id": "qc-ta-03",
+    "section": "data_insights",
+    "type": "table_analysis",
+    "topic": "comparison",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "Use the table to evaluate each statement.",
+    "assets": {
+      "table": {
+        "sortable": true,
+        "caption": "Employee Data",
+        "columns": [
+          {
+            "key": "name",
+            "label": "Employee"
+          },
+          {
+            "key": "hours",
+            "label": "Hours",
+            "numeric": true
+          },
+          {
+            "key": "rate",
+            "label": "Rate",
+            "numeric": true
+          }
+        ],
+        "rows": [
+          {
+            "name": "Lia",
+            "hours": 20,
+            "rate": 15
+          },
+          {
+            "name": "Noah",
+            "hours": 25,
+            "rate": 14
+          },
+          {
+            "name": "Mia",
+            "hours": 18,
+            "rate": 16
+          },
+          {
+            "name": "Omar",
+            "hours": 22,
+            "rate": 15
+          }
+        ]
+      },
+      "dichotomous": {
+        "labels": [
+          "True",
+          "False"
+        ]
+      }
+    },
+    "choices": [
+      {
+        "key": "s1",
+        "text": "Noah worked the most hours."
+      },
+      {
+        "key": "s2",
+        "text": "Mia earned more than Omar."
+      },
+      {
+        "key": "s3",
+        "text": "Lia and Omar have the same hourly rate."
+      }
+    ],
+    "correctAnswer": {
+      "format": "dichotomous",
+      "value": {
+        "s1": "True",
+        "s2": "False",
+        "s3": "True"
+      }
+    },
+    "explanation": "Noah has 25 hours, the largest value. Mia earned 18*16 = 288, while Omar earned 22*15 = 330, so Mia did not earn more. Lia and Omar both have a rate of 15.",
+    "estimatedTimeSeconds": 100,
+    "tags": [
+      "hours",
+      "wages",
+      "rate"
+    ]
+  },
+  {
+    "id": "qc-ta-04",
+    "section": "data_insights",
+    "type": "table_analysis",
+    "topic": "comparison",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "Use the table to evaluate each statement.",
+    "assets": {
+      "table": {
+        "sortable": true,
+        "caption": "Store Visits",
+        "columns": [
+          {
+            "key": "store",
+            "label": "Store"
+          },
+          {
+            "key": "weekday",
+            "label": "Weekday Visits",
+            "numeric": true
+          },
+          {
+            "key": "weekend",
+            "label": "Weekend Visits",
+            "numeric": true
+          }
+        ],
+        "rows": [
+          {
+            "store": "A",
+            "weekday": 30,
+            "weekend": 50
+          },
+          {
+            "store": "B",
+            "weekday": 40,
+            "weekend": 45
+          },
+          {
+            "store": "C",
+            "weekday": 35,
+            "weekend": 55
+          }
+        ]
+      },
+      "dichotomous": {
+        "labels": [
+          "True",
+          "False"
+        ]
+      }
+    },
+    "choices": [
+      {
+        "key": "s1",
+        "text": "Store A had fewer weekday visits than Store C."
+      },
+      {
+        "key": "s2",
+        "text": "Store B had more total visits than Store A."
+      },
+      {
+        "key": "s3",
+        "text": "Store C had the highest weekend visits."
+      }
+    ],
+    "correctAnswer": {
+      "format": "dichotomous",
+      "value": {
+        "s1": "True",
+        "s2": "True",
+        "s3": "True"
+      }
+    },
+    "explanation": "A has 30 weekday visits and C has 35, so A is fewer. A totals 80, B totals 85, so B has more total visits than A. C has 55 weekend visits, the highest value.",
+    "estimatedTimeSeconds": 100,
+    "tags": [
+      "visits",
+      "totals",
+      "weekend"
+    ]
+  },
+  {
+    "id": "qc-ta-05",
+    "section": "data_insights",
+    "type": "table_analysis",
+    "topic": "comparison",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "stem": "Use the table to evaluate each statement.",
+    "assets": {
+      "table": {
+        "sortable": true,
+        "caption": "Warehouse Efficiency",
+        "columns": [
+          {
+            "key": "warehouse",
+            "label": "Warehouse"
+          },
+          {
+            "key": "orders",
+            "label": "Orders",
+            "numeric": true
+          },
+          {
+            "key": "returns",
+            "label": "Returns",
+            "numeric": true
+          }
+        ],
+        "rows": [
+          {
+            "warehouse": "North",
+            "orders": 300,
+            "returns": 12
+          },
+          {
+            "warehouse": "South",
+            "orders": 280,
+            "returns": 10
+          },
+          {
+            "warehouse": "East",
+            "orders": 260,
+            "returns": 15
+          },
+          {
+            "warehouse": "West",
+            "orders": 320,
+            "returns": 14
+          }
+        ]
+      },
+      "dichotomous": {
+        "labels": [
+          "True",
+          "False"
+        ]
+      }
+    },
+    "choices": [
+      {
+        "key": "s1",
+        "text": "West processed the most orders."
+      },
+      {
+        "key": "s2",
+        "text": "South had the lowest return rate."
+      },
+      {
+        "key": "s3",
+        "text": "North had a higher return rate than East."
+      }
+    ],
+    "correctAnswer": {
+      "format": "dichotomous",
+      "value": {
+        "s1": "True",
+        "s2": "True",
+        "s3": "False"
+      }
+    },
+    "explanation": "West has 320 orders, the most. South's return rate is 10/280, which is less than North's 12/300 and East's 15/260? Compare: 10/280 = 3.57 percent, North = 4 percent, East = 5.77 percent, so South is lowest. North's rate is lower than East's, so the third statement is false.",
+    "estimatedTimeSeconds": 100,
+    "tags": [
+      "orders",
+      "returns",
+      "rate"
+    ]
+  },
+  {
+    "id": "qc-ta-06",
+    "section": "data_insights",
+    "type": "table_analysis",
+    "topic": "comparison",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "stem": "Use the table to evaluate each statement.",
+    "assets": {
+      "table": {
+        "sortable": true,
+        "caption": "Course Results",
+        "columns": [
+          {
+            "key": "course",
+            "label": "Course"
+          },
+          {
+            "key": "passed",
+            "label": "Passed",
+            "numeric": true
+          },
+          {
+            "key": "failed",
+            "label": "Failed",
+            "numeric": true
+          }
+        ],
+        "rows": [
+          {
+            "course": "Math",
+            "passed": 42,
+            "failed": 8
+          },
+          {
+            "course": "Science",
+            "passed": 35,
+            "failed": 15
+          },
+          {
+            "course": "History",
+            "passed": 40,
+            "failed": 10
+          },
+          {
+            "course": "Art",
+            "passed": 28,
+            "failed": 12
+          }
+        ]
+      },
+      "dichotomous": {
+        "labels": [
+          "True",
+          "False"
+        ]
+      }
+    },
+    "choices": [
+      {
+        "key": "s1",
+        "text": "History has a 20 percent failure rate."
+      },
+      {
+        "key": "s2",
+        "text": "Science has fewer total students than Math."
+      },
+      {
+        "key": "s3",
+        "text": "Art has the lowest pass count."
+      }
+    ],
+    "correctAnswer": {
+      "format": "dichotomous",
+      "value": {
+        "s1": "True",
+        "s2": "False",
+        "s3": "True"
+      }
+    },
+    "explanation": "History has 10 failures out of 50 total, which is 20 percent. Science has 50 total students, the same as Math, not fewer. Art has 28 passes, the fewest among the four courses.",
+    "estimatedTimeSeconds": 100,
+    "tags": [
+      "rates",
+      "totals",
+      "counts"
+    ]
+  },
+  {
+    "id": "qc-tp-01",
+    "section": "data_insights",
+    "type": "two_part_analysis",
+    "topic": "algebra",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "Evaluate each arithmetic expression.\n\nPart A: What is the value of $2+4$?\n\nPart B: What is the value of $20\\div 2$?",
+    "assets": {
+      "twoPart": {
+        "columns": [
+          {
+            "key": "partA",
+            "label": "Value of $2+4$"
+          },
+          {
+            "key": "partB",
+            "label": "Value of $20\\div 2$"
+          }
+        ]
+      }
+    },
+    "choices": [
+      {
+        "key": "r1",
+        "text": "4"
+      },
+      {
+        "key": "r2",
+        "text": "6"
+      },
+      {
+        "key": "r3",
+        "text": "8"
+      },
+      {
+        "key": "r4",
+        "text": "10"
+      },
+      {
+        "key": "r5",
+        "text": "12"
+      }
+    ],
+    "correctAnswer": {
+      "format": "two_part",
+      "value": {
+        "partA": "r2",
+        "partB": "r4"
+      }
+    },
+    "explanation": "Part A: $2+4=6$, so choose r2. Part B: $20/2=10$, so choose r4.",
+    "estimatedTimeSeconds": 100,
+    "tags": [
+      "expressions",
+      "arithmetic"
+    ]
+  },
+  {
+    "id": "qc-tp-02",
+    "section": "data_insights",
+    "type": "two_part_analysis",
+    "topic": "number_properties",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "Evaluate each expression.\n\nPart A: What is the value of $2^2$?\n\nPart B: What is the value of $3+9$?",
+    "assets": {
+      "twoPart": {
+        "columns": [
+          {
+            "key": "partA",
+            "label": "Value of $2^2$"
+          },
+          {
+            "key": "partB",
+            "label": "Value of $3+9$"
+          }
+        ]
+      }
+    },
+    "choices": [
+      {
+        "key": "r1",
+        "text": "4"
+      },
+      {
+        "key": "r2",
+        "text": "6"
+      },
+      {
+        "key": "r3",
+        "text": "8"
+      },
+      {
+        "key": "r4",
+        "text": "10"
+      },
+      {
+        "key": "r5",
+        "text": "12"
+      }
+    ],
+    "correctAnswer": {
+      "format": "two_part",
+      "value": {
+        "partA": "r1",
+        "partB": "r5"
+      }
+    },
+    "explanation": "Part A: $2^2=4$, so choose r1. Part B: $3+9=12$, so choose r5.",
+    "estimatedTimeSeconds": 100,
+    "tags": [
+      "powers",
+      "sum"
+    ]
+  },
+  {
+    "id": "qc-tp-03",
+    "section": "data_insights",
+    "type": "two_part_analysis",
+    "topic": "geometry",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "Use the given measurements to compute each quantity.\n\nPart A: What is the area of a rectangle with length $2$ and width $4$?\n\nPart B: What is the value of $12-8$?",
+    "assets": {
+      "twoPart": {
+        "columns": [
+          {
+            "key": "partA",
+            "label": "Area of rectangle (length 2, width 4)"
+          },
+          {
+            "key": "partB",
+            "label": "Value of $12-8$"
+          }
+        ]
+      }
+    },
+    "choices": [
+      {
+        "key": "r1",
+        "text": "4"
+      },
+      {
+        "key": "r2",
+        "text": "6"
+      },
+      {
+        "key": "r3",
+        "text": "8"
+      },
+      {
+        "key": "r4",
+        "text": "10"
+      },
+      {
+        "key": "r5",
+        "text": "12"
+      }
+    ],
+    "correctAnswer": {
+      "format": "two_part",
+      "value": {
+        "partA": "r3",
+        "partB": "r1"
+      }
+    },
+    "explanation": "Part A: $2\\times 4=8$, so choose r3. Part B: $12-8=4$, so choose r1.",
+    "estimatedTimeSeconds": 100,
+    "tags": [
+      "area",
+      "difference"
+    ]
+  },
+  {
+    "id": "qc-tp-04",
+    "section": "data_insights",
+    "type": "two_part_analysis",
+    "topic": "rates_work",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "Use the given rates to compute each value.\n\nPart A: What is the value of $30\\div 3$?\n\nPart B: What is the value of $18\\div 3$?",
+    "assets": {
+      "twoPart": {
+        "columns": [
+          {
+            "key": "partA",
+            "label": "Value of $30\\div 3$"
+          },
+          {
+            "key": "partB",
+            "label": "Value of $18\\div 3$"
+          }
+        ]
+      }
+    },
+    "choices": [
+      {
+        "key": "r1",
+        "text": "4"
+      },
+      {
+        "key": "r2",
+        "text": "6"
+      },
+      {
+        "key": "r3",
+        "text": "8"
+      },
+      {
+        "key": "r4",
+        "text": "10"
+      },
+      {
+        "key": "r5",
+        "text": "12"
+      }
+    ],
+    "correctAnswer": {
+      "format": "two_part",
+      "value": {
+        "partA": "r4",
+        "partB": "r2"
+      }
+    },
+    "explanation": "Part A: $30/3=10$, so choose r4. Part B: $18/3=6$, so choose r2.",
+    "estimatedTimeSeconds": 100,
+    "tags": [
+      "rates",
+      "division"
+    ]
+  },
+  {
+    "id": "qc-tp-05",
+    "section": "data_insights",
+    "type": "two_part_analysis",
+    "topic": "statistics",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "stem": "Use the given data to compute each value.\n\nPart A: What is the value of $8+4$?\n\nPart B: What is the value of $16\\div 2$?",
+    "assets": {
+      "twoPart": {
+        "columns": [
+          {
+            "key": "partA",
+            "label": "Value of $8+4$"
+          },
+          {
+            "key": "partB",
+            "label": "Value of $16\\div 2$"
+          }
+        ]
+      }
+    },
+    "choices": [
+      {
+        "key": "r1",
+        "text": "4"
+      },
+      {
+        "key": "r2",
+        "text": "6"
+      },
+      {
+        "key": "r3",
+        "text": "8"
+      },
+      {
+        "key": "r4",
+        "text": "10"
+      },
+      {
+        "key": "r5",
+        "text": "12"
+      }
+    ],
+    "correctAnswer": {
+      "format": "two_part",
+      "value": {
+        "partA": "r5",
+        "partB": "r3"
+      }
+    },
+    "explanation": "Part A: $8+4=12$, so choose r5. Part B: $16/2=8$, so choose r3.",
+    "estimatedTimeSeconds": 100,
+    "tags": [
+      "mean",
+      "median"
+    ]
+  },
+  {
+    "id": "qc-tp-06",
+    "section": "data_insights",
+    "type": "two_part_analysis",
+    "topic": "inequalities",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "stem": "Determine each requested value.\n\nPart A: What is the value of $14-8$?\n\nPart B: What is the value of $12\\div 3$?",
+    "assets": {
+      "twoPart": {
+        "columns": [
+          {
+            "key": "partA",
+            "label": "Value of $14-8$"
+          },
+          {
+            "key": "partB",
+            "label": "Value of $12\\div 3$"
+          }
+        ]
+      }
+    },
+    "choices": [
+      {
+        "key": "r1",
+        "text": "4"
+      },
+      {
+        "key": "r2",
+        "text": "6"
+      },
+      {
+        "key": "r3",
+        "text": "8"
+      },
+      {
+        "key": "r4",
+        "text": "10"
+      },
+      {
+        "key": "r5",
+        "text": "12"
+      }
+    ],
+    "correctAnswer": {
+      "format": "two_part",
+      "value": {
+        "partA": "r2",
+        "partB": "r1"
+      }
+    },
+    "explanation": "Part A: $14-8=6$, so choose r2. Part B: $12/3=4$, so choose r1.",
+    "estimatedTimeSeconds": 100,
+    "tags": [
+      "algebra",
+      "comparison"
+    ]
+  }
+]

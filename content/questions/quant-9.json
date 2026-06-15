@@ -1,0 +1,1677 @@
+[
+  {
+    "id": "qc-quant-01",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "percents",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "A jacket costs $80$ dollars and is discounted to $68$ dollars. What is the percent decrease?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "10"
+      },
+      {
+        "key": "B",
+        "text": "12"
+      },
+      {
+        "key": "C",
+        "text": "15"
+      },
+      {
+        "key": "D",
+        "text": "18"
+      },
+      {
+        "key": "E",
+        "text": "20"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "The decrease is $80-68=12$. Percent decrease is $12/80=0.15$, or $15\\%$.",
+    "estimatedTimeSeconds": 60,
+    "tags": [
+      "percent",
+      "decrease"
+    ]
+  },
+  {
+    "id": "qc-quant-02",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "ratios",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "A sum of $72$ is divided in the ratio $5:7$. What is the larger part?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "30"
+      },
+      {
+        "key": "B",
+        "text": "36"
+      },
+      {
+        "key": "C",
+        "text": "42"
+      },
+      {
+        "key": "D",
+        "text": "48"
+      },
+      {
+        "key": "E",
+        "text": "54"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "The ratio has $5+7=12$ parts. The larger part is $7/12\\times 72=42$.",
+    "estimatedTimeSeconds": 60,
+    "tags": [
+      "ratio",
+      "split"
+    ]
+  },
+  {
+    "id": "qc-quant-03",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "averages",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "The average of four numbers is $18$. Three of the numbers are $16$, $19$, and $21$. What is the fourth number?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "16"
+      },
+      {
+        "key": "B",
+        "text": "14"
+      },
+      {
+        "key": "C",
+        "text": "18"
+      },
+      {
+        "key": "D",
+        "text": "20"
+      },
+      {
+        "key": "E",
+        "text": "22"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "The total is $4\\times 18=72$. The known numbers sum to $16+19+21=56$. The missing number is $72-56=16$.",
+    "estimatedTimeSeconds": 60,
+    "tags": [
+      "average",
+      "unknown"
+    ]
+  },
+  {
+    "id": "qc-quant-04",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "algebra",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "If $3x+8=29$, what is the value of $x$?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "5"
+      },
+      {
+        "key": "B",
+        "text": "6"
+      },
+      {
+        "key": "C",
+        "text": "8"
+      },
+      {
+        "key": "D",
+        "text": "7"
+      },
+      {
+        "key": "E",
+        "text": "9"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "D"
+    },
+    "explanation": "Subtract $8$: $3x=21$. Divide by $3$: $x=7$.",
+    "estimatedTimeSeconds": 45,
+    "tags": [
+      "equation",
+      "linear"
+    ]
+  },
+  {
+    "id": "qc-quant-05",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "number_properties",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "What is the remainder when $53$ is divided by $8$?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "1"
+      },
+      {
+        "key": "B",
+        "text": "3"
+      },
+      {
+        "key": "C",
+        "text": "5"
+      },
+      {
+        "key": "D",
+        "text": "7"
+      },
+      {
+        "key": "E",
+        "text": "6"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "$8\\times 6=48$, and $53-48=5$. So the remainder is $5$.",
+    "estimatedTimeSeconds": 45,
+    "tags": [
+      "remainder",
+      "division"
+    ]
+  },
+  {
+    "id": "qc-quant-06",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "geometry",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "A rectangle has length $11$ and width $6$. What is its area?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "66"
+      },
+      {
+        "key": "B",
+        "text": "54"
+      },
+      {
+        "key": "C",
+        "text": "72"
+      },
+      {
+        "key": "D",
+        "text": "60"
+      },
+      {
+        "key": "E",
+        "text": "77"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "Area of a rectangle is $lw$. Thus $11\\times 6=66$.",
+    "estimatedTimeSeconds": 45,
+    "tags": [
+      "area",
+      "rectangle"
+    ]
+  },
+  {
+    "id": "qc-quant-07",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "coordinate_geometry",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "What is the distance between the points $(2,3)$ and $(6,6)$?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "4"
+      },
+      {
+        "key": "B",
+        "text": "5"
+      },
+      {
+        "key": "C",
+        "text": "6"
+      },
+      {
+        "key": "D",
+        "text": "7"
+      },
+      {
+        "key": "E",
+        "text": "8"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "Use the distance formula: $\\sqrt{(6-2)^2+(6-3)^2}=\\sqrt{16+9}=\\sqrt{25}=5$.",
+    "estimatedTimeSeconds": 60,
+    "tags": [
+      "distance",
+      "coordinates"
+    ]
+  },
+  {
+    "id": "qc-quant-08",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "rates",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "Machine A can finish a job in $8$ hours. Machine B can finish the same job in $12$ hours. Working together, how many hours do they need to finish the job?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "4"
+      },
+      {
+        "key": "B",
+        "text": "5"
+      },
+      {
+        "key": "C",
+        "text": "4.8"
+      },
+      {
+        "key": "D",
+        "text": "6"
+      },
+      {
+        "key": "E",
+        "text": "7"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "Their combined rate is $1/8+1/12=3/24+2/24=5/24$ job per hour. Time is $1\\div(5/24)=24/5=4.8$ hours.",
+    "estimatedTimeSeconds": 60,
+    "tags": [
+      "work",
+      "rate"
+    ]
+  },
+  {
+    "id": "qc-quant-09",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "mixtures",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "A solution is $20\\%$ salt. How many liters of pure water must be added to $10$ liters of the solution to make it $10\\%$ salt?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "5"
+      },
+      {
+        "key": "B",
+        "text": "8"
+      },
+      {
+        "key": "C",
+        "text": "10"
+      },
+      {
+        "key": "D",
+        "text": "12"
+      },
+      {
+        "key": "E",
+        "text": "15"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "Salt amount stays $0.20\\times 10=2$ liters. For a $10\\%$ mixture, $2$ liters must be $10\\%$ of the final volume, so final volume is $20$ liters. Water added is $20-10=10$ liters.",
+    "estimatedTimeSeconds": 75,
+    "tags": [
+      "mixture",
+      "percent"
+    ]
+  },
+  {
+    "id": "qc-quant-10",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "exponents",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "Simplify $2^4\\cdot 2^3$.",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "32"
+      },
+      {
+        "key": "B",
+        "text": "128"
+      },
+      {
+        "key": "C",
+        "text": "64"
+      },
+      {
+        "key": "D",
+        "text": "96"
+      },
+      {
+        "key": "E",
+        "text": "256"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "When multiplying powers with the same base, add exponents: $2^4\\cdot 2^3=2^{7}=128$.",
+    "estimatedTimeSeconds": 45,
+    "tags": [
+      "exponents"
+    ]
+  },
+  {
+    "id": "qc-quant-11",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "inequalities",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "How many integers satisfy $-2<3x+1\\le 10$?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "4"
+      },
+      {
+        "key": "B",
+        "text": "3"
+      },
+      {
+        "key": "C",
+        "text": "5"
+      },
+      {
+        "key": "D",
+        "text": "6"
+      },
+      {
+        "key": "E",
+        "text": "7"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "Subtract $1$: $-3<3x\\le 9$. Divide by $3$: $-1<x\\le 3$. The integers are $0,1,2,3$, so there are $4$.",
+    "estimatedTimeSeconds": 75,
+    "tags": [
+      "inequality",
+      "integers"
+    ]
+  },
+  {
+    "id": "qc-quant-12",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "statistics",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "The set of numbers is $3, 7, 7, 9, 12$. What is the median?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "7"
+      },
+      {
+        "key": "B",
+        "text": "3"
+      },
+      {
+        "key": "C",
+        "text": "9"
+      },
+      {
+        "key": "D",
+        "text": "10"
+      },
+      {
+        "key": "E",
+        "text": "12"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "The numbers are already in order. The middle value of five numbers is the median, so it is $7$.",
+    "estimatedTimeSeconds": 30,
+    "tags": [
+      "median",
+      "statistics"
+    ]
+  },
+  {
+    "id": "qc-quant-13",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "sequences",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "In an arithmetic sequence, the first term is $4$ and the common difference is $3$. What is the $8^{th}$ term?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "22"
+      },
+      {
+        "key": "B",
+        "text": "23"
+      },
+      {
+        "key": "C",
+        "text": "25"
+      },
+      {
+        "key": "D",
+        "text": "24"
+      },
+      {
+        "key": "E",
+        "text": "26"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "Use $a_n=a_1+(n-1)d$. Thus $a_8=4+7\\cdot 3=25$.",
+    "estimatedTimeSeconds": 60,
+    "tags": [
+      "sequence",
+      "arithmetic"
+    ]
+  },
+  {
+    "id": "qc-quant-14",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "probability",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "A fair coin is flipped twice. What is the probability of getting exactly one head?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "1/2"
+      },
+      {
+        "key": "B",
+        "text": "1/4"
+      },
+      {
+        "key": "C",
+        "text": "3/4"
+      },
+      {
+        "key": "D",
+        "text": "1/3"
+      },
+      {
+        "key": "E",
+        "text": "2/3"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "The outcomes are HH, HT, TH, TT. Exactly one head occurs in HT and TH, so the probability is $2/4=1/2$.",
+    "estimatedTimeSeconds": 45,
+    "tags": [
+      "probability"
+    ]
+  },
+  {
+    "id": "qc-quant-15",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "counting",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "How many different 3-letter arrangements can be formed from the letters $A$, $B$, $C$, and $D$ if no letter may repeat?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "12"
+      },
+      {
+        "key": "B",
+        "text": "18"
+      },
+      {
+        "key": "C",
+        "text": "30"
+      },
+      {
+        "key": "D",
+        "text": "36"
+      },
+      {
+        "key": "E",
+        "text": "24"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "E"
+    },
+    "explanation": "There are $4$ choices for the first letter, $3$ for the second, and $2$ for the third. So the total is $4\\cdot 3\\cdot 2=24$.",
+    "estimatedTimeSeconds": 60,
+    "tags": [
+      "counting",
+      "permutation"
+    ]
+  },
+  {
+    "id": "qc-quant-16",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "fractions",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "What is $\\frac{3}{5}$ of $40$?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "20"
+      },
+      {
+        "key": "B",
+        "text": "24"
+      },
+      {
+        "key": "C",
+        "text": "25"
+      },
+      {
+        "key": "D",
+        "text": "28"
+      },
+      {
+        "key": "E",
+        "text": "30"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "Compute $\\frac{3}{5}\\times 40=3\\times 8=24$.",
+    "estimatedTimeSeconds": 30,
+    "tags": [
+      "fractions"
+    ]
+  },
+  {
+    "id": "qc-quant-17",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "rates",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "stem": "A car travels $150$ miles in $2.5$ hours. At the same speed, how far does it travel in $4$ hours?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "240"
+      },
+      {
+        "key": "B",
+        "text": "200"
+      },
+      {
+        "key": "C",
+        "text": "225"
+      },
+      {
+        "key": "D",
+        "text": "250"
+      },
+      {
+        "key": "E",
+        "text": "300"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "Speed is $150/2.5=60$ miles per hour. In $4$ hours, distance is $60\\times 4=240$ miles.",
+    "estimatedTimeSeconds": 60,
+    "tags": [
+      "rate",
+      "speed"
+    ]
+  },
+  {
+    "id": "qc-quant-18",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "number_properties",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "stem": "How many positive divisors does $84$ have?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "8"
+      },
+      {
+        "key": "B",
+        "text": "10"
+      },
+      {
+        "key": "C",
+        "text": "12"
+      },
+      {
+        "key": "D",
+        "text": "14"
+      },
+      {
+        "key": "E",
+        "text": "16"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "Factor $84=2^2\\cdot 3^1\\cdot 7^1$. The number of divisors is $(2+1)(1+1)(1+1)=12$.",
+    "estimatedTimeSeconds": 75,
+    "tags": [
+      "divisors",
+      "factorization"
+    ]
+  },
+  {
+    "id": "qc-quant-19",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "algebra",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "If $x+y=11$ and $x-y=3$, what is the value of $x$?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "5"
+      },
+      {
+        "key": "B",
+        "text": "6"
+      },
+      {
+        "key": "C",
+        "text": "7"
+      },
+      {
+        "key": "D",
+        "text": "8"
+      },
+      {
+        "key": "E",
+        "text": "9"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "Add the equations: $2x=14$, so $x=7$.",
+    "estimatedTimeSeconds": 60,
+    "tags": [
+      "system",
+      "linear"
+    ]
+  },
+  {
+    "id": "qc-quant-20",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "coordinate_geometry",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "What is the slope of the line passing through $(1,4)$ and $(5,12)$?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "1"
+      },
+      {
+        "key": "B",
+        "text": "2"
+      },
+      {
+        "key": "C",
+        "text": "3"
+      },
+      {
+        "key": "D",
+        "text": "4"
+      },
+      {
+        "key": "E",
+        "text": "5"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "Slope is $(12-4)/(5-1)=8/4=2$.",
+    "estimatedTimeSeconds": 45,
+    "tags": [
+      "slope",
+      "coordinates"
+    ]
+  },
+  {
+    "id": "qc-quant-21",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "geometry",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "Two angles of a triangle measure $38^\\circ$ and $67^\\circ$. What is the third angle?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "65"
+      },
+      {
+        "key": "B",
+        "text": "72"
+      },
+      {
+        "key": "C",
+        "text": "78"
+      },
+      {
+        "key": "D",
+        "text": "75"
+      },
+      {
+        "key": "E",
+        "text": "82"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "D"
+    },
+    "explanation": "The angles of a triangle sum to $180^\\circ$. So the third angle is $180-38-67=75^\\circ$.",
+    "estimatedTimeSeconds": 45,
+    "tags": [
+      "triangle",
+      "angles"
+    ]
+  },
+  {
+    "id": "qc-quant-22",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "geometry",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "A rectangular prism has dimensions $3$, $4$, and $9$. What is its volume?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "72"
+      },
+      {
+        "key": "B",
+        "text": "84"
+      },
+      {
+        "key": "C",
+        "text": "96"
+      },
+      {
+        "key": "D",
+        "text": "120"
+      },
+      {
+        "key": "E",
+        "text": "108"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "E"
+    },
+    "explanation": "Volume is $lwh=3\\times 4\\times 9=108$.",
+    "estimatedTimeSeconds": 45,
+    "tags": [
+      "volume",
+      "prism"
+    ]
+  },
+  {
+    "id": "qc-quant-23",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "percents",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "A store marks an item up by $25\\%$ from its wholesale price and then offers a $20\\%$ discount on the marked price. If the wholesale price is $80$ dollars, what is the sale price?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "80"
+      },
+      {
+        "key": "B",
+        "text": "72"
+      },
+      {
+        "key": "C",
+        "text": "84"
+      },
+      {
+        "key": "D",
+        "text": "88"
+      },
+      {
+        "key": "E",
+        "text": "96"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "Marked price is $80\\times 1.25=100$. Sale price is $100\\times 0.80=80$.",
+    "estimatedTimeSeconds": 75,
+    "tags": [
+      "percent",
+      "markup"
+    ]
+  },
+  {
+    "id": "qc-quant-24",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "statistics",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "The mean of $5$ numbers is $14$. If each number is increased by $3$, what is the new mean?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "15"
+      },
+      {
+        "key": "B",
+        "text": "16"
+      },
+      {
+        "key": "C",
+        "text": "17"
+      },
+      {
+        "key": "D",
+        "text": "18"
+      },
+      {
+        "key": "E",
+        "text": "19"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "Adding $3$ to each of the $5$ numbers increases the total by $15$, so the mean increases by $3$. New mean is $14+3=17$.",
+    "estimatedTimeSeconds": 45,
+    "tags": [
+      "mean",
+      "transform"
+    ]
+  },
+  {
+    "id": "qc-quant-25",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "number_properties",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "What is the greatest common divisor of $36$ and $48$?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "6"
+      },
+      {
+        "key": "B",
+        "text": "12"
+      },
+      {
+        "key": "C",
+        "text": "8"
+      },
+      {
+        "key": "D",
+        "text": "16"
+      },
+      {
+        "key": "E",
+        "text": "18"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "$36=2^2\\cdot 3^2$ and $48=2^4\\cdot 3$. The common prime factors are $2^2\\cdot 3=12$.",
+    "estimatedTimeSeconds": 60,
+    "tags": [
+      "gcd",
+      "factors"
+    ]
+  },
+  {
+    "id": "qc-quant-26",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "number_properties",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "What is the units digit of $7^{11}$?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "1"
+      },
+      {
+        "key": "B",
+        "text": "3"
+      },
+      {
+        "key": "C",
+        "text": "5"
+      },
+      {
+        "key": "D",
+        "text": "7"
+      },
+      {
+        "key": "E",
+        "text": "9"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "The units digit of powers of $7$ repeats every 4: $7,9,3,1$. Since $11\\equiv 3\\pmod 4$, the units digit is $3$.",
+    "estimatedTimeSeconds": 60,
+    "tags": [
+      "units_digit",
+      "mod"
+    ]
+  },
+  {
+    "id": "qc-quant-27",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "inequalities",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "If $2<\\frac{x-1}{3}\\le 5$, what is the least possible integer value of $x$?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "6"
+      },
+      {
+        "key": "B",
+        "text": "8"
+      },
+      {
+        "key": "C",
+        "text": "7"
+      },
+      {
+        "key": "D",
+        "text": "9"
+      },
+      {
+        "key": "E",
+        "text": "10"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "Multiply by $3$: $6<x-1\\le 15$. Add $1$: $7<x\\le 16$. The least integer is $8$.",
+    "estimatedTimeSeconds": 75,
+    "tags": [
+      "inequality",
+      "integer"
+    ]
+  },
+  {
+    "id": "qc-quant-28",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "probability",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "A bag contains $3$ red balls and $5$ blue balls. If one ball is drawn at random, what is the probability that it is red?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "3/5"
+      },
+      {
+        "key": "B",
+        "text": "5/8"
+      },
+      {
+        "key": "C",
+        "text": "3/8"
+      },
+      {
+        "key": "D",
+        "text": "5/3"
+      },
+      {
+        "key": "E",
+        "text": "1/2"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "There are $3+5=8$ balls total. The probability of red is $3/8$.",
+    "estimatedTimeSeconds": 30,
+    "tags": [
+      "probability"
+    ]
+  },
+  {
+    "id": "qc-quant-29",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "counting",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "How many ways can a committee of $2$ people be chosen from $7$ people?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "21"
+      },
+      {
+        "key": "B",
+        "text": "14"
+      },
+      {
+        "key": "C",
+        "text": "18"
+      },
+      {
+        "key": "D",
+        "text": "24"
+      },
+      {
+        "key": "E",
+        "text": "28"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "Use combinations: $\\binom{7}{2}=7\\cdot 6/2=21$.",
+    "estimatedTimeSeconds": 45,
+    "tags": [
+      "combinations",
+      "counting"
+    ]
+  },
+  {
+    "id": "qc-quant-30",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "fractions",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "stem": "Which is greater: $\\frac{7}{12}$ or $\\frac{5}{8}$?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "7/12"
+      },
+      {
+        "key": "B",
+        "text": "5/8"
+      },
+      {
+        "key": "C",
+        "text": "They are equal"
+      },
+      {
+        "key": "D",
+        "text": "Cannot be determined"
+      },
+      {
+        "key": "E",
+        "text": "Neither"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "Compare by cross-multiplying: $7\\times 8=56$ and $5\\times 12=60$. Since $60>56$, $5/8$ is greater.",
+    "estimatedTimeSeconds": 45,
+    "tags": [
+      "fractions",
+      "comparison"
+    ]
+  },
+  {
+    "id": "qc-quant-31",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "rates",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "stem": "Pipe A fills a tank in $10$ hours and pipe B fills the same tank in $15$ hours. How many hours will it take to fill the tank if both pipes are open together?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "5"
+      },
+      {
+        "key": "B",
+        "text": "6"
+      },
+      {
+        "key": "C",
+        "text": "7.5"
+      },
+      {
+        "key": "D",
+        "text": "8"
+      },
+      {
+        "key": "E",
+        "text": "9"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "Combined rate is $1/10+1/15=3/30+2/30=5/30=1/6$ tank per hour. Time is $6$ hours.",
+    "estimatedTimeSeconds": 60,
+    "tags": [
+      "work",
+      "pipes"
+    ]
+  },
+  {
+    "id": "qc-quant-32",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "mixtures",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "stem": "How many liters of a $40\\%$ solution must be mixed with $10$ liters of a $10\\%$ solution to make a mixture that is $25\\%$ solution?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "4"
+      },
+      {
+        "key": "B",
+        "text": "5"
+      },
+      {
+        "key": "C",
+        "text": "6"
+      },
+      {
+        "key": "D",
+        "text": "7"
+      },
+      {
+        "key": "E",
+        "text": "10"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "E"
+    },
+    "explanation": "Let $x$ be the liters of $40\\%$ solution. Then $0.40x+0.10(10)=0.25(x+10)$. So $0.40x+1=0.25x+2.5$, hence $0.15x=1.5$ and $x=10$.",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "mixture",
+      "algebra"
+    ]
+  },
+  {
+    "id": "qc-quant-33",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "exponents",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "stem": "If $x=2^3$ and $y=2^5$, what is the value of $xy$?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "64"
+      },
+      {
+        "key": "B",
+        "text": "128"
+      },
+      {
+        "key": "C",
+        "text": "192"
+      },
+      {
+        "key": "D",
+        "text": "512"
+      },
+      {
+        "key": "E",
+        "text": "256"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "E"
+    },
+    "explanation": "$xy=2^3\\cdot 2^5=2^{8}=256$.",
+    "estimatedTimeSeconds": 45,
+    "tags": [
+      "exponents"
+    ]
+  },
+  {
+    "id": "qc-quant-34",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "inequalities",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "stem": "How many integers satisfy $1\\le 2x-3<13$?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "6"
+      },
+      {
+        "key": "B",
+        "text": "5"
+      },
+      {
+        "key": "C",
+        "text": "7"
+      },
+      {
+        "key": "D",
+        "text": "8"
+      },
+      {
+        "key": "E",
+        "text": "9"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "Add $3$: $4\\le 2x<16$. Divide by $2$: $2\\le x<8$. Integers are $2,3,4,5,6,7$, so there are $6$.",
+    "estimatedTimeSeconds": 75,
+    "tags": [
+      "inequality",
+      "count"
+    ]
+  },
+  {
+    "id": "qc-quant-35",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "statistics",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "stem": "The numbers in a set are $4, 9, 11, 16,$ and $20$. What is the range?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "12"
+      },
+      {
+        "key": "B",
+        "text": "16"
+      },
+      {
+        "key": "C",
+        "text": "14"
+      },
+      {
+        "key": "D",
+        "text": "15"
+      },
+      {
+        "key": "E",
+        "text": "18"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "Range is largest minus smallest: $20-4=16$.",
+    "estimatedTimeSeconds": 30,
+    "tags": [
+      "range",
+      "statistics"
+    ]
+  },
+  {
+    "id": "qc-quant-36",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "coordinate_geometry",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "stem": "What is the midpoint of the segment joining $(2,-1)$ and $(8,5)$?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "(4,2)"
+      },
+      {
+        "key": "B",
+        "text": "(5,2)"
+      },
+      {
+        "key": "C",
+        "text": "(6,3)"
+      },
+      {
+        "key": "D",
+        "text": "(5,3)"
+      },
+      {
+        "key": "E",
+        "text": "(4,3)"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "Midpoint is $\\left(\\frac{2+8}{2},\\frac{-1+5}{2}\\right)=(5,2)$.",
+    "estimatedTimeSeconds": 60,
+    "tags": [
+      "midpoint",
+      "coordinates"
+    ]
+  },
+  {
+    "id": "qc-quant-37",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "geometry",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "stem": "What is the sum of the interior angles of a hexagon?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "540"
+      },
+      {
+        "key": "B",
+        "text": "600"
+      },
+      {
+        "key": "C",
+        "text": "720"
+      },
+      {
+        "key": "D",
+        "text": "630"
+      },
+      {
+        "key": "E",
+        "text": "900"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "A polygon with $n$ sides has interior-angle sum $(n-2)\\times 180$. For a hexagon, $(6-2)\\times 180=720$.",
+    "estimatedTimeSeconds": 45,
+    "tags": [
+      "polygon",
+      "angles"
+    ]
+  },
+  {
+    "id": "qc-quant-38",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "sequences",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "stem": "A sequence is defined by $a_1=2$ and $a_{n+1}=a_n+2n$. What is $a_4$?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "14"
+      },
+      {
+        "key": "B",
+        "text": "10"
+      },
+      {
+        "key": "C",
+        "text": "12"
+      },
+      {
+        "key": "D",
+        "text": "16"
+      },
+      {
+        "key": "E",
+        "text": "18"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "$a_2=2+2(1)=4$, $a_3=4+2(2)=8$, and $a_4=8+2(3)=14$.",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "sequence",
+      "recursive"
+    ]
+  },
+  {
+    "id": "qc-quant-39",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "counting",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "stem": "How many three-digit even numbers can be formed using the digits $1,2,3,4,5$ if no digit repeats?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "12"
+      },
+      {
+        "key": "B",
+        "text": "18"
+      },
+      {
+        "key": "C",
+        "text": "24"
+      },
+      {
+        "key": "D",
+        "text": "30"
+      },
+      {
+        "key": "E",
+        "text": "36"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "The last digit must be even: $2$ or $4$ ($2$ choices). The hundreds digit then has $4$ choices, and the tens digit has $3$ choices. Total $2\\cdot4\\cdot3=24$.",
+    "estimatedTimeSeconds": 60,
+    "tags": [
+      "counting",
+      "even"
+    ]
+  },
+  {
+    "id": "qc-quant-40",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "probability",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "stem": "Two fair six-sided dice are rolled. What is the probability that the sum is $9$?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "1/12"
+      },
+      {
+        "key": "B",
+        "text": "1/9"
+      },
+      {
+        "key": "C",
+        "text": "1/6"
+      },
+      {
+        "key": "D",
+        "text": "1/4"
+      },
+      {
+        "key": "E",
+        "text": "1/3"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "The favorable ordered pairs are $(3,6)$, $(4,5)$, $(5,4)$, and $(6,3)$. That is $4$ outcomes out of $36$, so the probability is $4/36=1/9$.",
+    "estimatedTimeSeconds": 60,
+    "tags": [
+      "probability",
+      "dice"
+    ]
+  }
+]

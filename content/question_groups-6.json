@@ -1,0 +1,20 @@
+[
+  {
+    "id": "rc-c1",
+    "section": "verbal",
+    "title": "Urban pollinators",
+    "passage": "Urban beekeeping has moved from novelty to a practical response to declining pollinator habitat. In several cities, rooftop hives now support small-scale honey production and, more importantly, offer an educational bridge between residents and local ecology. Yet the practice is not uniformly beneficial. Bees placed in dense urban centers may compete with wild insects for limited forage, especially when flowering plants are concentrated in a few parks. Researchers therefore caution against treating every rooftop as equivalent. A hive that improves awareness can still strain a neighborhood if too many colonies are introduced without regard to forage density and seasonal bloom patterns. The best programs, advocates argue, combine beekeeping with native planting initiatives and careful monitoring of colony health."
+  },
+  {
+    "id": "rc-c2",
+    "section": "verbal",
+    "title": "Cold-chain logistics",
+    "passage": "Pharmaceutical companies increasingly rely on cold-chain logistics to move temperature-sensitive medicines across long distances. Because many biologic drugs can lose effectiveness if exposed to heat for even short periods, distributors now use sensors that log temperature continuously from warehouse to clinic. This monitoring has made shipment quality more visible, but it has also exposed a tradeoff: tighter control can increase costs and delay delivery if a shipment is held back after a brief temperature excursion. Some firms therefore focus less on eliminating every fluctuation than on understanding whether a fluctuation actually threatens the product. In this view, logistics is not merely a matter of keeping packages cold; it is a matter of managing risk intelligently."
+  },
+  {
+    "id": "rc-c3",
+    "section": "verbal",
+    "title": "Restoration and archives",
+    "passage": "When museums digitize archival collections, the process often changes how scholars understand the materials. A faded letter, once accessible only to a specialist who could handle the original document, can become searchable and comparable once transcribed and tagged. Yet digitization is not neutral. Decisions about resolution, metadata, and annotation shape what future users notice first. A collection built around dramatic artifacts may attract more attention than one organized by ordinary correspondence, even when the latter reveals more about daily life. For this reason, archivists increasingly describe digitization as interpretation rather than simple copying. The goal is not to replace the original record, but to create another layer through which the record can be studied."
+  }
+]

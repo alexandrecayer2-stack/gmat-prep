@@ -1,0 +1,1244 @@
+[
+  {
+    "id": "qc-cr-01",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "assumption",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "A city council notes that bicycle traffic rose after new lanes were painted on several streets. It concludes that repainting all old lanes will significantly reduce car congestion next year.\n\nWhich of the following is an assumption on which the council's conclusion depends?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "Bike use rises whenever lanes are repainted."
+      },
+      {
+        "key": "B",
+        "text": "Most new cyclists previously drove cars on the same streets."
+      },
+      {
+        "key": "C",
+        "text": "Congestion is caused only by cars, not by trucks."
+      },
+      {
+        "key": "D",
+        "text": "The city can repaint lanes without changing traffic signals."
+      },
+      {
+        "key": "E",
+        "text": "Car congestion has been falling for several years already."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "The correct answer is B. Most new cyclists previously drove cars on the same streets.",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "assumption"
+    ]
+  },
+  {
+    "id": "qc-cr-02",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "weaken",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "A bakery says that switching to a smaller oven will reduce monthly energy costs because the smaller oven consumes less power per hour.\n\nWhich of the following, if true, most weakens the bakery's reasoning?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "The smaller oven is more expensive to purchase."
+      },
+      {
+        "key": "B",
+        "text": "The bakery will need to run the smaller oven for many more hours to meet demand."
+      },
+      {
+        "key": "C",
+        "text": "The current oven is already fully paid for."
+      },
+      {
+        "key": "D",
+        "text": "Electricity prices are expected to remain stable."
+      },
+      {
+        "key": "E",
+        "text": "The bakery sells more bread in winter than in summer."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "The correct answer is B. The bakery will need to run the smaller oven for many more hours to meet demand.",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "weaken"
+    ]
+  },
+  {
+    "id": "qc-cr-03",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "strengthen",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "A hospital introduced a new triage checklist and found that average wait times in the emergency room fell during the next month.\n\nWhich of the following, if true, most strengthens the hospital's conclusion that the checklist caused the reduction?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "The emergency room was renovated at the same time."
+      },
+      {
+        "key": "B",
+        "text": "The number of patients was higher than usual during the month."
+      },
+      {
+        "key": "C",
+        "text": "Other nearby hospitals did not change their triage procedures during the month."
+      },
+      {
+        "key": "D",
+        "text": "Some staff members preferred the old checklist."
+      },
+      {
+        "key": "E",
+        "text": "The hospital also increased its parking capacity."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "The correct answer is C. Other nearby hospitals did not change their triage procedures during the month.",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "strengthen"
+    ]
+  },
+  {
+    "id": "qc-cr-04",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "inference",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "In a survey, nearly all students who attended the optional review session later passed the exam, but many students who skipped the session also passed.\n\nWhich of the following can be properly inferred?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "Attendance at the session was the only reason students passed."
+      },
+      {
+        "key": "B",
+        "text": "Students who attended the session were guaranteed to pass."
+      },
+      {
+        "key": "C",
+        "text": "Attending the session may have helped some students, but it was not necessary for passing."
+      },
+      {
+        "key": "D",
+        "text": "The exam was easier than expected for everyone."
+      },
+      {
+        "key": "E",
+        "text": "Students who skipped the session failed because they skipped it."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "The correct answer is C. Attending the session may have helped some students, but it was not necessary for passing.",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "inference"
+    ]
+  },
+  {
+    "id": "qc-cr-05",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "boldface",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "Some analysts argue that higher minimum wages inevitably reduce employment. Other economists reply that labor markets may adjust through lower turnover and higher productivity.\n\nIn the argument, the first boldface statement plays which of the following roles?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "A conclusion challenged by the second boldface statement."
+      },
+      {
+        "key": "B",
+        "text": "An example used to support the second boldface statement."
+      },
+      {
+        "key": "C",
+        "text": "A policy proposal endorsed by the second boldface statement."
+      },
+      {
+        "key": "D",
+        "text": "A premise offered as evidence for the second boldface statement."
+      },
+      {
+        "key": "E",
+        "text": "A definition introduced by the second boldface statement."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "The correct answer is A. A conclusion challenged by the second boldface statement.",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "boldface"
+    ]
+  },
+  {
+    "id": "qc-cr-06",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "paradox",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "A city expanded its bus network, yet average bus travel time increased during the following year. City officials note that bus ridership also rose sharply in the same period.\n\nWhich of the following, if true, best resolves the apparent paradox?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "The city added more bus routes to neighborhoods that previously had none."
+      },
+      {
+        "key": "B",
+        "text": "Several streets became bus-only lanes."
+      },
+      {
+        "key": "C",
+        "text": "The new riders were concentrated on a few heavily congested routes."
+      },
+      {
+        "key": "D",
+        "text": "Bus fares remained unchanged during the year."
+      },
+      {
+        "key": "E",
+        "text": "Some riders preferred standing to sitting."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "The correct answer is C. The new riders were concentrated on a few heavily congested routes.",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "paradox"
+    ]
+  },
+  {
+    "id": "qc-cr-07",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "assumption",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "A software firm claims that because its newest product has the highest customer rating in the market, it will capture the largest share of sales next year.\n\nWhich of the following is an assumption required by the argument?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "Customers care more about ratings than about price, compatibility, and brand loyalty."
+      },
+      {
+        "key": "B",
+        "text": "The firm spent less on advertising than its rivals."
+      },
+      {
+        "key": "C",
+        "text": "The rating system was created by an independent firm."
+      },
+      {
+        "key": "D",
+        "text": "The product was released after several competitors' products."
+      },
+      {
+        "key": "E",
+        "text": "Customer ratings are updated every month."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "The correct answer is A. Customers care more about ratings than about price, compatibility, and brand loyalty.",
+    "estimatedTimeSeconds": 120,
+    "tags": [
+      "assumption"
+    ]
+  },
+  {
+    "id": "qc-cr-08",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "weaken",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "A town argues that building a new parking garage will revive its downtown businesses because more drivers will be able to park nearby.\n\nWhich of the following, if true, most weakens the argument?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "The garage will be built two blocks from the main shopping street."
+      },
+      {
+        "key": "B",
+        "text": "Most downtown customers already arrive on foot or by public transit."
+      },
+      {
+        "key": "C",
+        "text": "Parking rates in nearby lots are expected to rise."
+      },
+      {
+        "key": "D",
+        "text": "The town has a seasonal festival every summer."
+      },
+      {
+        "key": "E",
+        "text": "Several stores plan to renovate their facades."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "The correct answer is B. Most downtown customers already arrive on foot or by public transit.",
+    "estimatedTimeSeconds": 120,
+    "tags": [
+      "weaken"
+    ]
+  },
+  {
+    "id": "qc-cr-09",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "strengthen",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "A researcher found that students who slept at least seven hours before an exam scored higher on average than students who slept less.\n\nWhich of the following, if true, most strengthens the conclusion that sleep contributed to the higher scores?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "Students who slept more also studied roughly the same number of hours as students who slept less."
+      },
+      {
+        "key": "B",
+        "text": "The exam was graded by a single instructor."
+      },
+      {
+        "key": "C",
+        "text": "Students chose their own bedtime on the night before the exam."
+      },
+      {
+        "key": "D",
+        "text": "The campus library was open late that night."
+      },
+      {
+        "key": "E",
+        "text": "The exam covered material from two chapters."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "The correct answer is A. Students who slept more also studied roughly the same number of hours as students who slept less.",
+    "estimatedTimeSeconds": 120,
+    "tags": [
+      "strengthen"
+    ]
+  },
+  {
+    "id": "qc-cr-10",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "inference",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "stem": "A museum reported that attendance rose after it replaced paper labels with short audio guides in every gallery, but visitor surveys showed mixed opinions about the new format.\n\nWhich of the following can be inferred from the statements above?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "The audio guides were universally popular."
+      },
+      {
+        "key": "B",
+        "text": "The museum changed more than one aspect of the visitor experience."
+      },
+      {
+        "key": "C",
+        "text": "Attendance rose because the audio guides were cheaper to produce."
+      },
+      {
+        "key": "D",
+        "text": "Visitor surveys are unreliable in general."
+      },
+      {
+        "key": "E",
+        "text": "Paper labels always reduce attendance."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "The correct answer is B. The museum changed more than one aspect of the visitor experience.",
+    "estimatedTimeSeconds": 135,
+    "tags": [
+      "inference"
+    ]
+  },
+  {
+    "id": "qc-cr-11",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "evaluate",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "A retailer believes that extending store hours will increase annual profit.\n\nWhich of the following would be most useful to evaluate the belief?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "Whether customers who shop late buy more per visit than daytime customers."
+      },
+      {
+        "key": "B",
+        "text": "Whether employees prefer shorter shifts."
+      },
+      {
+        "key": "C",
+        "text": "Whether the retailer uses self-checkout machines."
+      },
+      {
+        "key": "D",
+        "text": "Whether the store sells seasonal products."
+      },
+      {
+        "key": "E",
+        "text": "Whether nearby stores have similar hours."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "The correct answer is A. Whether customers who shop late buy more per visit than daytime customers.",
+    "estimatedTimeSeconds": 120,
+    "tags": [
+      "evaluate"
+    ]
+  },
+  {
+    "id": "qc-cr-12",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "boldface",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "One economist argues that taxes on sugary drinks unfairly restrict consumer choice. Another economist replies that the taxes are justified because they offset public health costs.\n\nIn the argument, the second boldface statement most likely serves as which of the following?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "A conclusion that directly restates the first boldface statement."
+      },
+      {
+        "key": "B",
+        "text": "A counterclaim that supports the policy criticized by the first boldface statement."
+      },
+      {
+        "key": "C",
+        "text": "A definition of consumer choice."
+      },
+      {
+        "key": "D",
+        "text": "A premise showing that sugary drinks are harmless."
+      },
+      {
+        "key": "E",
+        "text": "An example of a tax with no economic effects."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "The correct answer is B. A counterclaim that supports the policy criticized by the first boldface statement.",
+    "estimatedTimeSeconds": 120,
+    "tags": [
+      "boldface"
+    ]
+  },
+  {
+    "id": "qc-cr-13",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "flaw",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "An article claims that because a neighborhood with more cafes has more art galleries, cafes must cause cultural development.\n\nWhich of the following identifies the flaw?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "It assumes correlation proves causation without considering that both may result from another factor such as neighborhood affluence."
+      },
+      {
+        "key": "B",
+        "text": "It ignores the possibility that galleries are more common in rural areas."
+      },
+      {
+        "key": "C",
+        "text": "It compares cafes and galleries that are not on the same street."
+      },
+      {
+        "key": "D",
+        "text": "It fails to define what counts as cultural development."
+      },
+      {
+        "key": "E",
+        "text": "It uses too much numerical evidence."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "The correct answer is A. It assumes correlation proves causation without considering that both may result from another factor such as neighborhood affluence.",
+    "estimatedTimeSeconds": 120,
+    "tags": [
+      "flaw"
+    ]
+  },
+  {
+    "id": "qc-cr-14",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "assumption",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "stem": "A nonprofit argues that a mentorship program will reduce youth unemployment because participants will gain networks that lead to jobs.\n\nWhich of the following is an assumption required by the argument?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "All mentors are older than the participants."
+      },
+      {
+        "key": "B",
+        "text": "Participants who gain networks are more likely to obtain jobs than similar participants who do not."
+      },
+      {
+        "key": "C",
+        "text": "The program will be free to all applicants."
+      },
+      {
+        "key": "D",
+        "text": "The local unemployment rate is lower than the national rate."
+      },
+      {
+        "key": "E",
+        "text": "Mentorship programs are more popular than internships."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "The correct answer is B. Participants who gain networks are more likely to obtain jobs than similar participants who do not.",
+    "estimatedTimeSeconds": 135,
+    "tags": [
+      "assumption"
+    ]
+  },
+  {
+    "id": "qc-cr-15",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "weaken",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "stem": "A transit authority claims that a new express train will reduce traffic because commuters will switch from cars to rail.\n\nWhich of the following, if true, most weakens the claim?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "The train will stop at only three stations."
+      },
+      {
+        "key": "B",
+        "text": "Most commuters who are likely to use the train already use buses or ride-sharing services rather than driving."
+      },
+      {
+        "key": "C",
+        "text": "The train line will run every fifteen minutes."
+      },
+      {
+        "key": "D",
+        "text": "Parking downtown is expensive."
+      },
+      {
+        "key": "E",
+        "text": "The authority plans a marketing campaign."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "The correct answer is B. Most commuters who are likely to use the train already use buses or ride-sharing services rather than driving.",
+    "estimatedTimeSeconds": 135,
+    "tags": [
+      "weaken"
+    ]
+  },
+  {
+    "id": "qc-cr-16",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "strengthen",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "stem": "A nutrition company says that customers who buy its high-protein snack are more likely to continue exercising regularly.\n\nWhich of the following, if true, most strengthens the claim?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "The snack tastes sweeter than similar products."
+      },
+      {
+        "key": "B",
+        "text": "Customers who buy the snack are matched with similar customers who do not, and the snack buyers still exercise more regularly."
+      },
+      {
+        "key": "C",
+        "text": "The company sells several other products."
+      },
+      {
+        "key": "D",
+        "text": "The snack is available only online."
+      },
+      {
+        "key": "E",
+        "text": "Exercise facilities are expanding in the area."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "The correct answer is B. Customers who buy the snack are matched with similar customers who do not, and the snack buyers still exercise more regularly.",
+    "estimatedTimeSeconds": 135,
+    "tags": [
+      "strengthen"
+    ]
+  },
+  {
+    "id": "qc-cr-17",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "inference",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "stem": "A city expanded public Wi-Fi in parks and plazas. In the year after the expansion, reported use of the city app increased, but downloads of the app stayed nearly constant.\n\nWhich of the following can be properly inferred?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "The app became more popular because more people downloaded it."
+      },
+      {
+        "key": "B",
+        "text": "More existing users likely used the app more often."
+      },
+      {
+        "key": "C",
+        "text": "The city app was redesigned that year."
+      },
+      {
+        "key": "D",
+        "text": "The Wi-Fi expansion had no effect on app behavior."
+      },
+      {
+        "key": "E",
+        "text": "App downloads are a better measure than app use."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "The correct answer is B. More existing users likely used the app more often.",
+    "estimatedTimeSeconds": 135,
+    "tags": [
+      "inference"
+    ]
+  },
+  {
+    "id": "qc-cr-18",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "evaluate",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "stem": "A university plans to replace paper textbooks with digital versions and expects the switch to lower costs.\n\nWhich of the following would be most useful to evaluate the expectation?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "Whether students prefer reading on screens or paper."
+      },
+      {
+        "key": "B",
+        "text": "Whether the digital versions require annual licensing fees that exceed the cost of printed books."
+      },
+      {
+        "key": "C",
+        "text": "Whether the university has enough Wi-Fi access points."
+      },
+      {
+        "key": "D",
+        "text": "Whether professors use lecture slides."
+      },
+      {
+        "key": "E",
+        "text": "Whether students carry backpacks."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "The correct answer is B. Whether the digital versions require annual licensing fees that exceed the cost of printed books.",
+    "estimatedTimeSeconds": 135,
+    "tags": [
+      "evaluate"
+    ]
+  },
+  {
+    "id": "qc-rc-c1-q1",
+    "section": "verbal",
+    "type": "reading_comprehension",
+    "topic": "main idea",
+    "difficulty": "easy",
+    "groupId": "rc-c1",
+    "orderIndex": 0,
+    "stem": "What is the main purpose of the passage?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "To argue that urban beekeeping should be banned in all large cities."
+      },
+      {
+        "key": "B",
+        "text": "To explain that urban beekeeping can be useful but must be managed carefully."
+      },
+      {
+        "key": "C",
+        "text": "To show that rooftop honey production is more profitable than rural beekeeping."
+      },
+      {
+        "key": "D",
+        "text": "To prove that urban insects are healthier than rural insects."
+      },
+      {
+        "key": "E",
+        "text": "To describe the history of honey production in city centers."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "The correct answer is B. To explain that urban beekeeping can be useful but must be managed carefully.",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "main idea"
+    ]
+  },
+  {
+    "id": "qc-rc-c1-q2",
+    "section": "verbal",
+    "type": "reading_comprehension",
+    "topic": "detail",
+    "difficulty": "medium",
+    "groupId": "rc-c1",
+    "orderIndex": 1,
+    "stem": "According to the passage, why do researchers caution against treating all rooftop hives as equivalent?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "Some rooftops are too windy for bees."
+      },
+      {
+        "key": "B",
+        "text": "Different neighborhoods offer different levels of forage and seasonal bloom patterns."
+      },
+      {
+        "key": "C",
+        "text": "City bees produce less honey than rural bees."
+      },
+      {
+        "key": "D",
+        "text": "Residents prefer native planting initiatives."
+      },
+      {
+        "key": "E",
+        "text": "Rooftop hives are illegal in most cities."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "The correct answer is B. Different neighborhoods offer different levels of forage and seasonal bloom patterns.",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "detail"
+    ]
+  },
+  {
+    "id": "qc-rc-c1-q3",
+    "section": "verbal",
+    "type": "reading_comprehension",
+    "topic": "inference",
+    "difficulty": "hard",
+    "groupId": "rc-c1",
+    "orderIndex": 2,
+    "stem": "The passage suggests that a successful urban beekeeping program is most likely to include which of the following?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "Only exotic flowers that bloom year-round."
+      },
+      {
+        "key": "B",
+        "text": "Monitoring colony health and planting native species."
+      },
+      {
+        "key": "C",
+        "text": "Maximum possible hive density on every rooftop."
+      },
+      {
+        "key": "D",
+        "text": "Relocating all wild insects outside the city."
+      },
+      {
+        "key": "E",
+        "text": "Focusing exclusively on honey sales."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "The correct answer is B. Monitoring colony health and planting native species.",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "inference"
+    ]
+  },
+  {
+    "id": "qc-rc-c1-q4",
+    "section": "verbal",
+    "type": "reading_comprehension",
+    "topic": "tone/function",
+    "difficulty": "easy",
+    "groupId": "rc-c1",
+    "orderIndex": 3,
+    "stem": "The author's tone toward urban beekeeping is best described as:",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "dismissive and hostile"
+      },
+      {
+        "key": "B",
+        "text": "balanced and cautious"
+      },
+      {
+        "key": "C",
+        "text": "celebratory and uncritical"
+      },
+      {
+        "key": "D",
+        "text": "sarcastic and playful"
+      },
+      {
+        "key": "E",
+        "text": "indifferent and vague"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "The correct answer is B. balanced and cautious",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "tone/function"
+    ]
+  },
+  {
+    "id": "qc-rc-c2-q1",
+    "section": "verbal",
+    "type": "reading_comprehension",
+    "topic": "main idea",
+    "difficulty": "easy",
+    "groupId": "rc-c2",
+    "orderIndex": 0,
+    "stem": "What is the main idea of the passage?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "Cold-chain logistics is unnecessary because medicines remain effective at room temperature."
+      },
+      {
+        "key": "B",
+        "text": "Temperature monitoring has improved visibility, but firms must balance control with practical risk management."
+      },
+      {
+        "key": "C",
+        "text": "Pharmaceutical companies should ship all biologic drugs by air."
+      },
+      {
+        "key": "D",
+        "text": "Sensors have eliminated all delivery delays."
+      },
+      {
+        "key": "E",
+        "text": "Temperature excursions always destroy biologic drugs."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "The correct answer is B. Temperature monitoring has improved visibility, but firms must balance control with practical risk management.",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "main idea"
+    ]
+  },
+  {
+    "id": "qc-rc-c2-q2",
+    "section": "verbal",
+    "type": "reading_comprehension",
+    "topic": "detail",
+    "difficulty": "medium",
+    "groupId": "rc-c2",
+    "orderIndex": 1,
+    "stem": "According to the passage, what tradeoff can tighter control create?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "It can increase costs and delay delivery if shipments are held back."
+      },
+      {
+        "key": "B",
+        "text": "It reduces the need for sensors."
+      },
+      {
+        "key": "C",
+        "text": "It eliminates all risk in transit."
+      },
+      {
+        "key": "D",
+        "text": "It makes medicines cheaper to produce."
+      },
+      {
+        "key": "E",
+        "text": "It guarantees faster warehouse loading."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "The correct answer is A. It can increase costs and delay delivery if shipments are held back.",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "detail"
+    ]
+  },
+  {
+    "id": "qc-rc-c2-q3",
+    "section": "verbal",
+    "type": "reading_comprehension",
+    "topic": "inference",
+    "difficulty": "hard",
+    "groupId": "rc-c2",
+    "orderIndex": 2,
+    "stem": "Which of the following is implied by the passage?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "A brief temperature fluctuation is always harmless."
+      },
+      {
+        "key": "B",
+        "text": "Some shipments may be acceptable even if they experience minor temperature changes."
+      },
+      {
+        "key": "C",
+        "text": "All biologic drugs have identical storage requirements."
+      },
+      {
+        "key": "D",
+        "text": "Clinic staff should ignore sensor data."
+      },
+      {
+        "key": "E",
+        "text": "Risk management is less important than speed."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "The correct answer is B. Some shipments may be acceptable even if they experience minor temperature changes.",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "inference"
+    ]
+  },
+  {
+    "id": "qc-rc-c2-q4",
+    "section": "verbal",
+    "type": "reading_comprehension",
+    "topic": "function/tone",
+    "difficulty": "medium",
+    "groupId": "rc-c2",
+    "orderIndex": 3,
+    "stem": "The final sentence primarily serves to:",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "introduce a new problem unrelated to logistics."
+      },
+      {
+        "key": "B",
+        "text": "summarize the author's broader view of the topic."
+      },
+      {
+        "key": "C",
+        "text": "criticize specific companies by name."
+      },
+      {
+        "key": "D",
+        "text": "provide an example of a failed shipment."
+      },
+      {
+        "key": "E",
+        "text": "shift the topic to drug pricing."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "The correct answer is B. summarize the author's broader view of the topic.",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "function/tone"
+    ]
+  },
+  {
+    "id": "qc-rc-c3-q1",
+    "section": "verbal",
+    "type": "reading_comprehension",
+    "topic": "main idea",
+    "difficulty": "easy",
+    "groupId": "rc-c3",
+    "orderIndex": 0,
+    "stem": "What is the main idea of the passage?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "Digitization makes originals unnecessary."
+      },
+      {
+        "key": "B",
+        "text": "Digitization changes how archives are studied because choices made in the process shape interpretation."
+      },
+      {
+        "key": "C",
+        "text": "Scholars prefer digital documents because they are always more accurate."
+      },
+      {
+        "key": "D",
+        "text": "Only dramatic artifacts should be digitized."
+      },
+      {
+        "key": "E",
+        "text": "Metadata has no effect on research."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "The correct answer is B. Digitization changes how archives are studied because choices made in the process shape interpretation.",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "main idea"
+    ]
+  },
+  {
+    "id": "qc-rc-c3-q2",
+    "section": "verbal",
+    "type": "reading_comprehension",
+    "topic": "detail",
+    "difficulty": "medium",
+    "groupId": "rc-c3",
+    "orderIndex": 1,
+    "stem": "According to the passage, which aspect of digitization can shape what users notice first?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "The color of the archive building."
+      },
+      {
+        "key": "B",
+        "text": "The resolution, metadata, and annotation used."
+      },
+      {
+        "key": "C",
+        "text": "The age of the archivist."
+      },
+      {
+        "key": "D",
+        "text": "The number of visitors in the reading room."
+      },
+      {
+        "key": "E",
+        "text": "The cost of paper storage."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "The correct answer is B. The resolution, metadata, and annotation used.",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "detail"
+    ]
+  },
+  {
+    "id": "qc-rc-c3-q3",
+    "section": "verbal",
+    "type": "reading_comprehension",
+    "topic": "inference",
+    "difficulty": "hard",
+    "groupId": "rc-c3",
+    "orderIndex": 2,
+    "stem": "The passage suggests that ordinary correspondence may be valuable because it can:",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "become more dramatic when digitized."
+      },
+      {
+        "key": "B",
+        "text": "reveal more about daily life."
+      },
+      {
+        "key": "C",
+        "text": "replace all other archival records."
+      },
+      {
+        "key": "D",
+        "text": "eliminate the need for annotation."
+      },
+      {
+        "key": "E",
+        "text": "reduce the need for search tools."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "The correct answer is B. reveal more about daily life.",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "inference"
+    ]
+  },
+  {
+    "id": "qc-rc-c3-q4",
+    "section": "verbal",
+    "type": "reading_comprehension",
+    "topic": "tone/function",
+    "difficulty": "hard",
+    "groupId": "rc-c3",
+    "orderIndex": 3,
+    "stem": "The author's tone toward digitization is best described as:",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "naive and promotional"
+      },
+      {
+        "key": "B",
+        "text": "critical but constructive"
+      },
+      {
+        "key": "C",
+        "text": "mocking and dismissive"
+      },
+      {
+        "key": "D",
+        "text": "uncertain and confused"
+      },
+      {
+        "key": "E",
+        "text": "enthusiastic and absolute"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "The correct answer is B. critical but constructive",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "tone/function"
+    ]
+  }
+]
