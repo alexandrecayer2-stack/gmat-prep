@@ -1,0 +1,1245 @@
+[
+  {
+    "id": "qb41",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "assumption",
+    "difficulty": "easy",
+    "stem": "A neighborhood association claims that installing motion-sensor lights in the alley will reduce vandalism because vandals prefer poorly lit places. Which of the following is an assumption on which the argument depends?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Motion-sensor lights cost less than constant lights."
+      },
+      {
+        "key": "B",
+        "text": "Vandals are more likely to work alone than in groups."
+      },
+      {
+        "key": "C",
+        "text": "Improved lighting would deter vandals rather than simply shift the vandalism to another time of day."
+      },
+      {
+        "key": "D",
+        "text": "The alley has existing electrical wiring."
+      },
+      {
+        "key": "E",
+        "text": "Residents will use the alley more often after the lights are installed."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "The conclusion is that better lighting will reduce vandalism. That requires assuming vandals would actually be deterred by the lighting rather than vandalizing anyway at another time.",
+    "estimatedTimeSeconds": 110,
+    "tags": [
+      "assumption",
+      "argument"
+    ],
+    "orderIndex": 41
+  },
+  {
+    "id": "qb42",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "weaken",
+    "difficulty": "easy",
+    "stem": "An elementary school says reading scores improved because it replaced whole-class instruction with small-group sessions. Which finding most weakens the school's claim?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Teachers received extra training unrelated to grouping."
+      },
+      {
+        "key": "B",
+        "text": "Fewer students transferred out during the year."
+      },
+      {
+        "key": "C",
+        "text": "The school reduced homework assignments."
+      },
+      {
+        "key": "D",
+        "text": "A new after-school tutoring program began the same semester, and most students attended."
+      },
+      {
+        "key": "E",
+        "text": "The district changed the test format."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "D"
+    },
+    "explanation": "If the tutoring program began at the same time and most students attended, it is a plausible alternative explanation for the score increase, so the claim about small-group sessions is weakened.",
+    "estimatedTimeSeconds": 110,
+    "tags": [
+      "weaken",
+      "causation"
+    ],
+    "orderIndex": 42
+  },
+  {
+    "id": "qb43",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "strengthen",
+    "difficulty": "easy",
+    "stem": "A startup expects higher profit this year because it cut shipping costs by outsourcing deliveries. Which fact would most strengthen the argument?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Customers prefer local couriers."
+      },
+      {
+        "key": "B",
+        "text": "The company sold fewer items last year than expected."
+      },
+      {
+        "key": "C",
+        "text": "Delivery delays have increased slightly."
+      },
+      {
+        "key": "D",
+        "text": "Outsourcing reduced shipping cost per order by 30% without lowering delivery volume."
+      },
+      {
+        "key": "E",
+        "text": "Some competitors also outsource shipping."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "D"
+    },
+    "explanation": "A direct reduction in shipping cost per order, with no loss of delivery volume, supports the claim that profits should rise.",
+    "estimatedTimeSeconds": 110,
+    "tags": [
+      "strengthen",
+      "profit"
+    ],
+    "orderIndex": 43
+  },
+  {
+    "id": "qb44",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "inference",
+    "difficulty": "easy",
+    "stem": "An article says the city's bus fleet now uses hybrid engines, which lowered fuel use by 18%. The article also notes that maintenance expenses rose slightly because technicians needed new training. Which statement is best supported?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Hybrid buses eliminated maintenance costs."
+      },
+      {
+        "key": "B",
+        "text": "Fuel savings may offset some of the added maintenance expense."
+      },
+      {
+        "key": "C",
+        "text": "The city should stop buying buses."
+      },
+      {
+        "key": "D",
+        "text": "The buses travel faster than before."
+      },
+      {
+        "key": "E",
+        "text": "Training costs were lower than fuel savings."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "Because fuel use fell while maintenance costs rose, it is reasonable to infer that some of the fuel savings may be used to offset the new maintenance expense, though the passage does not prove the exact amounts.",
+    "estimatedTimeSeconds": 110,
+    "tags": [
+      "inference",
+      "transport"
+    ],
+    "orderIndex": 44
+  },
+  {
+    "id": "qb45",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "evaluate",
+    "difficulty": "medium",
+    "stem": "An electronics retailer plans to extend its warranty because customers are more willing to buy expensive products when coverage lasts longer. Which question would be most useful to evaluate the plan?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Whether customers understand warranty terms better than sales tax."
+      },
+      {
+        "key": "B",
+        "text": "Whether the retailer's current products are made abroad."
+      },
+      {
+        "key": "C",
+        "text": "Whether the increased sales from a longer warranty would exceed the extra cost of honoring claims."
+      },
+      {
+        "key": "D",
+        "text": "Whether competitors use blue packaging."
+      },
+      {
+        "key": "E",
+        "text": "Whether the store has enough parking spaces."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "To evaluate the plan, the key issue is whether the extra sales created by the longer warranty are larger than the added cost of claims. That determines whether the plan helps profits overall.",
+    "estimatedTimeSeconds": 110,
+    "tags": [
+      "evaluate",
+      "profitability"
+    ],
+    "orderIndex": 45
+  },
+  {
+    "id": "qb46",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "boldface",
+    "difficulty": "medium",
+    "stem": "In discussing why a river cleanup program succeeded, the report states that **the idea that industries would voluntarily cut discharge was unrealistic** and that **strict inspections probably mattered more than public appeals**. The two boldfaced portions are best described as which of the following?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "The first is an observation and the second is a proposed explanation of that observation."
+      },
+      {
+        "key": "B",
+        "text": "The first is a viewpoint the report rejects, and the second is the report's own explanation of the program's success."
+      },
+      {
+        "key": "C",
+        "text": "The first is the report's main conclusion, and the second is supporting evidence."
+      },
+      {
+        "key": "D",
+        "text": "The first is background information, and the second is an unrelated recommendation."
+      },
+      {
+        "key": "E",
+        "text": "The first is a prediction, and the second is a restatement of it."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "The first boldfaced statement is a claim the report dismisses. The second boldfaced statement gives the report's explanation for success, so it reflects the report's own conclusion.",
+    "estimatedTimeSeconds": 110,
+    "tags": [
+      "boldface",
+      "argument roles"
+    ],
+    "orderIndex": 46
+  },
+  {
+    "id": "qb47",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "flaw",
+    "difficulty": "hard",
+    "stem": "Because the company's profit increased after it launched a social media campaign, the campaign must have caused the increase. Which flaw is most clearly illustrated?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "It confuses correlation with causation."
+      },
+      {
+        "key": "B",
+        "text": "It attacks the messenger rather than the message."
+      },
+      {
+        "key": "C",
+        "text": "It relies on an analogy between unlike cases."
+      },
+      {
+        "key": "D",
+        "text": "It ignores that profits may fall in the future."
+      },
+      {
+        "key": "E",
+        "text": "It uses a circular definition."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "The argument assumes that because two events happened together, one must have caused the other. That is the classic correlation-versus-causation flaw.",
+    "estimatedTimeSeconds": 110,
+    "tags": [
+      "flaw",
+      "causation"
+    ],
+    "orderIndex": 47
+  },
+  {
+    "id": "qb48",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "paradox",
+    "difficulty": "hard",
+    "stem": "During a heat wave, sales of bottled water doubled, yet the store manager decided to reduce shelf space for water because fewer bottles were in stock at closing each day. Which explanation best resolves the apparent paradox?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Customers bought bottled water mainly in large packs."
+      },
+      {
+        "key": "B",
+        "text": "The store's deliveries of bottled water were cut sharply, so the shelves started each day with much less inventory."
+      },
+      {
+        "key": "C",
+        "text": "The store began selling a different brand of water."
+      },
+      {
+        "key": "D",
+        "text": "The store increased advertising for other drinks."
+      },
+      {
+        "key": "E",
+        "text": "Bottled water was moved closer to the cashier."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "If deliveries were reduced sharply, the store could have fewer bottles left at closing even while selling more than before. That resolves the apparent contradiction.",
+    "estimatedTimeSeconds": 110,
+    "tags": [
+      "paradox",
+      "inventory"
+    ],
+    "orderIndex": 48
+  },
+  {
+    "id": "qb49",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "assumption",
+    "difficulty": "hard",
+    "stem": "An airport argues that adding a second security lane will shorten wait times because each lane can process travelers independently. Which assumption is required?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Travelers will prefer the new lane."
+      },
+      {
+        "key": "B",
+        "text": "Two lanes will require twice as many guards."
+      },
+      {
+        "key": "C",
+        "text": "The bottleneck is at security processing rather than at bag drop or boarding."
+      },
+      {
+        "key": "D",
+        "text": "The second lane will be located farther from the terminal."
+      },
+      {
+        "key": "E",
+        "text": "The airport has no plans to increase flights."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "For an extra lane to shorten waits, the main bottleneck must actually be security screening. If the delay is elsewhere, the added lane would not solve the problem.",
+    "estimatedTimeSeconds": 110,
+    "tags": [
+      "assumption",
+      "operations"
+    ],
+    "orderIndex": 49
+  },
+  {
+    "id": "qb50",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "weaken",
+    "difficulty": "hard",
+    "stem": "A nutritionist claims that people who eat breakfast daily have more stable energy because breakfast prevents midmorning sugar crashes. Which finding most weakens the claim?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "People who skip breakfast also exercise less often."
+      },
+      {
+        "key": "B",
+        "text": "People who eat breakfast drink more coffee."
+      },
+      {
+        "key": "C",
+        "text": "Breakfast eaters have higher incomes on average."
+      },
+      {
+        "key": "D",
+        "text": "After controlling for total calorie intake and sleep, breakfast consumption is no longer associated with stable energy."
+      },
+      {
+        "key": "E",
+        "text": "Some breakfasts contain sugar."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "D"
+    },
+    "explanation": "If the relationship disappears after controlling for other variables, breakfast itself is no longer a convincing explanation for stable energy.",
+    "estimatedTimeSeconds": 110,
+    "tags": [
+      "weaken",
+      "statistics"
+    ],
+    "orderIndex": 50
+  },
+  {
+    "id": "qb51",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "strengthen",
+    "difficulty": "hard",
+    "stem": "An online course provider says that adding short practice quizzes after each lesson will increase course completion because students will feel more engaged. Which fact most strengthens the argument?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Students usually prefer video to text."
+      },
+      {
+        "key": "B",
+        "text": "In pilot sections that used practice quizzes, completion rose by 12% compared with identical sections without them."
+      },
+      {
+        "key": "C",
+        "text": "Some quizzes were graded."
+      },
+      {
+        "key": "D",
+        "text": "The platform has many mobile users."
+      },
+      {
+        "key": "E",
+        "text": "Course completion is lower in long courses."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "A pilot result showing higher completion in otherwise identical sections with quizzes is direct evidence that the quizzes help the outcome.",
+    "estimatedTimeSeconds": 110,
+    "tags": [
+      "strengthen",
+      "education"
+    ],
+    "orderIndex": 51
+  },
+  {
+    "id": "qb52",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "inference",
+    "difficulty": "hard",
+    "stem": "A district reports that 70% of students enrolled in after-school tutoring attended at least four sessions, and those students improved their math scores more than students who attended fewer than four sessions. Which inference is best supported?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Tutoring caused every improvement in math scores."
+      },
+      {
+        "key": "B",
+        "text": "Students who attended at least four sessions were more likely to improve than those who attended fewer than four sessions."
+      },
+      {
+        "key": "C",
+        "text": "Students who attended fewer than four sessions never improved."
+      },
+      {
+        "key": "D",
+        "text": "The district should eliminate all tutoring."
+      },
+      {
+        "key": "E",
+        "text": "The students who attended four sessions had the same scores as others."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "The report supports a comparison: students with at least four sessions improved more than those with fewer sessions. It does not prove causation for every improvement, but it does support the comparison in choice B.",
+    "estimatedTimeSeconds": 110,
+    "tags": [
+      "inference",
+      "education"
+    ],
+    "orderIndex": 52
+  },
+  {
+    "id": "qb53",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "assumption",
+    "difficulty": "easy",
+    "stem": "A clothing store claims that placing mirrors near the fitting rooms will increase sales because shoppers will feel more confident about how they look. Which assumption is required?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "The mirrors will be large enough to see full outfits."
+      },
+      {
+        "key": "B",
+        "text": "The store sells more than one size of clothing."
+      },
+      {
+        "key": "C",
+        "text": "Feeling more confident will make shoppers more likely to buy the clothes they try on."
+      },
+      {
+        "key": "D",
+        "text": "The fitting rooms are located near the back of the store."
+      },
+      {
+        "key": "E",
+        "text": "Customers prefer the store's style to that of competitors."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "The argument moves from increased confidence to increased sales. That only works if confidence actually makes shoppers more willing to purchase.",
+    "estimatedTimeSeconds": 110,
+    "tags": [
+      "assumption",
+      "retail"
+    ],
+    "orderIndex": 53
+  },
+  {
+    "id": "qb54",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "evaluate",
+    "difficulty": "medium",
+    "stem": "A public library plans to remain open two extra evenings per week because working adults would use the building after office hours. Which question would be most useful to evaluate the plan?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Whether the library's books are older than 10 years."
+      },
+      {
+        "key": "B",
+        "text": "Whether the library has enough computer terminals."
+      },
+      {
+        "key": "C",
+        "text": "Whether enough working adults would use the extra hours to justify the added staffing and utility costs."
+      },
+      {
+        "key": "D",
+        "text": "Whether the library's exterior needs repainting."
+      },
+      {
+        "key": "E",
+        "text": "Whether children also use the library on weekends."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "The key evaluation question is whether the benefit from the extra hours is large enough to cover the costs of keeping the building open later.",
+    "estimatedTimeSeconds": 110,
+    "tags": [
+      "evaluate",
+      "public policy"
+    ],
+    "orderIndex": 54
+  },
+  {
+    "id": "qb55",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "boldface",
+    "difficulty": "medium",
+    "stem": "A memo about parking policy states that **the first boldfaced statement** reports that the lot was full on only three weekdays last month. **The second boldfaced statement** concludes that the city should not build another garage yet. The boldfaced portions are best described as which of the following?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "The first is an unsupported prediction, and the second is a restatement of it."
+      },
+      {
+        "key": "B",
+        "text": "The first is evidence, and the second is the conclusion drawn from that evidence."
+      },
+      {
+        "key": "C",
+        "text": "The first is a recommendation, and the second is a criticism of that recommendation."
+      },
+      {
+        "key": "D",
+        "text": "The first is a counterexample, and the second is an unrelated observation."
+      },
+      {
+        "key": "E",
+        "text": "The first is the memo's main conclusion, and the second is supporting evidence."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "The first boldfaced portion is factual evidence about how often the lot was full. The second boldfaced portion is the conclusion the memo draws from that evidence.",
+    "estimatedTimeSeconds": 110,
+    "tags": [
+      "boldface",
+      "evidence"
+    ],
+    "orderIndex": 55
+  },
+  {
+    "id": "qb56",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "flaw",
+    "difficulty": "medium",
+    "stem": "A student says her class must have improved because its average score rose after she began studying with a new app. Which flaw is most clearly illustrated?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "It assumes that an average cannot rise unless every score rises."
+      },
+      {
+        "key": "B",
+        "text": "It overlooks other possible causes of the increase."
+      },
+      {
+        "key": "C",
+        "text": "It uses an analogy that is too broad."
+      },
+      {
+        "key": "D",
+        "text": "It draws a conclusion from a clearly random sample."
+      },
+      {
+        "key": "E",
+        "text": "It confuses a sufficient condition with a necessary condition."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "The score increase could have been caused by many factors besides the app, such as easier material or more study time. Ignoring those alternatives is the flaw.",
+    "estimatedTimeSeconds": 110,
+    "tags": [
+      "flaw",
+      "alternative explanation"
+    ],
+    "orderIndex": 56
+  },
+  {
+    "id": "qb57",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "paradox",
+    "difficulty": "easy",
+    "stem": "A cafe began offering free refills on coffee, yet its coffee sales revenue increased even though the price per cup stayed the same. Which explanation best resolves the apparent paradox?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "The cafe sold fewer cups but to more regular customers."
+      },
+      {
+        "key": "B",
+        "text": "Customers who took free refills also bought more pastries and sandwiches."
+      },
+      {
+        "key": "C",
+        "text": "The cafe shortened its hours."
+      },
+      {
+        "key": "D",
+        "text": "Competitors also offered free refills."
+      },
+      {
+        "key": "E",
+        "text": "Coffee beans became cheaper."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "If customers buying refills also purchased more food, total revenue could rise even without a higher coffee price.",
+    "estimatedTimeSeconds": 110,
+    "tags": [
+      "paradox",
+      "revenue"
+    ],
+    "orderIndex": 57
+  },
+  {
+    "id": "qb58",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "strengthen",
+    "difficulty": "medium",
+    "stem": "A small manufacturer says that switching to a new inventory system will reduce mistakes because it will update stock numbers automatically. Which fact most strengthens the claim?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "The old system was created in-house."
+      },
+      {
+        "key": "B",
+        "text": "Employees prefer paper forms."
+      },
+      {
+        "key": "C",
+        "text": "In a three-month trial, order errors fell sharply after the automatic system replaced manual stock updates."
+      },
+      {
+        "key": "D",
+        "text": "The new system has more menu options."
+      },
+      {
+        "key": "E",
+        "text": "The manufacturer ships products internationally."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "A trial showing fewer order errors after the switch is direct evidence that the new system reduces mistakes.",
+    "estimatedTimeSeconds": 110,
+    "tags": [
+      "strengthen",
+      "operations"
+    ],
+    "orderIndex": 58
+  },
+  {
+    "id": "qb59",
+    "section": "verbal",
+    "type": "reading_comprehension",
+    "topic": "main idea",
+    "difficulty": "easy",
+    "groupId": "rc-b1",
+    "stem": "Which option best states the main idea of the passage?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Urban wetlands are attractive only when they replace expensive commercial land."
+      },
+      {
+        "key": "B",
+        "text": "The restoration project shows that wetlands can provide both ecological benefits and storm protection in a city."
+      },
+      {
+        "key": "C",
+        "text": "Levees are always less effective than wetlands at preventing floods."
+      },
+      {
+        "key": "D",
+        "text": "Critics were correct that the land should have been developed for large buildings."
+      },
+      {
+        "key": "E",
+        "text": "Water-quality sensors are the most important feature of the project."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "The passage argues that the restored marshes provide habitat value and also absorb storm energy, reducing flooding. That dual function is the central point.",
+    "estimatedTimeSeconds": 100,
+    "tags": [
+      "main idea",
+      "wetlands"
+    ],
+    "orderIndex": 1
+  },
+  {
+    "id": "qb60",
+    "section": "verbal",
+    "type": "reading_comprehension",
+    "topic": "detail",
+    "difficulty": "medium",
+    "groupId": "rc-b1",
+    "stem": "According to the passage, why did critics call the reclaimed land wasted space?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Its irregular shape made it unsuitable for large buildings."
+      },
+      {
+        "key": "B",
+        "text": "It was located too far from the harbor."
+      },
+      {
+        "key": "C",
+        "text": "It had already been set aside for parks."
+      },
+      {
+        "key": "D",
+        "text": "It was protected as a bird sanctuary before the project began."
+      },
+      {
+        "key": "E",
+        "text": "It lacked access to water-quality sensors."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "The passage says the reclaimed land is irregular and cannot support large buildings, which is why critics dismissed it as wasted space.",
+    "estimatedTimeSeconds": 100,
+    "tags": [
+      "detail",
+      "urban planning"
+    ],
+    "orderIndex": 2
+  },
+  {
+    "id": "qb61",
+    "section": "verbal",
+    "type": "reading_comprehension",
+    "topic": "inference",
+    "difficulty": "hard",
+    "groupId": "rc-b1",
+    "stem": "Which inference is best supported by the passage?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "The city believes wetlands can replace levees entirely."
+      },
+      {
+        "key": "B",
+        "text": "The city restored the marshes only because bird habitats were endangered."
+      },
+      {
+        "key": "C",
+        "text": "The project may encourage city planners to value land for multiple functions rather than for building sites alone."
+      },
+      {
+        "key": "D",
+        "text": "The storm protection from the marshes is greater than the habitat value."
+      },
+      {
+        "key": "E",
+        "text": "The water-quality sensors are more important than the wetlands themselves."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "The passage explicitly says the project reflects a broader change in urban design in which land can be valued for the services it provides. That supports the inference in choice C.",
+    "estimatedTimeSeconds": 100,
+    "tags": [
+      "inference",
+      "urban design"
+    ],
+    "orderIndex": 3
+  },
+  {
+    "id": "qb62",
+    "section": "verbal",
+    "type": "reading_comprehension",
+    "topic": "function_tone",
+    "difficulty": "medium",
+    "groupId": "rc-b1",
+    "stem": "The final sentence of the passage primarily serves to do which of the following?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Dismiss the environmental benefits discussed earlier."
+      },
+      {
+        "key": "B",
+        "text": "Introduce a new policy that contradicts the project."
+      },
+      {
+        "key": "C",
+        "text": "Qualify the enthusiasm for wetlands by noting that they are only one part of flood defense."
+      },
+      {
+        "key": "D",
+        "text": "Argue that levees should be removed."
+      },
+      {
+        "key": "E",
+        "text": "Shift the topic from city planning to bird migration."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "The final sentence tempers the discussion by explaining that wetlands are not a complete substitute for levees. Its function is to qualify, not overturn, the earlier praise.",
+    "estimatedTimeSeconds": 100,
+    "tags": [
+      "function",
+      "tone"
+    ],
+    "orderIndex": 4
+  },
+  {
+    "id": "qb63",
+    "section": "verbal",
+    "type": "reading_comprehension",
+    "topic": "main idea",
+    "difficulty": "easy",
+    "groupId": "rc-b2",
+    "stem": "Which option best states the main idea of the passage?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Medical-device manufacturers should stop using software components."
+      },
+      {
+        "key": "B",
+        "text": "A modular design can make devices easier to repair, customize, and adapt, though it may require tighter coordination."
+      },
+      {
+        "key": "C",
+        "text": "Hospitals prefer older devices because they are less complex."
+      },
+      {
+        "key": "D",
+        "text": "Disposable attachments are the only part of a medical device that matters."
+      },
+      {
+        "key": "E",
+        "text": "The company changed its products mainly to lower wages."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "The passage explains that modular devices solve repair and customization problems, reduce waste, and can adapt to local regulations, while also creating coordination challenges.",
+    "estimatedTimeSeconds": 100,
+    "tags": [
+      "main idea",
+      "manufacturing"
+    ],
+    "orderIndex": 1
+  },
+  {
+    "id": "qb64",
+    "section": "verbal",
+    "type": "reading_comprehension",
+    "topic": "detail",
+    "difficulty": "medium",
+    "groupId": "rc-b2",
+    "stem": "According to the passage, what is one advantage of separating the base unit from disposable attachments?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "The base unit can remain in service even when an attachment wears out."
+      },
+      {
+        "key": "B",
+        "text": "The device never needs software updates."
+      },
+      {
+        "key": "C",
+        "text": "Hospitals no longer need any suppliers."
+      },
+      {
+        "key": "D",
+        "text": "The hardware must be redesigned for every clinic."
+      },
+      {
+        "key": "E",
+        "text": "The system eliminates all coordination costs."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "The passage explicitly says the base unit stays in service while worn attachments are replaced, which is one advantage of the modular design.",
+    "estimatedTimeSeconds": 100,
+    "tags": [
+      "detail",
+      "modularity"
+    ],
+    "orderIndex": 2
+  },
+  {
+    "id": "qb65",
+    "section": "verbal",
+    "type": "reading_comprehension",
+    "topic": "inference",
+    "difficulty": "hard",
+    "groupId": "rc-b2",
+    "stem": "Which inference is best supported by the passage?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "The modular system would be especially useful in places where devices must meet different local rules."
+      },
+      {
+        "key": "B",
+        "text": "The company can ignore suppliers because the design is fully self-contained."
+      },
+      {
+        "key": "C",
+        "text": "Hospitals always prefer devices that cannot be repaired."
+      },
+      {
+        "key": "D",
+        "text": "The new system guarantees lower production costs in every case."
+      },
+      {
+        "key": "E",
+        "text": "The company will stop selling base units."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "Because the modular system can adapt software settings without changing hardware, the passage supports the inference that it is useful where local regulations differ.",
+    "estimatedTimeSeconds": 100,
+    "tags": [
+      "inference",
+      "regulation"
+    ],
+    "orderIndex": 3
+  },
+  {
+    "id": "qb66",
+    "section": "verbal",
+    "type": "reading_comprehension",
+    "topic": "function_tone",
+    "difficulty": "easy",
+    "groupId": "rc-b2",
+    "stem": "The final sentence mainly serves to",
+    "choices": [
+      {
+        "key": "A",
+        "text": "criticize the critics by name."
+      },
+      {
+        "key": "B",
+        "text": "summarize the company’s new strategy in broader terms."
+      },
+      {
+        "key": "C",
+        "text": "prove that modular devices are cheaper than older devices."
+      },
+      {
+        "key": "D",
+        "text": "introduce a new hospital complaint."
+      },
+      {
+        "key": "E",
+        "text": "compare medical devices with consumer electronics only."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "The final sentence rephrases the shift as moving from one rigid product to a family of interoperable parts, which broadens the summary of the strategy.",
+    "estimatedTimeSeconds": 100,
+    "tags": [
+      "function",
+      "tone"
+    ],
+    "orderIndex": 4
+  },
+  {
+    "id": "qb67",
+    "section": "verbal",
+    "type": "reading_comprehension",
+    "topic": "main idea",
+    "difficulty": "easy",
+    "groupId": "rc-b3",
+    "stem": "Which option best states the main idea of the passage?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "The desert settlement was poor because it had few luxury objects."
+      },
+      {
+        "key": "B",
+        "text": "Imported goods prove that all desert communities relied on the same trade routes."
+      },
+      {
+        "key": "C",
+        "text": "Sparse finds can still reveal that a settlement participated in long-distance exchange and managed resources selectively."
+      },
+      {
+        "key": "D",
+        "text": "Seal impressions are more important than ceramic jars."
+      },
+      {
+        "key": "E",
+        "text": "The archaeologists believe the site was abandoned quickly."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "The passage argues against reading the sparse deposits as evidence of poverty. Instead, it shows that the settlement selectively imported useful items and still engaged in long-distance exchange.",
+    "estimatedTimeSeconds": 100,
+    "tags": [
+      "main idea",
+      "archaeology"
+    ],
+    "orderIndex": 1
+  },
+  {
+    "id": "qb68",
+    "section": "verbal",
+    "type": "reading_comprehension",
+    "topic": "detail",
+    "difficulty": "medium",
+    "groupId": "rc-b3",
+    "stem": "According to the passage, what did the seal impressions suggest?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Goods were being tracked by officials rather than traded informally."
+      },
+      {
+        "key": "B",
+        "text": "The settlement had no contact with other regions."
+      },
+      {
+        "key": "C",
+        "text": "The jars were made locally."
+      },
+      {
+        "key": "D",
+        "text": "Luxury objects were buried intentionally."
+      },
+      {
+        "key": "E",
+        "text": "The site was mainly used for military storage."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "The passage directly states that the seal impressions suggest official tracking of goods rather than informal trade.",
+    "estimatedTimeSeconds": 100,
+    "tags": [
+      "detail",
+      "trade"
+    ],
+    "orderIndex": 2
+  },
+  {
+    "id": "qb69",
+    "section": "verbal",
+    "type": "reading_comprehension",
+    "topic": "inference",
+    "difficulty": "hard",
+    "groupId": "rc-b3",
+    "stem": "Which inference is best supported by the passage?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "The settlement imported goods only when they were useful in an arid environment."
+      },
+      {
+        "key": "B",
+        "text": "The lack of luxury objects proves that the settlement was isolated."
+      },
+      {
+        "key": "C",
+        "text": "The community likely had some social and economic connections beyond the site itself."
+      },
+      {
+        "key": "D",
+        "text": "The archaeologists believe all desert sites had identical records."
+      },
+      {
+        "key": "E",
+        "text": "The site was richer than any nearby settlement."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "Because the passage describes ceramics from distant workshops and official tracking of goods, it supports the inference that the community had connections beyond the site itself.",
+    "estimatedTimeSeconds": 100,
+    "tags": [
+      "inference",
+      "social networks"
+    ],
+    "orderIndex": 3
+  },
+  {
+    "id": "qb70",
+    "section": "verbal",
+    "type": "reading_comprehension",
+    "topic": "function_tone",
+    "difficulty": "hard",
+    "groupId": "rc-b3",
+    "stem": "The author’s caution in the final sentence primarily serves to",
+    "choices": [
+      {
+        "key": "A",
+        "text": "reject the new evidence entirely."
+      },
+      {
+        "key": "B",
+        "text": "suggest that the archaeologists are uncertain about the value of any excavation."
+      },
+      {
+        "key": "C",
+        "text": "warn against equating a limited artifact record with a limited social world."
+      },
+      {
+        "key": "D",
+        "text": "argue that luxury objects are more reliable than seal impressions."
+      },
+      {
+        "key": "E",
+        "text": "imply that the settlement was definitively richer than previously believed."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "The final sentence cautions readers not to overinterpret the sparse material record. It does not reject the evidence, only the simplistic inference from that evidence.",
+    "estimatedTimeSeconds": 100,
+    "tags": [
+      "function",
+      "tone",
+      "archaeology"
+    ],
+    "orderIndex": 4
+  }
+]

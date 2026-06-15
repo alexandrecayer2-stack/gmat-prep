@@ -1,0 +1,1716 @@
+[
+  {
+    "id": "qb71",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "difficulty": "easy",
+    "topic": "algebra",
+    "stem": "What is the value of $x$?\n\nStatement (1): $3x+4=19$.\n\nStatement (2): $x^2=25$.",
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "Statement (1): $3x+4=19$, so $3x=15$ and $x=5$. That determines $x$ uniquely.\n\nStatement (2): $x^2=25$, so $x=5$ or $x=-5$. That does not determine a unique value.\n\nTherefore, statement (1) alone is sufficient, and the answer is A.",
+    "estimatedTimeSeconds": 130,
+    "tags": [
+      "algebra",
+      "equations"
+    ],
+    "orderIndex": 71
+  },
+  {
+    "id": "qb72",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "difficulty": "easy",
+    "topic": "geometry",
+    "stem": "What is the area of the rectangle?\n\nStatement (1): The rectangle has length 6 and width 4.\n\nStatement (2): The rectangle has perimeter 20 and length 6.",
+    "correctAnswer": {
+      "format": "single",
+      "value": "D"
+    },
+    "explanation": "Statement (1): Area $=6\\cdot 4=24$, so it is sufficient.\n\nStatement (2): Perimeter $=20$, so $2(L+W)=20$ and $L+W=10$. With $L=6$, we get $W=4$, so the area is again $24$. Statement (2) is also sufficient.\n\nEach statement alone is sufficient, so the answer is D.",
+    "estimatedTimeSeconds": 130,
+    "tags": [
+      "geometry",
+      "rectangle area"
+    ],
+    "orderIndex": 72
+  },
+  {
+    "id": "qb73",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "difficulty": "easy",
+    "topic": "number properties",
+    "stem": "Is $n$ divisible by 12?\n\nStatement (1): $n$ is divisible by 6.\n\nStatement (2): $n$ is divisible by 4.",
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "Statement (1) alone is not sufficient because numbers such as 6 are divisible by 6 but not by 12.\n\nStatement (2) alone is not sufficient because numbers such as 4 are divisible by 4 but not by 12.\n\nTogether, if $n$ is divisible by 6 and by 4, then $n$ must be divisible by $\\mathrm{lcm}(6,4)=12$. So the answer is C.",
+    "estimatedTimeSeconds": 130,
+    "tags": [
+      "number properties",
+      "divisibility"
+    ],
+    "orderIndex": 73
+  },
+  {
+    "id": "qb74",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "difficulty": "easy",
+    "topic": "statistics",
+    "stem": "What is the median of the five numbers?\n\nStatement (1): The mean of the five numbers is 10.\n\nStatement (2): The range of the five numbers is 12.",
+    "correctAnswer": {
+      "format": "single",
+      "value": "E"
+    },
+    "explanation": "Statement (1) gives only the average, which does not determine the median.\n\nStatement (2) gives only the spread, which also does not determine the median.\n\nEven together, many different sets of five numbers can have mean 10 and range 12 but different medians. So neither statement is sufficient, and the answer is E.",
+    "estimatedTimeSeconds": 130,
+    "tags": [
+      "statistics",
+      "median"
+    ],
+    "orderIndex": 74
+  },
+  {
+    "id": "qb75",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "difficulty": "medium",
+    "topic": "inequalities",
+    "stem": "Is $x>4$?\n\nStatement (1): $x^2=25$.\n\nStatement (2): $x=5$.",
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "Statement (1) gives $x=5$ or $x=-5$, so it is not sufficient.\n\nStatement (2) says directly that $x=5$, which does answer whether $x>4$. So statement (2) alone is sufficient.\n\nThe correct answer is B.",
+    "estimatedTimeSeconds": 130,
+    "tags": [
+      "inequalities",
+      "quadratic"
+    ],
+    "orderIndex": 75
+  },
+  {
+    "id": "qb76",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "difficulty": "medium",
+    "topic": "overlapping sets",
+    "stem": "How many students are in the debate club?\n\nStatement (1): Exactly 50 students take either debate or chess.\n\nStatement (2): Eighteen students take only debate, and 22 take only chess.",
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "Statement (1) gives only the union count, so it is not sufficient.\n\nStatement (2) gives counts for each non-overlapping group, but we cannot determine the number in both clubs, so it is not sufficient alone.\n\nTogether, the number in both clubs is -18-22=10$. The debate club total is +10=28$. Both statements together are sufficient, so the answer is C.",
+    "estimatedTimeSeconds": 130,
+    "tags": [
+      "overlapping sets",
+      "clubs"
+    ],
+    "orderIndex": 76
+  },
+  {
+    "id": "qb77",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "difficulty": "medium",
+    "topic": "geometry",
+    "stem": "What is the area of triangle $ABC$?\n\nStatement (1): The triangle has base 10 and height 6.\n\nStatement (2): The triangle has side lengths 6, 8, and 10.",
+    "correctAnswer": {
+      "format": "single",
+      "value": "D"
+    },
+    "explanation": "Statement (1) gives base and height, so the area is $\\frac12\\cdot 10\\cdot 6=30$. It is sufficient.\n\nStatement (2) shows the triangle is a 6-8-10 right triangle. Its legs are 6 and 8, so the area is $\\frac12\\cdot 6\\cdot 8=24$. It is also sufficient.\n\nEach statement alone is sufficient, so the answer is D.",
+    "estimatedTimeSeconds": 130,
+    "tags": [
+      "geometry",
+      "triangle area"
+    ],
+    "orderIndex": 77
+  },
+  {
+    "id": "qb78",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "difficulty": "medium",
+    "topic": "statistics",
+    "stem": "What is the mean of the four numbers?\n\nStatement (1): The sum of the first two numbers is 20.\n\nStatement (2): The sum of the last two numbers is 16.",
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "Statement (1) gives only part of the total, so it is not sufficient.\n\nStatement (2) also gives only part of the total, so it is not sufficient.\n\nTogether, the total sum is $20+16=36$. Since there are 4 numbers, the mean is $36/4=9$. So the two statements together are sufficient, and the answer is C.",
+    "estimatedTimeSeconds": 130,
+    "tags": [
+      "statistics",
+      "mean"
+    ],
+    "orderIndex": 78
+  },
+  {
+    "id": "qb79",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "difficulty": "hard",
+    "topic": "number properties",
+    "stem": "What is the value of $n$?\n\nStatement (1): When $n$ is divided by 5, the remainder is 2.\n\nStatement (2): When $n$ is divided by 3, the remainder is 2.",
+    "correctAnswer": {
+      "format": "single",
+      "value": "E"
+    },
+    "explanation": "Statement (1) allows values such as 2, 7, 12, 17, and so on, so it is not sufficient.\n\nStatement (2) allows values such as 2, 5, 8, 11, and so on, so it is not sufficient.\n\nTogether, the conditions still do not identify a unique value; for example, $n=2, 17, 32,\\dots$ all satisfy both statements. So neither statement is sufficient, and the answer is E.",
+    "estimatedTimeSeconds": 130,
+    "tags": [
+      "number properties",
+      "remainders"
+    ],
+    "orderIndex": 79
+  },
+  {
+    "id": "qb80",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "difficulty": "hard",
+    "topic": "geometry",
+    "stem": "What is the length of side $x$?\n\nStatement (1): The triangle is isosceles with sides $x$, $x$, and 10.\n\nStatement (2): The triangle is isosceles, has base 10, and perimeter 30.",
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "Statement (1) only tells us that two sides are equal and the third side is 10. Many values of $x$ are possible, so it is not sufficient.\n\nStatement (2) gives an isosceles triangle with base 10 and perimeter 30. If the equal sides are each $x$, then $2x+10=30$. Solving gives $2x=20$ and $x=10$. So statement (2) alone is sufficient.\n\nThe answer is A.",
+    "estimatedTimeSeconds": 130,
+    "tags": [
+      "geometry",
+      "isosceles triangle"
+    ],
+    "orderIndex": 80
+  },
+  {
+    "id": "qb81",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "difficulty": "hard",
+    "topic": "algebra",
+    "stem": "What is the value of $x$?\n\nStatement (1): $x+y=10$.\n\nStatement (2): $2x-y=8$.",
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "Statement (1) alone does not determine $x$ because many pairs $(x,y)$ satisfy $x+y=10$.\n\nStatement (2) alone also does not determine $x$ because many pairs satisfy $2x-y=8$.\n\nTogether, add the equations: $(x+y)+(2x-y)=10+8$, so $3x=18$ and $x=6$. Therefore, the two statements together are sufficient, and the answer is C.",
+    "estimatedTimeSeconds": 130,
+    "tags": [
+      "algebra",
+      "systems"
+    ],
+    "orderIndex": 81
+  },
+  {
+    "id": "qb82",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "difficulty": "hard",
+    "topic": "rates/work",
+    "stem": "How long would it take Pipe B alone to fill the tank?\n\nStatement (1): Pipe A and Pipe B together fill the tank in 6 hours.\n\nStatement (2): Pipe A alone fills the tank in 10 hours, and Pipe A and Pipe B together fill the tank in 6 hours.",
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "Statement (1) gives only the combined rate, so it is not sufficient by itself.\n\nStatement (2) gives Pipe A's solo rate and the combined rate. From these, Pipe B's rate is $1/6-1/10=5/30-3/30=2/30=1/15$, so Pipe B alone would fill the tank in 15 hours. Statement (2) is sufficient.\n\nTherefore, the answer is B.",
+    "estimatedTimeSeconds": 130,
+    "tags": [
+      "rates",
+      "work"
+    ],
+    "orderIndex": 82
+  },
+  {
+    "id": "qb83",
+    "section": "data_insights",
+    "type": "graphics_interpretation",
+    "difficulty": "easy",
+    "topic": "bar chart",
+    "stem": "Use the chart to complete the statements.",
+    "assets": {
+      "chart": {
+        "type": "bar",
+        "title": "Sales by region",
+        "xKey": "region",
+        "xLabel": "Region",
+        "yLabel": "Sales (thousands)",
+        "series": [
+          {
+            "key": "sales",
+            "label": "Sales"
+          }
+        ],
+        "data": [
+          {
+            "region": "North",
+            "sales": 35
+          },
+          {
+            "region": "South",
+            "sales": 50
+          },
+          {
+            "region": "East",
+            "sales": 40
+          },
+          {
+            "region": "West",
+            "sales": 55
+          }
+        ]
+      },
+      "dropdowns": [
+        {
+          "key": "b1",
+          "before": "The region with the highest sales is ",
+          "after": ".",
+          "options": [
+            {
+              "value": "North"
+            },
+            {
+              "value": "South"
+            },
+            {
+              "value": "East"
+            },
+            {
+              "value": "West"
+            }
+          ]
+        },
+        {
+          "key": "b2",
+          "before": "The difference between West and North is ",
+          "after": ".",
+          "options": [
+            {
+              "value": "10"
+            },
+            {
+              "value": "15"
+            },
+            {
+              "value": "20"
+            },
+            {
+              "value": "25"
+            }
+          ]
+        }
+      ]
+    },
+    "correctAnswer": {
+      "format": "dropdowns",
+      "value": {
+        "b1": "West",
+        "b2": "20"
+      }
+    },
+    "explanation": "West has the largest sales value at 55. The difference between West and North is 55 - 35 = 20.",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "charts",
+      "bar chart"
+    ],
+    "orderIndex": 83
+  },
+  {
+    "id": "qb84",
+    "section": "data_insights",
+    "type": "graphics_interpretation",
+    "difficulty": "easy",
+    "topic": "line chart",
+    "stem": "Use the chart to complete the statements.",
+    "assets": {
+      "chart": {
+        "type": "line",
+        "title": "Memberships over time",
+        "xKey": "year",
+        "xLabel": "Year",
+        "yLabel": "Members",
+        "series": [
+          {
+            "key": "members",
+            "label": "Members"
+          }
+        ],
+        "data": [
+          {
+            "year": "2021",
+            "members": 120
+          },
+          {
+            "year": "2022",
+            "members": 132
+          },
+          {
+            "year": "2023",
+            "members": 150
+          },
+          {
+            "year": "2024",
+            "members": 156
+          }
+        ]
+      },
+      "dropdowns": [
+        {
+          "key": "b1",
+          "before": "The year with the largest year-to-year increase is ",
+          "after": ".",
+          "options": [
+            {
+              "value": "2022"
+            },
+            {
+              "value": "2023"
+            },
+            {
+              "value": "2024"
+            }
+          ]
+        },
+        {
+          "key": "b2",
+          "before": "The increase from 2021 to 2024 is ",
+          "after": ".",
+          "options": [
+            {
+              "value": "30"
+            },
+            {
+              "value": "34"
+            },
+            {
+              "value": "36"
+            },
+            {
+              "value": "40"
+            }
+          ]
+        }
+      ]
+    },
+    "correctAnswer": {
+      "format": "dropdowns",
+      "value": {
+        "b1": "2023",
+        "b2": "36"
+      }
+    },
+    "explanation": "The largest increase is from 2022 to 2023: 150 - 132 = 18, which is larger than 132 - 120 = 12 and 156 - 150 = 6. The total increase from 2021 to 2024 is 156 - 120 = 36.",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "charts",
+      "line chart"
+    ],
+    "orderIndex": 84
+  },
+  {
+    "id": "qb85",
+    "section": "data_insights",
+    "type": "graphics_interpretation",
+    "difficulty": "medium",
+    "topic": "scatter plot",
+    "stem": "Use the chart to complete the statements.",
+    "assets": {
+      "chart": {
+        "type": "scatter",
+        "title": "Study hours and test scores",
+        "xKey": "hours",
+        "xLabel": "Study hours",
+        "yLabel": "Score",
+        "series": [
+          {
+            "key": "score",
+            "label": "Score"
+          }
+        ],
+        "data": [
+          {
+            "hours": 2,
+            "score": 60
+          },
+          {
+            "hours": 4,
+            "score": 68
+          },
+          {
+            "hours": 6,
+            "score": 74
+          },
+          {
+            "hours": 8,
+            "score": 82
+          },
+          {
+            "hours": 10,
+            "score": 88
+          }
+        ]
+      },
+      "dropdowns": [
+        {
+          "key": "b1",
+          "before": "The relationship between study hours and score is ",
+          "after": ".",
+          "options": [
+            {
+              "value": "positive"
+            },
+            {
+              "value": "negative"
+            },
+            {
+              "value": "none"
+            }
+          ]
+        },
+        {
+          "key": "b2",
+          "before": "The point with the highest score occurs at ",
+          "after": ".",
+          "options": [
+            {
+              "value": "2"
+            },
+            {
+              "value": "4"
+            },
+            {
+              "value": "6"
+            },
+            {
+              "value": "8"
+            },
+            {
+              "value": "10"
+            }
+          ]
+        }
+      ]
+    },
+    "correctAnswer": {
+      "format": "dropdowns",
+      "value": {
+        "b1": "positive",
+        "b2": "10"
+      }
+    },
+    "explanation": "As study hours rise, scores rise as well, so the association is positive. The highest score shown is 88, which occurs at 10 study hours.",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "charts",
+      "scatter plot"
+    ],
+    "orderIndex": 85
+  },
+  {
+    "id": "qb86",
+    "section": "data_insights",
+    "type": "graphics_interpretation",
+    "difficulty": "medium",
+    "topic": "bar chart",
+    "stem": "Use the chart to complete the statements.",
+    "assets": {
+      "chart": {
+        "type": "bar",
+        "title": "Visitors by campaign",
+        "xKey": "campaign",
+        "xLabel": "Campaign",
+        "yLabel": "Visitors",
+        "series": [
+          {
+            "key": "visitors",
+            "label": "Visitors"
+          }
+        ],
+        "data": [
+          {
+            "campaign": "Email",
+            "visitors": 24
+          },
+          {
+            "campaign": "Search",
+            "visitors": 31
+          },
+          {
+            "campaign": "Social",
+            "visitors": 45
+          }
+        ]
+      },
+      "dropdowns": [
+        {
+          "key": "b1",
+          "before": "The campaign with the most visitors is ",
+          "after": ".",
+          "options": [
+            {
+              "value": "Email"
+            },
+            {
+              "value": "Search"
+            },
+            {
+              "value": "Social"
+            }
+          ]
+        },
+        {
+          "key": "b2",
+          "before": "The combined visitors for Email and Search is ",
+          "after": ".",
+          "options": [
+            {
+              "value": "50"
+            },
+            {
+              "value": "55"
+            },
+            {
+              "value": "60"
+            },
+            {
+              "value": "65"
+            }
+          ]
+        }
+      ]
+    },
+    "correctAnswer": {
+      "format": "dropdowns",
+      "value": {
+        "b1": "Social",
+        "b2": "55"
+      }
+    },
+    "explanation": "Social has the greatest value at 45 visitors. Email plus Search gives 24 + 31 = 55.",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "charts",
+      "bar chart"
+    ],
+    "orderIndex": 86
+  },
+  {
+    "id": "qb87",
+    "section": "data_insights",
+    "type": "graphics_interpretation",
+    "difficulty": "hard",
+    "topic": "line chart",
+    "stem": "Use the chart to complete the statements.",
+    "assets": {
+      "chart": {
+        "type": "line",
+        "title": "Production and defects",
+        "xKey": "month",
+        "xLabel": "Month",
+        "yLabel": "Units",
+        "series": [
+          {
+            "key": "production",
+            "label": "Production"
+          },
+          {
+            "key": "defects",
+            "label": "Defects"
+          }
+        ],
+        "data": [
+          {
+            "month": "Jan",
+            "production": 40,
+            "defects": 8
+          },
+          {
+            "month": "Feb",
+            "production": 45,
+            "defects": 9
+          },
+          {
+            "month": "Mar",
+            "production": 50,
+            "defects": 11
+          },
+          {
+            "month": "Apr",
+            "production": 60,
+            "defects": 15
+          }
+        ]
+      },
+      "dropdowns": [
+        {
+          "key": "b1",
+          "before": "The month with the largest gap between production and defects is ",
+          "after": ".",
+          "options": [
+            {
+              "value": "Jan"
+            },
+            {
+              "value": "Feb"
+            },
+            {
+              "value": "Mar"
+            },
+            {
+              "value": "Apr"
+            }
+          ]
+        },
+        {
+          "key": "b2",
+          "before": "The increase in production from Jan to Apr is ",
+          "after": ".",
+          "options": [
+            {
+              "value": "15"
+            },
+            {
+              "value": "18"
+            },
+            {
+              "value": "20"
+            },
+            {
+              "value": "22"
+            }
+          ]
+        }
+      ]
+    },
+    "correctAnswer": {
+      "format": "dropdowns",
+      "value": {
+        "b1": "Apr",
+        "b2": "20"
+      }
+    },
+    "explanation": "Compute the gaps: Jan 32, Feb 36, Mar 39, Apr 45, so April is largest. Production rises from 40 to 60, an increase of 20.",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "charts",
+      "line chart"
+    ],
+    "orderIndex": 87
+  },
+  {
+    "id": "qb88",
+    "section": "data_insights",
+    "type": "graphics_interpretation",
+    "difficulty": "hard",
+    "topic": "line chart",
+    "stem": "Use the chart to complete the statements.",
+    "assets": {
+      "chart": {
+        "type": "line",
+        "title": "Revenue and cost",
+        "xKey": "quarter",
+        "xLabel": "Quarter",
+        "yLabel": "Thousands of dollars",
+        "series": [
+          {
+            "key": "revenue",
+            "label": "Revenue"
+          },
+          {
+            "key": "cost",
+            "label": "Cost"
+          }
+        ],
+        "data": [
+          {
+            "quarter": "Q1",
+            "revenue": 80,
+            "cost": 60
+          },
+          {
+            "quarter": "Q2",
+            "revenue": 90,
+            "cost": 70
+          },
+          {
+            "quarter": "Q3",
+            "revenue": 100,
+            "cost": 75
+          },
+          {
+            "quarter": "Q4",
+            "revenue": 95,
+            "cost": 80
+          }
+        ]
+      },
+      "dropdowns": [
+        {
+          "key": "b1",
+          "before": "The quarter with the highest profit is ",
+          "after": ".",
+          "options": [
+            {
+              "value": "Q1"
+            },
+            {
+              "value": "Q2"
+            },
+            {
+              "value": "Q3"
+            },
+            {
+              "value": "Q4"
+            }
+          ]
+        },
+        {
+          "key": "b2",
+          "before": "The total profit across all four quarters is ",
+          "after": ".",
+          "options": [
+            {
+              "value": "45"
+            },
+            {
+              "value": "70"
+            },
+            {
+              "value": "75"
+            },
+            {
+              "value": "80"
+            }
+          ]
+        }
+      ]
+    },
+    "correctAnswer": {
+      "format": "dropdowns",
+      "value": {
+        "b1": "Q3",
+        "b2": "80"
+      }
+    },
+    "explanation": "Profit by quarter is 20, 20, 25, and 15. Q3 is highest at 25. Total profit is 20 + 20 + 25 + 15 = 80.",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "charts",
+      "line chart"
+    ],
+    "orderIndex": 88
+  },
+  {
+    "id": "qb89",
+    "section": "data_insights",
+    "type": "table_analysis",
+    "difficulty": "easy",
+    "topic": "sales",
+    "stem": "Use the table to evaluate each statement.",
+    "assets": {
+      "table": {
+        "sortable": true,
+        "caption": "Branch sales and totals",
+        "columns": [
+          {
+            "key": "branch",
+            "label": "Branch"
+          },
+          {
+            "key": "online",
+            "label": "Online"
+          },
+          {
+            "key": "instore",
+            "label": "In-store"
+          },
+          {
+            "key": "total",
+            "label": "Total"
+          }
+        ],
+        "rows": [
+          {
+            "branch": "North",
+            "online": 8,
+            "instore": 12,
+            "total": 20
+          },
+          {
+            "branch": "South",
+            "online": 10,
+            "instore": 15,
+            "total": 25
+          },
+          {
+            "branch": "East",
+            "online": 11,
+            "instore": 9,
+            "total": 20
+          },
+          {
+            "branch": "West",
+            "online": 6,
+            "instore": 14,
+            "total": 20
+          }
+        ]
+      },
+      "dichotomous": {
+        "labels": [
+          "True",
+          "False"
+        ]
+      }
+    },
+    "choices": [
+      {
+        "key": "s1",
+        "text": "South has the highest total sales."
+      },
+      {
+        "key": "s2",
+        "text": "North and East have the same online sales."
+      },
+      {
+        "key": "s3",
+        "text": "The sum of all totals is 85."
+      }
+    ],
+    "correctAnswer": {
+      "format": "dichotomous",
+      "value": {
+        "s1": "True",
+        "s2": "False",
+        "s3": "True"
+      }
+    },
+    "explanation": "South's total of 25 is the largest. North's online sales are 8, while East's are 11, so statement (2) is false. The totals add to 20 + 25 + 20 + 20 = 85.",
+    "estimatedTimeSeconds": 100,
+    "tags": [
+      "table analysis",
+      "sales"
+    ],
+    "orderIndex": 89
+  },
+  {
+    "id": "qb90",
+    "section": "data_insights",
+    "type": "table_analysis",
+    "difficulty": "easy",
+    "topic": "counts",
+    "stem": "Use the table to evaluate each statement.",
+    "assets": {
+      "table": {
+        "sortable": true,
+        "caption": "Product counts and totals",
+        "columns": [
+          {
+            "key": "product",
+            "label": "Product"
+          },
+          {
+            "key": "defects",
+            "label": "Defects"
+          },
+          {
+            "key": "returns",
+            "label": "Returns"
+          },
+          {
+            "key": "total",
+            "label": "Total"
+          }
+        ],
+        "rows": [
+          {
+            "product": "A",
+            "defects": 4,
+            "returns": 6,
+            "total": 10
+          },
+          {
+            "product": "B",
+            "defects": 5,
+            "returns": 3,
+            "total": 8
+          },
+          {
+            "product": "C",
+            "defects": 2,
+            "returns": 5,
+            "total": 7
+          },
+          {
+            "product": "D",
+            "defects": 6,
+            "returns": 4,
+            "total": 10
+          }
+        ]
+      },
+      "dichotomous": {
+        "labels": [
+          "True",
+          "False"
+        ]
+      }
+    },
+    "choices": [
+      {
+        "key": "s1",
+        "text": "Product B had fewer total incidents than Product A."
+      },
+      {
+        "key": "s2",
+        "text": "Exactly two products had a total of 10."
+      },
+      {
+        "key": "s3",
+        "text": "Product C had the highest total."
+      }
+    ],
+    "correctAnswer": {
+      "format": "dichotomous",
+      "value": {
+        "s1": "True",
+        "s2": "True",
+        "s3": "False"
+      }
+    },
+    "explanation": "Product B has a total of 8, which is fewer than Product A's 10. Exactly two products, A and D, have totals of 10. Product C's total is 7, so it is not the highest.",
+    "estimatedTimeSeconds": 100,
+    "tags": [
+      "table analysis",
+      "counts"
+    ],
+    "orderIndex": 90
+  },
+  {
+    "id": "qb91",
+    "section": "data_insights",
+    "type": "table_analysis",
+    "difficulty": "medium",
+    "topic": "profit",
+    "stem": "Use the table to evaluate each statement.",
+    "assets": {
+      "table": {
+        "sortable": true,
+        "caption": "Quarterly revenue and cost",
+        "columns": [
+          {
+            "key": "quarter",
+            "label": "Quarter"
+          },
+          {
+            "key": "revenue",
+            "label": "Revenue"
+          },
+          {
+            "key": "cost",
+            "label": "Cost"
+          },
+          {
+            "key": "profit",
+            "label": "Profit"
+          }
+        ],
+        "rows": [
+          {
+            "quarter": "Q1",
+            "revenue": 80,
+            "cost": 60,
+            "profit": 20
+          },
+          {
+            "quarter": "Q2",
+            "revenue": 90,
+            "cost": 72,
+            "profit": 18
+          },
+          {
+            "quarter": "Q3",
+            "revenue": 100,
+            "cost": 75,
+            "profit": 25
+          },
+          {
+            "quarter": "Q4",
+            "revenue": 95,
+            "cost": 80,
+            "profit": 15
+          }
+        ]
+      },
+      "dichotomous": {
+        "labels": [
+          "True",
+          "False"
+        ]
+      }
+    },
+    "choices": [
+      {
+        "key": "s1",
+        "text": "Q3 had the highest profit."
+      },
+      {
+        "key": "s2",
+        "text": "The average profit across the four quarters was 20."
+      },
+      {
+        "key": "s3",
+        "text": "Revenue exceeded cost in every quarter."
+      }
+    ],
+    "correctAnswer": {
+      "format": "dichotomous",
+      "value": {
+        "s1": "True",
+        "s2": "False",
+        "s3": "True"
+      }
+    },
+    "explanation": "The profits are 20, 18, 25, and 15, so Q3 is highest. Their average is $(20+18+25+15)/4=78/4=19.5$, not 20. In each quarter, revenue is greater than cost.",
+    "estimatedTimeSeconds": 100,
+    "tags": [
+      "table analysis",
+      "profit"
+    ],
+    "orderIndex": 91
+  },
+  {
+    "id": "qb92",
+    "section": "data_insights",
+    "type": "table_analysis",
+    "difficulty": "medium",
+    "topic": "clubs",
+    "stem": "Use the table to evaluate each statement.",
+    "assets": {
+      "table": {
+        "sortable": true,
+        "caption": "Club enrollment counts",
+        "columns": [
+          {
+            "key": "club",
+            "label": "Club"
+          },
+          {
+            "key": "members",
+            "label": "Members"
+          },
+          {
+            "key": "new",
+            "label": "New members"
+          },
+          {
+            "key": "total",
+            "label": "Total"
+          }
+        ],
+        "rows": [
+          {
+            "club": "Art",
+            "members": 18,
+            "new": 4,
+            "total": 22
+          },
+          {
+            "club": "Music",
+            "members": 22,
+            "new": 6,
+            "total": 28
+          },
+          {
+            "club": "Debate",
+            "members": 16,
+            "new": 5,
+            "total": 21
+          },
+          {
+            "club": "Robotics",
+            "members": 24,
+            "new": 7,
+            "total": 31
+          }
+        ]
+      },
+      "dichotomous": {
+        "labels": [
+          "True",
+          "False"
+        ]
+      }
+    },
+    "choices": [
+      {
+        "key": "s1",
+        "text": "Robotics has the largest total."
+      },
+      {
+        "key": "s2",
+        "text": "The difference between Music and Debate members is 6."
+      },
+      {
+        "key": "s3",
+        "text": "The total number of members is 80."
+      }
+    ],
+    "correctAnswer": {
+      "format": "dichotomous",
+      "value": {
+        "s1": "True",
+        "s2": "True",
+        "s3": "True"
+      }
+    },
+    "explanation": "Robotics has 31 total members, the largest in the table. Music has 22 members and Debate has 16, so the difference is 6. The member counts add to 18 + 22 + 16 + 24 = 80.",
+    "estimatedTimeSeconds": 100,
+    "tags": [
+      "table analysis",
+      "clubs"
+    ],
+    "orderIndex": 92
+  },
+  {
+    "id": "qb93",
+    "section": "data_insights",
+    "type": "table_analysis",
+    "difficulty": "hard",
+    "topic": "rates",
+    "stem": "Use the table to evaluate each statement.",
+    "assets": {
+      "table": {
+        "sortable": true,
+        "caption": "Plant output and rates",
+        "columns": [
+          {
+            "key": "plant",
+            "label": "Plant"
+          },
+          {
+            "key": "units",
+            "label": "Units produced"
+          },
+          {
+            "key": "hours",
+            "label": "Hours operating"
+          },
+          {
+            "key": "rate",
+            "label": "Units per hour"
+          }
+        ],
+        "rows": [
+          {
+            "plant": "A",
+            "units": 120,
+            "hours": 6,
+            "rate": 20
+          },
+          {
+            "plant": "B",
+            "units": 150,
+            "hours": 10,
+            "rate": 15
+          },
+          {
+            "plant": "C",
+            "units": 90,
+            "hours": 5,
+            "rate": 18
+          },
+          {
+            "plant": "D",
+            "units": 160,
+            "hours": 8,
+            "rate": 20
+          }
+        ]
+      },
+      "dichotomous": {
+        "labels": [
+          "True",
+          "False"
+        ]
+      }
+    },
+    "choices": [
+      {
+        "key": "s1",
+        "text": "Plant C has the highest units-per-hour rate."
+      },
+      {
+        "key": "s2",
+        "text": "The average of the four plant rates is 18."
+      },
+      {
+        "key": "s3",
+        "text": "Plants A and D have equal units-per-hour rates."
+      }
+    ],
+    "correctAnswer": {
+      "format": "dichotomous",
+      "value": {
+        "s1": "False",
+        "s2": "False",
+        "s3": "True"
+      }
+    },
+    "explanation": "The rates are 20, 15, 18, and 20. Plant C is not highest because Plants A and D are higher at 20. The average of the rates is $(20+15+18+20)/4=73/4=18.25$, not 18. Plants A and D both have rate 20, so statement (3) is true.",
+    "estimatedTimeSeconds": 100,
+    "tags": [
+      "table analysis",
+      "rates"
+    ],
+    "orderIndex": 93
+  },
+  {
+    "id": "qb94",
+    "section": "data_insights",
+    "type": "table_analysis",
+    "difficulty": "hard",
+    "topic": "revenue",
+    "stem": "Use the table to evaluate each statement.",
+    "assets": {
+      "table": {
+        "sortable": true,
+        "caption": "Route revenue table",
+        "columns": [
+          {
+            "key": "route",
+            "label": "Route"
+          },
+          {
+            "key": "riders",
+            "label": "Riders"
+          },
+          {
+            "key": "fare",
+            "label": "Fare"
+          },
+          {
+            "key": "revenue",
+            "label": "Revenue"
+          }
+        ],
+        "rows": [
+          {
+            "route": "North",
+            "riders": 200,
+            "fare": 3,
+            "revenue": 600
+          },
+          {
+            "route": "South",
+            "riders": 150,
+            "fare": 4,
+            "revenue": 600
+          },
+          {
+            "route": "East",
+            "riders": 180,
+            "fare": 5,
+            "revenue": 900
+          },
+          {
+            "route": "West",
+            "riders": 120,
+            "fare": 6,
+            "revenue": 720
+          }
+        ]
+      },
+      "dichotomous": {
+        "labels": [
+          "True",
+          "False"
+        ]
+      }
+    },
+    "choices": [
+      {
+        "key": "s1",
+        "text": "East generated the highest revenue."
+      },
+      {
+        "key": "s2",
+        "text": "The average fare across the routes was 4.5."
+      },
+      {
+        "key": "s3",
+        "text": "West had the lowest fare and the lowest revenue."
+      }
+    ],
+    "correctAnswer": {
+      "format": "dichotomous",
+      "value": {
+        "s1": "True",
+        "s2": "True",
+        "s3": "False"
+      }
+    },
+    "explanation": "East's revenue of 900 is the largest. The average fare is $(3+4+5+6)/4=18/4=4.5$. West has the highest fare, not the lowest, so statement (3) is false.",
+    "estimatedTimeSeconds": 100,
+    "tags": [
+      "table analysis",
+      "revenue"
+    ],
+    "orderIndex": 94
+  },
+  {
+    "id": "qb95",
+    "section": "data_insights",
+    "type": "two_part_analysis",
+    "difficulty": "easy",
+    "topic": "arithmetic",
+    "stem": "For each part, select the value that correctly completes the statement.\n\nPart A: the value of (4)+2$\nPart B: the value of ^2-9$",
+    "assets": {
+      "twoPart": {
+        "columns": [
+          {
+            "key": "partA",
+            "label": "Value of (4)+2$"
+          },
+          {
+            "key": "partB",
+            "label": "Value of ^2-9$"
+          }
+        ]
+      }
+    },
+    "choices": [
+      {
+        "key": "r1",
+        "text": "10"
+      },
+      {
+        "key": "r2",
+        "text": "12"
+      },
+      {
+        "key": "r3",
+        "text": "14"
+      },
+      {
+        "key": "r4",
+        "text": "16"
+      },
+      {
+        "key": "r5",
+        "text": "18"
+      }
+    ],
+    "correctAnswer": {
+      "format": "two_part",
+      "value": {
+        "partA": "r3",
+        "partB": "r4"
+      }
+    },
+    "explanation": "Part A is $3(4)+2=12+2=14$. Part B is $5^2-9=25-9=16$.",
+    "estimatedTimeSeconds": 110,
+    "tags": [
+      "two-part",
+      "arithmetic"
+    ],
+    "orderIndex": 95
+  },
+  {
+    "id": "qb96",
+    "section": "data_insights",
+    "type": "two_part_analysis",
+    "difficulty": "easy",
+    "topic": "percents",
+    "stem": "For each part, select the value that correctly completes the statement.\n\nPart A: 20% of 45\nPart B: 15% of 80",
+    "assets": {
+      "twoPart": {
+        "columns": [
+          {
+            "key": "partA",
+            "label": "20% of 45"
+          },
+          {
+            "key": "partB",
+            "label": "15% of 80"
+          }
+        ]
+      }
+    },
+    "choices": [
+      {
+        "key": "r1",
+        "text": "8"
+      },
+      {
+        "key": "r2",
+        "text": "9"
+      },
+      {
+        "key": "r3",
+        "text": "10"
+      },
+      {
+        "key": "r4",
+        "text": "12"
+      },
+      {
+        "key": "r5",
+        "text": "15"
+      }
+    ],
+    "correctAnswer": {
+      "format": "two_part",
+      "value": {
+        "partA": "r2",
+        "partB": "r4"
+      }
+    },
+    "explanation": "Part A is $20\\%$ of 45, which is $0.2\\times 45=9$. Part B is $15\\%$ of 80, which is $0.15\\times 80=12$.",
+    "estimatedTimeSeconds": 110,
+    "tags": [
+      "two-part",
+      "percents"
+    ],
+    "orderIndex": 96
+  },
+  {
+    "id": "qb97",
+    "section": "data_insights",
+    "type": "two_part_analysis",
+    "difficulty": "medium",
+    "topic": "ratios",
+    "stem": "For each part, select the value that correctly completes the statement.\n\nTwo quantities are divided in two different ratios. Part A: the smaller share when a total of 28 is split in a :5$ ratio. Part B: the larger share when a total of 35 is split in a :4$ ratio.",
+    "assets": {
+      "twoPart": {
+        "columns": [
+          {
+            "key": "partA",
+            "label": "Smaller share (28 split 2:5)"
+          },
+          {
+            "key": "partB",
+            "label": "Larger share (35 split 3:4)"
+          }
+        ]
+      }
+    },
+    "choices": [
+      {
+        "key": "r1",
+        "text": "6"
+      },
+      {
+        "key": "r2",
+        "text": "8"
+      },
+      {
+        "key": "r3",
+        "text": "10"
+      },
+      {
+        "key": "r4",
+        "text": "20"
+      },
+      {
+        "key": "r5",
+        "text": "24"
+      }
+    ],
+    "correctAnswer": {
+      "format": "two_part",
+      "value": {
+        "partA": "r2",
+        "partB": "r4"
+      }
+    },
+    "explanation": "Part A: let the ratio be $2k:5k$ with $2k+5k=28$, so $7k=28$ and $k=4$. Then Part A is $2k=8$. Part B: let the ratio be $3k:4k$ with $3k+4k=35$, so $7k=35$ and $k=5$. Then Part B is $4k=20$.",
+    "estimatedTimeSeconds": 110,
+    "tags": [
+      "two-part",
+      "ratios"
+    ],
+    "orderIndex": 97
+  },
+  {
+    "id": "qb98",
+    "section": "data_insights",
+    "type": "two_part_analysis",
+    "difficulty": "medium",
+    "topic": "geometry",
+    "stem": "For each part, select the value that correctly completes the statement.\n\nPart A: the area of a triangle with base 10 and height 8.\nPart B: the perimeter of a rectangle with sides 9 and 5.",
+    "assets": {
+      "twoPart": {
+        "columns": [
+          {
+            "key": "partA",
+            "label": "Area of triangle (base 10, height 8)"
+          },
+          {
+            "key": "partB",
+            "label": "Perimeter of rectangle (sides 9 and 5)"
+          }
+        ]
+      }
+    },
+    "choices": [
+      {
+        "key": "r1",
+        "text": "24"
+      },
+      {
+        "key": "r2",
+        "text": "28"
+      },
+      {
+        "key": "r3",
+        "text": "40"
+      },
+      {
+        "key": "r4",
+        "text": "49"
+      },
+      {
+        "key": "r5",
+        "text": "56"
+      }
+    ],
+    "correctAnswer": {
+      "format": "two_part",
+      "value": {
+        "partA": "r3",
+        "partB": "r2"
+      }
+    },
+    "explanation": "Part A is the area of a triangle with base 10 and height 8: $\\frac12\\cdot 10\\cdot 8=40$. Part B is the perimeter of a rectangle with side lengths 9 and 5: $2(9+5)=28$.",
+    "estimatedTimeSeconds": 110,
+    "tags": [
+      "two-part",
+      "geometry"
+    ],
+    "orderIndex": 98
+  },
+  {
+    "id": "qb99",
+    "section": "data_insights",
+    "type": "two_part_analysis",
+    "difficulty": "hard",
+    "topic": "number properties",
+    "stem": "For each part, select the value that correctly completes the statement.\n\nPart A: the sum of the first 8 positive odd integers.\nPart B: the sum of the first 9 positive odd integers.",
+    "assets": {
+      "twoPart": {
+        "columns": [
+          {
+            "key": "partA",
+            "label": "Sum of first 8 odd integers"
+          },
+          {
+            "key": "partB",
+            "label": "Sum of first 9 odd integers"
+          }
+        ]
+      }
+    },
+    "choices": [
+      {
+        "key": "r1",
+        "text": "36"
+      },
+      {
+        "key": "r2",
+        "text": "45"
+      },
+      {
+        "key": "r3",
+        "text": "64"
+      },
+      {
+        "key": "r4",
+        "text": "81"
+      },
+      {
+        "key": "r5",
+        "text": "100"
+      }
+    ],
+    "correctAnswer": {
+      "format": "two_part",
+      "value": {
+        "partA": "r3",
+        "partB": "r4"
+      }
+    },
+    "explanation": "Part A is the sum of the first 8 positive odd integers. That sum is $8^2=64$. Part B is the sum of the first 9 positive odd integers. That sum is $9^2=81$.",
+    "estimatedTimeSeconds": 110,
+    "tags": [
+      "two-part",
+      "number properties"
+    ],
+    "orderIndex": 99
+  },
+  {
+    "id": "qb100",
+    "section": "data_insights",
+    "type": "two_part_analysis",
+    "difficulty": "hard",
+    "topic": "counting",
+    "stem": "For each part, select the value that correctly completes the statement.\n\nPart A: the count of integers from 1 to 40 divisible by 3 or 5.\nPart B: the count of integers from 1 to 40 divisible by both 3 and 5.",
+    "assets": {
+      "twoPart": {
+        "columns": [
+          {
+            "key": "partA",
+            "label": "Count: 1–40 divisible by 3 or 5"
+          },
+          {
+            "key": "partB",
+            "label": "Count: 1–40 divisible by both 3 and 5"
+          }
+        ]
+      }
+    },
+    "choices": [
+      {
+        "key": "r1",
+        "text": "2"
+      },
+      {
+        "key": "r2",
+        "text": "10"
+      },
+      {
+        "key": "r3",
+        "text": "15"
+      },
+      {
+        "key": "r4",
+        "text": "19"
+      },
+      {
+        "key": "r5",
+        "text": "20"
+      }
+    ],
+    "correctAnswer": {
+      "format": "two_part",
+      "value": {
+        "partA": "r4",
+        "partB": "r1"
+      }
+    },
+    "explanation": "Part A counts the integers from 1 to 40 divisible by 3 or 5. There are 13 multiples of 3, 8 multiples of 5, and 2 multiples of both. By inclusion-exclusion, the total is $13+8-2=19$.\n\nPart B counts the integers from 1 to 40 divisible by both 3 and 5, which are the multiples of 15: 15 and 30. So the count is 2.",
+    "estimatedTimeSeconds": 110,
+    "tags": [
+      "two-part",
+      "counting"
+    ],
+    "orderIndex": 100
+  }
+]

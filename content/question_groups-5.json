@@ -1,0 +1,20 @@
+[
+  {
+    "id": "rc-b1",
+    "section": "verbal",
+    "title": "Wetlands in a Harbor City",
+    "passage": "In Port Elara, a densely built harbor city, engineers began restoring a chain of tidal marshes that had been filled decades earlier for shipping warehouses. The project was initially justified as habitat repair for migratory birds, but planners soon discovered a second benefit: during heavy storms, the marshes absorbed wave energy and reduced flooding in adjoining neighborhoods. Because the reclaimed land is irregular and cannot support large buildings, critics had called it wasted space. Yet the city paired the wetlands with elevated walkways and water-quality sensors, turning the area into a publicly accessible buffer zone. Supporters argue that the project illustrates a broader change in urban design: land once treated as merely unused can instead be valued for the services it provides. Still, the planners caution that wetlands are not a complete substitute for levees; they are one layer in a wider defense system."
+  },
+  {
+    "id": "rc-b2",
+    "section": "verbal",
+    "title": "Modular Medical Devices",
+    "passage": "A medical-device maker has begun producing several products through a modular system in which a base unit is manufactured separately from disposable attachments and software components. The company adopted the method after hospitals complained that older devices were difficult to repair and often had to be discarded when a single part failed. By contrast, the modular design allows the base unit to remain in service while worn attachments are replaced. It also permits different software settings for small clinics and large hospitals without changing the hardware itself. Critics worry that the approach could increase coordination costs because more suppliers must meet tighter specifications. Supporters reply that the system reduces waste, shortens redesign cycles, and makes it easier to adapt devices to local regulations. The company’s managers describe the change as a shift from selling one rigid product to managing a family of interoperable parts."
+  },
+  {
+    "id": "rc-b3",
+    "section": "verbal",
+    "title": "A Desert Settlement and Its Trade Goods",
+    "passage": "Archaeologists excavating a desert settlement found surprisingly few luxury objects, yet the objects they did recover were revealing. Several ceramic jars came from workshops hundreds of miles away, and a set of small seal impressions suggests that goods were being tracked by officials rather than traded informally. The team argues that the settlement was not isolated but selective: it appears to have imported items that were useful for storage, recordkeeping, or ceremonial exchange, while omitting goods that would have offered little practical value in an arid environment. That pattern matters because earlier scholars had treated the site’s sparse deposits as evidence of poverty. The new evidence instead points to a community that participated in long-distance exchange while conserving resources. The archaeologists are careful, however, not to equate a limited material record with a limited social world."
+  }
+]

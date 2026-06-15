@@ -1,0 +1,1605 @@
+[
+  {
+    "id": "qb01",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "arithmetic",
+    "difficulty": "easy",
+    "stem": "Evaluate $18 + 4(7 - 3) - 5$.",
+    "choices": [
+      {
+        "key": "A",
+        "text": "29"
+      },
+      {
+        "key": "B",
+        "text": "31"
+      },
+      {
+        "key": "C",
+        "text": "33"
+      },
+      {
+        "key": "D",
+        "text": "35"
+      },
+      {
+        "key": "E",
+        "text": "37"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "Compute inside parentheses first: $7-3=4$. Then $4\\cdot 4=16$. Finally, $18+16-5=29$.",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "order of operations",
+      "arithmetic"
+    ],
+    "orderIndex": 1
+  },
+  {
+    "id": "qb02",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "percents",
+    "difficulty": "easy",
+    "stem": "A jacket with a regular price of \\$80 is discounted by 20%, and then sales tax of 5% is added to the discounted price. What is the final price?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "64.00"
+      },
+      {
+        "key": "B",
+        "text": "65.00"
+      },
+      {
+        "key": "C",
+        "text": "66.00"
+      },
+      {
+        "key": "D",
+        "text": "67.20"
+      },
+      {
+        "key": "E",
+        "text": "68.00"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "D"
+    },
+    "explanation": "A 20% discount leaves $80\\times 0.80=64$. Adding 5% tax gives $64\\times 1.05=67.2$.",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "percents",
+      "discount",
+      "tax"
+    ],
+    "orderIndex": 2
+  },
+  {
+    "id": "qb03",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "fractions",
+    "difficulty": "easy",
+    "stem": "What is $\\frac{5}{6} - \\frac{1}{4}$?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "1/3"
+      },
+      {
+        "key": "B",
+        "text": "7/12"
+      },
+      {
+        "key": "C",
+        "text": "2/3"
+      },
+      {
+        "key": "D",
+        "text": "3/4"
+      },
+      {
+        "key": "E",
+        "text": "11/12"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "$\\frac{5}{6}=\\frac{10}{12}$ and $\\frac{1}{4}=\\frac{3}{12}$. So the difference is $\\frac{10}{12}-\\frac{3}{12}=\\frac{7}{12}$.",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "fractions",
+      "subtraction"
+    ],
+    "orderIndex": 3
+  },
+  {
+    "id": "qb04",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "ratios",
+    "difficulty": "easy",
+    "stem": "At a theater, the ratio of adults to children is $5:4$. If there are 45 adults, how many children are there?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "30"
+      },
+      {
+        "key": "B",
+        "text": "32"
+      },
+      {
+        "key": "C",
+        "text": "36"
+      },
+      {
+        "key": "D",
+        "text": "40"
+      },
+      {
+        "key": "E",
+        "text": "45"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "$5$ parts correspond to 45 adults, so 1 part is $45\\div 5=9$. Children are $4$ parts, or $4\\times 9=36$.",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "ratios",
+      "proportions"
+    ],
+    "orderIndex": 4
+  },
+  {
+    "id": "qb05",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "averages",
+    "difficulty": "easy",
+    "stem": "The average of 5 numbers is 18. One of the numbers is 27. What is the average of the other 4 numbers?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "15.75"
+      },
+      {
+        "key": "B",
+        "text": "16.25"
+      },
+      {
+        "key": "C",
+        "text": "17.00"
+      },
+      {
+        "key": "D",
+        "text": "17.25"
+      },
+      {
+        "key": "E",
+        "text": "17.75"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "The total of all 5 numbers is $5\\times 18=90$. Removing 27 leaves $90-27=63$ for the other 4 numbers, and $63\\div 4=15.75$.",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "averages",
+      "mean"
+    ],
+    "orderIndex": 5
+  },
+  {
+    "id": "qb06",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "number properties",
+    "difficulty": "easy",
+    "stem": "What is the smallest positive integer that leaves a remainder of 1 when divided by 4 and a remainder of 2 when divided by 3?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "1"
+      },
+      {
+        "key": "B",
+        "text": "5"
+      },
+      {
+        "key": "C",
+        "text": "9"
+      },
+      {
+        "key": "D",
+        "text": "13"
+      },
+      {
+        "key": "E",
+        "text": "17"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "Check the listed values. The smallest number that is $1$ more than a multiple of 4 and $2$ more than a multiple of 3 is 5, since $5\\equiv 1\\pmod 4$ and $5\\equiv 2\\pmod 3$.",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "remainders",
+      "number properties"
+    ],
+    "orderIndex": 6
+  },
+  {
+    "id": "qb07",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "algebra",
+    "difficulty": "easy",
+    "stem": "If $3(x-2)=2x+7$, what is the value of $x$?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "9"
+      },
+      {
+        "key": "B",
+        "text": "11"
+      },
+      {
+        "key": "C",
+        "text": "13"
+      },
+      {
+        "key": "D",
+        "text": "15"
+      },
+      {
+        "key": "E",
+        "text": "17"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "Distribute first: $3x-6=2x+7$. Subtract $2x$ from both sides to get $x-6=7$. Then $x=13$.",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "linear equations",
+      "algebra"
+    ],
+    "orderIndex": 7
+  },
+  {
+    "id": "qb08",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "geometry",
+    "difficulty": "easy",
+    "stem": "A triangle has a base of 12 and a height of 9. What is its area?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "54"
+      },
+      {
+        "key": "B",
+        "text": "60"
+      },
+      {
+        "key": "C",
+        "text": "63"
+      },
+      {
+        "key": "D",
+        "text": "72"
+      },
+      {
+        "key": "E",
+        "text": "108"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "Use $\\text{area}=\\frac{1}{2}bh$. So $\\frac{1}{2}\\cdot 12\\cdot 9=54$.",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "geometry",
+      "triangle area"
+    ],
+    "orderIndex": 8
+  },
+  {
+    "id": "qb09",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "coordinate geometry",
+    "difficulty": "easy",
+    "stem": "What is the distance between the points $(1,-2)$ and $(7,6)$?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "8"
+      },
+      {
+        "key": "B",
+        "text": "9"
+      },
+      {
+        "key": "C",
+        "text": "\\sqrt{52}"
+      },
+      {
+        "key": "D",
+        "text": "10"
+      },
+      {
+        "key": "E",
+        "text": "12"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "D"
+    },
+    "explanation": "The horizontal change is $7-1=6$ and the vertical change is $6-(-2)=8$. The distance is $\\sqrt{6^2+8^2}=\\sqrt{100}=10$.",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "distance",
+      "coordinate geometry"
+    ],
+    "orderIndex": 9
+  },
+  {
+    "id": "qb10",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "rates",
+    "difficulty": "medium",
+    "stem": "A car travels 150 miles at 50 miles per hour and returns the same distance at 75 miles per hour. What is its average speed for the round trip?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "50"
+      },
+      {
+        "key": "B",
+        "text": "55"
+      },
+      {
+        "key": "C",
+        "text": "58"
+      },
+      {
+        "key": "D",
+        "text": "62"
+      },
+      {
+        "key": "E",
+        "text": "60"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "E"
+    },
+    "explanation": "The total distance is 300 miles. The time is $150/50=3$ hours out and $150/75=2$ hours back, for 5 hours total. Average speed is $300/5=60$ miles per hour.",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "rates",
+      "average speed"
+    ],
+    "orderIndex": 10
+  },
+  {
+    "id": "qb11",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "work",
+    "difficulty": "hard",
+    "stem": "Machine A can finish a job in 8 hours, and machine B can finish the same job in 12 hours. If they work together at constant rates, how long do they take to finish the job?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "4 hours"
+      },
+      {
+        "key": "B",
+        "text": "4.8 hours"
+      },
+      {
+        "key": "C",
+        "text": "5 hours"
+      },
+      {
+        "key": "D",
+        "text": "6 hours"
+      },
+      {
+        "key": "E",
+        "text": "20 hours"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "Their combined rate is $1/8+1/12=3/24+2/24=5/24$ job per hour. Time is the reciprocal: $24/5=4.8$ hours.",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "work",
+      "rates"
+    ],
+    "orderIndex": 11
+  },
+  {
+    "id": "qb12",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "mixtures",
+    "difficulty": "hard",
+    "stem": "A container holds 30 liters of a 40% acid solution. How many liters of water must be added to make the solution 25% acid?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "12"
+      },
+      {
+        "key": "B",
+        "text": "15"
+      },
+      {
+        "key": "C",
+        "text": "18"
+      },
+      {
+        "key": "D",
+        "text": "20"
+      },
+      {
+        "key": "E",
+        "text": "30"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "The amount of acid stays $30\\times 0.40=12$ liters. If 12 liters is 25% of the final mixture, then the final volume is $12/0.25=48$ liters. Water added is $48-30=18$ liters.",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "mixtures",
+      "percent concentration"
+    ],
+    "orderIndex": 12
+  },
+  {
+    "id": "qb13",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "exponents",
+    "difficulty": "hard",
+    "stem": "What is the value of $2^3\\cdot 2^5\\div 2^4$?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "8"
+      },
+      {
+        "key": "B",
+        "text": "12"
+      },
+      {
+        "key": "C",
+        "text": "14"
+      },
+      {
+        "key": "D",
+        "text": "16"
+      },
+      {
+        "key": "E",
+        "text": "32"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "D"
+    },
+    "explanation": "Combine exponents with the same base: $2^{3+5-4}=2^4=16$.",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "exponents",
+      "laws of exponents"
+    ],
+    "orderIndex": 13
+  },
+  {
+    "id": "qb14",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "inequalities",
+    "difficulty": "easy",
+    "stem": "How many integers satisfy $-2 < 3x - 1 \\le 11$?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "5"
+      },
+      {
+        "key": "B",
+        "text": "6"
+      },
+      {
+        "key": "C",
+        "text": "7"
+      },
+      {
+        "key": "D",
+        "text": "8"
+      },
+      {
+        "key": "E",
+        "text": "9"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "Add 1 to each part: $-1<3x\\le 12$. Divide by 3: $-\\frac13 < x \\le 4$. The integers are $0,1,2,3,4$, so there are 5.",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "inequalities",
+      "integers"
+    ],
+    "orderIndex": 14
+  },
+  {
+    "id": "qb15",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "statistics",
+    "difficulty": "easy",
+    "stem": "A data set contains the numbers 3, 5, 7, 7, 10, and 12. What is the difference between the mean and the median?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "1/6"
+      },
+      {
+        "key": "B",
+        "text": "1/3"
+      },
+      {
+        "key": "C",
+        "text": "1/2"
+      },
+      {
+        "key": "D",
+        "text": "2/3"
+      },
+      {
+        "key": "E",
+        "text": "1"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "The median is the average of the middle two values: $\\frac{7+7}{2}=7$. The mean is $(3+5+7+7+10+12)/6=44/6=22/3$. The difference is $22/3-7=1/3$.",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "statistics",
+      "mean",
+      "median"
+    ],
+    "orderIndex": 15
+  },
+  {
+    "id": "qb16",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "sequences",
+    "difficulty": "easy",
+    "stem": "An arithmetic sequence begins with 4 and has a common difference of 6. What is the 8th term?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "40"
+      },
+      {
+        "key": "B",
+        "text": "44"
+      },
+      {
+        "key": "C",
+        "text": "45"
+      },
+      {
+        "key": "D",
+        "text": "48"
+      },
+      {
+        "key": "E",
+        "text": "46"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "E"
+    },
+    "explanation": "Use $a_n=a_1+(n-1)d$. So $a_8=4+7\\cdot 6=4+42=46$.",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "sequences",
+      "arithmetic sequence"
+    ],
+    "orderIndex": 16
+  },
+  {
+    "id": "qb17",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "probability",
+    "difficulty": "easy",
+    "stem": "A fair six-sided die is rolled once. What is the probability of rolling a prime number less than 5?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "1/6"
+      },
+      {
+        "key": "B",
+        "text": "1/4"
+      },
+      {
+        "key": "C",
+        "text": "1/3"
+      },
+      {
+        "key": "D",
+        "text": "1/2"
+      },
+      {
+        "key": "E",
+        "text": "2/3"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "The prime numbers less than 5 are 2 and 3, so there are 2 favorable outcomes out of 6. Thus the probability is $2/6=1/3$.",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "probability",
+      "die"
+    ],
+    "orderIndex": 17
+  },
+  {
+    "id": "qb18",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "counting",
+    "difficulty": "easy",
+    "stem": "How many 3-letter codes can be formed from the letters A, B, C, and D if no letter may be repeated?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "12"
+      },
+      {
+        "key": "B",
+        "text": "18"
+      },
+      {
+        "key": "C",
+        "text": "24"
+      },
+      {
+        "key": "D",
+        "text": "36"
+      },
+      {
+        "key": "E",
+        "text": "64"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "There are 4 choices for the first letter, 3 for the second, and 2 for the third. So the total is $4\\cdot 3\\cdot 2=24$.",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "counting",
+      "permutations"
+    ],
+    "orderIndex": 18
+  },
+  {
+    "id": "qb19",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "percents",
+    "difficulty": "medium",
+    "stem": "A city had 1,600 residents last year and 1,840 residents this year. By what percent did the population increase?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "12.5"
+      },
+      {
+        "key": "B",
+        "text": "13"
+      },
+      {
+        "key": "C",
+        "text": "14"
+      },
+      {
+        "key": "D",
+        "text": "15"
+      },
+      {
+        "key": "E",
+        "text": "16"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "D"
+    },
+    "explanation": "The increase is $1840-1600=240$. Divide by the original amount: $240/1600=0.15$, which is 15%.",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "percents",
+      "increase"
+    ],
+    "orderIndex": 19
+  },
+  {
+    "id": "qb20",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "fractions",
+    "difficulty": "medium",
+    "stem": "If $\\frac{x}{y}=\\frac{4}{7}$ and $x+y=55$, what is $y$?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "28"
+      },
+      {
+        "key": "B",
+        "text": "35"
+      },
+      {
+        "key": "C",
+        "text": "40"
+      },
+      {
+        "key": "D",
+        "text": "42"
+      },
+      {
+        "key": "E",
+        "text": "49"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "Let $x=4k$ and $y=7k$. Then $4k+7k=55$, so $11k=55$ and $k=5$. Therefore $y=7k=35$.",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "fractions",
+      "ratios"
+    ],
+    "orderIndex": 20
+  },
+  {
+    "id": "qb22",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "geometry",
+    "difficulty": "medium",
+    "stem": "What is the area of a circle with radius 5?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "25π"
+      },
+      {
+        "key": "B",
+        "text": "10π"
+      },
+      {
+        "key": "C",
+        "text": "15π"
+      },
+      {
+        "key": "D",
+        "text": "20π"
+      },
+      {
+        "key": "E",
+        "text": "50π"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "Use $\\text{area}=\\pi r^2$. With $r=5$, the area is $\\pi\\cdot 25=25\\pi$.",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "circle",
+      "area"
+    ],
+    "orderIndex": 22
+  },
+  {
+    "id": "qb23",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "coordinate geometry",
+    "difficulty": "medium",
+    "stem": "What is the midpoint of the segment with endpoints $(-4,3)$ and $(8,-1)$?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "(1,0)"
+      },
+      {
+        "key": "B",
+        "text": "(2,0)"
+      },
+      {
+        "key": "C",
+        "text": "(2,1)"
+      },
+      {
+        "key": "D",
+        "text": "(3,1)"
+      },
+      {
+        "key": "E",
+        "text": "(4,2)"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "The midpoint is the average of the x-coordinates and the average of the y-coordinates: $\\left(\\frac{-4+8}{2},\\frac{3+(-1)}{2}\\right)=(2,1)$.",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "midpoint",
+      "coordinate geometry"
+    ],
+    "orderIndex": 23
+  },
+  {
+    "id": "qb24",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "rates",
+    "difficulty": "medium",
+    "stem": "A runner covers 12 kilometers in 45 minutes at a constant speed. What is the runner's speed in kilometers per hour?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "14"
+      },
+      {
+        "key": "B",
+        "text": "15"
+      },
+      {
+        "key": "C",
+        "text": "16"
+      },
+      {
+        "key": "D",
+        "text": "18"
+      },
+      {
+        "key": "E",
+        "text": "20"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "Forty-five minutes is $3/4$ of an hour. Speed is $12\\div (3/4)=12\\cdot 4/3=16$ kilometers per hour.",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "rates",
+      "unit conversion"
+    ],
+    "orderIndex": 24
+  },
+  {
+    "id": "qb25",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "work",
+    "difficulty": "medium",
+    "stem": "A tank can be filled by Pipe A in 9 hours and drained by Pipe B in 18 hours. If both are open at the same time, how long does it take to fill the tank from empty?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "6 hours"
+      },
+      {
+        "key": "B",
+        "text": "12 hours"
+      },
+      {
+        "key": "C",
+        "text": "18 hours"
+      },
+      {
+        "key": "D",
+        "text": "27 hours"
+      },
+      {
+        "key": "E",
+        "text": "36 hours"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "The net rate is $1/9-1/18=2/18-1/18=1/18$ tank per hour. So the tank fills in 18 hours.",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "work",
+      "rates",
+      "drain"
+    ],
+    "orderIndex": 25
+  },
+  {
+    "id": "qb26",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "number properties",
+    "difficulty": "medium",
+    "stem": "What is the greatest common divisor of 84 and 126?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "14"
+      },
+      {
+        "key": "B",
+        "text": "21"
+      },
+      {
+        "key": "C",
+        "text": "28"
+      },
+      {
+        "key": "D",
+        "text": "42"
+      },
+      {
+        "key": "E",
+        "text": "84"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "D"
+    },
+    "explanation": "Prime factorize: $84=2^2\\cdot 3\\cdot 7$ and $126=2\\cdot 3^2\\cdot 7$. The common factors are $2\\cdot 3\\cdot 7=42$.",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "gcd",
+      "number properties"
+    ],
+    "orderIndex": 26
+  },
+  {
+    "id": "qb27",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "exponents",
+    "difficulty": "medium",
+    "stem": "What is the remainder when $5^4$ is divided by 6?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "0"
+      },
+      {
+        "key": "B",
+        "text": "1"
+      },
+      {
+        "key": "C",
+        "text": "2"
+      },
+      {
+        "key": "D",
+        "text": "3"
+      },
+      {
+        "key": "E",
+        "text": "5"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "Since $5\\equiv -1\\pmod 6$, we have $5^4\\equiv (-1)^4=1\\pmod 6$. The remainder is 1.",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "modular arithmetic",
+      "exponents"
+    ],
+    "orderIndex": 27
+  },
+  {
+    "id": "qb28",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "counting",
+    "difficulty": "medium",
+    "stem": "How many distinct arrangements are there of the letters in the word PLANET?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "120"
+      },
+      {
+        "key": "B",
+        "text": "240"
+      },
+      {
+        "key": "C",
+        "text": "360"
+      },
+      {
+        "key": "D",
+        "text": "480"
+      },
+      {
+        "key": "E",
+        "text": "720"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "E"
+    },
+    "explanation": "The word PLANET has 6 distinct letters. The number of arrangements is $6!=720$.",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "counting",
+      "permutations"
+    ],
+    "orderIndex": 28
+  },
+  {
+    "id": "qb29",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "averages",
+    "difficulty": "medium",
+    "stem": "The average of 4 numbers is 9. If a fifth number, 19, is added to the set, what is the new average?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "10"
+      },
+      {
+        "key": "B",
+        "text": "11"
+      },
+      {
+        "key": "C",
+        "text": "11.5"
+      },
+      {
+        "key": "D",
+        "text": "12"
+      },
+      {
+        "key": "E",
+        "text": "12.5"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "The original total is $4\\times 9=36$. Adding 19 gives $36+19=55$. The new average is $55/5=11$.",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "averages",
+      "mean"
+    ],
+    "orderIndex": 29
+  },
+  {
+    "id": "qb30",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "mixtures",
+    "difficulty": "medium",
+    "stem": "Two solutions are mixed: 10 liters of a 20% salt solution and 15 liters of a 40% salt solution. What is the concentration of the resulting mixture?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "28%"
+      },
+      {
+        "key": "B",
+        "text": "30%"
+      },
+      {
+        "key": "C",
+        "text": "32%"
+      },
+      {
+        "key": "D",
+        "text": "34%"
+      },
+      {
+        "key": "E",
+        "text": "36%"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "The amount of salt is $10\\cdot 0.20 + 15\\cdot 0.40 = 2+6=8$ liters. The total volume is 25 liters. So the concentration is $8/25=0.32=32\\%$.",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "mixtures",
+      "percent concentration"
+    ],
+    "orderIndex": 30
+  },
+  {
+    "id": "qb31",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "inequalities",
+    "difficulty": "hard",
+    "stem": "How many integers satisfy $|2x-3|<7$?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "4"
+      },
+      {
+        "key": "B",
+        "text": "5"
+      },
+      {
+        "key": "C",
+        "text": "6"
+      },
+      {
+        "key": "D",
+        "text": "7"
+      },
+      {
+        "key": "E",
+        "text": "8"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "Solve the compound inequality: $-7<2x-3<7$. Add 3 to get $-4<2x<10$. Divide by 2: $-2<x<5$. The integers are $-1,0,1,2,3,4$, so there are 6.",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "inequalities",
+      "absolute value"
+    ],
+    "orderIndex": 31
+  },
+  {
+    "id": "qb32",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "geometry",
+    "difficulty": "hard",
+    "stem": "A triangle is similar to a triangle with side lengths 3, 4, and 5. If the scale factor from the smaller triangle to the larger triangle is 2, what is the perimeter of the larger triangle?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "18"
+      },
+      {
+        "key": "B",
+        "text": "20"
+      },
+      {
+        "key": "C",
+        "text": "22"
+      },
+      {
+        "key": "D",
+        "text": "24"
+      },
+      {
+        "key": "E",
+        "text": "30"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "D"
+    },
+    "explanation": "A similarity scale factor of 2 doubles every side length, so the sides become 6, 8, and 10. Their perimeter is $6+8+10=24$.",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "similar triangles",
+      "geometry"
+    ],
+    "orderIndex": 32
+  },
+  {
+    "id": "qb33",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "statistics",
+    "difficulty": "hard",
+    "stem": "A data set has minimum 5, maximum 22, and median 13. What is its range?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "15"
+      },
+      {
+        "key": "B",
+        "text": "16"
+      },
+      {
+        "key": "C",
+        "text": "17"
+      },
+      {
+        "key": "D",
+        "text": "18"
+      },
+      {
+        "key": "E",
+        "text": "19"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "Range is maximum minus minimum: $22-5=17$.",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "statistics",
+      "range"
+    ],
+    "orderIndex": 33
+  },
+  {
+    "id": "qb34",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "sequences",
+    "difficulty": "hard",
+    "stem": "A geometric sequence starts with 2 and has a common ratio of 3. What is the 5th term?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "54"
+      },
+      {
+        "key": "B",
+        "text": "108"
+      },
+      {
+        "key": "C",
+        "text": "162"
+      },
+      {
+        "key": "D",
+        "text": "243"
+      },
+      {
+        "key": "E",
+        "text": "486"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "The terms are 2, 6, 18, 54, 162. Equivalently, $a_5=2\\cdot 3^{4}=162$.",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "sequences",
+      "geometric sequence"
+    ],
+    "orderIndex": 34
+  },
+  {
+    "id": "qb35",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "probability",
+    "difficulty": "hard",
+    "stem": "A bag contains 3 red marbles and 2 blue marbles. A marble is drawn, replaced, and then a second marble is drawn. What is the probability that both marbles are red?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "3/10"
+      },
+      {
+        "key": "B",
+        "text": "9/25"
+      },
+      {
+        "key": "C",
+        "text": "6/25"
+      },
+      {
+        "key": "D",
+        "text": "4/25"
+      },
+      {
+        "key": "E",
+        "text": "1/5"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "Because the first marble is replaced, the two draws are independent. The probability of red on each draw is $3/5$, so the probability of red twice is $(3/5)(3/5)=9/25$.",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "probability",
+      "replacement"
+    ],
+    "orderIndex": 35
+  },
+  {
+    "id": "qb36",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "counting",
+    "difficulty": "hard",
+    "stem": "How many 3-digit even integers can be formed using the digits 1, 2, 3, and 4 if no digit may be repeated?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "8"
+      },
+      {
+        "key": "B",
+        "text": "10"
+      },
+      {
+        "key": "C",
+        "text": "12"
+      },
+      {
+        "key": "D",
+        "text": "14"
+      },
+      {
+        "key": "E",
+        "text": "16"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "The units digit must be 2 or 4. If the units digit is 2, there are 3 choices for the hundreds digit and 2 for the tens digit: $3\\cdot 2=6$. If the units digit is 4, there are again 6. Total: 12.",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "counting",
+      "even numbers"
+    ],
+    "orderIndex": 36
+  },
+  {
+    "id": "qb37",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "arithmetic",
+    "difficulty": "hard",
+    "stem": "A bookstore sold 7 notebooks at \\$4 each and 5 pens at \\$2 each. What was the total revenue?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "28"
+      },
+      {
+        "key": "B",
+        "text": "30"
+      },
+      {
+        "key": "C",
+        "text": "34"
+      },
+      {
+        "key": "D",
+        "text": "38"
+      },
+      {
+        "key": "E",
+        "text": "42"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "D"
+    },
+    "explanation": "Notebook revenue is $7\\times 4=28$. Pen revenue is $5\\times 2=10$. Total revenue is $28+10=38$.",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "arithmetic",
+      "word problem"
+    ],
+    "orderIndex": 37
+  },
+  {
+    "id": "qb38",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "coordinate geometry",
+    "difficulty": "hard",
+    "stem": "What is the slope of the line through the points $(2,1)$ and $(8,13)$?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "2"
+      },
+      {
+        "key": "B",
+        "text": "3"
+      },
+      {
+        "key": "C",
+        "text": "4"
+      },
+      {
+        "key": "D",
+        "text": "5"
+      },
+      {
+        "key": "E",
+        "text": "6"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "Slope is rise over run: $(13-1)/(8-2)=12/6=2$.",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "slope",
+      "coordinate geometry"
+    ],
+    "orderIndex": 38
+  },
+  {
+    "id": "qb39",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "rates",
+    "difficulty": "hard",
+    "stem": "A pool is filled by Pipe A in 9 hours and by Pipe B in 18 hours. A leak empties the pool in 36 hours. If all three are open at once, how long does it take to fill the pool from empty?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "5 hours"
+      },
+      {
+        "key": "B",
+        "text": "6 hours"
+      },
+      {
+        "key": "C",
+        "text": "7.2 hours"
+      },
+      {
+        "key": "D",
+        "text": "8 hours"
+      },
+      {
+        "key": "E",
+        "text": "9 hours"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "The net rate is $1/9+1/18-1/36=4/36+2/36-1/36=5/36$ pool per hour. The time is the reciprocal, $36/5=7.2$ hours.",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "rates",
+      "work",
+      "leak"
+    ],
+    "orderIndex": 39
+  },
+  {
+    "id": "qb40",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "geometry",
+    "difficulty": "hard",
+    "stem": "A cylinder has radius 2 and height 5. What is its volume?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "10π"
+      },
+      {
+        "key": "B",
+        "text": "20π"
+      },
+      {
+        "key": "C",
+        "text": "25π"
+      },
+      {
+        "key": "D",
+        "text": "40π"
+      },
+      {
+        "key": "E",
+        "text": "50π"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "Use $V=\\pi r^2 h$. Thus $V=\\pi\\cdot 2^2\\cdot 5=20\\pi$.",
+    "estimatedTimeSeconds": 90,
+    "tags": [
+      "solid geometry",
+      "cylinder"
+    ],
+    "orderIndex": 40
+  }
+]
