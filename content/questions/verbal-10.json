@@ -1,0 +1,1002 @@
+[
+  {
+    "id": "qd-cr-01",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "assumption",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "A bakery introduced a loyalty card and then saw repeat visits rise. The owner concludes that the card caused the increase in repeat visits.\n\nThe owner's conclusion depends on which of the following assumptions?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "No other change that could raise repeat visits occurred during the same period."
+      },
+      {
+        "key": "B",
+        "text": "Customers prefer loyalty cards to discount coupons."
+      },
+      {
+        "key": "C",
+        "text": "Repeat visits are more profitable than first-time visits."
+      },
+      {
+        "key": "D",
+        "text": "Every customer signed up for the loyalty card."
+      },
+      {
+        "key": "E",
+        "text": "The bakery's prices matched those of competitors."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "The owner attributes the rise solely to the card; this holds only if no other factor (a new product, more foot traffic, etc.) explains the increase. (A) states exactly that assumption.",
+    "estimatedTimeSeconds": 105
+  },
+  {
+    "id": "qd-cr-02",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "weaken",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "A town installed streetlights on several roads, and nighttime traffic accidents subsequently fell. Officials claim the lights reduced the accidents.\n\nWhich of the following, if true, most weakens the claim?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "The lights are costly to maintain."
+      },
+      {
+        "key": "B",
+        "text": "A nearby factory closed during the same period, sharply reducing late-night driving on those roads."
+      },
+      {
+        "key": "C",
+        "text": "Daytime accident counts were unchanged."
+      },
+      {
+        "key": "D",
+        "text": "Drivers reported feeling safer after the lights were installed."
+      },
+      {
+        "key": "E",
+        "text": "Neighboring towns also installed streetlights."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "If far fewer cars were on the roads at night because the factory closed, the drop in accidents could be due to reduced exposure rather than the lights — undermining the causal claim.",
+    "estimatedTimeSeconds": 105
+  },
+  {
+    "id": "qd-cr-03",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "strengthen",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "A nutritionist argues that a new cereal lowers cholesterol, citing that participants who ate it daily for eight weeks had lower cholesterol afterward.\n\nWhich of the following, if true, most strengthens the argument?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "The cereal tastes better than competing brands."
+      },
+      {
+        "key": "B",
+        "text": "A comparable group who did not eat the cereal showed no change in cholesterol over the same eight weeks."
+      },
+      {
+        "key": "C",
+        "text": "The cereal is high in dietary fiber."
+      },
+      {
+        "key": "D",
+        "text": "Cholesterol can also be lowered through exercise."
+      },
+      {
+        "key": "E",
+        "text": "The study ran for a full eight weeks."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "A control group with no change rules out the possibility that cholesterol fell for everyone regardless of the cereal, isolating the cereal as the cause.",
+    "estimatedTimeSeconds": 105
+  },
+  {
+    "id": "qd-cr-04",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "inference",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "Only those who completed the safety course received a badge. No contractor completed the safety course.\n\nWhich of the following must be true?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "No contractor received a badge."
+      },
+      {
+        "key": "B",
+        "text": "Every employee received a badge."
+      },
+      {
+        "key": "C",
+        "text": "Some contractors received badges."
+      },
+      {
+        "key": "D",
+        "text": "All badge holders are contractors."
+      },
+      {
+        "key": "E",
+        "text": "The safety course was mandatory."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "Since a badge requires completing the course and no contractor completed it, no contractor could have received a badge.",
+    "estimatedTimeSeconds": 105
+  },
+  {
+    "id": "qd-cr-05",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "flaw",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "Critic: A poll shows that most readers favor the magazine's new layout, so the new layout is objectively better than the old one.\n\nThe critic's reasoning is most vulnerable to the objection that it",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "relies on a sample that is too small to be reliable."
+      },
+      {
+        "key": "B",
+        "text": "confuses what is popular with what is objectively better."
+      },
+      {
+        "key": "C",
+        "text": "ignores the cost of producing the new layout."
+      },
+      {
+        "key": "D",
+        "text": "assumes the readers are design experts."
+      },
+      {
+        "key": "E",
+        "text": "appeals to an irrelevant authority."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "Preference among readers establishes popularity, not objective quality; treating the two as the same is the flaw.",
+    "estimatedTimeSeconds": 105
+  },
+  {
+    "id": "qd-cr-06",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "paradox",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "Despite cutting its advertising budget in half this year, a company saw its sales rise.\n\nWhich of the following, if true, best explains this result?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "Each of the company's main competitors raised prices sharply this year, driving many of their customers to the company."
+      },
+      {
+        "key": "B",
+        "text": "The company's past advertisements had won industry awards."
+      },
+      {
+        "key": "C",
+        "text": "Advertising generally tends to increase a company's sales."
+      },
+      {
+        "key": "D",
+        "text": "The company hired a new marketing director this year."
+      },
+      {
+        "key": "E",
+        "text": "Sales fell at the company's largest rival the previous year."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "A large shift of customers from competitors who raised prices explains how sales could rise even though the company spent less on advertising.",
+    "estimatedTimeSeconds": 105
+  },
+  {
+    "id": "qd-cr-07",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "evaluate",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "A city plans to reduce downtown congestion by raising parking fees.\n\nTo evaluate whether the plan will achieve its goal, it would be most useful to know which of the following?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "Whether most people who drive downtown have a practical alternative to driving there."
+      },
+      {
+        "key": "B",
+        "text": "How much additional revenue the higher fees will raise."
+      },
+      {
+        "key": "C",
+        "text": "When the new fees will take effect."
+      },
+      {
+        "key": "D",
+        "text": "Which downtown streets are currently the busiest."
+      },
+      {
+        "key": "E",
+        "text": "How neighboring cities set their parking fees."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "If drivers have no alternative, higher fees will not reduce how many drive downtown; whether alternatives exist is decisive for the plan's success.",
+    "estimatedTimeSeconds": 105
+  },
+  {
+    "id": "qd-cr-08",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "weaken",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "Manager: Our new sales-training program works — representatives who completed it now outperform those who did not.\n\nWhich of the following, if true, most weakens the conclusion that the program causes better performance?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "The program is shorter than the previous one."
+      },
+      {
+        "key": "B",
+        "text": "Only the company's most experienced representatives were selected to take the program."
+      },
+      {
+        "key": "C",
+        "text": "Companywide sales rose this year."
+      },
+      {
+        "key": "D",
+        "text": "The representatives said they enjoyed the program."
+      },
+      {
+        "key": "E",
+        "text": "Training programs are common in the industry."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "If the strongest representatives were the ones chosen for the program, their superior performance may reflect prior skill, not the program — a selection bias that undercuts the causal claim.",
+    "estimatedTimeSeconds": 105
+  },
+  {
+    "id": "qd-cr-09",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "inference",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "Every book in the store's sale section is a paperback. Some paperbacks in the store are not on sale.\n\nWhich of the following must be true?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "Some books in the store are not in the sale section."
+      },
+      {
+        "key": "B",
+        "text": "All paperbacks in the store are on sale."
+      },
+      {
+        "key": "C",
+        "text": "No hardcover books are in the store."
+      },
+      {
+        "key": "D",
+        "text": "Some books in the sale section are hardcovers."
+      },
+      {
+        "key": "E",
+        "text": "Most of the store's books are paperbacks."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "A paperback that is not on sale cannot be in the sale section, so at least one book in the store lies outside the sale section.",
+    "estimatedTimeSeconds": 105
+  },
+  {
+    "id": "qd-cr-10",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "strengthen",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "Researcher: Cities with more bike lanes tend to have lower obesity rates, so building bike lanes reduces obesity.\n\nWhich of the following, if true, most strengthens the argument?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "Bike lanes are popular with city residents."
+      },
+      {
+        "key": "B",
+        "text": "In several cities, obesity rates declined in the years after new bike lanes were added."
+      },
+      {
+        "key": "C",
+        "text": "People who are obese rarely ride bicycles."
+      },
+      {
+        "key": "D",
+        "text": "Bike lanes reduce automobile traffic."
+      },
+      {
+        "key": "E",
+        "text": "Cycling burns a substantial number of calories."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "Showing that obesity fell after bike lanes were added supports the direction of causation, rather than merely a correlation between the two.",
+    "estimatedTimeSeconds": 105
+  },
+  {
+    "id": "qd-cr-11",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "flaw",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "Politician: My opponent argues that we should cut public spending, but he once overspent his own campaign budget. His proposal should therefore be rejected.\n\nThe politician's argument is most vulnerable to criticism on the grounds that it",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "attacks the opponent's character instead of the merits of his proposal."
+      },
+      {
+        "key": "B",
+        "text": "depends on a sample that is too small."
+      },
+      {
+        "key": "C",
+        "text": "assumes that all spending is harmful."
+      },
+      {
+        "key": "D",
+        "text": "relies on an emotional appeal to voters."
+      },
+      {
+        "key": "E",
+        "text": "confuses correlation with causation."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "Citing the opponent's past behavior rather than addressing the proposal itself is an ad hominem attack, which does not bear on whether the proposal is sound.",
+    "estimatedTimeSeconds": 105
+  },
+  {
+    "id": "qd-cr-12",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "paradox",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "A store moved its bestselling items from the front to the back. Those items then sold slightly less, yet the store's overall sales increased.\n\nWhich of the following best explains the increase in overall sales?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "The bestselling items were already popular before the move."
+      },
+      {
+        "key": "B",
+        "text": "To reach the bestsellers at the back, customers walked past many other products and bought more of them."
+      },
+      {
+        "key": "C",
+        "text": "The store lowered the prices of its bestselling items."
+      },
+      {
+        "key": "D",
+        "text": "The store extended its opening hours after the move."
+      },
+      {
+        "key": "E",
+        "text": "Bestselling items are usually displayed near the entrance."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "Routing customers past more merchandise raises purchases of other items, which can lift overall sales even as the bestsellers sell a bit less.",
+    "estimatedTimeSeconds": 105
+  },
+  {
+    "id": "qd-cr-13",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "assumption",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "A school district will provide every student with a tablet in order to raise test scores, reasoning that students who already own tablets tend to score higher.\n\nThe plan depends on which of the following assumptions?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "Tablets are affordable for the district to purchase in bulk."
+      },
+      {
+        "key": "B",
+        "text": "The higher scores of current tablet owners are due to the tablets themselves, not to other advantages those students have."
+      },
+      {
+        "key": "C",
+        "text": "Every student will actually use the tablet provided."
+      },
+      {
+        "key": "D",
+        "text": "Teachers in the district support the change."
+      },
+      {
+        "key": "E",
+        "text": "The tablets will remain usable for several years."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "The plan assumes the tablet causes the higher scores. If tablet owners score higher because of other advantages (e.g., wealth), giving tablets to all students would not reproduce the effect.",
+    "estimatedTimeSeconds": 105
+  },
+  {
+    "id": "qd-cr-14",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "evaluate",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "An airline claims that its new boarding procedure speeds up boarding compared with the old one.\n\nTo evaluate this claim, it would be most helpful to determine which of the following?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "Whether the new procedure was tested on flights of the same size and aircraft type as the old procedure."
+      },
+      {
+        "key": "B",
+        "text": "Whether passengers find the new procedure pleasant."
+      },
+      {
+        "key": "C",
+        "text": "Whether competing airlines use a similar procedure."
+      },
+      {
+        "key": "D",
+        "text": "How much it costs to train staff in the new procedure."
+      },
+      {
+        "key": "E",
+        "text": "Whether the airline advertised the change to passengers."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "A fair comparison requires similar conditions; if the procedures were tested on very different flights, any difference in boarding time may be due to those differences rather than the procedure.",
+    "estimatedTimeSeconds": 105
+  },
+  {
+    "id": "qd-rc-d1-q1",
+    "section": "verbal",
+    "type": "reading_comprehension",
+    "topic": "main idea",
+    "difficulty": "medium",
+    "groupId": "rc-d1",
+    "orderIndex": 0,
+    "stem": "The primary purpose of the passage is to",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "argue that coral gardening should be abandoned in favor of breeding heat-tolerant strains."
+      },
+      {
+        "key": "B",
+        "text": "describe efforts to restore coral reefs while noting their limitations and the need to address ocean warming."
+      },
+      {
+        "key": "C",
+        "text": "prove that coral reefs can no longer be saved."
+      },
+      {
+        "key": "D",
+        "text": "compare the financial costs of two restoration techniques in detail."
+      },
+      {
+        "key": "E",
+        "text": "celebrate the success of underwater coral nurseries."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "The passage presents restoration techniques, their drawbacks, and the conclusion that they help only alongside emissions cuts — a balanced overview, which (B) captures.",
+    "estimatedTimeSeconds": 105
+  },
+  {
+    "id": "qd-rc-d1-q2",
+    "section": "verbal",
+    "type": "reading_comprehension",
+    "topic": "detail",
+    "difficulty": "easy",
+    "groupId": "rc-d1",
+    "orderIndex": 1,
+    "stem": "According to the passage, coral gardening involves",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "breeding heat-tolerant strains in laboratories."
+      },
+      {
+        "key": "B",
+        "text": "growing coral fragments in nurseries and transplanting them onto reefs."
+      },
+      {
+        "key": "C",
+        "text": "reducing greenhouse-gas emissions at their source."
+      },
+      {
+        "key": "D",
+        "text": "relocating fish to degraded reefs."
+      },
+      {
+        "key": "E",
+        "text": "covering the ocean floor with artificial structures."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "The passage defines coral gardening as growing fragments in underwater nurseries and transplanting them onto degraded reefs.",
+    "estimatedTimeSeconds": 105
+  },
+  {
+    "id": "qd-rc-d1-q3",
+    "section": "verbal",
+    "type": "reading_comprehension",
+    "topic": "inference",
+    "difficulty": "medium",
+    "groupId": "rc-d1",
+    "orderIndex": 2,
+    "stem": "The passage suggests that \"super corals\" would be especially valuable because they",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "grow faster than gardened corals."
+      },
+      {
+        "key": "B",
+        "text": "could survive the heat stress that threatens ordinary corals."
+      },
+      {
+        "key": "C",
+        "text": "are cheaper to produce than nursery corals."
+      },
+      {
+        "key": "D",
+        "text": "would increase the genetic diversity of reefs."
+      },
+      {
+        "key": "E",
+        "text": "eliminate the need to reduce emissions."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "Super corals are described as naturally heat-tolerant strains that \"might withstand future warming,\" so their value lies in surviving heat stress.",
+    "estimatedTimeSeconds": 105
+  },
+  {
+    "id": "qd-rc-d1-q4",
+    "section": "verbal",
+    "type": "reading_comprehension",
+    "topic": "tone",
+    "difficulty": "medium",
+    "groupId": "rc-d1",
+    "orderIndex": 3,
+    "stem": "The author's attitude toward coral restoration is best described as",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "unreserved enthusiasm."
+      },
+      {
+        "key": "B",
+        "text": "open hostility."
+      },
+      {
+        "key": "C",
+        "text": "cautious support."
+      },
+      {
+        "key": "D",
+        "text": "complete indifference."
+      },
+      {
+        "key": "E",
+        "text": "resigned hopelessness."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "The author acknowledges encouraging results yet repeatedly notes limitations and conditions, reflecting cautious support.",
+    "estimatedTimeSeconds": 105
+  },
+  {
+    "id": "qd-rc-d2-q1",
+    "section": "verbal",
+    "type": "reading_comprehension",
+    "topic": "main idea",
+    "difficulty": "medium",
+    "groupId": "rc-d2",
+    "orderIndex": 0,
+    "stem": "The passage is primarily concerned with",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "predicting the imminent collapse of major cities."
+      },
+      {
+        "key": "B",
+        "text": "examining how remote work is reshaping, rather than emptying, urban areas."
+      },
+      {
+        "key": "C",
+        "text": "advising individual workers on where they should live."
+      },
+      {
+        "key": "D",
+        "text": "criticizing the tax policies of municipal governments."
+      },
+      {
+        "key": "E",
+        "text": "describing the software tools that make remote work possible."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "The passage argues that work is being redistributed within and around cities rather than abandoned, making (B) the central concern.",
+    "estimatedTimeSeconds": 105
+  },
+  {
+    "id": "qd-rc-d2-q2",
+    "section": "verbal",
+    "type": "reading_comprehension",
+    "topic": "detail",
+    "difficulty": "easy",
+    "groupId": "rc-d2",
+    "orderIndex": 1,
+    "stem": "According to the passage, which of the following has proved resilient despite the shift to remote work?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "Downtown office occupancy."
+      },
+      {
+        "key": "B",
+        "text": "Commercial property tax revenue."
+      },
+      {
+        "key": "C",
+        "text": "Residential demand in many large cities."
+      },
+      {
+        "key": "D",
+        "text": "Daily commuting into city centers."
+      },
+      {
+        "key": "E",
+        "text": "Downtown foot traffic."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "The passage states that \"residential demand in many large cities has proved resilient.\"",
+    "estimatedTimeSeconds": 105
+  },
+  {
+    "id": "qd-rc-d2-q3",
+    "section": "verbal",
+    "type": "reading_comprehension",
+    "topic": "inference",
+    "difficulty": "medium",
+    "groupId": "rc-d2",
+    "orderIndex": 2,
+    "stem": "The passage implies that some municipal budgets are strained because they",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "depend heavily on downtown commercial activity and property taxes."
+      },
+      {
+        "key": "B",
+        "text": "are legally unable to tax remote workers."
+      },
+      {
+        "key": "C",
+        "text": "have stopped receiving any transit funding."
+      },
+      {
+        "key": "D",
+        "text": "rely chiefly on tourism for revenue."
+      },
+      {
+        "key": "E",
+        "text": "are controlled by suburban governments."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "The passage says the redistribution strains budgets \"that depend on commercial property taxes and downtown foot traffic,\" implying reliance on downtown activity.",
+    "estimatedTimeSeconds": 105
+  },
+  {
+    "id": "qd-rc-d2-q4",
+    "section": "verbal",
+    "type": "reading_comprehension",
+    "topic": "function",
+    "difficulty": "medium",
+    "groupId": "rc-d2",
+    "orderIndex": 3,
+    "stem": "The author mentions that former commuters now spend their \"lunch hours and salaries\" near neighborhood centers in order to",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "criticize remote workers for spending money carelessly."
+      },
+      {
+        "key": "B",
+        "text": "illustrate how economic activity is being redistributed geographically."
+      },
+      {
+        "key": "C",
+        "text": "argue that suburbs are superior places to live than downtowns."
+      },
+      {
+        "key": "D",
+        "text": "explain why firms have reduced their office space."
+      },
+      {
+        "key": "E",
+        "text": "show that daily commuting has increased."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "The detail is offered as a concrete example of activity shifting away from downtown cores toward outlying areas.",
+    "estimatedTimeSeconds": 105
+  },
+  {
+    "id": "qd-rc-d3-q1",
+    "section": "verbal",
+    "type": "reading_comprehension",
+    "topic": "main idea",
+    "difficulty": "medium",
+    "groupId": "rc-d3",
+    "orderIndex": 0,
+    "stem": "The primary purpose of the passage is to",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "trace the rise of the free public library and the debates that surrounded it."
+      },
+      {
+        "key": "B",
+        "text": "argue that subscription libraries were superior to free ones."
+      },
+      {
+        "key": "C",
+        "text": "describe the architecture of nineteenth-century library buildings."
+      },
+      {
+        "key": "D",
+        "text": "prove that public libraries measurably reduced crime."
+      },
+      {
+        "key": "E",
+        "text": "criticize philanthropists for the conditions they attached to donations."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "The passage narrates the emergence of the free public library and the arguments for and against it, which (A) summarizes.",
+    "estimatedTimeSeconds": 105
+  },
+  {
+    "id": "qd-rc-d3-q2",
+    "section": "verbal",
+    "type": "reading_comprehension",
+    "topic": "detail",
+    "difficulty": "easy",
+    "groupId": "rc-d3",
+    "orderIndex": 1,
+    "stem": "According to the passage, subscription libraries differed from free public libraries in that they",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "were funded entirely by philanthropists."
+      },
+      {
+        "key": "B",
+        "text": "required users to pay fees for access."
+      },
+      {
+        "key": "C",
+        "text": "contained only practical, non-fiction books."
+      },
+      {
+        "key": "D",
+        "text": "were open exclusively to workers."
+      },
+      {
+        "key": "E",
+        "text": "were maintained by municipal governments."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "The passage says earlier collections were \"subscription-based, open only to those who could pay annual fees.\"",
+    "estimatedTimeSeconds": 105
+  },
+  {
+    "id": "qd-rc-d3-q3",
+    "section": "verbal",
+    "type": "reading_comprehension",
+    "topic": "detail",
+    "difficulty": "medium",
+    "groupId": "rc-d3",
+    "orderIndex": 2,
+    "stem": "Which of the following is identified in the passage as an argument made by supporters of free libraries?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "Unrestricted access to novels would corrupt public morals."
+      },
+      {
+        "key": "B",
+        "text": "Taxpayers should not be made to fund strangers' reading."
+      },
+      {
+        "key": "C",
+        "text": "Libraries would reduce crime by offering alternatives to idleness."
+      },
+      {
+        "key": "D",
+        "text": "Access to books should depend on a person's wealth."
+      },
+      {
+        "key": "E",
+        "text": "Philanthropists should retain control over the collections."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "Supporters \"countered that libraries would reduce crime by offering productive alternatives to idleness,\" matching (C). The other options are objections or unrelated.",
+    "estimatedTimeSeconds": 105
+  },
+  {
+    "id": "qd-rc-d3-q4",
+    "section": "verbal",
+    "type": "reading_comprehension",
+    "topic": "inference",
+    "difficulty": "medium",
+    "groupId": "rc-d3",
+    "orderIndex": 3,
+    "stem": "The passage suggests that tying libraries to local tax revenue resulted in",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "uniformly excellent collections across the country."
+      },
+      {
+        "key": "B",
+        "text": "the end of all philanthropic donations."
+      },
+      {
+        "key": "C",
+        "text": "unequal library quality between richer and poorer communities."
+      },
+      {
+        "key": "D",
+        "text": "a return to subscription fees."
+      },
+      {
+        "key": "E",
+        "text": "a reduction in overall public access to books."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "The passage states the arrangement left \"poorer communities with thinner collections,\" implying quality varied with local wealth.",
+    "estimatedTimeSeconds": 105
+  }
+]

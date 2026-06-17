@@ -1,0 +1,20 @@
+[
+  {
+    "id": "rc-d1",
+    "section": "verbal",
+    "title": "Coral reef restoration",
+    "passage": "Coral reefs, often called the rainforests of the sea, support roughly a quarter of all marine species despite covering less than one percent of the ocean floor. As warming waters trigger bleaching events, researchers have turned to active restoration. One widely publicized technique, coral gardening, involves growing coral fragments in underwater nurseries and then transplanting them onto degraded reefs. Early results are encouraging: transplanted colonies can grow quickly and begin reproducing within a few years. Yet some scientists caution that gardening treats symptoms rather than causes. Restored corals remain vulnerable to the same heat stress that killed their predecessors, and the labor involved makes large-scale application costly. A more promising long-term avenue, these critics argue, lies in identifying and propagating naturally heat-tolerant strains. Such \"super corals\" might withstand future warming, but breeding them is slow, and introducing them widely raises ecological questions about reducing genetic diversity. Most experts agree that restoration can buy time, but only if it is paired with sharp reductions in the greenhouse-gas emissions driving ocean warming in the first place."
+  },
+  {
+    "id": "rc-d2",
+    "section": "verbal",
+    "title": "Remote work and cities",
+    "passage": "The rapid shift to remote work has prompted predictions that major cities will hollow out as employees abandon expensive downtowns. The evidence so far is more nuanced. While occupancy in central business districts has fallen and some firms have shed office space, residential demand in many large cities has proved resilient. Workers who no longer commute daily still value access to cultural amenities, professional networks, and the occasional in-person collaboration that remote tools cannot fully replace. Economists note that the geography of work is being redistributed rather than abandoned: activity is spreading from downtown cores toward neighborhood centers and nearby suburbs, where former commuters now spend their lunch hours and salaries. This redistribution strains municipal budgets that depend on commercial property taxes and downtown foot traffic, even as it benefits outlying businesses. Whether a city ultimately gains or loses may depend less on remote work itself than on how quickly local governments adapt zoning, transit, and tax policy to a more dispersed pattern of daily life."
+  },
+  {
+    "id": "rc-d3",
+    "section": "verbal",
+    "title": "The free public library",
+    "passage": "In the nineteenth century, the free public library emerged as one of the era's most ambitious civic experiments. Earlier collections had been private or subscription-based, open only to those who could pay annual fees. Reformers argued that a literate, self-improving citizenry was essential to a functioning democracy and that access to books should not depend on wealth. Their campaign met resistance. Skeptics questioned why taxpayers should fund the leisure reading of strangers, and some feared that unrestricted access to novels would corrupt public morals. Supporters countered that libraries would reduce crime by offering productive alternatives to idleness and would equip workers with practical knowledge. Philanthropists eventually accelerated the movement, donating buildings on the condition that municipalities agree to stock and maintain them with public funds. This arrangement spread libraries rapidly, but it also tied their fate to local tax revenues, leaving poorer communities with thinner collections. The free library thus embodied a tension that persists in public institutions today: a promise of universal access constrained by uneven local resources."
+  }
+]
