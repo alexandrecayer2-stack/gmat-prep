@@ -217,10 +217,31 @@ export const learnArticleSchema = z.object({
   orderIndex: z.number().int().default(0),
 });
 
+export const learnChapterSchema = z.object({
+  id: z.string().min(1),
+  section: sectionSchema,
+  title: z.string().min(1),
+  description: z.string().optional(),
+  orderIndex: z.number().int().default(0),
+});
+
+export const learnLessonSchema = z.object({
+  id: z.string().min(1),
+  chapterId: z.string().min(1),
+  title: z.string().min(1),
+  body: z.string().min(1),
+  orderIndex: z.number().int().default(0),
+  exerciseIds: z.array(z.string().min(1)).default([]),
+});
+
 export const questionsFileSchema = z.array(questionSchema);
 export const questionGroupsFileSchema = z.array(questionGroupSchema);
 export const learnArticlesFileSchema = z.array(learnArticleSchema);
+export const learnChaptersFileSchema = z.array(learnChapterSchema);
+export const learnLessonsFileSchema = z.array(learnLessonSchema);
 
 export type ValidatedQuestion = z.infer<typeof questionSchema>;
 export type ValidatedQuestionGroup = z.infer<typeof questionGroupSchema>;
 export type ValidatedLearnArticle = z.infer<typeof learnArticleSchema>;
+export type ValidatedLearnChapter = z.infer<typeof learnChapterSchema>;
+export type ValidatedLearnLesson = z.infer<typeof learnLessonSchema>;

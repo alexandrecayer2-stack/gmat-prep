@@ -2,6 +2,8 @@ import { createClient } from '@/lib/supabase/server';
 import type {
   Difficulty,
   LearnArticle,
+  LearnChapter,
+  LearnLesson,
   Question,
   QuestionGroup,
   QuestionType,
@@ -9,11 +11,15 @@ import type {
   Section,
 } from '@/lib/domain/types';
 import {
+  mapChapter,
   mapGroup,
   mapLearnArticle,
+  mapLesson,
   mapQuestion,
+  type ChapterRow,
   type GroupRow,
   type LearnRow,
+  type LessonRow,
   type QuestionRow,
 } from './mappers';
 import { targetCount, type MockConfig } from '@/lib/domain/mock';
@@ -205,6 +211,48 @@ export async function getSectionCounts(): Promise<Record<Section, number>> {
   const counts = { quant: 0, verbal: 0, data_insights: 0 } as Record<Section, number>;
   for (const row of (data ?? []) as { section: Section }[]) counts[row.section] += 1;
   return counts;
+}
+
+export async function getLearnChapters(section?: Section): Promise<LearnChapter[]> {
+  const supabase = await createClient();
+  let query = supabase
+    .from('learn_chapters')
+    .select('*')
+    .order('order_index', { ascending: true });
+  if (section) query = query.eq('section', section);
+  const { data, error } = await query;
+  if (error) throw new Error(error.message);
+  return ((data ?? []) as unknown as ChapterRow[]).map(mapChapter);
+}
+
+export async function getLessonsByChapter(chapterId: string): Promise<LearnLesson[]> {
+  const supabase = await createClient();
+  const { data, error } = await supabase
+    .from('learn_lessons')
+    .select('*')
+    .eq('chapter_id', chapterId)
+    .order('order_index', { ascending: true });
+  if (error) throw new Error(error.message);
+  return ((data ?? []) as unknown as LessonRow[]).map(mapLesson);
+}
+
+export async function getLesson(lessonId: string): Promise<LearnLesson | null> {
+  const supabase = await createClient();
+  const { data, error } = await supabase
+    .from('learn_lessons')
+    .select('*')
+    .eq('id', lessonId)
+    .single();
+  if (error) return null;
+  return mapLesson(data as unknown as LessonRow);
+}
+
+export async function getLessonExercises(exerciseIds: string[]): Promise<QuestionWithGroup[]> {
+  if (exerciseIds.length === 0) return [];
+  const supabase = await createClient();
+  const { data, error } = await supabase.from('questions').select('*').in('id', exerciseIds);
+  if (error) throw new Error(error.message);
+  return ((data ?? []) as unknown as QuestionRow[]).map((r) => ({ ...mapQuestion(r) }));
 }
 
 export async function getLearnArticles(section?: Section): Promise<LearnArticle[]> {

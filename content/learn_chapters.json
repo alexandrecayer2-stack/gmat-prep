@@ -1,0 +1,51 @@
+[
+  {
+    "id": "ch-quant-arithmetic",
+    "section": "quant",
+    "title": "Arithmetic Foundations",
+    "description": "Master percentages, ratios, averages, and the quantitative building blocks tested on every exam.",
+    "orderIndex": 1
+  },
+  {
+    "id": "ch-quant-algebra",
+    "section": "quant",
+    "title": "Algebra & Word Problems",
+    "description": "Equations, inequalities, rates, work problems, and mixture questions — the core of PS difficulty.",
+    "orderIndex": 2
+  },
+  {
+    "id": "ch-quant-advanced",
+    "section": "quant",
+    "title": "Number Theory & Advanced Math",
+    "description": "Exponents, number properties, probability, and counting methods for hard-level questions.",
+    "orderIndex": 3
+  },
+  {
+    "id": "ch-verbal-cr",
+    "section": "verbal",
+    "title": "Critical Reasoning",
+    "description": "Identify argument structure, attack and defend conclusions, and master every CR question type.",
+    "orderIndex": 4
+  },
+  {
+    "id": "ch-verbal-rc",
+    "section": "verbal",
+    "title": "Reading Comprehension",
+    "description": "Read for structure and purpose, not detail. Efficiently handle main-idea, inference, and detail questions.",
+    "orderIndex": 5
+  },
+  {
+    "id": "ch-di-ds",
+    "section": "data_insights",
+    "title": "Data Sufficiency",
+    "description": "The AD/BCE decision tree, sufficiency vs. value, and the most common trap patterns.",
+    "orderIndex": 6
+  },
+  {
+    "id": "ch-di-ir",
+    "section": "data_insights",
+    "title": "Integrated Reasoning",
+    "description": "Table Analysis, Graphics Interpretation, and Two-Part Analysis — read the right data, answer fast.",
+    "orderIndex": 7
+  }
+]

@@ -20,9 +20,13 @@ import {
   questionsFileSchema,
   questionGroupsFileSchema,
   learnArticlesFileSchema,
+  learnChaptersFileSchema,
+  learnLessonsFileSchema,
   type ValidatedQuestion,
   type ValidatedQuestionGroup,
   type ValidatedLearnArticle,
+  type ValidatedLearnChapter,
+  type ValidatedLearnLesson,
 } from '../../src/lib/domain/schema';
 import type { QuestionType } from '../../src/lib/domain/types';
 
@@ -33,7 +37,9 @@ export interface GateResult {
   questions: ValidatedQuestion[];
   groups: ValidatedQuestionGroup[];
   learn: ValidatedLearnArticle[];
-  stats: { questions: number; groups: number; learn: number; answerChecks: number };
+  chapters: ValidatedLearnChapter[];
+  lessons: ValidatedLearnLesson[];
+  stats: { questions: number; groups: number; learn: number; chapters: number; lessons: number; answerChecks: number };
 }
 
 const CONTENT = join(process.cwd(), 'content');
@@ -194,6 +200,24 @@ export function runGate(): GateResult {
     errors.push(`learn.json: invalid JSON — ${(err as Error).message}`);
   }
 
+  const chapters: ValidatedLearnChapter[] = [];
+  try {
+    const parsed = learnChaptersFileSchema.safeParse(loadJson(join(CONTENT, 'learn_chapters.json')));
+    if (!parsed.success) errors.push(...zodLines('learn_chapters.json', parsed.error));
+    else chapters.push(...parsed.data);
+  } catch (err) {
+    errors.push(`learn_chapters.json: invalid JSON — ${(err as Error).message}`);
+  }
+
+  const lessons: ValidatedLearnLesson[] = [];
+  try {
+    const parsed = learnLessonsFileSchema.safeParse(loadJson(join(CONTENT, 'learn_lessons.json')));
+    if (!parsed.success) errors.push(...zodLines('learn_lessons.json', parsed.error));
+    else lessons.push(...parsed.data);
+  } catch (err) {
+    errors.push(`learn_lessons.json: invalid JSON — ${(err as Error).message}`);
+  }
+
   // If structure is already broken, deeper checks would just add noise.
   if (errors.length > 0) {
     return {
@@ -203,11 +227,20 @@ export function runGate(): GateResult {
       questions,
       groups,
       learn,
-      stats: { questions: questions.length, groups: groups.length, learn: learn.length, answerChecks: 0 },
+      chapters,
+      lessons,
+      stats: { questions: questions.length, groups: groups.length, learn: learn.length, chapters: chapters.length, lessons: lessons.length, answerChecks: 0 },
     };
   }
 
   // ---- Layer 2: references + uniqueness ----
+  // Validate chapter/lesson references
+  const chapterIds = new Set(chapters.map((c) => c.id));
+  for (const lesson of lessons) {
+    if (!chapterIds.has(lesson.chapterId))
+      errors.push(`Lesson ${lesson.id}: references unknown chapterId "${lesson.chapterId}"`);
+  }
+
   const groupById = new Map(groups.map((g) => [g.id, g]));
   const seenIds = new Set<string>();
   for (const q of questions) {
@@ -248,6 +281,17 @@ export function runGate(): GateResult {
   for (const a of learn) {
     if (unbalancedDollars(a.body)) errors.push(`${a.id}.body: unbalanced $`);
   }
+  for (const lesson of lessons) {
+    if (unbalancedDollars(lesson.body)) errors.push(`${lesson.id}.body: unbalanced $`);
+  }
+  // Verify all exerciseIds resolve to known questions
+  const questionIds = new Set(questions.map((q) => q.id));
+  for (const lesson of lessons) {
+    for (const exId of lesson.exerciseIds) {
+      if (!questionIds.has(exId))
+        errors.push(`Lesson ${lesson.id}: exerciseId "${exId}" references unknown question`);
+    }
+  }
 
   // ---- Layer 4: answer re-derivation ----
   let answerChecks = 0;
@@ -284,10 +328,14 @@ export function runGate(): GateResult {
     questions,
     groups,
     learn,
+    chapters,
+    lessons,
     stats: {
       questions: questions.length,
       groups: groups.length,
       learn: learn.length,
+      chapters: chapters.length,
+      lessons: lessons.length,
       answerChecks,
     },
   };

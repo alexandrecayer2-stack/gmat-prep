@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { ArrowRight } from 'lucide-react';
+import { ArrowRight, ClipboardList } from 'lucide-react';
 import {
   QUESTION_TYPE_LABELS,
   SECTIONS,
@@ -40,6 +40,25 @@ export default function Home() {
       <PlanCard />
 
       <DashboardStats />
+
+      {/* Mock Exam banner */}
+      <section className="flex flex-wrap items-center justify-between gap-4 rounded-xl border border-primary/30 bg-accent/40 p-5">
+        <div className="flex items-center gap-3">
+          <ClipboardList className="size-6 shrink-0 text-primary" />
+          <div>
+            <div className="font-medium">Mock Exam</div>
+            <div className="text-sm text-muted-foreground">
+              3 sections · 64 questions · 2h15 — same structure as the real GMAT Focus
+            </div>
+          </div>
+        </div>
+        <Link
+          href="/mock"
+          className="inline-flex items-center gap-1 rounded-lg bg-primary px-4 py-2 text-sm font-medium text-primary-foreground hover:opacity-90"
+        >
+          Start mock exam <ArrowRight className="size-4" />
+        </Link>
+      </section>
 
       <section>
         <h2 className="mb-3 text-xs font-semibold uppercase tracking-wide text-muted-foreground">

@@ -23,7 +23,7 @@ const gate = runGate();
 header('Content gate');
 console.log(
   `  ${gate.stats.questions} questions · ${gate.stats.groups} groups · ${gate.stats.learn} learn · ` +
-    `${gate.stats.answerChecks} answerCheck(s)`,
+    `${gate.stats.chapters} chapters · ${gate.stats.lessons} lessons · ${gate.stats.answerChecks} answerCheck(s)`,
 );
 
 for (const w of gate.warnings) console.log(`  \x1b[33m⚠ ${w}\x1b[0m`);

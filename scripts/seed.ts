@@ -30,7 +30,7 @@ if (!gate.ok) {
   process.exit(1);
 }
 console.log(
-  `✓ Content gate passed (${gate.stats.questions} questions, ${gate.stats.groups} groups, ${gate.stats.learn} learn).`,
+  `✓ Content gate passed (${gate.stats.questions} questions, ${gate.stats.groups} groups, ${gate.stats.learn} learn, ${gate.stats.chapters} chapters, ${gate.stats.lessons} lessons).`,
 );
 
 const supabase = createClient(url, serviceKey, {
@@ -76,6 +76,23 @@ const learnRows = gate.learn.map((a) => ({
   order_index: a.orderIndex,
 }));
 
+const chapterRows = gate.chapters.map((c) => ({
+  id: c.id,
+  section: c.section,
+  title: c.title,
+  description: c.description ?? null,
+  order_index: c.orderIndex,
+}));
+
+const lessonRows = gate.lessons.map((l) => ({
+  id: l.id,
+  chapter_id: l.chapterId,
+  title: l.title,
+  body: l.body,
+  order_index: l.orderIndex,
+  exercise_ids: l.exerciseIds,
+}));
+
 async function upsert(table: string, rows: Record<string, unknown>[]) {
   if (rows.length === 0) return;
   const { error } = await supabase.from(table).upsert(rows, { onConflict: 'id' });
@@ -88,12 +105,14 @@ async function upsert(table: string, rows: Record<string, unknown>[]) {
 
 async function main() {
   console.log('Seeding content ...');
-  // Order matters: groups before questions (FK), learn is independent.
+  // Order matters: groups before questions (FK); chapters before lessons (FK); learn is independent.
   await upsert('question_groups', groupRows);
   await upsert('questions', questionRows);
   await upsert('learn_articles', learnRows);
+  await upsert('learn_chapters', chapterRows);
+  await upsert('learn_lessons', lessonRows);
   console.log(
-    `\n✓ Seed complete — ${groupRows.length} groups, ${questionRows.length} questions, ${learnRows.length} learn articles.`,
+    `\n✓ Seed complete — ${groupRows.length} groups, ${questionRows.length} questions, ${learnRows.length} learn articles, ${chapterRows.length} chapters, ${lessonRows.length} lessons.`,
   );
   process.exit(0);
 }

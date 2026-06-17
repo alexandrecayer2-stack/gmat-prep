@@ -150,6 +150,28 @@ export interface LearnArticle {
   orderIndex: number;
 }
 
+export interface LearnChapter {
+  id: string;
+  section: Section;
+  title: string;
+  description?: string | null;
+  orderIndex: number;
+}
+
+export interface LearnLesson {
+  id: string;
+  chapterId: string;
+  title: string;
+  body: string;
+  orderIndex: number;
+  exerciseIds: string[];
+}
+
+export interface LessonProgress {
+  lessonId: string;
+  passedExerciseIds: string[];
+}
+
 // ---------- User data ----------
 
 export interface Attempt {
