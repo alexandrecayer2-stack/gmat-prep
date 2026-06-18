@@ -1,0 +1,866 @@
+[
+  {
+    "id": "g4-ds-01",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "linear equation",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "What is the value of x?\n\n(1) $2x + 5 = 17$\n(2) x is an integer greater than 0",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "(1) donne x = 6, donc c'est suffisant. (2) seul laisse plusieurs valeurs positives.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g4-ds-02",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "even/odd",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "Is n odd?\n\n(1) $n^{2}$ is odd\n(2) n is divisible by 3",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "Si $n^{2}$ est impair, alors n est impair. (2) seul ne permet pas de conclure sur la parité.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g4-ds-03",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "two variables",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "What is the value of y?\n\n(1) $x + y = 9$\n(2) $x - y = 1$",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "Pris ensemble, les deux équations donnent x = 5 et y = 4. Séparément, aucune ne suffit.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g4-ds-04",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "triangle",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "What is the area of triangle ABC?\n\n(1) The base of the triangle is 12.\n(2) The height corresponding to that base is 7.",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "Une seule donnée ne suffit pas, mais base et hauteur ensemble donnent une aire unique.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g4-ds-05",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "ratios",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "What is the value of k?\n\n(1) $k : 4 = 3 : 8$\n(2) k is positive",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "(1) donne k = 3/2. (2) est trop vague.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g4-ds-06",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "ordered numbers",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "What is the value of the largest of the four numbers?\n\n(1) The sum of the four numbers is 28.\n(2) Three of the numbers have an average of 6.",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "E"
+    },
+    "explanation": "Les deux énoncés donnent un quatrième nombre égal à 28 − 18 = 10, mais les trois nombres de somme 18 ne sont pas connus un à un : l’un d’eux peut dépasser 10 (par exemple 16, 1 et 1). Le plus grand des quatre n’est donc pas déterminé, même en combinant les deux énoncés.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g4-ds-07",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "inequalities",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "Is x negative?\n\n(1) $x^{2} > 16$ and x is an integer.\n(2) $x < -3$.",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "(2) seul suffit: si x < -3, alors x est négatif. (1) seul permet x = 4 ou x = -5, etc.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g4-ds-08",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "integer values",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "What is the value of m?\n\n(1) $2m = 18$\n(2) m is a positive integer",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "(1) donne m = 9, donc c’est suffisant. (2) seul laisse plusieurs entiers positifs possibles.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g4-ds-09",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "rectangle",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "What is the length of the rectangle?\n\n(1) The rectangle's perimeter is 30 and its width is 5.\n(2) The rectangle's area is 50 and its width is 5.",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "D"
+    },
+    "explanation": "Avec (1), 2(L+5)=30 donc L=10. Avec (2), 50/5=10. Chaque énoncé suffit seul.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g4-ds-10",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "equality",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "Is $x = y$?\n\n(1) $x^{2} = y^{2}$\n(2) x and y are positive",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "(1) donne seulement x = y ou x = -y. (2) seul ne suffit pas. Ensemble, x et y étant positifs, on obtient x = y.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g4-ds-11",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "divisibility",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "Is n divisible by 6?\n\n(1) n is divisible by 12\n(2) n is divisible by 3 and even",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "D"
+    },
+    "explanation": "Chacun des deux énoncés implique la divisibilité par 6.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g4-ds-12",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "average",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "Is the average of the two numbers greater than 5?\n\n(1) Their sum is greater than 10.\n(2) Both numbers are positive and their product is greater than 25.",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "D"
+    },
+    "explanation": "(1) Si la somme dépasse 10, la moyenne (somme ÷ 2) dépasse 5. (2) Si les deux nombres sont positifs avec un produit supérieur à 25, l’inégalité arithmético-géométrique donne une moyenne au moins égale à la racine du produit, donc supérieure à 5. Chaque énoncé suffit seul.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g4-ds-13",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "rational equation",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "What is the value of x?\n\n(1) $x/3 = 4$\n(2) x is prime",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "(1) donne x = 12, unique. (2) seul laisse plusieurs valeurs premières.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g4-ds-14",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "triangle type",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "Is triangle ABC isosceles?\n\n(1) Two sides of the triangle are equal.\n(2) The angles are 30, 60, and 90 degrees.",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "D"
+    },
+    "explanation": "(1) Deux côtés égaux : le triangle est isocèle (réponse « oui »). (2) Des angles de 30, 60 et 90 degrés décrivent un triangle scalène, donc non isocèle (réponse « non » établie avec certitude). Chaque énoncé répond seul à la question.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g4-ds-15",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "mixture count",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "What is the number of apples?\n\n(1) Apples + oranges = 20\n(2) Apples are 4 more than oranges",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "Ensemble, a + o = 20 et a = o + 4 donnent a = 12. Aucun seul ne suffit.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g4-ds-16",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "inequality",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "Is $r > s$?\n\n(1) $r - s = -2$\n(2) $r + s > 0$",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "(1) donne r < s, donc la réponse à la question est non de façon unique. (2) seul est insuffisant.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g4-ds-17",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "quadratic roots",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "What is the value of t?\n\n(1) $t^{2} = 49$\n(2) $t < 0$",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "(1) donne t = 7 ou -7. (2) seul ne suffit pas. Ensemble, t = -7.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g4-ds-18",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "square interval",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "Is x between 0 and 1?\n\n(1) $0 < x < 1$\n(2) $x^{2} < 1$ and x is positive",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "D"
+    },
+    "explanation": "Chaque énoncé suffit seul pour établir que x est strictement entre 0 et 1.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g4-ds-19",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "median",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "What is the median of five ordered integers?\n\n(1) The middle integer is 12.\n(2) The sum of the five integers is 60.",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "(1) donne directement le médian. (2) seul ne détermine pas le médian.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g4-ds-20",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "divisors",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "Is x a perfect square?\n\n(1) $x = 9k^{2}$\n(2) x has an odd number of positive divisors",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "D"
+    },
+    "explanation": "Chacun des deux énoncés suffit: $9k^{2}$ est un carré parfait, et un entier avec un nombre impair de diviseurs est aussi un carré parfait.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g4-ds-21",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "two equations",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "What is the value of p?\n\n(1) $3p - 2q = 8$\n(2) $p + q = 6$",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "Pris ensemble, on résout p = 4 et q = 2. Aucun seul n’est suffisant.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g4-ds-22",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "line",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "Is the line passing through the origin?\n\n(1) The line has slope 2 and y-intercept 0.\n(2) The line passes through (3, 6).",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "(1) suffit parce qu’un ordonnée à l’origine nulle implique le passage par l’origine. (2) seul ne suffit pas.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g4-ds-23",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "absolute value",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "Is $x > 5$?\n\n(1) $|x - 5| = 2$\n(2) x is an integer greater than 5",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "(1) seul donne x = 3 ou 7, donc insuffisant. (2) seul impose x > 5 et suffit.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g4-ds-24",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "integer properties",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "Is the product of two integers even?\n\n(1) One integer is even\n(2) Their sum is odd",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "D"
+    },
+    "explanation": "Chaque énoncé suffit: un facteur pair rend le produit pair, et une somme impaire implique un pair et un impair, donc un produit pair.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g4-ds-25",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "cubes",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "What is the value of x?\n\n(1) $x^{3} = 27$\n(2) x is positive",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "(1) donne x = 3. (2) seul ne suffit pas.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g4-ds-26",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "inequalities",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "Is $a + b > c$?\n\n(1) $a > c - b$\n(2) $b > 0$",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "(1) est équivalent à a + b > c, donc suffisant.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g4-ds-27",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "divisors",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "stem": "What is the value of n?\n\n(1) n is a divisor of 24 and $n > 6$\n(2) n is even",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "E"
+    },
+    "explanation": "Les diviseurs de 24 strictement supérieurs à 6 sont 8, 12 et 24 : l’énoncé (1) laisse donc plusieurs valeurs possibles. L’énoncé (2) « n est pair » est aussi insuffisant. Ensemble, 8, 12 et 24 étant tous pairs, n n’est toujours pas déterminé.",
+    "estimatedTimeSeconds": 150
+  },
+  {
+    "id": "g4-ds-28",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "quadratic inequality",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "stem": "Is $x < 0$?\n\n(1) $x^{2} < 16$ and x is not zero\n(2) $x < 4$",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "E"
+    },
+    "explanation": "(1) donne plusieurs valeurs positives et négatives. (2) seul ne suffit pas. Ensemble, il reste encore des valeurs positives et négatives possibles.",
+    "estimatedTimeSeconds": 150
+  },
+  {
+    "id": "g4-ds-29",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "consecutive integers",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "What is the value of the smallest of three consecutive integers?\n\n(1) Their sum is 24\n(2) Their largest is 10",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "D"
+    },
+    "explanation": "Chacun des énoncés suffit: trois entiers consécutifs dont la somme est 24 sont 7,8,9; si le plus grand est 10, les trois sont 8,9,10.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g4-ds-30",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "equality",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "Is $x = y$?\n\n(1) $x^{2} = y^{2}$\n(2) x and y are both positive",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "(1) permet x = y ou x = -y. (2) seul ne suffit pas. Ensemble, les deux positifs imposent x = y.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g4-ds-31",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "intervals",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "What is the value of x?\n\n(1) $x/2 = 4$\n(2) x is a multiple of 4",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "(1) donne directement x = 8. (2) seul ne suffit pas.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g4-ds-32",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "triangle angles",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "Is triangle ABC right?\n\n(1) Two angles of the triangle sum to 90 degrees\n(2) One side of the triangle is the longest side",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "Si deux angles d’un triangle totalisent 90°, le troisième vaut 90°. L’énoncé (2) ne suffit pas.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g4-ds-33",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "square",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "What is the area of the square?\n\n(1) The diagonal is 10.\n(2) The perimeter is 40.",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "D"
+    },
+    "explanation": "Avec (1), aire = $d^{2}$/2 = 50. Avec (2), côté = 10 donc aire = 100. Chaque énoncé suffit.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g4-ds-34",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "divisibility",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "Is x divisible by 4?\n\n(1) x is divisible by 8\n(2) x is divisible by 2 and by 6",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "(1) suffit car tout multiple de 8 est multiple de 4. (2) seul ne garantit pas la divisibilité par 4.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g4-ds-35",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "linear equation",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "What is the value of m?\n\n(1) m is an integer and $2m + 1 = 15$\n(2) $m > 0$",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "(1) donne m = 7. (2) seul ne suffit pas.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g4-ds-36",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "comparison",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "Is the number of employees in department A greater than in department B?\n\n(1) $A:B = 5:4$\n(2) $A - B = 3$",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "D"
+    },
+    "explanation": "(1) Un rapport A:B = 5:4 implique A > B. (2) A − B = 3 étant positif, on a aussi A > B. Chaque énoncé suffit seul à répondre « oui ».",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g4-ds-37",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "reciprocal equation",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "stem": "What is the value of x?\n\n(1) $x + 1/x = 5$ and x is positive\n(2) $x > 1$",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "L’énoncé (1) donne deux solutions positives; (2) seul ne suffit pas. Ensemble, x > 1 élimine la petite solution et laisse une seule valeur.",
+    "estimatedTimeSeconds": 150
+  },
+  {
+    "id": "g4-ds-38",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "rectangle",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "What is the length of the rectangle?\n\n(1) The perimeter is 30 and the width is 5\n(2) The area is 50 and the width is 5",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "D"
+    },
+    "explanation": "Dans les deux cas, la longueur vaut 10.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g4-ds-39",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "polynomial roots",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "stem": "Is $x > 1$?\n\n(1) x is a root of $x^{2} - 4x + 3 = 0$\n(2) x is an integer",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "E"
+    },
+    "explanation": "(1) donne x = 1 ou 3. (2) seul ne suffit pas. Ensemble, x reste 1 ou 3, donc insuffisant.",
+    "estimatedTimeSeconds": 150
+  },
+  {
+    "id": "g4-ds-40",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "ratio and proportion",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "What is the value of x?\n\n(1) $x/y = 2$ and $y = 5$\n(2) $x - y = 5$",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "L’énoncé (1) donne x = 10. (2) seul ne suffit pas.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g4-ds-41",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "parity",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "Is the sum of two integers even?\n\n(1) Each integer is odd\n(2) One integer is even and the other odd",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "D"
+    },
+    "explanation": "Chaque énoncé suffit: deux impairs ont une somme paire; un pair et un impair ont une somme impaire, donc la réponse à la question est déterminée dans chaque cas.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g4-ds-42",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "number properties",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "What is the value of n?\n\n(1) n is the only integer between 4 and 8 divisible by 3\n(2) n is even",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "Entre 4 et 8, le seul entier divisible par 3 est 6.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g4-ds-43",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "negative numbers",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "Is x negative?\n\n(1) $x^{2} = 25$\n(2) $x + 2 < 0$",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "(1) donne x = 5 ou -5. (2) seul implique x < -2, donc négatif.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g4-ds-44",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "greatest common divisor",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "What is the value of k?\n\n(1) k is the greatest common divisor of 18 and 30\n(2) k is a factor of 6 greater than 2",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "Le PGCD de 18 et 30 est 6. L’énoncé (2) seul laisse k = 3 ou 6.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g4-ds-45",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "quadrants",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "Is the point (x,y) in quadrant II?\n\n(1) $x < 0$ and $y > 0$\n(2) $x + y < 0$",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "Le quadrant II est exactement caractérisé par x négatif et y positif.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g4-ds-46",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "arithmetic word problem",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "What is the value of p?\n\n(1) p is the sum of two consecutive odd integers whose product is 15\n(2) p is even",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "E"
+    },
+    "explanation": "Deux entiers impairs consécutifs de produit 15 sont soit 3 et 5 (somme 8), soit −5 et −3 (somme −8). L’énoncé (1) laisse donc p = 8 ou p = −8, et l’énoncé (2) « p est pair » ne tranche pas, les deux valeurs étant paires. Même réunis, les énoncés ne déterminent pas p.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g4-ds-47",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "comparison",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "Is $x > y$?\n\n(1) $x - y = 0.5$\n(2) x and y are integers",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "(1) suffit déjà. (2) seul ne suffit pas.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g4-ds-48",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "linear equation",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "What is the value of x?\n\n(1) $3x = 2y$ and $y = 9$\n(2) $x + y = 15$",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "L’énoncé (1) donne x = 6. (2) seul ne suffit pas.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g4-ds-49",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "prime numbers",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "Is the number prime?\n\n(1) It has exactly two positive divisors\n(2) It is greater than 1",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "Avoir exactement deux diviseurs positifs est la définition d’un nombre premier.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g4-ds-50",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "squares",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "What is the value of a?\n\n(1) $a^{2} = 64$ and a is negative\n(2) a is an integer",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "L’énoncé (1) donne a = -8.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g4-ds-51",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "averages",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "Is the average of three numbers greater than 10?\n\n(1) Their sum is 31\n(2) The largest number is 20 and the other two are positive",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "Une somme de 31 sur trois nombres donne une moyenne de 31/3, donc supérieure à 10.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g4-ds-52",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "linear equation",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "What is the value of x?\n\n(1) x is the unique solution to $2x + 3 = 11$\n(2) x is less than 5",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "L’équation donne x = 4, donc suffisant.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g4-ds-53",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "rectangle area",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "Is the area of a rectangle greater than 50?\n\n(1) Length is 10 and width is 6\n(2) Perimeter is 32 and length is 10",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "D"
+    },
+    "explanation": "Chaque énoncé suffit: (1) aire = 60; (2) largeur = 6 donc aire = 60.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g4-ds-54",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "quadratic equation",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "stem": "What is the value of n?\n\n(1) n is an integer and $n^{2} - 5n + 6 = 0$\n(2) $n > 2$",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "L’équation donne n = 2 ou 3. L’énoncé (2) élimine 2 et laisse n = 3.",
+    "estimatedTimeSeconds": 150
+  }
+]

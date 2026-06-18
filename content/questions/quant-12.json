@@ -1,0 +1,458 @@
+[
+  {
+    "id": "g4-quant-01",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "percentages",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "A store raises the price of a jacket by 20% and then applies a 25% discount to the new price. What is the net percentage change from the original price?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "-10%"
+      },
+      {
+        "key": "B",
+        "text": "-5%"
+      },
+      {
+        "key": "C",
+        "text": "0%"
+      },
+      {
+        "key": "D",
+        "text": "+5%"
+      },
+      {
+        "key": "E",
+        "text": "+10%"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "Le prix devient 1,20 puis 0,75 de ce montant, soit 0,90 du prix initial. La variation nette est donc une baisse de 10 %.",
+    "estimatedTimeSeconds": 90
+  },
+  {
+    "id": "g4-quant-02",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "ratios",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "If $x:y = 3:4$ and $y:z = 6:5$, what is the ratio $x:z$?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "$9:10$"
+      },
+      {
+        "key": "B",
+        "text": "$10:9$"
+      },
+      {
+        "key": "C",
+        "text": "$18:20$"
+      },
+      {
+        "key": "D",
+        "text": "$15:8$"
+      },
+      {
+        "key": "E",
+        "text": "$8:15$"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "En posant y = 12, on obtient x = 9 et z = 10. Donc x:z = 9:10.",
+    "estimatedTimeSeconds": 90
+  },
+  {
+    "id": "g4-quant-03",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "linear equations",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "Solve for $x$: $3(2x - 5) = 4x + 7$.",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "9"
+      },
+      {
+        "key": "B",
+        "text": "10"
+      },
+      {
+        "key": "C",
+        "text": "11"
+      },
+      {
+        "key": "D",
+        "text": "12"
+      },
+      {
+        "key": "E",
+        "text": "13"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "6x - 15 = 4x + 7, donc 2x = 22 et x = 11.",
+    "estimatedTimeSeconds": 90
+  },
+  {
+    "id": "g4-quant-04",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "triangle area",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "A triangle has a base of 12 and a height of 9. What is its area?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "27"
+      },
+      {
+        "key": "B",
+        "text": "36"
+      },
+      {
+        "key": "C",
+        "text": "48"
+      },
+      {
+        "key": "D",
+        "text": "54"
+      },
+      {
+        "key": "E",
+        "text": "108"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "D"
+    },
+    "explanation": "L’aire d’un triangle est base × hauteur ÷ 2, soit 12 × 9 ÷ 2 = 54.",
+    "estimatedTimeSeconds": 90
+  },
+  {
+    "id": "g4-quant-05",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "probability",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "A bag contains 3 red balls, 2 blue balls, and 5 green balls. If one ball is selected at random, what is the probability that it is not blue?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "$1/5$"
+      },
+      {
+        "key": "B",
+        "text": "$2/5$"
+      },
+      {
+        "key": "C",
+        "text": "$3/5$"
+      },
+      {
+        "key": "D",
+        "text": "$4/5$"
+      },
+      {
+        "key": "E",
+        "text": "$9/10$"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "D"
+    },
+    "explanation": "Il y a 10 boules au total et 8 ne sont pas bleues. La probabilité vaut 8/10 = 4/5.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g4-quant-06",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "exponents",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "What is the value of $(2^{3})(4^{2}) / 8$?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "8"
+      },
+      {
+        "key": "B",
+        "text": "16"
+      },
+      {
+        "key": "C",
+        "text": "24"
+      },
+      {
+        "key": "D",
+        "text": "32"
+      },
+      {
+        "key": "E",
+        "text": "64"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "$2^{3}$ = 8 et $4^{2}$ = 16. Donc 8 × 16 ÷ 8 = 16.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g4-quant-07",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "averages",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "Five numbers have an average of 12. Four of the numbers have an average of 10. What is the fifth number?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "18"
+      },
+      {
+        "key": "B",
+        "text": "19"
+      },
+      {
+        "key": "C",
+        "text": "20"
+      },
+      {
+        "key": "D",
+        "text": "21"
+      },
+      {
+        "key": "E",
+        "text": "22"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "La somme des 5 nombres est 60. La somme des 4 premiers est 40, donc le cinquième nombre est 20.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g4-quant-08",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "work rate",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "Machine A can complete a task in 6 hours and Machine B can complete the same task in 8 hours. Working together, how long will they take to complete the task?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "$7/24$ hour"
+      },
+      {
+        "key": "B",
+        "text": "$24/7$ hours"
+      },
+      {
+        "key": "C",
+        "text": "$14/3$ hours"
+      },
+      {
+        "key": "D",
+        "text": "7 hours"
+      },
+      {
+        "key": "E",
+        "text": "14 hours"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "Les taux s’additionnent: 1/6 + 1/8 = 7/24 du travail par heure. Le temps total est donc 24/7 heures.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g4-quant-09",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "modulo",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "stem": "What is the remainder when $7^{10}$ is divided by 6?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "0"
+      },
+      {
+        "key": "B",
+        "text": "1"
+      },
+      {
+        "key": "C",
+        "text": "2"
+      },
+      {
+        "key": "D",
+        "text": "3"
+      },
+      {
+        "key": "E",
+        "text": "5"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "7 ≡ 1 (mod 6), donc $7^{10}$ ≡ $1^{10}$ ≡ 1 (mod 6).",
+    "estimatedTimeSeconds": 150
+  },
+  {
+    "id": "g4-quant-10",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "slope",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "What is the slope of the line passing through the points (2, 3) and (6, 11)?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "$1/2$"
+      },
+      {
+        "key": "B",
+        "text": "2"
+      },
+      {
+        "key": "C",
+        "text": "3"
+      },
+      {
+        "key": "D",
+        "text": "4"
+      },
+      {
+        "key": "E",
+        "text": "8"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "La pente vaut (11 - 3) / (6 - 2) = 8/4 = 2.",
+    "estimatedTimeSeconds": 90
+  },
+  {
+    "id": "g4-quant-11",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "circle",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "stem": "A circle has radius 10. A chord is 12 units long. What is the distance from the center of the circle to the chord?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "2"
+      },
+      {
+        "key": "B",
+        "text": "4"
+      },
+      {
+        "key": "C",
+        "text": "6"
+      },
+      {
+        "key": "D",
+        "text": "8"
+      },
+      {
+        "key": "E",
+        "text": "10"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "D"
+    },
+    "explanation": "Le rayon vers le milieu de la corde forme un triangle rectangle: moitié de la corde = 6. Distance = $\\sqrt{10^{2} - 6^{2}}$ = $\\sqrt{64}$ = 8.",
+    "estimatedTimeSeconds": 150
+  },
+  {
+    "id": "g4-quant-12",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "weighted average",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "stem": "The average of 6 test scores is 78. After one additional score is added, the average becomes 80. What was the added score?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "86"
+      },
+      {
+        "key": "B",
+        "text": "88"
+      },
+      {
+        "key": "C",
+        "text": "90"
+      },
+      {
+        "key": "D",
+        "text": "92"
+      },
+      {
+        "key": "E",
+        "text": "94"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "D"
+    },
+    "explanation": "La somme initiale est 6 × 78 = 468. La nouvelle somme est 7 × 80 = 560. Le score ajouté est 560 - 468 = 92.",
+    "estimatedTimeSeconds": 150
+  }
+]
