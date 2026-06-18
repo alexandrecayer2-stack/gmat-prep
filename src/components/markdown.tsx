@@ -1,8 +1,96 @@
-import ReactMarkdown from 'react-markdown';
+import ReactMarkdown, { type Components } from 'react-markdown';
 import remarkMath from 'remark-math';
 import remarkGfm from 'remark-gfm';
 import rehypeKatex from 'rehype-katex';
+import { isValidElement, type ReactNode } from 'react';
+import { AlertTriangle, Compass, Lightbulb, Target, Zap, type LucideIcon } from 'lucide-react';
 import { cn } from '@/lib/utils';
+
+type CalloutKind = 'example' | 'trap' | 'strategy' | 'shortcut' | 'rule';
+
+const CALLOUT_STYLES: Record<CalloutKind, { Icon: LucideIcon; box: string; accent: string }> = {
+  example: { Icon: Lightbulb, box: 'border-primary/20 bg-primary/5', accent: 'text-primary' },
+  trap: {
+    Icon: AlertTriangle,
+    box: 'border-amber-500/30 bg-amber-500/10',
+    accent: 'text-amber-600 dark:text-amber-400',
+  },
+  strategy: {
+    Icon: Target,
+    box: 'border-emerald-500/30 bg-emerald-500/10',
+    accent: 'text-emerald-600 dark:text-emerald-400',
+  },
+  shortcut: {
+    Icon: Zap,
+    box: 'border-violet-500/30 bg-violet-500/10',
+    accent: 'text-violet-600 dark:text-violet-400',
+  },
+  rule: {
+    Icon: Compass,
+    box: 'border-sky-500/30 bg-sky-500/10',
+    accent: 'text-sky-600 dark:text-sky-400',
+  },
+};
+
+// A bold run-in at the very start of a paragraph (e.g. "**Example.** …") is
+// promoted to a visual callout when it names a known teaching block. Other bold
+// lead-ins (definitions like "**Rectangle.**") are deliberately left as prose.
+function classifyLead(text: string): CalloutKind | null {
+  const norm = text.trim().replace(/[.:]+\s*$/, '').toLowerCase();
+  if (norm === 'example') return 'example';
+  if (norm.includes('trap')) return 'trap'; // Trap, Classic trap, Example trap
+  if (norm === 'strategy') return 'strategy';
+  if (norm === 'shortcut') return 'shortcut';
+  if (norm === 'rule of thumb') return 'rule';
+  return null;
+}
+
+function toText(node: ReactNode): string {
+  if (node == null || node === false) return '';
+  if (typeof node === 'string') return node;
+  if (typeof node === 'number') return String(node);
+  if (Array.isArray(node)) return node.map(toText).join('');
+  if (isValidElement(node)) return toText((node.props as { children?: ReactNode }).children);
+  return '';
+}
+
+function slugify(text: string): string {
+  return text
+    .toLowerCase()
+    .trim()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/(^-|-$)/g, '');
+}
+
+const components: Components = {
+  p({ children }) {
+    const arr = Array.isArray(children) ? children : [children];
+    const first = arr[0];
+    if (isValidElement(first) && first.type === 'strong') {
+      const kind = classifyLead(toText(first));
+      if (kind) {
+        const { Icon, box, accent } = CALLOUT_STYLES[kind];
+        const label = toText(first).replace(/[.:]+\s*$/, '');
+        const body = arr.slice(1);
+        // Drop the separator/whitespace left where the bold label was.
+        if (typeof body[0] === 'string') body[0] = body[0].replace(/^[\s.:—-]+/, '');
+        return (
+          <div className={cn('my-4 flex gap-3 rounded-xl border px-4 py-3', box)}>
+            <Icon className={cn('mt-0.5 size-4 shrink-0', accent)} aria-hidden="true" />
+            <div className="min-w-0 flex-1">
+              <span className={cn('mb-0.5 block text-xs font-semibold', accent)}>{label}</span>
+              <div>{body}</div>
+            </div>
+          </div>
+        );
+      }
+    }
+    return <p>{children}</p>;
+  },
+  h2({ children }) {
+    return <h2 id={slugify(toText(children))}>{children}</h2>;
+  },
+};
 
 /** Markdown with GitHub tables, math ($...$ and $$...$$) rendered via KaTeX. */
 export function Markdown({ children, className }: { children: string; className?: string }) {
@@ -11,6 +99,7 @@ export function Markdown({ children, className }: { children: string; className?
       <ReactMarkdown
         remarkPlugins={[remarkMath, remarkGfm]}
         rehypePlugins={[rehypeKatex]}
+        components={components}
       >
         {children}
       </ReactMarkdown>
