@@ -74,7 +74,7 @@ export default async function LessonPage({ params }: Props) {
       </header>
 
       {/* Lesson content */}
-      <div className="prose prose-sm max-w-none dark:prose-invert">
+      <div className="max-w-none">
         <Markdown>{lesson.body}</Markdown>
       </div>
 
