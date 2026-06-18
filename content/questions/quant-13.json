@@ -1,0 +1,1218 @@
+[
+  {
+    "id": "g5-quant-01",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "percentages",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "If a price increases by 20% and then decreases by 25%, what is the net percentage change from the original price?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "-10%"
+      },
+      {
+        "key": "B",
+        "text": "-5%"
+      },
+      {
+        "key": "C",
+        "text": "0%"
+      },
+      {
+        "key": "D",
+        "text": "+5%"
+      },
+      {
+        "key": "E",
+        "text": "+10%"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "1,20 × 0,75 = 0,90, donc le prix final vaut 90 % du prix initial, soit une baisse nette de 10 %.",
+    "estimatedTimeSeconds": 90
+  },
+  {
+    "id": "g5-quant-02",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "linear equations",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "What is the value of x if $3x - 5 = 2x + 7$?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "12"
+      },
+      {
+        "key": "B",
+        "text": "2"
+      },
+      {
+        "key": "C",
+        "text": "7"
+      },
+      {
+        "key": "D",
+        "text": "10"
+      },
+      {
+        "key": "E",
+        "text": "15"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "En isolant x : 3x - 2x = 7 + 5, donc x = 12.",
+    "estimatedTimeSeconds": 90
+  },
+  {
+    "id": "g5-quant-03",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "rectangles",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "A rectangle has a perimeter of 40 and its length is 4 more than its width. What is its area?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "96"
+      },
+      {
+        "key": "B",
+        "text": "72"
+      },
+      {
+        "key": "C",
+        "text": "80"
+      },
+      {
+        "key": "D",
+        "text": "100"
+      },
+      {
+        "key": "E",
+        "text": "120"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "Si la largeur vaut w, alors 2(w + w + 4) = 40, donc 4w = 32 et w = 8. La longueur vaut 12, donc l’aire est 96.",
+    "estimatedTimeSeconds": 90
+  },
+  {
+    "id": "g5-quant-04",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "averages",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "The average of 5 numbers is 12. If four of the numbers are 9, 11, 13, and 15, what is the fifth number?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "12"
+      },
+      {
+        "key": "B",
+        "text": "8"
+      },
+      {
+        "key": "C",
+        "text": "10"
+      },
+      {
+        "key": "D",
+        "text": "14"
+      },
+      {
+        "key": "E",
+        "text": "16"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "La somme totale doit être 5 × 12 = 60. Les quatre nombres donnés totalisent 48, donc le cinquième vaut 12.",
+    "estimatedTimeSeconds": 90
+  },
+  {
+    "id": "g5-quant-05",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "remainders",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "What is the remainder when $7^{4}$ is divided by 5?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "1"
+      },
+      {
+        "key": "B",
+        "text": "0"
+      },
+      {
+        "key": "C",
+        "text": "2"
+      },
+      {
+        "key": "D",
+        "text": "3"
+      },
+      {
+        "key": "E",
+        "text": "4"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "Comme 7 ≡ 2 (mod 5), on a $7^{4}$ ≡ $2^{4}$ = 16 ≡ 1 (mod 5).",
+    "estimatedTimeSeconds": 90
+  },
+  {
+    "id": "g5-quant-06",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "ratios",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "A solution has a sugar-to-water ratio of $3:5$. If the solution contains 40 liters, how many liters of sugar does it contain?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "15"
+      },
+      {
+        "key": "B",
+        "text": "10"
+      },
+      {
+        "key": "C",
+        "text": "12"
+      },
+      {
+        "key": "D",
+        "text": "20"
+      },
+      {
+        "key": "E",
+        "text": "24"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "Le total des parts est 8. Une part vaut 40/8 = 5, donc le sucre vaut 3 × 5 = 15.",
+    "estimatedTimeSeconds": 90
+  },
+  {
+    "id": "g5-quant-07",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "right triangles",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "A right triangle has legs of lengths 6 and 8. What is the length of the hypotenuse?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "10"
+      },
+      {
+        "key": "B",
+        "text": "12"
+      },
+      {
+        "key": "C",
+        "text": "14"
+      },
+      {
+        "key": "D",
+        "text": "16"
+      },
+      {
+        "key": "E",
+        "text": "18"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "Par le théorème de Pythagore, l’hypoténuse vaut √($6^{2}$ + $8^{2}$) = √100 = 10.",
+    "estimatedTimeSeconds": 90
+  },
+  {
+    "id": "g5-quant-08",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "probability",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "A bag contains 3 red balls and 2 blue balls. If two balls are drawn without replacement, what is the probability that both balls are red?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "3/10"
+      },
+      {
+        "key": "B",
+        "text": "1/2"
+      },
+      {
+        "key": "C",
+        "text": "2/5"
+      },
+      {
+        "key": "D",
+        "text": "3/5"
+      },
+      {
+        "key": "E",
+        "text": "1/10"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "La probabilité est (3/5) × (2/4) = 6/20 = 3/10.",
+    "estimatedTimeSeconds": 90
+  },
+  {
+    "id": "g5-quant-09",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "arithmetic",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "In the arithmetic sequence 4, 7, 10, 13, ..., what is the 20th term?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "61"
+      },
+      {
+        "key": "B",
+        "text": "58"
+      },
+      {
+        "key": "C",
+        "text": "64"
+      },
+      {
+        "key": "D",
+        "text": "67"
+      },
+      {
+        "key": "E",
+        "text": "70"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "Le premier terme est 4 et la raison est 3. Le 20e terme vaut 4 + 19 × 3 = 61.",
+    "estimatedTimeSeconds": 90
+  },
+  {
+    "id": "g5-quant-10",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "exponents",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "What is the value of $2^{3}$ × $2^{5}$ ÷ $2^{4}$?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "16"
+      },
+      {
+        "key": "B",
+        "text": "8"
+      },
+      {
+        "key": "C",
+        "text": "32"
+      },
+      {
+        "key": "D",
+        "text": "4"
+      },
+      {
+        "key": "E",
+        "text": "64"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "En utilisant les règles sur les puissances : 2^(3+5-4) = $2^{4}$ = 16.",
+    "estimatedTimeSeconds": 90
+  },
+  {
+    "id": "g5-quant-11",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "systems",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "If $x + y = 10$ and $x - y = 2$, what is the value of x?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "6"
+      },
+      {
+        "key": "B",
+        "text": "4"
+      },
+      {
+        "key": "C",
+        "text": "8"
+      },
+      {
+        "key": "D",
+        "text": "10"
+      },
+      {
+        "key": "E",
+        "text": "12"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "En additionnant les deux équations, on obtient 2x = 12, donc x = 6.",
+    "estimatedTimeSeconds": 90
+  },
+  {
+    "id": "g5-quant-12",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "discount and tax",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "An item costs \\$80. It is discounted by 15% and then a 10% sales tax is added to the discounted price. What is the final price?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "$74.80"
+      },
+      {
+        "key": "B",
+        "text": "$68.00"
+      },
+      {
+        "key": "C",
+        "text": "$72.00"
+      },
+      {
+        "key": "D",
+        "text": "$76.00"
+      },
+      {
+        "key": "E",
+        "text": "$80.00"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "Après remise : 80 × 0,85 = 68. Avec la taxe : 68 × 1,10 = 74,8.",
+    "estimatedTimeSeconds": 90
+  },
+  {
+    "id": "g5-quant-13",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "circles",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "A circle has radius 5. Using π = 3.14, what is its area?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "78.5"
+      },
+      {
+        "key": "B",
+        "text": "31.4"
+      },
+      {
+        "key": "C",
+        "text": "62.8"
+      },
+      {
+        "key": "D",
+        "text": "94.2"
+      },
+      {
+        "key": "E",
+        "text": "157.0"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "L’aire d’un cercle est π$r^{2}$. Donc 3,14 × 25 = 78,5.",
+    "estimatedTimeSeconds": 90
+  },
+  {
+    "id": "g5-quant-14",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "inequalities",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "If $2x - 3 < 11$, what is the greatest integer value of x?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "6"
+      },
+      {
+        "key": "B",
+        "text": "5"
+      },
+      {
+        "key": "C",
+        "text": "7"
+      },
+      {
+        "key": "D",
+        "text": "8"
+      },
+      {
+        "key": "E",
+        "text": "9"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "2x < 14, donc x < 7. Le plus grand entier possible est 6.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g5-quant-15",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "lcm",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "What is the least positive integer divisible by 8, 12, and 15?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "120"
+      },
+      {
+        "key": "B",
+        "text": "60"
+      },
+      {
+        "key": "C",
+        "text": "90"
+      },
+      {
+        "key": "D",
+        "text": "240"
+      },
+      {
+        "key": "E",
+        "text": "360"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "Le PPCM de 8, 12 et 15 est $2^{3}$ × 3 × 5 = 120.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g5-quant-16",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "weighted average",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "A student scored 80 on a test worth 40% and 95 on a test worth 60%. What was the weighted average score?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "89"
+      },
+      {
+        "key": "B",
+        "text": "88"
+      },
+      {
+        "key": "C",
+        "text": "90"
+      },
+      {
+        "key": "D",
+        "text": "91"
+      },
+      {
+        "key": "E",
+        "text": "92"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "0,4 × 80 + 0,6 × 95 = 32 + 57 = 89.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g5-quant-17",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "fractions",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "If $x/3 + x/4 = 14$, what is the value of x?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "24"
+      },
+      {
+        "key": "B",
+        "text": "12"
+      },
+      {
+        "key": "C",
+        "text": "28"
+      },
+      {
+        "key": "D",
+        "text": "30"
+      },
+      {
+        "key": "E",
+        "text": "36"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "En multipliant par 12 : 4x + 3x = 168, donc 7x = 168 et x = 24.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g5-quant-18",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "squares",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "A square has a diagonal of 10. What is its area?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "50"
+      },
+      {
+        "key": "B",
+        "text": "25"
+      },
+      {
+        "key": "C",
+        "text": "75"
+      },
+      {
+        "key": "D",
+        "text": "100"
+      },
+      {
+        "key": "E",
+        "text": "125"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "La diagonale d’un carré vaut s√2. Donc $s^{2}$ = $10^{2}$/2 = 50.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g5-quant-19",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "probability",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "A committee of 1 person is chosen at random from 5 men and 3 women. What is the probability that the person chosen is a woman?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "3/8"
+      },
+      {
+        "key": "B",
+        "text": "5/8"
+      },
+      {
+        "key": "C",
+        "text": "1/2"
+      },
+      {
+        "key": "D",
+        "text": "1/3"
+      },
+      {
+        "key": "E",
+        "text": "2/3"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "Il y a 3 femmes sur 8 personnes au total, donc la probabilité est 3/8.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g5-quant-20",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "median",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "What is the median of the numbers 3, 7, 9, 10, and 20?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "9"
+      },
+      {
+        "key": "B",
+        "text": "7"
+      },
+      {
+        "key": "C",
+        "text": "10"
+      },
+      {
+        "key": "D",
+        "text": "8"
+      },
+      {
+        "key": "E",
+        "text": "20"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "La valeur finale est 1000 × (1,10)² = 1000 × 1,21 = 1210.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g5-quant-21",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "compound growth",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "An investment of \\$1000 grows by 10% per year for 2 years. What is the value after 2 years?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "$1210"
+      },
+      {
+        "key": "B",
+        "text": "$1200"
+      },
+      {
+        "key": "C",
+        "text": "$1100"
+      },
+      {
+        "key": "D",
+        "text": "$1220"
+      },
+      {
+        "key": "E",
+        "text": "$1300"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "La valeur finale est 1000 × 1,10^2 = 1210.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g5-quant-22",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "combined rates",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "A pipe can fill a tank in 5 hours, and a leak can empty it in 10 hours. If both are open, how long will it take to fill the tank?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "10 hours"
+      },
+      {
+        "key": "B",
+        "text": "5 hours"
+      },
+      {
+        "key": "C",
+        "text": "6 hours"
+      },
+      {
+        "key": "D",
+        "text": "15 hours"
+      },
+      {
+        "key": "E",
+        "text": "20 hours"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "Le débit net est 1/5 - 1/10 = 1/10 du réservoir par heure, donc il faut 10 heures.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g5-quant-23",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "modular arithmetic",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "What is the remainder when $13^{2} + 7^{2}$ is divided by 10?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "8"
+      },
+      {
+        "key": "B",
+        "text": "2"
+      },
+      {
+        "key": "C",
+        "text": "4"
+      },
+      {
+        "key": "D",
+        "text": "6"
+      },
+      {
+        "key": "E",
+        "text": "0"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "$13^{2}$ = 169 donne 9 mod 10, et $7^{2}$ = 49 donne 9 mod 10. La somme vaut 18, donc le reste est 8.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g5-quant-24",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "volumes",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "What is the volume of a cube with side length 4?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "64"
+      },
+      {
+        "key": "B",
+        "text": "16"
+      },
+      {
+        "key": "C",
+        "text": "32"
+      },
+      {
+        "key": "D",
+        "text": "48"
+      },
+      {
+        "key": "E",
+        "text": "96"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "Le volume d’un cube est $s^{3}$. Donc $4^{3}$ = 64.",
+    "estimatedTimeSeconds": 90
+  },
+  {
+    "id": "g5-quant-25",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "geometric",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "In the geometric sequence 2, 6, 18, 54, ..., what is the 5th term?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "162"
+      },
+      {
+        "key": "B",
+        "text": "108"
+      },
+      {
+        "key": "C",
+        "text": "216"
+      },
+      {
+        "key": "D",
+        "text": "324"
+      },
+      {
+        "key": "E",
+        "text": "486"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "La raison est 3. Le 5e terme vaut 54 × 3 = 162.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g5-quant-26",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "ratios",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "The ratio of apples to oranges is $2:3$. If there are 15 oranges, how many apples are there?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "10"
+      },
+      {
+        "key": "B",
+        "text": "5"
+      },
+      {
+        "key": "C",
+        "text": "12"
+      },
+      {
+        "key": "D",
+        "text": "15"
+      },
+      {
+        "key": "E",
+        "text": "20"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "3 parts correspondent à 15 oranges, donc 1 part = 5. Les pommes sont 2 parts, donc 10.",
+    "estimatedTimeSeconds": 90
+  },
+  {
+    "id": "g5-quant-27",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "mean",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "The mean of 6 numbers is 14. If five of the numbers are 10, 12, 15, 17, and 18, what is the sixth number?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "12"
+      },
+      {
+        "key": "B",
+        "text": "13"
+      },
+      {
+        "key": "C",
+        "text": "14"
+      },
+      {
+        "key": "D",
+        "text": "15"
+      },
+      {
+        "key": "E",
+        "text": "16"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "La somme totale est 6 × 14 = 84. Les cinq nombres donnés totalisent 72, donc le sixième vaut 12.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g5-quant-28",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "absolute value",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "If $|x - 4| = 7$, what is the sum of the possible values of x?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "8"
+      },
+      {
+        "key": "B",
+        "text": "-8"
+      },
+      {
+        "key": "C",
+        "text": "3"
+      },
+      {
+        "key": "D",
+        "text": "11"
+      },
+      {
+        "key": "E",
+        "text": "-3"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "Les solutions sont x = 11 et x = -3. Leur somme est 8.",
+    "estimatedTimeSeconds": 90
+  },
+  {
+    "id": "g5-quant-29",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "age",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "stem": "A father is currently 4 times as old as his son. In 12 years, the father will be 2.5 times as old as the son. How old is the son now?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "12"
+      },
+      {
+        "key": "B",
+        "text": "10"
+      },
+      {
+        "key": "C",
+        "text": "14"
+      },
+      {
+        "key": "D",
+        "text": "16"
+      },
+      {
+        "key": "E",
+        "text": "18"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "Si le fils a s ans, le père en a 4s. Dans 12 ans : 4s + 12 = 2,5(s + 12). On obtient s = 12.",
+    "estimatedTimeSeconds": 150
+  },
+  {
+    "id": "g5-quant-30",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "inclusion-exclusion",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "In a survey of 30 students, 20 like tea, 15 like coffee, and 5 like both. How many like at least one of the two beverages?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "30"
+      },
+      {
+        "key": "B",
+        "text": "25"
+      },
+      {
+        "key": "C",
+        "text": "20"
+      },
+      {
+        "key": "D",
+        "text": "15"
+      },
+      {
+        "key": "E",
+        "text": "10"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "Par inclusion-exclusion : 20 + 15 - 5 = 30.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g5-quant-31",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "percentages",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "What is the percent increase from 80 to 92?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "15%"
+      },
+      {
+        "key": "B",
+        "text": "10%"
+      },
+      {
+        "key": "C",
+        "text": "12%"
+      },
+      {
+        "key": "D",
+        "text": "20%"
+      },
+      {
+        "key": "E",
+        "text": "25%"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "L’augmentation est 12, et 12/80 = 0,15, donc 15 %.",
+    "estimatedTimeSeconds": 90
+  },
+  {
+    "id": "g5-quant-32",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "counting",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "stem": "How many distinct 3-digit numbers can be formed using the digits 1, 2, 3, and 4 without repetition?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "24"
+      },
+      {
+        "key": "B",
+        "text": "12"
+      },
+      {
+        "key": "C",
+        "text": "18"
+      },
+      {
+        "key": "D",
+        "text": "30"
+      },
+      {
+        "key": "E",
+        "text": "36"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "On choisit et ordonne 3 chiffres parmi 4 : 4 × 3 × 2 = 24.",
+    "estimatedTimeSeconds": 150
+  }
+]

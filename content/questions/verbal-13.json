@@ -1,0 +1,1289 @@
+[
+  {
+    "id": "g5-cr-01",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "weaken",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "passageOrStimulus": "A bakery says that extending its opening hours increased daily sales, because revenue rose in the month after the change.",
+    "stem": "Which of the following, if true, most weakens the argument?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "A large nearby bakery closed during that same month, diverting customers to the bakery in question."
+      },
+      {
+        "key": "B",
+        "text": "The bakery introduced a new logo."
+      },
+      {
+        "key": "C",
+        "text": "Customers reported liking the smell of the bread."
+      },
+      {
+        "key": "D",
+        "text": "The bakery hired one extra cashier."
+      },
+      {
+        "key": "E",
+        "text": "The town held a food festival that month."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "Un concurrent voisin a fermé au même moment, ce qui peut expliquer la hausse des ventes sans lien avec l’allongement des horaires.",
+    "estimatedTimeSeconds": 90
+  },
+  {
+    "id": "g5-cr-02",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "assumption",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "passageOrStimulus": "A software team claims that replacing weekly meetings with a shared dashboard will save time without reducing coordination.",
+    "stem": "Which of the following is an assumption on which the claim depends?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "Team members will actually check the dashboard regularly and update it accurately."
+      },
+      {
+        "key": "B",
+        "text": "The dashboard will use bright colors."
+      },
+      {
+        "key": "C",
+        "text": "Weekly meetings are always boring."
+      },
+      {
+        "key": "D",
+        "text": "The team works in the same office."
+      },
+      {
+        "key": "E",
+        "text": "Management prefers dashboards to meetings."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "L’argument suppose que le tableau de bord sera effectivement consulté et renseigné de façon fiable.",
+    "estimatedTimeSeconds": 90
+  },
+  {
+    "id": "g5-cr-03",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "strengthen",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "passageOrStimulus": "A clinic introduced a reminder text system and says it reduced missed appointments.",
+    "stem": "Which of the following, if true, most strengthens the claim?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "The same patients had a lower no-show rate after the texts were introduced than before, even after adjusting for season."
+      },
+      {
+        "key": "B",
+        "text": "Some patients preferred phone calls."
+      },
+      {
+        "key": "C",
+        "text": "The clinic also painted the waiting room."
+      },
+      {
+        "key": "D",
+        "text": "Reminder texts cost less than paper notices."
+      },
+      {
+        "key": "E",
+        "text": "The clinic saw more social-media followers."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "Une baisse mesurée des absences chez les mêmes patients renforce directement le lien causal.",
+    "estimatedTimeSeconds": 105
+  },
+  {
+    "id": "g5-cr-04",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "inference",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "passageOrStimulus": "A survey found that among people who bought reusable water bottles last year, most also reported carrying a bottle on at least four days per week this year.",
+    "stem": "Which of the following can be inferred?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "Many recent buyers of reusable bottles are using them regularly this year."
+      },
+      {
+        "key": "B",
+        "text": "All people who buy reusable bottles use them every day."
+      },
+      {
+        "key": "C",
+        "text": "Reusable bottles eliminate the need for tap water."
+      },
+      {
+        "key": "D",
+        "text": "Most people in the survey bought bottles last year."
+      },
+      {
+        "key": "E",
+        "text": "The survey included only athletes."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "Le fait que la majorité des acheteurs déclarent une utilisation fréquente permet d’inférer une usage régulier chez beaucoup d’entre eux, sans généraliser à tous.",
+    "estimatedTimeSeconds": 105
+  },
+  {
+    "id": "g5-cr-05",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "weaken",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "passageOrStimulus": "A city argues that a new protected bike lane reduced traffic congestion because average car travel time on the street fell by 12% after the lane opened.",
+    "stem": "Which of the following, if true, most weakens the argument?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "A major road nearby was under construction during the same period, causing many drivers to avoid the street for unrelated reasons."
+      },
+      {
+        "key": "B",
+        "text": "More bicycles were seen on the street after the lane opened."
+      },
+      {
+        "key": "C",
+        "text": "Some residents like the bike lane."
+      },
+      {
+        "key": "D",
+        "text": "The lane was painted green."
+      },
+      {
+        "key": "E",
+        "text": "Parking spaces were removed near the street."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "Des travaux sur une autre route offrent une explication alternative à la baisse du trafic automobile.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g5-cr-06",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "evaluate",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "passageOrStimulus": "A museum says that offering a discounted late-night ticket will increase total revenue.",
+    "stem": "Which of the following would be most useful to evaluate the claim?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "Whether the discount would attract enough additional visitors to offset the lower ticket price."
+      },
+      {
+        "key": "B",
+        "text": "Whether the museum gift shop sells postcards."
+      },
+      {
+        "key": "C",
+        "text": "Whether the museum has air conditioning."
+      },
+      {
+        "key": "D",
+        "text": "Whether visitors prefer classical or modern art."
+      },
+      {
+        "key": "E",
+        "text": "Whether the museum is located near a subway stop."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "L’enjeu central est de savoir si l’afflux supplémentaire compense la baisse du prix unitaire.",
+    "estimatedTimeSeconds": 105
+  },
+  {
+    "id": "g5-cr-07",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "strengthen",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "passageOrStimulus": "A farmer claims that switching to drip irrigation will reduce water use without lowering crop output.",
+    "stem": "Which of the following, if true, most strengthens the claim?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "Fields using drip irrigation on similar crops used less water and produced similar yields over the same season."
+      },
+      {
+        "key": "B",
+        "text": "Drip irrigation requires more hoses."
+      },
+      {
+        "key": "C",
+        "text": "The farmer also plans to repair fences."
+      },
+      {
+        "key": "D",
+        "text": "Some neighbors prefer sprinkler systems."
+      },
+      {
+        "key": "E",
+        "text": "Water prices are expected to rise."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "Des résultats comparables avec moins d’eau et des rendements similaires soutiennent directement l’affirmation.",
+    "estimatedTimeSeconds": 90
+  },
+  {
+    "id": "g5-cr-08",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "assumption",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "passageOrStimulus": "A restaurant says that adding a vegetarian tasting menu will attract new customers without losing existing ones.",
+    "stem": "Which of the following is an assumption on which the claim depends?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "Current customers will not view the vegetarian menu as lowering the restaurant's overall quality."
+      },
+      {
+        "key": "B",
+        "text": "The chef enjoys vegetables."
+      },
+      {
+        "key": "C",
+        "text": "Vegetarian dishes are usually colorful."
+      },
+      {
+        "key": "D",
+        "text": "The restaurant is open on Fridays."
+      },
+      {
+        "key": "E",
+        "text": "Competitors also offer desserts."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "Il faut supposer que les clients actuels ne seront pas repoussés par le nouveau menu.",
+    "estimatedTimeSeconds": 105
+  },
+  {
+    "id": "g5-cr-09",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "weaken",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "passageOrStimulus": "A magazine concludes that readers prefer shorter articles because the average time spent on the magazine's website fell after article length was reduced.",
+    "stem": "Which of the following, if true, most weakens the conclusion?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "The magazine also changed its homepage layout so that articles were more visible and easier to open quickly."
+      },
+      {
+        "key": "B",
+        "text": "Some articles became shorter."
+      },
+      {
+        "key": "C",
+        "text": "The website had fewer ads."
+      },
+      {
+        "key": "D",
+        "text": "Readers complained less about navigation."
+      },
+      {
+        "key": "E",
+        "text": "The magazine published more photos."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "Le changement de mise en page fournit une explication alternative à la baisse du temps passé sur le site.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g5-cr-10",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "inference",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "passageOrStimulus": "A company reported that 70% of its remote employees live within commuting distance of an office, and 20% visit an office at least once a week.",
+    "stem": "Which of the following can be inferred?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "Some remote employees who live near an office do not visit it weekly."
+      },
+      {
+        "key": "B",
+        "text": "All remote employees live near an office."
+      },
+      {
+        "key": "C",
+        "text": "Most remote employees visit an office weekly."
+      },
+      {
+        "key": "D",
+        "text": "No remote employees work from home full time."
+      },
+      {
+        "key": "E",
+        "text": "The company has only one office."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "Si 70 % vivent à distance de navette et seulement 20 % visitent chaque semaine, certains proches ne s’y rendent pas chaque semaine.",
+    "estimatedTimeSeconds": 105
+  },
+  {
+    "id": "g5-cr-11",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "strengthen",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "passageOrStimulus": "A neighborhood council claims that planting more trees will lower summer electricity bills.",
+    "stem": "Which of the following, if true, most strengthens the claim?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "Homes on tree-lined streets used less air conditioning during hot months than similar homes on treeless streets."
+      },
+      {
+        "key": "B",
+        "text": "Trees need water."
+      },
+      {
+        "key": "C",
+        "text": "Some residents enjoy gardening."
+      },
+      {
+        "key": "D",
+        "text": "The council met twice."
+      },
+      {
+        "key": "E",
+        "text": "Tree planting costs money."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "Des usages moindres de climatisation sur des rues arborées appuient le lien entre arbres et baisse des factures.",
+    "estimatedTimeSeconds": 90
+  },
+  {
+    "id": "g5-cr-12",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "assumption",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "passageOrStimulus": "A company claims that allowing employees to choose their own start times will improve productivity because people work best at different hours.",
+    "stem": "Which of the following is an assumption on which the claim depends?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "Employees with flexible start times will still be able to coordinate efficiently with one another."
+      },
+      {
+        "key": "B",
+        "text": "Most employees prefer coffee to tea."
+      },
+      {
+        "key": "C",
+        "text": "The office has large windows."
+      },
+      {
+        "key": "D",
+        "text": "Managers dislike early meetings."
+      },
+      {
+        "key": "E",
+        "text": "The company will replace all desks."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "Il faut supposer que la flexibilité horaire ne nuira pas à la coordination entre collègues.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g5-cr-13",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "weaken",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "passageOrStimulus": "A school says its new tutoring program improved math scores because students who attended tutoring scored higher on the final exam.",
+    "stem": "Which of the following, if true, most weakens the conclusion?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "Students who chose tutoring were already the strongest math students before the program began."
+      },
+      {
+        "key": "B",
+        "text": "Tutoring sessions were held after school."
+      },
+      {
+        "key": "C",
+        "text": "Some tutors used whiteboards."
+      },
+      {
+        "key": "D",
+        "text": "The final exam included word problems."
+      },
+      {
+        "key": "E",
+        "text": "Parents were informed about the program."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "Si les élèves inscrits étaient déjà plus forts au départ, la hausse des scores ne prouve pas l’efficacité du programme.",
+    "estimatedTimeSeconds": 105
+  },
+  {
+    "id": "g5-cr-14",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "evaluate",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "passageOrStimulus": "A courier company is considering replacing diesel vans with electric vans.",
+    "stem": "Which of the following would be most useful to evaluate the plan?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "Whether the electric vans can complete the typical daily route on a single charge."
+      },
+      {
+        "key": "B",
+        "text": "Whether drivers prefer blue uniforms."
+      },
+      {
+        "key": "C",
+        "text": "Whether the company has a social-media account."
+      },
+      {
+        "key": "D",
+        "text": "Whether diesel vans are painted white."
+      },
+      {
+        "key": "E",
+        "text": "Whether the company sponsors local sports teams."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "La faisabilité dépend en grande partie de l’autonomie réelle des véhicules électriques.",
+    "estimatedTimeSeconds": 90
+  },
+  {
+    "id": "g5-cr-15",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "inference",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "passageOrStimulus": "A report states that every branch of a chain adopted the same inventory software, but only some branches used it to automate reordering.",
+    "stem": "Which of the following can be inferred?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "At least one branch used the software without automating reordering."
+      },
+      {
+        "key": "B",
+        "text": "No branch used the software effectively."
+      },
+      {
+        "key": "C",
+        "text": "All branches automated reordering."
+      },
+      {
+        "key": "D",
+        "text": "Some branches used different software."
+      },
+      {
+        "key": "E",
+        "text": "The chain closed several branches."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "Puisque toutes les branches ont adopté le logiciel et que seules certaines ont automatisé les réassorts, au moins une branche l’a utilisé sans automatisation.",
+    "estimatedTimeSeconds": 105
+  },
+  {
+    "id": "g5-cr-16",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "strengthen",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "passageOrStimulus": "An economist argues that a city's minimum-wage increase did not reduce employment because the number of jobs rose afterward.",
+    "stem": "Which of the following, if true, most strengthens the argument?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "The city's population and business activity both grew during the same period."
+      },
+      {
+        "key": "B",
+        "text": "Some employers said the law was inconvenient."
+      },
+      {
+        "key": "C",
+        "text": "Workers spent more money at local stores."
+      },
+      {
+        "key": "D",
+        "text": "The increase was announced in the newspapers."
+      },
+      {
+        "key": "E",
+        "text": "Other cities debated similar laws."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "Une croissance de la population et de l’activité économique offre une explication alternative plausible à la hausse de l’emploi.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g5-cr-17",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "assumption",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "passageOrStimulus": "A gardener says that mulching the soil will reduce watering needs because it slows evaporation.",
+    "stem": "Which of the following is an assumption on which the argument depends?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "The mulch will stay in place long enough to affect the soil's moisture."
+      },
+      {
+        "key": "B",
+        "text": "The gardener owns a hose."
+      },
+      {
+        "key": "C",
+        "text": "Evaporation is visible on sunny days."
+      },
+      {
+        "key": "D",
+        "text": "The garden includes flowers."
+      },
+      {
+        "key": "E",
+        "text": "The mulch is brown."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "L’argument suppose que le paillis reste assez longtemps pour remplir son rôle.",
+    "estimatedTimeSeconds": 90
+  },
+  {
+    "id": "g5-cr-18",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "weaken",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "passageOrStimulus": "A hospital claims that a new triage system reduced wait times in the emergency department because the average wait dropped from 54 minutes to 41 minutes.",
+    "stem": "Which of the following, if true, most weakens the claim?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "During the same period, many low-severity patients were diverted to an urgent-care clinic next door."
+      },
+      {
+        "key": "B",
+        "text": "Nurses received training on the new system."
+      },
+      {
+        "key": "C",
+        "text": "The emergency department renovated its entrance."
+      },
+      {
+        "key": "D",
+        "text": "The hospital's parking lot was repaved."
+      },
+      {
+        "key": "E",
+        "text": "Patients liked the new signage."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "Une diversion des cas légers peut expliquer la baisse du temps d’attente sans attribuer tout le gain au nouveau triage.",
+    "estimatedTimeSeconds": 105
+  },
+  {
+    "id": "g5-cr-19",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "strengthen",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "passageOrStimulus": "A retailer claims that placing products near the checkout line increases impulse purchases.",
+    "stem": "Which of the following, if true, most strengthens the claim?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "Items moved to the checkout line sold more frequently than similar items kept elsewhere in the store."
+      },
+      {
+        "key": "B",
+        "text": "The store plays background music."
+      },
+      {
+        "key": "C",
+        "text": "Cashiers wear name tags."
+      },
+      {
+        "key": "D",
+        "text": "The checkout area is crowded."
+      },
+      {
+        "key": "E",
+        "text": "Customers also buy groceries."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "Des ventes plus fréquentes après déplacement près de la caisse appuient directement la thèse de l’achat impulsif.",
+    "estimatedTimeSeconds": 90
+  },
+  {
+    "id": "g5-cr-20",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "evaluate",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "passageOrStimulus": "A publisher is deciding whether to print a novel in hardcover only or in both hardcover and paperback.",
+    "stem": "Which of the following would be most useful to evaluate the decision?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "Whether the expected paperback demand is high enough to justify the additional printing and distribution costs."
+      },
+      {
+        "key": "B",
+        "text": "Whether the author prefers one cover design."
+      },
+      {
+        "key": "C",
+        "text": "Whether bookstores use shelves or tables."
+      },
+      {
+        "key": "D",
+        "text": "Whether the novel contains chapters."
+      },
+      {
+        "key": "E",
+        "text": "Whether the publisher has a graphic designer."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "Le point critique est de savoir si la demande en poche justifie les coûts supplémentaires.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g5-cr-21",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "inference",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "passageOrStimulus": "A city survey showed that among residents who commute by train, most also use a bicycle at least once a week.",
+    "stem": "Which of the following can be inferred?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "A majority of train commuters use bicycles weekly."
+      },
+      {
+        "key": "B",
+        "text": "All bicycle users commute by train."
+      },
+      {
+        "key": "C",
+        "text": "Most city residents commute by train."
+      },
+      {
+        "key": "D",
+        "text": "No train commuter drives a car."
+      },
+      {
+        "key": "E",
+        "text": "Train commuting and bicycle use are unrelated."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "L’énoncé porte précisément sur les navetteurs en train; on peut en inférer qu’une majorité d’entre eux utilisent aussi le vélo chaque semaine.",
+    "estimatedTimeSeconds": 105
+  },
+  {
+    "id": "g5-cr-22",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "assumption",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "passageOrStimulus": "A manager argues that shortening the quarterly review meeting will not hurt planning because the team already discusses most issues by email.",
+    "stem": "Which of the following is an assumption on which the argument depends?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "The issues discussed by email are sufficient to cover the topics that would otherwise require meeting time."
+      },
+      {
+        "key": "B",
+        "text": "The manager enjoys short meetings."
+      },
+      {
+        "key": "C",
+        "text": "Employees read every email immediately."
+      },
+      {
+        "key": "D",
+        "text": "The team meets in a large conference room."
+      },
+      {
+        "key": "E",
+        "text": "The review meeting always starts on time."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "Il faut supposer que les échanges par courriel couvrent effectivement les sujets qui auraient nécessité plus de temps en réunion.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g5-cr-23",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "weaken",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "passageOrStimulus": "A café owner says that introducing self-service kiosks improved customer satisfaction because the average rating increased after the kiosks were installed.",
+    "stem": "Which of the following, if true, most weakens the argument?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "The café simultaneously shortened its menu and removed several unpopular items."
+      },
+      {
+        "key": "B",
+        "text": "The kiosks had touch screens."
+      },
+      {
+        "key": "C",
+        "text": "Some customers used the kiosks more than once."
+      },
+      {
+        "key": "D",
+        "text": "The café added more tables."
+      },
+      {
+        "key": "E",
+        "text": "Ratings were collected online."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "La hausse des notes peut être due à la simplification du menu plutôt qu’aux kiosques eux-mêmes.",
+    "estimatedTimeSeconds": 90
+  },
+  {
+    "id": "g5-cr-24",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "strengthen",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "passageOrStimulus": "A nutritionist claims that people who eat breakfast daily are less likely to snack late at night.",
+    "stem": "Which of the following, if true, most strengthens the claim?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "In a study, participants who ate breakfast every day reported fewer late-night snacks than similar participants who skipped breakfast."
+      },
+      {
+        "key": "B",
+        "text": "Breakfast foods vary by culture."
+      },
+      {
+        "key": "C",
+        "text": "Some people dislike cereal."
+      },
+      {
+        "key": "D",
+        "text": "The study used a questionnaire."
+      },
+      {
+        "key": "E",
+        "text": "Late-night snacking is common."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "Une étude comparative montrant moins de grignotage chez les personnes prenant un petit-déjeuner renforce directement la conclusion.",
+    "estimatedTimeSeconds": 105
+  },
+  {
+    "id": "g5-cr-25",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "evaluate",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "passageOrStimulus": "A delivery company is deciding whether to shift from same-day to next-day shipping for most orders.",
+    "stem": "Which of the following would be most useful to evaluate the decision?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "Whether customers would cancel orders if delivery took one extra day."
+      },
+      {
+        "key": "B",
+        "text": "Whether the company has branded trucks."
+      },
+      {
+        "key": "C",
+        "text": "Whether packages are labeled with barcodes."
+      },
+      {
+        "key": "D",
+        "text": "Whether employees like overtime pay."
+      },
+      {
+        "key": "E",
+        "text": "Whether the warehouses are painted yellow."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "L’enjeu essentiel est la réaction des clients à un délai supplémentaire d’un jour.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g5-cr-26",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "assumption",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "passageOrStimulus": "A student says that studying in the library is better than studying at home because the library is quieter.",
+    "stem": "Which of the following is an assumption on which the argument depends?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "The student can actually focus better in quiet places."
+      },
+      {
+        "key": "B",
+        "text": "The library is open every day."
+      },
+      {
+        "key": "C",
+        "text": "Books are available at the library."
+      },
+      {
+        "key": "D",
+        "text": "The student owns a laptop."
+      },
+      {
+        "key": "E",
+        "text": "Home internet is slow."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "L’argument doit supposer que le calme améliore réellement la concentration de cet étudiant.",
+    "estimatedTimeSeconds": 90
+  },
+  {
+    "id": "g5-cr-27",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "inference",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "passageOrStimulus": "A report says that all of a firm's interns received training, but only half received mentors.",
+    "stem": "Which of the following can be inferred?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "At least one intern received training without a mentor."
+      },
+      {
+        "key": "B",
+        "text": "No intern received both training and a mentor."
+      },
+      {
+        "key": "C",
+        "text": "All interns had mentors."
+      },
+      {
+        "key": "D",
+        "text": "Some interns were not trained."
+      },
+      {
+        "key": "E",
+        "text": "The firm hired only one intern."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "Puisque tous ont été formés et que seuls certains ont un mentor, au moins un stagiaire a reçu la formation sans mentor.",
+    "estimatedTimeSeconds": 105
+  },
+  {
+    "id": "g5-cr-28",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "weaken",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "passageOrStimulus": "A manufacturer claims that changing the packaging of its cereal increased sales because sales rose after the redesign.",
+    "stem": "Which of the following, if true, most weakens the claim?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "The cereal was also placed on a lower shelf where shoppers were more likely to notice it."
+      },
+      {
+        "key": "B",
+        "text": "The new package used brighter colors."
+      },
+      {
+        "key": "C",
+        "text": "Some customers said they liked the old logo."
+      },
+      {
+        "key": "D",
+        "text": "The redesign took six months."
+      },
+      {
+        "key": "E",
+        "text": "The cereal was sold in several stores."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "Le repositionnement en rayon fournit une explication concurrente à l’augmentation des ventes.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g5-cr-29",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "strengthen",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "passageOrStimulus": "A school district argues that later start times will improve attendance because more students arrive late on early-start days.",
+    "stem": "Which of the following, if true, most strengthens the argument?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "On days when classes started later, the district recorded fewer tardy arrivals than on comparable early-start days."
+      },
+      {
+        "key": "B",
+        "text": "Some students prefer morning sports."
+      },
+      {
+        "key": "C",
+        "text": "The district has many buses."
+      },
+      {
+        "key": "D",
+        "text": "Teachers usually arrive early."
+      },
+      {
+        "key": "E",
+        "text": "The school colors are blue and gold."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "Une comparaison directe montrant moins de retards avec un démarrage plus tardif soutient la conclusion.",
+    "estimatedTimeSeconds": 105
+  },
+  {
+    "id": "g5-cr-30",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "evaluate",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "passageOrStimulus": "A nonprofit is considering a fundraising dinner.",
+    "stem": "Which of the following would be most useful to evaluate the plan?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "Whether the expected ticket sales would cover the cost of the venue and catering."
+      },
+      {
+        "key": "B",
+        "text": "Whether the event would be held on a weekend."
+      },
+      {
+        "key": "C",
+        "text": "Whether the nonprofit has a website."
+      },
+      {
+        "key": "D",
+        "text": "Whether volunteers prefer formal attire."
+      },
+      {
+        "key": "E",
+        "text": "Whether donors enjoy music."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "Le critère décisif est que les recettes prévues couvrent les coûts de l’événement.",
+    "estimatedTimeSeconds": 90
+  },
+  {
+    "id": "g5-cr-31",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "assumption",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "passageOrStimulus": "An app developer claims that adding a dark mode will reduce eye strain because users spend many hours on the app at night.",
+    "stem": "Which of the following is an assumption on which the argument depends?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "The app is bright enough that reducing screen brightness would matter to users."
+      },
+      {
+        "key": "B",
+        "text": "Most users live in apartments."
+      },
+      {
+        "key": "C",
+        "text": "The app already has a search feature."
+      },
+      {
+        "key": "D",
+        "text": "Users prefer free apps."
+      },
+      {
+        "key": "E",
+        "text": "The developer can update the app quickly."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "L’argument suppose que l’écran actuel est suffisamment lumineux pour que le mode sombre ait un effet réel sur la fatigue visuelle.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g5-cr-32",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "inference",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "passageOrStimulus": "A company's annual report says that revenue rose in every quarter, while expenses rose only in the first two quarters.",
+    "stem": "Which of the following can be inferred?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "There was at least one quarter in which profit improved relative to the previous quarter."
+      },
+      {
+        "key": "B",
+        "text": "Expenses never rose."
+      },
+      {
+        "key": "C",
+        "text": "Revenue always exceeded expenses by the same amount."
+      },
+      {
+        "key": "D",
+        "text": "The company had no debt."
+      },
+      {
+        "key": "E",
+        "text": "Revenue grew more slowly than expenses in all quarters."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "Si le chiffre d’affaires a augmenté chaque trimestre et les dépenses seulement au début, il y a au moins un trimestre où la rentabilité s’est améliorée.",
+    "estimatedTimeSeconds": 105
+  },
+  {
+    "id": "g5-cr-33",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "weaken",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "passageOrStimulus": "An insurer says that its new phone-based screening system reduced fraudulent claims because the share of suspicious claims declined after it was introduced.",
+    "stem": "Which of the following, if true, most weakens the claim?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "The system was introduced at the same time a new law imposed heavier penalties for fraud."
+      },
+      {
+        "key": "B",
+        "text": "More employees were trained on the new system."
+      },
+      {
+        "key": "C",
+        "text": "The insurer added a chatbot for routine questions."
+      },
+      {
+        "key": "D",
+        "text": "The company improved its website layout."
+      },
+      {
+        "key": "E",
+        "text": "Customers submitted fewer paper forms."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "Une nouvelle loi avec sanctions renforcées fournit une autre raison plausible de la baisse des demandes suspectes.",
+    "estimatedTimeSeconds": 120
+  }
+]

@@ -1,0 +1,514 @@
+[
+  {
+    "id": "g5-ds-01",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "linear equations",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "What is the value of x?\n\n(1) $2x + 3 = 11$\n(2) x is an integer less than 10",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "Statement (1) gives x = 4 directly, so it is sufficient. Statement (2) alone is not sufficient.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g5-ds-02",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "integers",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "Is x negative?\n\n(1) $x^{2} = 36$\n(2) $x < -1$",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "Statement (1) allows x = 6 or x = -6, so it is not sufficient. Statement (2) alone guarantees x is negative, so it is sufficient.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g5-ds-03",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "systems",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "What is the value of x?\n\n(1) $x + y = 9$\n(2) $x - y = 1$",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "Neither statement alone gives x. Together, adding the equations yields 2x = 10, so x = 5.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g5-ds-04",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "divisibility",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "Is x divisible by 3?\n\n(1) x is a multiple of 6\n(2) x is a multiple of 9",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "D"
+    },
+    "explanation": "Each statement alone implies divisibility by 3, so each alone is sufficient.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g5-ds-05",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "quadratic equations",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "What is the value of x?\n\n(1) $x^{2} = 49$\n(2) $x < 0$",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "Statement (1) gives x = 7 or x = -7. Statement (2) narrows it to the negative solution only. Together, x = -7.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g5-ds-06",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "primes",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "Is n prime?\n\n(1) n is odd\n(2) n is greater than 2",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "E"
+    },
+    "explanation": "An odd number greater than 2 can be prime or composite, and the two statements together still do not determine primality.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g5-ds-07",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "linear equations",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "What is the value of x?\n\n(1) $x/4 = 3$\n(2) x is a multiple of 3",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "Statement (1) gives x = 12 directly. Statement (2) alone is not sufficient.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g5-ds-08",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "integers",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "What is the value of x?\n\n(1) x is a multiple of 5 less than 20\n(2) x is odd and greater than 10",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "Statement (1) gives {5, 10, 15}; statement (2) gives {11, 13, 15, 17, 19}. Together, the only common value is 15.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g5-ds-09",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "even/odd",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "Is x even?\n\n(1) x is a multiple of 4\n(2) x leaves a remainder of 2 when divided by 4",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "D"
+    },
+    "explanation": "Each statement alone implies that x is even.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g5-ds-10",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "linear equations",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "What is the value of x?\n\n(1) $x/2 = 6$\n(2) x is a factor of 18",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "Statement (1) gives x = 12 directly. Statement (2) alone is not sufficient.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g5-ds-11",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "linear equations",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "What is the value of x?\n\n(1) $x < 0$\n(2) $5x = 20$",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "Statement (1) gives only a sign, not a value. Statement (2) gives x = 4 directly.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g5-ds-12",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "systems",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "What is the value of x?\n\n(1) $x + y = 10$\n(2) $x - y = 4$",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "Neither statement alone is sufficient. Together, adding the equations gives 2x = 14, so x = 7.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g5-ds-13",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "even/odd",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "Is x positive?\n\n(1) x is a square of a nonzero integer\n(2) x is twice a positive integer",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "D"
+    },
+    "explanation": "Each statement alone implies x is positive.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g5-ds-14",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "integers",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "stem": "What is the value of x?\n\n(1) x is an integer with $x^{2} < 10$\n(2) x is an integer greater than 0 and less than 5",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "E"
+    },
+    "explanation": "Statement (1) gives x in {-3,-2,-1,0,1,2,3}. Statement (2) gives x in {1,2,3,4}. Together, x could still be 1, 2, or 3, so the value is not unique.",
+    "estimatedTimeSeconds": 150
+  },
+  {
+    "id": "g5-ds-15",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "linear equations",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "What is the value of x?\n\n(1) $2x + 1 = 15$\n(2) x is prime and greater than 5",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "Statement (1) gives x = 7 directly. Statement (2) alone is not sufficient.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g5-ds-16",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "integers",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "What is the value of n?\n\n(1) n is even and less than 10\n(2) $3n = 21$",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "Statement (1) leaves several possibilities. Statement (2) gives n = 7 directly.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g5-ds-17",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "quadratics",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "What is the value of x?\n\n(1) $x^{2} = 64$\n(2) $x < 0$",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "Statement (1) gives x = 8 or x = -8. Statement (2) alone is insufficient. Together, x = -8.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g5-ds-18",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "comparisons",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "Is x greater than 5?\n\n(1) x is a positive multiple of 6\n(2) x is an integer greater than 7",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "D"
+    },
+    "explanation": "Each statement alone guarantees x > 5.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g5-ds-19",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "triangles",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "stem": "Is the triangle isosceles?\n\n(1) Two angles of the triangle sum to 90 degrees\n(2) One side of the triangle has length 5",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "E"
+    },
+    "explanation": "Neither statement determines whether two sides are equal, even when combined.",
+    "estimatedTimeSeconds": 150
+  },
+  {
+    "id": "g5-ds-20",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "linear equations",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "What is the value of m?\n\n(1) $m/5 = 8$\n(2) m is a factor of 40",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "Statement (1) gives m = 40 directly. Statement (2) alone is not sufficient.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g5-ds-21",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "linear equations",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "What is the value of x?\n\n(1) x is odd\n(2) $x + 4 = 11$",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "Statement (1) is too broad. Statement (2) gives x = 7 directly.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g5-ds-22",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "quadratics",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "Is x equal to 2?\n\n(1) $x^{2} = 4$\n(2) $x > 0$",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "Statement (1) gives x = 2 or x = -2. Statement (2) alone is insufficient. Together, x must be 2.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g5-ds-23",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "sign",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "Is x negative?\n\n(1) $x < -1$\n(2) x is a negative integer",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "D"
+    },
+    "explanation": "Each statement alone implies x < 0.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g5-ds-24",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "factors",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "stem": "What is the value of t?\n\n(1) t is a factor of 12\n(2) t is a factor of 18",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "E"
+    },
+    "explanation": "The common factors of 12 and 18 are 1, 2, 3, and 6, so the value of t is not unique even using both statements.",
+    "estimatedTimeSeconds": 150
+  },
+  {
+    "id": "g5-ds-25",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "linear equations",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "What is the value of x?\n\n(1) $x + 2 = 9$\n(2) x is a multiple of 3",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "Statement (1) gives x = 7 directly. Statement (2) alone is not sufficient.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g5-ds-26",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "integers",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "What is the value of n?\n\n(1) n is even\n(2) $2n = 18$",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "Statement (1) gives several possibilities. Statement (2) gives n = 9 directly.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g5-ds-27",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "quadratics",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "What is the value of x?\n\n(1) $x^{2} = 9$\n(2) $x > 0$",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "Statement (1) gives x = 3 or x = -3. Statement (2) alone is insufficient. Together, x = 3.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g5-ds-28",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "divisibility",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "Is x a multiple of 4?\n\n(1) x is a multiple of 8\n(2) x is a multiple of 12",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "D"
+    },
+    "explanation": "Each statement alone implies divisibility by 4.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g5-ds-29",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "factors",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "stem": "What is the value of k?\n\n(1) k is a factor of 20\n(2) k is a factor of 30",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "E"
+    },
+    "explanation": "Even together, the statements only narrow k to 1, 2, 5, or 10.",
+    "estimatedTimeSeconds": 150
+  },
+  {
+    "id": "g5-ds-30",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "linear equations",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "What is the value of x?\n\n(1) $4x = 28$\n(2) x is a multiple of 7",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "Statement (1) gives x = 7 directly. Statement (2) alone is not sufficient.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g5-ds-31",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "linear equations",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "What is the value of x?\n\n(1) $x < 5$\n(2) $x + 3 = 11$",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "Statement (1) gives only an inequality. Statement (2) gives x = 8 directly.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g5-ds-32",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "systems",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "What is the value of x?\n\n(1) $x + y = 8$\n(2) $x - y = 2$",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "Neither statement alone is sufficient. Together, adding the equations gives 2x = 10, so x = 5.",
+    "estimatedTimeSeconds": 120
+  }
+]
