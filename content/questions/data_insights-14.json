@@ -1,0 +1,514 @@
+[
+  {
+    "id": "g6-ds-01",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "linear equations",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "What is the value of x?\n\n(1) $x + 3 = 7$\n(2) x is even",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "(1) donne x = 4. (2) seul ne fixe pas une valeur unique.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g6-ds-02",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "quadratics",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "Is y positive?\n\n(1) $y^{2} = 16$\n(2) $y = 4$",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "(2) donne directement yes. (1) seul donne y = 4 ou y = -4.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g6-ds-03",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "number properties",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "What is z?\n\n(1) z is a positive integer less than 4\n(2) $z^{2} = 4$",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "(1) seul laisse 1, 2 ou 3. (2) seul laisse 2 ou -2. Ensemble, z = 2.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g6-ds-04",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "squares",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "What is the perimeter of the square?\n\n(1) The side length is 7\n(2) The perimeter is 28",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "D"
+    },
+    "explanation": "Chaque statement donne directement le périmètre.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g6-ds-05",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "divisibility",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "Is n divisible by 3?\n\n(1) $n = 6k$ for some integer k\n(2) $n = 2k$ for some integer k",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "Tout multiple de 6 est divisible par 3. Un multiple de 2 ne l’est pas forcément.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g6-ds-06",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "two variables",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "What is p?\n\n(1) $2p + q = 10$\n(2) $q = 4$",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "(1) seul ne suffit pas. (2) donne q mais pas p. Ensemble, p = 3.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g6-ds-07",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "sign",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "Is t negative?\n\n(1) $t^{2} = 9$\n(2) $t < 0$",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "(2) seul suffit à répondre yes. (1) seul donne 3 ou -3.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g6-ds-08",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "one variable",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "What is r?\n\n(1) $r/5 = 3$\n(2) $2r = 30$",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "D"
+    },
+    "explanation": "Chaque statement donne r = 15.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g6-ds-09",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "primality",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "stem": "Is a prime?\n\n(1) a is an even integer greater than 2\n(2) $a < 10$",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "Tout entier pair supérieur à 2 n’est pas premier. (2) seul ne suffit pas.",
+    "estimatedTimeSeconds": 150
+  },
+  {
+    "id": "g6-ds-10",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "area of rectangle",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "What is the area of the rectangle?\n\n(1) The length is 8 and the width is 3\n(2) The perimeter is 22",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "(1) donne l’aire 24. (2) seul permet plusieurs rectangles possibles.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g6-ds-11",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "cubes and signs",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "Is k greater than 0?\n\n(1) $k^{3} > 0$\n(2) k is an integer",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "Si $k^{3}$ > 0, alors k > 0. (2) seul ne suffit pas.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g6-ds-12",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "triangle area",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "What is the area of the triangle?\n\n(1) The base is 10 and the height is 6\n(2) The perimeter is 24",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "(1) donne directement l’aire: 1/2 × 10 × 6 = 30. (2) seul est insuffisant.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g6-ds-13",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "parity",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "Is m greater than 0?\n\n(1) $m^{2} = 25$\n(2) m is a multiple of 5 and less than 0",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "(2) seul répond non. (1) seul donne 5 ou -5.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g6-ds-14",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "one variable",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "What is the value of s?\n\n(1) $s + 2 = 9$\n(2) s is odd",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "(1) donne s = 7. (2) seul laisse plusieurs possibilités impaires.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g6-ds-15",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "quadratics",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "What is the value of u?\n\n(1) $u^{2} = 49$\n(2) u is negative",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "(1) donne 7 ou -7. (2) seul ne donne pas une valeur. Ensemble, u = -7.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g6-ds-16",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "system of equations",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "What is w?\n\n(1) w is a solution to $w^{2} = 1$\n(2) $w > 0$",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "(1) donne 1 ou -1. (2) seul n’est pas suffisant. Ensemble, w = 1.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g6-ds-17",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "system of equations",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "What is the sum of x and y?\n\n(1) $x + y = 12$\n(2) $x - y = 4$",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "L'énoncé (1) x + y = 12 donne directement la somme demandée. L'énoncé (2) x − y = 4 ne la fixe pas : par exemple x = 4, y = 0 donne une somme de 4, alors que x = 5, y = 1 donne une somme de 6. Seul l'énoncé (1) suffit.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g6-ds-18",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "multiples",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "Is q even?\n\n(1) q is a multiple of 4\n(2) q is a multiple of 3",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "Tout multiple de 4 est pair. Un multiple de 3 n’est pas forcément pair.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g6-ds-19",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "one variable",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "What is the value of c?\n\n(1) $3c = 27$\n(2) $c + 1 = 10$",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "D"
+    },
+    "explanation": "Chaque statement donne c = 9.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g6-ds-20",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "triangle classification",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "Is the triangle isosceles?\n\n(1) Two angles are 50° and 50°\n(2) The third angle is 80°",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "Deux angles égaux impliquent un triangle isocèle. (2) seul ne permet pas de conclure.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g6-ds-21",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "quadratics",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "What is the value of h?\n\n(1) $h^{2} = 16$\n(2) $h = 4$",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "(2) donne directement h = 4. (1) seul donne 4 ou -4.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g6-ds-22",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "inequalities",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "Is p greater than 10?\n\n(1) p is an integer between 9 and 12\n(2) p is odd",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "(1) laisse 10 ou 11. (2) laisse plusieurs nombres impairs. Ensemble, p = 11.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g6-ds-23",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "circles",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "What is the area of the circle?\n\n(1) The radius is 3\n(2) The circumference is 6π",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "D"
+    },
+    "explanation": "Chaque statement détermine le rayon et donc l’aire.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g6-ds-24",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "comparison",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "Is $x/y$ greater than 1?\n\n(1) $x = 2y$\n(2) x and y are positive",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "Si x = 2y, alors x/y = 2, donc yes. (2) seul ne suffit pas.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g6-ds-25",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "finite set",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "stem": "What is k?\n\n(1) k is a factor of 12\n(2) k is even",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "E"
+    },
+    "explanation": "(1) seul laisse 1,2,3,4,6,12. (2) seul laisse plusieurs pairs. Ensemble, k peut encore être 2, 4, 6 ou 12.",
+    "estimatedTimeSeconds": 150
+  },
+  {
+    "id": "g6-ds-26",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "primality",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "stem": "Is m prime?\n\n(1) m is odd\n(2) m is less than 10",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "E"
+    },
+    "explanation": "Ensemble, m peut être 3, 5, 7 ou 9, donc on ne peut pas conclure qu’il est premier.",
+    "estimatedTimeSeconds": 150
+  },
+  {
+    "id": "g6-ds-27",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "inequalities",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "stem": "Is x greater than 0?\n\n(1) $x^{2} - 4x > 0$\n(2) $x < 4$",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "(1) implique x < 0 ou x > 4. Avec (2), il reste x < 0, donc la réponse est non.",
+    "estimatedTimeSeconds": 150
+  },
+  {
+    "id": "g6-ds-28",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "one variable",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "What is the value of t?\n\n(1) $t + 5 = 12$\n(2) t is even",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "(1) donne t = 7. (2) seul laisse plusieurs valeurs paires.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g6-ds-29",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "prime numbers",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "stem": "Is r greater than 2?\n\n(1) r is a prime number\n(2) r is an even number",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "Un nombre à la fois premier et pair ne peut être que 2, donc la réponse est non.",
+    "estimatedTimeSeconds": 150
+  },
+  {
+    "id": "g6-ds-30",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "one variable",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "What is the value of a?\n\n(1) $a/2 = 7$\n(2) $a - 1 = 13$",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "D"
+    },
+    "explanation": "Chaque statement donne a = 14.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g6-ds-31",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "cubes",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "Is b negative?\n\n(1) $b^{3} = -8$\n(2) b is an integer",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "$b^{3}$ = -8 implique b = -2. (2) seul est insuffisant.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g6-ds-32",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "odd and even",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "Is m odd?\n\n(1) m is an integer and $m^{2}$ is odd\n(2) $m + 1$ is even",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "D"
+    },
+    "explanation": "Un entier dont le carré est impair est impair, et si m + 1 est pair alors m est impair aussi.",
+    "estimatedTimeSeconds": 120
+  }
+]

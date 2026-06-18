@@ -1,0 +1,1218 @@
+[
+  {
+    "id": "g6-quant-01",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "linear equations",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "What is the value of x if $3x + 7 = 31$?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "6"
+      },
+      {
+        "key": "B",
+        "text": "7"
+      },
+      {
+        "key": "C",
+        "text": "8"
+      },
+      {
+        "key": "D",
+        "text": "9"
+      },
+      {
+        "key": "E",
+        "text": "10"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "3x = 24, donc x = 8.",
+    "estimatedTimeSeconds": 90
+  },
+  {
+    "id": "g6-quant-02",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "ratios",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "The ratio of apples to oranges in a basket is 3 to 5. If there are 40 fruits in total, how many apples are there?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "12"
+      },
+      {
+        "key": "B",
+        "text": "15"
+      },
+      {
+        "key": "C",
+        "text": "18"
+      },
+      {
+        "key": "D",
+        "text": "24"
+      },
+      {
+        "key": "E",
+        "text": "30"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "Le total fait 8 parts. Une part vaut 40/8 = 5, donc 3 parts valent 15.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g6-quant-03",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "fractions",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "What is $3/4$ of 28?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "18"
+      },
+      {
+        "key": "B",
+        "text": "20"
+      },
+      {
+        "key": "C",
+        "text": "21"
+      },
+      {
+        "key": "D",
+        "text": "22"
+      },
+      {
+        "key": "E",
+        "text": "24"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "3/4 × 28 = 21.",
+    "estimatedTimeSeconds": 90
+  },
+  {
+    "id": "g6-quant-04",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "area",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "A rectangle has length 12 and width 7. What is its area?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "38"
+      },
+      {
+        "key": "B",
+        "text": "42"
+      },
+      {
+        "key": "C",
+        "text": "56"
+      },
+      {
+        "key": "D",
+        "text": "72"
+      },
+      {
+        "key": "E",
+        "text": "84"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "E"
+    },
+    "explanation": "Aire = 12 × 7 = 84.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g6-quant-05",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "work rates",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "stem": "Machine A can complete a task in 6 hours, and Machine B can complete the same task in 10 hours. Working together, how long do they take to complete the task?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "3 hours 30 minutes"
+      },
+      {
+        "key": "B",
+        "text": "3 hours 45 minutes"
+      },
+      {
+        "key": "C",
+        "text": "4 hours"
+      },
+      {
+        "key": "D",
+        "text": "4 hours 15 minutes"
+      },
+      {
+        "key": "E",
+        "text": "5 hours"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "Le taux commun est 1/6 + 1/10 = 4/15 tâche par heure. Le temps est 15/4 heure, soit 3 h 45 min.",
+    "estimatedTimeSeconds": 150
+  },
+  {
+    "id": "g6-quant-06",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "averages",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "The average of 4 numbers is 15. If three of the numbers are 12, 14, and 16, what is the fourth number?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "13"
+      },
+      {
+        "key": "B",
+        "text": "14"
+      },
+      {
+        "key": "C",
+        "text": "15"
+      },
+      {
+        "key": "D",
+        "text": "16"
+      },
+      {
+        "key": "E",
+        "text": "18"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "E"
+    },
+    "explanation": "La somme totale est 4 × 15 = 60. Les trois nombres connus font 42, donc le quatrième vaut 18.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g6-quant-07",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "exponents",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "What is the value of $2^{3}$ × $2^{4}$?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "32"
+      },
+      {
+        "key": "B",
+        "text": "64"
+      },
+      {
+        "key": "C",
+        "text": "96"
+      },
+      {
+        "key": "D",
+        "text": "128"
+      },
+      {
+        "key": "E",
+        "text": "256"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "D"
+    },
+    "explanation": "On additionne les exposants: 2^(3+4) = $2^{7}$ = 128.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g6-quant-08",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "angles",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "stem": "In a triangle, two angles measure 35° and 75°. What is the measure of the third angle?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "55°"
+      },
+      {
+        "key": "B",
+        "text": "60°"
+      },
+      {
+        "key": "C",
+        "text": "65°"
+      },
+      {
+        "key": "D",
+        "text": "70°"
+      },
+      {
+        "key": "E",
+        "text": "75°"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "D"
+    },
+    "explanation": "La somme des angles d’un triangle est 180°. Le troisième angle vaut 180 - 35 - 75 = 70°.",
+    "estimatedTimeSeconds": 150
+  },
+  {
+    "id": "g6-quant-09",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "coin tosses",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "If two fair coins are tossed, what is the probability of getting exactly one head?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "1/4"
+      },
+      {
+        "key": "B",
+        "text": "1/2"
+      },
+      {
+        "key": "C",
+        "text": "3/4"
+      },
+      {
+        "key": "D",
+        "text": "2/3"
+      },
+      {
+        "key": "E",
+        "text": "1"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "Les cas favorables sont HT et TH, soit 2 cas sur 4. La probabilité est 1/2.",
+    "estimatedTimeSeconds": 90
+  },
+  {
+    "id": "g6-quant-10",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "speed",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "A car travels 150 miles at a constant speed of 50 miles per hour. How long does the trip take?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "3 hours"
+      },
+      {
+        "key": "B",
+        "text": "4 hours"
+      },
+      {
+        "key": "C",
+        "text": "2 hours"
+      },
+      {
+        "key": "D",
+        "text": "5 hours"
+      },
+      {
+        "key": "E",
+        "text": "6 hours"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "Temps = distance / vitesse = 150 / 50 = 3 heures.",
+    "estimatedTimeSeconds": 90
+  },
+  {
+    "id": "g6-quant-11",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "median",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "What is the median of the numbers 2, 5, 7, 9, and 11?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "5"
+      },
+      {
+        "key": "B",
+        "text": "6"
+      },
+      {
+        "key": "C",
+        "text": "7"
+      },
+      {
+        "key": "D",
+        "text": "8"
+      },
+      {
+        "key": "E",
+        "text": "9"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "La liste est déjà ordonnée et la valeur centrale est 7.",
+    "estimatedTimeSeconds": 90
+  },
+  {
+    "id": "g6-quant-12",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "discounts",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "A \\$80 item is discounted by 30%. What is the sale price?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "$50"
+      },
+      {
+        "key": "B",
+        "text": "$54"
+      },
+      {
+        "key": "C",
+        "text": "$56"
+      },
+      {
+        "key": "D",
+        "text": "$58"
+      },
+      {
+        "key": "E",
+        "text": "$60"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "30 % de 80 vaut 24. Le prix final est 80 - 24 = 56.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g6-quant-13",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "one variable",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "What is the value of x if $x/3 + 4 = 10$?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "12"
+      },
+      {
+        "key": "B",
+        "text": "15"
+      },
+      {
+        "key": "C",
+        "text": "16"
+      },
+      {
+        "key": "D",
+        "text": "17"
+      },
+      {
+        "key": "E",
+        "text": "18"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "E"
+    },
+    "explanation": "x/3 = 6, donc x = 18.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g6-quant-14",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "sequences",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "A sequence begins 2, 6, 18, 54. If the pattern continues, what is the next term?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "81"
+      },
+      {
+        "key": "B",
+        "text": "108"
+      },
+      {
+        "key": "C",
+        "text": "162"
+      },
+      {
+        "key": "D",
+        "text": "243"
+      },
+      {
+        "key": "E",
+        "text": "486"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "Chaque terme est multiplié par 3. Le prochain terme est 54 × 3 = 162.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g6-quant-15",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "perimeter",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "A square has side length 9. What is its perimeter?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "18"
+      },
+      {
+        "key": "B",
+        "text": "36"
+      },
+      {
+        "key": "C",
+        "text": "45"
+      },
+      {
+        "key": "D",
+        "text": "72"
+      },
+      {
+        "key": "E",
+        "text": "81"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "Le périmètre d’un carré est 4 fois le côté: 4 × 9 = 36.",
+    "estimatedTimeSeconds": 90
+  },
+  {
+    "id": "g6-quant-16",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "distance",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "What is the distance between the points (0,0) and (6,8)?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "10"
+      },
+      {
+        "key": "B",
+        "text": "12"
+      },
+      {
+        "key": "C",
+        "text": "14"
+      },
+      {
+        "key": "D",
+        "text": "8"
+      },
+      {
+        "key": "E",
+        "text": "6"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "Distance = racine de ($6^{2}$ + $8^{2}$) = racine de 100 = 10.",
+    "estimatedTimeSeconds": 90
+  },
+  {
+    "id": "g6-quant-17",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "fractions",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "A bag contains 3 red balls, 2 blue balls, and 5 green balls. What is the probability of drawing a red ball at random?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "3/10"
+      },
+      {
+        "key": "B",
+        "text": "2/5"
+      },
+      {
+        "key": "C",
+        "text": "1/2"
+      },
+      {
+        "key": "D",
+        "text": "3/5"
+      },
+      {
+        "key": "E",
+        "text": "1/3"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "Il y a 10 boules au total, dont 3 rouges. La probabilité est 3/10.",
+    "estimatedTimeSeconds": 90
+  },
+  {
+    "id": "g6-quant-18",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "consecutive integers",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "The sum of three consecutive integers is 39. What is the middle integer?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "11"
+      },
+      {
+        "key": "B",
+        "text": "12"
+      },
+      {
+        "key": "C",
+        "text": "14"
+      },
+      {
+        "key": "D",
+        "text": "13"
+      },
+      {
+        "key": "E",
+        "text": "15"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "D"
+    },
+    "explanation": "Trois entiers consécutifs autour de 13 sont 12, 13 et 14, et leur somme est 39.",
+    "estimatedTimeSeconds": 90
+  },
+  {
+    "id": "g6-quant-19",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "linear equations",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "What is the value of x if $2x - 5 = x + 9$?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "11"
+      },
+      {
+        "key": "B",
+        "text": "12"
+      },
+      {
+        "key": "C",
+        "text": "13"
+      },
+      {
+        "key": "D",
+        "text": "15"
+      },
+      {
+        "key": "E",
+        "text": "14"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "E"
+    },
+    "explanation": "On regroupe les termes: x = 14.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g6-quant-20",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "circles",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "What is the circumference of a circle with radius 3?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "3π"
+      },
+      {
+        "key": "B",
+        "text": "9π"
+      },
+      {
+        "key": "C",
+        "text": "6π"
+      },
+      {
+        "key": "D",
+        "text": "12π"
+      },
+      {
+        "key": "E",
+        "text": "18π"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "Circonférence = 2πr = 2π × 3 = 6π.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g6-quant-21",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "simple interest",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "stem": "What is the simple interest on \\$2,000 at an annual rate of 5% for 2 years?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "$50"
+      },
+      {
+        "key": "B",
+        "text": "$100"
+      },
+      {
+        "key": "C",
+        "text": "$150"
+      },
+      {
+        "key": "D",
+        "text": "$250"
+      },
+      {
+        "key": "E",
+        "text": "$200"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "E"
+    },
+    "explanation": "Intérêt simple = principal × taux × temps = 2000 × 0,05 × 2 = 200.",
+    "estimatedTimeSeconds": 150
+  },
+  {
+    "id": "g6-quant-22",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "inclusion-exclusion",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "stem": "In a class, 20 students take music, 15 take art, and 5 take both. How many students take at least one of the two subjects?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "25"
+      },
+      {
+        "key": "B",
+        "text": "27"
+      },
+      {
+        "key": "C",
+        "text": "28"
+      },
+      {
+        "key": "D",
+        "text": "30"
+      },
+      {
+        "key": "E",
+        "text": "35"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "D"
+    },
+    "explanation": "On additionne puis on soustrait l’intersection: 20 + 15 - 5 = 30.",
+    "estimatedTimeSeconds": 150
+  },
+  {
+    "id": "g6-quant-23",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "average speed",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "stem": "A traveler covers equal distances at 40 miles per hour and 60 miles per hour. What is the average speed for the entire trip?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "50 mph"
+      },
+      {
+        "key": "B",
+        "text": "45 mph"
+      },
+      {
+        "key": "C",
+        "text": "52 mph"
+      },
+      {
+        "key": "D",
+        "text": "40 mph"
+      },
+      {
+        "key": "E",
+        "text": "48 mph"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "E"
+    },
+    "explanation": "Pour deux distances égales, la vitesse moyenne est la moyenne harmonique: 2ab/(a+b) = 2×40×60/100 = 48.",
+    "estimatedTimeSeconds": 150
+  },
+  {
+    "id": "g6-quant-24",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "quadratics",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "stem": "If $(x - 2)(x + 2) = 0$ and x is positive, what is x?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "2"
+      },
+      {
+        "key": "B",
+        "text": "-2"
+      },
+      {
+        "key": "C",
+        "text": "4"
+      },
+      {
+        "key": "D",
+        "text": "0"
+      },
+      {
+        "key": "E",
+        "text": "1"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "Les solutions sont 2 et -2. Comme x est positif, x = 2.",
+    "estimatedTimeSeconds": 150
+  },
+  {
+    "id": "g6-quant-25",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "remainders",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "What is the remainder when 17 is divided by 5?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "0"
+      },
+      {
+        "key": "B",
+        "text": "2"
+      },
+      {
+        "key": "C",
+        "text": "3"
+      },
+      {
+        "key": "D",
+        "text": "4"
+      },
+      {
+        "key": "E",
+        "text": "1"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "17 = 5 × 3 + 2, donc le reste est 2.",
+    "estimatedTimeSeconds": 90
+  },
+  {
+    "id": "g6-quant-26",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "similar figures",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "stem": "If the side length of a square is doubled, by what factor does its area change?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "2"
+      },
+      {
+        "key": "B",
+        "text": "3"
+      },
+      {
+        "key": "C",
+        "text": "4"
+      },
+      {
+        "key": "D",
+        "text": "5"
+      },
+      {
+        "key": "E",
+        "text": "6"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "L’aire varie avec le carré du facteur d’échelle. Doubler le côté multiplie l’aire par 4.",
+    "estimatedTimeSeconds": 150
+  },
+  {
+    "id": "g6-quant-27",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "permutations",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "How many different ways can 3 books be arranged on a shelf if 5 distinct books are available?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "20"
+      },
+      {
+        "key": "B",
+        "text": "30"
+      },
+      {
+        "key": "C",
+        "text": "40"
+      },
+      {
+        "key": "D",
+        "text": "50"
+      },
+      {
+        "key": "E",
+        "text": "60"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "E"
+    },
+    "explanation": "Il s’agit de 5P3 = 5 × 4 × 3 = 60.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g6-quant-28",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "at least one",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "stem": "If a fair coin is tossed twice, what is the probability of getting at least one head?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "1/4"
+      },
+      {
+        "key": "B",
+        "text": "1/2"
+      },
+      {
+        "key": "C",
+        "text": "2/3"
+      },
+      {
+        "key": "D",
+        "text": "3/4"
+      },
+      {
+        "key": "E",
+        "text": "1"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "D"
+    },
+    "explanation": "On utilise le complément: aucune tête = TT, probabilité 1/4. Donc au moins une tête = 3/4.",
+    "estimatedTimeSeconds": 150
+  },
+  {
+    "id": "g6-quant-29",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "rate and production",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "stem": "A machine produces 12 widgets in 3 hours at a constant rate. How many widgets can it produce in 5 hours?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "16"
+      },
+      {
+        "key": "B",
+        "text": "20"
+      },
+      {
+        "key": "C",
+        "text": "24"
+      },
+      {
+        "key": "D",
+        "text": "28"
+      },
+      {
+        "key": "E",
+        "text": "30"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "Le taux est 4 widgets par heure. En 5 heures, la machine produit 20 widgets.",
+    "estimatedTimeSeconds": 150
+  },
+  {
+    "id": "g6-quant-30",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "percent remaining",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "A person spends 40% of \\$250. How much money remains?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "$100"
+      },
+      {
+        "key": "B",
+        "text": "$125"
+      },
+      {
+        "key": "C",
+        "text": "$150"
+      },
+      {
+        "key": "D",
+        "text": "$175"
+      },
+      {
+        "key": "E",
+        "text": "$200"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "40 % de 250 vaut 100. Il reste 250 - 100 = 150.",
+    "estimatedTimeSeconds": 90
+  },
+  {
+    "id": "g6-quant-31",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "system of equations",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "If $x + y = 10$ and $x - y = 4$, what is x?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "5"
+      },
+      {
+        "key": "B",
+        "text": "6"
+      },
+      {
+        "key": "C",
+        "text": "7"
+      },
+      {
+        "key": "D",
+        "text": "8"
+      },
+      {
+        "key": "E",
+        "text": "9"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "En additionnant les deux équations, on obtient 2x = 14, donc x = 7.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g6-quant-32",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "volume scale factor",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "stem": "If all dimensions of a cube are multiplied by 3, by what factor does its volume change?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "9"
+      },
+      {
+        "key": "B",
+        "text": "18"
+      },
+      {
+        "key": "C",
+        "text": "21"
+      },
+      {
+        "key": "D",
+        "text": "27"
+      },
+      {
+        "key": "E",
+        "text": "36"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "D"
+    },
+    "explanation": "Le volume varie avec le cube du facteur d’échelle. Donc $3^{3}$ = 27.",
+    "estimatedTimeSeconds": 150
+  }
+]

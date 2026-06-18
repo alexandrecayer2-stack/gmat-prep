@@ -1,0 +1,1289 @@
+[
+  {
+    "id": "g6-cr-01",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "weaken",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "passageOrStimulus": "A bookstore says that its new reading lounge caused a 15% rise in sales last quarter.",
+    "stem": "Which of the following, if true, most weakens the claim?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "Most customers said the lounge was comfortable."
+      },
+      {
+        "key": "B",
+        "text": "The store began offering more staff recommendations at the same time."
+      },
+      {
+        "key": "C",
+        "text": "A nearby book festival drew more visitors to all local shops during the same quarter."
+      },
+      {
+        "key": "D",
+        "text": "The store expanded its children’s section."
+      },
+      {
+        "key": "E",
+        "text": "Sales rose more for hardcover books than for paperbacks."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "Une hausse générale du trafic dans les commerces voisins offre une autre cause plausible de la hausse des ventes.",
+    "estimatedTimeSeconds": 90
+  },
+  {
+    "id": "g6-cr-02",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "weaken",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "passageOrStimulus": "A school claims that its laptop program improved grades because students can now study more efficiently.",
+    "stem": "Which fact most weakens the claim?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "Teachers received training on the new laptops."
+      },
+      {
+        "key": "B",
+        "text": "Students in the program were also placed in smaller classes."
+      },
+      {
+        "key": "C",
+        "text": "Many students liked using the laptops."
+      },
+      {
+        "key": "D",
+        "text": "The school library extended its hours."
+      },
+      {
+        "key": "E",
+        "text": "The program was introduced at the start of a new grading period."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "Des classes plus petites constituent une autre explication plausible de l’amélioration des notes.",
+    "estimatedTimeSeconds": 90
+  },
+  {
+    "id": "g6-cr-03",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "weaken",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "passageOrStimulus": "A city says a new bus lane reduced commute times because buses now move faster.",
+    "stem": "Which fact most weakens the argument?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "The bus lane has clear markings."
+      },
+      {
+        "key": "B",
+        "text": "The commute-time data were collected during school holidays, when traffic was lighter than usual."
+      },
+      {
+        "key": "C",
+        "text": "Bus drivers were asked to stay on schedule."
+      },
+      {
+        "key": "D",
+        "text": "Passengers reported fewer transfers."
+      },
+      {
+        "key": "E",
+        "text": "The city also added new bus shelters."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "Si les données ont été prises pendant une période de trafic faible, la baisse de temps de trajet peut venir de là et non du bus lane.",
+    "estimatedTimeSeconds": 105
+  },
+  {
+    "id": "g6-cr-04",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "weaken",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "passageOrStimulus": "A charity argues that its email campaign raised donations because the message was more persuasive than earlier appeals.",
+    "stem": "Which fact most weakens the argument?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "Donations increased mainly from people who had donated in prior years."
+      },
+      {
+        "key": "B",
+        "text": "The email subject line mentioned a deadline."
+      },
+      {
+        "key": "C",
+        "text": "The charity redesigned its website that month."
+      },
+      {
+        "key": "D",
+        "text": "The organization sent fewer emails overall."
+      },
+      {
+        "key": "E",
+        "text": "The campaign included a short video."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "Si la hausse vient surtout de donateurs habituels, le message n’est pas forcément la cause principale.",
+    "estimatedTimeSeconds": 105
+  },
+  {
+    "id": "g6-cr-05",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "weaken",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "passageOrStimulus": "A company claims its solar panels save money over time.",
+    "stem": "Which fact most weakens the claim?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "The panels last more than ten years."
+      },
+      {
+        "key": "B",
+        "text": "The company offers free installation."
+      },
+      {
+        "key": "C",
+        "text": "Electricity prices rose last year."
+      },
+      {
+        "key": "D",
+        "text": "The calculation of savings ignores maintenance costs."
+      },
+      {
+        "key": "E",
+        "text": "Customers can finance the purchase."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "D"
+    },
+    "explanation": "Si les coûts d’entretien sont exclus du calcul, l’estimation des économies est trop optimiste.",
+    "estimatedTimeSeconds": 105
+  },
+  {
+    "id": "g6-cr-06",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "weaken",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "passageOrStimulus": "A gym says a new app improved member retention because it made workouts easier to plan.",
+    "stem": "Which fact most weakens the conclusion?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "The app includes calorie tracking."
+      },
+      {
+        "key": "B",
+        "text": "Retention had already begun rising before the app was launched."
+      },
+      {
+        "key": "C",
+        "text": "Many members downloaded the app."
+      },
+      {
+        "key": "D",
+        "text": "The gym added a new class format."
+      },
+      {
+        "key": "E",
+        "text": "Some users said scheduling was simpler."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "Si la rétention augmentait déjà avant le lancement, la hausse ne peut pas être attribuée principalement à l’app.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g6-cr-07",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "weaken",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "passageOrStimulus": "A retailer says new packaging reduced waste because customers now return fewer damaged products.",
+    "stem": "Which fact most weakens the claim?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "The packaging costs more to produce."
+      },
+      {
+        "key": "B",
+        "text": "Returns decreased only for products that were shipped through a different carrier."
+      },
+      {
+        "key": "C",
+        "text": "Customer surveys preferred the new design."
+      },
+      {
+        "key": "D",
+        "text": "The company hired more warehouse staff."
+      },
+      {
+        "key": "E",
+        "text": "Some waste was shifted to suppliers rather than eliminated overall."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "E"
+    },
+    "explanation": "Si le déchet a simplement été déplacé vers les fournisseurs, la réduction globale n’est pas démontrée.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g6-cr-08",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "weaken",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "passageOrStimulus": "A manager concludes that remote work improved productivity because output increased after the policy changed.",
+    "stem": "Which fact most weakens the conclusion?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "Employees spent less time commuting."
+      },
+      {
+        "key": "B",
+        "text": "The company added more software tools."
+      },
+      {
+        "key": "C",
+        "text": "The output measure was taken only for one team with unusually experienced staff."
+      },
+      {
+        "key": "D",
+        "text": "Many employees preferred working from home."
+      },
+      {
+        "key": "E",
+        "text": "The office was closed on Fridays."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "Un seul groupe atypique ne permet pas de généraliser l’effet à tous les employés.",
+    "estimatedTimeSeconds": 105
+  },
+  {
+    "id": "g6-cr-09",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "weaken",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "passageOrStimulus": "A training director says the new module reduced errors because staff learned procedures more clearly.",
+    "stem": "Which fact most weakens the claim?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "Error reports were filed later than before, so the recorded number of errors fell even if actual errors did not."
+      },
+      {
+        "key": "B",
+        "text": "The module included more examples."
+      },
+      {
+        "key": "C",
+        "text": "Employees completed the module on time."
+      },
+      {
+        "key": "D",
+        "text": "The trainer used simple language."
+      },
+      {
+        "key": "E",
+        "text": "The company offered certificates to employees."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "Si les erreurs sont simplement enregistrées plus tard, la baisse observée peut être artificielle.",
+    "estimatedTimeSeconds": 90
+  },
+  {
+    "id": "g6-cr-10",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "weaken",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "passageOrStimulus": "A store owner says longer checkout lines are fine because customers value more product choices.",
+    "stem": "Which fact most weakens the claim?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "The store added more product categories."
+      },
+      {
+        "key": "B",
+        "text": "Customers spent more time browsing shelves."
+      },
+      {
+        "key": "C",
+        "text": "The store offered a loyalty program."
+      },
+      {
+        "key": "D",
+        "text": "Surveyed customers said they left because the checkout line was too long."
+      },
+      {
+        "key": "E",
+        "text": "The store opened earlier in the day."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "D"
+    },
+    "explanation": "Si les clients partent à cause de la file, l’argument selon lequel ils acceptent volontiers l’attente tombe.",
+    "estimatedTimeSeconds": 105
+  },
+  {
+    "id": "g6-cr-11",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "weaken",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "passageOrStimulus": "A city claims its bike-share program increased ridership because it made short trips easier.",
+    "stem": "Which fact most weakens the claim?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "Ridership rose mostly in neighborhoods that recently gained new bike lanes."
+      },
+      {
+        "key": "B",
+        "text": "The program included more stations downtown."
+      },
+      {
+        "key": "C",
+        "text": "Many riders were new users."
+      },
+      {
+        "key": "D",
+        "text": "The bikes were painted bright colors."
+      },
+      {
+        "key": "E",
+        "text": "Some stations were near train stops."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "L’ajout de pistes cyclables dans certains quartiers fournit une autre explication plausible de la hausse.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g6-cr-12",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "strengthen",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "passageOrStimulus": "A company predicts that new eco-friendly packaging will increase sales because customers value sustainability.",
+    "stem": "Which fact most strengthens the prediction?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "In a pilot test, sales in two stores rose by 8% after the new packaging was introduced."
+      },
+      {
+        "key": "B",
+        "text": "The packaging costs slightly more to produce."
+      },
+      {
+        "key": "C",
+        "text": "Competitors also advertise sustainability."
+      },
+      {
+        "key": "D",
+        "text": "The packaging uses simpler graphics."
+      },
+      {
+        "key": "E",
+        "text": "The product has been sold for many years."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "Un test pilote montrant une hausse des ventes soutient directement la prédiction.",
+    "estimatedTimeSeconds": 90
+  },
+  {
+    "id": "g6-cr-13",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "strengthen",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "passageOrStimulus": "A cafeteria expects demand for plant-based meals to rise next term.",
+    "stem": "Which fact most strengthens the expectation?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "A survey found that 65% of students want more plant-based options."
+      },
+      {
+        "key": "B",
+        "text": "The cafeteria changed its logo."
+      },
+      {
+        "key": "C",
+        "text": "Some meals are cheaper than others."
+      },
+      {
+        "key": "D",
+        "text": "The menu already includes salads."
+      },
+      {
+        "key": "E",
+        "text": "The kitchen has limited storage."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "Une forte préférence déclarée par les étudiants soutient directement la hausse attendue de la demande.",
+    "estimatedTimeSeconds": 90
+  },
+  {
+    "id": "g6-cr-14",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "strengthen",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "passageOrStimulus": "A tutoring app is said to improve math scores.",
+    "stem": "Which fact most strengthens the claim?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "Many students used the app at home."
+      },
+      {
+        "key": "B",
+        "text": "The app includes colorful graphics."
+      },
+      {
+        "key": "C",
+        "text": "The same students improved on a comparable standardized test after using the app."
+      },
+      {
+        "key": "D",
+        "text": "Teachers also gave extra homework."
+      },
+      {
+        "key": "E",
+        "text": "The app works on older phones."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "Une amélioration sur un test comparable après usage du produit est une preuve directe.",
+    "estimatedTimeSeconds": 105
+  },
+  {
+    "id": "g6-cr-15",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "strengthen",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "passageOrStimulus": "A museum claims its late hours attract more visitors.",
+    "stem": "Which fact most strengthens the claim?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "The museum offers guided tours."
+      },
+      {
+        "key": "B",
+        "text": "Attendance was highest on the late-night trial evenings."
+      },
+      {
+        "key": "C",
+        "text": "The building has a new exhibit hall."
+      },
+      {
+        "key": "D",
+        "text": "Some visitors came with friends."
+      },
+      {
+        "key": "E",
+        "text": "Tickets are cheaper for members."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "Si la fréquentation est la plus élevée pendant les soirées tardives, l’argument est directement soutenu.",
+    "estimatedTimeSeconds": 105
+  },
+  {
+    "id": "g6-cr-16",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "strengthen",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "passageOrStimulus": "A subscription service claims that annual plans will reduce customer churn.",
+    "stem": "Which fact most strengthens the claim?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "Annual plans are more expensive up front."
+      },
+      {
+        "key": "B",
+        "text": "Many users prefer monthly billing."
+      },
+      {
+        "key": "C",
+        "text": "The service has added new content recently."
+      },
+      {
+        "key": "D",
+        "text": "Users who choose annual plans generally have the same age profile as monthly users."
+      },
+      {
+        "key": "E",
+        "text": "Historically, customers on annual plans cancel less often than customers on monthly plans."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "E"
+    },
+    "explanation": "Un historique montrant moins d’annulations chez les abonnés annuels soutient directement la conclusion.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g6-cr-17",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "strengthen",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "passageOrStimulus": "A traffic engineer says new signal timing will reduce delays.",
+    "stem": "Which fact most strengthens the claim?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "Travel times after implementation were lower on all three tested routes."
+      },
+      {
+        "key": "B",
+        "text": "Drivers noticed the light sequence changed."
+      },
+      {
+        "key": "C",
+        "text": "The city painted the poles a new color."
+      },
+      {
+        "key": "D",
+        "text": "Traffic was heavy on one rainy day."
+      },
+      {
+        "key": "E",
+        "text": "The old signals were outdated."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "Des temps de trajet plus faibles après l’implantation soutiennent directement l’efficacité du nouveau réglage.",
+    "estimatedTimeSeconds": 90
+  },
+  {
+    "id": "g6-cr-18",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "strengthen",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "passageOrStimulus": "A water filter is said to be effective.",
+    "stem": "Which fact most strengthens the claim?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "The filter is easy to install."
+      },
+      {
+        "key": "B",
+        "text": "It is sold with a long warranty."
+      },
+      {
+        "key": "C",
+        "text": "The design is compact."
+      },
+      {
+        "key": "D",
+        "text": "An independent laboratory found contaminants below detection after filtration."
+      },
+      {
+        "key": "E",
+        "text": "The package includes a replacement cartridge."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "D"
+    },
+    "explanation": "Un test indépendant montrant l’absence détectable de contaminants est une preuve solide d’efficacité.",
+    "estimatedTimeSeconds": 105
+  },
+  {
+    "id": "g6-cr-19",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "strengthen",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "passageOrStimulus": "An office claims that adding plants improves morale.",
+    "stem": "Which fact most strengthens the claim?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "Plants need occasional watering."
+      },
+      {
+        "key": "B",
+        "text": "Teams with more plants reported higher morale in employee surveys."
+      },
+      {
+        "key": "C",
+        "text": "The office has large windows."
+      },
+      {
+        "key": "D",
+        "text": "Some employees dislike indoor decoration."
+      },
+      {
+        "key": "E",
+        "text": "Plants were purchased in bulk."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "Un lien observé entre davantage de plantes et une morale plus élevée soutient directement l’argument.",
+    "estimatedTimeSeconds": 90
+  },
+  {
+    "id": "g6-cr-20",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "strengthen",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "passageOrStimulus": "A company says its new onboarding module cuts training time.",
+    "stem": "Which fact most strengthens the claim?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "The module is shorter than the old one."
+      },
+      {
+        "key": "B",
+        "text": "Some trainees prefer video lessons."
+      },
+      {
+        "key": "C",
+        "text": "The company hired more trainers."
+      },
+      {
+        "key": "D",
+        "text": "The module includes quizzes."
+      },
+      {
+        "key": "E",
+        "text": "The average time to independent work fell from 6 weeks to 4 weeks after the module was introduced."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "E"
+    },
+    "explanation": "Une baisse mesurée du temps avant autonomie soutient directement la conclusion.",
+    "estimatedTimeSeconds": 105
+  },
+  {
+    "id": "g6-cr-21",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "strengthen",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "passageOrStimulus": "A retailer claims reusable cups save money because they last longer than disposable ones.",
+    "stem": "Which fact most strengthens the claim?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "The cups come in several colors."
+      },
+      {
+        "key": "B",
+        "text": "Break-even occurs after 3 months, and the cups last a year."
+      },
+      {
+        "key": "C",
+        "text": "Customers like the feel of the cups."
+      },
+      {
+        "key": "D",
+        "text": "The cups are slightly heavier."
+      },
+      {
+        "key": "E",
+        "text": "The store added a loyalty discount."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "Si le point mort arrive vite et que les gobelets durent longtemps, l’économie totale est fortement soutenue.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g6-cr-22",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "strengthen",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "passageOrStimulus": "A bookstore says an evening author event will increase sales.",
+    "stem": "Which fact most strengthens the claim?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "The store has a large parking lot."
+      },
+      {
+        "key": "B",
+        "text": "The author has published several books."
+      },
+      {
+        "key": "C",
+        "text": "Members who attended similar events bought more books that week than comparable members who did not attend."
+      },
+      {
+        "key": "D",
+        "text": "The event will include refreshments."
+      },
+      {
+        "key": "E",
+        "text": "The store is near a train station."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "Comparer des clients similaires montre un effet de vente associé à la participation à l’événement.",
+    "estimatedTimeSeconds": 105
+  },
+  {
+    "id": "g6-cr-23",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "assumption",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "passageOrStimulus": "A restaurant says it can profit from lunch delivery because order volume is high.",
+    "stem": "Which assumption is required for the argument?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "Customers prefer lunch to dinner."
+      },
+      {
+        "key": "B",
+        "text": "The delivery fees and preparation costs do not eliminate the profit margin on each order."
+      },
+      {
+        "key": "C",
+        "text": "The restaurant serves food every day."
+      },
+      {
+        "key": "D",
+        "text": "Lunch orders are larger than breakfast orders."
+      },
+      {
+        "key": "E",
+        "text": "Competitors also offer delivery."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "Pour que le volume suffise à générer du profit, la marge par commande doit rester positive après les coûts.",
+    "estimatedTimeSeconds": 105
+  },
+  {
+    "id": "g6-cr-24",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "assumption",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "passageOrStimulus": "A company claims that switching to a four-day workweek will improve retention because employees will be happier.",
+    "stem": "Which assumption is required?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "Employees prefer shorter lunch breaks."
+      },
+      {
+        "key": "B",
+        "text": "Higher happiness will lead to fewer employees resigning."
+      },
+      {
+        "key": "C",
+        "text": "The company can track resignations accurately."
+      },
+      {
+        "key": "D",
+        "text": "Managers will continue to work five days."
+      },
+      {
+        "key": "E",
+        "text": "The office is near public transit."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "Le passage du bonheur à la rétention doit être valable pour que la conclusion tienne.",
+    "estimatedTimeSeconds": 105
+  },
+  {
+    "id": "g6-cr-25",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "paradox",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "passageOrStimulus": "A factory installed automation that increased output, but profits fell.",
+    "stem": "Which fact best resolves the apparent contradiction?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "Worker satisfaction improved."
+      },
+      {
+        "key": "B",
+        "text": "The factory now produces more units of the same product."
+      },
+      {
+        "key": "C",
+        "text": "The automation required a large loan with high interest payments."
+      },
+      {
+        "key": "D",
+        "text": "The product is sold in multiple regions."
+      },
+      {
+        "key": "E",
+        "text": "Customers liked the new packaging."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "Des charges financières élevées peuvent faire baisser le profit même si la production augmente.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g6-cr-26",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "evaluate",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "passageOrStimulus": "A university is considering adding evening classes.",
+    "stem": "Which question would be most useful to evaluate the proposal?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "Do evening classes use the same classrooms as morning classes?"
+      },
+      {
+        "key": "B",
+        "text": "Would enough students enroll to cover the added costs?"
+      },
+      {
+        "key": "C",
+        "text": "Do professors prefer teaching in the morning?"
+      },
+      {
+        "key": "D",
+        "text": "Are evening classes shorter than daytime classes?"
+      },
+      {
+        "key": "E",
+        "text": "Is the campus open on weekends?"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "La rentabilité dépend directement d’un niveau d’inscription suffisant pour couvrir les coûts supplémentaires.",
+    "estimatedTimeSeconds": 105
+  },
+  {
+    "id": "g6-cr-27",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "inference",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "passageOrStimulus": "A report says that neighborhoods with more tree cover recorded lower summer temperatures than neighborhoods with less tree cover.",
+    "stem": "Which conclusion is best supported?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "Tree cover is the only factor affecting temperature."
+      },
+      {
+        "key": "B",
+        "text": "All neighborhoods should plant exactly the same number of trees."
+      },
+      {
+        "key": "C",
+        "text": "More tree cover is associated with cooler summer temperatures."
+      },
+      {
+        "key": "D",
+        "text": "Temperatures were identical in all neighborhoods in spring."
+      },
+      {
+        "key": "E",
+        "text": "Tree cover reduces humidity more than any other factor."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "Le rapport soutient une association entre davantage d’arbres et des températures plus basses.",
+    "estimatedTimeSeconds": 105
+  },
+  {
+    "id": "g6-cr-28",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "assumption",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "passageOrStimulus": "A firm plans to expand into a new city because demand for its product is strong there online.",
+    "stem": "Which assumption is needed?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "Online customers in the city are younger than average."
+      },
+      {
+        "key": "B",
+        "text": "The firm can hire enough staff and set up operations without prohibitive extra costs."
+      },
+      {
+        "key": "C",
+        "text": "Competitors are absent from the city."
+      },
+      {
+        "key": "D",
+        "text": "The city has a large airport."
+      },
+      {
+        "key": "E",
+        "text": "The product is easy to ship."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "L’argument suppose que l’expansion est faisable à un coût acceptable et avec suffisamment de personnel.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g6-cr-29",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "inference",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "passageOrStimulus": "A study found that employees who commute less than 20 minutes miss work less often than employees with longer commutes.",
+    "stem": "Which conclusion is best supported?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "Short commutes are one factor associated with fewer absences."
+      },
+      {
+        "key": "B",
+        "text": "All employees should live near the office."
+      },
+      {
+        "key": "C",
+        "text": "Long commutes never matter for attendance."
+      },
+      {
+        "key": "D",
+        "text": "The study proves causation."
+      },
+      {
+        "key": "E",
+        "text": "Employees prefer commuting by car."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "Le résultat soutient une association, pas une causalité absolue.",
+    "estimatedTimeSeconds": 90
+  },
+  {
+    "id": "g6-cr-30",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "paradox",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "passageOrStimulus": "A store had more visitors this month but sold fewer items than last month.",
+    "stem": "Which fact best resolves the paradox?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "The store moved to a busier street."
+      },
+      {
+        "key": "B",
+        "text": "The store closed for one day last month."
+      },
+      {
+        "key": "C",
+        "text": "Many visitors came for a free event and left without shopping."
+      },
+      {
+        "key": "D",
+        "text": "The store added a new display window."
+      },
+      {
+        "key": "E",
+        "text": "Some items were discounted."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "Plus de visiteurs ne signifie pas plus d’achats si une grande partie vient pour un événement gratuit.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g6-cr-31",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "assumption",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "passageOrStimulus": "A company says that a new battery lasts longer because it has a lower discharge rate.",
+    "stem": "Which assumption is required?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "The battery is sold in more colors."
+      },
+      {
+        "key": "B",
+        "text": "The battery is not made of metal."
+      },
+      {
+        "key": "C",
+        "text": "Lower discharge rate is the main reason the battery lasts longer in typical use."
+      },
+      {
+        "key": "D",
+        "text": "The battery charges quickly."
+      },
+      {
+        "key": "E",
+        "text": "Customers prefer smaller batteries."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "L’argument doit relier la cause proposée à la durée de vie réelle en usage normal.",
+    "estimatedTimeSeconds": 105
+  },
+  {
+    "id": "g6-cr-32",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "inference",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "passageOrStimulus": "A city installed flood barriers and later reported fewer flood damages in the protected district than in unprotected districts during the same storm season.",
+    "stem": "Which conclusion is best supported?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "Flood barriers never fail."
+      },
+      {
+        "key": "B",
+        "text": "The protected district had no storms."
+      },
+      {
+        "key": "C",
+        "text": "The barriers probably helped reduce flood damage in the protected district."
+      },
+      {
+        "key": "D",
+        "text": "All districts should remove drainage systems."
+      },
+      {
+        "key": "E",
+        "text": "The season was unusual because it never rained."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "La comparaison est compatible avec l’idée que les barrières ont réduit les dommages.",
+    "estimatedTimeSeconds": 105
+  },
+  {
+    "id": "g6-cr-33",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "weaken",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "passageOrStimulus": "A company claims that its new customer-support chatbot improved satisfaction because response times fell.",
+    "stem": "Which fact most weakens the claim?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "The chatbot was available 24 hours a day."
+      },
+      {
+        "key": "B",
+        "text": "The company also lowered the price of its products at the same time."
+      },
+      {
+        "key": "C",
+        "text": "The chatbot answered simple questions very quickly."
+      },
+      {
+        "key": "D",
+        "text": "Customers were asked to rate the service after receiving a discount."
+      },
+      {
+        "key": "E",
+        "text": "The support team added more languages."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "Une baisse de prix peut expliquer l’amélioration de satisfaction indépendamment du chatbot.",
+    "estimatedTimeSeconds": 120
+  }
+]
