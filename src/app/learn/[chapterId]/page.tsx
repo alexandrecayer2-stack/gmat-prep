@@ -3,7 +3,7 @@ import { notFound } from 'next/navigation';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import { getLearnChapters, getLessonsByChapter } from '@/lib/data/content';
 import { SECTION_LABELS, SECTION_COLORS } from '@/lib/domain/constants';
-import { ChapterProgressBar, LessonCompletionDots } from '@/components/learn/chapter-progress';
+import { ChapterProgressBar } from '@/components/learn/chapter-progress';
 
 interface Props {
   params: Promise<{ chapterId: string }>;
@@ -59,31 +59,25 @@ export default async function ChapterPage({ params }: Props) {
       </div>
 
       {/* Lessons */}
-      <h2 className="mb-3 text-xs font-semibold uppercase tracking-widest text-muted-foreground">
-        Lessons
-      </h2>
-      <div className="mb-8 space-y-2">
+      <div className="mb-8 overflow-hidden rounded-xl border border-border divide-y divide-border">
         {lessons.map((lesson, i) => (
           <Link
             key={lesson.id}
             href={`/learn/${chapterId}/${lesson.id}`}
-            className="group flex items-center gap-4 rounded-xl border border-border bg-card p-4 transition-all hover:border-primary/30 hover:bg-accent/20"
+            className="group flex items-center gap-5 bg-card px-6 py-5 transition-colors hover:bg-accent/20"
           >
-            <div
-              className={`flex size-10 shrink-0 items-center justify-center rounded-xl text-sm font-bold transition-colors ${colors.bg} ${colors.text}`}
+            <span
+              className={`w-7 shrink-0 text-2xl font-black leading-none tabular-nums transition-opacity ${colors.text} opacity-30 group-hover:opacity-60`}
             >
               {i + 1}
-            </div>
+            </span>
             <div className="min-w-0 flex-1">
-              <p className="mb-1 font-medium leading-snug">{lesson.title}</p>
-              <div className="flex items-center gap-3 text-xs text-muted-foreground">
-                <span>
-                  {lesson.exerciseIds.length} exercise{lesson.exerciseIds.length !== 1 ? 's' : ''}
-                </span>
-                <LessonCompletionDots lessons={[lesson]} section={chapter.section} />
-              </div>
+              <p className="font-semibold leading-snug">{lesson.title}</p>
+              <p className="mt-0.5 text-xs text-muted-foreground">
+                {lesson.exerciseIds.length} exercise{lesson.exerciseIds.length !== 1 ? 's' : ''}
+              </p>
             </div>
-            <ChevronRight className="size-4 shrink-0 text-muted-foreground transition-transform group-hover:translate-x-0.5" />
+            <ChevronRight className="size-5 shrink-0 text-muted-foreground/30 transition-all group-hover:translate-x-0.5 group-hover:text-muted-foreground" />
           </Link>
         ))}
       </div>
