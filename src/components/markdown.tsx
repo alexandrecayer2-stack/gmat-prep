@@ -88,7 +88,15 @@ const components: Components = {
     return <p>{children}</p>;
   },
   h2({ children }) {
-    return <h2 id={slugify(toText(children))}>{children}</h2>;
+    const id = slugify(toText(children));
+    return (
+      <h2 id={id}>
+        <a href={`#${id}`} className="heading-anchor" aria-label="Link to this section">
+          #
+        </a>
+        {children}
+      </h2>
+    );
   },
 };
 

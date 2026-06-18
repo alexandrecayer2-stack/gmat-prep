@@ -105,6 +105,7 @@
 
 /* Section headings */
 .prose-gmat h2 {
+  position: relative;
   display: flex;
   align-items: center;
   gap: 0.6rem;
@@ -123,6 +124,20 @@
   border-radius: 2px;
   background: var(--lesson-accent, var(--primary));
 }
+/* Hover-reveal anchor link in the heading gutter */
+.prose-gmat h2 .heading-anchor {
+  position: absolute;
+  left: -1.35rem;
+  top: 50%;
+  transform: translateY(-50%);
+  font-weight: 400;
+  color: var(--muted-foreground);
+  text-decoration: none;
+  opacity: 0;
+  transition: opacity 0.15s ease;
+}
+.prose-gmat h2:hover .heading-anchor { opacity: 0.45; }
+.prose-gmat h2 .heading-anchor:hover { opacity: 0.9; }
 .prose-gmat h3 {
   font-size: 1rem;
   font-weight: 600;

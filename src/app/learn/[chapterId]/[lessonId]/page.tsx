@@ -12,6 +12,7 @@ import { SECTION_LABELS, SECTION_COLORS } from '@/lib/domain/constants';
 import type { Section } from '@/lib/domain/types';
 import { Markdown } from '@/components/markdown';
 import { LessonExercises } from '@/components/learn/lesson-exercises';
+import { ReadingProgress } from '@/components/learn/reading-progress';
 
 interface Props {
   params: Promise<{ chapterId: string; lessonId: string }>;
@@ -54,7 +55,9 @@ export default async function LessonPage({ params }: Props) {
   const progressPct = Math.round(((currentIdx + 1) / lessons.length) * 100);
 
   return (
-    <div className="mx-auto max-w-3xl px-4 py-8">
+    <>
+      <ReadingProgress className={colors.progressBar} />
+      <div className="mx-auto max-w-3xl px-4 py-8">
       {/* Breadcrumb */}
       <nav className="mb-6 flex items-center gap-1.5 text-sm text-muted-foreground">
         <Link href="/learn" className="transition-colors hover:text-foreground">
@@ -114,43 +117,38 @@ export default async function LessonPage({ params }: Props) {
       {/* Exercises */}
       <LessonExercises lessonId={lessonId} exercises={exercises} />
 
-      {/* Navigation */}
-      <div className="mt-10 flex items-center justify-between border-t border-border pt-6">
-        {prevLesson ? (
-          <Link
-            href={`/learn/${chapterId}/${prevLesson.id}`}
-            className="group flex items-center gap-1.5 text-sm text-muted-foreground transition-colors hover:text-foreground"
-          >
-            <ChevronLeft className="size-4 transition-transform group-hover:-translate-x-0.5" />
-            <span className="line-clamp-1 max-w-[200px]">{prevLesson.title}</span>
-          </Link>
-        ) : (
-          <Link
-            href={`/learn/${chapterId}`}
-            className="group flex items-center gap-1.5 text-sm text-muted-foreground transition-colors hover:text-foreground"
-          >
-            <ChevronLeft className="size-4 transition-transform group-hover:-translate-x-0.5" />
-            Chapter overview
-          </Link>
-        )}
-        {nextLesson ? (
-          <Link
-            href={`/learn/${chapterId}/${nextLesson.id}`}
-            className="group flex items-center gap-1.5 text-sm font-medium text-primary hover:underline"
-          >
-            <span className="line-clamp-1 max-w-[200px]">{nextLesson.title}</span>
-            <ChevronRight className="size-4 transition-transform group-hover:translate-x-0.5" />
-          </Link>
-        ) : (
-          <Link
-            href={`/learn/${chapterId}`}
-            className="group flex items-center gap-1.5 text-sm font-medium text-primary hover:underline"
-          >
-            Back to chapter
-            <ChevronRight className="size-4 transition-transform group-hover:translate-x-0.5" />
-          </Link>
-        )}
+      {/* Lesson navigation */}
+      <nav className="mt-12 grid gap-3 border-t border-border pt-8 sm:grid-cols-2">
+        <Link
+          href={prevLesson ? `/learn/${chapterId}/${prevLesson.id}` : `/learn/${chapterId}`}
+          className="group flex items-center gap-3 rounded-xl border border-border bg-card p-4 transition-all hover:-translate-y-0.5 hover:border-primary/30 hover:bg-accent/20"
+        >
+          <ChevronLeft className="size-5 shrink-0 text-muted-foreground transition-transform group-hover:-translate-x-0.5" />
+          <span className="min-w-0">
+            <span className="block text-xs text-muted-foreground">
+              {prevLesson ? 'Previous' : 'Back to'}
+            </span>
+            <span className="block truncate font-medium">
+              {prevLesson ? prevLesson.title : 'Chapter overview'}
+            </span>
+          </span>
+        </Link>
+        <Link
+          href={nextLesson ? `/learn/${chapterId}/${nextLesson.id}` : `/learn/${chapterId}`}
+          className="group flex items-center justify-end gap-3 rounded-xl border border-border bg-card p-4 text-right transition-all hover:-translate-y-0.5 hover:border-primary/30 hover:bg-accent/20"
+        >
+          <span className="min-w-0">
+            <span className="block text-xs text-muted-foreground">
+              {nextLesson ? 'Next up' : 'Finish'}
+            </span>
+            <span className="block truncate font-medium">
+              {nextLesson ? nextLesson.title : 'Back to chapter'}
+            </span>
+          </span>
+          <ChevronRight className="size-5 shrink-0 text-primary transition-transform group-hover:translate-x-0.5" />
+        </Link>
+      </nav>
       </div>
-    </div>
+    </>
   );
 }
