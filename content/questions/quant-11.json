@@ -1,0 +1,1522 @@
+[
+  {
+    "id": "g3-quant-01",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "arithmetic",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "What is the value of $24-3(5)+8$?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "23"
+      },
+      {
+        "key": "B",
+        "text": "17"
+      },
+      {
+        "key": "C",
+        "text": "11"
+      },
+      {
+        "key": "D",
+        "text": "31"
+      },
+      {
+        "key": "E",
+        "text": "29"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "Multiply first: $3(5)=15$. Then $24-15+8=17$.",
+    "estimatedTimeSeconds": 90
+  },
+  {
+    "id": "g3-quant-02",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "percents",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "What is $12\\%$ of $350$?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "45"
+      },
+      {
+        "key": "B",
+        "text": "42"
+      },
+      {
+        "key": "C",
+        "text": "36"
+      },
+      {
+        "key": "D",
+        "text": "40"
+      },
+      {
+        "key": "E",
+        "text": "32"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "$0.12\\times 350 = 42$.",
+    "estimatedTimeSeconds": 90
+  },
+  {
+    "id": "g3-quant-03",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "fractions",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "What is $\\frac{5}{8}-\\frac{1}{4}$?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "$\\frac{1}{2}$"
+      },
+      {
+        "key": "B",
+        "text": "$\\frac{7}{8}$"
+      },
+      {
+        "key": "C",
+        "text": "$\\frac{1}{8}$"
+      },
+      {
+        "key": "D",
+        "text": "$\\frac{5}{12}$"
+      },
+      {
+        "key": "E",
+        "text": "$\\frac{3}{8}$"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "E"
+    },
+    "explanation": "Rewrite $\\frac{1}{4}=\\frac{2}{8}$. Then $\\frac{5}{8}-\\frac{2}{8}=\\frac{3}{8}$.",
+    "estimatedTimeSeconds": 90
+  },
+  {
+    "id": "g3-quant-04",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "ratios",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "Two numbers are in the ratio $4:7$ and their sum is $33$. What is the smaller number?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "16"
+      },
+      {
+        "key": "B",
+        "text": "11"
+      },
+      {
+        "key": "C",
+        "text": "14"
+      },
+      {
+        "key": "D",
+        "text": "18"
+      },
+      {
+        "key": "E",
+        "text": "12"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "E"
+    },
+    "explanation": "The ratio has $4+7=11$ parts, each $33/11=3$. The smaller number is $4\\times 3=12$.",
+    "estimatedTimeSeconds": 100
+  },
+  {
+    "id": "g3-quant-05",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "averages",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "The average of $4$ numbers is $18$. If three of the numbers sum to $47$, what is the fourth number?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "27"
+      },
+      {
+        "key": "B",
+        "text": "25"
+      },
+      {
+        "key": "C",
+        "text": "21"
+      },
+      {
+        "key": "D",
+        "text": "19"
+      },
+      {
+        "key": "E",
+        "text": "23"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "The total is $4\\times 18=72$, so the fourth number is $72-47=25$.",
+    "estimatedTimeSeconds": 100
+  },
+  {
+    "id": "g3-quant-06",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "number_properties",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "Which of the following is divisible by $11$?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "570"
+      },
+      {
+        "key": "B",
+        "text": "583"
+      },
+      {
+        "key": "C",
+        "text": "600"
+      },
+      {
+        "key": "D",
+        "text": "615"
+      },
+      {
+        "key": "E",
+        "text": "620"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "For $583$, the alternating digit sum is $(5+3)-8=0$, so $583=11\\times 53$ is divisible by $11$. None of $570$, $600$, $615$, or $620$ is a multiple of $11$.",
+    "estimatedTimeSeconds": 100
+  },
+  {
+    "id": "g3-quant-07",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "algebra",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "If $7x-5=30$, what is the value of $x$?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "6"
+      },
+      {
+        "key": "B",
+        "text": "5"
+      },
+      {
+        "key": "C",
+        "text": "4"
+      },
+      {
+        "key": "D",
+        "text": "7"
+      },
+      {
+        "key": "E",
+        "text": "3"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "Add $5$ to both sides: $7x=35$, so $x=5$.",
+    "estimatedTimeSeconds": 90
+  },
+  {
+    "id": "g3-quant-08",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "geometry",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "A triangular pennant has two equal sides of $13$ inches each and a base of $10$ inches. What is its perimeter, in inches?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "34"
+      },
+      {
+        "key": "B",
+        "text": "36"
+      },
+      {
+        "key": "C",
+        "text": "38"
+      },
+      {
+        "key": "D",
+        "text": "40"
+      },
+      {
+        "key": "E",
+        "text": "42"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "Perimeter $=13+13+10=36$.",
+    "estimatedTimeSeconds": 90
+  },
+  {
+    "id": "g3-quant-09",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "coordinate_geometry",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "What is the midpoint of the segment joining $(-2,4)$ and $(6,-2)$?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "(2, 1)"
+      },
+      {
+        "key": "B",
+        "text": "(3, 1)"
+      },
+      {
+        "key": "C",
+        "text": "(2, 0)"
+      },
+      {
+        "key": "D",
+        "text": "(1, 1)"
+      },
+      {
+        "key": "E",
+        "text": "(2, 2)"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "Midpoint $=\\left(\\frac{-2+6}{2},\\frac{4+(-2)}{2}\\right)=(2,1)$.",
+    "estimatedTimeSeconds": 100
+  },
+  {
+    "id": "g3-quant-10",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "rates",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "A train travels $180$ miles in $4.5$ hours at a constant rate. What is its speed, in miles per hour?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "36"
+      },
+      {
+        "key": "B",
+        "text": "50"
+      },
+      {
+        "key": "C",
+        "text": "42"
+      },
+      {
+        "key": "D",
+        "text": "40"
+      },
+      {
+        "key": "E",
+        "text": "45"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "D"
+    },
+    "explanation": "Speed $=180/4.5=40$.",
+    "estimatedTimeSeconds": 100
+  },
+  {
+    "id": "g3-quant-11",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "work",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "Machine A can finish a job in $10$ hours and machine B can finish the same job in $15$ hours. How long would they take working together?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "$12$ hours"
+      },
+      {
+        "key": "B",
+        "text": "$6$ hours"
+      },
+      {
+        "key": "C",
+        "text": "$5$ hours"
+      },
+      {
+        "key": "D",
+        "text": "$7.5$ hours"
+      },
+      {
+        "key": "E",
+        "text": "$8$ hours"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "Their rates add: $\\frac{1}{10}+\\frac{1}{15}=\\frac{1}{6}$, so together they take $6$ hours.",
+    "estimatedTimeSeconds": 150
+  },
+  {
+    "id": "g3-quant-12",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "mixtures",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "stem": "How many liters of pure acid should be added to $8$ liters of a $25\\%$ acid solution to make a $40\\%$ solution?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "4"
+      },
+      {
+        "key": "B",
+        "text": "1"
+      },
+      {
+        "key": "C",
+        "text": "2"
+      },
+      {
+        "key": "D",
+        "text": "5"
+      },
+      {
+        "key": "E",
+        "text": "3"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "The solution has $0.25\\times 8=2$ liters of acid. Adding $x$ liters of acid: $\\frac{2+x}{8+x}=0.40$, so $2+x=3.2+0.4x$, giving $0.6x=1.2$ and $x=2$.",
+    "estimatedTimeSeconds": 180
+  },
+  {
+    "id": "g3-quant-13",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "exponents",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "If $2^{x+1}=128$, what is the value of $x$?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "5"
+      },
+      {
+        "key": "B",
+        "text": "6"
+      },
+      {
+        "key": "C",
+        "text": "7"
+      },
+      {
+        "key": "D",
+        "text": "4"
+      },
+      {
+        "key": "E",
+        "text": "3"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "Since $128=2^7$, we have $x+1=7$, so $x=6$.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g3-quant-14",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "inequalities",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "stem": "If $|3x-4|>11$, which of the following could be the value of $x$?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "1"
+      },
+      {
+        "key": "B",
+        "text": "3"
+      },
+      {
+        "key": "C",
+        "text": "6"
+      },
+      {
+        "key": "D",
+        "text": "2"
+      },
+      {
+        "key": "E",
+        "text": "4"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "$|3x-4|>11$ means $3x-4>11$ or $3x-4<-11$, i.e. $x>5$ or $x<-\\frac{7}{3}$. Of the choices, only $x=6$ satisfies this.",
+    "estimatedTimeSeconds": 150
+  },
+  {
+    "id": "g3-quant-15",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "statistics",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "The median of six numbers is $14$, and the two middle numbers are $13$ and $15$. If the six numbers sum to $84$, what is their average?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "12"
+      },
+      {
+        "key": "B",
+        "text": "13"
+      },
+      {
+        "key": "C",
+        "text": "14"
+      },
+      {
+        "key": "D",
+        "text": "15"
+      },
+      {
+        "key": "E",
+        "text": "16"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "The average is the total divided by the count: $84/6=14$.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g3-quant-16",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "probability",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "A bag contains $5$ red marbles, $3$ blue marbles, and $2$ green marbles. If one marble is chosen at random, what is the probability that it is not blue?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "$\\frac{1}{5}$"
+      },
+      {
+        "key": "B",
+        "text": "$\\frac{3}{5}$"
+      },
+      {
+        "key": "C",
+        "text": "$\\frac{7}{10}$"
+      },
+      {
+        "key": "D",
+        "text": "$\\frac{2}{5}$"
+      },
+      {
+        "key": "E",
+        "text": "$\\frac{4}{5}$"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "There are $10$ marbles, of which $5+2=7$ are not blue, so the probability is $\\frac{7}{10}$.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g3-quant-17",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "counting",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "How many three-digit positive integers have all distinct digits and end in an even digit?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "360"
+      },
+      {
+        "key": "B",
+        "text": "328"
+      },
+      {
+        "key": "C",
+        "text": "324"
+      },
+      {
+        "key": "D",
+        "text": "400"
+      },
+      {
+        "key": "E",
+        "text": "432"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "If the units digit is $0$: $9\\times 8=72$ numbers. If the units digit is $2,4,6,$ or $8$: $4\\times 8\\times 8=256$ numbers. The total is $72+256=328$.",
+    "estimatedTimeSeconds": 150
+  },
+  {
+    "id": "g3-quant-18",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "geometry",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "A circle has radius $9$. What is its area in terms of $\\pi$?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "$81\\pi$"
+      },
+      {
+        "key": "B",
+        "text": "$18\\pi$"
+      },
+      {
+        "key": "C",
+        "text": "$36\\pi$"
+      },
+      {
+        "key": "D",
+        "text": "$72\\pi$"
+      },
+      {
+        "key": "E",
+        "text": "$9\\pi$"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "Area $=\\pi r^2=\\pi(9^2)=81\\pi$.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g3-quant-19",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "coordinate_geometry",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "What is the slope of the line through $(2,5)$ and $(8,17)$?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "2"
+      },
+      {
+        "key": "B",
+        "text": "3"
+      },
+      {
+        "key": "C",
+        "text": "4"
+      },
+      {
+        "key": "D",
+        "text": "1"
+      },
+      {
+        "key": "E",
+        "text": "6"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "Slope $=\\frac{17-5}{8-2}=\\frac{12}{6}=2$.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g3-quant-20",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "sequences",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "The first term of an arithmetic sequence is $7$ and the common difference is $4$. What is the $10$th term?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "43"
+      },
+      {
+        "key": "B",
+        "text": "39"
+      },
+      {
+        "key": "C",
+        "text": "40"
+      },
+      {
+        "key": "D",
+        "text": "35"
+      },
+      {
+        "key": "E",
+        "text": "47"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "Using $a_n=a_1+(n-1)d$: $a_{10}=7+9\\times 4=43$.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g3-quant-21",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "fractions",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "stem": "Which is greater, $\\frac{7}{12}$ or $\\frac{3}{5}$?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "$\\frac{7}{12}$"
+      },
+      {
+        "key": "B",
+        "text": "They are equal"
+      },
+      {
+        "key": "C",
+        "text": "$\\frac{3}{5}$"
+      },
+      {
+        "key": "D",
+        "text": "Cannot be determined"
+      },
+      {
+        "key": "E",
+        "text": "$\\frac{5}{7}$"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "Cross-multiply: $7\\times 5=35$ and $3\\times 12=36$. Since $36>35$, $\\frac{3}{5}$ is greater.",
+    "estimatedTimeSeconds": 150
+  },
+  {
+    "id": "g3-quant-22",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "ratios",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "stem": "A recipe uses flour and water in the ratio $5:2$. If $28$ cups of mixture are made, how many cups are flour?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "18"
+      },
+      {
+        "key": "B",
+        "text": "20"
+      },
+      {
+        "key": "C",
+        "text": "16"
+      },
+      {
+        "key": "D",
+        "text": "14"
+      },
+      {
+        "key": "E",
+        "text": "12"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "Total parts $=5+2=7$, each $28/7=4$. Flour $=5\\times 4=20$.",
+    "estimatedTimeSeconds": 150
+  },
+  {
+    "id": "g3-quant-23",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "algebra",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "stem": "If $\\frac{2x-3}{5}=\\frac{x+9}{10}$, what is $x$?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "13"
+      },
+      {
+        "key": "B",
+        "text": "11"
+      },
+      {
+        "key": "C",
+        "text": "9"
+      },
+      {
+        "key": "D",
+        "text": "7"
+      },
+      {
+        "key": "E",
+        "text": "5"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "E"
+    },
+    "explanation": "Multiply both sides by $10$: $2(2x-3)=x+9$, so $4x-6=x+9$, giving $3x=15$ and $x=5$.",
+    "estimatedTimeSeconds": 150
+  },
+  {
+    "id": "g3-quant-24",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "number_properties",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "stem": "What is the remainder when $7^{20}$ is divided by $6$?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "0"
+      },
+      {
+        "key": "B",
+        "text": "1"
+      },
+      {
+        "key": "C",
+        "text": "2"
+      },
+      {
+        "key": "D",
+        "text": "3"
+      },
+      {
+        "key": "E",
+        "text": "4"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "$7\\equiv 1 \\pmod 6$, so $7^{20}\\equiv 1^{20}\\equiv 1 \\pmod 6$.",
+    "estimatedTimeSeconds": 150
+  },
+  {
+    "id": "g3-quant-25",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "exponents",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "stem": "If $x^2=49$ and $x<0$, what is the value of $x$?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "7"
+      },
+      {
+        "key": "B",
+        "text": "-7"
+      },
+      {
+        "key": "C",
+        "text": "49"
+      },
+      {
+        "key": "D",
+        "text": "-49"
+      },
+      {
+        "key": "E",
+        "text": "0"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "$x^2=49$ gives $x=\\pm 7$; the condition $x<0$ gives $x=-7$.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g3-quant-26",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "inequalities",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "If $-2<3x+1\\le 10$, which of the following is a possible value of $x$?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "-1"
+      },
+      {
+        "key": "B",
+        "text": "-2"
+      },
+      {
+        "key": "C",
+        "text": "4"
+      },
+      {
+        "key": "D",
+        "text": "5"
+      },
+      {
+        "key": "E",
+        "text": "1"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "E"
+    },
+    "explanation": "Subtract $1$: $-3<3x\\le 9$. Divide by $3$: $-1<x\\le 3$. Of the choices, only $x=1$ lies in this range.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g3-quant-27",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "statistics",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "The average of five numbers is $24$. If four of the numbers sum to $91$, what is the fifth number?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "27"
+      },
+      {
+        "key": "B",
+        "text": "19"
+      },
+      {
+        "key": "C",
+        "text": "29"
+      },
+      {
+        "key": "D",
+        "text": "25"
+      },
+      {
+        "key": "E",
+        "text": "17"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "The total is $5\\times 24=120$, so the fifth number is $120-91=29$.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g3-quant-28",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "probability",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "A spinner has $8$ equal sectors numbered $1$ through $8$. What is the probability of landing on a number greater than $5$?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "$\\frac{1}{2}$"
+      },
+      {
+        "key": "B",
+        "text": "$\\frac{3}{8}$"
+      },
+      {
+        "key": "C",
+        "text": "$\\frac{1}{4}$"
+      },
+      {
+        "key": "D",
+        "text": "$\\frac{5}{8}$"
+      },
+      {
+        "key": "E",
+        "text": "$\\frac{2}{3}$"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "Numbers greater than $5$ are $6,7,8$: three of eight outcomes, so the probability is $\\frac{3}{8}$.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g3-quant-29",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "counting",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "In how many ways can $4$ books be arranged on a shelf?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "24"
+      },
+      {
+        "key": "B",
+        "text": "12"
+      },
+      {
+        "key": "C",
+        "text": "16"
+      },
+      {
+        "key": "D",
+        "text": "20"
+      },
+      {
+        "key": "E",
+        "text": "18"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "The number of arrangements is $4!=24$.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g3-quant-30",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "geometry",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "A rectangle has length $12$ and width $7$. What is its area?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "72"
+      },
+      {
+        "key": "B",
+        "text": "84"
+      },
+      {
+        "key": "C",
+        "text": "96"
+      },
+      {
+        "key": "D",
+        "text": "56"
+      },
+      {
+        "key": "E",
+        "text": "64"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "Area $=12\\times 7=84$.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g3-quant-31",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "coordinate_geometry",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "What is the distance between $(3,4)$ and $(9,12)$?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "8"
+      },
+      {
+        "key": "B",
+        "text": "10"
+      },
+      {
+        "key": "C",
+        "text": "6"
+      },
+      {
+        "key": "D",
+        "text": "9"
+      },
+      {
+        "key": "E",
+        "text": "7"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "Distance $=\\sqrt{(9-3)^2+(12-4)^2}=\\sqrt{36+64}=\\sqrt{100}=10$.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g3-quant-32",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "sequences",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "The terms of a sequence are $3, 6, 12, 24, \\dots$. What is the next term?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "30"
+      },
+      {
+        "key": "B",
+        "text": "48"
+      },
+      {
+        "key": "C",
+        "text": "36"
+      },
+      {
+        "key": "D",
+        "text": "42"
+      },
+      {
+        "key": "E",
+        "text": "54"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "Each term is double the previous one, so the next term is $24\\times 2=48$.",
+    "estimatedTimeSeconds": 100
+  },
+  {
+    "id": "g3-quant-33",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "number_properties",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "stem": "How many positive divisors does $180$ have?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "12"
+      },
+      {
+        "key": "B",
+        "text": "16"
+      },
+      {
+        "key": "C",
+        "text": "18"
+      },
+      {
+        "key": "D",
+        "text": "24"
+      },
+      {
+        "key": "E",
+        "text": "20"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "$180=2^2\\cdot 3^2\\cdot 5$, so the number of divisors is $(2+1)(2+1)(1+1)=18$.",
+    "estimatedTimeSeconds": 150
+  },
+  {
+    "id": "g3-quant-34",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "geometry",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "stem": "A square has a diagonal of length $10\\sqrt{2}$. What is its side length?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "10"
+      },
+      {
+        "key": "B",
+        "text": "$5\\sqrt{2}$"
+      },
+      {
+        "key": "C",
+        "text": "20"
+      },
+      {
+        "key": "D",
+        "text": "$10\\sqrt{2}$"
+      },
+      {
+        "key": "E",
+        "text": "5"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "For a square, the diagonal is $s\\sqrt{2}$. So $s\\sqrt{2}=10\\sqrt{2}$, giving $s=10$.",
+    "estimatedTimeSeconds": 150
+  },
+  {
+    "id": "g3-quant-35",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "algebra",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "stem": "If $x+y=12$ and $x-y=4$, what is the value of $x^2-y^2$?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "32"
+      },
+      {
+        "key": "B",
+        "text": "48"
+      },
+      {
+        "key": "C",
+        "text": "64"
+      },
+      {
+        "key": "D",
+        "text": "72"
+      },
+      {
+        "key": "E",
+        "text": "96"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "$x^2-y^2=(x+y)(x-y)=12\\times 4=48$.",
+    "estimatedTimeSeconds": 150
+  },
+  {
+    "id": "g3-quant-36",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "inequalities",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "stem": "If $2x-1<5$ and $x+3\\ge 1$, which of the following is a possible value of $x$?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "-3"
+      },
+      {
+        "key": "B",
+        "text": "1"
+      },
+      {
+        "key": "C",
+        "text": "3"
+      },
+      {
+        "key": "D",
+        "text": "4"
+      },
+      {
+        "key": "E",
+        "text": "5"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "The first inequality gives $x<3$; the second gives $x\\ge -2$. So $-2\\le x<3$, and of the choices only $x=1$ is in this range.",
+    "estimatedTimeSeconds": 150
+  },
+  {
+    "id": "g3-quant-37",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "statistics",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "stem": "The mean of $6$ integers is $15$. If the largest integer is removed, the mean of the remaining $5$ integers is $14$. What was the largest integer?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "23"
+      },
+      {
+        "key": "B",
+        "text": "25"
+      },
+      {
+        "key": "C",
+        "text": "20"
+      },
+      {
+        "key": "D",
+        "text": "21"
+      },
+      {
+        "key": "E",
+        "text": "24"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "The total of the $6$ integers is $6\\times 15=90$; the total of the remaining $5$ is $5\\times 14=70$. The largest is $90-70=20$.",
+    "estimatedTimeSeconds": 180
+  },
+  {
+    "id": "g3-quant-38",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "probability",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "stem": "Two fair dice are rolled. What is the probability that the sum is at least $10$?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "$\\frac{1}{12}$"
+      },
+      {
+        "key": "B",
+        "text": "$\\frac{1}{9}$"
+      },
+      {
+        "key": "C",
+        "text": "$\\frac{1}{6}$"
+      },
+      {
+        "key": "D",
+        "text": "$\\frac{1}{4}$"
+      },
+      {
+        "key": "E",
+        "text": "$\\frac{5}{18}$"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "Sums of $10,11,$ and $12$ occur in $3+2+1=6$ of $36$ outcomes: $\\frac{6}{36}=\\frac{1}{6}$.",
+    "estimatedTimeSeconds": 150
+  },
+  {
+    "id": "g3-quant-39",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "counting",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "stem": "How many distinct arrangements of the letters in $LEVEL$ are possible?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "60"
+      },
+      {
+        "key": "B",
+        "text": "24"
+      },
+      {
+        "key": "C",
+        "text": "12"
+      },
+      {
+        "key": "D",
+        "text": "30"
+      },
+      {
+        "key": "E",
+        "text": "20"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "D"
+    },
+    "explanation": "$LEVEL$ has two L's and two E's, so the number of distinct arrangements is $\\frac{5!}{2!\\,2!}=\\frac{120}{4}=30$.",
+    "estimatedTimeSeconds": 150
+  },
+  {
+    "id": "g3-quant-40",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "rates",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "stem": "A cyclist rides at $12$ miles per hour for $2$ hours and at $18$ miles per hour for $2$ hours. What is the average speed for the whole trip?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "15 mph"
+      },
+      {
+        "key": "B",
+        "text": "14 mph"
+      },
+      {
+        "key": "C",
+        "text": "16 mph"
+      },
+      {
+        "key": "D",
+        "text": "13 mph"
+      },
+      {
+        "key": "E",
+        "text": "17 mph"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "Total distance $=12\\times 2+18\\times 2=24+36=60$ miles in $4$ hours, so the average speed is $60/4=15$ mph.",
+    "estimatedTimeSeconds": 180
+  }
+]

@@ -1,0 +1,162 @@
+[
+  {
+    "id": "g3-ds-91",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "arithmetic",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "What is the value of $x$?\n\n(1) $x+5=12$\n(2) $x-3=4$",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "D"
+    },
+    "explanation": "From (1), $x=7$. From (2), $x=7$. Each statement alone is sufficient.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g3-ds-92",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "geometry",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "Is the area of the circle greater than $200$?\n\n(1) The radius is $7$.\n(2) The circumference is $44$.",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "D"
+    },
+    "explanation": "From (1), area $=49\\pi\\approx 154<200$, so the answer is no. From (2), $2\\pi r=44$ gives $r\\approx 7$, so area $\\approx 154<200$, again no. Each statement alone is sufficient.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g3-ds-93",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "statistics",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "What is the mean of a set of scores?\n\n(1) The scores total $280$.\n(2) There are four scores, three of which are $60$, $70$, and $80$.",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "From (1) alone the number of scores is unknown. From (2) alone the total is unknown. Together, there are four scores totaling $280$, so the fourth is $280-210=70$ and the mean is $280/4=70$.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g3-ds-94",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "rates_work",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "How long would Machine A take to finish the job alone?\n\n(1) Machines A and B together finish the job in $6$ hours.\n(2) Machine B alone finishes the job in $10$ hours.",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "Neither statement alone fixes A's rate. Together, the combined rate is $\\frac{1}{6}$ and B's rate is $\\frac{1}{10}$, so A's rate is $\\frac{1}{6}-\\frac{1}{10}=\\frac{1}{15}$, and A alone takes $15$ hours.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g3-ds-95",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "overlapping_sets",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "How many students are in neither club?\n\n(1) $20$ students are in Art Club, $18$ are in Music Club, and $8$ are in both.\n(2) The grade has $35$ students.",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "From (1), the union is $20+18-8=30$. From (2), the total is $35$. Together, the number in neither club is $35-30=5$.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g3-ds-96",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "number_properties",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "stem": "Is $n$ divisible by $24$?\n\n(1) $n$ is divisible by $6$ and by $8$.\n(2) $n$ is divisible by $12$ and by $2$.",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "From (1), being divisible by both $6$ and $8$ means being divisible by their least common multiple, $24$ — sufficient. From (2), divisibility by $12$ and $2$ only requires divisibility by $12$ (for example $12$ itself), so it is not sufficient.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g3-ds-97",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "geometry",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "In triangle $ABC$, what is the measure of $\\angle A$?\n\n(1) $AB=AC$ and $\\angle B=36^\\circ$.\n(2) $\\angle C=72^\\circ$.",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "From (1), $AB=AC$ makes the base angles equal, so $\\angle C=\\angle B=36^\\circ$ and $\\angle A=180-36-36=108^\\circ$ — sufficient. From (2) alone, $\\angle A$ is not determined.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g3-ds-98",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "algebra",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "stem": "What is the value of $x$?\n\n(1) $x^2-5x=0$\n(2) $x-5=0$",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "From (1), $x=0$ or $x=5$ — not sufficient. From (2), $x=5$ — sufficient.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g3-ds-99",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "statistics",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "stem": "What is the median of the data set?\n\n(1) The mean is $18$.\n(2) The range is $12$.",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "E"
+    },
+    "explanation": "Knowing only the mean or only the range does not determine the median, and even together many data sets with mean $18$ and range $12$ have different medians.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g3-ds-100",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "word_problems",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "stem": "How many miles can a car travel on $g$ gallons of fuel?\n\n(1) The car gets $30$ miles per gallon in the city and $40$ miles per gallon on the highway.\n(2) The trip uses only highway driving.",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "From (1) alone the driving mix is unknown. From (2) alone the fuel-efficiency rate is unknown. Together, the highway rate applies, so the car travels $40g$ miles.",
+    "estimatedTimeSeconds": 120
+  }
+]

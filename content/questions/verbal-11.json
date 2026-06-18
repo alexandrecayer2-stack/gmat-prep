@@ -1,0 +1,1952 @@
+[
+  {
+    "id": "g3-cr-41",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "assumption",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "passageOrStimulus": "A bakery increased the price of its most popular loaf by 10 percent and then sold more loaves the next week than the week before. The manager concludes that customers value the bread more after the price increase.",
+    "stem": "Which of the following is an assumption on which the manager's conclusion depends?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "The bakery sold at least as many pastries as loaves."
+      },
+      {
+        "key": "B",
+        "text": "No other change affected demand for the loaf during the two weeks."
+      },
+      {
+        "key": "C",
+        "text": "The loaf's ingredients are locally sourced."
+      },
+      {
+        "key": "D",
+        "text": "The bakery's profit margin decreased."
+      },
+      {
+        "key": "E",
+        "text": "The loaf was larger in the second week."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "The manager infers higher valuation from a price increase plus higher sales. That holds only if no other factor explains the increase in sales, which is what choice B states.",
+    "estimatedTimeSeconds": 90
+  },
+  {
+    "id": "g3-cr-42",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "strengthen",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "passageOrStimulus": "A city installed reflective lane markers on a curved road and later saw a decline in nighttime crashes on that road. Officials conclude that the markers improved safety.",
+    "stem": "Which of the following, if true, most strengthens the officials' conclusion?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "Traffic volume on the road stayed about the same."
+      },
+      {
+        "key": "B",
+        "text": "Nearby roads also had fewer nighttime crashes."
+      },
+      {
+        "key": "C",
+        "text": "Some drivers prefer daytime travel."
+      },
+      {
+        "key": "D",
+        "text": "The markers were inexpensive to install."
+      },
+      {
+        "key": "E",
+        "text": "The road was repaved the year before."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "If traffic volume stayed about the same, the drop in crashes is less likely to be explained by reduced exposure, making the marker explanation more plausible.",
+    "estimatedTimeSeconds": 90
+  },
+  {
+    "id": "g3-cr-43",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "weaken",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "passageOrStimulus": "After a company replaced printed manuals with short video tutorials, support calls fell. The company concludes that the videos are easier for customers to use.",
+    "stem": "Which of the following, if true, most weakens the company's conclusion?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "Customer calls fell more sharply on weekends."
+      },
+      {
+        "key": "B",
+        "text": "The company also simplified the product interface at the same time."
+      },
+      {
+        "key": "C",
+        "text": "Some customers still prefer paper documents."
+      },
+      {
+        "key": "D",
+        "text": "The videos are available in two languages."
+      },
+      {
+        "key": "E",
+        "text": "The support staff were trained more recently."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "If the interface was simplified at the same time, the drop in support calls may be due to the interface change rather than the videos being easier to use.",
+    "estimatedTimeSeconds": 90
+  },
+  {
+    "id": "g3-cr-44",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "evaluate",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "passageOrStimulus": "A school argues that its new tutoring program raised mathematics scores because average scores rose after the program began.",
+    "stem": "Which of the following would be most useful to determine whether the school's conclusion is justified?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "Whether students liked the tutors."
+      },
+      {
+        "key": "B",
+        "text": "Whether scores also rose at schools without the program."
+      },
+      {
+        "key": "C",
+        "text": "Whether the tutoring rooms were comfortable."
+      },
+      {
+        "key": "D",
+        "text": "Whether the program had a logo."
+      },
+      {
+        "key": "E",
+        "text": "Whether teachers received parking passes."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "A comparison school helps test whether the increase reflects the tutoring program or a broader trend, directly addressing the causal question.",
+    "estimatedTimeSeconds": 90
+  },
+  {
+    "id": "g3-cr-45",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "flaw",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "passageOrStimulus": "A restaurant noticed that diners who ordered dessert spent more overall than diners who did not. The owner concludes that offering free desserts will increase total revenue.",
+    "stem": "The owner's reasoning is flawed because it",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "confuses correlation with causation."
+      },
+      {
+        "key": "B",
+        "text": "uses too large a sample."
+      },
+      {
+        "key": "C",
+        "text": "assumes desserts taste better than entrees."
+      },
+      {
+        "key": "D",
+        "text": "ignores all numerical data."
+      },
+      {
+        "key": "E",
+        "text": "compares two identical groups."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "Diners who order dessert may already be inclined to spend more. The owner treats an association as proof that desserts cause higher revenue.",
+    "estimatedTimeSeconds": 90
+  },
+  {
+    "id": "g3-cr-46",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "inference",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "passageOrStimulus": "The museum is closed on Mondays. On Tuesday, visitors may enter only the west wing because the east wing is being renovated.",
+    "stem": "Which of the following can be inferred from the information above?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "The museum is open to all visitors every Tuesday."
+      },
+      {
+        "key": "B",
+        "text": "The east wing is open on Mondays."
+      },
+      {
+        "key": "C",
+        "text": "On Tuesday, visitors cannot enter the east wing."
+      },
+      {
+        "key": "D",
+        "text": "The museum has no west wing."
+      },
+      {
+        "key": "E",
+        "text": "Renovation always occurs on Mondays."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "On Tuesday, visitors may enter only the west wing because the east wing is being renovated, so they cannot enter the east wing.",
+    "estimatedTimeSeconds": 90
+  },
+  {
+    "id": "g3-cr-47",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "paradox",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "passageOrStimulus": "A ferry line increased the number of sailings this summer, yet total passenger wait times also increased.",
+    "stem": "Which of the following, if true, best resolves the apparent discrepancy?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "The ferry line added a new marketing campaign."
+      },
+      {
+        "key": "B",
+        "text": "More passengers than usual arrived at the docks."
+      },
+      {
+        "key": "C",
+        "text": "The ferries were painted a different color."
+      },
+      {
+        "key": "D",
+        "text": "The company offered free water onboard."
+      },
+      {
+        "key": "E",
+        "text": "Some passengers preferred walking."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "If demand rose even more than the increase in sailings, average wait times could still rise, resolving the contradiction.",
+    "estimatedTimeSeconds": 90
+  },
+  {
+    "id": "g3-cr-48",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "boldface",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "passageOrStimulus": "The planning memo says that the new bike lanes will reduce congestion. **City traffic data from the last three years show that congestion has risen most on streets without bike lanes.** **Therefore, the city should install bike lanes first on the busiest corridors.**",
+    "stem": "In the argument, the first boldfaced statement plays which role, and the second boldfaced statement plays which role?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "Evidence; conclusion"
+      },
+      {
+        "key": "B",
+        "text": "Conclusion; evidence"
+      },
+      {
+        "key": "C",
+        "text": "Counterevidence; conclusion"
+      },
+      {
+        "key": "D",
+        "text": "Conclusion; recommendation"
+      },
+      {
+        "key": "E",
+        "text": "Recommendation; evidence"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "The data statement supports the case for bike lanes, so it is evidence; the final statement is the conclusion the argument draws from it.",
+    "estimatedTimeSeconds": 100
+  },
+  {
+    "id": "g3-cr-49",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "conclusion-main-point",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "passageOrStimulus": "A housing agency notes that when landlords receive faster permit approvals, renovation projects finish sooner. It also notes that faster renovations reduce the number of vacant units. The agency concludes that speeding permit approvals can help stabilize neighborhood rents.",
+    "stem": "Which of the following most accurately states the main point of the argument?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "Permit approvals should never be delayed."
+      },
+      {
+        "key": "B",
+        "text": "Faster approvals can help stabilize neighborhood rents."
+      },
+      {
+        "key": "C",
+        "text": "Vacant units are always undesirable."
+      },
+      {
+        "key": "D",
+        "text": "Renovation projects should be eliminated."
+      },
+      {
+        "key": "E",
+        "text": "Landlords prefer higher rents."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "The chain of support leads to the broader claim that faster permit approvals can help stabilize rents, which is the main conclusion.",
+    "estimatedTimeSeconds": 100
+  },
+  {
+    "id": "g3-cr-50",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "plan_strategy",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "passageOrStimulus": "A city wants to increase recycling without raising taxes. Officials are choosing between several outreach plans.",
+    "stem": "Which of the following plans is most likely to achieve the city's goal?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "Offer free collection bins and reduce pickup frequency."
+      },
+      {
+        "key": "B",
+        "text": "Launch a citywide campaign using existing staff and digital notices."
+      },
+      {
+        "key": "C",
+        "text": "Hire an outside consultant and build a new facility."
+      },
+      {
+        "key": "D",
+        "text": "Raise fines dramatically for households that do not recycle."
+      },
+      {
+        "key": "E",
+        "text": "Cut all recycling services for one month."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "A campaign using existing staff and digital notices plausibly improves recycling while avoiding major added cost, fitting the no-new-tax goal.",
+    "estimatedTimeSeconds": 100
+  },
+  {
+    "id": "g3-cr-51",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "assumption",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "passageOrStimulus": "A fitness app reports that users who complete its evening stretching routine sleep longer on average. The company concludes that the routine improves sleep duration.",
+    "stem": "Which of the following is an assumption required by the company's conclusion?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "The users who stretch are more athletic than other users."
+      },
+      {
+        "key": "B",
+        "text": "The stretching routine does not itself keep users awake later."
+      },
+      {
+        "key": "C",
+        "text": "All users own smartphones."
+      },
+      {
+        "key": "D",
+        "text": "Users prefer stretching to running."
+      },
+      {
+        "key": "E",
+        "text": "The app charges a subscription fee."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "The conclusion requires that the routine not have a countervailing effect such as keeping users awake; otherwise the longer sleep could not be attributed to it.",
+    "estimatedTimeSeconds": 100
+  },
+  {
+    "id": "g3-cr-52",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "strengthen",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "passageOrStimulus": "A theater says that moving its shows from Saturday night to Thursday night will increase attendance because Thursday has fewer competing events.",
+    "stem": "Which of the following, if true, most strengthens the theater's reasoning?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "Thursday tickets are slightly cheaper."
+      },
+      {
+        "key": "B",
+        "text": "Many of the theater's regular patrons are unavailable on Thursdays."
+      },
+      {
+        "key": "C",
+        "text": "Other entertainment options are in fact limited on Thursdays."
+      },
+      {
+        "key": "D",
+        "text": "The theater has a larger lobby on Saturdays."
+      },
+      {
+        "key": "E",
+        "text": "The cast prefers Saturday rehearsals."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "If other entertainment options are genuinely limited on Thursdays, the claimed advantage is real and the move is more likely to raise attendance.",
+    "estimatedTimeSeconds": 100
+  },
+  {
+    "id": "g3-cr-53",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "weaken",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "passageOrStimulus": "A hospital claims that its new appointment reminder texts reduced no-show rates because fewer patients missed appointments after the texts began.",
+    "stem": "Which of the following, if true, most weakens the hospital's claim?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "The texts were sent only to new patients."
+      },
+      {
+        "key": "B",
+        "text": "The hospital also started offering free parking at the same time."
+      },
+      {
+        "key": "C",
+        "text": "Some patients replied to the texts."
+      },
+      {
+        "key": "D",
+        "text": "The reminders were sent at 8 a.m."
+      },
+      {
+        "key": "E",
+        "text": "The hospital uses the same software for billing."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "If free parking was introduced at the same time, the lower no-show rate could be due to parking rather than the reminder texts.",
+    "estimatedTimeSeconds": 100
+  },
+  {
+    "id": "g3-cr-54",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "evaluate",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "passageOrStimulus": "A delivery company says that switching to electric vans will reduce total operating costs over five years.",
+    "stem": "Which of the following would be most useful to determine whether the company's prediction is correct?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "Whether drivers like electric vans more than gas vans."
+      },
+      {
+        "key": "B",
+        "text": "Whether charging costs are expected to rise faster than fuel costs."
+      },
+      {
+        "key": "C",
+        "text": "Whether the vans are painted white."
+      },
+      {
+        "key": "D",
+        "text": "Whether the company uses paper invoices."
+      },
+      {
+        "key": "E",
+        "text": "Whether the vans have cup holders."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "Whether charging costs may rise relative to fuel directly bears on whether the main ongoing cost will be lower, which is decisive for the forecast.",
+    "estimatedTimeSeconds": 100
+  },
+  {
+    "id": "g3-cr-55",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "flaw",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "passageOrStimulus": "A town found that neighborhoods with more street trees also have lower air pollution. The mayor concludes that planting more trees will necessarily lower pollution in every neighborhood.",
+    "stem": "The mayor's reasoning is flawed because it",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "assumes that correlation proves causation."
+      },
+      {
+        "key": "B",
+        "text": "uses a survey instead of a census."
+      },
+      {
+        "key": "C",
+        "text": "ignores the cost of tree maintenance."
+      },
+      {
+        "key": "D",
+        "text": "assumes pollution can never be measured."
+      },
+      {
+        "key": "E",
+        "text": "relies on expert testimony."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "The data show an association, not proof that trees caused the lower pollution; the mayor treats correlation as causation.",
+    "estimatedTimeSeconds": 100
+  },
+  {
+    "id": "g3-cr-56",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "inference",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "passageOrStimulus": "Every student who submitted the optional practice essay received feedback. Some students who received feedback revised their essays, and every revised essay was submitted before the deadline.",
+    "stem": "Which of the following can be inferred from the information above?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "Every student revised an essay."
+      },
+      {
+        "key": "B",
+        "text": "Some students submitted the optional practice essay."
+      },
+      {
+        "key": "C",
+        "text": "Some revised essays were submitted before the deadline."
+      },
+      {
+        "key": "D",
+        "text": "No student received feedback without revising."
+      },
+      {
+        "key": "E",
+        "text": "All students revised the same essay."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "Some students who received feedback revised their essays, and every revised essay was submitted before the deadline, so at least some revised essays were submitted before the deadline.",
+    "estimatedTimeSeconds": 100
+  },
+  {
+    "id": "g3-cr-57",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "paradox",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "passageOrStimulus": "A bookstore lowered prices on several slow-selling titles, yet revenue from those titles fell even more sharply.",
+    "stem": "Which of the following, if true, best explains the result?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "The bookstore expanded its coffee menu."
+      },
+      {
+        "key": "B",
+        "text": "Customers bought fewer copies than before because the prices were only slightly lower."
+      },
+      {
+        "key": "C",
+        "text": "The titles were displayed near the entrance."
+      },
+      {
+        "key": "D",
+        "text": "The store changed its logo."
+      },
+      {
+        "key": "E",
+        "text": "The books were all hardcovers."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "If the price cut was modest and customers bought fewer copies, revenue can still fall even after prices are lowered.",
+    "estimatedTimeSeconds": 100
+  },
+  {
+    "id": "g3-cr-58",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "boldface",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "passageOrStimulus": "The analyst writes that a downtown traffic count dropped after bike lanes were added. **Because traffic counts were taken only during weekday rush hour, the drop may not reflect all traffic conditions.** **Even so, the city should continue expanding bike lanes because the trend is encouraging.**",
+    "stem": "In the argument, the first boldfaced statement plays which role, and the second boldfaced statement plays which role?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "A qualification of the evidence; the conclusion"
+      },
+      {
+        "key": "B",
+        "text": "The conclusion; a recommendation"
+      },
+      {
+        "key": "C",
+        "text": "The conclusion; a restatement of the evidence"
+      },
+      {
+        "key": "D",
+        "text": "A counterclaim; a concession"
+      },
+      {
+        "key": "E",
+        "text": "A premise; a rebuttal"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "The first boldface limits the significance of the data, so it qualifies the evidence; the second states what the city should do, the argument's conclusion.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g3-cr-59",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "conclusion-main-point",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "passageOrStimulus": "A district added later bus routes for students but found that attendance still improved only slightly. The district notes that attendance improved most where buses ran on time and where families were notified the night before. It concludes that schedule reliability and advance notice matter more than route count alone.",
+    "stem": "Which of the following best expresses the main point of the argument?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "More bus routes always improve attendance."
+      },
+      {
+        "key": "B",
+        "text": "Attendance never improves without buses."
+      },
+      {
+        "key": "C",
+        "text": "Reliability and advance notice matter more than route count alone."
+      },
+      {
+        "key": "D",
+        "text": "Families dislike school buses."
+      },
+      {
+        "key": "E",
+        "text": "The district should eliminate all late buses."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "The evidence points to two factors, reliability and advance notice, and the conclusion is that these matter more than simply adding routes.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g3-cr-60",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "plan_strategy",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "passageOrStimulus": "A nonprofit wants to increase the number of volunteers who return for a second year while keeping training costs low.",
+    "stem": "Which of the following is the best strategy for the nonprofit?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "Offer expensive weekend retreats to all volunteers."
+      },
+      {
+        "key": "B",
+        "text": "Reduce training to a single long lecture."
+      },
+      {
+        "key": "C",
+        "text": "Assign mentors and provide brief monthly check-ins."
+      },
+      {
+        "key": "D",
+        "text": "Replace all in-person coordination with printed mailings."
+      },
+      {
+        "key": "E",
+        "text": "Increase annual dues for volunteers."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "Mentors and brief check-ins directly support retention at relatively low cost, fitting the nonprofit's dual goal.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g3-cr-61",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "assumption",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "passageOrStimulus": "A software firm says that replacing in-person support with an online knowledge base will lower service costs because most customers can solve problems on their own.",
+    "stem": "Which of the following is an assumption required by the argument?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "The knowledge base will be written in complete sentences."
+      },
+      {
+        "key": "B",
+        "text": "Customers will be willing and able to use the knowledge base."
+      },
+      {
+        "key": "C",
+        "text": "The firm has more than one product line."
+      },
+      {
+        "key": "D",
+        "text": "The firm already has low service costs."
+      },
+      {
+        "key": "E",
+        "text": "Support agents prefer working remotely."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "The plan lowers costs only if customers actually use and benefit from the knowledge base, which the argument must assume.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g3-cr-62",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "strengthen",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "passageOrStimulus": "A farm says that using drip irrigation will raise crop yields because the soil stays moist more evenly.",
+    "stem": "Which of the following, if true, most strengthens the farm's reasoning?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "The farm grows two kinds of crops."
+      },
+      {
+        "key": "B",
+        "text": "Other farms using drip irrigation in the region reported higher yields."
+      },
+      {
+        "key": "C",
+        "text": "The farm's workers prefer not to carry hoses."
+      },
+      {
+        "key": "D",
+        "text": "The drip system requires more pipes."
+      },
+      {
+        "key": "E",
+        "text": "Some crops are harvested in the morning."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "If similar farms saw higher yields after adopting drip irrigation, that supports the claim that the method can improve yields.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g3-cr-63",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "weaken",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "passageOrStimulus": "A city says that a new sidewalk repair program improved pedestrian safety because foot injuries on the repaired blocks declined after the work was completed.",
+    "stem": "Which of the following, if true, most weakens the city's claim?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "The repaired blocks are in a shopping district."
+      },
+      {
+        "key": "B",
+        "text": "Fewer pedestrians used the repaired blocks after the work was completed."
+      },
+      {
+        "key": "C",
+        "text": "The repair crews worked at night."
+      },
+      {
+        "key": "D",
+        "text": "The city used the same contractor on every block."
+      },
+      {
+        "key": "E",
+        "text": "Some pedestrians also use buses."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "If fewer pedestrians used the repaired blocks, injuries could fall simply because exposure fell, not because the sidewalks became safer.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g3-cr-64",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "evaluate",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "passageOrStimulus": "A rail line plans to replace paper tickets with a mobile app and expects the change to cut queue times.",
+    "stem": "Which of the following would be most useful to know in evaluating the plan?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "How many employees prefer paper tickets."
+      },
+      {
+        "key": "B",
+        "text": "Whether most riders already carry smartphones with data access."
+      },
+      {
+        "key": "C",
+        "text": "Whether the trains are painted blue."
+      },
+      {
+        "key": "D",
+        "text": "Whether the app has a logo."
+      },
+      {
+        "key": "E",
+        "text": "Whether the station has a café."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "The plan works only if riders can use the app, so whether most riders have smartphones with data access is directly relevant.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g3-cr-65",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "flaw",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "passageOrStimulus": "A retailer notes that stores that began offering self-checkout also saw higher customer satisfaction scores. The retailer concludes that self-checkout causes higher satisfaction.",
+    "stem": "The retailer's reasoning is most vulnerable to the criticism that it",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "assumes that stores with self-checkout are otherwise identical to stores without it."
+      },
+      {
+        "key": "B",
+        "text": "uses numbers instead of words."
+      },
+      {
+        "key": "C",
+        "text": "ignores the weather."
+      },
+      {
+        "key": "D",
+        "text": "relies on a single store."
+      },
+      {
+        "key": "E",
+        "text": "assumes satisfaction cannot be measured."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "Different stores may differ in many ways besides self-checkout; the retailer assumes the groups are otherwise equivalent and treats correlation as causation.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g3-cr-66",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "inference",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "passageOrStimulus": "Only applicants who passed the first screening interview were invited to a final interview. Some applicants who were invited to a final interview declined the invitation.",
+    "stem": "Which of the following can be inferred from the information above?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "Every applicant passed the first screening interview."
+      },
+      {
+        "key": "B",
+        "text": "Some applicants passed the first screening interview."
+      },
+      {
+        "key": "C",
+        "text": "All applicants accepted the final interview."
+      },
+      {
+        "key": "D",
+        "text": "No applicant declined the invitation."
+      },
+      {
+        "key": "E",
+        "text": "The final interview was more difficult than the first screening."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "Since only those who passed the first screening were invited, and some applicants were invited (some of whom declined), at least some applicants passed the first screening.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g3-cr-67",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "paradox",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "passageOrStimulus": "A city's bike-share system added many stations, yet average daily rides per station fell.",
+    "stem": "Which of the following, if true, best explains the result?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "The new stations were placed in areas with little existing demand."
+      },
+      {
+        "key": "B",
+        "text": "The city had a mild winter."
+      },
+      {
+        "key": "C",
+        "text": "More people owned bikes than before."
+      },
+      {
+        "key": "D",
+        "text": "The bikes were changed to a different color."
+      },
+      {
+        "key": "E",
+        "text": "Some stations were near parks."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "If the new stations were added where demand was low, total rides are spread across more stations, lowering the average rides per station.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g3-cr-68",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "boldface",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "passageOrStimulus": "The report notes that a city pilot program for shaded bus stops reduced complaints about heat, although the number of complaints was already falling before the pilot began. **The pilot only covered stops on the downtown route.** **City officials should expand the shaded-stop program to all major routes.**",
+    "stem": "In the argument, the first boldfaced statement plays which role, and the second boldfaced statement plays which role?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "A limitation on the evidence; a recommendation"
+      },
+      {
+        "key": "B",
+        "text": "A conclusion; a premise"
+      },
+      {
+        "key": "C",
+        "text": "A counterexample; a conclusion"
+      },
+      {
+        "key": "D",
+        "text": "A premise; a recommendation"
+      },
+      {
+        "key": "E",
+        "text": "A conclusion; a recommendation"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "The first boldface limits how broadly the pilot results apply, so it is a limitation on the evidence; the second is a recommendation to expand the program.",
+    "estimatedTimeSeconds": 150
+  },
+  {
+    "id": "g3-cr-69",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "conclusion-main-point",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "passageOrStimulus": "A county found that residents who used the new online permit system submitted forms more accurately, but only after the county added live chat support. The county concludes that technology works best when paired with human assistance.",
+    "stem": "Which of the following best expresses the main point of the argument?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "Online permit systems should replace all county offices."
+      },
+      {
+        "key": "B",
+        "text": "Technology works best when paired with human assistance."
+      },
+      {
+        "key": "C",
+        "text": "Live chat support is always required."
+      },
+      {
+        "key": "D",
+        "text": "Residents dislike online forms."
+      },
+      {
+        "key": "E",
+        "text": "The county should abandon technology."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "The evidence supports the broader claim that technology is most effective when paired with human help, which is the conclusion.",
+    "estimatedTimeSeconds": 150
+  },
+  {
+    "id": "g3-cr-70",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "plan_strategy",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "passageOrStimulus": "A public library wants to increase teen visits without reducing quiet space for other patrons.",
+    "stem": "Which of the following plans best meets the library's goal?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "Replace all reading tables with gaming stations."
+      },
+      {
+        "key": "B",
+        "text": "Hold teen events in a separate room after school hours."
+      },
+      {
+        "key": "C",
+        "text": "Ban all teens from the library."
+      },
+      {
+        "key": "D",
+        "text": "Reduce the number of books in the collection."
+      },
+      {
+        "key": "E",
+        "text": "Close the library on weekdays."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "A separate room after school can attract teens while preserving the quiet area, meeting the goal and its constraint.",
+    "estimatedTimeSeconds": 150
+  },
+  {
+    "id": "g3-cr-71",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "assumption",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "passageOrStimulus": "A coffee shop claims that adding mobile ordering will increase morning sales because customers who are in a hurry will buy more drinks if they can order ahead.",
+    "stem": "Which of the following is an assumption on which the claim depends?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "The shop already has a large patio."
+      },
+      {
+        "key": "B",
+        "text": "Hurrying customers will actually use mobile ordering."
+      },
+      {
+        "key": "C",
+        "text": "The shop sells pastries."
+      },
+      {
+        "key": "D",
+        "text": "Coffee beans are dark roasted."
+      },
+      {
+        "key": "E",
+        "text": "The shop's logo is unchanged."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "The claim works only if hurried customers actually use the new ordering option; otherwise the predicted increase would not follow.",
+    "estimatedTimeSeconds": 90
+  },
+  {
+    "id": "g3-cr-72",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "strengthen",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "passageOrStimulus": "A commuter rail line says that adding bikes on trains will increase ridership because it makes the service more useful for last-mile travel.",
+    "stem": "Which of the following, if true, most strengthens the rail line's argument?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "Few riders use the trains on rainy days."
+      },
+      {
+        "key": "B",
+        "text": "Many potential riders currently avoid the line because they need a bike at the destination."
+      },
+      {
+        "key": "C",
+        "text": "The trains are painted in the company's colors."
+      },
+      {
+        "key": "D",
+        "text": "The line uses ticket scanners."
+      },
+      {
+        "key": "E",
+        "text": "The stations are near office buildings."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "If many potential riders avoid the line because they need a bike at their destination, adding bikes directly addresses that barrier.",
+    "estimatedTimeSeconds": 90
+  },
+  {
+    "id": "g3-cr-73",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "weaken",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "passageOrStimulus": "A farm claims that a new fertilizer increased tomato yield because the harvest was larger after the fertilizer was introduced.",
+    "stem": "Which of the following, if true, most weakens the farm's claim?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "The farm also switched to a better irrigation schedule at the same time."
+      },
+      {
+        "key": "B",
+        "text": "The tomatoes were sold at a roadside stand."
+      },
+      {
+        "key": "C",
+        "text": "The fertilizer was stored in a blue shed."
+      },
+      {
+        "key": "D",
+        "text": "The farm has been open for many years."
+      },
+      {
+        "key": "E",
+        "text": "The tomatoes were picked by hand."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "If irrigation also changed at the same time, the larger harvest may be due to watering rather than the fertilizer.",
+    "estimatedTimeSeconds": 90
+  },
+  {
+    "id": "g3-cr-74",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "evaluate",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "passageOrStimulus": "A city plans to add public water fountains in parks and expects fewer plastic bottles to be sold there.",
+    "stem": "Which of the following would be most useful to know in evaluating the plan?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "Whether the parks have benches."
+      },
+      {
+        "key": "B",
+        "text": "Whether visitors already bring reusable bottles."
+      },
+      {
+        "key": "C",
+        "text": "Whether the city has a mascot."
+      },
+      {
+        "key": "D",
+        "text": "Whether the fountains are painted green."
+      },
+      {
+        "key": "E",
+        "text": "Whether the parks host concerts."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "If visitors already bring reusable bottles, the new fountains may have little effect on bottle sales, which is directly useful in evaluating the plan.",
+    "estimatedTimeSeconds": 90
+  },
+  {
+    "id": "g3-cr-75",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "flaw",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "passageOrStimulus": "An office found that employees who sit near windows take fewer sick days. The manager concludes that moving everyone near windows will reduce sick leave.",
+    "stem": "The manager's reasoning is flawed because it",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "assumes that proximity to windows causes fewer sick days."
+      },
+      {
+        "key": "B",
+        "text": "uses too many statistics."
+      },
+      {
+        "key": "C",
+        "text": "ignores the weather."
+      },
+      {
+        "key": "D",
+        "text": "assumes sick days are never planned."
+      },
+      {
+        "key": "E",
+        "text": "compares only two departments."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "The manager infers a cause from an observed association; other factors could explain why window seats correlate with fewer sick days.",
+    "estimatedTimeSeconds": 90
+  },
+  {
+    "id": "g3-cr-76",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "inference",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "passageOrStimulus": "The train was delayed by weather, so the company offered refunds to passengers on the affected route. Passengers on other routes received no refunds.",
+    "stem": "Which of the following can be inferred from the information above?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "All passengers received refunds."
+      },
+      {
+        "key": "B",
+        "text": "Some passengers on the affected route received refunds."
+      },
+      {
+        "key": "C",
+        "text": "Weather never affects trains."
+      },
+      {
+        "key": "D",
+        "text": "Other routes were also delayed."
+      },
+      {
+        "key": "E",
+        "text": "Refunds were given before the delay."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "Refunds were offered to passengers on the affected route, so at least some passengers on that route received them.",
+    "estimatedTimeSeconds": 90
+  },
+  {
+    "id": "g3-cr-77",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "paradox",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "passageOrStimulus": "A small airline sold more tickets this month than last month, yet it flew fewer passengers.",
+    "stem": "Which of the following, if true, best explains the apparent discrepancy?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "More tickets were sold for future flights."
+      },
+      {
+        "key": "B",
+        "text": "The airline changed its website font."
+      },
+      {
+        "key": "C",
+        "text": "The airline served more snack options."
+      },
+      {
+        "key": "D",
+        "text": "The airline added more seats."
+      },
+      {
+        "key": "E",
+        "text": "Passengers liked the pilots."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "If many tickets were sold for future flights, ticket sales can rise while the number of passengers flown this month falls.",
+    "estimatedTimeSeconds": 90
+  },
+  {
+    "id": "g3-cr-78",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "boldface",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "passageOrStimulus": "The memo argues that the city's shared scooter program should be expanded because it reduced short car trips in the pilot area. **The pilot covered only neighborhoods with existing bike lanes.** **Therefore, the city should study whether the effect extends to other neighborhoods before expanding the program.**",
+    "stem": "In the argument, the first boldfaced statement plays which role, and the second boldfaced statement plays which role?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "A limitation on the evidence; a recommendation"
+      },
+      {
+        "key": "B",
+        "text": "A conclusion; a premise"
+      },
+      {
+        "key": "C",
+        "text": "A counterexample; a conclusion"
+      },
+      {
+        "key": "D",
+        "text": "A premise; a recommendation"
+      },
+      {
+        "key": "E",
+        "text": "A conclusion; a recommendation"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "The first boldface narrows the pilot's scope, limiting the evidence; the second recommends studying whether the result generalizes.",
+    "estimatedTimeSeconds": 100
+  },
+  {
+    "id": "g3-cr-79",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "conclusion-main-point",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "passageOrStimulus": "A city added more trash bins to a park and later found less litter near the bins but more litter at the park's edges. Officials conclude that adding bins can shift litter unless cleanup covers the whole park.",
+    "stem": "Which of the following best states the main point of the argument?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "Trash bins never reduce litter."
+      },
+      {
+        "key": "B",
+        "text": "Adding bins can shift litter unless cleanup is broader."
+      },
+      {
+        "key": "C",
+        "text": "The park should remove all bins."
+      },
+      {
+        "key": "D",
+        "text": "Litter is caused by trash bins."
+      },
+      {
+        "key": "E",
+        "text": "Edges of parks are always dirty."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "The conclusion is not just that bins matter, but that their benefit can be offset unless cleanup covers the whole park.",
+    "estimatedTimeSeconds": 100
+  },
+  {
+    "id": "g3-cr-80",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "plan_strategy",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "passageOrStimulus": "A transit agency wants to reduce late buses without adding many new vehicles.",
+    "stem": "Which of the following is the best strategy?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "Increase the number of routes immediately."
+      },
+      {
+        "key": "B",
+        "text": "Reassign some buses to the busiest routes and adjust schedules using real-time data."
+      },
+      {
+        "key": "C",
+        "text": "Remove all express routes."
+      },
+      {
+        "key": "D",
+        "text": "Close the transit system on rainy days."
+      },
+      {
+        "key": "E",
+        "text": "Add more advertising posters."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "Reassigning buses and using real-time data can improve punctuality without needing many new vehicles, fitting the goal.",
+    "estimatedTimeSeconds": 100
+  },
+  {
+    "id": "g3-cr-81",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "assumption",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "passageOrStimulus": "A grocery chain says that moving a store's bakery closer to the entrance will increase bakery sales because more shoppers will notice it.",
+    "stem": "Which of the following is an assumption required by the argument?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "The store will stop selling fruit."
+      },
+      {
+        "key": "B",
+        "text": "Shoppers do not already notice the bakery well enough from its current location."
+      },
+      {
+        "key": "C",
+        "text": "The bakery uses imported flour."
+      },
+      {
+        "key": "D",
+        "text": "The store has at least one checkout lane."
+      },
+      {
+        "key": "E",
+        "text": "The bakery closes at the same time every day."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "If shoppers already notice the bakery well enough, moving it would not necessarily increase sales; the conclusion depends on current visibility being insufficient.",
+    "estimatedTimeSeconds": 100
+  },
+  {
+    "id": "g3-cr-82",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "strengthen",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "passageOrStimulus": "A factory says that its new training videos lowered defect rates because workers made fewer assembly mistakes after watching them.",
+    "stem": "Which of the following, if true, most strengthens the factory's argument?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "The videos were translated into two languages."
+      },
+      {
+        "key": "B",
+        "text": "Workers who did not watch the videos did not show a similar drop in mistakes."
+      },
+      {
+        "key": "C",
+        "text": "The factory has a large parking lot."
+      },
+      {
+        "key": "D",
+        "text": "The videos were shorter than the old manual."
+      },
+      {
+        "key": "E",
+        "text": "The factory sells products overseas."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "A comparison group that did not watch the videos and did not improve supports the claim that the videos caused the drop in mistakes.",
+    "estimatedTimeSeconds": 100
+  },
+  {
+    "id": "g3-cr-83",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "weaken",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "passageOrStimulus": "A town says that its new art festival increased downtown sales because retailers reported higher revenue during the festival week.",
+    "stem": "Which of the following, if true, most weakens the town's claim?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "The festival included live music."
+      },
+      {
+        "key": "B",
+        "text": "Retailers offered large holiday discounts during the same week."
+      },
+      {
+        "key": "C",
+        "text": "Some visitors came from neighboring towns."
+      },
+      {
+        "key": "D",
+        "text": "The downtown area is walkable."
+      },
+      {
+        "key": "E",
+        "text": "The festival had a printed map."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "If retailers also offered large discounts, the higher sales could be due to the discounts rather than the festival.",
+    "estimatedTimeSeconds": 100
+  },
+  {
+    "id": "g3-cr-84",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "evaluate",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "passageOrStimulus": "A neighborhood group wants to know whether planting more streetlights will reduce evening thefts.",
+    "stem": "Which of the following would be most useful to know in evaluating the proposal?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "Whether residents prefer warm-colored lights."
+      },
+      {
+        "key": "B",
+        "text": "Whether thefts also fell in comparable neighborhoods without more streetlights."
+      },
+      {
+        "key": "C",
+        "text": "Whether the poles are made of steel."
+      },
+      {
+        "key": "D",
+        "text": "Whether the streetlights are tall."
+      },
+      {
+        "key": "E",
+        "text": "Whether the neighborhood has a park."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "A comparable-neighborhood comparison helps determine whether thefts fell because of the lights or because of a broader trend.",
+    "estimatedTimeSeconds": 100
+  },
+  {
+    "id": "g3-cr-85",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "flaw",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "passageOrStimulus": "A gym found that members who attend group classes cancel their memberships less often. The gym concludes that group classes prevent cancellations.",
+    "stem": "The gym's reasoning is flawed because it",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "assumes that people who attend classes are the same as people who do not in every relevant respect."
+      },
+      {
+        "key": "B",
+        "text": "fails to use enough examples."
+      },
+      {
+        "key": "C",
+        "text": "ignores the gym's music playlist."
+      },
+      {
+        "key": "D",
+        "text": "assumes cancellations are impossible."
+      },
+      {
+        "key": "E",
+        "text": "treats a probability as a certainty."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "Members who choose group classes may differ in ways that already make them less likely to cancel; the gym wrongly assumes the association proves causation.",
+    "estimatedTimeSeconds": 100
+  },
+  {
+    "id": "g3-cr-86",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "inference",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "passageOrStimulus": "All of the company's interns work part time. Some part-time workers work remotely. No remote worker is a contractor.",
+    "stem": "Which of the following can be inferred from the statements above?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "Some interns work remotely."
+      },
+      {
+        "key": "B",
+        "text": "Some part-time workers are not contractors."
+      },
+      {
+        "key": "C",
+        "text": "All contractors are interns."
+      },
+      {
+        "key": "D",
+        "text": "No intern works remotely."
+      },
+      {
+        "key": "E",
+        "text": "Every part-time worker is an intern."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "Some part-time workers work remotely, and no remote worker is a contractor, so some part-time workers are not contractors.",
+    "estimatedTimeSeconds": 100
+  },
+  {
+    "id": "g3-cr-87",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "paradox",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "passageOrStimulus": "A clothing store increased the number of sale signs, yet fewer items were sold at full price and total profit rose.",
+    "stem": "Which of the following, if true, best explains the result?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "The sale signs were printed in large font."
+      },
+      {
+        "key": "B",
+        "text": "The store's most expensive items were excluded from the sale."
+      },
+      {
+        "key": "C",
+        "text": "Customers shopped earlier in the day."
+      },
+      {
+        "key": "D",
+        "text": "The store changed its music."
+      },
+      {
+        "key": "E",
+        "text": "The store added more mirrors."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "If the most expensive items were excluded from the sale, the store could sell fewer full-price items yet earn more profit by clearing lower-margin items while keeping high-margin items at full price.",
+    "estimatedTimeSeconds": 100
+  },
+  {
+    "id": "g3-cr-88",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "boldface",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "passageOrStimulus": "The analyst notes that the city's bike-share usage rose after the city expanded the network. **The city expanded the network only in neighborhoods that already had high ridership.** **So the expansion was probably not the only reason usage rose.**",
+    "stem": "In the argument, the first boldfaced statement plays which role, and the second boldfaced statement plays which role?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "A qualification of the evidence; a conclusion"
+      },
+      {
+        "key": "B",
+        "text": "A premise; a conclusion"
+      },
+      {
+        "key": "C",
+        "text": "A conclusion; a premise"
+      },
+      {
+        "key": "D",
+        "text": "A counterexample; a premise"
+      },
+      {
+        "key": "E",
+        "text": "A recommendation; a conclusion"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "The first boldface limits the scope of the evidence, suggesting preexisting ridership; the second states the argument's conclusion about causation.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g3-cr-89",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "conclusion-main-point",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "passageOrStimulus": "A university found that students who used its peer-writing center more than twice received stronger final papers, but only when they also attended at least one instructor conference. The university concludes that combining peer and instructor feedback is more effective than either source alone.",
+    "stem": "Which of the following best states the main point of the argument?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "Peer-writing centers should replace instructor conferences."
+      },
+      {
+        "key": "B",
+        "text": "Students who attend conferences always write better papers."
+      },
+      {
+        "key": "C",
+        "text": "Combining peer and instructor feedback is more effective than either alone."
+      },
+      {
+        "key": "D",
+        "text": "All students should visit the writing center exactly twice."
+      },
+      {
+        "key": "E",
+        "text": "Instructor conferences are unnecessary."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "The conclusion is that the combination of peer and instructor feedback is more effective than either alone.",
+    "estimatedTimeSeconds": 150
+  },
+  {
+    "id": "g3-cr-90",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "plan_strategy",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "passageOrStimulus": "A museum wants to increase visits from families with children while keeping admission prices unchanged.",
+    "stem": "Which of the following is the best strategy?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "Raise admission prices and offer fewer programs."
+      },
+      {
+        "key": "B",
+        "text": "Create family-themed weekends with hands-on exhibits using the current staff."
+      },
+      {
+        "key": "C",
+        "text": "Reduce the museum's hours by half."
+      },
+      {
+        "key": "D",
+        "text": "Stop advertising to families."
+      },
+      {
+        "key": "E",
+        "text": "Convert the museum into office space."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "Family weekends and hands-on exhibits are likely to attract families without changing admission prices or requiring a major new expense.",
+    "estimatedTimeSeconds": 150
+  }
+]
