@@ -1,5 +1,42 @@
 import type { Section, QuestionType, Difficulty, Choice } from './types';
 
+export const SECTION_COLORS: Record<
+  Section,
+  {
+    accent: string;
+    text: string;
+    bg: string;
+    border: string;
+    badge: string;
+    progressBar: string;
+  }
+> = {
+  quant: {
+    accent: 'bg-blue-500',
+    text: 'text-blue-400',
+    bg: 'bg-blue-500/10',
+    border: 'border-blue-500/20',
+    badge: 'bg-blue-500/15 text-blue-400',
+    progressBar: 'bg-blue-500',
+  },
+  verbal: {
+    accent: 'bg-emerald-500',
+    text: 'text-emerald-400',
+    bg: 'bg-emerald-500/10',
+    border: 'border-emerald-500/20',
+    badge: 'bg-emerald-500/15 text-emerald-400',
+    progressBar: 'bg-emerald-500',
+  },
+  data_insights: {
+    accent: 'bg-violet-500',
+    text: 'text-violet-400',
+    bg: 'bg-violet-500/10',
+    border: 'border-violet-500/20',
+    badge: 'bg-violet-500/15 text-violet-400',
+    progressBar: 'bg-violet-500',
+  },
+};
+
 export const SECTIONS: Section[] = ['quant', 'verbal', 'data_insights'];
 
 export const SECTION_LABELS: Record<Section, string> = {

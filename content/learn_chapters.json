@@ -47,5 +47,12 @@
     "title": "Integrated Reasoning",
     "description": "Table Analysis, Graphics Interpretation, and Two-Part Analysis — read the right data, answer fast.",
     "orderIndex": 7
+  },
+  {
+    "id": "ch-quant-geometry",
+    "section": "quant",
+    "title": "Geometry & Coordinate Geometry",
+    "description": "Lines, angles, triangles, circles, polygons, and the coordinate plane — visual questions for every difficulty.",
+    "orderIndex": 4
   }
 ]
