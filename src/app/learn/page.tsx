@@ -46,19 +46,19 @@ export default async function LearnPage() {
               track your progress.
             </p>
           </div>
-          <div className="flex shrink-0 items-center gap-6 text-sm text-muted-foreground sm:text-right">
-            <div className="text-center">
-              <p className="text-2xl font-bold text-foreground">{chapters.length}</p>
-              <p>chapters</p>
-            </div>
-            <div className="text-center">
-              <p className="text-2xl font-bold text-foreground">{totalLessons}</p>
-              <p>lessons</p>
-            </div>
-            <div className="text-center">
-              <p className="text-2xl font-bold text-foreground">{totalExercises}</p>
-              <p>exercises</p>
-            </div>
+          <div className="flex shrink-0 gap-3">
+            {(
+              [
+                ['chapters', chapters.length],
+                ['lessons', totalLessons],
+                ['exercises', totalExercises],
+              ] as [string, number][]
+            ).map(([label, n]) => (
+              <div key={label} className="rounded-xl bg-muted/50 px-4 py-2.5 text-center">
+                <p className="text-2xl font-bold tabular-nums text-foreground">{n}</p>
+                <p className="text-xs text-muted-foreground">{label}</p>
+              </div>
+            ))}
           </div>
         </div>
       </header>
@@ -106,11 +106,18 @@ export default async function LearnPage() {
                       <div className="p-5">
                         {/* Chapter badge + arrow */}
                         <div className="mb-3 flex items-center justify-between">
-                          <span
-                            className={`inline-flex items-center rounded-full px-2.5 py-0.5 text-xs font-medium ${colors.badge}`}
-                          >
-                            Chapter {ch.orderIndex}
-                          </span>
+                          <div className="flex items-center gap-2">
+                            <span
+                              className={`flex size-7 items-center justify-center rounded-lg ${colors.bg}`}
+                            >
+                              <Icon className={`size-4 ${colors.text}`} />
+                            </span>
+                            <span
+                              className={`inline-flex items-center rounded-full px-2.5 py-0.5 text-xs font-medium ${colors.badge}`}
+                            >
+                              Chapter {ch.orderIndex}
+                            </span>
+                          </div>
                           <ChevronRight className="size-4 text-muted-foreground/40 transition-all group-hover:translate-x-0.5 group-hover:text-muted-foreground" />
                         </div>
 

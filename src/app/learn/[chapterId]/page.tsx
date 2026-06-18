@@ -1,9 +1,19 @@
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import { ChevronLeft, ChevronRight } from 'lucide-react';
+import { BookOpen, ChevronLeft, ChevronRight, Clock, Target, Zap } from 'lucide-react';
 import { getLearnChapters, getLessonsByChapter } from '@/lib/data/content';
 import { SECTION_LABELS, SECTION_COLORS } from '@/lib/domain/constants';
+import type { Section } from '@/lib/domain/types';
 import { ChapterProgressBar } from '@/components/learn/chapter-progress';
+
+const SECTION_ICONS: Record<Section, typeof Target> = {
+  quant: Target,
+  verbal: BookOpen,
+  data_insights: Zap,
+};
+
+const readingMinutes = (body: string) =>
+  Math.max(1, Math.round(body.split(/\s+/).filter(Boolean).length / 200));
 
 interface Props {
   params: Promise<{ chapterId: string }>;
@@ -25,6 +35,7 @@ export default async function ChapterPage({ params }: Props) {
   const lessons = await getLessonsByChapter(chapterId);
   const totalExercises = lessons.reduce((s, l) => s + l.exerciseIds.length, 0);
   const colors = SECTION_COLORS[chapter.section];
+  const Icon = SECTION_ICONS[chapter.section];
 
   return (
     <div className="mx-auto max-w-3xl px-4 py-8">
@@ -39,11 +50,18 @@ export default async function ChapterPage({ params }: Props) {
 
       {/* Chapter hero */}
       <div className={`mb-8 rounded-2xl border p-6 ${colors.bg} ${colors.border}`}>
-        <span
-          className={`mb-4 inline-flex items-center rounded-full px-2.5 py-1 text-xs font-semibold ${colors.badge}`}
-        >
-          {SECTION_LABELS[chapter.section]}
-        </span>
+        <div className="mb-4 flex items-center gap-2.5">
+          <span
+            className={`flex size-9 items-center justify-center rounded-xl bg-background/60 ${colors.text}`}
+          >
+            <Icon className="size-5" />
+          </span>
+          <span
+            className={`inline-flex items-center rounded-full px-2.5 py-1 text-xs font-semibold ${colors.badge}`}
+          >
+            {SECTION_LABELS[chapter.section]}
+          </span>
+        </div>
         <h1 className="mb-2 text-2xl font-bold tracking-tight">{chapter.title}</h1>
         {chapter.description && (
           <p className="mb-4 text-muted-foreground">{chapter.description}</p>
@@ -73,8 +91,18 @@ export default async function ChapterPage({ params }: Props) {
             </span>
             <div className="min-w-0 flex-1">
               <p className="font-semibold leading-snug">{lesson.title}</p>
-              <p className="mt-0.5 text-xs text-muted-foreground">
-                {lesson.exerciseIds.length} exercise{lesson.exerciseIds.length !== 1 ? 's' : ''}
+              <p className="mt-0.5 flex items-center gap-1.5 text-xs text-muted-foreground">
+                <span className="inline-flex items-center gap-1">
+                  <Clock className="size-3" /> {readingMinutes(lesson.body)} min
+                </span>
+                {lesson.exerciseIds.length > 0 && (
+                  <>
+                    <span className="text-muted-foreground/40">·</span>
+                    <span>
+                      {lesson.exerciseIds.length} exercise{lesson.exerciseIds.length !== 1 ? 's' : ''}
+                    </span>
+                  </>
+                )}
               </p>
             </div>
             <ChevronRight className="size-5 shrink-0 text-muted-foreground/30 transition-all group-hover:translate-x-0.5 group-hover:text-muted-foreground" />
