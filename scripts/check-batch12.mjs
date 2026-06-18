@@ -57,7 +57,7 @@ function expectText(n, text) {
 
 // ── Problem Solving (12) ───────────────────────────────────────────────────────
 expectVal(1, (1.2 * 0.75 - 1) * 100); // +20% then -25% => 0.90 => -10% (A)
-expectText(2, '$9:10$'); // y=12 => x=9, z=10 => x:z = 9:10 (A)
+expectText(2, '9:10'); // y=12 => x=9, z=10 => x:z = 9:10 (A) — plain-text choice
 expectVal(3, (15 + 7) / (6 - 4)); // 3(2x-5)=4x+7 => x=11 (C)
 expectVal(4, (12 * 9) / 2); // 54 (D)
 expectVal(5, 8 / 10); // P(not blue)=8/10=4/5 (D)

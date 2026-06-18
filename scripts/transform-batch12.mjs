@@ -131,7 +131,9 @@ for (const q of batch.questions) {
       id, section: 'quant', type: 'problem_solving',
       topic: afterDash(q.topic), difficulty: q.difficulty, orderIndex: 0,
       stem: fmtMath(stem0), assets: {},
-      choices: Object.entries(q.options).map(([key, text]) => ({ key, text: fmtMath(text) })),
+      // Choices render as plain text (answer-inputs.tsx renders {c.text}, not via
+      // the KaTeX Markdown component), so keep option text raw — no $ wrapping.
+      choices: Object.entries(q.options).map(([key, text]) => ({ key, text })),
       correctAnswer: { format: 'single', value: q.answer },
       explanation: fmtExpl(q.explanation),
       estimatedTimeSeconds: time('problem_solving', q.difficulty),

@@ -49,23 +49,23 @@
     "choices": [
       {
         "key": "A",
-        "text": "$9:10$"
+        "text": "9:10"
       },
       {
         "key": "B",
-        "text": "$10:9$"
+        "text": "10:9"
       },
       {
         "key": "C",
-        "text": "$18:20$"
+        "text": "18:20"
       },
       {
         "key": "D",
-        "text": "$15:8$"
+        "text": "15:8"
       },
       {
         "key": "E",
-        "text": "$8:15$"
+        "text": "8:15"
       }
     ],
     "correctAnswer": {
@@ -163,23 +163,23 @@
     "choices": [
       {
         "key": "A",
-        "text": "$1/5$"
+        "text": "1/5"
       },
       {
         "key": "B",
-        "text": "$2/5$"
+        "text": "2/5"
       },
       {
         "key": "C",
-        "text": "$3/5$"
+        "text": "3/5"
       },
       {
         "key": "D",
-        "text": "$4/5$"
+        "text": "4/5"
       },
       {
         "key": "E",
-        "text": "$9/10$"
+        "text": "9/10"
       }
     ],
     "correctAnswer": {
@@ -277,15 +277,15 @@
     "choices": [
       {
         "key": "A",
-        "text": "$7/24$ hour"
+        "text": "7/24 hour"
       },
       {
         "key": "B",
-        "text": "$24/7$ hours"
+        "text": "24/7 hours"
       },
       {
         "key": "C",
-        "text": "$14/3$ hours"
+        "text": "14/3 hours"
       },
       {
         "key": "D",
@@ -353,7 +353,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "$1/2$"
+        "text": "1/2"
       },
       {
         "key": "B",
