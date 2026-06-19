@@ -114,3 +114,23 @@ export function Markdown({ children, className }: { children: string; className?
     </div>
   );
 }
+
+// Unwrap the block <p> so math/markdown renders inline (no paragraph break),
+// suitable for short strings like answer choices.
+const inlineComponents: Components = { p: ({ children }) => <>{children}</> };
+
+/**
+ * Inline markdown for short strings (answer choices, option labels): renders
+ * KaTeX math and GFM without wrapping the content in a block-level paragraph.
+ */
+export function InlineMarkdown({ children }: { children: string }) {
+  return (
+    <ReactMarkdown
+      remarkPlugins={[remarkMath, remarkGfm]}
+      rehypePlugins={[rehypeKatex]}
+      components={inlineComponents}
+    >
+      {children}
+    </ReactMarkdown>
+  );
+}

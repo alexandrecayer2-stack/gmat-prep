@@ -343,7 +343,7 @@ export function MockRunner({ sections, config }: { sections: MockSectionSet[]; c
           type="button"
           disabled={index === 0}
           onClick={() => go(index - 1)}
-          className="inline-flex items-center gap-1 rounded-lg border border-border px-3 py-2 text-sm font-medium hover:bg-muted disabled:opacity-40"
+          className="inline-flex items-center gap-1 rounded-lg border border-border px-3 py-2 text-sm font-medium hover:bg-muted disabled:cursor-not-allowed disabled:opacity-50"
         >
           <ChevronLeft className="size-4" /> Back
         </button>
@@ -513,7 +513,7 @@ function MockResults({
       <div className="grid gap-3 sm:grid-cols-3">
         {sections.map((s) => {
           const r = estimate.perSection[s];
-          const pct = ((r.scaled - 60) / 30) * 100;
+          const pct = Math.max(0, Math.min(100, ((r.scaled - 60) / 30) * 100));
           return (
             <div key={s} className="rounded-xl border border-border bg-card p-4">
               <div className="flex items-baseline justify-between">

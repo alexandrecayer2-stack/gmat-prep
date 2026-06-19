@@ -4,6 +4,7 @@ import { Check, X } from 'lucide-react';
 import type { QuestionWithGroup, SelectedAnswer } from '@/lib/domain/types';
 import { DS_CHOICES } from '@/lib/domain/constants';
 import { cn } from '@/lib/utils';
+import { InlineMarkdown } from '@/components/markdown';
 
 export interface AnswerInputsProps {
   question: QuestionWithGroup;
@@ -65,7 +66,9 @@ function SingleChoice({ question, selected, onChange, revealed }: AnswerInputsPr
               >
                 {c.key}
               </span>
-              <span className="flex-1 text-sm leading-relaxed">{c.text}</span>
+              <span className="flex-1 text-sm leading-relaxed">
+                <InlineMarkdown>{c.text}</InlineMarkdown>
+              </span>
               {revealed && isCorrect && <Check className="size-5 shrink-0 text-success" />}
               {revealed && !isCorrect && isSel && <X className="size-5 shrink-0 text-danger" />}
             </button>
@@ -108,6 +111,9 @@ function Dropdowns({ question, selected, onChange, revealed }: AnswerInputsProps
               <option value="" disabled>
                 Select…
               </option>
+              {/* TODO: HTML <option> cannot host rich JSX, so KaTeX/Markdown
+                  cannot render here. Dropdown values must stay plain text /
+                  Unicode (e.g. "5/8", "x²"), never raw LaTeX. */}
               {b.options.map((o) => (
                 <option key={o.value} value={o.value}>
                   {o.label ?? o.value}
@@ -174,7 +180,9 @@ function TwoPart({ question, selected, onChange, revealed }: AnswerInputsProps) 
                   </td>
                 );
               })}
-              <td className="px-3 py-2">{o.text}</td>
+              <td className="px-3 py-2">
+                <InlineMarkdown>{o.text}</InlineMarkdown>
+              </td>
             </tr>
           ))}
         </tbody>
@@ -233,7 +241,9 @@ function Dichotomous({ question, selected, onChange, revealed }: AnswerInputsPro
                   </td>
                 );
               })}
-              <td className="px-3 py-2">{s.text}</td>
+              <td className="px-3 py-2">
+                <InlineMarkdown>{s.text}</InlineMarkdown>
+              </td>
             </tr>
           ))}
         </tbody>

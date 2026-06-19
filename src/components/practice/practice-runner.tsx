@@ -154,7 +154,7 @@ export function PracticeRunner({ questions }: { questions: QuestionWithGroup[] }
       <div className="mb-5 h-1.5 w-full overflow-hidden rounded-full bg-muted">
         <div
           className="h-full rounded-full bg-primary transition-all"
-          style={{ width: `${(index / questions.length) * 100}%` }}
+          style={{ width: `${((index + 1) / questions.length) * 100}%` }}
         />
       </div>
 
@@ -211,7 +211,7 @@ export function PracticeRunner({ questions }: { questions: QuestionWithGroup[] }
               type="button"
               onClick={handleSubmit}
               disabled={!complete}
-              className="inline-flex items-center gap-1 rounded-lg bg-primary px-4 py-2 font-medium text-primary-foreground transition-opacity hover:opacity-90 disabled:cursor-not-allowed disabled:opacity-40"
+              className="inline-flex items-center gap-1 rounded-lg bg-primary px-4 py-2 font-medium text-primary-foreground transition-opacity hover:opacity-90 disabled:cursor-not-allowed disabled:opacity-50"
             >
               Submit
             </button>
@@ -226,6 +226,11 @@ export function PracticeRunner({ questions }: { questions: QuestionWithGroup[] }
           )}
         </div>
       </div>
+
+      {/* Keyboard shortcuts hint — helps power users; hidden on mobile */}
+      <p className="mt-3 hidden text-xs text-muted-foreground sm:block">
+        Tip: press 1–5 to choose an answer · Enter to submit, then move to the next.
+      </p>
 
       {/* Floating calculator (Data Insights) */}
       {isDI && showCalc && (

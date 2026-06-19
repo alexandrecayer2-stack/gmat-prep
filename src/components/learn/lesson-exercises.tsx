@@ -142,7 +142,7 @@ export function LessonExercises({ lessonId, exercises }: Props) {
               <button
                 onClick={handleSubmit}
                 disabled={!isAnswerComplete(q.correctAnswer, selected)}
-                className="rounded-lg bg-primary px-4 py-2 text-sm font-medium text-primary-foreground disabled:opacity-40 hover:opacity-90"
+                className="rounded-lg bg-primary px-4 py-2 text-sm font-medium text-primary-foreground hover:opacity-90 disabled:cursor-not-allowed disabled:opacity-50"
               >
                 Submit
               </button>
@@ -150,17 +150,17 @@ export function LessonExercises({ lessonId, exercises }: Props) {
           ) : (
             <div
               className={`border-t px-4 py-4 ${
-                isCorrect ? 'border-green-500/30 bg-green-500/5' : 'border-red-500/30 bg-red-500/5'
+                isCorrect ? 'border-success bg-success/10' : 'border-danger bg-danger/10'
               }`}
             >
               <div className="flex items-center gap-2">
                 {isCorrect ? (
-                  <Check className="size-4 text-green-600" />
+                  <Check className="size-4 text-success" />
                 ) : (
-                  <X className="size-4 text-red-600" />
+                  <X className="size-4 text-danger" />
                 )}
                 <span
-                  className={`text-sm font-medium ${isCorrect ? 'text-green-700' : 'text-red-700'}`}
+                  className={`text-sm font-medium ${isCorrect ? 'text-success' : 'text-danger'}`}
                 >
                   {isCorrect ? 'Correct!' : 'Incorrect'}
                 </span>

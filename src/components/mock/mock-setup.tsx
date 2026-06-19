@@ -104,7 +104,7 @@ export function MockSetup({ counts }: { counts: Record<Section, number> }) {
           type="button"
           onClick={start}
           disabled={noneSelected || totalQuestions === 0}
-          className="inline-flex items-center gap-2 rounded-lg bg-primary px-6 py-3 font-semibold text-primary-foreground transition-opacity hover:opacity-90 disabled:cursor-not-allowed disabled:opacity-40"
+          className="inline-flex items-center gap-2 rounded-lg bg-primary px-6 py-3 font-semibold text-primary-foreground transition-opacity hover:opacity-90 disabled:cursor-not-allowed disabled:opacity-50"
         >
           Start exam
           <ArrowRight className="size-4" />

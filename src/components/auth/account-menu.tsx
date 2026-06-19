@@ -76,9 +76,11 @@ export function AccountMenu() {
                   We sent a sign-in link to <span className="font-medium">{email}</span>. Click it to{' '}
                   {isAnonymous ? 'save your progress to this account' : 'sign in'}.
                 </p>
-                <p className="mt-2 text-xs text-muted-foreground">
-                  Local dev: the email appears in Mailpit at 127.0.0.1:54324.
-                </p>
+                {process.env.NODE_ENV !== 'production' && (
+                  <p className="mt-2 text-xs text-muted-foreground">
+                    Local dev: the email appears in Mailpit at 127.0.0.1:54324.
+                  </p>
+                )}
               </div>
             ) : (
               <>
@@ -102,7 +104,7 @@ export function AccountMenu() {
                   type="button"
                   disabled={state === 'sending'}
                   onClick={() => send('save')}
-                  className="mt-2 inline-flex w-full items-center justify-center gap-1 rounded-md bg-primary px-3 py-2 text-sm font-medium text-primary-foreground hover:opacity-90 disabled:opacity-50"
+                  className="mt-2 inline-flex w-full items-center justify-center gap-1 rounded-md bg-primary px-3 py-2 text-sm font-medium text-primary-foreground hover:opacity-90 disabled:cursor-not-allowed disabled:opacity-50"
                 >
                   <Mail className="size-4" /> {isAnonymous ? 'Email me a link' : 'Send magic link'}
                 </button>

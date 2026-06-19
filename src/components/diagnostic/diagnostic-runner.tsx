@@ -132,7 +132,7 @@ export function DiagnosticRunner({
           type="button"
           disabled={index === 0}
           onClick={() => go(index - 1)}
-          className="inline-flex items-center gap-1 rounded-lg border border-border px-3 py-2 text-sm font-medium hover:bg-muted disabled:opacity-40"
+          className="inline-flex items-center gap-1 rounded-lg border border-border px-3 py-2 text-sm font-medium hover:bg-muted disabled:cursor-not-allowed disabled:opacity-50"
         >
           <ChevronLeft className="size-4" /> Back
         </button>
