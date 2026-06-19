@@ -257,6 +257,9 @@ export function MockRunner({ sections, config }: { sections: MockSectionSet[]; c
     isAnswerComplete(qq.correctAnswer, answers[qq.id]),
   ).length;
   const lowTime = config.timed && remaining > 0 && remaining <= 5 * 60;
+  const remainingWords = config.timed
+    ? `Time remaining: ${Math.floor(remaining / 60)} minutes ${remaining % 60} seconds`
+    : 'Untimed';
   const isLastQuestion = index === questions.length - 1;
 
   if (showReview) {
@@ -280,6 +283,14 @@ export function MockRunner({ sections, config }: { sections: MockSectionSet[]; c
 
   return (
     <div className="mx-auto max-w-3xl px-4 py-6">
+      {lowTime && (
+        <div
+          role="alert"
+          className="mb-3 rounded-md border border-warning/40 bg-warning/10 px-3 py-2 text-sm font-medium text-warning"
+        >
+          Less than 5 minutes remaining in this section.
+        </div>
+      )}
       <div className="mb-3 flex items-center justify-between gap-2 text-sm">
         <div className="flex items-center gap-2">
           <span className="rounded-md bg-muted px-2 py-0.5 text-xs font-medium">
@@ -295,7 +306,7 @@ export function MockRunner({ sections, config }: { sections: MockSectionSet[]; c
             onClick={() => toggleFlag(q.id)}
             aria-pressed={flags.has(q.id)}
             className={cn(
-              'inline-flex items-center gap-1 rounded-md border px-2 py-1 text-xs transition-colors',
+              'inline-flex min-h-[44px] items-center gap-1 rounded-md border px-2 py-1 text-xs transition-colors sm:min-h-0',
               flags.has(q.id)
                 ? 'border-warning bg-warning/15 text-warning'
                 : 'border-border text-muted-foreground hover:bg-muted',
@@ -309,22 +320,31 @@ export function MockRunner({ sections, config }: { sections: MockSectionSet[]; c
               commitTime();
               setShowReview(true);
             }}
-            className="inline-flex items-center gap-1 rounded-md border border-border px-2 py-1 text-xs text-muted-foreground transition-colors hover:bg-muted"
+            className="inline-flex min-h-[44px] items-center gap-1 rounded-md border border-border px-2 py-1 text-xs text-muted-foreground transition-colors hover:bg-muted sm:min-h-0"
           >
             <LayoutGrid className="size-3.5" /> Review
           </button>
           <span
+            role="timer"
+            aria-label={remainingWords}
             className={cn(
               'inline-flex items-center gap-1 tabular-nums',
               lowTime ? 'font-semibold text-danger' : 'text-muted-foreground',
             )}
           >
-            <Clock className="size-3.5" /> {config.timed ? formatTime(remaining) : '—'}
+            <Clock className="size-3.5" aria-hidden="true" /> {config.timed ? formatTime(remaining) : '—'}
           </span>
         </div>
       </div>
 
-      <div className="mb-5 h-1.5 w-full overflow-hidden rounded-full bg-muted">
+      <div
+        role="progressbar"
+        aria-valuemin={0}
+        aria-valuemax={100}
+        aria-valuenow={Math.round(((index + 1) / questions.length) * 100)}
+        aria-label="Section progress"
+        className="mb-5 h-1.5 w-full overflow-hidden rounded-full bg-muted"
+      >
         <div
           className="h-full rounded-full bg-primary transition-all"
           style={{ width: `${((index + 1) / questions.length) * 100}%` }}
@@ -510,7 +530,7 @@ function MockResults({
           appear in your history.
         </div>
       )}
-      <Card className="p-6 text-center">
+      <Card role="status" aria-live="polite" className="p-6 text-center">
         <SectionLabel as="div">Predicted GMAT Focus score</SectionLabel>
         <div className="mt-1 text-5xl font-bold tabular-nums">{estimate.total}</div>
         <div className="mt-1 text-sm text-muted-foreground">
@@ -558,7 +578,7 @@ function MockResults({
               type="button"
               onClick={() => setFilter(f)}
               className={cn(
-                'rounded-md px-3 py-1 transition-colors',
+                'inline-flex min-h-[44px] items-center justify-center rounded-md px-3 py-1 transition-colors sm:min-h-0',
                 filter === f ? 'bg-muted font-medium' : 'text-muted-foreground hover:bg-muted/50',
               )}
             >

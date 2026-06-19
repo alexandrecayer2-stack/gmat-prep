@@ -150,11 +150,13 @@ function TwoPart({ question, selected, onChange, revealed }: AnswerInputsProps) 
         <thead className="bg-muted/60">
           <tr>
             {cols.map((c) => (
-              <th key={c.key} className="w-28 px-3 py-2 text-center font-medium">
+              <th key={c.key} scope="col" className="w-28 px-3 py-2 text-center font-medium">
                 {c.label}
               </th>
             ))}
-            <th className="px-3 py-2 text-left font-medium">Option</th>
+            <th scope="col" className="px-3 py-2 text-left font-medium">
+              Option
+            </th>
           </tr>
         </thead>
         <tbody>
@@ -211,11 +213,13 @@ function Dichotomous({ question, selected, onChange, revealed }: AnswerInputsPro
         <thead className="bg-muted/60">
           <tr>
             {labels.map((l) => (
-              <th key={l} className="w-16 px-2 py-2 text-center font-medium">
+              <th key={l} scope="col" className="w-16 px-2 py-2 text-center font-medium">
                 {l}
               </th>
             ))}
-            <th className="px-3 py-2 text-left font-medium">Statement</th>
+            <th scope="col" className="px-3 py-2 text-left font-medium">
+              Statement
+            </th>
           </tr>
         </thead>
         <tbody>

@@ -108,7 +108,14 @@ export function DashboardStats() {
                     {p === null ? '—' : `${p}% (${t.correct}/${t.total})`}
                   </span>
                 </div>
-                <div className="h-2 w-full overflow-hidden rounded-full bg-muted">
+                <div
+                  role="progressbar"
+                  aria-valuemin={0}
+                  aria-valuemax={100}
+                  aria-valuenow={p ?? 0}
+                  aria-label={`${SECTION_LABELS[s]} accuracy`}
+                  className="h-2 w-full overflow-hidden rounded-full bg-muted"
+                >
                   <div
                     className={`h-full rounded-full transition-all ${SECTION_COLORS[s].progressBar}`}
                     style={{ width: `${p ?? 0}%` }}

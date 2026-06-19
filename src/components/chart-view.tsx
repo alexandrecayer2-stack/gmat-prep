@@ -28,6 +28,12 @@ const DEFAULT_COLORS = [
 export function ChartView({ chart }: { chart: ChartAsset }) {
   const colorAt = (i: number) => chart.series[i]?.color ?? DEFAULT_COLORS[i % DEFAULT_COLORS.length];
   const hasData = (chart.data?.length ?? 0) > 0 && chart.series.length > 0;
+  const seriesLabels = chart.series.map((s) => s.label).join(', ');
+  const chartLabel =
+    `${chart.title ? `${chart.title}. ` : ''}${chart.type} chart` +
+    (seriesLabels ? `. Series: ${seriesLabels}` : '') +
+    (chart.xLabel ? `. Horizontal axis: ${chart.xLabel}` : '') +
+    '.';
 
   const axisProps = {
     stroke: 'var(--muted-foreground)',
@@ -57,7 +63,9 @@ export function ChartView({ chart }: { chart: ChartAsset }) {
       {!hasData ? (
         <p className="py-10 text-center text-sm text-muted-foreground">No data to display.</p>
       ) : (
-        <ResponsiveContainer width="100%" height={280}>
+        <>
+          <div role="img" aria-label={chartLabel}>
+            <ResponsiveContainer width="100%" height={280}>
           {chart.type === 'bar' ? (
           <BarChart data={chart.data} margin={{ top: 8, right: 12, bottom: 16, left: 4 }}>
             <CartesianGrid strokeDasharray="3 3" stroke="var(--border)" />
@@ -102,7 +110,40 @@ export function ChartView({ chart }: { chart: ChartAsset }) {
             <Scatter data={chart.data} fill={colorAt(0)} />
           </ScatterChart>
         )}
-        </ResponsiveContainer>
+            </ResponsiveContainer>
+          </div>
+          <details className="mt-2">
+            <summary className="cursor-pointer text-xs text-muted-foreground">View data table</summary>
+            <table className="mt-2 w-full text-xs">
+              <thead>
+                <tr className="border-b border-border text-left text-muted-foreground">
+                  <th scope="col" className="py-1 pr-3 font-medium">
+                    {chart.xLabel ?? chart.xKey}
+                  </th>
+                  {chart.series.map((s) => (
+                    <th key={s.key} scope="col" className="py-1 pr-3 font-medium">
+                      {s.label}
+                    </th>
+                  ))}
+                </tr>
+              </thead>
+              <tbody>
+                {chart.data.map((row, i) => (
+                  <tr key={i} className="border-b border-border/50">
+                    <th scope="row" className="py-1 pr-3 font-normal text-muted-foreground">
+                      {String(row[chart.xKey] ?? '')}
+                    </th>
+                    {chart.series.map((s) => (
+                      <td key={s.key} className="py-1 pr-3 tabular-nums">
+                        {String(row[s.key] ?? '')}
+                      </td>
+                    ))}
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </details>
+        </>
       )}
     </figure>
   );

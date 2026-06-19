@@ -109,7 +109,14 @@ export function DiagnosticRunner({
         </span>
       </div>
 
-      <div className="mb-5 h-1.5 w-full overflow-hidden rounded-full bg-muted">
+      <div
+        role="progressbar"
+        aria-valuemin={0}
+        aria-valuemax={100}
+        aria-valuenow={Math.round(((index + 1) / questions.length) * 100)}
+        aria-label="Diagnostic progress"
+        className="mb-5 h-1.5 w-full overflow-hidden rounded-full bg-muted"
+      >
         <div
           className="h-full rounded-full bg-primary transition-all"
           style={{ width: `${((index + 1) / questions.length) * 100}%` }}

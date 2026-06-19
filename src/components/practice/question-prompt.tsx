@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useId, useRef, useState } from 'react';
 import type { QuestionWithGroup } from '@/lib/domain/types';
 import { Markdown } from '@/components/markdown';
 import { ChartView } from '@/components/chart-view';
@@ -36,7 +36,7 @@ export function QuestionPrompt({ question }: { question: QuestionWithGroup }) {
         </div>
       )}
 
-      <div className="text-[15px]">
+      <div className="text-base">
         <Markdown>{question.stem}</Markdown>
       </div>
 
@@ -54,6 +54,22 @@ function SourcesView({
   sources: { title: string; content: string }[];
 }) {
   const [active, setActive] = useState(0);
+  const baseId = useId();
+  const panelId = `${baseId}-panel`;
+  const tabId = (i: number) => `${baseId}-tab-${i}`;
+  const tabRefs = useRef<(HTMLButtonElement | null)[]>([]);
+
+  function onTabKeyDown(e: React.KeyboardEvent, i: number) {
+    let next = i;
+    if (e.key === 'ArrowRight') next = (i + 1) % sources.length;
+    else if (e.key === 'ArrowLeft') next = (i - 1 + sources.length) % sources.length;
+    else if (e.key === 'Home') next = 0;
+    else if (e.key === 'End') next = sources.length - 1;
+    else return;
+    e.preventDefault();
+    setActive(next);
+    tabRefs.current[next]?.focus();
+  }
 
   return (
     <div className="overflow-hidden rounded-lg border border-border bg-muted/30">
@@ -62,13 +78,25 @@ function SourcesView({
           {title}
         </SectionLabel>
       )}
-      <div role="tablist" className="flex flex-wrap gap-1 border-b border-border p-2">
+      <div
+        role="tablist"
+        aria-label={title ?? 'Sources'}
+        className="flex flex-wrap gap-1 border-b border-border p-2"
+      >
         {sources.map((s, i) => (
           <button
             key={i}
+            id={tabId(i)}
+            type="button"
             role="tab"
             aria-selected={i === active}
+            aria-controls={panelId}
+            tabIndex={i === active ? 0 : -1}
+            ref={(el) => {
+              tabRefs.current[i] = el;
+            }}
             onClick={() => setActive(i)}
+            onKeyDown={(e) => onTabKeyDown(e, i)}
             className={cn(
               'rounded-md px-3 py-1 text-sm transition-colors',
               i === active
@@ -80,7 +108,13 @@ function SourcesView({
           </button>
         ))}
       </div>
-      <div className="p-4">
+      <div
+        id={panelId}
+        role="tabpanel"
+        aria-labelledby={tabId(active)}
+        tabIndex={0}
+        className="p-4"
+      >
         <Markdown>{sources[active].content}</Markdown>
       </div>
     </div>

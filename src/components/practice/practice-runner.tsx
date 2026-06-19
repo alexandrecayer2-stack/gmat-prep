@@ -152,7 +152,14 @@ export function PracticeRunner({ questions }: { questions: QuestionWithGroup[] }
       </div>
 
       {/* Progress bar */}
-      <div className="mb-5 h-1.5 w-full overflow-hidden rounded-full bg-muted">
+      <div
+        role="progressbar"
+        aria-valuemin={0}
+        aria-valuemax={100}
+        aria-valuenow={Math.round(((index + 1) / questions.length) * 100)}
+        aria-label="Session progress"
+        className="mb-5 h-1.5 w-full overflow-hidden rounded-full bg-muted"
+      >
         <div
           className="h-full rounded-full bg-primary transition-all"
           style={{ width: `${((index + 1) / questions.length) * 100}%` }}
@@ -175,6 +182,8 @@ export function PracticeRunner({ questions }: { questions: QuestionWithGroup[] }
       {/* Feedback */}
       {submitted && (
         <div
+          role="status"
+          aria-live="polite"
           className={cn(
             'mt-4 rounded-xl border p-4',
             isCorrect ? 'border-success bg-success/10' : 'border-danger bg-danger/10',
@@ -282,7 +291,7 @@ function Summary({
         <p className="mt-1 text-sm text-muted-foreground">
           You answered {results.length} question{results.length === 1 ? '' : 's'}.
         </p>
-        <div className="my-6">
+        <div className="my-6" role="status" aria-live="polite">
           <div className="text-5xl font-bold tabular-nums">{pct}%</div>
           <div className="mt-1 text-sm text-muted-foreground">
             {correct} of {results.length} correct

@@ -40,7 +40,14 @@ export function ChapterProgressBar({ chapter, lessons, className = '' }: BarProp
         </span>
         <span className={pct > 0 ? colors.text : ''}>{pct}%</span>
       </div>
-      <div className="h-1.5 w-full overflow-hidden rounded-full bg-muted">
+      <div
+        role="progressbar"
+        aria-valuemin={0}
+        aria-valuemax={100}
+        aria-valuenow={pct}
+        aria-label={`${chapter.title} progress`}
+        className="h-1.5 w-full overflow-hidden rounded-full bg-muted"
+      >
         <div
           className={`h-full rounded-full transition-all duration-500 ${colors.progressBar}`}
           style={{ width: `${pct}%` }}

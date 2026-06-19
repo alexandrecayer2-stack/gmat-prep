@@ -72,6 +72,13 @@
     color: var(--foreground);
     font-family: var(--font-sans), system-ui, sans-serif;
   }
+  /* Consistent, visible keyboard focus everywhere (WCAG 2.4.7). Zero-specificity
+     :where() so component styles can still override when needed. */
+  :where(a, button, input, select, textarea, [tabindex]):focus-visible {
+    outline: 2px solid var(--ring);
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
 }
 
 /* KaTeX: keep inline math from looking oversized. */

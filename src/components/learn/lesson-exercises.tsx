@@ -149,6 +149,8 @@ export function LessonExercises({ lessonId, exercises }: Props) {
             </div>
           ) : (
             <div
+              role="status"
+              aria-live="polite"
               className={`border-t px-4 py-4 ${
                 isCorrect ? 'border-success bg-success/10' : 'border-danger bg-danger/10'
               }`}

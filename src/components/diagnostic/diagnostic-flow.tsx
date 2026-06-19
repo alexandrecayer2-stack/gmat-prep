@@ -180,7 +180,7 @@ export function DiagnosticFlow({ questions }: { questions: QuestionWithGroup[] }
     const belowTarget = target <= estimate.total;
     return (
       <div className="mx-auto max-w-3xl space-y-6 px-4 py-8">
-        <Card className="p-6 text-center">
+        <Card role="status" aria-live="polite" className="p-6 text-center">
           <SectionLabel as="div">Predicted GMAT Focus score</SectionLabel>
           <div className="mt-1 text-5xl font-bold tabular-nums">{estimate.total}</div>
           <div className="mt-1 text-sm text-muted-foreground">

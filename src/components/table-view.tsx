@@ -43,31 +43,61 @@ export function TableView({ table }: { table: TableAsset }) {
         )}
         <thead className="bg-muted/60">
           <tr>
-            {table.columns.map((col) => (
-              <th
-                key={col.key}
-                onClick={() => toggleSort(col.key)}
-                className={cn(
-                  'px-3 py-2 text-left font-medium text-foreground',
-                  col.numeric && 'text-right',
-                  table.sortable && 'cursor-pointer select-none hover:bg-muted',
-                )}
-              >
-                <span className={cn('inline-flex items-center gap-1', col.numeric && 'flex-row-reverse')}>
+            {table.columns.map((col) => {
+              const indicator = (
+                <>
                   {col.label}
                   {table.sortable &&
                     (sortKey === col.key ? (
                       dir === 'asc' ? (
-                        <ChevronUp className="size-3.5" />
+                        <ChevronUp aria-hidden="true" className="size-3.5" />
                       ) : (
-                        <ChevronDown className="size-3.5" />
+                        <ChevronDown aria-hidden="true" className="size-3.5" />
                       )
                     ) : (
-                      <ChevronsUpDown className="size-3.5 opacity-40" />
+                      <ChevronsUpDown aria-hidden="true" className="size-3.5 opacity-40" />
                     ))}
-                </span>
-              </th>
-            ))}
+                </>
+              );
+              return (
+                <th
+                  key={col.key}
+                  scope="col"
+                  aria-sort={
+                    table.sortable
+                      ? sortKey === col.key
+                        ? dir === 'asc'
+                          ? 'ascending'
+                          : 'descending'
+                        : 'none'
+                      : undefined
+                  }
+                  className={cn(
+                    'px-3 py-2 text-left font-medium text-foreground',
+                    col.numeric && 'text-right',
+                  )}
+                >
+                  {table.sortable ? (
+                    <button
+                      type="button"
+                      onClick={() => toggleSort(col.key)}
+                      className={cn(
+                        'inline-flex items-center gap-1 font-medium transition-colors hover:text-primary',
+                        col.numeric && 'flex-row-reverse',
+                      )}
+                    >
+                      {indicator}
+                    </button>
+                  ) : (
+                    <span
+                      className={cn('inline-flex items-center gap-1', col.numeric && 'flex-row-reverse')}
+                    >
+                      {indicator}
+                    </span>
+                  )}
+                </th>
+              );
+            })}
           </tr>
         </thead>
         <tbody>
