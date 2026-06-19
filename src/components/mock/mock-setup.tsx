@@ -14,6 +14,8 @@ import {
   type MockLength,
 } from '@/lib/domain/mock';
 import { cn } from '@/lib/utils';
+import { Card } from '@/components/ui/card';
+import { SectionLabel } from '@/components/ui/section-label';
 
 const DIFFICULTIES: MockDifficulty[] = ['balanced', 'easy', 'medium', 'hard'];
 const LENGTHS: { value: MockLength; label: string }[] = [
@@ -74,10 +76,7 @@ export function MockSetup({ counts }: { counts: Record<Section, number> }) {
           const needed = targetCount(s, length);
           const enough = available >= needed;
           return (
-            <div
-              key={s}
-              className="rounded-xl border border-border bg-card p-4"
-            >
+            <Card key={s} className="p-4">
               <div className="text-sm font-medium">{SECTION_LABELS[s]}</div>
               <div className="mt-1 tabular-nums text-2xl font-bold">
                 {Math.min(needed, available)}
@@ -87,13 +86,13 @@ export function MockSetup({ counts }: { counts: Record<Section, number> }) {
                 <Clock className="size-3" />
                 {SECTION_MINUTES[s]} min
                 {!enough && available > 0 && (
-                  <span className="ml-1 text-amber-600 dark:text-amber-400">({available} available)</span>
+                  <span className="ml-1 text-warning">({available} available)</span>
                 )}
                 {available === 0 && (
                   <span className="ml-1 text-danger">no questions</span>
                 )}
               </div>
-            </div>
+            </Card>
           );
         })}
       </div>
@@ -139,9 +138,7 @@ export function MockSetup({ counts }: { counts: Record<Section, number> }) {
           <div className="mt-5 space-y-6">
             {/* Sections */}
             <section>
-              <h2 className="mb-2 text-xs font-semibold uppercase tracking-wide text-muted-foreground">
-                Sections
-              </h2>
+              <SectionLabel className="mb-2">Sections</SectionLabel>
               <div className="flex flex-wrap gap-2">
                 {SECTION_ORDER.map((s) => {
                   const on = sections.includes(s);
@@ -175,9 +172,7 @@ export function MockSetup({ counts }: { counts: Record<Section, number> }) {
 
             {/* Length */}
             <section>
-              <h2 className="mb-2 text-xs font-semibold uppercase tracking-wide text-muted-foreground">
-                Length
-              </h2>
+              <SectionLabel className="mb-2">Length</SectionLabel>
               <div className="flex flex-wrap gap-2">
                 {LENGTHS.map((l) => (
                   <button
@@ -200,9 +195,7 @@ export function MockSetup({ counts }: { counts: Record<Section, number> }) {
 
             {/* Difficulty */}
             <section>
-              <h2 className="mb-2 text-xs font-semibold uppercase tracking-wide text-muted-foreground">
-                Difficulty mix
-              </h2>
+              <SectionLabel className="mb-2">Difficulty mix</SectionLabel>
               <div className="flex flex-wrap gap-2">
                 {DIFFICULTIES.map((d) => (
                   <button
@@ -225,9 +218,7 @@ export function MockSetup({ counts }: { counts: Record<Section, number> }) {
 
             {/* Timing */}
             <section>
-              <h2 className="mb-2 text-xs font-semibold uppercase tracking-wide text-muted-foreground">
-                Timing
-              </h2>
+              <SectionLabel className="mb-2">Timing</SectionLabel>
               <div className="flex flex-wrap gap-2">
                 <button
                   type="button"

@@ -15,7 +15,15 @@ import {
 } from 'recharts';
 import type { ChartAsset } from '@/lib/domain/types';
 
-const DEFAULT_COLORS = ['#6366f1', '#16a34a', '#f59e0b', '#ef4444', '#0ea5e9'];
+// Derived from the design-system tokens so charts match the rest of the UI and
+// adapt to light/dark. recharts accepts CSS var() strings for fills/strokes.
+const DEFAULT_COLORS = [
+  'var(--primary)',
+  'var(--success)',
+  'var(--warning)',
+  'var(--danger)',
+  'var(--info)',
+];
 
 export function ChartView({ chart }: { chart: ChartAsset }) {
   const colorAt = (i: number) => chart.series[i]?.color ?? DEFAULT_COLORS[i % DEFAULT_COLORS.length];

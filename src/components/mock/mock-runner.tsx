@@ -16,6 +16,7 @@ import type { QuestionWithGroup, SelectedAnswer } from '@/lib/domain/types';
 import {
   DIFFICULTY_LABELS,
   QUESTION_TYPE_LABELS,
+  SECTION_COLORS,
   SECTION_LABELS,
   SECTION_SHORT,
 } from '@/lib/domain/constants';
@@ -28,6 +29,8 @@ import { cn, formatTime } from '@/lib/utils';
 import { Markdown } from '@/components/markdown';
 import { QuestionPrompt } from '@/components/practice/question-prompt';
 import { AnswerInputs } from '@/components/practice/answer-inputs';
+import { Card } from '@/components/ui/card';
+import { SectionLabel } from '@/components/ui/section-label';
 
 export interface MockSectionSet {
   section: QuestionWithGroup['section'];
@@ -292,7 +295,7 @@ export function MockRunner({ sections, config }: { sections: MockSectionSet[]; c
             className={cn(
               'inline-flex items-center gap-1 rounded-md border px-2 py-1 text-xs transition-colors',
               flags.has(q.id)
-                ? 'border-amber-500 bg-amber-500/15 text-amber-600 dark:text-amber-400'
+                ? 'border-warning bg-warning/15 text-warning'
                 : 'border-border text-muted-foreground hover:bg-muted',
             )}
           >
@@ -326,7 +329,7 @@ export function MockRunner({ sections, config }: { sections: MockSectionSet[]; c
         />
       </div>
 
-      <div className="rounded-xl border border-border bg-card p-5 shadow-sm">
+      <Card className="p-5">
         <QuestionPrompt question={q} />
         <div className="mt-5">
           <AnswerInputs
@@ -336,7 +339,7 @@ export function MockRunner({ sections, config }: { sections: MockSectionSet[]; c
             revealed={false}
           />
         </div>
-      </div>
+      </Card>
 
       <div className="mt-5 flex items-center justify-between gap-2">
         <button
@@ -436,7 +439,7 @@ function ReviewGrid({
             >
               {i + 1}
               {flagged && (
-                <Flag className="absolute right-0.5 top-0.5 size-3 text-amber-500" fill="currentColor" />
+                <Flag className="absolute right-0.5 top-0.5 size-3 text-warning" fill="currentColor" />
               )}
             </button>
           );
@@ -451,7 +454,7 @@ function ReviewGrid({
           <span className="size-3 rounded border border-border" /> Unanswered
         </span>
         <span className="flex items-center gap-1">
-          <Flag className="size-3 text-amber-500" fill="currentColor" /> Flagged
+          <Flag className="size-3 text-warning" fill="currentColor" /> Flagged
         </span>
       </div>
 
@@ -494,10 +497,8 @@ function MockResults({
 
   return (
     <div className="mx-auto max-w-3xl space-y-6 px-4 py-8">
-      <div className="rounded-xl border border-border bg-card p-6 text-center">
-        <div className="text-xs font-semibold uppercase tracking-wide text-muted-foreground">
-          Predicted GMAT Focus score
-        </div>
+      <Card className="p-6 text-center">
+        <SectionLabel as="div">Predicted GMAT Focus score</SectionLabel>
         <div className="mt-1 text-5xl font-bold tabular-nums">{estimate.total}</div>
         <div className="mt-1 text-sm text-muted-foreground">
           likely range {estimate.low}–{estimate.high} · {correct}/{results.length} correct
@@ -508,25 +509,29 @@ function MockResults({
             holds the sections you skipped at the midpoint, so run a full exam for a true 205–805.
           </p>
         )}
-      </div>
+      </Card>
 
       <div className="grid gap-3 sm:grid-cols-3">
         {sections.map((s) => {
           const r = estimate.perSection[s];
+          const colors = SECTION_COLORS[s];
           const pct = Math.max(0, Math.min(100, ((r.scaled - 60) / 30) * 100));
           return (
-            <div key={s} className="rounded-xl border border-border bg-card p-4">
+            <Card key={s} className="p-4">
               <div className="flex items-baseline justify-between">
                 <h3 className="text-sm font-medium">{SECTION_LABELS[s]}</h3>
                 <span className="text-sm font-bold tabular-nums">{r.scaled}</span>
               </div>
               <div className="mt-2 h-2 w-full overflow-hidden rounded-full bg-muted">
-                <div className="h-full rounded-full bg-primary" style={{ width: `${pct}%` }} />
+                <div
+                  className={`h-full rounded-full ${colors.progressBar}`}
+                  style={{ width: `${pct}%` }}
+                />
               </div>
               <div className="mt-1 text-xs text-muted-foreground">
                 {r.correct}/{r.total} correct · scaled 60–90
               </div>
-            </div>
+            </Card>
           );
         })}
       </div>
@@ -579,7 +584,7 @@ function ReviewItem({ result, number }: { result: GradedResult; number: number }
   const { question: q, isCorrect, answered } = result;
 
   return (
-    <li className="rounded-xl border border-border bg-card">
+    <Card as="li">
       <button
         type="button"
         onClick={() => setOpen((o) => !o)}
@@ -594,7 +599,7 @@ function ReviewItem({ result, number }: { result: GradedResult; number: number }
         <span className="flex-1 truncate text-sm">
           {SECTION_SHORT[q.section]} · {QUESTION_TYPE_LABELS[q.type]}
         </span>
-        {!answered && <span className="text-xs text-amber-600 dark:text-amber-400">skipped</span>}
+        {!answered && <span className="text-xs text-warning">skipped</span>}
         <span className="text-xs text-muted-foreground">{DIFFICULTY_LABELS[q.difficulty]}</span>
         <ChevronRight className={cn('size-4 transition-transform', open && 'rotate-90')} />
       </button>
@@ -613,6 +618,6 @@ function ReviewItem({ result, number }: { result: GradedResult; number: number }
           </div>
         </div>
       )}
-    </li>
+    </Card>
   );
 }

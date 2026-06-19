@@ -1,17 +1,12 @@
 import Link from 'next/link';
-import { BookOpen, ChevronRight, Target, Zap } from 'lucide-react';
+import { ChevronRight } from 'lucide-react';
 import { getLearnChapters, getLessonsByChapter } from '@/lib/data/content';
 import { SECTIONS, SECTION_LABELS, SECTION_COLORS } from '@/lib/domain/constants';
 import type { LearnChapter, LearnLesson } from '@/lib/domain/types';
 import { ChapterProgressBar } from '@/components/learn/chapter-progress';
+import { SECTION_ICONS } from '@/components/ui/section-icons';
 
 export const metadata = { title: 'Learn — GMAT Prep' };
-
-const SECTION_ICONS = {
-  quant: Target,
-  verbal: BookOpen,
-  data_insights: Zap,
-};
 
 export default async function LearnPage() {
   const chapters = await getLearnChapters();

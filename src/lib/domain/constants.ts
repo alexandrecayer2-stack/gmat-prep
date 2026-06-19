@@ -13,26 +13,26 @@ export const SECTION_COLORS: Record<
 > = {
   quant: {
     accent: 'bg-blue-500',
-    text: 'text-blue-400',
+    text: 'text-blue-700 dark:text-blue-400',
     bg: 'bg-blue-500/10',
     border: 'border-blue-500/20',
-    badge: 'bg-blue-500/15 text-blue-400',
+    badge: 'bg-blue-500/15 text-blue-700 dark:text-blue-400',
     progressBar: 'bg-blue-500',
   },
   verbal: {
     accent: 'bg-emerald-500',
-    text: 'text-emerald-400',
+    text: 'text-emerald-700 dark:text-emerald-400',
     bg: 'bg-emerald-500/10',
     border: 'border-emerald-500/20',
-    badge: 'bg-emerald-500/15 text-emerald-400',
+    badge: 'bg-emerald-500/15 text-emerald-700 dark:text-emerald-400',
     progressBar: 'bg-emerald-500',
   },
   data_insights: {
     accent: 'bg-violet-500',
-    text: 'text-violet-400',
+    text: 'text-violet-700 dark:text-violet-400',
     bg: 'bg-violet-500/10',
     border: 'border-violet-500/20',
-    badge: 'bg-violet-500/15 text-violet-400',
+    badge: 'bg-violet-500/15 text-violet-700 dark:text-violet-400',
     progressBar: 'bg-violet-500',
   },
 };

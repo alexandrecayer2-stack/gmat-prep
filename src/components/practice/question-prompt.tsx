@@ -6,6 +6,7 @@ import { Markdown } from '@/components/markdown';
 import { ChartView } from '@/components/chart-view';
 import { TableView } from '@/components/table-view';
 import { cn } from '@/lib/utils';
+import { SectionLabel } from '@/components/ui/section-label';
 
 /** Renders everything ABOVE the answer inputs: shared passage/sources, a
  *  per-question stimulus, the stem, and any chart/table assets. */
@@ -17,9 +18,9 @@ export function QuestionPrompt({ question }: { question: QuestionWithGroup }) {
       {group?.passage && (
         <div className="rounded-lg border border-border bg-muted/30 p-4">
           {group.title && (
-            <h3 className="mb-1 text-xs font-semibold uppercase tracking-wide text-muted-foreground">
+            <SectionLabel as="h3" className="mb-1">
               {group.title}
-            </h3>
+            </SectionLabel>
           )}
           <Markdown>{group.passage}</Markdown>
         </div>
@@ -57,9 +58,9 @@ function SourcesView({
   return (
     <div className="overflow-hidden rounded-lg border border-border bg-muted/30">
       {title && (
-        <div className="border-b border-border px-4 py-2 text-xs font-semibold uppercase tracking-wide text-muted-foreground">
+        <SectionLabel as="div" className="border-b border-border px-4 py-2">
           {title}
-        </div>
+        </SectionLabel>
       )}
       <div role="tablist" className="flex flex-wrap gap-1 border-b border-border p-2">
         {sources.map((s, i) => (

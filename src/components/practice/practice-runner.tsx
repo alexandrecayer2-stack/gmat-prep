@@ -17,6 +17,7 @@ import { Calculator } from '@/components/calculator';
 import { Markdown } from '@/components/markdown';
 import { QuestionPrompt } from './question-prompt';
 import { AnswerInputs } from './answer-inputs';
+import { Card } from '@/components/ui/card';
 
 interface Result {
   questionId: string;
@@ -159,7 +160,7 @@ export function PracticeRunner({ questions }: { questions: QuestionWithGroup[] }
       </div>
 
       {/* Question card */}
-      <div className="rounded-xl border border-border bg-card p-5 shadow-sm">
+      <Card className="p-5">
         <QuestionPrompt question={q} />
         <div className="mt-5">
           <AnswerInputs
@@ -169,7 +170,7 @@ export function PracticeRunner({ questions }: { questions: QuestionWithGroup[] }
             revealed={submitted}
           />
         </div>
-      </div>
+      </Card>
 
       {/* Feedback */}
       {submitted && (
@@ -255,7 +256,7 @@ function Badge({
         'rounded-md px-2 py-0.5 text-xs font-medium',
         !variant && 'bg-muted text-muted-foreground',
         variant === 'easy' && 'bg-success/15 text-success',
-        variant === 'medium' && 'bg-amber-500/15 text-amber-600 dark:text-amber-400',
+        variant === 'medium' && 'bg-warning/15 text-warning',
         variant === 'hard' && 'bg-danger/15 text-danger',
       )}
     >
@@ -276,7 +277,7 @@ function Summary({
 
   return (
     <div className="mx-auto max-w-2xl px-4 py-10">
-      <div className="rounded-xl border border-border bg-card p-6 text-center shadow-sm">
+      <Card className="p-6 text-center">
         <h1 className="text-lg font-semibold">Session complete</h1>
         <p className="mt-1 text-sm text-muted-foreground">
           You answered {results.length} question{results.length === 1 ? '' : 's'}.
@@ -323,7 +324,7 @@ function Summary({
             Dashboard
           </Link>
         </div>
-      </div>
+      </Card>
     </div>
   );
 }

@@ -5,6 +5,8 @@ import Link from 'next/link';
 import { ArrowRight, Sparkles, Target } from 'lucide-react';
 import { useAuth } from '@/lib/auth/auth-provider';
 import { getActivePlan, type SavedPlan } from '@/lib/data/plans';
+import { Card } from '@/components/ui/card';
+import { SectionLabel } from '@/components/ui/section-label';
 
 /** Dashboard hero: either a prompt to take the diagnostic, or a summary of the
  *  active study plan. */
@@ -64,13 +66,11 @@ export function PlanCard() {
   const top = [...plan.plan.sectionFocus].sort((a, b) => b.weeklyHours - a.weeklyHours)[0];
 
   return (
-    <div className="flex flex-wrap items-center justify-between gap-4 rounded-xl border border-border bg-card p-5">
+    <Card className="flex flex-wrap items-center justify-between gap-4 p-5">
       <div className="flex items-center gap-4">
         <Target className="size-6 shrink-0 text-primary" />
         <div>
-          <div className="text-xs font-semibold uppercase tracking-wide text-muted-foreground">
-            Your plan
-          </div>
+          <SectionLabel as="div">Your plan</SectionLabel>
           <div className="font-medium tabular-nums">
             {plan.predictedTotal} → {plan.targetTotal} · {plan.weeklyHours} h/week
             {plan.weeksToGoal ? ` · ~${plan.weeksToGoal} wks` : ''}
@@ -86,6 +86,6 @@ export function PlanCard() {
       >
         View plan <ArrowRight className="size-4" />
       </Link>
-    </div>
+    </Card>
   );
 }

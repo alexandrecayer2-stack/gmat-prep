@@ -3,11 +3,15 @@ import { ArrowRight, ClipboardList } from 'lucide-react';
 import {
   QUESTION_TYPE_LABELS,
   SECTIONS,
+  SECTION_COLORS,
   SECTION_LABELS,
   SECTION_TYPES,
 } from '@/lib/domain/constants';
 import { DashboardStats } from '@/components/dashboard-stats';
 import { PlanCard } from '@/components/plan/plan-card';
+import { Card } from '@/components/ui/card';
+import { SectionLabel } from '@/components/ui/section-label';
+import { SECTION_ICONS } from '@/components/ui/section-icons';
 
 export default function Home() {
   return (
@@ -61,26 +65,38 @@ export default function Home() {
       </section>
 
       <section>
-        <h2 className="mb-3 text-xs font-semibold uppercase tracking-wide text-muted-foreground">
-          Practice by section
-        </h2>
+        <SectionLabel className="mb-3">Practice by section</SectionLabel>
         <div className="grid gap-4 sm:grid-cols-3">
-          {SECTIONS.map((s) => (
-            <div key={s} className="flex flex-col rounded-xl border border-border bg-card p-4">
-              <h3 className="font-medium">{SECTION_LABELS[s]}</h3>
-              <ul className="mt-2 flex-1 space-y-1 text-xs text-muted-foreground">
-                {SECTION_TYPES[s].map((t) => (
-                  <li key={t}>{QUESTION_TYPE_LABELS[t]}</li>
-                ))}
-              </ul>
-              <Link
-                href={`/practice?section=${s}`}
-                className="mt-3 inline-flex items-center gap-1 text-sm font-medium text-primary hover:underline"
-              >
-                Practice <ArrowRight className="size-3.5" />
-              </Link>
-            </div>
-          ))}
+          {SECTIONS.map((s) => {
+            const colors = SECTION_COLORS[s];
+            const Icon = SECTION_ICONS[s];
+            return (
+              <Card key={s} className="flex flex-col overflow-hidden">
+                <div className={`h-1 w-full ${colors.accent}`} />
+                <div className="flex flex-1 flex-col p-4">
+                  <div className="flex items-center gap-2">
+                    <span
+                      className={`flex size-7 items-center justify-center rounded-lg ${colors.bg}`}
+                    >
+                      <Icon className={`size-4 ${colors.text}`} />
+                    </span>
+                    <h3 className="font-medium">{SECTION_LABELS[s]}</h3>
+                  </div>
+                  <ul className="mt-3 flex-1 space-y-1 text-xs text-muted-foreground">
+                    {SECTION_TYPES[s].map((t) => (
+                      <li key={t}>{QUESTION_TYPE_LABELS[t]}</li>
+                    ))}
+                  </ul>
+                  <Link
+                    href={`/practice?section=${s}`}
+                    className="mt-3 inline-flex items-center gap-1 text-sm font-medium text-primary hover:underline"
+                  >
+                    Practice <ArrowRight className="size-3.5" />
+                  </Link>
+                </div>
+              </Card>
+            );
+          })}
         </div>
       </section>
     </div>

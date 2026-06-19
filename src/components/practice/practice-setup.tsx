@@ -9,10 +9,13 @@ import {
   DIFFICULTY_LEVEL,
   QUESTION_TYPE_LABELS,
   SECTIONS,
+  SECTION_COLORS,
   SECTION_LABELS,
   SECTION_TYPES,
 } from '@/lib/domain/constants';
 import { cn } from '@/lib/utils';
+import { SectionLabel } from '@/components/ui/section-label';
+import { SECTION_ICONS } from '@/components/ui/section-icons';
 
 export function PracticeSetup({
   counts,
@@ -58,34 +61,39 @@ export function PracticeSetup({
       </div>
 
       <section>
-        <h2 className="mb-2 text-xs font-semibold uppercase tracking-wide text-muted-foreground">
-          1 · Section
-        </h2>
+        <SectionLabel className="mb-2">1 · Section</SectionLabel>
         <div className="grid gap-3 sm:grid-cols-3">
-          {SECTIONS.map((s) => (
-            <button
-              key={s}
-              type="button"
-              onClick={() => pickSection(s)}
-              className={cn(
-                'rounded-xl border p-4 text-left transition-colors',
-                section === s
-                  ? 'border-primary bg-accent'
-                  : 'border-border hover:border-primary/50 hover:bg-muted/50',
-              )}
-            >
-              <div className="font-medium">{SECTION_LABELS[s]}</div>
-              <div className="mt-1 text-xs text-muted-foreground">{counts[s] ?? 0} questions</div>
-            </button>
-          ))}
+          {SECTIONS.map((s) => {
+            const colors = SECTION_COLORS[s];
+            const Icon = SECTION_ICONS[s];
+            return (
+              <button
+                key={s}
+                type="button"
+                onClick={() => pickSection(s)}
+                className={cn(
+                  'rounded-xl border p-4 text-left transition-colors',
+                  section === s
+                    ? 'border-primary bg-accent'
+                    : 'border-border hover:border-primary/50 hover:bg-muted/50',
+                )}
+              >
+                <span
+                  className={cn('mb-2 flex size-8 items-center justify-center rounded-lg', colors.bg)}
+                >
+                  <Icon className={cn('size-4', colors.text)} />
+                </span>
+                <div className="font-medium">{SECTION_LABELS[s]}</div>
+                <div className="mt-1 text-xs text-muted-foreground">{counts[s] ?? 0} questions</div>
+              </button>
+            );
+          })}
         </div>
       </section>
 
       {section && (
         <section>
-          <h2 className="mb-2 text-xs font-semibold uppercase tracking-wide text-muted-foreground">
-            2 · Question types
-          </h2>
+          <SectionLabel className="mb-2">2 · Question types</SectionLabel>
           <div className="flex flex-wrap gap-2">
             {SECTION_TYPES[section].map((t) => {
               const on = types.includes(t);
@@ -112,9 +120,7 @@ export function PracticeSetup({
 
       {section && (
         <section>
-          <h2 className="mb-2 text-xs font-semibold uppercase tracking-wide text-muted-foreground">
-            3 · Difficulty
-          </h2>
+          <SectionLabel className="mb-2">3 · Difficulty</SectionLabel>
           <div className="flex flex-wrap gap-2">
             <DiffButton
               active={difficulty === 'any'}

@@ -12,8 +12,8 @@ const CALLOUT_STYLES: Record<CalloutKind, { Icon: LucideIcon; box: string; accen
   example: { Icon: Lightbulb, box: 'border-primary/20 bg-primary/5', accent: 'text-primary' },
   trap: {
     Icon: AlertTriangle,
-    box: 'border-amber-500/30 bg-amber-500/10',
-    accent: 'text-amber-600 dark:text-amber-400',
+    box: 'border-warning/30 bg-warning/10',
+    accent: 'text-warning',
   },
   strategy: {
     Icon: Target,
@@ -27,8 +27,8 @@ const CALLOUT_STYLES: Record<CalloutKind, { Icon: LucideIcon; box: string; accen
   },
   rule: {
     Icon: Compass,
-    box: 'border-sky-500/30 bg-sky-500/10',
-    accent: 'text-sky-600 dark:text-sky-400',
+    box: 'border-info/30 bg-info/10',
+    accent: 'text-info',
   },
 };
 

@@ -8,6 +8,7 @@ import { emptySelection, gradeAnswer, isAnswerComplete } from '@/lib/domain/grad
 import { cn, formatTime } from '@/lib/utils';
 import { QuestionPrompt } from '@/components/practice/question-prompt';
 import { AnswerInputs } from '@/components/practice/answer-inputs';
+import { Card } from '@/components/ui/card';
 
 export interface DiagnosticResult {
   question: QuestionWithGroup;
@@ -115,7 +116,7 @@ export function DiagnosticRunner({
         />
       </div>
 
-      <div className="rounded-xl border border-border bg-card p-5 shadow-sm">
+      <Card className="p-5">
         <QuestionPrompt question={q} />
         <div className="mt-5">
           <AnswerInputs
@@ -125,7 +126,7 @@ export function DiagnosticRunner({
             revealed={false}
           />
         </div>
-      </div>
+      </Card>
 
       <div className="mt-5 flex items-center justify-between gap-2">
         <button

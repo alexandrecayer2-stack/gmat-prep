@@ -1,12 +1,14 @@
 import Link from 'next/link';
 import type { StudyPlan } from '@/lib/domain/study-plan';
 import { cn } from '@/lib/utils';
+import { Card } from '@/components/ui/card';
+import { SectionLabel } from '@/components/ui/section-label';
 
 const FEASIBILITY: Record<string, { label: string; cls: string }> = {
   maintenance: { label: 'Maintenance', cls: 'bg-success/15 text-success' },
   comfortable: { label: 'Comfortable', cls: 'bg-success/15 text-success' },
   'on-track': { label: 'On track', cls: 'bg-primary/15 text-primary' },
-  tight: { label: 'Tight', cls: 'bg-amber-500/15 text-amber-600 dark:text-amber-400' },
+  tight: { label: 'Tight', cls: 'bg-warning/15 text-warning' },
   'very-tight': { label: 'Very tight', cls: 'bg-danger/15 text-danger' },
 };
 
@@ -32,12 +34,10 @@ export function PlanView({
 
   return (
     <div className="space-y-6">
-      <div className="rounded-xl border border-border bg-card p-5">
+      <Card className="p-5">
         <div className="flex flex-wrap items-start justify-between gap-3">
           <div>
-            <div className="text-xs font-semibold uppercase tracking-wide text-muted-foreground">
-              Predicted → Target
-            </div>
+            <SectionLabel as="div">Predicted → Target</SectionLabel>
             <div className="mt-1 flex items-baseline gap-2">
               <span className="text-2xl font-bold tabular-nums">{predicted.total}</span>
               <span className="text-muted-foreground">→</span>
@@ -66,15 +66,13 @@ export function PlanView({
         {targetDate && (
           <div className="mt-2 text-center text-xs text-muted-foreground">Target date: {targetDate}</div>
         )}
-      </div>
+      </Card>
 
       <div>
-        <h2 className="mb-2 text-xs font-semibold uppercase tracking-wide text-muted-foreground">
-          Where to focus · {plan.weeklyHours} h/week
-        </h2>
+        <SectionLabel className="mb-2">Where to focus · {plan.weeklyHours} h/week</SectionLabel>
         <div className="grid gap-3 sm:grid-cols-3">
           {plan.sectionFocus.map((f) => (
-            <div key={f.section} className="flex flex-col rounded-xl border border-border bg-card p-4">
+            <Card key={f.section} className="flex flex-col p-4">
               <div className="flex items-center justify-between gap-2">
                 <h3 className="font-medium">{f.label}</h3>
                 <span
@@ -112,19 +110,17 @@ export function PlanView({
                   Learn →
                 </Link>
               </div>
-            </div>
+            </Card>
           ))}
         </div>
       </div>
 
       {plan.phases.length > 0 && (
         <div>
-          <h2 className="mb-2 text-xs font-semibold uppercase tracking-wide text-muted-foreground">
-            Milestones
-          </h2>
+          <SectionLabel className="mb-2">Milestones</SectionLabel>
           <ol className="space-y-2">
             {plan.phases.map((p, i) => (
-              <li key={i} className="flex gap-3 rounded-xl border border-border bg-card p-4">
+              <Card as="li" key={i} className="flex gap-3 p-4">
                 <div className="flex size-7 shrink-0 items-center justify-center rounded-full bg-primary text-sm font-semibold text-primary-foreground">
                   {i + 1}
                 </div>
@@ -137,7 +133,7 @@ export function PlanView({
                   </div>
                   <div className="text-sm text-muted-foreground">{p.focus}</div>
                 </div>
-              </li>
+              </Card>
             ))}
           </ol>
         </div>

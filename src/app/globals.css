@@ -18,6 +18,8 @@
   --accent-foreground: #3730a3;
   --success: #16a34a;
   --danger: #dc2626;
+  --warning: #b45309;
+  --info: #0369a1;
   --ring: #6366f1;
 }
 
@@ -35,6 +37,8 @@
   --accent-foreground: #c7d2fe;
   --success: #22c55e;
   --danger: #f87171;
+  --warning: #fbbf24;
+  --info: #38bdf8;
   --ring: #818cf8;
 }
 
@@ -52,6 +56,8 @@
   --color-accent-foreground: var(--accent-foreground);
   --color-success: var(--success);
   --color-danger: var(--danger);
+  --color-warning: var(--warning);
+  --color-info: var(--info);
   --color-ring: var(--ring);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);

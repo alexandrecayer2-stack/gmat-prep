@@ -4,8 +4,10 @@ import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { useAuth } from '@/lib/auth/auth-provider';
 import { getUserStats, type UserStats } from '@/lib/data/attempts';
-import { SECTIONS, SECTION_LABELS } from '@/lib/domain/constants';
+import { SECTIONS, SECTION_COLORS, SECTION_LABELS } from '@/lib/domain/constants';
 import type { Section } from '@/lib/domain/types';
+import { Card } from '@/components/ui/card';
+import { SectionLabel } from '@/components/ui/section-label';
 
 export function DashboardStats() {
   const { user, loading, supabase } = useAuth();
@@ -61,20 +63,18 @@ export function DashboardStats() {
 
   return (
     <div className="grid gap-4 md:grid-cols-3">
-      <div className="rounded-xl border border-border bg-card p-5">
-        <div className="text-xs font-semibold uppercase tracking-wide text-muted-foreground">
-          Overall accuracy
-        </div>
+      <Card className="p-5">
+        <SectionLabel as="div">Overall accuracy</SectionLabel>
         <div className="mt-2 text-4xl font-bold tabular-nums">{pct}%</div>
         <div className="mt-1 text-sm text-muted-foreground">
           {stats.correct} / {stats.total} correct
         </div>
-      </div>
+      </Card>
 
-      <div className="rounded-xl border border-border bg-card p-5 md:col-span-2">
-        <div className="mb-3 text-xs font-semibold uppercase tracking-wide text-muted-foreground">
+      <Card className="p-5 md:col-span-2">
+        <SectionLabel as="div" className="mb-3">
           Accuracy by section
-        </div>
+        </SectionLabel>
         <div className="space-y-3">
           {SECTIONS.map((s) => {
             const t = stats.bySection[s];
@@ -89,7 +89,7 @@ export function DashboardStats() {
                 </div>
                 <div className="h-2 w-full overflow-hidden rounded-full bg-muted">
                   <div
-                    className="h-full rounded-full bg-primary transition-all"
+                    className={`h-full rounded-full transition-all ${SECTION_COLORS[s].progressBar}`}
                     style={{ width: `${p ?? 0}%` }}
                   />
                 </div>
@@ -114,7 +114,7 @@ export function DashboardStats() {
             </Link>
           </div>
         )}
-      </div>
+      </Card>
     </div>
   );
 }

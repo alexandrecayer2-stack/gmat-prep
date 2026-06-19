@@ -4,7 +4,7 @@ import { useMemo, useState } from 'react';
 import { useRouter } from 'next/navigation';
 import { ArrowRight, Loader2, Sparkles } from 'lucide-react';
 import type { QuestionWithGroup, Section } from '@/lib/domain/types';
-import { SECTIONS, SECTION_LABELS } from '@/lib/domain/constants';
+import { SECTIONS, SECTION_COLORS, SECTION_LABELS } from '@/lib/domain/constants';
 import { estimateDiagnostic, type DiagnosticEstimate, type GradedItem } from '@/lib/domain/scoring';
 import { buildStudyPlan, type StudyPlan } from '@/lib/domain/study-plan';
 import { useAuth } from '@/lib/auth/auth-provider';
@@ -13,6 +13,8 @@ import { saveStudyPlan } from '@/lib/data/plans';
 import { cn } from '@/lib/utils';
 import { DiagnosticRunner, type DiagnosticResult } from './diagnostic-runner';
 import { PlanView } from '@/components/plan/plan-view';
+import { Card } from '@/components/ui/card';
+import { SectionLabel } from '@/components/ui/section-label';
 
 type Step = 'intro' | 'test' | 'goal' | 'plan';
 
@@ -178,38 +180,40 @@ export function DiagnosticFlow({ questions }: { questions: QuestionWithGroup[] }
     const belowTarget = target <= estimate.total;
     return (
       <div className="mx-auto max-w-3xl space-y-6 px-4 py-8">
-        <div className="rounded-xl border border-border bg-card p-6 text-center">
-          <div className="text-xs font-semibold uppercase tracking-wide text-muted-foreground">
-            Predicted GMAT Focus score
-          </div>
+        <Card className="p-6 text-center">
+          <SectionLabel as="div">Predicted GMAT Focus score</SectionLabel>
           <div className="mt-1 text-5xl font-bold tabular-nums">{estimate.total}</div>
           <div className="mt-1 text-sm text-muted-foreground">
             likely range {estimate.low}–{estimate.high} · based on {estimate.questionCount} questions
           </div>
-        </div>
+        </Card>
 
         <div className="grid gap-3 sm:grid-cols-3">
           {SECTIONS.map((s) => {
             const r = estimate.perSection[s];
-            const pct = ((r.scaled - 60) / 30) * 100;
+            const colors = SECTION_COLORS[s];
+            const pct = Math.max(0, Math.min(100, ((r.scaled - 60) / 30) * 100));
             return (
-              <div key={s} className="rounded-xl border border-border bg-card p-4">
+              <Card key={s} className="p-4">
                 <div className="flex items-baseline justify-between">
                   <h3 className="text-sm font-medium">{SECTION_LABELS[s]}</h3>
                   <span className="text-sm font-bold tabular-nums">{r.scaled}</span>
                 </div>
                 <div className="mt-2 h-2 w-full overflow-hidden rounded-full bg-muted">
-                  <div className="h-full rounded-full bg-primary" style={{ width: `${pct}%` }} />
+                  <div
+                    className={`h-full rounded-full ${colors.progressBar}`}
+                    style={{ width: `${pct}%` }}
+                  />
                 </div>
                 <div className="mt-1 text-xs text-muted-foreground">
                   {r.correct}/{r.total} correct · scaled 60–90
                 </div>
-              </div>
+              </Card>
             );
           })}
         </div>
 
-        <div className="rounded-xl border border-border bg-card p-6">
+        <Card className="p-6">
           <h2 className="text-lg font-semibold">Set your target</h2>
           <p className="mt-1 text-sm text-muted-foreground">
             Choose the score you&apos;re aiming for and (optionally) a date. We&apos;ll build a plan
@@ -260,7 +264,7 @@ export function DiagnosticFlow({ questions }: { questions: QuestionWithGroup[] }
           >
             Generate my plan <ArrowRight className="size-4" />
           </button>
-        </div>
+        </Card>
       </div>
     );
   }
@@ -279,7 +283,7 @@ export function DiagnosticFlow({ questions }: { questions: QuestionWithGroup[] }
             type="button"
             onClick={savePlanAndContinue}
             disabled={saving}
-            className="inline-flex items-center gap-1 rounded-lg bg-primary px-5 py-2.5 font-medium text-primary-foreground hover:opacity-90 disabled:opacity-50"
+            className="inline-flex items-center gap-1 rounded-lg bg-primary px-5 py-2.5 font-medium text-primary-foreground hover:opacity-90 disabled:cursor-not-allowed disabled:opacity-50"
           >
             {saving && <Loader2 className="size-4 animate-spin" />}
             Save plan &amp; continue
