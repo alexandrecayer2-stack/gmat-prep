@@ -62,6 +62,7 @@ export function MockRunner({ sections, config }: { sections: MockSectionSet[]; c
   const [remaining, setRemaining] = useState(0);
   const [estimate, setEstimate] = useState<DiagnosticEstimate | null>(null);
   const [results, setResults] = useState<GradedResult[] | null>(null);
+  const [saveFailed, setSaveFailed] = useState(false);
 
   // Refs so the timer's stale closure still grades the *current* state.
   const answersRef = useRef(answers);
@@ -118,9 +119,10 @@ export function MockRunner({ sections, config }: { sections: MockSectionSet[]; c
         isCorrect: g.isCorrect,
         timeSpentSeconds: Math.round(timeRef.current[g.question.id] ?? 0),
       }));
-      saveMockSession(supabase, user.id, { config, estimate: est, attempts }).catch((e) =>
-        console.error('Failed to save mock session:', e),
-      );
+      saveMockSession(supabase, user.id, { config, estimate: est, attempts }).catch((e) => {
+        console.error('Failed to save mock session:', e);
+        setSaveFailed(true);
+      });
     }
   }, [sections, user, supabase, config]);
 
@@ -220,7 +222,7 @@ export function MockRunner({ sections, config }: { sections: MockSectionSet[]; c
   }, [phase, showReview, index, questions.length, q, go]);
 
   if (phase === 'results' && estimate && results) {
-    return <MockResults estimate={estimate} results={results} />;
+    return <MockResults estimate={estimate} results={results} saveFailed={saveFailed} />;
   }
 
   if (phase === 'break') {
@@ -486,9 +488,11 @@ function ReviewGrid({
 function MockResults({
   estimate,
   results,
+  saveFailed,
 }: {
   estimate: DiagnosticEstimate;
   results: GradedResult[];
+  saveFailed?: boolean;
 }) {
   const [filter, setFilter] = useState<'all' | 'incorrect'>('all');
   const sections = [...new Set(results.map((r) => r.question.section))];
@@ -497,6 +501,15 @@ function MockResults({
 
   return (
     <div className="mx-auto max-w-3xl space-y-6 px-4 py-8">
+      {saveFailed && (
+        <div
+          role="status"
+          className="rounded-lg border border-warning/40 bg-warning/10 px-4 py-2.5 text-sm text-warning"
+        >
+          Your score is shown below, but it couldn&apos;t be saved to your account — it may not
+          appear in your history.
+        </div>
+      )}
       <Card className="p-6 text-center">
         <SectionLabel as="div">Predicted GMAT Focus score</SectionLabel>
         <div className="mt-1 text-5xl font-bold tabular-nums">{estimate.total}</div>

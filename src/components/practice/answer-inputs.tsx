@@ -68,6 +68,13 @@ function SingleChoice({ question, selected, onChange, revealed }: AnswerInputsPr
               </span>
               <span className="flex-1 text-sm leading-relaxed">
                 <InlineMarkdown>{c.text}</InlineMarkdown>
+                {/* "Why this is wrong" — shown under each distractor once revealed,
+                    only when the content provides a rationale for the choice. */}
+                {revealed && !isCorrect && c.distractorRationale && (
+                  <span className="mt-1 block text-xs font-normal text-muted-foreground">
+                    <InlineMarkdown>{c.distractorRationale}</InlineMarkdown>
+                  </span>
+                )}
               </span>
               {revealed && isCorrect && <Check className="size-5 shrink-0 text-success" />}
               {revealed && !isCorrect && isSel && <X className="size-5 shrink-0 text-danger" />}

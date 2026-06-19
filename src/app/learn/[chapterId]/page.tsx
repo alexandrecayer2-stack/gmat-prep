@@ -1,16 +1,10 @@
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import { BookOpen, ChevronLeft, ChevronRight, Clock, Target, Zap } from 'lucide-react';
+import { ChevronLeft, ChevronRight, Clock } from 'lucide-react';
 import { getLearnChapters, getLessonsByChapter } from '@/lib/data/content';
 import { SECTION_LABELS, SECTION_COLORS } from '@/lib/domain/constants';
-import type { Section } from '@/lib/domain/types';
 import { ChapterProgressBar } from '@/components/learn/chapter-progress';
-
-const SECTION_ICONS: Record<Section, typeof Target> = {
-  quant: Target,
-  verbal: BookOpen,
-  data_insights: Zap,
-};
+import { SECTION_ICONS } from '@/components/ui/section-icons';
 
 const readingMinutes = (body: string) =>
   Math.max(1, Math.round(body.split(/\s+/).filter(Boolean).length / 200));
@@ -78,6 +72,11 @@ export default async function ChapterPage({ params }: Props) {
 
       {/* Lessons */}
       <div className="mb-8 overflow-hidden rounded-xl border border-border divide-y divide-border">
+        {lessons.length === 0 && (
+          <p className="px-6 py-8 text-center text-sm text-muted-foreground">
+            No lessons in this chapter yet.
+          </p>
+        )}
         {lessons.map((lesson, i) => (
           <Link
             key={lesson.id}

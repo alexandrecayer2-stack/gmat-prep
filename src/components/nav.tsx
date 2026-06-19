@@ -6,13 +6,13 @@ import { ThemeToggle } from './theme-toggle';
 import { AccountMenu } from '@/components/auth/account-menu';
 import { cn } from '@/lib/utils';
 
-const LINKS = [
+const LINKS: { href: string; label: string; soon?: boolean }[] = [
   { href: '/', label: 'Dashboard' },
   { href: '/plan', label: 'Plan' },
   { href: '/practice', label: 'Practice' },
   { href: '/learn', label: 'Learn' },
   { href: '/mock', label: 'Mock Exam' },
-  { href: '/review', label: 'Review' },
+  { href: '/review', label: 'Review', soon: true },
 ];
 
 export function Nav() {
@@ -37,6 +37,11 @@ export function Nav() {
                 )}
               >
                 {l.label}
+                {l.soon && (
+                  <span className="ml-1 rounded-full bg-muted px-1.5 py-0.5 text-[10px] uppercase tracking-wide text-muted-foreground">
+                    Soon
+                  </span>
+                )}
               </Link>
             );
           })}

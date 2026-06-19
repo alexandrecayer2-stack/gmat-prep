@@ -11,6 +11,8 @@ export function PlanPageContent() {
   const { user, loading, supabase } = useAuth();
   const [plan, setPlan] = useState<SavedPlan | null>(null);
   const [busy, setBusy] = useState(true);
+  const [error, setError] = useState(false);
+  const [reloadKey, setReloadKey] = useState(0);
 
   useEffect(() => {
     if (loading) return;
@@ -23,22 +25,43 @@ export function PlanPageContent() {
       .then((p) => {
         if (active) {
           setPlan(p);
+          setError(false);
           setBusy(false);
         }
       })
       .catch((e) => {
         console.error('Failed to load plan:', e);
-        if (active) setBusy(false);
+        if (active) {
+          setError(true);
+          setBusy(false);
+        }
       });
     return () => {
       active = false;
     };
-  }, [user, loading, supabase]);
+  }, [user, loading, supabase, reloadKey]);
 
   if (busy) {
     return (
       <div className="mx-auto max-w-3xl px-4 py-10">
         <div className="h-40 animate-pulse rounded-xl border border-border bg-muted/40" />
+      </div>
+    );
+  }
+
+  if (error) {
+    return (
+      <div className="mx-auto max-w-2xl px-4 py-16 text-center">
+        <div className="rounded-xl border border-danger bg-danger/10 p-6">
+          <p className="text-sm">Couldn&apos;t load your study plan.</p>
+          <button
+            type="button"
+            onClick={() => setReloadKey((k) => k + 1)}
+            className="mt-3 inline-flex items-center rounded-lg border border-border bg-card px-4 py-2 text-sm font-medium hover:bg-muted"
+          >
+            Try again
+          </button>
+        </div>
       </div>
     );
   }

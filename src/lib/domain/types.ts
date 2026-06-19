@@ -25,6 +25,12 @@ export type AnswerFormat = 'single' | 'two_part' | 'dropdowns' | 'dichotomous';
 export interface Choice {
   key: string;
   text: string;
+  /**
+   * Optional "why this answer is wrong" note. When present, it is shown under
+   * the choice after the question is answered. Content is not required to
+   * provide it (rendering is skipped when absent).
+   */
+  distractorRationale?: string;
 }
 
 // ---------- Assets (DI charts / tables / dropdown blanks) ----------

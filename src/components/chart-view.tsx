@@ -27,6 +27,7 @@ const DEFAULT_COLORS = [
 
 export function ChartView({ chart }: { chart: ChartAsset }) {
   const colorAt = (i: number) => chart.series[i]?.color ?? DEFAULT_COLORS[i % DEFAULT_COLORS.length];
+  const hasData = (chart.data?.length ?? 0) > 0 && chart.series.length > 0;
 
   const axisProps = {
     stroke: 'var(--muted-foreground)',
@@ -53,8 +54,11 @@ export function ChartView({ chart }: { chart: ChartAsset }) {
           {chart.title}
         </figcaption>
       )}
-      <ResponsiveContainer width="100%" height={280}>
-        {chart.type === 'bar' ? (
+      {!hasData ? (
+        <p className="py-10 text-center text-sm text-muted-foreground">No data to display.</p>
+      ) : (
+        <ResponsiveContainer width="100%" height={280}>
+          {chart.type === 'bar' ? (
           <BarChart data={chart.data} margin={{ top: 8, right: 12, bottom: 16, left: 4 }}>
             <CartesianGrid strokeDasharray="3 3" stroke="var(--border)" />
             <XAxis
@@ -98,7 +102,8 @@ export function ChartView({ chart }: { chart: ChartAsset }) {
             <Scatter data={chart.data} fill={colorAt(0)} />
           </ScatterChart>
         )}
-      </ResponsiveContainer>
+        </ResponsiveContainer>
+      )}
     </figure>
   );
 }

@@ -71,20 +71,31 @@ export function TableView({ table }: { table: TableAsset }) {
           </tr>
         </thead>
         <tbody>
-          {sorted.map((row, i) => (
-            <tr key={i} className="border-t border-border">
-              {table.columns.map((col) => (
-                <td
-                  key={col.key}
-                  className={cn('px-3 py-2 text-foreground', col.numeric && 'text-right tabular-nums')}
-                >
-                  {typeof row[col.key] === 'number'
-                    ? (row[col.key] as number).toLocaleString('en-US')
-                    : String(row[col.key] ?? '')}
-                </td>
-              ))}
+          {sorted.length === 0 ? (
+            <tr>
+              <td
+                colSpan={table.columns.length || 1}
+                className="px-3 py-6 text-center text-sm text-muted-foreground"
+              >
+                No data to display.
+              </td>
             </tr>
-          ))}
+          ) : (
+            sorted.map((row, i) => (
+              <tr key={i} className="border-t border-border">
+                {table.columns.map((col) => (
+                  <td
+                    key={col.key}
+                    className={cn('px-3 py-2 text-foreground', col.numeric && 'text-right tabular-nums')}
+                  >
+                    {typeof row[col.key] === 'number'
+                      ? (row[col.key] as number).toLocaleString('en-US')
+                      : String(row[col.key] ?? '')}
+                  </td>
+                ))}
+              </tr>
+            ))
+          )}
         </tbody>
       </table>
     </div>
