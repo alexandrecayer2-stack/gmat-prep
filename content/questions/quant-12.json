@@ -34,7 +34,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "Le prix devient 1,20 puis 0,75 de ce montant, soit 0,90 du prix initial. La variation nette est donc une baisse de 10 %.",
+    "explanation": "The price becomes 1.20 then 0.75 of that amount, which equals 0.90 of the original price. The net change is therefore a decrease of 10%.",
     "estimatedTimeSeconds": 90
   },
   {
@@ -72,7 +72,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "En posant y = 12, on obtient x = 9 et z = 10. Donc x:z = 9:10.",
+    "explanation": "Setting y = 12, we get x = 9 and z = 10. Therefore x:z = 9:10.",
     "estimatedTimeSeconds": 90
   },
   {
@@ -110,7 +110,7 @@
       "format": "single",
       "value": "C"
     },
-    "explanation": "6x - 15 = 4x + 7, donc 2x = 22 et x = 11.",
+    "explanation": "6x - 15 = 4x + 7, so 2x = 22 and x = 11.",
     "estimatedTimeSeconds": 90
   },
   {
@@ -148,7 +148,7 @@
       "format": "single",
       "value": "D"
     },
-    "explanation": "L’aire d’un triangle est base × hauteur ÷ 2, soit 12 × 9 ÷ 2 = 54.",
+    "explanation": "The area of a triangle is base × height ÷ 2, which gives 12 × 9 ÷ 2 = 54.",
     "estimatedTimeSeconds": 90
   },
   {
@@ -186,7 +186,7 @@
       "format": "single",
       "value": "D"
     },
-    "explanation": "Il y a 10 boules au total et 8 ne sont pas bleues. La probabilité vaut 8/10 = 4/5.",
+    "explanation": "There are 10 balls in total and 8 are not blue. The probability is 8/10 = 4/5.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -224,7 +224,7 @@
       "format": "single",
       "value": "B"
     },
-    "explanation": "$2^{3}$ = 8 et $4^{2}$ = 16. Donc 8 × 16 ÷ 8 = 16.",
+    "explanation": "$2^{3}$ = 8 and $4^{2}$ = 16. Therefore 8 × 16 ÷ 8 = 16.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -262,7 +262,7 @@
       "format": "single",
       "value": "C"
     },
-    "explanation": "La somme des 5 nombres est 60. La somme des 4 premiers est 40, donc le cinquième nombre est 20.",
+    "explanation": "The sum of the 5 numbers is 60. The sum of the first 4 is 40, so the fifth number is 20.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -300,7 +300,7 @@
       "format": "single",
       "value": "B"
     },
-    "explanation": "Les taux s’additionnent: 1/6 + 1/8 = 7/24 du travail par heure. Le temps total est donc 24/7 heures.",
+    "explanation": "The rates add up: 1/6 + 1/8 = 7/24 of the work per hour. The total time is therefore 24/7 hours.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -338,7 +338,7 @@
       "format": "single",
       "value": "B"
     },
-    "explanation": "7 ≡ 1 (mod 6), donc $7^{10}$ ≡ $1^{10}$ ≡ 1 (mod 6).",
+    "explanation": "7 ≡ 1 (mod 6), so $7^{10}$ ≡ $1^{10}$ ≡ 1 (mod 6).",
     "estimatedTimeSeconds": 150
   },
   {
@@ -376,7 +376,7 @@
       "format": "single",
       "value": "B"
     },
-    "explanation": "La pente vaut (11 - 3) / (6 - 2) = 8/4 = 2.",
+    "explanation": "The slope is (11 - 3) / (6 - 2) = 8/4 = 2.",
     "estimatedTimeSeconds": 90
   },
   {
@@ -414,7 +414,7 @@
       "format": "single",
       "value": "D"
     },
-    "explanation": "Le rayon vers le milieu de la corde forme un triangle rectangle: moitié de la corde = 6. Distance = $\\sqrt{10^{2} - 6^{2}}$ = $\\sqrt{64}$ = 8.",
+    "explanation": "The radius drawn to the midpoint of the chord forms a right triangle: half the chord = 6. Distance = $\\sqrt{10^{2} - 6^{2}}$ = $\\sqrt{64}$ = 8.",
     "estimatedTimeSeconds": 150
   },
   {
@@ -452,7 +452,7 @@
       "format": "single",
       "value": "D"
     },
-    "explanation": "La somme initiale est 6 × 78 = 468. La nouvelle somme est 7 × 80 = 560. Le score ajouté est 560 - 468 = 92.",
+    "explanation": "The initial sum is 6 × 78 = 468. The new sum is 7 × 80 = 560. The added score is 560 - 468 = 92.",
     "estimatedTimeSeconds": 150
   }
 ]

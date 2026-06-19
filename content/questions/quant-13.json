@@ -34,7 +34,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "1,20 × 0,75 = 0,90, donc le prix final vaut 90 % du prix initial, soit une baisse nette de 10 %.",
+    "explanation": "1.20 × 0.75 = 0.90, so the final price is 90% of the original price, representing a net decrease of 10%.",
     "estimatedTimeSeconds": 90
   },
   {
@@ -72,7 +72,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "En isolant x : 3x - 2x = 7 + 5, donc x = 12.",
+    "explanation": "Isolating x: 3x - 2x = 7 + 5, so x = 12.",
     "estimatedTimeSeconds": 90
   },
   {
@@ -110,7 +110,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "Si la largeur vaut w, alors 2(w + w + 4) = 40, donc 4w = 32 et w = 8. La longueur vaut 12, donc l’aire est 96.",
+    "explanation": "If the width is w, then 2(w + w + 4) = 40, so 4w = 32 and w = 8. The length is 12, so the area is 96.",
     "estimatedTimeSeconds": 90
   },
   {
@@ -148,7 +148,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "La somme totale doit être 5 × 12 = 60. Les quatre nombres donnés totalisent 48, donc le cinquième vaut 12.",
+    "explanation": "The total sum must be 5 × 12 = 60. The four given numbers total 48, so the fifth number is 12.",
     "estimatedTimeSeconds": 90
   },
   {
@@ -186,7 +186,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "Comme 7 ≡ 2 (mod 5), on a $7^{4}$ ≡ $2^{4}$ = 16 ≡ 1 (mod 5).",
+    "explanation": "Since 7 ≡ 2 (mod 5), we have $7^{4}$ ≡ $2^{4}$ = 16 ≡ 1 (mod 5).",
     "estimatedTimeSeconds": 90
   },
   {
@@ -224,7 +224,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "Le total des parts est 8. Une part vaut 40/8 = 5, donc le sucre vaut 3 × 5 = 15.",
+    "explanation": "The total number of parts is 8. One part equals 40/8 = 5, so sugar is 3 × 5 = 15.",
     "estimatedTimeSeconds": 90
   },
   {
@@ -262,7 +262,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "Par le théorème de Pythagore, l’hypoténuse vaut √($6^{2}$ + $8^{2}$) = √100 = 10.",
+    "explanation": "By the Pythagorean theorem, the hypotenuse equals √($6^{2}$ + $8^{2}$) = √100 = 10.",
     "estimatedTimeSeconds": 90
   },
   {
@@ -300,7 +300,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "La probabilité est (3/5) × (2/4) = 6/20 = 3/10.",
+    "explanation": "The probability is (3/5) × (2/4) = 6/20 = 3/10.",
     "estimatedTimeSeconds": 90
   },
   {
@@ -338,7 +338,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "Le premier terme est 4 et la raison est 3. Le 20e terme vaut 4 + 19 × 3 = 61.",
+    "explanation": "The first term is 4 and the common difference is 3. The 20th term is 4 + 19 × 3 = 61.",
     "estimatedTimeSeconds": 90
   },
   {
@@ -376,7 +376,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "En utilisant les règles sur les puissances : 2^(3+5-4) = $2^{4}$ = 16.",
+    "explanation": "Using the rules of exponents: 2^(3+5-4) = $2^{4}$ = 16.",
     "estimatedTimeSeconds": 90
   },
   {
@@ -414,7 +414,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "En additionnant les deux équations, on obtient 2x = 12, donc x = 6.",
+    "explanation": "Adding the two equations gives 2x = 12, so x = 6.",
     "estimatedTimeSeconds": 90
   },
   {
@@ -452,7 +452,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "Après remise : 80 × 0,85 = 68. Avec la taxe : 68 × 1,10 = 74,8.",
+    "explanation": "After discount: 80 × 0.85 = 68. With tax: 68 × 1.10 = 74.8.",
     "estimatedTimeSeconds": 90
   },
   {
@@ -490,7 +490,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "L’aire d’un cercle est π$r^{2}$. Donc 3,14 × 25 = 78,5.",
+    "explanation": "The area of a circle is π$r^{2}$. Therefore 3.14 × 25 = 78.5.",
     "estimatedTimeSeconds": 90
   },
   {
@@ -528,7 +528,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "2x < 14, donc x < 7. Le plus grand entier possible est 6.",
+    "explanation": "2x < 14, so x < 7. The largest possible integer is 6.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -566,7 +566,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "Le PPCM de 8, 12 et 15 est $2^{3}$ × 3 × 5 = 120.",
+    "explanation": "The LCM of 8, 12, and 15 is $2^{3}$ × 3 × 5 = 120.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -642,7 +642,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "En multipliant par 12 : 4x + 3x = 168, donc 7x = 168 et x = 24.",
+    "explanation": "Multiplying through by 12: 4x + 3x = 168, so 7x = 168 and x = 24.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -680,7 +680,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "La diagonale d’un carré vaut s√2. Donc $s^{2}$ = $10^{2}$/2 = 50.",
+    "explanation": "The diagonal of a square equals s√2. Therefore $s^{2}$ = $10^{2}$/2 = 50.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -718,7 +718,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "Il y a 3 femmes sur 8 personnes au total, donc la probabilité est 3/8.",
+    "explanation": "There are 3 women out of 8 people in total, so the probability is 3/8.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -756,7 +756,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "La valeur finale est 1000 × (1,10)² = 1000 × 1,21 = 1210.",
+    "explanation": "The final value is 1000 × (1.10)² = 1000 × 1.21 = 1210.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -794,7 +794,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "La valeur finale est 1000 × 1,10^2 = 1210.",
+    "explanation": "The final value is 1000 × 1.10^2 = 1210.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -832,7 +832,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "Le débit net est 1/5 - 1/10 = 1/10 du réservoir par heure, donc il faut 10 heures.",
+    "explanation": "The net flow rate is 1/5 - 1/10 = 1/10 of the tank per hour, so it takes 10 hours.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -870,7 +870,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "$13^{2}$ = 169 donne 9 mod 10, et $7^{2}$ = 49 donne 9 mod 10. La somme vaut 18, donc le reste est 8.",
+    "explanation": "$13^{2}$ = 169 gives 9 mod 10, and $7^{2}$ = 49 gives 9 mod 10. The sum is 18, so the remainder is 8.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -908,7 +908,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "Le volume d’un cube est $s^{3}$. Donc $4^{3}$ = 64.",
+    "explanation": "The volume of a cube is $s^{3}$. Therefore $4^{3}$ = 64.",
     "estimatedTimeSeconds": 90
   },
   {
@@ -946,7 +946,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "La raison est 3. Le 5e terme vaut 54 × 3 = 162.",
+    "explanation": "The common ratio is 3. The 5th term is 54 × 3 = 162.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -984,7 +984,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "3 parts correspondent à 15 oranges, donc 1 part = 5. Les pommes sont 2 parts, donc 10.",
+    "explanation": "3 parts correspond to 15 oranges, so 1 part = 5. Apples are 2 parts, so 10.",
     "estimatedTimeSeconds": 90
   },
   {
@@ -1022,7 +1022,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "La somme totale est 6 × 14 = 84. Les cinq nombres donnés totalisent 72, donc le sixième vaut 12.",
+    "explanation": "The total sum is 6 × 14 = 84. The five given numbers total 72, so the sixth number is 12.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -1060,7 +1060,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "Les solutions sont x = 11 et x = -3. Leur somme est 8.",
+    "explanation": "The solutions are x = 11 and x = -3. Their sum is 8.",
     "estimatedTimeSeconds": 90
   },
   {
@@ -1098,7 +1098,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "Si le fils a s ans, le père en a 4s. Dans 12 ans : 4s + 12 = 2,5(s + 12). On obtient s = 12.",
+    "explanation": "If the son is s years old, the father is 4s. In 12 years: 4s + 12 = 2.5(s + 12). This gives s = 12.",
     "estimatedTimeSeconds": 150
   },
   {
@@ -1174,7 +1174,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "L’augmentation est 12, et 12/80 = 0,15, donc 15 %.",
+    "explanation": "The increase is 12, and 12/80 = 0.15, so 15%.",
     "estimatedTimeSeconds": 90
   },
   {
@@ -1212,7 +1212,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "On choisit et ordonne 3 chiffres parmi 4 : 4 × 3 × 2 = 24.",
+    "explanation": "Choosing and ordering 3 digits from 4: 4 × 3 × 2 = 24.",
     "estimatedTimeSeconds": 150
   }
 ]

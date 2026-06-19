@@ -34,7 +34,7 @@
       "format": "single",
       "value": "C"
     },
-    "explanation": "3x = 24, donc x = 8.",
+    "explanation": "3x = 24, so x = 8.",
     "estimatedTimeSeconds": 90
   },
   {
@@ -72,7 +72,7 @@
       "format": "single",
       "value": "B"
     },
-    "explanation": "Le total fait 8 parts. Une part vaut 40/8 = 5, donc 3 parts valent 15.",
+    "explanation": "The total is 8 parts. One part equals 40/8 = 5, so 3 parts equal 15.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -148,7 +148,7 @@
       "format": "single",
       "value": "E"
     },
-    "explanation": "Aire = 12 × 7 = 84.",
+    "explanation": "Area = 12 × 7 = 84.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -186,7 +186,7 @@
       "format": "single",
       "value": "B"
     },
-    "explanation": "Le taux commun est 1/6 + 1/10 = 4/15 tâche par heure. Le temps est 15/4 heure, soit 3 h 45 min.",
+    "explanation": "The combined rate is 1/6 + 1/10 = 4/15 of the task per hour. The time required is 15/4 hours, or 3 h 45 min.",
     "estimatedTimeSeconds": 150
   },
   {
@@ -224,7 +224,7 @@
       "format": "single",
       "value": "E"
     },
-    "explanation": "La somme totale est 4 × 15 = 60. Les trois nombres connus font 42, donc le quatrième vaut 18.",
+    "explanation": "The total sum is 4 × 15 = 60. The three known numbers add up to 42, so the fourth equals 18.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -262,7 +262,7 @@
       "format": "single",
       "value": "D"
     },
-    "explanation": "On additionne les exposants: 2^(3+4) = $2^{7}$ = 128.",
+    "explanation": "Add the exponents: 2^(3+4) = $2^{7}$ = 128.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -300,7 +300,7 @@
       "format": "single",
       "value": "D"
     },
-    "explanation": "La somme des angles d’un triangle est 180°. Le troisième angle vaut 180 - 35 - 75 = 70°.",
+    "explanation": "The angles of a triangle sum to 180°. The third angle equals 180 - 35 - 75 = 70°.",
     "estimatedTimeSeconds": 150
   },
   {
@@ -338,7 +338,7 @@
       "format": "single",
       "value": "B"
     },
-    "explanation": "Les cas favorables sont HT et TH, soit 2 cas sur 4. La probabilité est 1/2.",
+    "explanation": "The favorable outcomes are HT and TH, giving 2 out of 4 cases. The probability is 1/2.",
     "estimatedTimeSeconds": 90
   },
   {
@@ -376,7 +376,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "Temps = distance / vitesse = 150 / 50 = 3 heures.",
+    "explanation": "Time = distance / speed = 150 / 50 = 3 hours.",
     "estimatedTimeSeconds": 90
   },
   {
@@ -414,7 +414,7 @@
       "format": "single",
       "value": "C"
     },
-    "explanation": "La liste est déjà ordonnée et la valeur centrale est 7.",
+    "explanation": "The list is already sorted and the middle value is 7.",
     "estimatedTimeSeconds": 90
   },
   {
@@ -452,7 +452,7 @@
       "format": "single",
       "value": "C"
     },
-    "explanation": "30 % de 80 vaut 24. Le prix final est 80 - 24 = 56.",
+    "explanation": "30% of 80 is 24. The final price is 80 - 24 = 56.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -490,7 +490,7 @@
       "format": "single",
       "value": "E"
     },
-    "explanation": "x/3 = 6, donc x = 18.",
+    "explanation": "x/3 = 6, so x = 18.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -528,7 +528,7 @@
       "format": "single",
       "value": "C"
     },
-    "explanation": "Chaque terme est multiplié par 3. Le prochain terme est 54 × 3 = 162.",
+    "explanation": "Each term is multiplied by 3. The next term is 54 × 3 = 162.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -566,7 +566,7 @@
       "format": "single",
       "value": "B"
     },
-    "explanation": "Le périmètre d’un carré est 4 fois le côté: 4 × 9 = 36.",
+    "explanation": "The perimeter of a square is 4 times the side length: 4 × 9 = 36.",
     "estimatedTimeSeconds": 90
   },
   {
@@ -642,7 +642,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "Il y a 10 boules au total, dont 3 rouges. La probabilité est 3/10.",
+    "explanation": "There are 10 balls in total, of which 3 are red. The probability is 3/10.",
     "estimatedTimeSeconds": 90
   },
   {
@@ -680,7 +680,7 @@
       "format": "single",
       "value": "D"
     },
-    "explanation": "Trois entiers consécutifs autour de 13 sont 12, 13 et 14, et leur somme est 39.",
+    "explanation": "Three consecutive integers centered on 13 are 12, 13, and 14, and their sum is 39.",
     "estimatedTimeSeconds": 90
   },
   {
@@ -718,7 +718,7 @@
       "format": "single",
       "value": "E"
     },
-    "explanation": "On regroupe les termes: x = 14.",
+    "explanation": "Combine like terms: x = 14.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -756,7 +756,7 @@
       "format": "single",
       "value": "C"
     },
-    "explanation": "Circonférence = 2πr = 2π × 3 = 6π.",
+    "explanation": "Circumference = 2πr = 2π × 3 = 6π.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -794,7 +794,7 @@
       "format": "single",
       "value": "E"
     },
-    "explanation": "Intérêt simple = principal × taux × temps = 2000 × 0,05 × 2 = 200.",
+    "explanation": "Simple interest = principal × rate × time = 2000 × 0.05 × 2 = 200.",
     "estimatedTimeSeconds": 150
   },
   {
@@ -832,7 +832,7 @@
       "format": "single",
       "value": "D"
     },
-    "explanation": "On additionne puis on soustrait l’intersection: 20 + 15 - 5 = 30.",
+    "explanation": "Add, then subtract the intersection: 20 + 15 - 5 = 30.",
     "estimatedTimeSeconds": 150
   },
   {
@@ -870,7 +870,7 @@
       "format": "single",
       "value": "E"
     },
-    "explanation": "Pour deux distances égales, la vitesse moyenne est la moyenne harmonique: 2ab/(a+b) = 2×40×60/100 = 48.",
+    "explanation": "For two equal distances, the average speed is the harmonic mean: 2ab/(a+b) = 2×40×60/100 = 48.",
     "estimatedTimeSeconds": 150
   },
   {
@@ -908,7 +908,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "Les solutions sont 2 et -2. Comme x est positif, x = 2.",
+    "explanation": "The solutions are 2 and -2. Since x is positive, x = 2.",
     "estimatedTimeSeconds": 150
   },
   {
@@ -946,7 +946,7 @@
       "format": "single",
       "value": "B"
     },
-    "explanation": "17 = 5 × 3 + 2, donc le reste est 2.",
+    "explanation": "17 = 5 × 3 + 2, so the remainder is 2.",
     "estimatedTimeSeconds": 90
   },
   {
@@ -984,7 +984,7 @@
       "format": "single",
       "value": "C"
     },
-    "explanation": "L’aire varie avec le carré du facteur d’échelle. Doubler le côté multiplie l’aire par 4.",
+    "explanation": "Area scales with the square of the scale factor. Doubling the side length multiplies the area by 4.",
     "estimatedTimeSeconds": 150
   },
   {
@@ -1022,7 +1022,7 @@
       "format": "single",
       "value": "E"
     },
-    "explanation": "Il s’agit de 5P3 = 5 × 4 × 3 = 60.",
+    "explanation": "This is 5P3 = 5 × 4 × 3 = 60.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -1060,7 +1060,7 @@
       "format": "single",
       "value": "D"
     },
-    "explanation": "On utilise le complément: aucune tête = TT, probabilité 1/4. Donc au moins une tête = 3/4.",
+    "explanation": "Use the complement: no heads = TT, probability 1/4. Therefore at least one head = 3/4.",
     "estimatedTimeSeconds": 150
   },
   {
@@ -1098,7 +1098,7 @@
       "format": "single",
       "value": "B"
     },
-    "explanation": "Le taux est 4 widgets par heure. En 5 heures, la machine produit 20 widgets.",
+    "explanation": "The rate is 4 widgets per hour. In 5 hours, the machine produces 20 widgets.",
     "estimatedTimeSeconds": 150
   },
   {
@@ -1136,7 +1136,7 @@
       "format": "single",
       "value": "C"
     },
-    "explanation": "40 % de 250 vaut 100. Il reste 250 - 100 = 150.",
+    "explanation": "40% of 250 is 100. That leaves 250 - 100 = 150.",
     "estimatedTimeSeconds": 90
   },
   {
@@ -1174,7 +1174,7 @@
       "format": "single",
       "value": "C"
     },
-    "explanation": "En additionnant les deux équations, on obtient 2x = 14, donc x = 7.",
+    "explanation": "Adding the two equations gives 2x = 14, so x = 7.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -1212,7 +1212,7 @@
       "format": "single",
       "value": "D"
     },
-    "explanation": "Le volume varie avec le cube du facteur d’échelle. Donc $3^{3}$ = 27.",
+    "explanation": "Volume scales with the cube of the scale factor. Therefore $3^{3}$ = 27.",
     "estimatedTimeSeconds": 150
   }
 ]

@@ -35,7 +35,7 @@
       "format": "single",
       "value": "C"
     },
-    "explanation": "L’argument suppose que le manque de lumière est la cause principale. Si les vols nocturnes proviennent surtout d’auteurs récidivistes ciblant des portes non verrouillées, davantage d’éclairage aura peu d’effet sur ce type de délit.",
+    "explanation": "The argument assumes that lack of lighting is the primary cause. If nighttime thefts are mostly committed by repeat offenders targeting unlocked doors, more lighting will have little effect on this type of crime.",
     "estimatedTimeSeconds": 90
   },
   {
@@ -74,7 +74,7 @@
       "format": "single",
       "value": "B"
     },
-    "explanation": "Le fait que les clients utilisant les contenants réutilisables reviennent plus souvent, même après contrôle d’autres variables, relie directement la politique à la fidélité et renforce l’inférence causale.",
+    "explanation": "The fact that customers using reusable containers return more frequently, even after controlling for other variables, directly links the policy to loyalty and strengthens the causal inference.",
     "estimatedTimeSeconds": 90
   },
   {
@@ -113,7 +113,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "Pour que des classes supplémentaires pleines augmentent réellement le profit, il faut supposer que le coût additionnel des cours ne neutralise pas le gain de recettes.",
+    "explanation": "For additional full classes to actually increase profit, one must assume that the incremental cost of those classes does not offset the gain in revenue.",
     "estimatedTimeSeconds": 105
   },
   {
@@ -152,7 +152,7 @@
       "format": "single",
       "value": "C"
     },
-    "explanation": "L’énoncé donne une comparaison moyenne dans l’échantillon. On ne peut pas conclure à une causalité, mais la différence moyenne elle-même est directement établie.",
+    "explanation": "The statement provides an average comparison within the sample. A causal conclusion cannot be drawn, but the average difference itself is directly established.",
     "estimatedTimeSeconds": 105
   },
   {
@@ -191,7 +191,7 @@
       "format": "single",
       "value": "B"
     },
-    "explanation": "Si moins de clients génèrent plus de revenus, la dépense moyenne par client doit avoir augmenté de façon significative.",
+    "explanation": "If fewer customers generate more revenue, the average spending per customer must have increased significantly.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -230,7 +230,7 @@
       "format": "single",
       "value": "C"
     },
-    "explanation": "Comparer l’évolution à celle d’entreprises similaires permet de juger si la hausse observée dépasse ce qu’on aurait attendu sans la nouvelle politique.",
+    "explanation": "Comparing the trend to that of similar companies makes it possible to judge whether the observed increase exceeds what would have been expected without the new policy.",
     "estimatedTimeSeconds": 105
   },
   {
@@ -269,7 +269,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "Constater qu’une condition est toujours présente chez les gagnants ne permet pas d’affirmer qu’elle suffit à garantir la victoire.",
+    "explanation": "Observing that a condition is always present among winners does not support the claim that it is sufficient to guarantee victory.",
     "estimatedTimeSeconds": 90
   },
   {
@@ -308,7 +308,7 @@
       "format": "single",
       "value": "B"
     },
-    "explanation": "L’argument exige que la sortie du poche ne cannibalise pas fortement les ventes de reliés avant que celles-ci aient produit l’essentiel du revenu.",
+    "explanation": "The argument requires that the paperback release not heavily cannibalize hardcover sales before those sales have generated most of the revenue.",
     "estimatedTimeSeconds": 105
   },
   {
@@ -347,7 +347,7 @@
       "format": "single",
       "value": "C"
     },
-    "explanation": "La conclusion normative porte sur l’horaire des examens; le reste sert d’appui.",
+    "explanation": "The normative conclusion concerns the exam schedule; the rest serves as support.",
     "estimatedTimeSeconds": 90
   },
   {
@@ -386,7 +386,7 @@
       "format": "single",
       "value": "B"
     },
-    "explanation": "Pour que le solde fiscal soit positif, les ménages logés doivent générer davantage d’impôts qu’ils ne coûtent en services supplémentaires.",
+    "explanation": "For the fiscal balance to be positive, the housed households must generate more in taxes than they cost in additional services.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -425,7 +425,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "Une exposition très populaire peut accroître suffisamment la demande pour compenser la hausse du prix.",
+    "explanation": "A highly popular exhibition can increase demand enough to offset the price increase.",
     "estimatedTimeSeconds": 105
   },
   {
@@ -464,7 +464,7 @@
       "format": "single",
       "value": "B"
     },
-    "explanation": "Le lien temporel et spatial avec les stations, combiné à l’absence d’effet comparable ailleurs, renforce l’idée que le programme a contribué à la hausse des vitesses.",
+    "explanation": "The temporal and spatial correlation with the stations, combined with the absence of a comparable effect elsewhere, reinforces the idea that the program contributed to the increase in speeds.",
     "estimatedTimeSeconds": 105
   },
   {
@@ -503,7 +503,7 @@
       "format": "single",
       "value": "C"
     },
-    "explanation": "Une amélioration parallèle liée aux matières premières fournit une cause alternative à la baisse des défauts.",
+    "explanation": "A parallel improvement tied to raw materials provides an alternative explanation for the decline in defects.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -542,7 +542,7 @@
       "format": "single",
       "value": "B"
     },
-    "explanation": "S’il y a des membres du club, et que tous les membres du club assistent à la pratique hebdomadaire, alors certains assistent nécessairement à cette pratique.",
+    "explanation": "If there are club members, and all club members attend the weekly practice, then some people necessarily attend that practice.",
     "estimatedTimeSeconds": 90
   },
   {
@@ -581,7 +581,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "Être vu augmente les ventes seulement si les clients exposés peuvent devenir acheteurs potentiels.",
+    "explanation": "Being seen increases sales only if the customers who are exposed can become potential buyers.",
     "estimatedTimeSeconds": 105
   },
   {
@@ -620,7 +620,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "Une corrélation ciblée entre hausse du lavage des mains et baisse des cas, absente ailleurs, fournit le meilleur appui causal.",
+    "explanation": "A targeted correlation between increased handwashing and a drop in cases, absent elsewhere, provides the strongest causal support.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -659,7 +659,7 @@
       "format": "single",
       "value": "C"
     },
-    "explanation": "Si les temps d’attente baissent aussi dans un bâtiment témoin sans ascenseurs supplémentaires, la baisse ne peut pas être attribuée aux nouveaux ascenseurs.",
+    "explanation": "If wait times also decrease in a control building without additional elevators, the decrease cannot be attributed to the new elevators.",
     "estimatedTimeSeconds": 105
   },
   {
@@ -698,7 +698,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "Une satisfaction plus élevée chez les télétravailleurs n’établit pas que le télétravail en soit la cause.",
+    "explanation": "Higher satisfaction among remote workers does not establish that remote work is the cause.",
     "estimatedTimeSeconds": 90
   },
   {
@@ -737,7 +737,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "Une baisse du prix moyen ou des frais promotionnels peut faire augmenter les membres tout en diminuant les recettes totales.",
+    "explanation": "A drop in the average price or in promotional fees could increase membership while reducing total revenue.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -776,7 +776,7 @@
       "format": "single",
       "value": "B"
     },
-    "explanation": "Il faut déterminer si la croissance observée dépasse ce qui se serait produit de toute façon.",
+    "explanation": "It is necessary to determine whether the observed growth exceeds what would have occurred anyway.",
     "estimatedTimeSeconds": 105
   },
   {
@@ -815,7 +815,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "Le modèle freemium fonctionne seulement si une part suffisante des utilisateurs gratuits finit par payer.",
+    "explanation": "The freemium model works only if a sufficient share of free users ultimately converts to paying customers.",
     "estimatedTimeSeconds": 105
   },
   {
@@ -854,7 +854,7 @@
       "format": "single",
       "value": "C"
     },
-    "explanation": "L’énoncé dit explicitement que certains échantillons réfrigérés sont restés utilisables après 24 heures.",
+    "explanation": "The statement explicitly says that some refrigerated samples remained usable after 24 hours.",
     "estimatedTimeSeconds": 90
   },
   {
@@ -893,7 +893,7 @@
       "format": "single",
       "value": "B"
     },
-    "explanation": "Le contrôle d’autres facteurs rend l’association plus crédible comme effet propre de la fonctionnalité.",
+    "explanation": "Controlling for other factors makes the association more credible as a true effect of the feature itself.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -932,7 +932,7 @@
       "format": "single",
       "value": "B"
     },
-    "explanation": "Une amélioration parallèle sur certaines routes offre une autre explication à la baisse des plaintes.",
+    "explanation": "A parallel improvement on certain roads offers an alternative explanation for the decline in complaints.",
     "estimatedTimeSeconds": 105
   },
   {
@@ -971,7 +971,7 @@
       "format": "single",
       "value": "C"
     },
-    "explanation": "La recommandation finale constitue la conclusion principale.",
+    "explanation": "The final recommendation is the main conclusion.",
     "estimatedTimeSeconds": 90
   },
   {
@@ -1010,7 +1010,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "Réserver des places premium augmente le revenu seulement si le surcoût perçu compense la perte éventuelle de ventes à prix standard.",
+    "explanation": "Reserving premium seats increases revenue only if the perceived price premium compensates for any potential loss of standard-price sales.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -1049,7 +1049,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "Le taux de chômage peut baisser si des personnes quittent la population active, même lorsque le nombre d’emplois diminue.",
+    "explanation": "The unemployment rate can fall if people leave the labor force, even when the number of jobs decreases.",
     "estimatedTimeSeconds": 105
   },
   {
@@ -1088,7 +1088,7 @@
       "format": "single",
       "value": "B"
     },
-    "explanation": "La comparaison à des bureaux similaires sans remplacement aide à isoler l’effet des LED.",
+    "explanation": "Comparing with similar offices that did not switch helps isolate the effect of the LED lights.",
     "estimatedTimeSeconds": 90
   },
   {
@@ -1127,7 +1127,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "Une différence d’enseignant fournit une cause alternative plausible à la hausse des scores.",
+    "explanation": "A difference in teacher provides a plausible alternative cause for the increase in scores.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -1166,7 +1166,7 @@
       "format": "single",
       "value": "B"
     },
-    "explanation": "Comparer avec des supermarchés semblables permet de savoir si la baisse est due au changement ou à d’autres facteurs.",
+    "explanation": "Comparing with similar supermarkets makes it possible to determine whether the decline is due to the change or to other factors.",
     "estimatedTimeSeconds": 105
   },
   {
@@ -1205,7 +1205,7 @@
       "format": "single",
       "value": "B"
     },
-    "explanation": "Puisqu’aucune veste d’hiver n’est vendue en juillet, tout manteau vendu en juillet ne peut pas être une veste d’hiver; comme certains manteaux sont vendus en juillet, au moins un manteau n’est pas une veste d’hiver.",
+    "explanation": "Since no winter jacket is sold in July, any coat sold in July cannot be a winter jacket; since some coats are sold in July, at least one coat is not a winter jacket.",
     "estimatedTimeSeconds": 90
   },
   {
@@ -1244,7 +1244,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "La stratégie est rentable si le coût du nouvel emballage est inférieur à la valeur moyenne des dommages évités.",
+    "explanation": "The strategy is profitable if the cost of the new packaging is less than the average value of damages avoided.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -1283,7 +1283,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "Moins de dons individuels peuvent produire plus de revenu si le montant moyen par don a augmenté fortement.",
+    "explanation": "Fewer individual donations can produce more revenue if the average amount per donation has increased substantially.",
     "estimatedTimeSeconds": 105
   },
   {
@@ -1322,7 +1322,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "L’argument dépend du fait que les navetteurs représentent une part suffisamment importante du public pour influencer l’assistance totale.",
+    "explanation": "The argument depends on commuters representing a large enough share of the audience to influence total attendance.",
     "estimatedTimeSeconds": 105
   }
 ]

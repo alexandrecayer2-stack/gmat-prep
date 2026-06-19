@@ -12,7 +12,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "(1) donne x = 4. (2) seul ne fixe pas une valeur unique.",
+    "explanation": "(1) gives x = 4. (2) alone does not fix a unique value.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -28,7 +28,7 @@
       "format": "single",
       "value": "B"
     },
-    "explanation": "(2) donne directement yes. (1) seul donne y = 4 ou y = -4.",
+    "explanation": "(2) gives yes directly. (1) alone gives y = 4 or y = -4.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -44,7 +44,7 @@
       "format": "single",
       "value": "C"
     },
-    "explanation": "(1) seul laisse 1, 2 ou 3. (2) seul laisse 2 ou -2. Ensemble, z = 2.",
+    "explanation": "(1) alone leaves 1, 2, or 3. (2) alone leaves 2 or -2. Together, z = 2.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -60,7 +60,7 @@
       "format": "single",
       "value": "D"
     },
-    "explanation": "Chaque statement donne directement le périmètre.",
+    "explanation": "Each statement directly gives the perimeter.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -76,7 +76,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "Tout multiple de 6 est divisible par 3. Un multiple de 2 ne l’est pas forcément.",
+    "explanation": "Every multiple of 6 is divisible by 3. A multiple of 2 is not necessarily.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -92,7 +92,7 @@
       "format": "single",
       "value": "C"
     },
-    "explanation": "(1) seul ne suffit pas. (2) donne q mais pas p. Ensemble, p = 3.",
+    "explanation": "(1) alone is not sufficient. (2) gives q but not p. Together, p = 3.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -108,7 +108,7 @@
       "format": "single",
       "value": "B"
     },
-    "explanation": "(2) seul suffit à répondre yes. (1) seul donne 3 ou -3.",
+    "explanation": "Statement (2) alone is sufficient to answer yes. Statement (1) alone gives 3 or -3.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -124,7 +124,7 @@
       "format": "single",
       "value": "D"
     },
-    "explanation": "Chaque statement donne r = 15.",
+    "explanation": "Each statement gives r = 15.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -140,7 +140,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "Tout entier pair supérieur à 2 n’est pas premier. (2) seul ne suffit pas.",
+    "explanation": "Every even integer greater than 2 is not prime. Statement (2) alone is not sufficient.",
     "estimatedTimeSeconds": 150
   },
   {
@@ -156,7 +156,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "(1) donne l’aire 24. (2) seul permet plusieurs rectangles possibles.",
+    "explanation": "Statement (1) gives the area 24. Statement (2) alone allows for several possible rectangles.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -172,7 +172,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "Si $k^{3}$ > 0, alors k > 0. (2) seul ne suffit pas.",
+    "explanation": "If $k^{3}$ > 0, then k > 0. Statement (2) alone is not sufficient.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -188,7 +188,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "(1) donne directement l’aire: 1/2 × 10 × 6 = 30. (2) seul est insuffisant.",
+    "explanation": "Statement (1) gives the area directly: 1/2 × 10 × 6 = 30. Statement (2) alone is insufficient.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -204,7 +204,7 @@
       "format": "single",
       "value": "B"
     },
-    "explanation": "(2) seul répond non. (1) seul donne 5 ou -5.",
+    "explanation": "Statement (2) alone answers no. Statement (1) alone gives 5 or -5.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -220,7 +220,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "(1) donne s = 7. (2) seul laisse plusieurs possibilités impaires.",
+    "explanation": "Statement (1) gives s = 7. Statement (2) alone leaves several odd possibilities.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -236,7 +236,7 @@
       "format": "single",
       "value": "C"
     },
-    "explanation": "(1) donne 7 ou -7. (2) seul ne donne pas une valeur. Ensemble, u = -7.",
+    "explanation": "(1) gives 7 or -7. (2) alone does not give a value. Together, u = -7.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -252,7 +252,7 @@
       "format": "single",
       "value": "C"
     },
-    "explanation": "(1) donne 1 ou -1. (2) seul n’est pas suffisant. Ensemble, w = 1.",
+    "explanation": "(1) gives 1 or -1. (2) alone is not sufficient. Together, w = 1.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -268,7 +268,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "L'énoncé (1) x + y = 12 donne directement la somme demandée. L'énoncé (2) x − y = 4 ne la fixe pas : par exemple x = 4, y = 0 donne une somme de 4, alors que x = 5, y = 1 donne une somme de 6. Seul l'énoncé (1) suffit.",
+    "explanation": "Statement (1) x + y = 12 directly gives the requested sum. Statement (2) x − y = 4 does not fix it: for example, x = 4, y = 0 gives a sum of 4, while x = 5, y = 1 gives a sum of 6. Statement (1) alone is sufficient.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -284,7 +284,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "Tout multiple de 4 est pair. Un multiple de 3 n’est pas forcément pair.",
+    "explanation": "Every multiple of 4 is even. A multiple of 3 is not necessarily even.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -300,7 +300,7 @@
       "format": "single",
       "value": "D"
     },
-    "explanation": "Chaque statement donne c = 9.",
+    "explanation": "Each statement gives c = 9.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -316,7 +316,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "Deux angles égaux impliquent un triangle isocèle. (2) seul ne permet pas de conclure.",
+    "explanation": "Two equal angles imply an isosceles triangle. Statement (2) alone is not sufficient to conclude.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -332,7 +332,7 @@
       "format": "single",
       "value": "B"
     },
-    "explanation": "(2) donne directement h = 4. (1) seul donne 4 ou -4.",
+    "explanation": "(2) gives h = 4 directly. (1) alone gives 4 or -4.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -348,7 +348,7 @@
       "format": "single",
       "value": "C"
     },
-    "explanation": "(1) laisse 10 ou 11. (2) laisse plusieurs nombres impairs. Ensemble, p = 11.",
+    "explanation": "Statement (1) leaves 10 or 11. Statement (2) leaves several odd numbers. Together, p = 11.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -364,7 +364,7 @@
       "format": "single",
       "value": "D"
     },
-    "explanation": "Chaque statement détermine le rayon et donc l’aire.",
+    "explanation": "Each statement determines the radius and therefore the area.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -380,7 +380,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "Si x = 2y, alors x/y = 2, donc yes. (2) seul ne suffit pas.",
+    "explanation": "If x = 2y, then x/y = 2, so yes. Statement (2) alone is not sufficient.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -396,7 +396,7 @@
       "format": "single",
       "value": "E"
     },
-    "explanation": "(1) seul laisse 1,2,3,4,6,12. (2) seul laisse plusieurs pairs. Ensemble, k peut encore être 2, 4, 6 ou 12.",
+    "explanation": "Statement (1) alone leaves 1, 2, 3, 4, 6, 12. Statement (2) alone leaves several even numbers. Together, k can still be 2, 4, 6, or 12.",
     "estimatedTimeSeconds": 150
   },
   {
@@ -412,7 +412,7 @@
       "format": "single",
       "value": "E"
     },
-    "explanation": "Ensemble, m peut être 3, 5, 7 ou 9, donc on ne peut pas conclure qu’il est premier.",
+    "explanation": "Together, m can be 3, 5, 7, or 9, so we cannot conclude that it is prime.",
     "estimatedTimeSeconds": 150
   },
   {
@@ -428,7 +428,7 @@
       "format": "single",
       "value": "C"
     },
-    "explanation": "(1) implique x < 0 ou x > 4. Avec (2), il reste x < 0, donc la réponse est non.",
+    "explanation": "Statement (1) implies x < 0 or x > 4. With statement (2), only x < 0 remains, so the answer is no.",
     "estimatedTimeSeconds": 150
   },
   {
@@ -444,7 +444,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "(1) donne t = 7. (2) seul laisse plusieurs valeurs paires.",
+    "explanation": "(1) gives t = 7. (2) alone leaves several even values.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -460,7 +460,7 @@
       "format": "single",
       "value": "C"
     },
-    "explanation": "Un nombre à la fois premier et pair ne peut être que 2, donc la réponse est non.",
+    "explanation": "A number that is both prime and even can only be 2, so the answer is no.",
     "estimatedTimeSeconds": 150
   },
   {
@@ -476,7 +476,7 @@
       "format": "single",
       "value": "D"
     },
-    "explanation": "Chaque statement donne a = 14.",
+    "explanation": "Each statement gives a = 14.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -492,7 +492,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "$b^{3}$ = -8 implique b = -2. (2) seul est insuffisant.",
+    "explanation": "$b^{3}$ = -8 implies b = -2. (2) alone is not sufficient.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -508,7 +508,7 @@
       "format": "single",
       "value": "D"
     },
-    "explanation": "Un entier dont le carré est impair est impair, et si m + 1 est pair alors m est impair aussi.",
+    "explanation": "An integer whose square is odd is itself odd, and if m + 1 is even then m is also odd.",
     "estimatedTimeSeconds": 120
   }
 ]

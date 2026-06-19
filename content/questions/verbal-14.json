@@ -35,7 +35,7 @@
       "format": "single",
       "value": "C"
     },
-    "explanation": "Une hausse générale du trafic dans les commerces voisins offre une autre cause plausible de la hausse des ventes.",
+    "explanation": "A general increase in traffic at neighboring businesses provides another plausible cause for the sales increase.",
     "estimatedTimeSeconds": 90
   },
   {
@@ -74,7 +74,7 @@
       "format": "single",
       "value": "B"
     },
-    "explanation": "Des classes plus petites constituent une autre explication plausible de l’amélioration des notes.",
+    "explanation": "Smaller class sizes provide another plausible explanation for the improvement in grades.",
     "estimatedTimeSeconds": 90
   },
   {
@@ -113,7 +113,7 @@
       "format": "single",
       "value": "B"
     },
-    "explanation": "Si les données ont été prises pendant une période de trafic faible, la baisse de temps de trajet peut venir de là et non du bus lane.",
+    "explanation": "If the data were collected during a period of low traffic, the reduction in travel time may stem from that rather than from the bus lane.",
     "estimatedTimeSeconds": 105
   },
   {
@@ -152,7 +152,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "Si la hausse vient surtout de donateurs habituels, le message n’est pas forcément la cause principale.",
+    "explanation": "If the increase comes primarily from existing donors, the message is not necessarily the main cause.",
     "estimatedTimeSeconds": 105
   },
   {
@@ -191,7 +191,7 @@
       "format": "single",
       "value": "D"
     },
-    "explanation": "Si les coûts d’entretien sont exclus du calcul, l’estimation des économies est trop optimiste.",
+    "explanation": "If maintenance costs are excluded from the calculation, the estimate of savings is overly optimistic.",
     "estimatedTimeSeconds": 105
   },
   {
@@ -230,7 +230,7 @@
       "format": "single",
       "value": "B"
     },
-    "explanation": "Si la rétention augmentait déjà avant le lancement, la hausse ne peut pas être attribuée principalement à l’app.",
+    "explanation": "If retention was already increasing before the launch, the rise cannot be attributed primarily to the app.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -269,7 +269,7 @@
       "format": "single",
       "value": "E"
     },
-    "explanation": "Si le déchet a simplement été déplacé vers les fournisseurs, la réduction globale n’est pas démontrée.",
+    "explanation": "If the waste was simply shifted to suppliers, the overall reduction has not been demonstrated.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -308,7 +308,7 @@
       "format": "single",
       "value": "C"
     },
-    "explanation": "Un seul groupe atypique ne permet pas de généraliser l’effet à tous les employés.",
+    "explanation": "A single atypical group does not allow the effect to be generalized to all employees.",
     "estimatedTimeSeconds": 105
   },
   {
@@ -347,7 +347,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "Si les erreurs sont simplement enregistrées plus tard, la baisse observée peut être artificielle.",
+    "explanation": "If errors are simply recorded later, the observed decrease may be artificial.",
     "estimatedTimeSeconds": 90
   },
   {
@@ -386,7 +386,7 @@
       "format": "single",
       "value": "D"
     },
-    "explanation": "Si les clients partent à cause de la file, l’argument selon lequel ils acceptent volontiers l’attente tombe.",
+    "explanation": "If customers are leaving because of the line, the argument that they willingly accept waiting falls apart.",
     "estimatedTimeSeconds": 105
   },
   {
@@ -425,7 +425,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "L’ajout de pistes cyclables dans certains quartiers fournit une autre explication plausible de la hausse.",
+    "explanation": "Adding bike lanes in certain neighborhoods provides another plausible explanation for the increase.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -464,7 +464,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "Un test pilote montrant une hausse des ventes soutient directement la prédiction.",
+    "explanation": "A pilot test showing increased sales directly supports the prediction.",
     "estimatedTimeSeconds": 90
   },
   {
@@ -503,7 +503,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "Une forte préférence déclarée par les étudiants soutient directement la hausse attendue de la demande.",
+    "explanation": "A strong stated preference from students directly supports the expected increase in demand.",
     "estimatedTimeSeconds": 90
   },
   {
@@ -542,7 +542,7 @@
       "format": "single",
       "value": "C"
     },
-    "explanation": "Une amélioration sur un test comparable après usage du produit est une preuve directe.",
+    "explanation": "An improvement on a comparable test after using the product is direct evidence.",
     "estimatedTimeSeconds": 105
   },
   {
@@ -581,7 +581,7 @@
       "format": "single",
       "value": "B"
     },
-    "explanation": "Si la fréquentation est la plus élevée pendant les soirées tardives, l’argument est directement soutenu.",
+    "explanation": "If attendance is highest during late evenings, the argument is directly supported.",
     "estimatedTimeSeconds": 105
   },
   {
@@ -620,7 +620,7 @@
       "format": "single",
       "value": "E"
     },
-    "explanation": "Un historique montrant moins d’annulations chez les abonnés annuels soutient directement la conclusion.",
+    "explanation": "A track record showing fewer cancellations among annual subscribers directly supports the conclusion.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -659,7 +659,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "Des temps de trajet plus faibles après l’implantation soutiennent directement l’efficacité du nouveau réglage.",
+    "explanation": "Lower travel times after implementation directly support the effectiveness of the new setting.",
     "estimatedTimeSeconds": 90
   },
   {
@@ -698,7 +698,7 @@
       "format": "single",
       "value": "D"
     },
-    "explanation": "Un test indépendant montrant l’absence détectable de contaminants est une preuve solide d’efficacité.",
+    "explanation": "An independent test showing no detectable contaminants is strong evidence of effectiveness.",
     "estimatedTimeSeconds": 105
   },
   {
@@ -737,7 +737,7 @@
       "format": "single",
       "value": "B"
     },
-    "explanation": "Un lien observé entre davantage de plantes et une morale plus élevée soutient directement l’argument.",
+    "explanation": "An observed link between more plants and higher morale directly supports the argument.",
     "estimatedTimeSeconds": 90
   },
   {
@@ -776,7 +776,7 @@
       "format": "single",
       "value": "E"
     },
-    "explanation": "Une baisse mesurée du temps avant autonomie soutient directement la conclusion.",
+    "explanation": "A measured reduction in time to independence directly supports the conclusion.",
     "estimatedTimeSeconds": 105
   },
   {
@@ -815,7 +815,7 @@
       "format": "single",
       "value": "B"
     },
-    "explanation": "Si le point mort arrive vite et que les gobelets durent longtemps, l’économie totale est fortement soutenue.",
+    "explanation": "If the break-even point is reached quickly and the cups last a long time, the total savings are strongly supported.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -854,7 +854,7 @@
       "format": "single",
       "value": "C"
     },
-    "explanation": "Comparer des clients similaires montre un effet de vente associé à la participation à l’événement.",
+    "explanation": "Comparing similar customers demonstrates a sales effect associated with participation in the event.",
     "estimatedTimeSeconds": 105
   },
   {
@@ -893,7 +893,7 @@
       "format": "single",
       "value": "B"
     },
-    "explanation": "Pour que le volume suffise à générer du profit, la marge par commande doit rester positive après les coûts.",
+    "explanation": "For volume to be sufficient to generate profit, the margin per order must remain positive after costs.",
     "estimatedTimeSeconds": 105
   },
   {
@@ -932,7 +932,7 @@
       "format": "single",
       "value": "B"
     },
-    "explanation": "Le passage du bonheur à la rétention doit être valable pour que la conclusion tienne.",
+    "explanation": "The link from happiness to retention must hold for the conclusion to stand.",
     "estimatedTimeSeconds": 105
   },
   {
@@ -971,7 +971,7 @@
       "format": "single",
       "value": "C"
     },
-    "explanation": "Des charges financières élevées peuvent faire baisser le profit même si la production augmente.",
+    "explanation": "High financial charges can reduce profit even if output increases.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -1010,7 +1010,7 @@
       "format": "single",
       "value": "B"
     },
-    "explanation": "La rentabilité dépend directement d’un niveau d’inscription suffisant pour couvrir les coûts supplémentaires.",
+    "explanation": "Profitability depends directly on a sufficient enrollment level to cover the additional costs.",
     "estimatedTimeSeconds": 105
   },
   {
@@ -1049,7 +1049,7 @@
       "format": "single",
       "value": "C"
     },
-    "explanation": "Le rapport soutient une association entre davantage d’arbres et des températures plus basses.",
+    "explanation": "The report supports an association between more trees and lower temperatures.",
     "estimatedTimeSeconds": 105
   },
   {
@@ -1088,7 +1088,7 @@
       "format": "single",
       "value": "B"
     },
-    "explanation": "L’argument suppose que l’expansion est faisable à un coût acceptable et avec suffisamment de personnel.",
+    "explanation": "The argument assumes that expansion is feasible at an acceptable cost and with sufficient staff.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -1127,7 +1127,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "Le résultat soutient une association, pas une causalité absolue.",
+    "explanation": "The result supports an association, not absolute causation.",
     "estimatedTimeSeconds": 90
   },
   {
@@ -1166,7 +1166,7 @@
       "format": "single",
       "value": "C"
     },
-    "explanation": "Plus de visiteurs ne signifie pas plus d’achats si une grande partie vient pour un événement gratuit.",
+    "explanation": "More visitors does not mean more purchases if a large portion comes for a free event.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -1205,7 +1205,7 @@
       "format": "single",
       "value": "C"
     },
-    "explanation": "L’argument doit relier la cause proposée à la durée de vie réelle en usage normal.",
+    "explanation": "The argument must link the proposed cause to actual lifespan under normal use.",
     "estimatedTimeSeconds": 105
   },
   {
@@ -1244,7 +1244,7 @@
       "format": "single",
       "value": "C"
     },
-    "explanation": "La comparaison est compatible avec l’idée que les barrières ont réduit les dommages.",
+    "explanation": "The comparison is consistent with the idea that the barriers reduced damage.",
     "estimatedTimeSeconds": 105
   },
   {
@@ -1283,7 +1283,7 @@
       "format": "single",
       "value": "B"
     },
-    "explanation": "Une baisse de prix peut expliquer l’amélioration de satisfaction indépendamment du chatbot.",
+    "explanation": "A price reduction can explain the improvement in satisfaction independently of the chatbot.",
     "estimatedTimeSeconds": 120
   }
 ]

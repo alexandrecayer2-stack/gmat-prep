@@ -35,7 +35,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "Un concurrent voisin a fermé au même moment, ce qui peut expliquer la hausse des ventes sans lien avec l’allongement des horaires.",
+    "explanation": "A nearby competitor closed at the same time, which can explain the sales increase without any connection to the extended hours.",
     "estimatedTimeSeconds": 90
   },
   {
@@ -74,7 +74,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "L’argument suppose que le tableau de bord sera effectivement consulté et renseigné de façon fiable.",
+    "explanation": "The argument assumes that the dashboard will actually be consulted and reliably updated.",
     "estimatedTimeSeconds": 90
   },
   {
@@ -113,7 +113,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "Une baisse mesurée des absences chez les mêmes patients renforce directement le lien causal.",
+    "explanation": "A measured decrease in absences among the same patients directly reinforces the causal link.",
     "estimatedTimeSeconds": 105
   },
   {
@@ -152,7 +152,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "Le fait que la majorité des acheteurs déclarent une utilisation fréquente permet d’inférer une usage régulier chez beaucoup d’entre eux, sans généraliser à tous.",
+    "explanation": "The fact that the majority of buyers report frequent use allows us to infer regular usage among many of them, without generalizing to all.",
     "estimatedTimeSeconds": 105
   },
   {
@@ -191,7 +191,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "Des travaux sur une autre route offrent une explication alternative à la baisse du trafic automobile.",
+    "explanation": "Road work on another route provides an alternative explanation for the decrease in vehicle traffic.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -230,7 +230,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "L’enjeu central est de savoir si l’afflux supplémentaire compense la baisse du prix unitaire.",
+    "explanation": "The central issue is whether the additional customer volume offsets the drop in unit price.",
     "estimatedTimeSeconds": 105
   },
   {
@@ -269,7 +269,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "Des résultats comparables avec moins d’eau et des rendements similaires soutiennent directement l’affirmation.",
+    "explanation": "Comparable results with less water and similar yields directly support the claim.",
     "estimatedTimeSeconds": 90
   },
   {
@@ -308,7 +308,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "Il faut supposer que les clients actuels ne seront pas repoussés par le nouveau menu.",
+    "explanation": "It must be assumed that current customers will not be driven away by the new menu.",
     "estimatedTimeSeconds": 105
   },
   {
@@ -347,7 +347,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "Le changement de mise en page fournit une explication alternative à la baisse du temps passé sur le site.",
+    "explanation": "The layout change provides an alternative explanation for the decrease in time spent on the site.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -386,7 +386,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "Si 70 % vivent à distance de navette et seulement 20 % visitent chaque semaine, certains proches ne s’y rendent pas chaque semaine.",
+    "explanation": "If 70% live within commuting distance and only 20% visit each week, some nearby residents do not visit every week.",
     "estimatedTimeSeconds": 105
   },
   {
@@ -425,7 +425,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "Des usages moindres de climatisation sur des rues arborées appuient le lien entre arbres et baisse des factures.",
+    "explanation": "Lower air conditioning usage on tree-lined streets supports the link between trees and reduced utility bills.",
     "estimatedTimeSeconds": 90
   },
   {
@@ -464,7 +464,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "Il faut supposer que la flexibilité horaire ne nuira pas à la coordination entre collègues.",
+    "explanation": "It must be assumed that flexible scheduling will not harm coordination among colleagues.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -503,7 +503,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "Si les élèves inscrits étaient déjà plus forts au départ, la hausse des scores ne prouve pas l’efficacité du programme.",
+    "explanation": "If enrolled students were already stronger to begin with, the score increase does not prove the program's effectiveness.",
     "estimatedTimeSeconds": 105
   },
   {
@@ -542,7 +542,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "La faisabilité dépend en grande partie de l’autonomie réelle des véhicules électriques.",
+    "explanation": "Feasibility depends largely on the actual range of electric vehicles.",
     "estimatedTimeSeconds": 90
   },
   {
@@ -581,7 +581,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "Puisque toutes les branches ont adopté le logiciel et que seules certaines ont automatisé les réassorts, au moins une branche l’a utilisé sans automatisation.",
+    "explanation": "Since all branches adopted the software and only some automated their restocking, at least one branch used it without automation.",
     "estimatedTimeSeconds": 105
   },
   {
@@ -620,7 +620,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "Une croissance de la population et de l’activité économique offre une explication alternative plausible à la hausse de l’emploi.",
+    "explanation": "Population growth and increased economic activity provide a plausible alternative explanation for the rise in employment.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -659,7 +659,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "L’argument suppose que le paillis reste assez longtemps pour remplir son rôle.",
+    "explanation": "The argument assumes that the mulch remains in place long enough to fulfill its intended purpose.",
     "estimatedTimeSeconds": 90
   },
   {
@@ -698,7 +698,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "Une diversion des cas légers peut expliquer la baisse du temps d’attente sans attribuer tout le gain au nouveau triage.",
+    "explanation": "Diverting minor cases can explain the reduction in wait times without attributing the entire improvement to the new triage process.",
     "estimatedTimeSeconds": 105
   },
   {
@@ -737,7 +737,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "Des ventes plus fréquentes après déplacement près de la caisse appuient directement la thèse de l’achat impulsif.",
+    "explanation": "More frequent sales after repositioning near the checkout directly support the impulse-buying thesis.",
     "estimatedTimeSeconds": 90
   },
   {
@@ -776,7 +776,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "Le point critique est de savoir si la demande en poche justifie les coûts supplémentaires.",
+    "explanation": "The critical point is whether pocket demand justifies the additional costs.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -815,7 +815,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "L’énoncé porte précisément sur les navetteurs en train; on peut en inférer qu’une majorité d’entre eux utilisent aussi le vélo chaque semaine.",
+    "explanation": "The statement specifically concerns train commuters; it can be inferred that a majority of them also cycle each week.",
     "estimatedTimeSeconds": 105
   },
   {
@@ -854,7 +854,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "Il faut supposer que les échanges par courriel couvrent effectivement les sujets qui auraient nécessité plus de temps en réunion.",
+    "explanation": "It must be assumed that email exchanges actually cover the topics that would have required more time in meetings.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -893,7 +893,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "La hausse des notes peut être due à la simplification du menu plutôt qu’aux kiosques eux-mêmes.",
+    "explanation": "The improvement in ratings may be due to the simplified menu rather than the kiosks themselves.",
     "estimatedTimeSeconds": 90
   },
   {
@@ -932,7 +932,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "Une étude comparative montrant moins de grignotage chez les personnes prenant un petit-déjeuner renforce directement la conclusion.",
+    "explanation": "A comparative study showing less snacking among people who eat breakfast directly strengthens the conclusion.",
     "estimatedTimeSeconds": 105
   },
   {
@@ -971,7 +971,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "L’enjeu essentiel est la réaction des clients à un délai supplémentaire d’un jour.",
+    "explanation": "The essential issue is how customers will react to an additional one-day delay.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -1010,7 +1010,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "L’argument doit supposer que le calme améliore réellement la concentration de cet étudiant.",
+    "explanation": "The argument must assume that quiet surroundings actually improve this student's concentration.",
     "estimatedTimeSeconds": 90
   },
   {
@@ -1049,7 +1049,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "Puisque tous ont été formés et que seuls certains ont un mentor, au moins un stagiaire a reçu la formation sans mentor.",
+    "explanation": "Since all received training and only some have a mentor, at least one trainee received training without a mentor.",
     "estimatedTimeSeconds": 105
   },
   {
@@ -1088,7 +1088,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "Le repositionnement en rayon fournit une explication concurrente à l’augmentation des ventes.",
+    "explanation": "The shelf repositioning provides a competing explanation for the increase in sales.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -1127,7 +1127,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "Une comparaison directe montrant moins de retards avec un démarrage plus tardif soutient la conclusion.",
+    "explanation": "A direct comparison showing fewer delays with a later start time supports the conclusion.",
     "estimatedTimeSeconds": 105
   },
   {
@@ -1166,7 +1166,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "Le critère décisif est que les recettes prévues couvrent les coûts de l’événement.",
+    "explanation": "The decisive criterion is that the projected revenue covers the cost of the event.",
     "estimatedTimeSeconds": 90
   },
   {
@@ -1205,7 +1205,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "L’argument suppose que l’écran actuel est suffisamment lumineux pour que le mode sombre ait un effet réel sur la fatigue visuelle.",
+    "explanation": "The argument assumes that the current screen is bright enough for dark mode to have a real effect on eye strain.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -1244,7 +1244,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "Si le chiffre d’affaires a augmenté chaque trimestre et les dépenses seulement au début, il y a au moins un trimestre où la rentabilité s’est améliorée.",
+    "explanation": "If revenue increased every quarter and expenses only rose at the start, there is at least one quarter in which profitability improved.",
     "estimatedTimeSeconds": 105
   },
   {
@@ -1283,7 +1283,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "Une nouvelle loi avec sanctions renforcées fournit une autre raison plausible de la baisse des demandes suspectes.",
+    "explanation": "A new law with stricter penalties provides another plausible reason for the decline in suspicious requests.",
     "estimatedTimeSeconds": 120
   }
 ]

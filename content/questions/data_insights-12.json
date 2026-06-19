@@ -12,7 +12,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "(1) donne x = 6, donc c'est suffisant. (2) seul laisse plusieurs valeurs positives.",
+    "explanation": "(1) gives x = 6, so it is sufficient. (2) alone leaves multiple positive values.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -28,7 +28,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "Si $n^{2}$ est impair, alors n est impair. (2) seul ne permet pas de conclure sur la parité.",
+    "explanation": "If $n^{2}$ is odd, then n is odd. (2) alone does not allow a conclusion about parity.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -44,7 +44,7 @@
       "format": "single",
       "value": "C"
     },
-    "explanation": "Pris ensemble, les deux équations donnent x = 5 et y = 4. Séparément, aucune ne suffit.",
+    "explanation": "Taken together, the two equations give x = 5 and y = 4. Individually, neither is sufficient.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -60,7 +60,7 @@
       "format": "single",
       "value": "C"
     },
-    "explanation": "Une seule donnée ne suffit pas, mais base et hauteur ensemble donnent une aire unique.",
+    "explanation": "Neither statement alone is sufficient, but the base and height together yield a unique area.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -76,7 +76,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "(1) donne k = 3/2. (2) est trop vague.",
+    "explanation": "(1) gives k = 3/2. (2) is too vague.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -92,7 +92,7 @@
       "format": "single",
       "value": "E"
     },
-    "explanation": "Les deux énoncés donnent un quatrième nombre égal à 28 − 18 = 10, mais les trois nombres de somme 18 ne sont pas connus un à un : l’un d’eux peut dépasser 10 (par exemple 16, 1 et 1). Le plus grand des quatre n’est donc pas déterminé, même en combinant les deux énoncés.",
+    "explanation": "Both statements together give a fourth number equal to 28 − 18 = 10, but the three numbers whose sum is 18 are not individually known: one of them could exceed 10 (for example, 16, 1, and 1). Therefore, the largest of the four numbers cannot be determined even when the statements are combined.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -108,7 +108,7 @@
       "format": "single",
       "value": "B"
     },
-    "explanation": "(2) seul suffit: si x < -3, alors x est négatif. (1) seul permet x = 4 ou x = -5, etc.",
+    "explanation": "(2) alone is sufficient: if x < -3, then x is negative. (1) alone allows x = 4 or x = -5, etc.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -124,7 +124,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "(1) donne m = 9, donc c’est suffisant. (2) seul laisse plusieurs entiers positifs possibles.",
+    "explanation": "(1) gives m = 9, so it is sufficient. (2) alone leaves multiple possible positive integers.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -140,7 +140,7 @@
       "format": "single",
       "value": "D"
     },
-    "explanation": "Avec (1), 2(L+5)=30 donc L=10. Avec (2), 50/5=10. Chaque énoncé suffit seul.",
+    "explanation": "From (1), 2(L+5)=30, so L=10. From (2), 50/5=10. Each statement is sufficient on its own.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -156,7 +156,7 @@
       "format": "single",
       "value": "C"
     },
-    "explanation": "(1) donne seulement x = y ou x = -y. (2) seul ne suffit pas. Ensemble, x et y étant positifs, on obtient x = y.",
+    "explanation": "(1) gives only x = y or x = -y. (2) alone is not sufficient. Together, since x and y are positive, we get x = y.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -172,7 +172,7 @@
       "format": "single",
       "value": "D"
     },
-    "explanation": "Chacun des deux énoncés implique la divisibilité par 6.",
+    "explanation": "Each of the two statements implies divisibility by 6.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -188,7 +188,7 @@
       "format": "single",
       "value": "D"
     },
-    "explanation": "(1) Si la somme dépasse 10, la moyenne (somme ÷ 2) dépasse 5. (2) Si les deux nombres sont positifs avec un produit supérieur à 25, l’inégalité arithmético-géométrique donne une moyenne au moins égale à la racine du produit, donc supérieure à 5. Chaque énoncé suffit seul.",
+    "explanation": "(1) If the sum exceeds 10, the average (sum ÷ 2) exceeds 5. (2) If both numbers are positive with a product greater than 25, the AM-GM inequality gives an average at least equal to the square root of the product, hence greater than 5. Each statement is sufficient on its own.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -204,7 +204,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "(1) donne x = 12, unique. (2) seul laisse plusieurs valeurs premières.",
+    "explanation": "(1) gives x = 12, uniquely. (2) alone leaves multiple prime values.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -220,7 +220,7 @@
       "format": "single",
       "value": "D"
     },
-    "explanation": "(1) Deux côtés égaux : le triangle est isocèle (réponse « oui »). (2) Des angles de 30, 60 et 90 degrés décrivent un triangle scalène, donc non isocèle (réponse « non » établie avec certitude). Chaque énoncé répond seul à la question.",
+    "explanation": "(1) Two equal sides: the triangle is isosceles (answer \"yes\"). (2) Angles of 30, 60, and 90 degrees describe a scalene triangle, so it is not isosceles (answer \"no\" established with certainty). Each statement answers the question on its own.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -236,7 +236,7 @@
       "format": "single",
       "value": "C"
     },
-    "explanation": "Ensemble, a + o = 20 et a = o + 4 donnent a = 12. Aucun seul ne suffit.",
+    "explanation": "Together, a + o = 20 and a = o + 4 give a = 12. Neither alone is sufficient.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -252,7 +252,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "(1) donne r < s, donc la réponse à la question est non de façon unique. (2) seul est insuffisant.",
+    "explanation": "(1) gives r < s, so the answer to the question is definitively no. (2) alone is insufficient.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -268,7 +268,7 @@
       "format": "single",
       "value": "C"
     },
-    "explanation": "(1) donne t = 7 ou -7. (2) seul ne suffit pas. Ensemble, t = -7.",
+    "explanation": "(1) gives t = 7 or -7. (2) alone is not sufficient. Together, t = -7.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -284,7 +284,7 @@
       "format": "single",
       "value": "D"
     },
-    "explanation": "Chaque énoncé suffit seul pour établir que x est strictement entre 0 et 1.",
+    "explanation": "Each statement alone is sufficient to establish that x is strictly between 0 and 1.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -300,7 +300,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "(1) donne directement le médian. (2) seul ne détermine pas le médian.",
+    "explanation": "(1) directly gives the median. (2) alone does not determine the median.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -316,7 +316,7 @@
       "format": "single",
       "value": "D"
     },
-    "explanation": "Chacun des deux énoncés suffit: $9k^{2}$ est un carré parfait, et un entier avec un nombre impair de diviseurs est aussi un carré parfait.",
+    "explanation": "Each of the two statements is sufficient: $9k^{2}$ is a perfect square, and an integer with an odd number of divisors is also a perfect square.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -332,7 +332,7 @@
       "format": "single",
       "value": "C"
     },
-    "explanation": "Pris ensemble, on résout p = 4 et q = 2. Aucun seul n’est suffisant.",
+    "explanation": "Taken together, we solve p = 4 and q = 2. Neither alone is sufficient.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -348,7 +348,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "(1) suffit parce qu’un ordonnée à l’origine nulle implique le passage par l’origine. (2) seul ne suffit pas.",
+    "explanation": "(1) is sufficient because a y-intercept of zero implies the line passes through the origin. (2) alone is not sufficient.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -364,7 +364,7 @@
       "format": "single",
       "value": "B"
     },
-    "explanation": "(1) seul donne x = 3 ou 7, donc insuffisant. (2) seul impose x > 5 et suffit.",
+    "explanation": "(1) alone gives x = 3 or 7, so it is insufficient. (2) alone imposes x > 5 and is sufficient.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -380,7 +380,7 @@
       "format": "single",
       "value": "D"
     },
-    "explanation": "Chaque énoncé suffit: un facteur pair rend le produit pair, et une somme impaire implique un pair et un impair, donc un produit pair.",
+    "explanation": "Each statement is sufficient: an even factor makes the product even, and an odd sum implies one even and one odd number, hence an even product.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -396,7 +396,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "(1) donne x = 3. (2) seul ne suffit pas.",
+    "explanation": "(1) gives x = 3. (2) alone is not sufficient.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -412,7 +412,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "(1) est équivalent à a + b > c, donc suffisant.",
+    "explanation": "(1) is equivalent to a + b > c, so it is sufficient.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -428,7 +428,7 @@
       "format": "single",
       "value": "E"
     },
-    "explanation": "Les diviseurs de 24 strictement supérieurs à 6 sont 8, 12 et 24 : l’énoncé (1) laisse donc plusieurs valeurs possibles. L’énoncé (2) « n est pair » est aussi insuffisant. Ensemble, 8, 12 et 24 étant tous pairs, n n’est toujours pas déterminé.",
+    "explanation": "The divisors of 24 strictly greater than 6 are 8, 12, and 24: statement (1) therefore leaves multiple possible values. Statement (2), \"n is even,\" is also insufficient. Together, since 8, 12, and 24 are all even, n is still not determined.",
     "estimatedTimeSeconds": 150
   },
   {
@@ -444,7 +444,7 @@
       "format": "single",
       "value": "E"
     },
-    "explanation": "(1) donne plusieurs valeurs positives et négatives. (2) seul ne suffit pas. Ensemble, il reste encore des valeurs positives et négatives possibles.",
+    "explanation": "(1) gives multiple positive and negative values. (2) alone is not sufficient. Together, there are still both positive and negative possible values.",
     "estimatedTimeSeconds": 150
   },
   {
@@ -460,7 +460,7 @@
       "format": "single",
       "value": "D"
     },
-    "explanation": "Chacun des énoncés suffit: trois entiers consécutifs dont la somme est 24 sont 7,8,9; si le plus grand est 10, les trois sont 8,9,10.",
+    "explanation": "Each statement is sufficient: three consecutive integers whose sum is 24 are 7, 8, 9; if the largest is 10, the three are 8, 9, 10.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -476,7 +476,7 @@
       "format": "single",
       "value": "C"
     },
-    "explanation": "(1) permet x = y ou x = -y. (2) seul ne suffit pas. Ensemble, les deux positifs imposent x = y.",
+    "explanation": "(1) allows x = y or x = -y. (2) alone is not sufficient. Together, both being positive forces x = y.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -492,7 +492,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "(1) donne directement x = 8. (2) seul ne suffit pas.",
+    "explanation": "(1) gives x = 8 directly. (2) alone is not sufficient.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -508,7 +508,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "Si deux angles d’un triangle totalisent 90°, le troisième vaut 90°. L’énoncé (2) ne suffit pas.",
+    "explanation": "If two angles of a triangle total 90°, the third equals 90°. Statement (2) alone is not sufficient.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -524,7 +524,7 @@
       "format": "single",
       "value": "D"
     },
-    "explanation": "Avec (1), aire = $d^{2}$/2 = 50. Avec (2), côté = 10 donc aire = 100. Chaque énoncé suffit.",
+    "explanation": "From (1), area = $d^{2}$/2 = 50. From (2), side = 10, so area = 100. Each statement is sufficient.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -540,7 +540,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "(1) suffit car tout multiple de 8 est multiple de 4. (2) seul ne garantit pas la divisibilité par 4.",
+    "explanation": "(1) is sufficient because every multiple of 8 is a multiple of 4. (2) alone does not guarantee divisibility by 4.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -556,7 +556,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "(1) donne m = 7. (2) seul ne suffit pas.",
+    "explanation": "(1) gives m = 7. (2) alone is not sufficient.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -572,7 +572,7 @@
       "format": "single",
       "value": "D"
     },
-    "explanation": "(1) Un rapport A:B = 5:4 implique A > B. (2) A − B = 3 étant positif, on a aussi A > B. Chaque énoncé suffit seul à répondre « oui ».",
+    "explanation": "(1) A ratio A:B = 5:4 implies A > B. (2) A − B = 3 being positive also gives A > B. Each statement alone is sufficient to answer \"yes\".",
     "estimatedTimeSeconds": 120
   },
   {
@@ -588,7 +588,7 @@
       "format": "single",
       "value": "C"
     },
-    "explanation": "L’énoncé (1) donne deux solutions positives; (2) seul ne suffit pas. Ensemble, x > 1 élimine la petite solution et laisse une seule valeur.",
+    "explanation": "Statement (1) gives two positive solutions; (2) alone is not sufficient. Together, x > 1 eliminates the smaller solution and leaves a unique value.",
     "estimatedTimeSeconds": 150
   },
   {
@@ -604,7 +604,7 @@
       "format": "single",
       "value": "D"
     },
-    "explanation": "Dans les deux cas, la longueur vaut 10.",
+    "explanation": "In both cases, the length is 10.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -620,7 +620,7 @@
       "format": "single",
       "value": "E"
     },
-    "explanation": "(1) donne x = 1 ou 3. (2) seul ne suffit pas. Ensemble, x reste 1 ou 3, donc insuffisant.",
+    "explanation": "(1) gives x = 1 or 3. (2) alone is not sufficient. Together, x remains 1 or 3, so the combination is still insufficient.",
     "estimatedTimeSeconds": 150
   },
   {
@@ -636,7 +636,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "L’énoncé (1) donne x = 10. (2) seul ne suffit pas.",
+    "explanation": "Statement (1) gives x = 10. (2) alone is not sufficient.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -652,7 +652,7 @@
       "format": "single",
       "value": "D"
     },
-    "explanation": "Chaque énoncé suffit: deux impairs ont une somme paire; un pair et un impair ont une somme impaire, donc la réponse à la question est déterminée dans chaque cas.",
+    "explanation": "Each statement is sufficient: two odd numbers have an even sum; one even and one odd number have an odd sum, so the answer to the question is determined in each case.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -668,7 +668,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "Entre 4 et 8, le seul entier divisible par 3 est 6.",
+    "explanation": "Between 4 and 8, the only integer divisible by 3 is 6.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -684,7 +684,7 @@
       "format": "single",
       "value": "B"
     },
-    "explanation": "(1) donne x = 5 ou -5. (2) seul implique x < -2, donc négatif.",
+    "explanation": "(1) gives x = 5 or -5. (2) alone implies x < -2, hence negative.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -700,7 +700,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "Le PGCD de 18 et 30 est 6. L’énoncé (2) seul laisse k = 3 ou 6.",
+    "explanation": "The GCD of 18 and 30 is 6. Statement (2) alone leaves k = 3 or 6.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -716,7 +716,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "Le quadrant II est exactement caractérisé par x négatif et y positif.",
+    "explanation": "Quadrant II is precisely characterized by x negative and y positive.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -732,7 +732,7 @@
       "format": "single",
       "value": "E"
     },
-    "explanation": "Deux entiers impairs consécutifs de produit 15 sont soit 3 et 5 (somme 8), soit −5 et −3 (somme −8). L’énoncé (1) laisse donc p = 8 ou p = −8, et l’énoncé (2) « p est pair » ne tranche pas, les deux valeurs étant paires. Même réunis, les énoncés ne déterminent pas p.",
+    "explanation": "Two consecutive odd integers whose product is 15 are either 3 and 5 (sum 8) or −5 and −3 (sum −8). Statement (1) therefore leaves p = 8 or p = −8, and statement (2), \"p is even,\" does not resolve the ambiguity since both values are even. Even combined, the statements do not determine p.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -748,7 +748,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "(1) suffit déjà. (2) seul ne suffit pas.",
+    "explanation": "(1) is already sufficient. (2) alone is not sufficient.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -764,7 +764,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "L’énoncé (1) donne x = 6. (2) seul ne suffit pas.",
+    "explanation": "Statement (1) gives x = 6. (2) alone is not sufficient.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -780,7 +780,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "Avoir exactement deux diviseurs positifs est la définition d’un nombre premier.",
+    "explanation": "Having exactly two positive divisors is the definition of a prime number.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -796,7 +796,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "L’énoncé (1) donne a = -8.",
+    "explanation": "Statement (1) gives a = -8.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -812,7 +812,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "Une somme de 31 sur trois nombres donne une moyenne de 31/3, donc supérieure à 10.",
+    "explanation": "A sum of 31 over three numbers gives an average of 31/3, which is greater than 10.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -828,7 +828,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "L’équation donne x = 4, donc suffisant.",
+    "explanation": "The equation gives x = 4, so it is sufficient.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -844,7 +844,7 @@
       "format": "single",
       "value": "D"
     },
-    "explanation": "Chaque énoncé suffit: (1) aire = 60; (2) largeur = 6 donc aire = 60.",
+    "explanation": "Each statement is sufficient: (1) area = 60; (2) width = 6, so area = 60.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -860,7 +860,7 @@
       "format": "single",
       "value": "C"
     },
-    "explanation": "L’équation donne n = 2 ou 3. L’énoncé (2) élimine 2 et laisse n = 3.",
+    "explanation": "The equation gives n = 2 or 3. Statement (2) eliminates 2 and leaves n = 3.",
     "estimatedTimeSeconds": 150
   }
 ]
