@@ -15,6 +15,7 @@ import { DiagnosticRunner, type DiagnosticResult } from './diagnostic-runner';
 import { PlanView } from '@/components/plan/plan-view';
 import { Card } from '@/components/ui/card';
 import { SectionLabel } from '@/components/ui/section-label';
+import { CountUpNumber } from '@/components/ui/accuracy-ring';
 
 type Step = 'intro' | 'test' | 'goal' | 'plan';
 
@@ -143,7 +144,7 @@ export function DiagnosticFlow({ questions }: { questions: QuestionWithGroup[] }
   if (step === 'intro') {
     return (
       <div className="mx-auto max-w-2xl px-4 py-10">
-        <div className="rounded-2xl border border-border bg-card p-6 text-center sm:p-8">
+        <div className="animate-fade-in-up rounded-2xl border border-border bg-card p-6 text-center sm:p-8">
           <div className="mx-auto flex size-12 items-center justify-center rounded-full bg-accent text-accent-foreground">
             <Sparkles className="size-6" />
           </div>
@@ -167,7 +168,7 @@ export function DiagnosticFlow({ questions }: { questions: QuestionWithGroup[] }
               setStep('test');
               window.scrollTo(0, 0);
             }}
-            className="mt-6 inline-flex items-center gap-1 rounded-lg bg-primary px-5 py-2.5 font-medium text-primary-foreground hover:opacity-90"
+            className="btn-brand mt-6 inline-flex items-center gap-1 rounded-lg px-5 py-2.5 font-medium"
           >
             Start diagnostic <ArrowRight className="size-4" />
           </button>
@@ -180,9 +181,11 @@ export function DiagnosticFlow({ questions }: { questions: QuestionWithGroup[] }
     const belowTarget = target <= estimate.total;
     return (
       <div className="mx-auto max-w-3xl space-y-6 px-4 py-8">
-        <Card role="status" aria-live="polite" className="p-6 text-center">
+        <Card role="status" aria-live="polite" className="animate-fade-in-up p-6 text-center">
           <SectionLabel as="div">Predicted GMAT Focus score</SectionLabel>
-          <div className="mt-1 text-5xl font-bold tabular-nums">{estimate.total}</div>
+          <div className="mt-1 font-heading text-5xl font-bold tabular-nums">
+            <CountUpNumber value={estimate.total} />
+          </div>
           <div className="mt-1 text-sm text-muted-foreground">
             likely range {estimate.low}–{estimate.high} · based on {estimate.questionCount} questions
           </div>
@@ -260,7 +263,7 @@ export function DiagnosticFlow({ questions }: { questions: QuestionWithGroup[] }
           <button
             type="button"
             onClick={generatePlan}
-            className="mt-5 inline-flex items-center gap-1 rounded-lg bg-primary px-5 py-2.5 font-medium text-primary-foreground hover:opacity-90"
+            className="btn-brand mt-5 inline-flex items-center gap-1 rounded-lg px-5 py-2.5 font-medium"
           >
             Generate my plan <ArrowRight className="size-4" />
           </button>
@@ -283,7 +286,7 @@ export function DiagnosticFlow({ questions }: { questions: QuestionWithGroup[] }
             type="button"
             onClick={savePlanAndContinue}
             disabled={saving}
-            className="inline-flex items-center gap-1 rounded-lg bg-primary px-5 py-2.5 font-medium text-primary-foreground hover:opacity-90 disabled:cursor-not-allowed disabled:opacity-50"
+            className="btn-brand inline-flex items-center gap-1 rounded-lg px-5 py-2.5 font-medium disabled:cursor-not-allowed disabled:opacity-50"
           >
             {saving && <Loader2 className="size-4 animate-spin" />}
             Save plan &amp; continue

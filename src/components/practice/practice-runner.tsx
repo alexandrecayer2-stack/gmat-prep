@@ -18,6 +18,7 @@ import { Markdown } from '@/components/markdown';
 import { QuestionPrompt } from './question-prompt';
 import { AnswerInputs } from './answer-inputs';
 import { Card } from '@/components/ui/card';
+import { useCountUp } from '@/components/ui/accuracy-ring';
 
 interface Result {
   questionId: string;
@@ -185,7 +186,7 @@ export function PracticeRunner({ questions }: { questions: QuestionWithGroup[] }
           role="status"
           aria-live="polite"
           className={cn(
-            'mt-4 rounded-xl border p-4',
+            'animate-fade-in-up mt-4 rounded-xl border p-4',
             isCorrect ? 'border-success bg-success/10' : 'border-danger bg-danger/10',
           )}
         >
@@ -283,16 +284,17 @@ function Summary({
 }) {
   const correct = results.filter((r) => r.isCorrect).length;
   const pct = results.length ? Math.round((correct / results.length) * 100) : 0;
+  const animatedPct = useCountUp(pct);
 
   return (
     <div className="mx-auto max-w-2xl px-4 py-10">
-      <Card className="p-6 text-center">
-        <h1 className="text-lg font-semibold">Session complete</h1>
+      <Card className="animate-fade-in-up p-6 text-center">
+        <h1 className="font-heading text-lg font-semibold">Session complete</h1>
         <p className="mt-1 text-sm text-muted-foreground">
           You answered {results.length} question{results.length === 1 ? '' : 's'}.
         </p>
         <div className="my-6" role="status" aria-live="polite">
-          <div className="text-5xl font-bold tabular-nums">{pct}%</div>
+          <div className="font-heading text-5xl font-bold tabular-nums">{animatedPct}%</div>
           <div className="mt-1 text-sm text-muted-foreground">
             {correct} of {results.length} correct
           </div>

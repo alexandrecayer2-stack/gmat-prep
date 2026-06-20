@@ -43,7 +43,7 @@ export default async function ChapterPage({ params }: Props) {
       </nav>
 
       {/* Chapter hero */}
-      <div className={`mb-8 rounded-2xl border p-6 ${colors.bg} ${colors.border}`}>
+      <div className={`animate-fade-in-up mb-8 rounded-2xl border p-6 ${colors.bg} ${colors.border}`}>
         <div className="mb-4 flex items-center gap-2.5">
           <span
             className={`flex size-9 items-center justify-center rounded-xl bg-background/60 ${colors.text}`}
@@ -120,7 +120,7 @@ export default async function ChapterPage({ params }: Props) {
         {lessons.length > 0 && (
           <Link
             href={`/learn/${chapterId}/${lessons[0].id}`}
-            className="inline-flex items-center gap-1.5 rounded-xl bg-primary px-5 py-2.5 text-sm font-medium text-primary-foreground transition-opacity hover:opacity-90"
+            className="btn-brand inline-flex items-center gap-1.5 rounded-xl px-5 py-2.5 text-sm font-medium"
           >
             Start lesson 1 <ChevronRight className="size-4" />
           </Link>

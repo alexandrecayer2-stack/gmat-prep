@@ -21,6 +21,12 @@
   --warning: #b45309;
   --info: #0369a1;
   --ring: #6366f1;
+  /* Brand: indigo→violet gradient (signature surfaces) + warm gold accent (streaks/achievements) */
+  --brand-from: #4f46e5;
+  --brand-to: #7c3aed;
+  --brand-glow: rgba(99, 102, 241, 0.16);
+  --gold: #b45309;
+  --gold-bg: rgba(245, 158, 11, 0.14);
 }
 
 .dark {
@@ -40,6 +46,11 @@
   --warning: #fbbf24;
   --info: #38bdf8;
   --ring: #818cf8;
+  --brand-from: #6366f1;
+  --brand-to: #a855f7;
+  --brand-glow: rgba(129, 140, 248, 0.22);
+  --gold: #fbbf24;
+  --gold-bg: rgba(251, 191, 36, 0.14);
 }
 
 @theme inline {
@@ -59,8 +70,10 @@
   --color-warning: var(--warning);
   --color-info: var(--info);
   --color-ring: var(--ring);
+  --color-gold: var(--gold);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --font-heading: var(--font-space-grotesk);
 }
 
 @layer base {
@@ -71,6 +84,10 @@
     background: var(--background);
     color: var(--foreground);
     font-family: var(--font-sans), system-ui, sans-serif;
+  }
+  /* Page titles wear the display face; body copy stays in Geist. */
+  h1 {
+    font-family: var(--font-space-grotesk), var(--font-sans), system-ui, sans-serif;
   }
   /* Consistent, visible keyboard focus everywhere (WCAG 2.4.7). Zero-specificity
      :where() so component styles can still override when needed. */
@@ -226,4 +243,103 @@
   background: color-mix(in srgb, var(--muted) 55%, transparent);
   border: 1px solid var(--border);
   border-radius: 0.5rem;
+}
+
+/* =====================================================================
+   Brand surfaces & signature accents
+   ===================================================================== */
+
+/* Indigo→violet gradient for the hero CTA and other signature buttons. */
+.bg-brand {
+  background-image: linear-gradient(135deg, var(--brand-from), var(--brand-to));
+}
+
+/* Canonical primary-action button: brand gradient + subtle lift. Pair with the
+   usual layout utilities (inline-flex, rounded-lg, px/py). One source of truth so
+   every "start"/"continue" CTA across the app matches. */
+.btn-brand {
+  background-image: linear-gradient(135deg, var(--brand-from), var(--brand-to));
+  color: #fff;
+  box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.06);
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+.btn-brand:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 8px 20px -10px color-mix(in srgb, var(--brand-from) 65%, transparent);
+}
+.btn-brand:active { transform: translateY(0); }
+.btn-brand:disabled,
+.btn-brand[aria-disabled='true'] {
+  transform: none;
+  box-shadow: none;
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+@media (prefers-reduced-motion: reduce) {
+  .btn-brand { transition: none; }
+  .btn-brand:hover { transform: none; }
+}
+
+/* Hero surface: a soft brand-tinted glow that reads in BOTH light and dark
+   (the previous from-accent/to-card gradient was invisible in dark mode). */
+.hero-surface {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  background:
+    radial-gradient(120% 130% at 100% 0%, var(--brand-glow), transparent 55%),
+    radial-gradient(90% 120% at 0% 100%, color-mix(in srgb, var(--brand-to) 10%, transparent), transparent 60%),
+    var(--card);
+}
+
+/* Gold "streak"/achievement chip. */
+.chip-gold {
+  background: var(--gold-bg);
+  color: var(--gold);
+}
+
+/* Subtle lift on interactive cards. */
+.card-hover {
+  transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+}
+.card-hover:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px -12px color-mix(in srgb, var(--brand-from) 45%, transparent);
+  border-color: color-mix(in srgb, var(--brand-from) 35%, var(--border));
+}
+
+/* =====================================================================
+   Motion: entrance animations + feedback. All disabled under
+   prefers-reduced-motion (WCAG 2.3.3 / vestibular safety).
+   ===================================================================== */
+@keyframes fade-in-up {
+  from { opacity: 0; transform: translateY(12px); }
+  to   { opacity: 1; transform: none; }
+}
+@keyframes pop-in {
+  0%   { opacity: 0; transform: scale(0.92); }
+  60%  { transform: scale(1.02); }
+  100% { opacity: 1; transform: none; }
+}
+
+/* `backwards` (not `both`): hold the start frame during the stagger delay, but
+   DON'T retain the end transform afterwards — otherwise the filled transform
+   would override `.card-hover`'s hover lift. */
+.animate-fade-in-up { animation: fade-in-up 0.5s cubic-bezier(0.21, 0.6, 0.35, 1) backwards; }
+.animate-pop-in     { animation: pop-in 0.42s cubic-bezier(0.2, 0.7, 0.3, 1.25) backwards; }
+
+/* Stagger delays for grouped entrances. */
+.stagger-1 { animation-delay: 0.05s; }
+.stagger-2 { animation-delay: 0.12s; }
+.stagger-3 { animation-delay: 0.19s; }
+.stagger-4 { animation-delay: 0.26s; }
+.stagger-5 { animation-delay: 0.33s; }
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-fade-in-up,
+  .animate-pop-in {
+    animation: none;
+  }
+  .card-hover { transition: none; }
+  .card-hover:hover { transform: none; }
 }

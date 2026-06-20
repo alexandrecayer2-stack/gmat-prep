@@ -31,6 +31,7 @@ import { QuestionPrompt } from '@/components/practice/question-prompt';
 import { AnswerInputs } from '@/components/practice/answer-inputs';
 import { Card } from '@/components/ui/card';
 import { SectionLabel } from '@/components/ui/section-label';
+import { CountUpNumber } from '@/components/ui/accuracy-ring';
 
 export interface MockSectionSet {
   section: QuestionWithGroup['section'];
@@ -530,9 +531,11 @@ function MockResults({
           appear in your history.
         </div>
       )}
-      <Card role="status" aria-live="polite" className="p-6 text-center">
+      <Card role="status" aria-live="polite" className="animate-fade-in-up p-6 text-center">
         <SectionLabel as="div">Predicted GMAT Focus score</SectionLabel>
-        <div className="mt-1 text-5xl font-bold tabular-nums">{estimate.total}</div>
+        <div className="mt-1 font-heading text-5xl font-bold tabular-nums">
+          <CountUpNumber value={estimate.total} />
+        </div>
         <div className="mt-1 text-sm text-muted-foreground">
           likely range {estimate.low}–{estimate.high} · {correct}/{results.length} correct
         </div>
@@ -597,7 +600,7 @@ function MockResults({
       <div className="flex flex-wrap justify-center gap-3 pt-2">
         <Link
           href="/mock"
-          className="inline-flex items-center gap-1 rounded-lg bg-primary px-4 py-2 text-sm font-medium text-primary-foreground hover:opacity-90"
+          className="btn-brand inline-flex items-center gap-1 rounded-lg px-4 py-2 text-sm font-medium"
         >
           <RotateCcw className="size-4" /> New exam
         </Link>

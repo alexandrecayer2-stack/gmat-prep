@@ -55,7 +55,7 @@ export function PlanCard() {
         </div>
         <Link
           href="/diagnostic"
-          className="inline-flex items-center gap-1 rounded-lg bg-primary px-4 py-2 text-sm font-medium text-primary-foreground hover:opacity-90"
+          className="btn-brand inline-flex items-center gap-1 rounded-lg px-4 py-2 text-sm font-medium"
         >
           Take the diagnostic <ArrowRight className="size-4" />
         </Link>

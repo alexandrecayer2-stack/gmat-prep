@@ -76,7 +76,7 @@ export function PlanPageContent() {
         </p>
         <Link
           href="/diagnostic"
-          className="mt-4 inline-block rounded-lg bg-primary px-4 py-2 text-sm font-medium text-primary-foreground hover:opacity-90"
+          className="btn-brand mt-4 inline-block rounded-lg px-4 py-2 text-sm font-medium"
         >
           Take the diagnostic
         </Link>

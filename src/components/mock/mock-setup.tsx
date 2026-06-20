@@ -70,7 +70,7 @@ export function MockSetup({ counts }: { counts: Record<Section, number> }) {
       </div>
 
       {/* GMAT structure summary */}
-      <div className="grid gap-3 sm:grid-cols-3">
+      <div className="animate-fade-in-up grid gap-3 sm:grid-cols-3">
         {SECTION_ORDER.map((s) => {
           const available = counts[s] ?? 0;
           const needed = targetCount(s, length);
@@ -103,7 +103,7 @@ export function MockSetup({ counts }: { counts: Record<Section, number> }) {
           type="button"
           onClick={start}
           disabled={noneSelected || totalQuestions === 0}
-          className="inline-flex items-center gap-2 rounded-lg bg-primary px-6 py-3 font-semibold text-primary-foreground transition-opacity hover:opacity-90 disabled:cursor-not-allowed disabled:opacity-50"
+          className="btn-brand inline-flex items-center gap-2 rounded-lg px-6 py-3 font-semibold disabled:cursor-not-allowed disabled:opacity-50"
         >
           Start exam
           <ArrowRight className="size-4" />

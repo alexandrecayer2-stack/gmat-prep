@@ -2,12 +2,14 @@
 
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
+import { Flame } from 'lucide-react';
 import { useAuth } from '@/lib/auth/auth-provider';
 import { getUserStats, type UserStats } from '@/lib/data/attempts';
 import { SECTIONS, SECTION_COLORS, SECTION_LABELS } from '@/lib/domain/constants';
 import type { Section } from '@/lib/domain/types';
 import { Card } from '@/components/ui/card';
 import { SectionLabel } from '@/components/ui/section-label';
+import { AccuracyRing } from '@/components/ui/accuracy-ring';
 
 export function DashboardStats() {
   const { user, loading, supabase } = useAuth();
@@ -84,15 +86,23 @@ export function DashboardStats() {
 
   return (
     <div className="grid gap-4 md:grid-cols-3">
-      <Card className="p-5">
+      <Card className="flex flex-col p-5 animate-fade-in-up">
         <SectionLabel as="div">Overall accuracy</SectionLabel>
-        <div className="mt-2 text-4xl font-bold tabular-nums">{pct}%</div>
-        <div className="mt-1 text-sm text-muted-foreground">
-          {stats.correct} / {stats.total} correct
+        <div className="flex flex-1 flex-col items-center justify-center gap-4 py-3 text-center">
+          <AccuracyRing value={pct} />
+          <div className="space-y-2">
+            <p className="text-sm text-muted-foreground">
+              {stats.correct} / {stats.total} correct
+            </p>
+            <span className="chip-gold inline-flex items-center gap-1.5 rounded-full px-2.5 py-1 text-xs font-semibold">
+              <Flame className="size-3.5" />
+              {stats.total} answered
+            </span>
+          </div>
         </div>
       </Card>
 
-      <Card className="p-5 md:col-span-2">
+      <Card className="p-5 md:col-span-2 animate-fade-in-up stagger-1">
         <SectionLabel as="div" className="mb-3">
           Accuracy by section
         </SectionLabel>

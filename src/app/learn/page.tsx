@@ -87,14 +87,14 @@ export default async function LearnPage() {
 
               {/* Chapter cards */}
               <div className="grid gap-4 sm:grid-cols-2">
-                {sectionChapters.map((ch) => {
+                {sectionChapters.map((ch, ci) => {
                   const lessons = lessonsByChapter[ch.id] ?? [];
                   const exerciseCount = lessons.reduce((s, l) => s + l.exerciseIds.length, 0);
                   return (
                     <Link
                       key={ch.id}
                       href={`/learn/${ch.id}`}
-                      className="group relative overflow-hidden rounded-2xl border border-border bg-card transition-all duration-200 hover:-translate-y-0.5 hover:border-primary/30 hover:shadow-lg hover:shadow-black/20"
+                      className={`animate-fade-in-up stagger-${Math.min(ci + 1, 5)} group relative overflow-hidden rounded-2xl border border-border bg-card transition-all duration-200 hover:-translate-y-0.5 hover:border-primary/30 hover:shadow-lg hover:shadow-black/20`}
                     >
                       {/* Top colour stripe */}
                       <div className={`h-1 w-full ${colors.accent}`} />

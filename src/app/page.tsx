@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { ArrowRight, ClipboardList } from 'lucide-react';
+import { ArrowRight, ClipboardList, Sparkles } from 'lucide-react';
 import {
   QUESTION_TYPE_LABELS,
   SECTIONS,
@@ -16,29 +16,46 @@ import { SECTION_ICONS } from '@/components/ui/section-icons';
 export default function Home() {
   return (
     <div className="mx-auto max-w-5xl space-y-10 px-4 py-8">
-      <section className="rounded-2xl border border-border bg-gradient-to-br from-accent/60 to-card p-6 sm:p-8">
-        <h1 className="text-2xl font-bold tracking-tight sm:text-3xl">
+      <section className="hero-surface animate-fade-in-up rounded-2xl border border-border p-6 sm:p-8">
+        <span className="inline-flex items-center gap-1.5 rounded-full border border-border bg-card/60 px-3 py-1 text-xs font-medium text-muted-foreground backdrop-blur">
+          <Sparkles className="size-3.5 text-primary" /> GMAT Focus Edition
+        </span>
+        <h1 className="mt-4 max-w-2xl font-heading text-3xl font-bold tracking-tight sm:text-4xl">
           GMAT Focus practice that mirrors the real exam
         </h1>
-        <p className="mt-2 max-w-2xl text-sm text-muted-foreground sm:text-base">
+        <p className="mt-3 max-w-2xl text-sm text-muted-foreground sm:text-base">
           Three sections — Quantitative Reasoning, Verbal Reasoning, and Data Insights — with
           realistic question types, honest difficulty levels, instant explanations, and progress
           tracking.
         </p>
-        <div className="mt-4 flex flex-wrap gap-3">
+        <div className="mt-5 flex flex-wrap gap-3">
           <Link
             href="/practice"
-            className="inline-flex items-center gap-1 rounded-lg bg-primary px-4 py-2 text-sm font-medium text-primary-foreground hover:opacity-90"
+            className="btn-brand inline-flex items-center gap-1.5 rounded-lg px-4 py-2 text-sm font-medium"
           >
             Start practicing <ArrowRight className="size-4" />
           </Link>
           <Link
             href="/learn"
-            className="inline-flex items-center gap-1 rounded-lg border border-border px-4 py-2 text-sm font-medium hover:bg-muted"
+            className="inline-flex items-center gap-1 rounded-lg border border-border bg-card px-4 py-2 text-sm font-medium hover:bg-muted"
           >
             Browse Learn cards
           </Link>
         </div>
+        <dl className="mt-6 flex flex-wrap gap-x-8 gap-y-3 border-t border-border pt-5">
+          <div>
+            <dt className="text-xs text-muted-foreground">Practice questions</dt>
+            <dd className="font-heading text-lg font-semibold tabular-nums">1,000+</dd>
+          </div>
+          <div>
+            <dt className="text-xs text-muted-foreground">Exam sections</dt>
+            <dd className="font-heading text-lg font-semibold tabular-nums">3</dd>
+          </div>
+          <div>
+            <dt className="text-xs text-muted-foreground">Feedback</dt>
+            <dd className="font-heading text-lg font-semibold">Instant</dd>
+          </div>
+        </dl>
       </section>
 
       <PlanCard />
@@ -58,7 +75,7 @@ export default function Home() {
         </div>
         <Link
           href="/mock"
-          className="inline-flex items-center gap-1 rounded-lg bg-primary px-4 py-2 text-sm font-medium text-primary-foreground hover:opacity-90"
+          className="bg-brand inline-flex items-center gap-1.5 rounded-lg px-4 py-2 text-sm font-medium text-white shadow-sm transition-transform hover:-translate-y-0.5"
         >
           Start mock exam <ArrowRight className="size-4" />
         </Link>
@@ -67,11 +84,14 @@ export default function Home() {
       <section>
         <SectionLabel className="mb-3">Practice by section</SectionLabel>
         <div className="grid gap-4 sm:grid-cols-3">
-          {SECTIONS.map((s) => {
+          {SECTIONS.map((s, i) => {
             const colors = SECTION_COLORS[s];
             const Icon = SECTION_ICONS[s];
             return (
-              <Card key={s} className="flex flex-col overflow-hidden">
+              <Card
+                key={s}
+                className={`card-hover animate-fade-in-up stagger-${i + 1} flex flex-col overflow-hidden`}
+              >
                 <div className={`h-1 w-full ${colors.accent}`} />
                 <div className="flex flex-1 flex-col p-4">
                   <div className="flex items-center gap-2">
