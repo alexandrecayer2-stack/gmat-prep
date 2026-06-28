@@ -70,7 +70,7 @@
     "estimatedTimeSeconds": 90
   },
   {
-    "id": "q5-prob-complement", "section": "quant", "type": "problem_solving", "topic": "probability", "difficulty": "easy",
+    "id": "q5-prob-complement", "section": "quant", "type": "problem_solving", "topic": "probability", "difficulty": "medium",
     "stem": "A fair coin is flipped $3$ times. What is the probability of getting at least one head?",
     "choices": [
       { "key": "A", "text": "$1/8$" },
@@ -84,7 +84,7 @@
     "estimatedTimeSeconds": 105
   },
   {
-    "id": "q5-divisors", "section": "quant", "type": "problem_solving", "topic": "number properties", "difficulty": "easy",
+    "id": "q5-divisors", "section": "quant", "type": "problem_solving", "topic": "number properties", "difficulty": "medium",
     "stem": "How many positive divisors does $72$ have?",
     "choices": [
       { "key": "A", "text": "$6$" },

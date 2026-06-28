@@ -57,7 +57,7 @@
     "id": "quant-medium-numprop-1",
     "section": "quant",
     "type": "problem_solving",
-    "difficulty": "medium",
+    "difficulty": "hard",
     "topic": "number properties",
     "stem": "If $n$ is a positive integer and $n^2$ is divisible by 72, what is the largest positive integer that must be a divisor of $n$ ?",
     "choices": [

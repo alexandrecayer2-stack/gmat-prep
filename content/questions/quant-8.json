@@ -169,7 +169,7 @@
     "section": "quant",
     "type": "problem_solving",
     "topic": "averages",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "stem": "The average of 5 numbers is 18. One of the numbers is 27. What is the average of the other 4 numbers?",
     "choices": [
       {
@@ -210,7 +210,7 @@
     "section": "quant",
     "type": "problem_solving",
     "topic": "number properties",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "stem": "What is the smallest positive integer that leaves a remainder of 1 when divided by 4 and a remainder of 2 when divided by 3?",
     "choices": [
       {
@@ -333,7 +333,7 @@
     "section": "quant",
     "type": "problem_solving",
     "topic": "coordinate geometry",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "stem": "What is the distance between the points $(1,-2)$ and $(7,6)$?",
     "choices": [
       {
@@ -662,7 +662,7 @@
     "section": "quant",
     "type": "problem_solving",
     "topic": "probability",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "stem": "A fair six-sided die is rolled once. What is the probability of rolling a prime number less than 5?",
     "choices": [
       {
@@ -744,7 +744,7 @@
     "section": "quant",
     "type": "problem_solving",
     "topic": "percents",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "stem": "A city had 1,600 residents last year and 1,840 residents this year. By what percent did the population increase?",
     "choices": [
       {
@@ -785,7 +785,7 @@
     "section": "quant",
     "type": "problem_solving",
     "topic": "fractions",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "stem": "If $\\frac{x}{y}=\\frac{4}{7}$ and $x+y=55$, what is $y$?",
     "choices": [
       {
@@ -991,7 +991,7 @@
     "section": "quant",
     "type": "problem_solving",
     "topic": "number properties",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "stem": "What is the greatest common divisor of 84 and 126?",
     "choices": [
       {
@@ -1237,7 +1237,7 @@
     "section": "quant",
     "type": "problem_solving",
     "topic": "geometry",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "stem": "A triangle is similar to a triangle with side lengths 3, 4, and 5. If the scale factor from the smaller triangle to the larger triangle is 2, what is the perimeter of the larger triangle?",
     "choices": [
       {
