@@ -1,0 +1,2471 @@
+[
+  {
+    "id": "g7-ds-01",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "linear equations",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "What is the value of $a$?\n\n(1) $2a - 6 = 10$\n(2) $a$ is a positive even integer",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "(1) gives $2a = 16$, so $a = 8$ — a unique value, sufficient. (2) leaves many possibilities (2, 4, 6, ...), not sufficient. Answer A.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g7-ds-02",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "absolute value",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "Is the integer $n$ equal to 5?\n\n(1) $|n| = 5$\n(2) $n - 5 = 0$",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "(1) gives $n = 5$ or $n = -5$ — not sufficient. (2) gives $n = 5$ directly — sufficient. Answer B.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g7-ds-03",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "systems of equations",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "What is the value of $w$?\n\n(1) $w + v = 14$\n(2) $w - v = 6$",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "Neither alone fixes $w$ (each is one equation in two unknowns). Together, adding gives $2w = 20$, so $w = 10$. Sufficient only together. Answer C.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g7-ds-04",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "ratios",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "A recipe uses flour and sugar in a fixed ratio. How many cups of sugar are used per cup of flour?\n\n(1) The recipe uses 6 cups of flour and 2 cups of sugar.\n(2) The ratio of flour to sugar is 3 to 1.",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "D"
+    },
+    "explanation": "(1) gives sugar per flour $= 2/6 = 1/3$ — sufficient. (2) gives flour:sugar $= 3:1$, so sugar per flour $= 1/3$ — sufficient. Each alone works. Answer D.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g7-ds-05",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "inequalities",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "stem": "Is $x > 0$?\n\n(1) $x^{2} > 4$\n(2) $x^{3} < 27$",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "E"
+    },
+    "explanation": "(1) gives $x > 2$ or $x < -2$. (2) gives $x < 3$. Together, $x$ can be $2.5$ (positive) or $-5$ (negative), so the sign is not determined. Answer E.",
+    "estimatedTimeSeconds": 150
+  },
+  {
+    "id": "g7-ds-06",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "averages",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "What is the average (arithmetic mean) of five numbers?\n\n(1) The sum of the five numbers is 200.\n(2) The largest of the five numbers is 60.",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "(1) mean $= 200/5 = 40$ — sufficient. (2) tells nothing about the total of all five — not sufficient. Answer A.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g7-ds-07",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "percent",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "A shirt was discounted. What was its original price, in dollars?\n\n(1) The discount was 30 percent.\n(2) The shirt was discounted by 30 percent to a sale price of 42.",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "(1) gives only the rate, not any price — not sufficient. (2) gives $0.70 P = 42$, so $P = 60$ — sufficient. Answer B.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g7-ds-08",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "number properties",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "What is the two-digit integer $k$?\n\n(1) The tens digit of $k$ is 4.\n(2) The units digit of $k$ is twice the tens digit.",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "(1) gives 40–49 — not unique. (2) alone gives many values (e.g. 12, 24, 36, 48) — not unique. Together, tens digit 4 and units digit 8 give $k = 48$. Answer C.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g7-ds-09",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "geometry",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "What is the area of a circle?\n\n(1) The radius is 5.\n(2) The circumference is $10\\pi$.",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "D"
+    },
+    "explanation": "(1) area $= 25\\pi$ — sufficient. (2) circumference $2\\pi r = 10\\pi$ gives $r = 5$, area $= 25\\pi$ — sufficient. Each alone works. Answer D.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g7-ds-10",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "sequences",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "stem": "In a sequence, each term after the first is found by a fixed rule. What is the third term?\n\n(1) The first term is 4.\n(2) The second term is 12.",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "E"
+    },
+    "explanation": "The rule is unspecified. With first term 4 and second term 12, the sequence could be arithmetic (add 8, giving third term 20) or geometric (times 3, giving third term 36). Together still not determined. Answer E.",
+    "estimatedTimeSeconds": 150
+  },
+  {
+    "id": "g7-ds-11",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "word problems",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "How many students are in a class?\n\n(1) If the students are divided into groups of 4, exactly 7 groups are formed with none left over.\n(2) There are fewer than 40 students.",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "(1) gives exactly $4 \\times 7 = 28$ — sufficient. (2) only bounds the count — not sufficient. Answer A.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g7-ds-12",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "exponents",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "What is the value of the positive integer $m$?\n\n(1) $m$ is a power of 2.\n(2) $2^{m} = 32$",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "(1) leaves 1, 2, 4, 8, ... — not sufficient. (2) gives $m = 5$ since $2^{5} = 32$ — sufficient. Answer B.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g7-ds-13",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "mixtures",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "stem": "A solution is a mix of acid and water. What is the volume of acid, in liters?\n\n(1) The solution is 20 percent acid by volume.\n(2) The total volume of the solution is 15 liters.",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "(1) gives the percent but no total — not sufficient. (2) gives the total but no percent — not sufficient. Together, acid $= 0.20 \\times 15 = 3$ liters. Answer C.",
+    "estimatedTimeSeconds": 150
+  },
+  {
+    "id": "g7-ds-14",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "rate and work",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "A car travels at constant speed. How far does it travel in 3 hours?\n\n(1) It travels 120 miles in 2 hours.\n(2) Its speed is 60 miles per hour.",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "D"
+    },
+    "explanation": "(1) speed $= 120/2 = 60$ mph, so 3 hours gives 180 miles — sufficient. (2) speed 60 mph gives 180 miles in 3 hours — sufficient. Each alone works. Answer D.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g7-ds-15",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "statistics",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "stem": "Is the median of a list of 4 distinct numbers greater than 10?\n\n(1) The largest number in the list is 18.\n(2) The smallest number in the list is 2.",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "E"
+    },
+    "explanation": "The median of 4 numbers is the average of the two middle values. (1) and (2) fix only the extremes; the two middle values are unconstrained, so the median could be above or below 10 (e.g. middles 3 and 5 vs. 11 and 14). Answer E.",
+    "estimatedTimeSeconds": 150
+  },
+  {
+    "id": "g7-ds-16",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "divisibility",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "Is the positive integer $p$ divisible by 6?\n\n(1) $p$ is divisible by both 2 and 3.\n(2) $p$ is divisible by 4.",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "(1) a number divisible by 2 and 3 is divisible by their least common multiple 6 — sufficient. (2) e.g. 4 is divisible by 4 but not by 6, while 12 is — not sufficient. Answer A.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g7-ds-17",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "coordinate geometry",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "Does the line pass through the origin?\n\n(1) The line has slope 2.\n(2) The line passes through the points $(1, 3)$ and $(2, 6)$.",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "(1) slope alone does not fix the intercept — not sufficient. (2) slope $= (6-3)/(2-1) = 3$ and the line $y = 3x$ passes through $(0,0)$; checking, $y = 3x$ fits both points and hits the origin — sufficient. Answer B.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g7-ds-18",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "profit",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "stem": "A store sold an item. What was the profit on the item, in dollars?\n\n(1) The selling price was 90.\n(2) The cost to the store was 65.",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "(1) gives revenue but not cost — not sufficient. (2) gives cost but not revenue — not sufficient. Together, profit $= 90 - 65 = 25$. Answer C.",
+    "estimatedTimeSeconds": 150
+  },
+  {
+    "id": "g7-ds-19",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "fractions",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "What is the value of $y$?\n\n(1) $\\frac{y}{3} = 8$\n(2) $\\frac{1}{4}\\,y = 6$",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "D"
+    },
+    "explanation": "(1) gives $y = 24$ — sufficient. (2) gives $y = 24$ — sufficient. Each alone works. Answer D.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g7-ds-20",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "sets",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "stem": "In a group of 50 people, how many speak both French and Spanish?\n\n(1) 30 people speak French.\n(2) 25 people speak Spanish.",
+    "assets": {},
+    "correctAnswer": {
+      "format": "single",
+      "value": "E"
+    },
+    "explanation": "With 30 French and 25 Spanish speakers among 50 people, the overlap can range (some may speak neither, or all Spanish speakers may also speak French). Together the count of bilinguals is not determined. Answer E.",
+    "estimatedTimeSeconds": 150
+  },
+  {
+    "id": "g7-gi-01",
+    "section": "data_insights",
+    "type": "graphics_interpretation",
+    "topic": "graphics interpretation",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "The bar chart shows the number of books sold by a shop in each of four weeks. Use the drop-down menus to complete the statements consistent with the data.",
+    "assets": {
+      "chart": {
+        "type": "bar",
+        "title": "Books sold by week",
+        "xKey": "week",
+        "xLabel": "Week",
+        "yLabel": "Books",
+        "series": [
+          {
+            "key": "books",
+            "label": "Books"
+          }
+        ],
+        "data": [
+          {
+            "week": "W1",
+            "books": 35
+          },
+          {
+            "week": "W2",
+            "books": 50
+          },
+          {
+            "week": "W3",
+            "books": 28
+          },
+          {
+            "week": "W4",
+            "books": 47
+          }
+        ]
+      },
+      "dropdowns": [
+        {
+          "key": "b1",
+          "before": "The week with the most books sold was ",
+          "after": ".",
+          "options": [
+            {
+              "value": "W1"
+            },
+            {
+              "value": "W2"
+            },
+            {
+              "value": "W3"
+            },
+            {
+              "value": "W4"
+            }
+          ]
+        },
+        {
+          "key": "b2",
+          "before": "The total number of books sold over the four weeks was ",
+          "after": ".",
+          "options": [
+            {
+              "value": "150"
+            },
+            {
+              "value": "155"
+            },
+            {
+              "value": "160"
+            },
+            {
+              "value": "165"
+            }
+          ]
+        }
+      ]
+    },
+    "correctAnswer": {
+      "format": "dropdowns",
+      "value": {
+        "b1": "W2",
+        "b2": "160"
+      }
+    },
+    "explanation": "W2 is tallest at 50. Total $= 35 + 50 + 28 + 47 = 160$.",
+    "estimatedTimeSeconds": 120,
+    "answerCheck": "answer.b1==='W2' && answer.b2===String(sum(data.map(d=>d.books)))"
+  },
+  {
+    "id": "g7-gi-02",
+    "section": "data_insights",
+    "type": "graphics_interpretation",
+    "topic": "graphics interpretation",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "The line graph shows the closing price of a stock on five consecutive trading days. Use the drop-down menus to complete the statements consistent with the data.",
+    "assets": {
+      "chart": {
+        "type": "line",
+        "title": "Closing price (dollars)",
+        "xKey": "day",
+        "xLabel": "Day",
+        "yLabel": "Price",
+        "series": [
+          {
+            "key": "price",
+            "label": "Price"
+          }
+        ],
+        "data": [
+          {
+            "day": "Mon",
+            "price": 42
+          },
+          {
+            "day": "Tue",
+            "price": 48
+          },
+          {
+            "day": "Wed",
+            "price": 39
+          },
+          {
+            "day": "Thu",
+            "price": 51
+          },
+          {
+            "day": "Fri",
+            "price": 45
+          }
+        ]
+      },
+      "dropdowns": [
+        {
+          "key": "b1",
+          "before": "The highest closing price occurred on ",
+          "after": ".",
+          "options": [
+            {
+              "value": "Mon"
+            },
+            {
+              "value": "Tue"
+            },
+            {
+              "value": "Wed"
+            },
+            {
+              "value": "Thu"
+            },
+            {
+              "value": "Fri"
+            }
+          ]
+        },
+        {
+          "key": "b2",
+          "before": "The difference between the highest and lowest closing prices was ",
+          "after": ".",
+          "options": [
+            {
+              "value": "9"
+            },
+            {
+              "value": "10"
+            },
+            {
+              "value": "12"
+            },
+            {
+              "value": "15"
+            }
+          ]
+        }
+      ]
+    },
+    "correctAnswer": {
+      "format": "dropdowns",
+      "value": {
+        "b1": "Thu",
+        "b2": "12"
+      }
+    },
+    "explanation": "The peak is 51 on Thu. Lowest is 39 on Wed; range $= 51 - 39 = 12$.",
+    "estimatedTimeSeconds": 120,
+    "answerCheck": "answer.b1==='Thu' && answer.b2===String(max(data.map(d=>d.price))-min(data.map(d=>d.price)))"
+  },
+  {
+    "id": "g7-gi-03",
+    "section": "data_insights",
+    "type": "graphics_interpretation",
+    "topic": "graphics interpretation",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "The bar chart shows monthly rainfall, in millimeters, in a city. Use the drop-down menus to complete the statements consistent with the data.",
+    "assets": {
+      "chart": {
+        "type": "bar",
+        "title": "Monthly rainfall (mm)",
+        "xKey": "month",
+        "xLabel": "Month",
+        "yLabel": "Rainfall",
+        "series": [
+          {
+            "key": "mm",
+            "label": "Rainfall"
+          }
+        ],
+        "data": [
+          {
+            "month": "Jan",
+            "mm": 60
+          },
+          {
+            "month": "Feb",
+            "mm": 80
+          },
+          {
+            "month": "Mar",
+            "mm": 100
+          },
+          {
+            "month": "Apr",
+            "mm": 40
+          }
+        ]
+      },
+      "dropdowns": [
+        {
+          "key": "b1",
+          "before": "The month with the least rainfall was ",
+          "after": ".",
+          "options": [
+            {
+              "value": "Jan"
+            },
+            {
+              "value": "Feb"
+            },
+            {
+              "value": "Mar"
+            },
+            {
+              "value": "Apr"
+            }
+          ]
+        },
+        {
+          "key": "b2",
+          "before": "The average monthly rainfall over the four months was ",
+          "after": " mm.",
+          "options": [
+            {
+              "value": "65"
+            },
+            {
+              "value": "70"
+            },
+            {
+              "value": "75"
+            },
+            {
+              "value": "80"
+            }
+          ]
+        }
+      ]
+    },
+    "correctAnswer": {
+      "format": "dropdowns",
+      "value": {
+        "b1": "Apr",
+        "b2": "70"
+      }
+    },
+    "explanation": "Apr is lowest at 40. Average $= (60+80+100+40)/4 = 280/4 = 70$ mm.",
+    "estimatedTimeSeconds": 120,
+    "answerCheck": "answer.b1==='Apr' && answer.b2===String(sum(data.map(d=>d.mm))/data.length)"
+  },
+  {
+    "id": "g7-gi-04",
+    "section": "data_insights",
+    "type": "graphics_interpretation",
+    "topic": "graphics interpretation",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "The scatter plot shows, for six students, the hours studied and the test score earned. Use the drop-down menus to complete the statements consistent with the data.",
+    "assets": {
+      "chart": {
+        "type": "scatter",
+        "title": "Hours studied vs. test score",
+        "xKey": "hours",
+        "xLabel": "Hours studied",
+        "yLabel": "Score",
+        "series": [
+          {
+            "key": "score",
+            "label": "Score"
+          }
+        ],
+        "data": [
+          {
+            "hours": 1,
+            "score": 55
+          },
+          {
+            "hours": 2,
+            "score": 60
+          },
+          {
+            "hours": 3,
+            "score": 72
+          },
+          {
+            "hours": 4,
+            "score": 78
+          },
+          {
+            "hours": 5,
+            "score": 88
+          },
+          {
+            "hours": 6,
+            "score": 91
+          }
+        ]
+      },
+      "dropdowns": [
+        {
+          "key": "b1",
+          "before": "The student who earned the highest score studied for ",
+          "after": " hours.",
+          "options": [
+            {
+              "value": "3"
+            },
+            {
+              "value": "4"
+            },
+            {
+              "value": "5"
+            },
+            {
+              "value": "6"
+            }
+          ]
+        },
+        {
+          "key": "b2",
+          "before": "The number of students who scored above 70 was ",
+          "after": ".",
+          "options": [
+            {
+              "value": "2"
+            },
+            {
+              "value": "3"
+            },
+            {
+              "value": "4"
+            },
+            {
+              "value": "5"
+            }
+          ]
+        }
+      ]
+    },
+    "correctAnswer": {
+      "format": "dropdowns",
+      "value": {
+        "b1": "6",
+        "b2": "4"
+      }
+    },
+    "explanation": "The highest score, 91, belongs to the student who studied 6 hours. Scores above 70 are 72, 78, 88, 91 — that is 4 students.",
+    "estimatedTimeSeconds": 120,
+    "answerCheck": "answer.b1==='6' && answer.b2===String(count(data,d=>d.score>70))"
+  },
+  {
+    "id": "g7-gi-05",
+    "section": "data_insights",
+    "type": "graphics_interpretation",
+    "topic": "graphics interpretation",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "The line graph shows the number of new subscribers gained in each of four months. Use the drop-down menus to complete the statements consistent with the data.",
+    "assets": {
+      "chart": {
+        "type": "line",
+        "title": "New subscribers by month",
+        "xKey": "month",
+        "xLabel": "Month",
+        "yLabel": "Subscribers",
+        "series": [
+          {
+            "key": "subs",
+            "label": "Subscribers"
+          }
+        ],
+        "data": [
+          {
+            "month": "May",
+            "subs": 120
+          },
+          {
+            "month": "Jun",
+            "subs": 90
+          },
+          {
+            "month": "Jul",
+            "subs": 150
+          },
+          {
+            "month": "Aug",
+            "subs": 140
+          }
+        ]
+      },
+      "dropdowns": [
+        {
+          "key": "b1",
+          "before": "The month with the most new subscribers was ",
+          "after": ".",
+          "options": [
+            {
+              "value": "May"
+            },
+            {
+              "value": "Jun"
+            },
+            {
+              "value": "Jul"
+            },
+            {
+              "value": "Aug"
+            }
+          ]
+        },
+        {
+          "key": "b2",
+          "before": "The total number of new subscribers over the four months was ",
+          "after": ".",
+          "options": [
+            {
+              "value": "470"
+            },
+            {
+              "value": "480"
+            },
+            {
+              "value": "500"
+            },
+            {
+              "value": "520"
+            }
+          ]
+        }
+      ]
+    },
+    "correctAnswer": {
+      "format": "dropdowns",
+      "value": {
+        "b1": "Jul",
+        "b2": "500"
+      }
+    },
+    "explanation": "Jul is highest at 150. Total $= 120 + 90 + 150 + 140 = 500$.",
+    "estimatedTimeSeconds": 120,
+    "answerCheck": "answer.b1==='Jul' && answer.b2===String(sum(data.map(d=>d.subs)))"
+  },
+  {
+    "id": "g7-gi-06",
+    "section": "data_insights",
+    "type": "graphics_interpretation",
+    "topic": "graphics interpretation",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "stem": "The bar chart shows the number of tickets sold for four films on opening night. Use the drop-down menus to complete the statements consistent with the data.",
+    "assets": {
+      "chart": {
+        "type": "bar",
+        "title": "Opening-night tickets",
+        "xKey": "film",
+        "xLabel": "Film",
+        "yLabel": "Tickets",
+        "series": [
+          {
+            "key": "tickets",
+            "label": "Tickets"
+          }
+        ],
+        "data": [
+          {
+            "film": "Alpha",
+            "tickets": 320
+          },
+          {
+            "film": "Beta",
+            "tickets": 450
+          },
+          {
+            "film": "Gamma",
+            "tickets": 280
+          },
+          {
+            "film": "Delta",
+            "tickets": 510
+          }
+        ]
+      },
+      "dropdowns": [
+        {
+          "key": "b1",
+          "before": "The film that sold the most tickets was ",
+          "after": ".",
+          "options": [
+            {
+              "value": "Alpha"
+            },
+            {
+              "value": "Beta"
+            },
+            {
+              "value": "Gamma"
+            },
+            {
+              "value": "Delta"
+            }
+          ]
+        },
+        {
+          "key": "b2",
+          "before": "Delta sold more tickets than Gamma by ",
+          "after": ".",
+          "options": [
+            {
+              "value": "190"
+            },
+            {
+              "value": "210"
+            },
+            {
+              "value": "230"
+            },
+            {
+              "value": "250"
+            }
+          ]
+        }
+      ]
+    },
+    "correctAnswer": {
+      "format": "dropdowns",
+      "value": {
+        "b1": "Delta",
+        "b2": "230"
+      }
+    },
+    "explanation": "Delta is highest at 510. Delta minus Gamma $= 510 - 280 = 230$.",
+    "estimatedTimeSeconds": 120,
+    "answerCheck": "answer.b1==='Delta' && answer.b2===String((data.find(d=>d.film==='Delta').tickets)-(data.find(d=>d.film==='Gamma').tickets))"
+  },
+  {
+    "id": "g7-gi-07",
+    "section": "data_insights",
+    "type": "graphics_interpretation",
+    "topic": "graphics interpretation",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "The line graph shows a company headcount at the end of each of five years. Use the drop-down menus to complete the statements consistent with the data.",
+    "assets": {
+      "chart": {
+        "type": "line",
+        "title": "Year-end headcount",
+        "xKey": "year",
+        "xLabel": "Year",
+        "yLabel": "Employees",
+        "series": [
+          {
+            "key": "count",
+            "label": "Employees"
+          }
+        ],
+        "data": [
+          {
+            "year": "Y1",
+            "count": 200
+          },
+          {
+            "year": "Y2",
+            "count": 240
+          },
+          {
+            "year": "Y3",
+            "count": 210
+          },
+          {
+            "year": "Y4",
+            "count": 300
+          },
+          {
+            "year": "Y5",
+            "count": 330
+          }
+        ]
+      },
+      "dropdowns": [
+        {
+          "key": "b1",
+          "before": "The year with the largest headcount was ",
+          "after": ".",
+          "options": [
+            {
+              "value": "Y2"
+            },
+            {
+              "value": "Y3"
+            },
+            {
+              "value": "Y4"
+            },
+            {
+              "value": "Y5"
+            }
+          ]
+        },
+        {
+          "key": "b2",
+          "before": "From Y1 to Y5 the headcount grew by ",
+          "after": " employees.",
+          "options": [
+            {
+              "value": "100"
+            },
+            {
+              "value": "110"
+            },
+            {
+              "value": "120"
+            },
+            {
+              "value": "130"
+            }
+          ]
+        }
+      ]
+    },
+    "correctAnswer": {
+      "format": "dropdowns",
+      "value": {
+        "b1": "Y5",
+        "b2": "130"
+      }
+    },
+    "explanation": "Y5 is largest at 330. Growth from Y1 to Y5 $= 330 - 200 = 130$.",
+    "estimatedTimeSeconds": 120,
+    "answerCheck": "answer.b1==='Y5' && answer.b2===String((data[data.length-1].count)-(data[0].count))"
+  },
+  {
+    "id": "g7-gi-08",
+    "section": "data_insights",
+    "type": "graphics_interpretation",
+    "topic": "graphics interpretation",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "stem": "The scatter plot shows, for five price points, the weekly units demanded. Use the drop-down menus to complete the statements consistent with the data.",
+    "assets": {
+      "chart": {
+        "type": "scatter",
+        "title": "Price vs. weekly demand",
+        "xKey": "price",
+        "xLabel": "Price",
+        "yLabel": "Units",
+        "series": [
+          {
+            "key": "units",
+            "label": "Units"
+          }
+        ],
+        "data": [
+          {
+            "price": 10,
+            "units": 200
+          },
+          {
+            "price": 15,
+            "units": 170
+          },
+          {
+            "price": 20,
+            "units": 150
+          },
+          {
+            "price": 25,
+            "units": 110
+          },
+          {
+            "price": 30,
+            "units": 90
+          }
+        ]
+      },
+      "dropdowns": [
+        {
+          "key": "b1",
+          "before": "At the lowest price shown, weekly demand was ",
+          "after": " units.",
+          "options": [
+            {
+              "value": "150"
+            },
+            {
+              "value": "170"
+            },
+            {
+              "value": "200"
+            },
+            {
+              "value": "210"
+            }
+          ]
+        },
+        {
+          "key": "b2",
+          "before": "The number of price points at which demand was below 160 units was ",
+          "after": ".",
+          "options": [
+            {
+              "value": "1"
+            },
+            {
+              "value": "2"
+            },
+            {
+              "value": "3"
+            },
+            {
+              "value": "4"
+            }
+          ]
+        }
+      ]
+    },
+    "correctAnswer": {
+      "format": "dropdowns",
+      "value": {
+        "b1": "200",
+        "b2": "3"
+      }
+    },
+    "explanation": "The lowest price, 10, corresponds to demand of 200 units. Demand below 160 occurs at 150, 110, 90 — that is 3 price points.",
+    "estimatedTimeSeconds": 120,
+    "answerCheck": "answer.b1==='200' && answer.b2===String(count(data,d=>d.units<160))"
+  },
+  {
+    "id": "g7-ta-01",
+    "section": "data_insights",
+    "type": "table_analysis",
+    "topic": "table analysis",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "The table lists weather data for four cities on one day. For each statement, select True if it can be determined to be true from the data, and False otherwise.",
+    "assets": {
+      "table": {
+        "sortable": true,
+        "caption": "City weather summary",
+        "columns": [
+          {
+            "key": "city",
+            "label": "City"
+          },
+          {
+            "key": "high",
+            "label": "High temp (C)",
+            "numeric": true
+          },
+          {
+            "key": "low",
+            "label": "Low temp (C)",
+            "numeric": true
+          },
+          {
+            "key": "rain",
+            "label": "Rain (mm)",
+            "numeric": true
+          }
+        ],
+        "rows": [
+          {
+            "city": "Aldon",
+            "high": 28,
+            "low": 14,
+            "rain": 5
+          },
+          {
+            "city": "Brale",
+            "high": 22,
+            "low": 16,
+            "rain": 30
+          },
+          {
+            "city": "Corin",
+            "high": 31,
+            "low": 19,
+            "rain": 0
+          },
+          {
+            "city": "Dunes",
+            "high": 19,
+            "low": 9,
+            "rain": 12
+          }
+        ]
+      },
+      "dichotomous": {
+        "labels": [
+          "True",
+          "False"
+        ]
+      }
+    },
+    "choices": [
+      {
+        "key": "s1",
+        "text": "Corin had the highest recorded high temperature."
+      },
+      {
+        "key": "s2",
+        "text": "Every city had a daily temperature range (high minus low) of at least 10 degrees."
+      },
+      {
+        "key": "s3",
+        "text": "The city with the most rain also had the lowest high temperature."
+      }
+    ],
+    "correctAnswer": {
+      "format": "dichotomous",
+      "value": {
+        "s1": "True",
+        "s2": "False",
+        "s3": "False"
+      }
+    },
+    "explanation": "s1 — True. Corin's high of 31 is the greatest among 28, 22, 31, 19.\n\ns2 — False. The ranges are 14, 6, 12, and 10; Brale's range is only 6, which is below 10.\n\ns3 — False. Brale had the most rain (30 mm), but the lowest high temperature was Dunes' 19, not Brale's 22.",
+    "estimatedTimeSeconds": 165,
+    "answerCheck": "answer.s1==='True' && answer.s2==='False' && answer.s3==='False'"
+  },
+  {
+    "id": "g7-ta-02",
+    "section": "data_insights",
+    "type": "table_analysis",
+    "topic": "table analysis",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "The table lists Q1 and Q2 revenue, in thousands, for four regions. For each statement, select True if it can be determined to be true from the data, and False otherwise.",
+    "assets": {
+      "table": {
+        "sortable": true,
+        "caption": "Quarterly revenue by region (thousands)",
+        "columns": [
+          {
+            "key": "region",
+            "label": "Region"
+          },
+          {
+            "key": "q1",
+            "label": "Q1",
+            "numeric": true
+          },
+          {
+            "key": "q2",
+            "label": "Q2",
+            "numeric": true
+          }
+        ],
+        "rows": [
+          {
+            "region": "North",
+            "q1": 120,
+            "q2": 140
+          },
+          {
+            "region": "South",
+            "q1": 95,
+            "q2": 90
+          },
+          {
+            "region": "East",
+            "q1": 110,
+            "q2": 130
+          },
+          {
+            "region": "West",
+            "q1": 80,
+            "q2": 105
+          }
+        ]
+      },
+      "dichotomous": {
+        "labels": [
+          "True",
+          "False"
+        ]
+      }
+    },
+    "choices": [
+      {
+        "key": "s1",
+        "text": "Every region except South had higher revenue in Q2 than in Q1."
+      },
+      {
+        "key": "s2",
+        "text": "North had the highest Q2 revenue."
+      },
+      {
+        "key": "s3",
+        "text": "Total Q1 revenue across all regions exceeded 400."
+      }
+    ],
+    "correctAnswer": {
+      "format": "dichotomous",
+      "value": {
+        "s1": "True",
+        "s2": "True",
+        "s3": "True"
+      }
+    },
+    "explanation": "s1 — True. North (140 > 120), East (130 > 110), and West (105 > 80) all rose; South is excluded.\n\ns2 — True. The Q2 figures are 140, 90, 130, and 105; North's 140 is the largest.\n\ns3 — True. Q1 total $= 120 + 95 + 110 + 80 = 405$, which exceeds 400.",
+    "estimatedTimeSeconds": 165,
+    "answerCheck": "answer.s1==='True' && answer.s2==='True' && answer.s3==='True'"
+  },
+  {
+    "id": "g7-ta-03",
+    "section": "data_insights",
+    "type": "table_analysis",
+    "topic": "table analysis",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "stem": "The table lists five employees. For each statement, select True if it can be determined to be true from the data, and False otherwise.",
+    "assets": {
+      "table": {
+        "sortable": true,
+        "caption": "Employee records",
+        "columns": [
+          {
+            "key": "name",
+            "label": "Employee"
+          },
+          {
+            "key": "dept",
+            "label": "Department"
+          },
+          {
+            "key": "salary",
+            "label": "Salary",
+            "numeric": true
+          },
+          {
+            "key": "years",
+            "label": "Years",
+            "numeric": true
+          }
+        ],
+        "rows": [
+          {
+            "name": "Ng",
+            "dept": "Sales",
+            "salary": 58000,
+            "years": 4
+          },
+          {
+            "name": "Oji",
+            "dept": "Engineering",
+            "salary": 92000,
+            "years": 7
+          },
+          {
+            "name": "Park",
+            "dept": "Sales",
+            "salary": 67000,
+            "years": 9
+          },
+          {
+            "name": "Reyes",
+            "dept": "Engineering",
+            "salary": 81000,
+            "years": 5
+          },
+          {
+            "name": "Sato",
+            "dept": "Marketing",
+            "salary": 70000,
+            "years": 6
+          }
+        ]
+      },
+      "dichotomous": {
+        "labels": [
+          "True",
+          "False"
+        ]
+      }
+    },
+    "choices": [
+      {
+        "key": "s1",
+        "text": "The highest-paid employee works in Engineering."
+      },
+      {
+        "key": "s2",
+        "text": "Every Sales employee has been with the company longer than every Engineering employee."
+      },
+      {
+        "key": "s3",
+        "text": "The average salary of the two Engineering employees exceeds 85000."
+      }
+    ],
+    "correctAnswer": {
+      "format": "dichotomous",
+      "value": {
+        "s1": "True",
+        "s2": "False",
+        "s3": "True"
+      }
+    },
+    "explanation": "s1 — True. The top salary, 92000, belongs to Oji in Engineering.\n\ns2 — False. Ng (Sales) has 4 years, fewer than Oji (Engineering) with 7 years, so the claim about every Sales employee fails.\n\ns3 — True. The Engineering average is $(92000 + 81000)/2 = 86500$, which exceeds 85000.",
+    "estimatedTimeSeconds": 165,
+    "answerCheck": "answer.s1==='True' && answer.s2==='False' && answer.s3==='True'"
+  },
+  {
+    "id": "g7-ta-04",
+    "section": "data_insights",
+    "type": "table_analysis",
+    "topic": "table analysis",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "The table lists four products with their unit price and units in stock. For each statement, select True if it can be determined to be true from the data, and False otherwise.",
+    "assets": {
+      "table": {
+        "sortable": true,
+        "caption": "Product inventory",
+        "columns": [
+          {
+            "key": "product",
+            "label": "Product"
+          },
+          {
+            "key": "price",
+            "label": "Price",
+            "numeric": true
+          },
+          {
+            "key": "stock",
+            "label": "Units in stock",
+            "numeric": true
+          }
+        ],
+        "rows": [
+          {
+            "product": "Widget",
+            "price": 12,
+            "stock": 300
+          },
+          {
+            "product": "Gadget",
+            "price": 25,
+            "stock": 80
+          },
+          {
+            "product": "Gizmo",
+            "price": 18,
+            "stock": 150
+          },
+          {
+            "product": "Doohickey",
+            "price": 9,
+            "stock": 420
+          }
+        ]
+      },
+      "dichotomous": {
+        "labels": [
+          "True",
+          "False"
+        ]
+      }
+    },
+    "choices": [
+      {
+        "key": "s1",
+        "text": "The product with the highest price has the fewest units in stock."
+      },
+      {
+        "key": "s2",
+        "text": "The total retail value of the Widget stock exceeds that of the Gadget stock."
+      },
+      {
+        "key": "s3",
+        "text": "More than half of all units in stock are Doohickeys."
+      }
+    ],
+    "correctAnswer": {
+      "format": "dichotomous",
+      "value": {
+        "s1": "True",
+        "s2": "True",
+        "s3": "False"
+      }
+    },
+    "explanation": "s1 — True. Gadget has the highest price (25) and the fewest units (80).\n\ns2 — True. Widget value $= 12 \\times 300 = 3600$ exceeds Gadget value $= 25 \\times 80 = 2000$.\n\ns3 — False. Total stock $= 950$; half is 475, and Doohickeys number only 420.",
+    "estimatedTimeSeconds": 165,
+    "answerCheck": "answer.s1==='True' && answer.s2==='True' && answer.s3==='False'"
+  },
+  {
+    "id": "g7-ta-05",
+    "section": "data_insights",
+    "type": "table_analysis",
+    "topic": "table analysis",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "The table lists five marathon finishers with their age and finish time in minutes. For each statement, select True if it can be determined to be true from the data, and False otherwise.",
+    "assets": {
+      "table": {
+        "sortable": true,
+        "caption": "Marathon finishers",
+        "columns": [
+          {
+            "key": "runner",
+            "label": "Runner"
+          },
+          {
+            "key": "age",
+            "label": "Age",
+            "numeric": true
+          },
+          {
+            "key": "minutes",
+            "label": "Finish time (min)",
+            "numeric": true
+          }
+        ],
+        "rows": [
+          {
+            "runner": "Tana",
+            "age": 24,
+            "minutes": 210
+          },
+          {
+            "runner": "Uri",
+            "age": 38,
+            "minutes": 195
+          },
+          {
+            "runner": "Vee",
+            "age": 29,
+            "minutes": 240
+          },
+          {
+            "runner": "Wynn",
+            "age": 45,
+            "minutes": 228
+          },
+          {
+            "runner": "Xan",
+            "age": 31,
+            "minutes": 205
+          }
+        ]
+      },
+      "dichotomous": {
+        "labels": [
+          "True",
+          "False"
+        ]
+      }
+    },
+    "choices": [
+      {
+        "key": "s1",
+        "text": "The fastest finisher was the oldest runner."
+      },
+      {
+        "key": "s2",
+        "text": "No runner under 30 finished in under 205 minutes."
+      },
+      {
+        "key": "s3",
+        "text": "The slowest finisher took more than 30 minutes longer than the fastest finisher."
+      }
+    ],
+    "correctAnswer": {
+      "format": "dichotomous",
+      "value": {
+        "s1": "False",
+        "s2": "True",
+        "s3": "True"
+      }
+    },
+    "explanation": "s1 — False. The fastest time, 195 minutes, was Uri (age 38), but the oldest runner is Wynn (age 45).\n\ns2 — True. Runners under 30 are Tana (210) and Vee (240); neither finished in under 205 minutes.\n\ns3 — True. The slowest time is 240 and the fastest is 195; the gap is 45 minutes, more than 30.",
+    "estimatedTimeSeconds": 165,
+    "answerCheck": "answer.s1==='False' && answer.s2==='True' && answer.s3==='True'"
+  },
+  {
+    "id": "g7-ta-06",
+    "section": "data_insights",
+    "type": "table_analysis",
+    "topic": "table analysis",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "The table lists four school clubs with their membership and number of meetings per month. For each statement, select True if it can be determined to be true from the data, and False otherwise.",
+    "assets": {
+      "table": {
+        "sortable": true,
+        "caption": "School club membership",
+        "columns": [
+          {
+            "key": "club",
+            "label": "Club"
+          },
+          {
+            "key": "members",
+            "label": "Members",
+            "numeric": true
+          },
+          {
+            "key": "meetings",
+            "label": "Meetings per month",
+            "numeric": true
+          }
+        ],
+        "rows": [
+          {
+            "club": "Chess",
+            "members": 18,
+            "meetings": 4
+          },
+          {
+            "club": "Drama",
+            "members": 32,
+            "meetings": 8
+          },
+          {
+            "club": "Robotics",
+            "members": 24,
+            "meetings": 6
+          },
+          {
+            "club": "Debate",
+            "members": 15,
+            "meetings": 2
+          }
+        ]
+      },
+      "dichotomous": {
+        "labels": [
+          "True",
+          "False"
+        ]
+      }
+    },
+    "choices": [
+      {
+        "key": "s1",
+        "text": "Drama has the most members."
+      },
+      {
+        "key": "s2",
+        "text": "The club with the fewest members meets least often."
+      },
+      {
+        "key": "s3",
+        "text": "Robotics has exactly twice as many members as Debate."
+      }
+    ],
+    "correctAnswer": {
+      "format": "dichotomous",
+      "value": {
+        "s1": "True",
+        "s2": "True",
+        "s3": "False"
+      }
+    },
+    "explanation": "s1 — True. Drama's 32 members is the largest of 18, 32, 24, and 15.\n\ns2 — True. Debate has the fewest members (15) and also the fewest meetings (2 per month).\n\ns3 — False. Twice Debate's 15 would be 30, but Robotics has 24 members.",
+    "estimatedTimeSeconds": 165,
+    "answerCheck": "answer.s1==='True' && answer.s2==='True' && answer.s3==='False'"
+  },
+  {
+    "id": "g7-ta-07",
+    "section": "data_insights",
+    "type": "table_analysis",
+    "topic": "table analysis",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "stem": "The table lists four loans with principal, annual simple-interest rate, and term. For each statement, select True if it can be determined to be true from the data, and False otherwise.",
+    "assets": {
+      "table": {
+        "sortable": true,
+        "caption": "Loan portfolio",
+        "columns": [
+          {
+            "key": "loan",
+            "label": "Loan"
+          },
+          {
+            "key": "principal",
+            "label": "Principal",
+            "numeric": true
+          },
+          {
+            "key": "rate",
+            "label": "Annual rate (%)",
+            "numeric": true
+          },
+          {
+            "key": "term",
+            "label": "Term (years)",
+            "numeric": true
+          }
+        ],
+        "rows": [
+          {
+            "loan": "L1",
+            "principal": 10000,
+            "rate": 5,
+            "term": 3
+          },
+          {
+            "loan": "L2",
+            "principal": 8000,
+            "rate": 6,
+            "term": 5
+          },
+          {
+            "loan": "L3",
+            "principal": 15000,
+            "rate": 4,
+            "term": 2
+          },
+          {
+            "loan": "L4",
+            "principal": 5000,
+            "rate": 8,
+            "term": 4
+          }
+        ]
+      },
+      "dichotomous": {
+        "labels": [
+          "True",
+          "False"
+        ]
+      }
+    },
+    "choices": [
+      {
+        "key": "s1",
+        "text": "L3 has the largest principal."
+      },
+      {
+        "key": "s2",
+        "text": "L2 accrues more total simple interest over its term than L1 does over its term."
+      },
+      {
+        "key": "s3",
+        "text": "The loan with the highest interest rate also has the largest principal."
+      }
+    ],
+    "correctAnswer": {
+      "format": "dichotomous",
+      "value": {
+        "s1": "True",
+        "s2": "True",
+        "s3": "False"
+      }
+    },
+    "explanation": "s1 — True. L3's principal of 15000 is the largest.\n\ns2 — True. Simple interest is principal times rate times term over 100: L2 gives $8000 \\times 6 \\times 5 / 100 = 2400$, while L1 gives $10000 \\times 5 \\times 3 / 100 = 1500$.\n\ns3 — False. The highest rate is L4's 8 percent, but its principal (5000) is the smallest, not the largest.",
+    "estimatedTimeSeconds": 165,
+    "answerCheck": "answer.s1==='True' && answer.s2==='True' && answer.s3==='False'"
+  },
+  {
+    "id": "g7-ta-08",
+    "section": "data_insights",
+    "type": "table_analysis",
+    "topic": "table analysis",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "The table lists covers served and staff on shift for five nights. For each statement, select True if it can be determined to be true from the data, and False otherwise.",
+    "assets": {
+      "table": {
+        "sortable": true,
+        "caption": "Restaurant nightly covers",
+        "columns": [
+          {
+            "key": "day",
+            "label": "Day"
+          },
+          {
+            "key": "covers",
+            "label": "Covers",
+            "numeric": true
+          },
+          {
+            "key": "staff",
+            "label": "Staff on shift",
+            "numeric": true
+          }
+        ],
+        "rows": [
+          {
+            "day": "Tue",
+            "covers": 60,
+            "staff": 4
+          },
+          {
+            "day": "Wed",
+            "covers": 75,
+            "staff": 5
+          },
+          {
+            "day": "Thu",
+            "covers": 90,
+            "staff": 5
+          },
+          {
+            "day": "Fri",
+            "covers": 140,
+            "staff": 7
+          },
+          {
+            "day": "Sat",
+            "covers": 160,
+            "staff": 8
+          }
+        ]
+      },
+      "dichotomous": {
+        "labels": [
+          "True",
+          "False"
+        ]
+      }
+    },
+    "choices": [
+      {
+        "key": "s1",
+        "text": "Saturday served the most covers."
+      },
+      {
+        "key": "s2",
+        "text": "On every night, the number of covers per staff member was at least 15."
+      },
+      {
+        "key": "s3",
+        "text": "Friday and Saturday together accounted for more than half of the week's covers."
+      }
+    ],
+    "correctAnswer": {
+      "format": "dichotomous",
+      "value": {
+        "s1": "True",
+        "s2": "True",
+        "s3": "True"
+      }
+    },
+    "explanation": "s1 — True. Saturday's 160 covers is the most.\n\ns2 — True. Covers per staff are 15, 15, 18, 20, and 20 — each at least 15.\n\ns3 — True. Total covers $= 525$; Friday and Saturday together are $140 + 160 = 300$, which is more than half (262.5).",
+    "estimatedTimeSeconds": 165,
+    "answerCheck": "answer.s1==='True' && answer.s2==='True' && answer.s3==='True'"
+  },
+  {
+    "id": "g7-tp-01",
+    "section": "data_insights",
+    "type": "two_part_analysis",
+    "topic": "two-part analysis",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "Two numbers $x$ and $y$ satisfy $x + y = 16$ and $x - y = 4$. In the table, select the value of $x$ and the value of $y$. Make exactly one selection in each column.",
+    "assets": {
+      "twoPart": {
+        "columns": [
+          {
+            "key": "partX",
+            "label": "Value of x"
+          },
+          {
+            "key": "partY",
+            "label": "Value of y"
+          }
+        ]
+      }
+    },
+    "choices": [
+      {
+        "key": "r1",
+        "text": "4"
+      },
+      {
+        "key": "r2",
+        "text": "6"
+      },
+      {
+        "key": "r3",
+        "text": "8"
+      },
+      {
+        "key": "r4",
+        "text": "10"
+      },
+      {
+        "key": "r5",
+        "text": "12"
+      }
+    ],
+    "correctAnswer": {
+      "format": "two_part",
+      "value": {
+        "partX": "r4",
+        "partY": "r2"
+      }
+    },
+    "explanation": "Adding the equations: $2x = 20$, so $x = 10$. Then $y = 16 - 10 = 6$.",
+    "estimatedTimeSeconds": 120,
+    "answerCheck": "answer.partX==='r4' && answer.partY==='r2'"
+  },
+  {
+    "id": "g7-tp-02",
+    "section": "data_insights",
+    "type": "two_part_analysis",
+    "topic": "two-part analysis",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "A store sells pens at a fixed unit price. Buying 3 pens costs 12. In the table, select the unit price of one pen and the cost of 5 pens. Make exactly one selection in each column.",
+    "assets": {
+      "twoPart": {
+        "columns": [
+          {
+            "key": "partX",
+            "label": "Price of one pen"
+          },
+          {
+            "key": "partY",
+            "label": "Cost of 5 pens"
+          }
+        ]
+      }
+    },
+    "choices": [
+      {
+        "key": "r1",
+        "text": "4"
+      },
+      {
+        "key": "r2",
+        "text": "8"
+      },
+      {
+        "key": "r3",
+        "text": "15"
+      },
+      {
+        "key": "r4",
+        "text": "20"
+      },
+      {
+        "key": "r5",
+        "text": "25"
+      }
+    ],
+    "correctAnswer": {
+      "format": "two_part",
+      "value": {
+        "partX": "r1",
+        "partY": "r4"
+      }
+    },
+    "explanation": "The unit price is $12 / 3 = 4$. Five pens then cost $5 \\times 4 = 20$.",
+    "estimatedTimeSeconds": 120,
+    "answerCheck": "answer.partX==='r1' && answer.partY==='r4'"
+  },
+  {
+    "id": "g7-tp-03",
+    "section": "data_insights",
+    "type": "two_part_analysis",
+    "topic": "two-part analysis",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "A rectangle has perimeter 30 and length 9. In the table, select the width of the rectangle and the area of the rectangle. Make exactly one selection in each column.",
+    "assets": {
+      "twoPart": {
+        "columns": [
+          {
+            "key": "partX",
+            "label": "Width"
+          },
+          {
+            "key": "partY",
+            "label": "Area"
+          }
+        ]
+      }
+    },
+    "choices": [
+      {
+        "key": "r1",
+        "text": "6"
+      },
+      {
+        "key": "r2",
+        "text": "9"
+      },
+      {
+        "key": "r3",
+        "text": "12"
+      },
+      {
+        "key": "r4",
+        "text": "54"
+      },
+      {
+        "key": "r5",
+        "text": "63"
+      }
+    ],
+    "correctAnswer": {
+      "format": "two_part",
+      "value": {
+        "partX": "r1",
+        "partY": "r4"
+      }
+    },
+    "explanation": "From $2(9 + W) = 30$, we get $9 + W = 15$, so $W = 6$. The area is $9 \\times 6 = 54$.",
+    "estimatedTimeSeconds": 120,
+    "answerCheck": "answer.partX==='r1' && answer.partY==='r4'"
+  },
+  {
+    "id": "g7-tp-04",
+    "section": "data_insights",
+    "type": "two_part_analysis",
+    "topic": "two-part analysis",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "stem": "A two-digit number has digits that sum to 9, and the tens digit is twice the units digit. In the table, select the tens digit and the units digit. Make exactly one selection in each column.",
+    "assets": {
+      "twoPart": {
+        "columns": [
+          {
+            "key": "partX",
+            "label": "Tens digit"
+          },
+          {
+            "key": "partY",
+            "label": "Units digit"
+          }
+        ]
+      }
+    },
+    "choices": [
+      {
+        "key": "r1",
+        "text": "2"
+      },
+      {
+        "key": "r2",
+        "text": "3"
+      },
+      {
+        "key": "r3",
+        "text": "4"
+      },
+      {
+        "key": "r4",
+        "text": "5"
+      },
+      {
+        "key": "r5",
+        "text": "6"
+      }
+    ],
+    "correctAnswer": {
+      "format": "two_part",
+      "value": {
+        "partX": "r5",
+        "partY": "r2"
+      }
+    },
+    "explanation": "Let the units digit be $u$. Then the tens digit is $2u$, and $2u + u = 9$ gives $u = 3$. The tens digit is $2 \\times 3 = 6$.",
+    "estimatedTimeSeconds": 120,
+    "answerCheck": "answer.partX==='r5' && answer.partY==='r2'"
+  },
+  {
+    "id": "g7-tp-05",
+    "section": "data_insights",
+    "type": "two_part_analysis",
+    "topic": "two-part analysis",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "A train travels at a constant speed and covers 180 miles in 3 hours. In the table, select the train's speed in miles per hour and the distance it covers in 5 hours. Make exactly one selection in each column.",
+    "assets": {
+      "twoPart": {
+        "columns": [
+          {
+            "key": "partX",
+            "label": "Speed (mph)"
+          },
+          {
+            "key": "partY",
+            "label": "Distance in 5 hours"
+          }
+        ]
+      }
+    },
+    "choices": [
+      {
+        "key": "r1",
+        "text": "45"
+      },
+      {
+        "key": "r2",
+        "text": "60"
+      },
+      {
+        "key": "r3",
+        "text": "240"
+      },
+      {
+        "key": "r4",
+        "text": "300"
+      },
+      {
+        "key": "r5",
+        "text": "360"
+      }
+    ],
+    "correctAnswer": {
+      "format": "two_part",
+      "value": {
+        "partX": "r2",
+        "partY": "r4"
+      }
+    },
+    "explanation": "The speed is $180 / 3 = 60$ mph. In 5 hours it covers $60 \\times 5 = 300$ miles.",
+    "estimatedTimeSeconds": 120,
+    "answerCheck": "answer.partX==='r2' && answer.partY==='r4'"
+  },
+  {
+    "id": "g7-tp-06",
+    "section": "data_insights",
+    "type": "two_part_analysis",
+    "topic": "two-part analysis",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "A jacket priced at 80 is reduced by 25 percent. In the table, select the amount of the discount and the new sale price. Make exactly one selection in each column.",
+    "assets": {
+      "twoPart": {
+        "columns": [
+          {
+            "key": "partX",
+            "label": "Discount amount"
+          },
+          {
+            "key": "partY",
+            "label": "Sale price"
+          }
+        ]
+      }
+    },
+    "choices": [
+      {
+        "key": "r1",
+        "text": "16"
+      },
+      {
+        "key": "r2",
+        "text": "20"
+      },
+      {
+        "key": "r3",
+        "text": "55"
+      },
+      {
+        "key": "r4",
+        "text": "60"
+      },
+      {
+        "key": "r5",
+        "text": "64"
+      }
+    ],
+    "correctAnswer": {
+      "format": "two_part",
+      "value": {
+        "partX": "r2",
+        "partY": "r4"
+      }
+    },
+    "explanation": "The discount is $0.25 \\times 80 = 20$. The sale price is $80 - 20 = 60$.",
+    "estimatedTimeSeconds": 120,
+    "answerCheck": "answer.partX==='r2' && answer.partY==='r4'"
+  },
+  {
+    "id": "g7-tp-07",
+    "section": "data_insights",
+    "type": "two_part_analysis",
+    "topic": "two-part analysis",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "stem": "The average of three numbers is 20. Two of the numbers are 14 and 22. In the table, select the sum of all three numbers and the value of the third number. Make exactly one selection in each column.",
+    "assets": {
+      "twoPart": {
+        "columns": [
+          {
+            "key": "partX",
+            "label": "Sum of the three"
+          },
+          {
+            "key": "partY",
+            "label": "Third number"
+          }
+        ]
+      }
+    },
+    "choices": [
+      {
+        "key": "r1",
+        "text": "18"
+      },
+      {
+        "key": "r2",
+        "text": "24"
+      },
+      {
+        "key": "r3",
+        "text": "36"
+      },
+      {
+        "key": "r4",
+        "text": "56"
+      },
+      {
+        "key": "r5",
+        "text": "60"
+      }
+    ],
+    "correctAnswer": {
+      "format": "two_part",
+      "value": {
+        "partX": "r5",
+        "partY": "r2"
+      }
+    },
+    "explanation": "The sum is $3 \\times 20 = 60$. The third number is $60 - (14 + 22) = 60 - 36 = 24$.",
+    "estimatedTimeSeconds": 120,
+    "answerCheck": "answer.partX==='r5' && answer.partY==='r2'"
+  },
+  {
+    "id": "g7-tp-08",
+    "section": "data_insights",
+    "type": "two_part_analysis",
+    "topic": "two-part analysis",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "A number $n$ satisfies $3n - 5 = 16$. In the table, select the value of $n$ and the value of $n^{2}$. Make exactly one selection in each column.",
+    "assets": {
+      "twoPart": {
+        "columns": [
+          {
+            "key": "partX",
+            "label": "Value of n"
+          },
+          {
+            "key": "partY",
+            "label": "Value of n squared"
+          }
+        ]
+      }
+    },
+    "choices": [
+      {
+        "key": "r1",
+        "text": "5"
+      },
+      {
+        "key": "r2",
+        "text": "7"
+      },
+      {
+        "key": "r3",
+        "text": "21"
+      },
+      {
+        "key": "r4",
+        "text": "36"
+      },
+      {
+        "key": "r5",
+        "text": "49"
+      }
+    ],
+    "correctAnswer": {
+      "format": "two_part",
+      "value": {
+        "partX": "r2",
+        "partY": "r5"
+      }
+    },
+    "explanation": "From $3n - 5 = 16$, $3n = 21$, so $n = 7$. Then $n^{2} = 49$.",
+    "estimatedTimeSeconds": 120,
+    "answerCheck": "answer.partX==='r2' && answer.partY==='r5'"
+  },
+  {
+    "id": "g7-msr-01",
+    "section": "data_insights",
+    "type": "multi_source_reasoning",
+    "topic": "multi-source reasoning",
+    "difficulty": "medium",
+    "groupId": "g7-msr-grp-1",
+    "orderIndex": 1,
+    "stem": "An employee booked airfare of 400 only 10 days before an approved domestic conference. Based on the sources, how much of the airfare will be reimbursed?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "0"
+      },
+      {
+        "key": "B",
+        "text": "100"
+      },
+      {
+        "key": "C",
+        "text": "300"
+      },
+      {
+        "key": "D",
+        "text": "350"
+      },
+      {
+        "key": "E",
+        "text": "400"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "The booking was made fewer than 14 days in advance, so airfare is reimbursed at 75 percent: $0.75 \\times 400 = 300$.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g7-msr-02",
+    "section": "data_insights",
+    "type": "multi_source_reasoning",
+    "topic": "multi-source reasoning",
+    "difficulty": "medium",
+    "groupId": "g7-msr-grp-1",
+    "orderIndex": 2,
+    "stem": "An employee attends a 3-day approved conference, staying 3 nights in a hotel costing 200 per night, and claims meals for all 3 full days. Based on the sources, what is the total reimbursement for lodging and meals combined?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "720"
+      },
+      {
+        "key": "B",
+        "text": "660"
+      },
+      {
+        "key": "C",
+        "text": "780"
+      },
+      {
+        "key": "D",
+        "text": "840"
+      },
+      {
+        "key": "E",
+        "text": "900"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "Lodging is capped at 180 per night, so 3 nights give $180 \\times 3 = 540$ (the 200 rate is reduced to the cap). Meals are $60 \\times 3 = 180$. The combined total is $540 + 180 = 720$.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g7-msr-03",
+    "section": "data_insights",
+    "type": "multi_source_reasoning",
+    "topic": "multi-source reasoning",
+    "difficulty": "hard",
+    "groupId": "g7-msr-grp-1",
+    "orderIndex": 3,
+    "stem": "Based on the two sources, select Yes if the statement must be true and No otherwise.",
+    "assets": {
+      "dichotomous": {
+        "labels": [
+          "Yes",
+          "No"
+        ]
+      }
+    },
+    "choices": [
+      {
+        "key": "s1",
+        "text": "An approval request submitted 5 days before a conference start date would be denied."
+      },
+      {
+        "key": "s2",
+        "text": "An employee may file a reimbursement claim 45 days after returning from the conference."
+      },
+      {
+        "key": "s3",
+        "text": "Attending an international conference requires director sign-off in addition to manager approval."
+      }
+    ],
+    "correctAnswer": {
+      "format": "dichotomous",
+      "value": {
+        "s1": "Yes",
+        "s2": "No",
+        "s3": "Yes"
+      }
+    },
+    "explanation": "**s1 — Yes.** Approval requests submitted fewer than 7 days before the start date are automatically denied, and 5 is fewer than 7.\n\n**s2 — No.** Claims must be filed within 30 days of returning; 45 days exceeds that window.\n\n**s3 — Yes.** International conferences require director sign-off in addition to the standard manager approval.",
+    "estimatedTimeSeconds": 165
+  },
+  {
+    "id": "g7-msr-04",
+    "section": "data_insights",
+    "type": "multi_source_reasoning",
+    "topic": "multi-source reasoning",
+    "difficulty": "easy",
+    "groupId": "g7-msr-grp-2",
+    "orderIndex": 1,
+    "stem": "Based on the sources, how many of the garden's 40 plots are standard (non-large) plots?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "6"
+      },
+      {
+        "key": "B",
+        "text": "12"
+      },
+      {
+        "key": "C",
+        "text": "28"
+      },
+      {
+        "key": "D",
+        "text": "34"
+      },
+      {
+        "key": "E",
+        "text": "40"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "D"
+    },
+    "explanation": "There are 40 plots in total and 6 large plots, so the standard plots number $40 - 6 = 34$.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g7-msr-05",
+    "section": "data_insights",
+    "type": "multi_source_reasoning",
+    "topic": "multi-source reasoning",
+    "difficulty": "medium",
+    "groupId": "g7-msr-grp-2",
+    "orderIndex": 2,
+    "stem": "If every one of the 40 plots is assigned and the annual fees are collected in full, based on the sources, what is the total annual fee revenue from all plots?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "680"
+      },
+      {
+        "key": "B",
+        "text": "890"
+      },
+      {
+        "key": "C",
+        "text": "800"
+      },
+      {
+        "key": "D",
+        "text": "770"
+      },
+      {
+        "key": "E",
+        "text": "1400"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "Standard plots: $34 \\times 20 = 680$. Large plots: $6 \\times 35 = 210$. Total revenue is $680 + 210 = 890$.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g7-msr-06",
+    "section": "data_insights",
+    "type": "multi_source_reasoning",
+    "topic": "multi-source reasoning",
+    "difficulty": "hard",
+    "groupId": "g7-msr-grp-2",
+    "orderIndex": 3,
+    "stem": "Based on the three sources, select Yes if the statement must be true and No otherwise.",
+    "assets": {
+      "dichotomous": {
+        "labels": [
+          "Yes",
+          "No"
+        ]
+      }
+    },
+    "choices": [
+      {
+        "key": "s1",
+        "text": "The household holding plot number 15 may water on an even-numbered calendar day."
+      },
+      {
+        "key": "s2",
+        "text": "A household that declines an offered plot is moved to the bottom of the waiting list."
+      },
+      {
+        "key": "s3",
+        "text": "A large plot has twice the ground area of a standard plot."
+      }
+    ],
+    "correctAnswer": {
+      "format": "dichotomous",
+      "value": {
+        "s1": "No",
+        "s2": "Yes",
+        "s3": "Yes"
+      }
+    },
+    "explanation": "**s1 — No.** Plot 15 is in the 1–20 group, which may water only on odd-numbered calendar days, not even ones.\n\n**s2 — Yes.** The notice states that a household which declines an offer is moved to the bottom of the list.\n\n**s3 — Yes.** A standard plot is $4 \\times 3 = 12$ square meters and a large plot is $4 \\times 6 = 24$ square meters — exactly twice the area.",
+    "estimatedTimeSeconds": 165
+  }
+]

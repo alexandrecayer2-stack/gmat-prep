@@ -1,0 +1,1936 @@
+[
+  {
+    "id": "g7-cr-01",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "weaken",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "passageOrStimulus": "A regional airline added free in-flight wifi on its routes last spring and reported that customer satisfaction scores rose sharply over the following months. The airline concludes that the wifi was responsible for the higher scores.",
+    "stem": "Which of the following, if true, most weakens the airline's conclusion?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "Passengers who used the wifi rated it as reliable."
+      },
+      {
+        "key": "B",
+        "text": "Over the same period, the airline retired its oldest planes and replaced them with quieter, more comfortable aircraft."
+      },
+      {
+        "key": "C",
+        "text": "The wifi was offered on every route the airline operates."
+      },
+      {
+        "key": "D",
+        "text": "Some competing airlines also offer free wifi."
+      },
+      {
+        "key": "E",
+        "text": "Satisfaction scores are collected through an online survey."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "Replacing the fleet with quieter, more comfortable aircraft during the same period is an alternative cause for the rise in satisfaction, undercutting the claim that wifi was responsible.",
+    "estimatedTimeSeconds": 90
+  },
+  {
+    "id": "g7-cr-02",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "weaken",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "passageOrStimulus": "A nutrition columnist argues that drinking herbal tea before bed improves sleep, citing a survey in which regular tea drinkers reported falling asleep faster than non-drinkers.",
+    "stem": "Which of the following, if true, most weakens the columnist's argument?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "The tea drinkers also tended to avoid screens and keep a consistent bedtime, habits known to aid sleep."
+      },
+      {
+        "key": "B",
+        "text": "The herbal tea contained no caffeine."
+      },
+      {
+        "key": "C",
+        "text": "Some non-drinkers preferred warm milk instead."
+      },
+      {
+        "key": "D",
+        "text": "The survey included several hundred participants."
+      },
+      {
+        "key": "E",
+        "text": "Many of the tea drinkers had been drinking tea for years."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "If tea drinkers also follow other sleep-promoting habits, those habits, rather than the tea, could explain the faster sleep onset.",
+    "estimatedTimeSeconds": 90
+  },
+  {
+    "id": "g7-cr-03",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "weaken",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "passageOrStimulus": "A publisher introduced a recommendation feature on its e-reader that suggests titles based on a reader's history. After the feature launched, the average number of books each user finished per month increased. The publisher attributes the increase to the recommendations.",
+    "stem": "Which of the following, if true, most weakens the publisher's claim?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "The recommendation feature can be turned off in the settings menu."
+      },
+      {
+        "key": "B",
+        "text": "The publisher also sells printed books in stores."
+      },
+      {
+        "key": "C",
+        "text": "Most readers said the recommendations were accurate."
+      },
+      {
+        "key": "D",
+        "text": "The feature was launched at the start of a long winter, a season in which this user base historically reads far more than usual."
+      },
+      {
+        "key": "E",
+        "text": "The feature suggests both new releases and older titles."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "D"
+    },
+    "explanation": "If the launch coincided with a season when these readers always read much more, the seasonal effect, not the feature, may account for the increase.",
+    "estimatedTimeSeconds": 105
+  },
+  {
+    "id": "g7-cr-04",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "weaken",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "passageOrStimulus": "A hospital introduced a checklist that surgical teams must complete before every operation. In the year after the checklist was adopted, the rate of post-surgical infections at the hospital fell. Administrators conclude that the checklist reduced infections.",
+    "stem": "Which of the following, if true, most weakens the administrators' conclusion?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "The checklist takes only a few minutes to complete."
+      },
+      {
+        "key": "B",
+        "text": "Surgical teams reported that the checklist was easy to follow."
+      },
+      {
+        "key": "C",
+        "text": "In the same year, the hospital also began requiring a more rigorous hand-sterilization protocol that is widely shown to prevent infections."
+      },
+      {
+        "key": "D",
+        "text": "The checklist is now used by surgical teams at several other hospitals."
+      },
+      {
+        "key": "E",
+        "text": "Infection rates are calculated from records kept by the hospital's own staff."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "A simultaneously adopted hand-sterilization protocol, independently known to prevent infections, offers an alternative explanation for the drop, weakening the claim that the checklist was responsible.",
+    "estimatedTimeSeconds": 105
+  },
+  {
+    "id": "g7-cr-05",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "weaken",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "passageOrStimulus": "A city council notes that neighborhoods with more streetlights report fewer nighttime burglaries than dimly lit neighborhoods. The council proposes installing more streetlights citywide, arguing that brighter streets deter burglars.",
+    "stem": "Which of the following, if true, most weakens the council's argument for the proposal?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "Streetlights require ongoing electricity and maintenance costs."
+      },
+      {
+        "key": "B",
+        "text": "A few brightly lit commercial districts still experience occasional burglaries."
+      },
+      {
+        "key": "C",
+        "text": "Some residents of dimly lit neighborhoods have requested more lighting."
+      },
+      {
+        "key": "D",
+        "text": "Burglaries in the city occur during the day as well as at night."
+      },
+      {
+        "key": "E",
+        "text": "The well-lit neighborhoods are also the wealthier ones, where most homes already have private alarm systems that account for the lower burglary rates."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "E"
+    },
+    "explanation": "If well-lit neighborhoods are wealthier and rely on alarm systems that explain their lower burglary rates, then lighting is confounded with wealth, and adding lights elsewhere need not reduce burglaries.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g7-cr-06",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "weaken",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "passageOrStimulus": "A software firm switched its developers from a shared open-plan office to private rooms and found that the number of bugs reported in new code dropped over the next two quarters. Management concludes that quieter, private workspaces let developers write more reliable code.",
+    "stem": "Which of the following, if true, most weakens management's conclusion?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "Developers said they appreciated the privacy of their new rooms."
+      },
+      {
+        "key": "B",
+        "text": "The private rooms were slightly smaller than the desks in the open-plan office."
+      },
+      {
+        "key": "C",
+        "text": "When the firm moved to private rooms, it simultaneously cut each developer's workload, and the bug count is measured per developer rather than per line of code written."
+      },
+      {
+        "key": "D",
+        "text": "A rival firm that kept its open-plan layout reported a similar bug count."
+      },
+      {
+        "key": "E",
+        "text": "Bugs are logged in a tracking system maintained by the quality-assurance team."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "If workloads were cut at the same time and bugs are counted per developer rather than per unit of code, developers may simply be producing less code, so the lower bug count need not reflect more reliable code.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g7-cr-07",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "strengthen",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "passageOrStimulus": "A community garden plans to start composting kitchen scraps from nearby restaurants, predicting that the compost will improve the yield of its vegetable beds.",
+    "stem": "Which of the following, if true, most strengthens the prediction?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "The restaurants are located within walking distance of the garden."
+      },
+      {
+        "key": "B",
+        "text": "In a trial last season, beds treated with the same kind of compost produced noticeably larger harvests than untreated beds."
+      },
+      {
+        "key": "C",
+        "text": "Composting reduces the amount of waste the restaurants send to landfills."
+      },
+      {
+        "key": "D",
+        "text": "The garden has enough volunteers to manage the composting."
+      },
+      {
+        "key": "E",
+        "text": "Many community gardens compost their own plant trimmings."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "A prior trial in which the same compost increased harvests directly supports the prediction that it will improve yield.",
+    "estimatedTimeSeconds": 90
+  },
+  {
+    "id": "g7-cr-08",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "strengthen",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "passageOrStimulus": "A language-learning app claims that its new daily-streak feature, which rewards users for practicing every day, will increase how much vocabulary users retain.",
+    "stem": "Which of the following, if true, most strengthens the claim?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "The streak feature displays a colorful flame icon."
+      },
+      {
+        "key": "B",
+        "text": "Users can pay to restore a broken streak."
+      },
+      {
+        "key": "C",
+        "text": "The app already had millions of registered users before the feature launched."
+      },
+      {
+        "key": "D",
+        "text": "Research on language learning consistently shows that practicing a little every day leads to better long-term retention than occasional long sessions."
+      },
+      {
+        "key": "E",
+        "text": "The feature was requested by some users in a forum."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "D"
+    },
+    "explanation": "Evidence that frequent daily practice improves retention links the feature, which promotes daily practice, to the predicted gain in retention.",
+    "estimatedTimeSeconds": 90
+  },
+  {
+    "id": "g7-cr-09",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "strengthen",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "passageOrStimulus": "A bakery is deciding whether to open a second location across town. The owner argues that the new shop will be profitable because the neighborhood has many young families, who are the bakery's best customers at its current store.",
+    "stem": "Which of the following, if true, most strengthens the owner's argument?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "The new neighborhood has no other bakery within a mile, and its residents currently drive across town to buy fresh bread."
+      },
+      {
+        "key": "B",
+        "text": "The owner has run the current bakery for over a decade."
+      },
+      {
+        "key": "C",
+        "text": "The two neighborhoods are connected by a direct bus line."
+      },
+      {
+        "key": "D",
+        "text": "The bakery's pastries have won a local award."
+      },
+      {
+        "key": "E",
+        "text": "Rent in the new neighborhood is similar to rent at the current location."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "The absence of competing bakeries plus evidence that residents already seek out fresh bread elsewhere supports the conclusion that a new shop would attract enough demand to be profitable.",
+    "estimatedTimeSeconds": 105
+  },
+  {
+    "id": "g7-cr-10",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "strengthen",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "passageOrStimulus": "A wildlife agency reintroduced beavers to a river valley and predicts that the beavers' dams will reduce downstream flooding during heavy rains.",
+    "stem": "Which of the following, if true, most strengthens the agency's prediction?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "Beavers are native to the region and were once common in the valley."
+      },
+      {
+        "key": "B",
+        "text": "Beaver dams create ponds that attract other wildlife to the valley."
+      },
+      {
+        "key": "C",
+        "text": "The reintroduced beaver population has grown steadily since release."
+      },
+      {
+        "key": "D",
+        "text": "Local residents support the reintroduction program."
+      },
+      {
+        "key": "E",
+        "text": "In other valleys where beavers have built dams, the dams hold back and slowly release storm runoff, lowering peak water levels downstream."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "E"
+    },
+    "explanation": "Evidence that beaver dams elsewhere slow storm runoff and lower peak downstream levels supports the prediction that the same will happen in this valley.",
+    "estimatedTimeSeconds": 105
+  },
+  {
+    "id": "g7-cr-11",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "strengthen",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "passageOrStimulus": "An economist argues that a city's new policy of capping rent increases on older apartments will, over time, reduce the total number of affordable units available to renters. She reasons that landlords, unable to raise rents, will convert rental apartments into condominiums for sale.",
+    "stem": "Which of the following, if true, most strengthens the economist's argument?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "The rent cap applies only to buildings constructed before a certain year."
+      },
+      {
+        "key": "B",
+        "text": "Some renters in the city would prefer to own their homes."
+      },
+      {
+        "key": "C",
+        "text": "In other cities that imposed similar caps, the number of rental units converted to owner-occupied condominiums rose sharply in the years that followed."
+      },
+      {
+        "key": "D",
+        "text": "The city's population has been growing for several years."
+      },
+      {
+        "key": "E",
+        "text": "Condominiums in the city typically sell for high prices."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "Evidence that comparable rent caps elsewhere were followed by a sharp rise in rental-to-condo conversions supports the proposed mechanism and the conclusion that affordable rental units will decline.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g7-cr-12",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "strengthen",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "passageOrStimulus": "A theater company believes that offering pay-what-you-wish tickets on Wednesday nights will increase its total ticket revenue, not just its attendance.",
+    "stem": "Which of the following, if true, most strengthens the company's belief?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "Wednesday performances have historically had the lowest attendance of the week, leaving most seats empty and earning little revenue."
+      },
+      {
+        "key": "B",
+        "text": "The theater seats several hundred people."
+      },
+      {
+        "key": "C",
+        "text": "Pay-what-you-wish pricing is used by some museums."
+      },
+      {
+        "key": "D",
+        "text": "The company's productions usually receive favorable reviews."
+      },
+      {
+        "key": "E",
+        "text": "Wednesday is a popular night for dining out near the theater."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "If Wednesday seats were mostly empty and earning little, then filling them at any positive price can only add revenue, supporting the belief that revenue will rise.",
+    "estimatedTimeSeconds": 105
+  },
+  {
+    "id": "g7-cr-13",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "assumption",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "passageOrStimulus": "A school district plans to replace its printed textbooks with tablets, arguing that doing so will save money because the district will no longer need to reprint worn-out books each year.",
+    "stem": "The argument depends on which of the following assumptions?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "Students prefer reading on tablets to reading printed books."
+      },
+      {
+        "key": "B",
+        "text": "The cost of buying, maintaining, and replacing the tablets will not exceed what the district would have spent reprinting books."
+      },
+      {
+        "key": "C",
+        "text": "Tablets can display color images."
+      },
+      {
+        "key": "D",
+        "text": "Teachers will receive training on the tablets."
+      },
+      {
+        "key": "E",
+        "text": "Other districts have already adopted tablets."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "For the switch to save money, the total cost of the tablets must not outweigh the avoided reprinting costs; the argument assumes this.",
+    "estimatedTimeSeconds": 90
+  },
+  {
+    "id": "g7-cr-14",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "assumption",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "passageOrStimulus": "A magazine moved its operations entirely online and dropped its print edition. The editor argues that this change will let the magazine reach a younger audience, since younger readers prefer digital content.",
+    "stem": "Which of the following is an assumption on which the editor's argument depends?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "The magazine's print edition was unprofitable."
+      },
+      {
+        "key": "B",
+        "text": "Producing digital content costs less than printing."
+      },
+      {
+        "key": "C",
+        "text": "The magazine's older readers will continue to subscribe online."
+      },
+      {
+        "key": "D",
+        "text": "Younger readers are interested in the kind of content the magazine publishes."
+      },
+      {
+        "key": "E",
+        "text": "The magazine will publish more articles than before."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "D"
+    },
+    "explanation": "Going digital can attract younger readers only if those readers actually want the magazine's content; without that, a preferred format alone would not bring them in.",
+    "estimatedTimeSeconds": 105
+  },
+  {
+    "id": "g7-cr-15",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "assumption",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "passageOrStimulus": "A farmer plans to plant a cover crop of clover in his fields over the winter. He reasons that because clover adds nitrogen to the soil, planting it will let him use less synthetic fertilizer on next year's corn.",
+    "stem": "The farmer's reasoning assumes which of the following?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "Clover is less expensive to plant than other cover crops."
+      },
+      {
+        "key": "B",
+        "text": "Synthetic fertilizer prices will rise next year."
+      },
+      {
+        "key": "C",
+        "text": "Corn requires more nitrogen than clover does."
+      },
+      {
+        "key": "D",
+        "text": "The winter will be mild enough for clover to survive."
+      },
+      {
+        "key": "E",
+        "text": "The nitrogen the clover adds will still be available in the soil when the corn needs it."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "E"
+    },
+    "explanation": "Reducing fertilizer for the corn depends on the clover's nitrogen remaining available when the corn can use it; if it were lost beforehand, the substitution would fail.",
+    "estimatedTimeSeconds": 105
+  },
+  {
+    "id": "g7-cr-16",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "assumption",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "passageOrStimulus": "A transit authority will replace its diesel buses with electric ones, claiming the change will lower the total greenhouse-gas emissions associated with the bus system. Critics note that manufacturing electric buses produces substantial emissions.",
+    "stem": "The transit authority's claim depends on which of the following assumptions?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "Electric buses are quieter than diesel buses."
+      },
+      {
+        "key": "B",
+        "text": "Riders will not abandon the bus system after the switch."
+      },
+      {
+        "key": "C",
+        "text": "Over their operating lifetimes, the electric buses will save enough in operating emissions to more than offset the emissions from manufacturing them."
+      },
+      {
+        "key": "D",
+        "text": "The electricity used to charge the buses is generated entirely from renewable sources."
+      },
+      {
+        "key": "E",
+        "text": "Electric buses cost less to maintain than diesel buses."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "For total emissions to fall, the operating-emission savings over the buses' lifetimes must outweigh the manufacturing emissions; the claim assumes this net reduction. (D is too strong: a reduction is possible even if some electricity is non-renewable.)",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g7-cr-17",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "assumption",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "passageOrStimulus": "A streaming service will begin producing films in several languages other than English. An executive argues that this will expand the service's subscriber base in countries where English is not widely spoken.",
+    "stem": "Which of the following is an assumption required by the executive's argument?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "Films in local languages are cheaper to produce than English-language films."
+      },
+      {
+        "key": "B",
+        "text": "In those countries, a meaningful number of potential subscribers have not joined because the service lacked content in their language."
+      },
+      {
+        "key": "C",
+        "text": "English-language films are unpopular in those countries."
+      },
+      {
+        "key": "D",
+        "text": "The service will reduce the number of English-language films it produces."
+      },
+      {
+        "key": "E",
+        "text": "Subtitling is less effective than producing films in the local language."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "Adding local-language films can grow subscribers only if the prior lack of such content was actually holding potential subscribers back; the argument assumes this.",
+    "estimatedTimeSeconds": 105
+  },
+  {
+    "id": "g7-cr-18",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "assumption",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "passageOrStimulus": "A pharmaceutical company found that a compound shrinks tumors in laboratory mice and concludes that the compound is a promising treatment for the same type of tumor in humans.",
+    "stem": "The company's conclusion relies on which of the following assumptions?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "The compound is inexpensive to manufacture."
+      },
+      {
+        "key": "B",
+        "text": "No other company is developing a similar compound."
+      },
+      {
+        "key": "C",
+        "text": "The mechanism by which the compound shrinks tumors in mice operates in a relevantly similar way in humans."
+      },
+      {
+        "key": "D",
+        "text": "The mice in the study were genetically identical to one another."
+      },
+      {
+        "key": "E",
+        "text": "The tumor type is more common in humans than in mice."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "Generalizing from mice to humans requires assuming that the tumor-shrinking mechanism works similarly in both; otherwise the mouse result would not indicate promise in humans.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g7-cr-19",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "inference",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "passageOrStimulus": "At a certain company, every employee who works in the research department holds an advanced degree. Maria works at the company but does not hold an advanced degree.",
+    "stem": "Which of the following must be true on the basis of the statements above?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "Maria does not work in the research department."
+      },
+      {
+        "key": "B",
+        "text": "Maria works in a department that requires no degree."
+      },
+      {
+        "key": "C",
+        "text": "Everyone with an advanced degree works in the research department."
+      },
+      {
+        "key": "D",
+        "text": "Maria plans to earn an advanced degree."
+      },
+      {
+        "key": "E",
+        "text": "The research department is the largest department at the company."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "Since all research-department employees hold advanced degrees and Maria does not, she cannot be in that department. The other options go beyond what the statements establish.",
+    "estimatedTimeSeconds": 90
+  },
+  {
+    "id": "g7-cr-20",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "inference",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "passageOrStimulus": "A survey of a town's commuters found that those who bicycle to work report higher job satisfaction than those who drive. The survey also found that bicycle commuters tend to live closer to their workplaces than drivers do.",
+    "stem": "Which of the following is most strongly supported by the information above?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "Bicycling to work causes people to be more satisfied with their jobs."
+      },
+      {
+        "key": "B",
+        "text": "Living closer to work has no effect on job satisfaction."
+      },
+      {
+        "key": "C",
+        "text": "Most commuters in the town would be happier if they began bicycling."
+      },
+      {
+        "key": "D",
+        "text": "The higher satisfaction of bicycle commuters cannot be attributed to bicycling alone, since they also differ from drivers in how far they live from work."
+      },
+      {
+        "key": "E",
+        "text": "Drivers in the town are dissatisfied with their jobs."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "D"
+    },
+    "explanation": "Because bicyclists also live closer to work, that difference could contribute to their satisfaction, so the data do not isolate bicycling as the cause. The other choices overstate or contradict what the survey supports.",
+    "estimatedTimeSeconds": 105
+  },
+  {
+    "id": "g7-cr-21",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "inference",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "passageOrStimulus": "A museum offers free admission on the first Sunday of each month. On those Sundays, attendance is far higher than on any other day, yet the museum's revenue from its gift shop and cafe on free Sundays is also higher than on any other day.",
+    "stem": "Which of the following can be properly concluded from the statements above?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "The museum earns more total revenue on free Sundays than on paid days."
+      },
+      {
+        "key": "B",
+        "text": "Visitors on free Sundays spend more per person at the gift shop and cafe than visitors on other days."
+      },
+      {
+        "key": "C",
+        "text": "Most visitors come to the museum only when admission is free."
+      },
+      {
+        "key": "D",
+        "text": "The museum should offer free admission every day."
+      },
+      {
+        "key": "E",
+        "text": "The additional visitors drawn by free admission generate enough gift-shop and cafe sales to make those the museum's highest-earning days for the shop and cafe."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "E"
+    },
+    "explanation": "The stated facts support that the larger crowd on free Sundays produces the highest gift-shop and cafe sales. (B is unsupported: higher totals could come from more people, not higher per-person spending; A ignores lost admission revenue.)",
+    "estimatedTimeSeconds": 105
+  },
+  {
+    "id": "g7-cr-22",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "inference",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "passageOrStimulus": "In a regional chess league, no player who has lost to Theo has ever defeated Wendy. Every player in the league has played both Theo and Wendy at least once. Rosa has defeated Wendy.",
+    "stem": "Which of the following must be true?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "Rosa has never lost to Theo."
+      },
+      {
+        "key": "B",
+        "text": "Rosa has defeated Theo."
+      },
+      {
+        "key": "C",
+        "text": "Wendy has lost to Theo."
+      },
+      {
+        "key": "D",
+        "text": "Theo has never defeated Rosa."
+      },
+      {
+        "key": "E",
+        "text": "Rosa is the strongest player in the league."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "Anyone who has lost to Theo has never beaten Wendy. Rosa has beaten Wendy, so Rosa cannot be someone who lost to Theo. (B and D confuse not losing with winning; a draw is possible.)",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g7-cr-23",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "inference",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "passageOrStimulus": "A bookstore's records show that whenever it places a staff review card next to a book, that book sells at least twice as many copies in the following week as it did in the previous week. Last week the store placed a review card next to a novel that had sold ten copies the week before.",
+    "stem": "Which of the following must be true of the novel's sales in the week after the card was placed?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "It sold exactly twenty copies."
+      },
+      {
+        "key": "B",
+        "text": "It sold at least twenty copies."
+      },
+      {
+        "key": "C",
+        "text": "It became the store's best-selling novel."
+      },
+      {
+        "key": "D",
+        "text": "It sold more copies than any other book with a review card."
+      },
+      {
+        "key": "E",
+        "text": "It sold fewer than twenty copies."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "The records establish that sales at least double, so from ten copies the novel sold at least twenty. \"At least twice\" allows more than twenty, so exactly twenty (A) need not hold.",
+    "estimatedTimeSeconds": 105
+  },
+  {
+    "id": "g7-cr-24",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "evaluate",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "passageOrStimulus": "A coffee chain is considering replacing its paper cups with reusable cups that customers borrow and return. A manager argues that this will reduce the chain's overall waste.",
+    "stem": "The answer to which of the following questions would be most useful in evaluating the manager's argument?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "Do customers prefer the taste of coffee in reusable cups?"
+      },
+      {
+        "key": "B",
+        "text": "What color are the reusable cups?"
+      },
+      {
+        "key": "C",
+        "text": "How many locations does the coffee chain operate?"
+      },
+      {
+        "key": "D",
+        "text": "What fraction of borrowed reusable cups are returned rather than discarded or kept?"
+      },
+      {
+        "key": "E",
+        "text": "Does the chain sell food in addition to coffee?"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "D"
+    },
+    "explanation": "If few borrowed cups are returned, the program could create as much waste as it eliminates, so the return rate is central to whether overall waste falls.",
+    "estimatedTimeSeconds": 90
+  },
+  {
+    "id": "g7-cr-25",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "evaluate",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "passageOrStimulus": "A city is debating whether to convert a downtown street into a pedestrian-only zone. Supporters argue the change will increase total sales at the shops along the street, because more foot traffic will pass their windows.",
+    "stem": "Which of the following would be most useful to determine in evaluating the supporters' argument?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "Whether the shops along the street depend on customers who currently arrive by car and would have nowhere to park."
+      },
+      {
+        "key": "B",
+        "text": "Whether the street has historical buildings."
+      },
+      {
+        "key": "C",
+        "text": "Whether nearby streets are also being considered for conversion."
+      },
+      {
+        "key": "D",
+        "text": "Whether the city has converted streets before."
+      },
+      {
+        "key": "E",
+        "text": "Whether the shops are open in the evenings."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "If many shoppers currently drive and would lose parking, the loss of those customers could offset gains from foot traffic, so this question bears directly on whether total sales would rise.",
+    "estimatedTimeSeconds": 105
+  },
+  {
+    "id": "g7-cr-26",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "evaluate",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "passageOrStimulus": "A manufacturer plans to extend the warranty on its washing machines from one year to five years, expecting that the longer warranty will boost sales enough to outweigh any added warranty costs.",
+    "stem": "The answer to which of the following questions would be most useful in evaluating the manufacturer's plan?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "How long have the machines been on the market?"
+      },
+      {
+        "key": "B",
+        "text": "How often do the machines break down during years two through five of ownership?"
+      },
+      {
+        "key": "C",
+        "text": "What colors are the machines available in?"
+      },
+      {
+        "key": "D",
+        "text": "Do competitors sell dryers as well as washing machines?"
+      },
+      {
+        "key": "E",
+        "text": "How many retail stores carry the machines?"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "Warranty cost over years two through five depends on how often machines fail in that window; knowing this is essential to judging whether added sales would outweigh added costs.",
+    "estimatedTimeSeconds": 105
+  },
+  {
+    "id": "g7-cr-27",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "evaluate",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "passageOrStimulus": "A public health official proposes adding fluoride to a town's water supply, arguing that doing so will reduce tooth decay among the town's children. Opponents counter that the program would be a waste of money.",
+    "stem": "The answer to which of the following questions would be most useful in evaluating the official's argument?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "Whether the town's water supply comes from a river or a reservoir."
+      },
+      {
+        "key": "B",
+        "text": "Whether the town's water is currently treated for other contaminants."
+      },
+      {
+        "key": "C",
+        "text": "Whether neighboring towns add fluoride to their water."
+      },
+      {
+        "key": "D",
+        "text": "Whether the town's dentists support the proposal."
+      },
+      {
+        "key": "E",
+        "text": "Whether most of the town's children already receive sufficient fluoride from toothpaste and other sources."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "E"
+    },
+    "explanation": "If children already get enough fluoride elsewhere, adding it to the water might produce little additional benefit, so this question directly tests whether the program would reduce decay.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g7-cr-28",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "paradox",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "passageOrStimulus": "A grocery store lowered the price of its house-brand cereal last month, yet its total revenue from that cereal increased compared with the previous month.",
+    "stem": "Which of the following, if true, best explains the increase in revenue?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "The cereal is displayed near the front of the store."
+      },
+      {
+        "key": "B",
+        "text": "After the price drop, so many more boxes were sold that the additional sales more than made up for the lower price per box."
+      },
+      {
+        "key": "C",
+        "text": "The store sells several other brands of cereal."
+      },
+      {
+        "key": "D",
+        "text": "The cereal comes in a recyclable box."
+      },
+      {
+        "key": "E",
+        "text": "The store's overall revenue fell last month."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "If the lower price drove a large enough jump in volume, total revenue (price times quantity) can rise even though each box earns less, resolving the apparent puzzle.",
+    "estimatedTimeSeconds": 90
+  },
+  {
+    "id": "g7-cr-29",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "paradox",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "passageOrStimulus": "A company introduced a generous policy of unlimited paid vacation, expecting employees to take more time off. Instead, the average number of vacation days employees took fell after the policy began.",
+    "stem": "Which of the following, if true, most helps to explain the unexpected result?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "Under the old policy, unused vacation days were paid out at the end of the year, so employees had taken every day they were owed."
+      },
+      {
+        "key": "B",
+        "text": "Many employees enjoy their work."
+      },
+      {
+        "key": "C",
+        "text": "The company announced the new policy at a staff meeting."
+      },
+      {
+        "key": "D",
+        "text": "With no fixed number of days, employees grew uncertain about how much time off was acceptable and erred on the side of taking less."
+      },
+      {
+        "key": "E",
+        "text": "The policy applied to all full-time employees equally."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "D"
+    },
+    "explanation": "If removing a defined allotment left employees unsure what was acceptable and so taking less, that explains why an unlimited policy reduced vacation days. (A explains why the old number was high, but not why the new number fell below it.)",
+    "estimatedTimeSeconds": 105
+  },
+  {
+    "id": "g7-cr-30",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "paradox",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "passageOrStimulus": "A national park paved several of its most popular hiking trails to protect the surrounding vegetation from being trampled. In the years after the paving, however, the amount of damaged vegetation along those trails increased.",
+    "stem": "Which of the following, if true, most helps to resolve the apparent discrepancy?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "The paved trails were easier and more comfortable to walk, so they attracted far more hikers than before, including many who strayed off the pavement."
+      },
+      {
+        "key": "B",
+        "text": "Paving the trails took two summers to complete."
+      },
+      {
+        "key": "C",
+        "text": "The park contains many trails that were not paved."
+      },
+      {
+        "key": "D",
+        "text": "Some hikers prefer unpaved natural trails."
+      },
+      {
+        "key": "E",
+        "text": "The park charges an entrance fee."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "If paving made the trails attractive to many more hikers, the resulting surge in visitors straying off the pavement could increase vegetation damage despite the pavement, resolving the discrepancy.",
+    "estimatedTimeSeconds": 105
+  },
+  {
+    "id": "g7-cr-31",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "paradox",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "passageOrStimulus": "An insurer began offering policyholders a discount for installing a device that tracks their driving. Drivers who installed the device had fewer accidents than those who declined it, yet the insurer's total payouts for accident claims rose after the discount was introduced.",
+    "stem": "Which of the following, if true, most helps to explain why payouts rose?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "The device records speed, braking, and the time of day a car is driven."
+      },
+      {
+        "key": "B",
+        "text": "Some drivers removed the device after a few months."
+      },
+      {
+        "key": "C",
+        "text": "Drivers who installed the device reported that it was easy to use."
+      },
+      {
+        "key": "D",
+        "text": "The discount was the same for every driver who installed the device."
+      },
+      {
+        "key": "E",
+        "text": "The prospect of the discount attracted many new customers who were higher-risk drivers than the insurer's existing policyholders, even after accounting for the device."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "E"
+    },
+    "explanation": "Even if device users are individually safer than non-users, an influx of higher-risk new customers drawn by the discount could raise total payouts, reconciling the two facts.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g7-cr-32",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "flaw",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "passageOrStimulus": "A columnist writes: \"The new mayor promised to cut crime. Crime in the city has indeed fallen since she took office. Therefore, her policies are responsible for the decline.\"",
+    "stem": "The reasoning in the columnist's argument is most vulnerable to the criticism that it",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "assumes that because one event followed another, the first event caused the second."
+      },
+      {
+        "key": "B",
+        "text": "relies on the testimony of people with a stake in the outcome."
+      },
+      {
+        "key": "C",
+        "text": "draws a conclusion about all cities from facts about one city."
+      },
+      {
+        "key": "D",
+        "text": "fails to define what counts as a crime."
+      },
+      {
+        "key": "E",
+        "text": "confuses a necessary condition with a sufficient one."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "The argument infers causation merely from the fact that the crime decline followed the mayor's taking office, the classic post hoc flaw, ignoring other possible causes.",
+    "estimatedTimeSeconds": 105
+  },
+  {
+    "id": "g7-cr-33",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "flaw",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "passageOrStimulus": "A manager argues: \"Our top-performing salespeople all attended the optional advanced-sales seminar. To raise the performance of the rest of the team, we should require everyone to attend the seminar.\"",
+    "stem": "The manager's reasoning is most vulnerable to the criticism that it overlooks the possibility that",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "the seminar is too expensive to offer to the whole team."
+      },
+      {
+        "key": "B",
+        "text": "the already-skilled salespeople chose to attend because they were motivated, so the seminar may not have caused their strong performance."
+      },
+      {
+        "key": "C",
+        "text": "some top performers also attended other training sessions."
+      },
+      {
+        "key": "D",
+        "text": "the seminar covers material that changes from year to year."
+      },
+      {
+        "key": "E",
+        "text": "the rest of the team would prefer a different kind of training."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "The top performers self-selected into the optional seminar, so their success may stem from the motivation that led them to attend rather than from the seminar itself; requiring it for others might not replicate the result.",
+    "estimatedTimeSeconds": 105
+  },
+  {
+    "id": "g7-cr-34",
+    "section": "verbal",
+    "type": "critical_reasoning",
+    "topic": "flaw",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "passageOrStimulus": "A health writer argues: \"A recent study found that people who take daily vitamin supplements live longer, on average, than people who do not. Clearly, anyone who wants a longer life should start taking daily supplements.\"",
+    "stem": "The writer's argument is most vulnerable to the objection that it",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "takes for granted that what is true of a group on average is true of every individual in it."
+      },
+      {
+        "key": "B",
+        "text": "fails to specify which vitamins the supplements contained."
+      },
+      {
+        "key": "C",
+        "text": "overlooks that people who take daily supplements may also be more health-conscious in ways that independently extend life."
+      },
+      {
+        "key": "D",
+        "text": "assumes that supplements are affordable for everyone."
+      },
+      {
+        "key": "E",
+        "text": "relies on a study that examined too few people."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "Supplement takers may differ systematically in other healthy behaviors that lengthen life, so the correlation need not mean the supplements themselves are the cause; the argument ignores this confounding.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g7-rc-01",
+    "section": "verbal",
+    "type": "reading_comprehension",
+    "topic": "main idea",
+    "difficulty": "medium",
+    "groupId": "g7-rc-grp-1",
+    "orderIndex": 1,
+    "stem": "The primary purpose of the passage is to",
+    "choices": [
+      {
+        "key": "A",
+        "text": "argue that life on icy moons is more likely than previously believed"
+      },
+      {
+        "key": "B",
+        "text": "explain how the discovery of hydrothermal-vent communities revised the assumption that all life depends on sunlight"
+      },
+      {
+        "key": "C",
+        "text": "compare the efficiency of photosynthesis with that of chemosynthesis"
+      },
+      {
+        "key": "D",
+        "text": "describe the physical conditions found at deep-sea hydrothermal vents"
+      },
+      {
+        "key": "E",
+        "text": "trace the history of twentieth-century marine biology"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "The passage centers on how vent communities overturned the long-held assumption that all life depends on sunlight, establishing that a complete ecosystem can run on chemical energy. The other choices name details (D), a speculative aside (A), or topics the passage does not chiefly pursue (C, E).",
+    "estimatedTimeSeconds": 90
+  },
+  {
+    "id": "g7-rc-02",
+    "section": "verbal",
+    "type": "reading_comprehension",
+    "topic": "detail",
+    "difficulty": "easy",
+    "groupId": "g7-rc-grp-1",
+    "orderIndex": 2,
+    "stem": "According to the passage, giant tube worms obtain nutrients by",
+    "choices": [
+      {
+        "key": "A",
+        "text": "capturing organic particles that drift down from sunlit waters"
+      },
+      {
+        "key": "B",
+        "text": "grazing directly on mats of bacteria that cover the seafloor"
+      },
+      {
+        "key": "C",
+        "text": "housing symbiotic bacteria in their tissues and absorbing what the bacteria produce"
+      },
+      {
+        "key": "D",
+        "text": "absorbing dissolved minerals from the vent water through their skin"
+      },
+      {
+        "key": "E",
+        "text": "preying on smaller animals that gather near the vents"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "The passage states that tube worms house symbiotic bacteria within their tissues and absorb the nutrients the bacteria produce. Grazing on microbes (B) is attributed to other animals, and the remaining options are not supported.",
+    "estimatedTimeSeconds": 75
+  },
+  {
+    "id": "g7-rc-03",
+    "section": "verbal",
+    "type": "reading_comprehension",
+    "topic": "inference",
+    "difficulty": "medium",
+    "groupId": "g7-rc-grp-1",
+    "orderIndex": 3,
+    "stem": "It can be inferred from the passage that before the late 1970s, most biologists would most likely have predicted that the deep seafloor near hydrothermal vents would",
+    "choices": [
+      {
+        "key": "A",
+        "text": "contain mineral deposits of considerable commercial value"
+      },
+      {
+        "key": "B",
+        "text": "be home to the same species found in shallow, sunlit waters"
+      },
+      {
+        "key": "C",
+        "text": "harbor organisms that rely on chemosynthesis rather than photosynthesis"
+      },
+      {
+        "key": "D",
+        "text": "support little or no complex animal life, given the absence of sunlight"
+      },
+      {
+        "key": "E",
+        "text": "reach temperatures too high to permit any form of life"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "D"
+    },
+    "explanation": "Because biologists assumed all life depended on sunlight, they would have expected little complex life where no sunlight reaches. Recognizing chemosynthesis-based life (C) is the post-discovery insight, not the prior prediction; the other options are unsupported.",
+    "estimatedTimeSeconds": 105
+  },
+  {
+    "id": "g7-rc-04",
+    "section": "verbal",
+    "type": "reading_comprehension",
+    "topic": "function",
+    "difficulty": "medium",
+    "groupId": "g7-rc-grp-1",
+    "orderIndex": 4,
+    "stem": "The author mentions the possibility of life on icy moons primarily in order to",
+    "choices": [
+      {
+        "key": "A",
+        "text": "illustrate a broader implication that some researchers have drawn from the vent discovery while noting its evidence is still lacking"
+      },
+      {
+        "key": "B",
+        "text": "argue that the search for extraterrestrial life should focus on subsurface oceans"
+      },
+      {
+        "key": "C",
+        "text": "cast doubt on the claim that chemosynthesis can support complex life"
+      },
+      {
+        "key": "D",
+        "text": "provide the strongest evidence that sunlight is unnecessary for life"
+      },
+      {
+        "key": "E",
+        "text": "explain why hydrothermal vents were so difficult to discover"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "The icy-moons remark is offered as a broader implication some researchers draw, immediately qualified by the note that direct evidence is absent. It is not presented as the author's argument (B) or as strong evidence (D), and it does not cast doubt on chemosynthesis (C).",
+    "estimatedTimeSeconds": 105
+  },
+  {
+    "id": "g7-rc-05",
+    "section": "verbal",
+    "type": "reading_comprehension",
+    "topic": "main idea",
+    "difficulty": "medium",
+    "groupId": "g7-rc-grp-2",
+    "orderIndex": 1,
+    "stem": "Which of the following best expresses the main point of the passage?",
+    "choices": [
+      {
+        "key": "A",
+        "text": "Algorithmic pricing is more efficient than static pricing and should be adopted widely."
+      },
+      {
+        "key": "B",
+        "text": "Customers care only about the absolute price they pay, not about how that price is set."
+      },
+      {
+        "key": "C",
+        "text": "Static pricing always produces higher revenue than algorithmic pricing."
+      },
+      {
+        "key": "D",
+        "text": "Online retailers should be legally required to disclose how their prices are calculated."
+      },
+      {
+        "key": "E",
+        "text": "Pricing that optimizes each individual sale can damage the customer trust on which long-term profit depends, leading some firms to restrain their algorithms."
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "E"
+    },
+    "explanation": "The passage's central claim is that per-sale optimization can erode trust and thus future profit, prompting some firms to limit their algorithms. A and C overstate one side, B contradicts the passage, and D introduces a legal requirement the passage never advocates.",
+    "estimatedTimeSeconds": 90
+  },
+  {
+    "id": "g7-rc-06",
+    "section": "verbal",
+    "type": "reading_comprehension",
+    "topic": "detail",
+    "difficulty": "easy",
+    "groupId": "g7-rc-grp-2",
+    "orderIndex": 2,
+    "stem": "According to the passage, surveys suggest that whether a shopper returns to a seller is often driven by",
+    "choices": [
+      {
+        "key": "A",
+        "text": "the absolute price the shopper paid"
+      },
+      {
+        "key": "B",
+        "text": "the speed at which the seller ships orders"
+      },
+      {
+        "key": "C",
+        "text": "the shopper's perception of whether the pricing was fair"
+      },
+      {
+        "key": "D",
+        "text": "the variety of products the seller offers"
+      },
+      {
+        "key": "E",
+        "text": "the seller's standing relative to its competitors"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "The passage states that perceptions of fairness, rather than the absolute price, often drive whether a shopper returns. The other options are not cited as the driver, and A is the factor the passage explicitly subordinates to fairness.",
+    "estimatedTimeSeconds": 75
+  },
+  {
+    "id": "g7-rc-07",
+    "section": "verbal",
+    "type": "reading_comprehension",
+    "topic": "inference",
+    "difficulty": "hard",
+    "groupId": "g7-rc-grp-2",
+    "orderIndex": 3,
+    "stem": "The passage suggests that a firm that lets its prices vary by individual shopper identity risks",
+    "choices": [
+      {
+        "key": "A",
+        "text": "violating laws that govern online commerce"
+      },
+      {
+        "key": "B",
+        "text": "falling behind competitors that adjust prices more quickly"
+      },
+      {
+        "key": "C",
+        "text": "charging prices that are too low to cover its costs"
+      },
+      {
+        "key": "D",
+        "text": "losing repeat business if shoppers come to feel they are being exploited"
+      },
+      {
+        "key": "E",
+        "text": "being unable to clear its inventory efficiently"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "D"
+    },
+    "explanation": "The passage links the discovery of identity-based price differences to feelings of exploitation, which can erode the repeat business that sustains profit. The other options describe risks the passage does not attribute to identity-based pricing; if anything, such pricing is framed as profitable in the short run.",
+    "estimatedTimeSeconds": 110
+  },
+  {
+    "id": "g7-rc-08",
+    "section": "verbal",
+    "type": "reading_comprehension",
+    "topic": "function",
+    "difficulty": "medium",
+    "groupId": "g7-rc-grp-2",
+    "orderIndex": 4,
+    "stem": "The author states that the restraint shown by some firms \"is not pure altruism\" most likely in order to",
+    "choices": [
+      {
+        "key": "A",
+        "text": "criticize those firms for pretending to act in their customers' interest"
+      },
+      {
+        "key": "B",
+        "text": "introduce evidence that algorithmic pricing is rarely profitable"
+      },
+      {
+        "key": "C",
+        "text": "suggest that the firms would abandon the restraint if it became unprofitable"
+      },
+      {
+        "key": "D",
+        "text": "concede that the firms are motivated mainly by a concern for fairness"
+      },
+      {
+        "key": "E",
+        "text": "emphasize that the restraint is grounded in a self-interested calculation about preserving trust and future sales"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "E"
+    },
+    "explanation": "The phrase prefaces the explanation that restraint reflects a calculation that transparency preserves trust and sustains a customer base, underscoring a self-interested rationale rather than altruism. It is not used to criticize the firms (A) or to call the restraint conditional (C).",
+    "estimatedTimeSeconds": 100
+  },
+  {
+    "id": "g7-rc-09",
+    "section": "verbal",
+    "type": "reading_comprehension",
+    "topic": "main idea",
+    "difficulty": "medium",
+    "groupId": "g7-rc-grp-3",
+    "orderIndex": 1,
+    "stem": "The passage is primarily concerned with",
+    "choices": [
+      {
+        "key": "A",
+        "text": "describing the goods that Hanseatic merchants traded across northern Europe"
+      },
+      {
+        "key": "B",
+        "text": "explaining how the Hanseatic League gained influence through voluntary economic cooperation and why that same looseness limited its endurance"
+      },
+      {
+        "key": "C",
+        "text": "arguing that the Hanseatic League should be regarded as a kind of state"
+      },
+      {
+        "key": "D",
+        "text": "contrasting the military strategies of the Hanseatic League with those of centralized kingdoms"
+      },
+      {
+        "key": "E",
+        "text": "tracing the personal careers of the merchants who led the League"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "The passage explains both the source of the League's power, voluntary cooperation among trading towns, and the limit that same looseness imposed once centralized states arose. C contradicts the passage, and A, D, and E focus on details the passage does not chiefly develop.",
+    "estimatedTimeSeconds": 90
+  },
+  {
+    "id": "g7-rc-10",
+    "section": "verbal",
+    "type": "reading_comprehension",
+    "topic": "detail",
+    "difficulty": "easy",
+    "groupId": "g7-rc-grp-3",
+    "orderIndex": 2,
+    "stem": "The passage indicates that the Hanseatic League was able to negotiate favorable terms with kings because",
+    "choices": [
+      {
+        "key": "A",
+        "text": "it maintained a powerful standing fleet"
+      },
+      {
+        "key": "B",
+        "text": "its assemblies met on a fixed and regular schedule"
+      },
+      {
+        "key": "C",
+        "text": "it controlled the only ports on the Baltic and North Seas"
+      },
+      {
+        "key": "D",
+        "text": "the kings depended on the tax revenue that Hanseatic commerce generated"
+      },
+      {
+        "key": "E",
+        "text": "it had formed alliances with rival centralized states"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "D"
+    },
+    "explanation": "The passage states that the League could negotiate favorable terms with kings who depended on the taxes that Hanseatic commerce generated. A contradicts the passage (the League had no permanent army or fleet), and the other options are unsupported.",
+    "estimatedTimeSeconds": 75
+  },
+  {
+    "id": "g7-rc-11",
+    "section": "verbal",
+    "type": "reading_comprehension",
+    "topic": "inference",
+    "difficulty": "hard",
+    "groupId": "g7-rc-grp-3",
+    "orderIndex": 3,
+    "stem": "It can be inferred from the passage that the Hanseatic League had the most difficulty taking decisive action when",
+    "choices": [
+      {
+        "key": "A",
+        "text": "its member towns were located far apart from one another"
+      },
+      {
+        "key": "B",
+        "text": "its merchants competed with one another for the same markets"
+      },
+      {
+        "key": "C",
+        "text": "a king refused to grant it trading privileges"
+      },
+      {
+        "key": "D",
+        "text": "its assemblies were scheduled to meet"
+      },
+      {
+        "key": "E",
+        "text": "the commercial interests of its member towns did not align"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "E"
+    },
+    "explanation": "The passage says authority rested on voluntary cooperation, so the League could act decisively only when members' interests aligned; it follows that misaligned interests would make decisive action hardest. The other options are not identified as the obstacle to unified action.",
+    "estimatedTimeSeconds": 110
+  },
+  {
+    "id": "g7-rc-12",
+    "section": "verbal",
+    "type": "reading_comprehension",
+    "topic": "inference",
+    "difficulty": "medium",
+    "groupId": "g7-rc-grp-3",
+    "orderIndex": 4,
+    "stem": "The passage suggests that the decline of the Hanseatic League was brought about chiefly by",
+    "choices": [
+      {
+        "key": "A",
+        "text": "the exhaustion of the natural resources its merchants traded"
+      },
+      {
+        "key": "B",
+        "text": "internal disputes over who should serve as its permanent ruler"
+      },
+      {
+        "key": "C",
+        "text": "the rise of centralized states with standing fleets and unified tariffs that it could not match as a loose confederation"
+      },
+      {
+        "key": "D",
+        "text": "a sudden loss of interest in trade across northern Europe"
+      },
+      {
+        "key": "E",
+        "text": "the refusal of its member towns to grant one another trading privileges"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "The passage attributes the League's eclipse to rival centralized states with standing fleets and unified tariffs that it struggled to answer as a loose confederation. B is impossible (the League had no ruler), and the other options are unsupported.",
+    "estimatedTimeSeconds": 100
+  },
+  {
+    "id": "g7-rc-13",
+    "section": "verbal",
+    "type": "reading_comprehension",
+    "topic": "main idea",
+    "difficulty": "medium",
+    "groupId": "g7-rc-grp-4",
+    "orderIndex": 1,
+    "stem": "The primary purpose of the passage is to",
+    "choices": [
+      {
+        "key": "A",
+        "text": "demonstrate that language has no effect on how people perceive color"
+      },
+      {
+        "key": "B",
+        "text": "present a moderate conclusion about how language influences color perception, supported by experimental findings"
+      },
+      {
+        "key": "C",
+        "text": "argue that the way a language divides the color spectrum determines what its speakers can see"
+      },
+      {
+        "key": "D",
+        "text": "describe the anatomy of the human visual system"
+      },
+      {
+        "key": "E",
+        "text": "compare the color vocabularies of several specific languages"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "The passage advances a measured position, that language influences color perception subtly and conditionally, backed by experiments. A and C represent the extremes the passage explicitly rejects, and D and E are details rather than the main purpose.",
+    "estimatedTimeSeconds": 90
+  },
+  {
+    "id": "g7-rc-14",
+    "section": "verbal",
+    "type": "reading_comprehension",
+    "topic": "detail",
+    "difficulty": "medium",
+    "groupId": "g7-rc-grp-4",
+    "orderIndex": 2,
+    "stem": "According to the passage, the discrimination advantage shown by speakers whose language marks a color boundary appears mainly when",
+    "choices": [
+      {
+        "key": "A",
+        "text": "the colors are presented in the left visual field"
+      },
+      {
+        "key": "B",
+        "text": "the participants are also performing a simultaneous verbal task"
+      },
+      {
+        "key": "C",
+        "text": "the participants have received extensive training in color naming"
+      },
+      {
+        "key": "D",
+        "text": "the colors fall in the right visual field, processed by the left hemisphere"
+      },
+      {
+        "key": "E",
+        "text": "the two color patches are far apart on the spectrum"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "D"
+    },
+    "explanation": "The passage states the effect appears mainly when the colors fall in the right visual field, which the left, language-handling hemisphere processes. B describes the condition under which the advantage shrinks, not where it appears, and the other options are unsupported.",
+    "estimatedTimeSeconds": 95
+  },
+  {
+    "id": "g7-rc-15",
+    "section": "verbal",
+    "type": "reading_comprehension",
+    "topic": "function",
+    "difficulty": "hard",
+    "groupId": "g7-rc-grp-4",
+    "orderIndex": 3,
+    "stem": "The author notes that the discrimination advantage shrinks or vanishes during a simultaneous verbal task primarily in order to",
+    "choices": [
+      {
+        "key": "A",
+        "text": "support the idea that language is recruited during perception rather than permanently rewiring it"
+      },
+      {
+        "key": "B",
+        "text": "prove that language has no role in color perception"
+      },
+      {
+        "key": "C",
+        "text": "show that verbal tasks improve a person's ability to distinguish colors"
+      },
+      {
+        "key": "D",
+        "text": "demonstrate that the left hemisphere is unrelated to language"
+      },
+      {
+        "key": "E",
+        "text": "establish that color perception is identical across all languages"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "The passage uses the disappearance of the advantage under a verbal load to suggest that words are recruited during perception rather than rewiring it permanently. The other options misstate the inference or contradict the passage.",
+    "estimatedTimeSeconds": 110
+  },
+  {
+    "id": "g7-rc-16",
+    "section": "verbal",
+    "type": "reading_comprehension",
+    "topic": "tone",
+    "difficulty": "medium",
+    "groupId": "g7-rc-grp-4",
+    "orderIndex": 4,
+    "stem": "The author's attitude toward the claim that language strongly determines color perception can best be described as",
+    "choices": [
+      {
+        "key": "A",
+        "text": "enthusiastic endorsement"
+      },
+      {
+        "key": "B",
+        "text": "reluctant acceptance"
+      },
+      {
+        "key": "C",
+        "text": "complete indifference"
+      },
+      {
+        "key": "D",
+        "text": "open hostility"
+      },
+      {
+        "key": "E",
+        "text": "measured skepticism"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "E"
+    },
+    "explanation": "The author treats the strong-determination claim as an early proposal that careful experiments have scaled back, cautioning against that extreme, which conveys measured skepticism rather than endorsement (A), passive acceptance (B), indifference (C), or hostility (D).",
+    "estimatedTimeSeconds": 90
+  }
+]

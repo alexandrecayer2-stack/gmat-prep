@@ -1,0 +1,36 @@
+[
+  {
+    "id": "g7-msr-grp-1",
+    "section": "data_insights",
+    "title": "Conference Travel Reimbursement",
+    "sources": [
+      {
+        "title": "Reimbursement Policy",
+        "content": "Employees attending an approved conference may claim travel costs. Airfare is reimbursed in full only when booked at least 14 days in advance; bookings made later are reimbursed at 75 percent of the fare. Lodging is reimbursed up to a cap of 180 per night. Meals are reimbursed at a flat per-diem of 60 for each full day of the conference. Ground transport (taxis, trains) is reimbursed in full with receipts."
+      },
+      {
+        "title": "Approval Rules",
+        "content": "A conference must be approved by the employee's manager before any booking is made. Approval requests submitted fewer than 7 days before the conference start date are automatically denied. International conferences additionally require director sign-off. Reimbursement claims must be filed within 30 days of returning, with itemized receipts for every expense except per-diem meals."
+      }
+    ]
+  },
+  {
+    "id": "g7-msr-grp-2",
+    "section": "data_insights",
+    "title": "Community Garden Plots",
+    "sources": [
+      {
+        "title": "Plot Assignment Memo",
+        "content": "The community garden has 40 plots. Standard plots measure 4 meters by 3 meters; six larger plots measure 4 meters by 6 meters. Residents pay an annual fee of 20 for a standard plot and 35 for a large plot. Each household may hold at most one plot. Plots not planted by May 15 are reassigned to the waiting list."
+      },
+      {
+        "title": "Waiting List Notice",
+        "content": "As of April 1, every plot is currently assigned and 12 households are on the waiting list. Households are added to the list in the order their applications arrive. When a plot becomes available, it is offered to the household at the top of the list; if that household declines, the offer passes to the next household and the decliner is moved to the bottom of the list."
+      },
+      {
+        "title": "Water Schedule",
+        "content": "The shared water taps run on a rotation. Plots numbered 1 to 20 may water on odd-numbered calendar days; plots 21 to 40 may water on even-numbered calendar days. Watering is permitted only between 6 a.m. and 9 a.m. No watering is allowed when the city issues a drought advisory."
+      }
+    ]
+  }
+]

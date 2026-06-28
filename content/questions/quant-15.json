@@ -1,0 +1,1938 @@
+[
+  {
+    "id": "g7-quant-01",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "linear equations",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "If $5x - 8 = 27$, what is the value of $x$?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "5"
+      },
+      {
+        "key": "B",
+        "text": "6"
+      },
+      {
+        "key": "C",
+        "text": "7"
+      },
+      {
+        "key": "D",
+        "text": "8"
+      },
+      {
+        "key": "E",
+        "text": "9"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "5x = 35, so x = 7.",
+    "estimatedTimeSeconds": 90,
+    "answerCheck": "num(text(answer)) === 7"
+  },
+  {
+    "id": "g7-quant-02",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "percents",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "What is $35\\%$ of $260$?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "78"
+      },
+      {
+        "key": "B",
+        "text": "84"
+      },
+      {
+        "key": "C",
+        "text": "96"
+      },
+      {
+        "key": "D",
+        "text": "104"
+      },
+      {
+        "key": "E",
+        "text": "91"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "E"
+    },
+    "explanation": "0.35 × 260 = 91.",
+    "estimatedTimeSeconds": 90,
+    "answerCheck": "num(text(answer)) === 91"
+  },
+  {
+    "id": "g7-quant-03",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "averages",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "The average (arithmetic mean) of five numbers is $18$. What is their sum?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "72"
+      },
+      {
+        "key": "B",
+        "text": "80"
+      },
+      {
+        "key": "C",
+        "text": "85"
+      },
+      {
+        "key": "D",
+        "text": "90"
+      },
+      {
+        "key": "E",
+        "text": "95"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "D"
+    },
+    "explanation": "Sum = average × count = 18 × 5 = 90.",
+    "estimatedTimeSeconds": 90,
+    "answerCheck": "num(text(answer)) === 90"
+  },
+  {
+    "id": "g7-quant-04",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "fractions",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "What is $\\frac{2}{5}$ of $85$?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "34"
+      },
+      {
+        "key": "B",
+        "text": "30"
+      },
+      {
+        "key": "C",
+        "text": "32"
+      },
+      {
+        "key": "D",
+        "text": "36"
+      },
+      {
+        "key": "E",
+        "text": "40"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "(2/5) × 85 = 170/5 = 34.",
+    "estimatedTimeSeconds": 90,
+    "answerCheck": "num(text(answer)) === 34"
+  },
+  {
+    "id": "g7-quant-05",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "exponents",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "What is the value of $2^{4} \\cdot 2^{3}$?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "32"
+      },
+      {
+        "key": "B",
+        "text": "64"
+      },
+      {
+        "key": "C",
+        "text": "128"
+      },
+      {
+        "key": "D",
+        "text": "256"
+      },
+      {
+        "key": "E",
+        "text": "512"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "Add exponents: 2^(4+3) = 2^7 = 128.",
+    "estimatedTimeSeconds": 90,
+    "answerCheck": "num(text(answer)) === 128"
+  },
+  {
+    "id": "g7-quant-06",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "order of operations",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "What is the value of $8 + 4 \\times 6 - 10$?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "12"
+      },
+      {
+        "key": "B",
+        "text": "22"
+      },
+      {
+        "key": "C",
+        "text": "18"
+      },
+      {
+        "key": "D",
+        "text": "62"
+      },
+      {
+        "key": "E",
+        "text": "72"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "Multiply first: 4 × 6 = 24, then 8 + 24 - 10 = 22.",
+    "estimatedTimeSeconds": 90,
+    "answerCheck": "num(text(answer)) === 22"
+  },
+  {
+    "id": "g7-quant-07",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "ratios",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "The ratio of red to blue marbles in a jar is $4$ to $7$. If there are $77$ blue marbles, how many red marbles are there?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "28"
+      },
+      {
+        "key": "B",
+        "text": "33"
+      },
+      {
+        "key": "C",
+        "text": "44"
+      },
+      {
+        "key": "D",
+        "text": "49"
+      },
+      {
+        "key": "E",
+        "text": "56"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "One part = 77/7 = 11, so red = 4 × 11 = 44.",
+    "estimatedTimeSeconds": 90,
+    "answerCheck": "num(text(answer)) === 44"
+  },
+  {
+    "id": "g7-quant-08",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "area",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "A rectangle has length $15$ and width $8$. What is its area?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "23"
+      },
+      {
+        "key": "B",
+        "text": "46"
+      },
+      {
+        "key": "C",
+        "text": "104"
+      },
+      {
+        "key": "D",
+        "text": "120"
+      },
+      {
+        "key": "E",
+        "text": "150"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "D"
+    },
+    "explanation": "Area = length × width = 15 × 8 = 120.",
+    "estimatedTimeSeconds": 90,
+    "answerCheck": "num(text(answer)) === 120"
+  },
+  {
+    "id": "g7-quant-09",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "number properties",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "What is the remainder when $43$ is divided by $6$?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "1"
+      },
+      {
+        "key": "B",
+        "text": "2"
+      },
+      {
+        "key": "C",
+        "text": "3"
+      },
+      {
+        "key": "D",
+        "text": "4"
+      },
+      {
+        "key": "E",
+        "text": "5"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "6 × 7 = 42, and 43 - 42 = 1.",
+    "estimatedTimeSeconds": 90,
+    "answerCheck": "num(text(answer)) === 1"
+  },
+  {
+    "id": "g7-quant-10",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "percents",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "A shirt originally priced at $60$ dollars is discounted by $20\\%$. What is the sale price in dollars?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "40"
+      },
+      {
+        "key": "B",
+        "text": "44"
+      },
+      {
+        "key": "C",
+        "text": "50"
+      },
+      {
+        "key": "D",
+        "text": "52"
+      },
+      {
+        "key": "E",
+        "text": "48"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "E"
+    },
+    "explanation": "20% off means paying 80%: 0.80 × 60 = 48.",
+    "estimatedTimeSeconds": 90,
+    "answerCheck": "num(text(answer)) === 48"
+  },
+  {
+    "id": "g7-quant-11",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "linear equations",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "If $\\frac{x}{4} + 3 = 11$, what is the value of $x$?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "24"
+      },
+      {
+        "key": "B",
+        "text": "32"
+      },
+      {
+        "key": "C",
+        "text": "28"
+      },
+      {
+        "key": "D",
+        "text": "36"
+      },
+      {
+        "key": "E",
+        "text": "44"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "x/4 = 8, so x = 32.",
+    "estimatedTimeSeconds": 90,
+    "answerCheck": "num(text(answer)) === 32"
+  },
+  {
+    "id": "g7-quant-12",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "rates",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "A car travels $210$ miles in $3$ hours. What is its average speed in miles per hour?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "60"
+      },
+      {
+        "key": "B",
+        "text": "65"
+      },
+      {
+        "key": "C",
+        "text": "70"
+      },
+      {
+        "key": "D",
+        "text": "75"
+      },
+      {
+        "key": "E",
+        "text": "80"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "Speed = distance / time = 210 / 3 = 70.",
+    "estimatedTimeSeconds": 90,
+    "answerCheck": "num(text(answer)) === 70"
+  },
+  {
+    "id": "g7-quant-13",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "perimeter",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "A square has an area of $49$. What is its perimeter?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "28"
+      },
+      {
+        "key": "B",
+        "text": "14"
+      },
+      {
+        "key": "C",
+        "text": "21"
+      },
+      {
+        "key": "D",
+        "text": "35"
+      },
+      {
+        "key": "E",
+        "text": "49"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "Side = sqrt(49) = 7, so perimeter = 4 × 7 = 28.",
+    "estimatedTimeSeconds": 90,
+    "answerCheck": "num(text(answer)) === 28"
+  },
+  {
+    "id": "g7-quant-14",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "number properties",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "How many positive factors does $12$ have?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "4"
+      },
+      {
+        "key": "B",
+        "text": "5"
+      },
+      {
+        "key": "C",
+        "text": "8"
+      },
+      {
+        "key": "D",
+        "text": "6"
+      },
+      {
+        "key": "E",
+        "text": "12"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "D"
+    },
+    "explanation": "The factors of 12 are 1, 2, 3, 4, 6, 12 — that is 6 factors.",
+    "estimatedTimeSeconds": 90,
+    "answerCheck": "num(text(answer)) === 6"
+  },
+  {
+    "id": "g7-quant-15",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "fractions",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "What is $\\frac{3}{8} + \\frac{1}{4}$?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "4/12"
+      },
+      {
+        "key": "B",
+        "text": "1/2"
+      },
+      {
+        "key": "C",
+        "text": "3/4"
+      },
+      {
+        "key": "D",
+        "text": "7/8"
+      },
+      {
+        "key": "E",
+        "text": "5/8"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "E"
+    },
+    "explanation": "1/4 = 2/8, so 3/8 + 2/8 = 5/8."
+  },
+  {
+    "id": "g7-quant-16",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "averages",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "What is the average (arithmetic mean) of $12$, $18$, and $30$?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "18"
+      },
+      {
+        "key": "B",
+        "text": "20"
+      },
+      {
+        "key": "C",
+        "text": "21"
+      },
+      {
+        "key": "D",
+        "text": "24"
+      },
+      {
+        "key": "E",
+        "text": "30"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "Sum = 60, and 60 / 3 = 20.",
+    "estimatedTimeSeconds": 90,
+    "answerCheck": "num(text(answer)) === 20"
+  },
+  {
+    "id": "g7-quant-17",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "roots",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "What is the value of $\\sqrt{144} + \\sqrt{25}$?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "13"
+      },
+      {
+        "key": "B",
+        "text": "15"
+      },
+      {
+        "key": "C",
+        "text": "17"
+      },
+      {
+        "key": "D",
+        "text": "19"
+      },
+      {
+        "key": "E",
+        "text": "21"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "sqrt(144) = 12 and sqrt(25) = 5, so 12 + 5 = 17.",
+    "estimatedTimeSeconds": 90,
+    "answerCheck": "num(text(answer)) === 17"
+  },
+  {
+    "id": "g7-quant-18",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "systems of equations",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "If $2x + y = 16$ and $x - y = 2$, what is the value of $x$?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "4"
+      },
+      {
+        "key": "B",
+        "text": "5"
+      },
+      {
+        "key": "C",
+        "text": "7"
+      },
+      {
+        "key": "D",
+        "text": "6"
+      },
+      {
+        "key": "E",
+        "text": "8"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "D"
+    },
+    "explanation": "Add the equations: 3x = 18, so x = 6 (and y = 4).",
+    "estimatedTimeSeconds": 120,
+    "answerCheck": "num(text(answer)) === 6"
+  },
+  {
+    "id": "g7-quant-19",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "weighted average",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "stem": "A class has $10$ boys with an average score of $72$ and $15$ girls with an average score of $82$. What is the average score of the whole class?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "76"
+      },
+      {
+        "key": "B",
+        "text": "77"
+      },
+      {
+        "key": "C",
+        "text": "79"
+      },
+      {
+        "key": "D",
+        "text": "80"
+      },
+      {
+        "key": "E",
+        "text": "78"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "E"
+    },
+    "explanation": "Total = 10×72 + 15×82 = 720 + 1230 = 1950, over 25 students = 78.",
+    "estimatedTimeSeconds": 150,
+    "answerCheck": "num(text(answer)) === 78"
+  },
+  {
+    "id": "g7-quant-20",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "work rates",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "Machine A can finish a job in $12$ hours and machine B in $6$ hours. Working together, how many hours do they take to finish the job?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "4"
+      },
+      {
+        "key": "B",
+        "text": "3"
+      },
+      {
+        "key": "C",
+        "text": "5"
+      },
+      {
+        "key": "D",
+        "text": "6"
+      },
+      {
+        "key": "E",
+        "text": "9"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "Combined rate = 1/12 + 1/6 = 1/12 + 2/12 = 3/12 = 1/4 job per hour, so 4 hours.",
+    "estimatedTimeSeconds": 120,
+    "answerCheck": "num(text(answer)) === 4"
+  },
+  {
+    "id": "g7-quant-21",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "percents",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "After a $25\\%$ increase, the price of an item is $90$ dollars. What was the original price in dollars?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "65"
+      },
+      {
+        "key": "B",
+        "text": "67.50"
+      },
+      {
+        "key": "C",
+        "text": "70"
+      },
+      {
+        "key": "D",
+        "text": "112.50"
+      },
+      {
+        "key": "E",
+        "text": "72"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "E"
+    },
+    "explanation": "Original × 1.25 = 90, so original = 90 / 1.25 = 72.",
+    "estimatedTimeSeconds": 120,
+    "answerCheck": "num(text(answer)) === 72"
+  },
+  {
+    "id": "g7-quant-22",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "mixtures",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "stem": "How many liters of pure water must be added to $20$ liters of a $30\\%$ salt solution to make it a $20\\%$ salt solution?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "10"
+      },
+      {
+        "key": "B",
+        "text": "5"
+      },
+      {
+        "key": "C",
+        "text": "8"
+      },
+      {
+        "key": "D",
+        "text": "12"
+      },
+      {
+        "key": "E",
+        "text": "15"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "Salt = 0.30 × 20 = 6 liters. We need 6 / (20 + w) = 0.20, so 20 + w = 30, w = 10.",
+    "estimatedTimeSeconds": 150,
+    "answerCheck": "num(text(answer)) === 10"
+  },
+  {
+    "id": "g7-quant-23",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "number properties",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "What is the least common multiple (LCM) of $12$ and $18$?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "6"
+      },
+      {
+        "key": "B",
+        "text": "36"
+      },
+      {
+        "key": "C",
+        "text": "24"
+      },
+      {
+        "key": "D",
+        "text": "30"
+      },
+      {
+        "key": "E",
+        "text": "216"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "12 = 2^2·3 and 18 = 2·3^2, so LCM = 2^2·3^2 = 36.",
+    "estimatedTimeSeconds": 110,
+    "answerCheck": "num(text(answer)) === 36"
+  },
+  {
+    "id": "g7-quant-24",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "probability",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "A bag contains $3$ green and $5$ yellow balls. If one ball is drawn at random, what is the probability that it is green?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "1/8"
+      },
+      {
+        "key": "B",
+        "text": "3/5"
+      },
+      {
+        "key": "C",
+        "text": "3/8"
+      },
+      {
+        "key": "D",
+        "text": "5/8"
+      },
+      {
+        "key": "E",
+        "text": "1/2"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "There are 8 balls total, 3 of which are green: probability = 3/8."
+  },
+  {
+    "id": "g7-quant-25",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "sequences",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "In an arithmetic sequence the first term is $5$ and the common difference is $4$. What is the $10$th term?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "36"
+      },
+      {
+        "key": "B",
+        "text": "40"
+      },
+      {
+        "key": "C",
+        "text": "45"
+      },
+      {
+        "key": "D",
+        "text": "49"
+      },
+      {
+        "key": "E",
+        "text": "41"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "E"
+    },
+    "explanation": "a_10 = 5 + (10 - 1)×4 = 5 + 36 = 41.",
+    "estimatedTimeSeconds": 110,
+    "answerCheck": "num(text(answer)) === 41"
+  },
+  {
+    "id": "g7-quant-26",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "coordinate geometry",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "What is the distance between the points $(1, 2)$ and $(4, 6)$?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "5"
+      },
+      {
+        "key": "B",
+        "text": "3"
+      },
+      {
+        "key": "C",
+        "text": "4"
+      },
+      {
+        "key": "D",
+        "text": "6"
+      },
+      {
+        "key": "E",
+        "text": "7"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "Distance = sqrt((4-1)^2 + (6-2)^2) = sqrt(9 + 16) = sqrt(25) = 5.",
+    "estimatedTimeSeconds": 110,
+    "answerCheck": "num(text(answer)) === 5"
+  },
+  {
+    "id": "g7-quant-27",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "simple interest",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "A principal of $4000$ dollars earns simple interest at an annual rate of $6\\%$. How much interest in dollars is earned after $3$ years?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "240"
+      },
+      {
+        "key": "B",
+        "text": "480"
+      },
+      {
+        "key": "C",
+        "text": "640"
+      },
+      {
+        "key": "D",
+        "text": "720"
+      },
+      {
+        "key": "E",
+        "text": "840"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "D"
+    },
+    "explanation": "Interest = P·r·t = 4000 × 0.06 × 3 = 720.",
+    "estimatedTimeSeconds": 110,
+    "answerCheck": "num(text(answer)) === 720"
+  },
+  {
+    "id": "g7-quant-28",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "inequalities",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "What is the largest integer $x$ that satisfies $5x - 3 < 22$?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "3"
+      },
+      {
+        "key": "B",
+        "text": "4"
+      },
+      {
+        "key": "C",
+        "text": "5"
+      },
+      {
+        "key": "D",
+        "text": "6"
+      },
+      {
+        "key": "E",
+        "text": "7"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "5x < 25 gives x < 5, so the largest integer is 4.",
+    "estimatedTimeSeconds": 110,
+    "answerCheck": "num(text(answer)) === 4"
+  },
+  {
+    "id": "g7-quant-29",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "sets",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "stem": "In a group of $50$ people, $30$ like tea and $25$ like coffee. If $10$ like neither, how many like both?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "5"
+      },
+      {
+        "key": "B",
+        "text": "10"
+      },
+      {
+        "key": "C",
+        "text": "20"
+      },
+      {
+        "key": "D",
+        "text": "15"
+      },
+      {
+        "key": "E",
+        "text": "25"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "D"
+    },
+    "explanation": "Like at least one = 50 - 10 = 40. By inclusion-exclusion 30 + 25 - both = 40, so both = 15.",
+    "estimatedTimeSeconds": 150,
+    "answerCheck": "num(text(answer)) === 15"
+  },
+  {
+    "id": "g7-quant-30",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "combinations",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "How many ways can a committee of $2$ people be chosen from $7$ people?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "21"
+      },
+      {
+        "key": "B",
+        "text": "14"
+      },
+      {
+        "key": "C",
+        "text": "28"
+      },
+      {
+        "key": "D",
+        "text": "42"
+      },
+      {
+        "key": "E",
+        "text": "49"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "C(7,2) = (7×6)/(2×1) = 21.",
+    "estimatedTimeSeconds": 110,
+    "answerCheck": "num(text(answer)) === 21"
+  },
+  {
+    "id": "g7-quant-31",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "ratios",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "stem": "A sum of money is split among three people in the ratio $2 : 3 : 5$. If the total is $400$ dollars, how many dollars does the person with the largest share receive?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "80"
+      },
+      {
+        "key": "B",
+        "text": "200"
+      },
+      {
+        "key": "C",
+        "text": "120"
+      },
+      {
+        "key": "D",
+        "text": "150"
+      },
+      {
+        "key": "E",
+        "text": "240"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "Total parts = 10, one part = 400/10 = 40, largest share = 5 × 40 = 200.",
+    "estimatedTimeSeconds": 150,
+    "answerCheck": "num(text(answer)) === 200"
+  },
+  {
+    "id": "g7-quant-32",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "profit and loss",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "A merchant buys an item for $80$ dollars and sells it for $100$ dollars. What is the percent profit?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "15%"
+      },
+      {
+        "key": "B",
+        "text": "20%"
+      },
+      {
+        "key": "C",
+        "text": "25%"
+      },
+      {
+        "key": "D",
+        "text": "30%"
+      },
+      {
+        "key": "E",
+        "text": "80%"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "Profit = 20 on a cost of 80, so 20/80 = 25%."
+  },
+  {
+    "id": "g7-quant-33",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "statistics",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "What is the median of the numbers $4$, $9$, $2$, $15$, and $7$?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "4"
+      },
+      {
+        "key": "B",
+        "text": "9"
+      },
+      {
+        "key": "C",
+        "text": "11"
+      },
+      {
+        "key": "D",
+        "text": "7"
+      },
+      {
+        "key": "E",
+        "text": "15"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "D"
+    },
+    "explanation": "Sorted: 2, 4, 7, 9, 15. The middle value is 7.",
+    "estimatedTimeSeconds": 100,
+    "answerCheck": "num(text(answer)) === 7"
+  },
+  {
+    "id": "g7-quant-34",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "exponents",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "If $3^{x} = 81$, what is the value of $x$?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "2"
+      },
+      {
+        "key": "B",
+        "text": "3"
+      },
+      {
+        "key": "C",
+        "text": "5"
+      },
+      {
+        "key": "D",
+        "text": "27"
+      },
+      {
+        "key": "E",
+        "text": "4"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "E"
+    },
+    "explanation": "81 = 3^4, so x = 4.",
+    "estimatedTimeSeconds": 100,
+    "answerCheck": "num(text(answer)) === 4"
+  },
+  {
+    "id": "g7-quant-35",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "geometry",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "A right triangle has legs of length $9$ and $12$. What is the length of the hypotenuse?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "15"
+      },
+      {
+        "key": "B",
+        "text": "13"
+      },
+      {
+        "key": "C",
+        "text": "14"
+      },
+      {
+        "key": "D",
+        "text": "18"
+      },
+      {
+        "key": "E",
+        "text": "21"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "Hypotenuse = sqrt(9^2 + 12^2) = sqrt(81 + 144) = sqrt(225) = 15.",
+    "estimatedTimeSeconds": 110,
+    "answerCheck": "num(text(answer)) === 15"
+  },
+  {
+    "id": "g7-quant-36",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "rates",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "stem": "Two trains start $360$ miles apart and travel toward each other, one at $50$ mph and the other at $40$ mph. After how many hours do they meet?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "3"
+      },
+      {
+        "key": "B",
+        "text": "5"
+      },
+      {
+        "key": "C",
+        "text": "4"
+      },
+      {
+        "key": "D",
+        "text": "6"
+      },
+      {
+        "key": "E",
+        "text": "8"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "Closing speed = 50 + 40 = 90 mph, so time = 360 / 90 = 4 hours.",
+    "estimatedTimeSeconds": 150,
+    "answerCheck": "num(text(answer)) === 4"
+  },
+  {
+    "id": "g7-quant-37",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "absolute value",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "stem": "How many integer solutions does the equation $|x - 4| = 6$ have?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "2"
+      },
+      {
+        "key": "B",
+        "text": "0"
+      },
+      {
+        "key": "C",
+        "text": "1"
+      },
+      {
+        "key": "D",
+        "text": "3"
+      },
+      {
+        "key": "E",
+        "text": "infinitely many"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "x - 4 = 6 gives x = 10, and x - 4 = -6 gives x = -2: two solutions.",
+    "estimatedTimeSeconds": 150,
+    "answerCheck": "num(text(answer)) === 2"
+  },
+  {
+    "id": "g7-quant-38",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "functions",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "If $f(x) = 2x^{2} - 3x + 1$, what is $f(3)$?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "8"
+      },
+      {
+        "key": "B",
+        "text": "10"
+      },
+      {
+        "key": "C",
+        "text": "12"
+      },
+      {
+        "key": "D",
+        "text": "16"
+      },
+      {
+        "key": "E",
+        "text": "19"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "f(3) = 2(9) - 3(3) + 1 = 18 - 9 + 1 = 10.",
+    "estimatedTimeSeconds": 110,
+    "answerCheck": "num(text(answer)) === 10"
+  },
+  {
+    "id": "g7-quant-39",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "circles",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "A circle has a radius of $6$. What is its area?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "12π"
+      },
+      {
+        "key": "B",
+        "text": "18π"
+      },
+      {
+        "key": "C",
+        "text": "24π"
+      },
+      {
+        "key": "D",
+        "text": "36π"
+      },
+      {
+        "key": "E",
+        "text": "48π"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "D"
+    },
+    "explanation": "Area = πr^2 = π(6)^2 = 36π."
+  },
+  {
+    "id": "g7-quant-40",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "volume",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "A rectangular box has dimensions $4$ by $5$ by $6$. What is its volume?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "60"
+      },
+      {
+        "key": "B",
+        "text": "90"
+      },
+      {
+        "key": "C",
+        "text": "108"
+      },
+      {
+        "key": "D",
+        "text": "150"
+      },
+      {
+        "key": "E",
+        "text": "120"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "E"
+    },
+    "explanation": "Volume = 4 × 5 × 6 = 120.",
+    "estimatedTimeSeconds": 100,
+    "answerCheck": "num(text(answer)) === 120"
+  },
+  {
+    "id": "g7-quant-41",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "compound interest",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "stem": "A deposit of $2000$ dollars earns interest at an annual rate of $10\\%$, compounded annually. How much in dollars is in the account after $2$ years?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "2200"
+      },
+      {
+        "key": "B",
+        "text": "2400"
+      },
+      {
+        "key": "C",
+        "text": "2420"
+      },
+      {
+        "key": "D",
+        "text": "2440"
+      },
+      {
+        "key": "E",
+        "text": "2600"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "2000 × 1.10^2 = 2000 × 1.21 = 2420.",
+    "estimatedTimeSeconds": 150,
+    "answerCheck": "num(text(answer)) === 2420"
+  },
+  {
+    "id": "g7-quant-42",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "number properties",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "stem": "When the positive integer $n$ is divided by $7$ the remainder is $4$, and when divided by $9$ the remainder is $2$. What is the least possible value of $n$?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "11"
+      },
+      {
+        "key": "B",
+        "text": "29"
+      },
+      {
+        "key": "C",
+        "text": "38"
+      },
+      {
+        "key": "D",
+        "text": "47"
+      },
+      {
+        "key": "E",
+        "text": "53"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "A"
+    },
+    "explanation": "n = 11 gives 11 = 7×1 + 4 (remainder 4) and 11 = 9×1 + 2 (remainder 2), and it is the smallest such positive integer.",
+    "estimatedTimeSeconds": 160,
+    "answerCheck": "num(text(answer)) === 11"
+  },
+  {
+    "id": "g7-quant-43",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "probability",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "stem": "A fair coin is flipped $3$ times. What is the probability of getting exactly $2$ heads?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "1/8"
+      },
+      {
+        "key": "B",
+        "text": "1/4"
+      },
+      {
+        "key": "C",
+        "text": "1/2"
+      },
+      {
+        "key": "D",
+        "text": "5/8"
+      },
+      {
+        "key": "E",
+        "text": "3/8"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "E"
+    },
+    "explanation": "There are C(3,2)=3 favorable outcomes out of 8 total, so 3/8."
+  },
+  {
+    "id": "g7-quant-44",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "work rates",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "stem": "Pipe A fills a tank in $4$ hours and pipe B in $6$ hours, while a drain empties it in $12$ hours. With all three open, how many hours does it take to fill the tank?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "2"
+      },
+      {
+        "key": "B",
+        "text": "3"
+      },
+      {
+        "key": "C",
+        "text": "4"
+      },
+      {
+        "key": "D",
+        "text": "5"
+      },
+      {
+        "key": "E",
+        "text": "6"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "Net rate = 1/4 + 1/6 - 1/12 = 3/12 + 2/12 - 1/12 = 4/12 = 1/3 tank per hour, so 3 hours.",
+    "estimatedTimeSeconds": 160,
+    "answerCheck": "num(text(answer)) === 3"
+  },
+  {
+    "id": "g7-quant-45",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "permutations",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "stem": "How many distinct arrangements are there of the letters in the word LEVEL?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "20"
+      },
+      {
+        "key": "B",
+        "text": "60"
+      },
+      {
+        "key": "C",
+        "text": "120"
+      },
+      {
+        "key": "D",
+        "text": "30"
+      },
+      {
+        "key": "E",
+        "text": "240"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "D"
+    },
+    "explanation": "LEVEL has 5 letters with L repeated twice and E repeated twice: 5!/(2!·2!) = 120/4 = 30.",
+    "estimatedTimeSeconds": 160,
+    "answerCheck": "num(text(answer)) === 30"
+  },
+  {
+    "id": "g7-quant-46",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "geometric sequences",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "stem": "In a geometric sequence the first term is $3$ and the common ratio is $2$. What is the sum of the first $5$ terms?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "31"
+      },
+      {
+        "key": "B",
+        "text": "48"
+      },
+      {
+        "key": "C",
+        "text": "93"
+      },
+      {
+        "key": "D",
+        "text": "63"
+      },
+      {
+        "key": "E",
+        "text": "96"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "Terms are 3, 6, 12, 24, 48; their sum is 93. (Or 3·(2^5 - 1)/(2 - 1) = 3·31 = 93.)",
+    "estimatedTimeSeconds": 150,
+    "answerCheck": "num(text(answer)) === 93"
+  },
+  {
+    "id": "g7-quant-47",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "percents",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "stem": "The price of a stock rises by $20\\%$ and then falls by $20\\%$. The final price is what percent of the original price?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "92%"
+      },
+      {
+        "key": "B",
+        "text": "96%"
+      },
+      {
+        "key": "C",
+        "text": "98%"
+      },
+      {
+        "key": "D",
+        "text": "100%"
+      },
+      {
+        "key": "E",
+        "text": "104%"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "B"
+    },
+    "explanation": "1.20 × 0.80 = 0.96, so the final price is 96% of the original."
+  },
+  {
+    "id": "g7-quant-48",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "algebra",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "stem": "If $x + y = 9$ and $x^{2} + y^{2} = 53$, what is the value of $xy$?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "12"
+      },
+      {
+        "key": "B",
+        "text": "16"
+      },
+      {
+        "key": "C",
+        "text": "18"
+      },
+      {
+        "key": "D",
+        "text": "20"
+      },
+      {
+        "key": "E",
+        "text": "14"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "E"
+    },
+    "explanation": "(x+y)^2 = x^2 + 2xy + y^2, so 81 = 53 + 2xy, giving 2xy = 28 and xy = 14.",
+    "estimatedTimeSeconds": 160,
+    "answerCheck": "num(text(answer)) === 14"
+  },
+  {
+    "id": "g7-quant-49",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "number properties",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "stem": "What is the units digit of $7^{23}$?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "1"
+      },
+      {
+        "key": "B",
+        "text": "7"
+      },
+      {
+        "key": "C",
+        "text": "8"
+      },
+      {
+        "key": "D",
+        "text": "3"
+      },
+      {
+        "key": "E",
+        "text": "9"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "D"
+    },
+    "explanation": "Units digits of powers of 7 cycle 7, 9, 3, 1 with period 4. Since 23 = 4×5 + 3, the units digit matches 7^3, which is 3.",
+    "estimatedTimeSeconds": 150,
+    "answerCheck": "num(text(answer)) === 3"
+  },
+  {
+    "id": "g7-quant-50",
+    "section": "quant",
+    "type": "problem_solving",
+    "topic": "geometry",
+    "difficulty": "hard",
+    "orderIndex": 0,
+    "stem": "A cylinder has a radius of $3$ and a height of $7$. What is its volume?",
+    "assets": {},
+    "choices": [
+      {
+        "key": "A",
+        "text": "21π"
+      },
+      {
+        "key": "B",
+        "text": "42π"
+      },
+      {
+        "key": "C",
+        "text": "63π"
+      },
+      {
+        "key": "D",
+        "text": "126π"
+      },
+      {
+        "key": "E",
+        "text": "189π"
+      }
+    ],
+    "correctAnswer": {
+      "format": "single",
+      "value": "C"
+    },
+    "explanation": "Volume = πr^2h = π(3)^2(7) = π·9·7 = 63π."
+  }
+]
