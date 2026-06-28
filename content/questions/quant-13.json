@@ -756,7 +756,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "The final value is 1000 × (1.10)² = 1000 × 1.21 = 1210.",
+    "explanation": "Sorted, the numbers are 3, 7, 9, 10, 20. The median is the middle value, which is **9**.",
     "estimatedTimeSeconds": 120
   },
   {

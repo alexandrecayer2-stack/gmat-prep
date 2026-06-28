@@ -975,7 +975,7 @@
     ],
     "correctAnswer": {
       "format": "single",
-      "value": "B"
+      "value": "C"
     },
     "explanation": "The net rate is $1/9-1/18=2/18-1/18=1/18$ tank per hour. So the tank fills in 18 hours.",
     "estimatedTimeSeconds": 90,

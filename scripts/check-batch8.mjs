@@ -110,8 +110,8 @@ check('qb23', (-4+8)/2===2 && (3+(-1))/2===1 ? 'C' : '?', ans(ps.qb23));
 // qb24: 12/(3/4) = 16 km/h → C
 check('qb24', 12/(45/60) === 16 ? 'C' : '?', ans(ps.qb24));
 
-// qb25: net rate=1/9-1/18=1/18; time=18 hours → B
-check('qb25', 1/(1/9-1/18) === 18 ? 'B' : '?', ans(ps.qb25));
+// qb25: net rate=1/9-1/18=1/18; time=18 hours → C
+check('qb25', 1/(1/9-1/18) === 18 ? 'C' : '?', ans(ps.qb25));
 
 // qb26: gcd(84,126): 84=2²×3×7, 126=2×3²×7 → gcd=2×3×7=42 → D
 check('qb26', (() => { function gcd(a,b){return b===0?a:gcd(b,a%b);} return gcd(84,126)===42 ? 'D' : '?'; })(), ans(ps.qb26));
