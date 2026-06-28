@@ -42,10 +42,10 @@
       { "key": "B", "text": "Every employee who exceeded their sales target received a performance bonus." },
       { "key": "C", "text": "Some employees outside the Western region received a performance bonus." },
       { "key": "D", "text": "The Western region had the lowest total sales of any region." },
-      { "key": "E", "text": "Every employee who received a bonus worked outside the Western region." }
+      { "key": "E", "text": "Every employee who worked outside the Western region received a performance bonus." }
     ],
     "correctAnswer": { "format": "single", "value": "A" },
-    "explanation": "Bonus implies exceeded target. No Western employee exceeded target, so no Western employee could have a bonus—A must be true. (E) says the same as A only if bonuses were actually given; A is the safe contrapositive. (B) reverses the conditional; (C) and (D) aren't established.",
+    "explanation": "Bonus implies exceeded target. No Western employee exceeded target, so no Western employee could have a bonus—A must be true. (B) reverses the conditional; (C) and (D) are not established. (E) is an illicit reversal: working outside the Western region does not guarantee a bonus.",
     "estimatedTimeSeconds": 105, "tags": ["critical-reasoning", "inference"] },
   { "id": "v6-cr05", "section": "verbal", "type": "critical_reasoning", "topic": "paradox", "difficulty": "medium",
     "stem": "A bookstore raised the price of its bestselling novel by 15 percent. Despite the higher price, the store's total revenue from that novel increased substantially in the month after the change.\n\nWhich of the following, if true, best helps to explain this result?",
