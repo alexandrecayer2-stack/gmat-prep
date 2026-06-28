@@ -156,7 +156,7 @@
     "topic": "assumption",
     "subtopic": "causal assumption",
     "skillsTested": ["necessary assumption", "cause-effect reasoning"],
-    "difficulty": "easy",
+    "difficulty": "medium",
     "difficultyScore": { "conceptual": 2, "steps": 2, "trap": 1, "computation": 2, "sum": 7 },
     "difficultyDrivers": ["Single causal assumption", "Straightforward answer choice comparison", "Minimal logical nesting"],
     "stem": "Which of the following is an assumption on which the manager's conclusion depends?",

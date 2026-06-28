@@ -167,7 +167,7 @@
     "correctAnswer": { "format": "single", "value": "B" },
     "explanation": "A recommendation slows disease spread only if enough farmers follow it. The agency must assume substantial adoption (B); otherwise resistant wheat sits unused and the disease spreads as before. Yield, cost, and neighboring losses are not required for the slowing-spread conclusion.",
     "estimatedTimeSeconds": 120, "tags": ["critical-reasoning", "assumption"] },
-  { "id": "v6-cr15", "section": "verbal", "type": "critical_reasoning", "topic": "paradox", "difficulty": "easy",
+  { "id": "v6-cr15", "section": "verbal", "type": "critical_reasoning", "topic": "paradox", "difficulty": "medium",
     "stem": "A factory installed a new machine that produces parts twice as fast as the old machine it replaced. Yet after the installation, the factory's total daily output of finished parts did not increase at all.\n\nWhich of the following, if true, best explains why total output did not increase?",
     "choices": [
       { "key": "A", "text": "The new machine occasionally produces parts that must be discarded as defective." },

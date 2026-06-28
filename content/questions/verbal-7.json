@@ -44,7 +44,7 @@
     "section": "verbal",
     "type": "critical_reasoning",
     "topic": "weaken",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "stem": "A retail chain plans to close two stores, saying the closures will raise profit because the stores lose money. Which statement, if true, most weakens the plan's justification?",
     "choices": [
       {
@@ -84,7 +84,7 @@
     "section": "verbal",
     "type": "critical_reasoning",
     "topic": "strengthen",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "stem": "A city says a new bus lane reduced commute times on a major avenue. Which statement most strengthens the claim?",
     "choices": [
       {
@@ -124,7 +124,7 @@
     "section": "verbal",
     "type": "critical_reasoning",
     "topic": "inference",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "stem": "All public charging stations in the town are downtown. The town has at least one public charging station. Which statement can be inferred?",
     "choices": [
       {
@@ -164,7 +164,7 @@
     "section": "verbal",
     "type": "critical_reasoning",
     "topic": "evaluate",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "stem": "A school plans to replace paper homework with online homework and expects completion rates to rise. Which information would be most useful in evaluating the plan?",
     "choices": [
       {
@@ -684,7 +684,7 @@
     "section": "verbal",
     "type": "critical_reasoning",
     "topic": "weaken",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "stem": "A company says a new training program reduced employee errors. Which statement most weakens the claim?",
     "choices": [
       {

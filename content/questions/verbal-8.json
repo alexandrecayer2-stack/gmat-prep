@@ -127,7 +127,7 @@
     "section": "verbal",
     "type": "critical_reasoning",
     "topic": "inference",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "stem": "An article says the city's bus fleet now uses hybrid engines, which lowered fuel use by 18%. The article also notes that maintenance expenses rose slightly because technicians needed new training. Which statement is best supported?",
     "choices": [
       {
@@ -168,7 +168,7 @@
     "section": "verbal",
     "type": "critical_reasoning",
     "topic": "evaluate",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "stem": "An electronics retailer plans to extend its warranty because customers are more willing to buy expensive products when coverage lasts longer. Which question would be most useful to evaluate the plan?",
     "choices": [
       {
@@ -291,7 +291,7 @@
     "section": "verbal",
     "type": "critical_reasoning",
     "topic": "paradox",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "stem": "During a heat wave, sales of bottled water doubled, yet the store manager decided to reduce shelf space for water because fewer bottles were in stock at closing each day. Which explanation best resolves the apparent paradox?",
     "choices": [
       {
@@ -537,7 +537,7 @@
     "section": "verbal",
     "type": "critical_reasoning",
     "topic": "evaluate",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "stem": "A public library plans to remain open two extra evenings per week because working adults would use the building after office hours. Which question would be most useful to evaluate the plan?",
     "choices": [
       {
@@ -701,7 +701,7 @@
     "section": "verbal",
     "type": "critical_reasoning",
     "topic": "strengthen",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "stem": "A small manufacturer says that switching to a new inventory system will reduce mistakes because it will update stock numbers automatically. Which fact most strengthens the claim?",
     "choices": [
       {
