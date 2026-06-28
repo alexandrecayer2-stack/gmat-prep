@@ -56,7 +56,7 @@
     "estimatedTimeSeconds": 105
   },
   {
-    "id": "q5-system-substitution", "section": "quant", "type": "problem_solving", "topic": "algebra", "difficulty": "medium",
+    "id": "q5-system-substitution", "section": "quant", "type": "problem_solving", "topic": "algebra", "difficulty": "easy",
     "stem": "If $5a + 2b = 26$ and $a = b + 1$, what is the value of $b$?",
     "choices": [
       { "key": "A", "text": "$2$" },
@@ -70,7 +70,7 @@
     "estimatedTimeSeconds": 90
   },
   {
-    "id": "q5-prob-complement", "section": "quant", "type": "problem_solving", "topic": "probability", "difficulty": "hard",
+    "id": "q5-prob-complement", "section": "quant", "type": "problem_solving", "topic": "probability", "difficulty": "easy",
     "stem": "A fair coin is flipped $3$ times. What is the probability of getting at least one head?",
     "choices": [
       { "key": "A", "text": "$1/8$" },
@@ -84,7 +84,7 @@
     "estimatedTimeSeconds": 105
   },
   {
-    "id": "q5-divisors", "section": "quant", "type": "problem_solving", "topic": "number properties", "difficulty": "hard",
+    "id": "q5-divisors", "section": "quant", "type": "problem_solving", "topic": "number properties", "difficulty": "easy",
     "stem": "How many positive divisors does $72$ have?",
     "choices": [
       { "key": "A", "text": "$6$" },
@@ -98,7 +98,7 @@
     "estimatedTimeSeconds": 105
   },
   {
-    "id": "q5-work-three", "section": "quant", "type": "problem_solving", "topic": "work", "difficulty": "hard",
+    "id": "q5-work-three", "section": "quant", "type": "problem_solving", "topic": "work", "difficulty": "medium",
     "stem": "Pipe A can fill a tank in $4$ hours and pipe B can fill the same tank in $6$ hours. Working together, how many hours will it take them to fill the tank?",
     "choices": [
       { "key": "A", "text": "$2$" },

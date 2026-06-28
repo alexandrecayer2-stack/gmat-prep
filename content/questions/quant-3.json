@@ -105,7 +105,7 @@
     "section": "quant",
     "type": "problem_solving",
     "topic": "number properties",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "stem": "When the positive integer $n$ is divided by $5$, the remainder is $3$. When $n$ is divided by $7$, the remainder is $4$. What is the least possible value of $n$?",
     "choices": [
       { "key": "A", "text": "$13$" },
@@ -130,7 +130,7 @@
     "section": "quant",
     "type": "problem_solving",
     "topic": "probability",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "stem": "A jar contains $4$ red marbles and $6$ green marbles. Two marbles are drawn at random without replacement. What is the probability that both marbles are the same color?",
     "choices": [
       { "key": "A", "text": "$1/3$" },

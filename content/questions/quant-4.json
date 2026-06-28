@@ -42,7 +42,7 @@
     "section": "quant",
     "type": "problem_solving",
     "topic": "inequalities",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "stem": "If $3 < 2x - 1 < 9$, which of the following could be the value of $x$?",
     "choices": [
       { "key": "A", "text": "$1$" },
@@ -61,7 +61,7 @@
     "section": "quant",
     "type": "problem_solving",
     "topic": "sequences",
-    "difficulty": "hard",
+    "difficulty": "easy",
     "stem": "In a sequence, the first term is $1$, and each term after the first is $3$ more than twice the previous term. What is the fourth term?",
     "choices": [
       { "key": "A", "text": "$61$" },
@@ -80,7 +80,7 @@
     "section": "quant",
     "type": "problem_solving",
     "topic": "exponents",
-    "difficulty": "hard",
+    "difficulty": "easy",
     "stem": "If $2^{x+2} = 32$, what is the value of $3^{x}$?",
     "choices": [
       { "key": "A", "text": "$9$" },

@@ -30,7 +30,7 @@
     "section": "verbal",
     "type": "critical_reasoning",
     "topic": "inference",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "stem": "If the statements above are true, which of the following must also be true?",
     "passageOrStimulus": "Everyone who completed the safety course received a certificate. None of the contractors received a certificate.",
     "choices": [
@@ -162,7 +162,7 @@
     "section": "verbal",
     "type": "reading_comprehension",
     "topic": "inference",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "groupId": "rc-time-zones",
     "orderIndex": 3,
     "stem": "The passage suggests that the adoption of standard time zones was notable in that it",

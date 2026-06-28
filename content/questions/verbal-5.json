@@ -45,7 +45,7 @@
     "estimatedTimeSeconds": 90
   },
   {
-    "id": "rc-oct-function", "section": "verbal", "type": "reading_comprehension", "topic": "function", "difficulty": "hard",
+    "id": "rc-oct-function", "section": "verbal", "type": "reading_comprehension", "topic": "function", "difficulty": "medium",
     "groupId": "rc-octopus", "orderIndex": 4,
     "stem": "The phrase \"one mind or many\" functions primarily to",
     "choices": [
@@ -105,7 +105,7 @@
     "estimatedTimeSeconds": 95
   },
   {
-    "id": "rc-pat-function", "section": "verbal", "type": "reading_comprehension", "topic": "function", "difficulty": "hard",
+    "id": "rc-pat-function", "section": "verbal", "type": "reading_comprehension", "topic": "function", "difficulty": "medium",
     "groupId": "rc-patents", "orderIndex": 4,
     "stem": "The author observes that the patent system is 'largely uniform, while the industries it governs are not' chiefly in order to",
     "choices": [
@@ -165,7 +165,7 @@
     "estimatedTimeSeconds": 95
   },
   {
-    "id": "rc-haw-function", "section": "verbal", "type": "reading_comprehension", "topic": "function", "difficulty": "hard",
+    "id": "rc-haw-function", "section": "verbal", "type": "reading_comprehension", "topic": "function", "difficulty": "medium",
     "groupId": "rc-hawthorne", "orderIndex": 4,
     "stem": "The author describes the episode as carrying a \"double lesson\" primarily to",
     "choices": [
@@ -225,7 +225,7 @@
     "estimatedTimeSeconds": 95
   },
   {
-    "id": "rc-con-function", "section": "verbal", "type": "reading_comprehension", "topic": "function", "difficulty": "hard",
+    "id": "rc-con-function", "section": "verbal", "type": "reading_comprehension", "topic": "function", "difficulty": "medium",
     "groupId": "rc-container", "orderIndex": 4,
     "stem": "The author mentions firms 'surrendering the chance to lock customers into a proprietary system' mainly in order to",
     "choices": [
@@ -285,7 +285,7 @@
     "estimatedTimeSeconds": 105
   },
   {
-    "id": "cr5-engineers-inference", "section": "verbal", "type": "critical_reasoning", "topic": "inference", "difficulty": "medium",
+    "id": "cr5-engineers-inference", "section": "verbal", "type": "critical_reasoning", "topic": "inference", "difficulty": "easy",
     "stem": "If the statements above are true, which of the following must also be true?",
     "passageOrStimulus": "All of the firm's senior engineers have a graduate degree. No one in the firm's marketing department has a graduate degree.",
     "choices": [
@@ -300,7 +300,7 @@
     "estimatedTimeSeconds": 105
   },
   {
-    "id": "cr5-bookformat-evaluate", "section": "verbal", "type": "critical_reasoning", "topic": "evaluate", "difficulty": "hard",
+    "id": "cr5-bookformat-evaluate", "section": "verbal", "type": "critical_reasoning", "topic": "evaluate", "difficulty": "medium",
     "stem": "The answer to which of the following questions would be most useful in evaluating whether the shorter format will increase profits?",
     "passageOrStimulus": "A publisher claims that its new, shorter book format will increase profits, because shorter books cost less to print. Critics counter that the shorter format will reduce sales.",
     "choices": [
@@ -315,7 +315,7 @@
     "estimatedTimeSeconds": 120
   },
   {
-    "id": "cr5-museum-paradox", "section": "verbal", "type": "critical_reasoning", "topic": "paradox", "difficulty": "hard",
+    "id": "cr5-museum-paradox", "section": "verbal", "type": "critical_reasoning", "topic": "paradox", "difficulty": "medium",
     "stem": "Which of the following, if true, best resolves the apparent discrepancy?",
     "passageOrStimulus": "After a museum began charging an admission fee, the number of daily visitors fell, yet the museum's total revenue from visitors rose.",
     "choices": [
@@ -330,7 +330,7 @@
     "estimatedTimeSeconds": 120
   },
   {
-    "id": "cr5-herbaltea-flaw", "section": "verbal", "type": "critical_reasoning", "topic": "flaw", "difficulty": "hard",
+    "id": "cr5-herbaltea-flaw", "section": "verbal", "type": "critical_reasoning", "topic": "flaw", "difficulty": "medium",
     "stem": "The reasoning in the argument is most vulnerable to criticism on which of the following grounds?",
     "passageOrStimulus": "A wellness blog surveyed its readers and found that those who drink herbal tea report lower stress than those who do not. The blog concludes that drinking herbal tea reduces stress for people in general.",
     "choices": [

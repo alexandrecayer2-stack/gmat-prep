@@ -1,6 +1,6 @@
 [
   {
-    "id": "ds5-system", "section": "data_insights", "type": "data_sufficiency", "topic": "algebra", "difficulty": "easy",
+    "id": "ds5-system", "section": "data_insights", "type": "data_sufficiency", "topic": "algebra", "difficulty": "medium",
     "stem": "What is the value of $x$?\n(1) $x + y = 12$\n(2) $x - y = 4$",
     "correctAnswer": { "format": "single", "value": "C" },
     "explanation": "Each statement alone has infinitely many solutions. Together, adding the equations gives $2x = 16$, so $x = 8$. Sufficient together but not alone — the answer is C.",
@@ -14,14 +14,14 @@
     "estimatedTimeSeconds": 105
   },
   {
-    "id": "ds5-greater-10", "section": "data_insights", "type": "data_sufficiency", "topic": "inequalities", "difficulty": "medium",
+    "id": "ds5-greater-10", "section": "data_insights", "type": "data_sufficiency", "topic": "inequalities", "difficulty": "easy",
     "stem": "Is $x > 10$?\n(1) $x > 5$\n(2) $x = 12$",
     "correctAnswer": { "format": "single", "value": "B" },
     "explanation": "Statement (1): $x > 5$ allows values both above and below $10$ — not sufficient. Statement (2): $x = 12 > 10$ — sufficient. The answer is B.",
     "estimatedTimeSeconds": 75
   },
   {
-    "id": "ds5-int-square", "section": "data_insights", "type": "data_sufficiency", "topic": "number-properties", "difficulty": "hard",
+    "id": "ds5-int-square", "section": "data_insights", "type": "data_sufficiency", "topic": "number properties", "difficulty": "medium",
     "stem": "What is the value of the integer $x$?\n(1) $x^2 < 10$\n(2) $x$ is odd.",
     "correctAnswer": { "format": "single", "value": "E" },
     "explanation": "Statement (1): $x \\in \\{-3,-2,-1,0,1,2,3\\}$ — not unique. Statement (2): infinitely many odd integers — not unique. Together, $x \\in \\{-3,-1,1,3\\}$ — still not unique. The answer is E.",
@@ -75,7 +75,7 @@
     "estimatedTimeSeconds": 120
   },
   {
-    "id": "gi5-practice-scatter", "section": "data_insights", "type": "graphics_interpretation", "topic": "graphics interpretation", "difficulty": "medium",
+    "id": "gi5-practice-scatter", "section": "data_insights", "type": "graphics_interpretation", "topic": "graphics interpretation", "difficulty": "easy",
     "stem": "The scatterplot shows the number of errors five students made on a task versus the hours they practiced. Use the drop-down menus to complete the statements.",
     "assets": {
       "chart": {
@@ -99,7 +99,7 @@
     "estimatedTimeSeconds": 120
   },
   {
-    "id": "gi5-profit-bar", "section": "data_insights", "type": "graphics_interpretation", "topic": "graphics interpretation", "difficulty": "hard",
+    "id": "gi5-profit-bar", "section": "data_insights", "type": "graphics_interpretation", "topic": "graphics interpretation", "difficulty": "easy",
     "stem": "The bar chart shows a company's monthly profit, in thousands of dollars, where negative bars indicate a loss. Use the drop-down menus to complete the statements.",
     "assets": {
       "chart": {
@@ -123,7 +123,7 @@
     "estimatedTimeSeconds": 135
   },
   {
-    "id": "ta5-scores", "section": "data_insights", "type": "table_analysis", "topic": "table analysis", "difficulty": "easy",
+    "id": "ta5-scores", "section": "data_insights", "type": "table_analysis", "topic": "table analysis", "difficulty": "medium",
     "stem": "The table lists five students with their test scores. You may sort the table. For each statement, select True or False.",
     "assets": {
       "table": {
@@ -212,7 +212,7 @@
     "estimatedTimeSeconds": 165
   },
   {
-    "id": "ta5-athletes", "section": "data_insights", "type": "table_analysis", "topic": "table analysis", "difficulty": "hard",
+    "id": "ta5-athletes", "section": "data_insights", "type": "table_analysis", "topic": "table analysis", "difficulty": "medium",
     "stem": "The table lists five athletes with their total points, games played, and points per game. You may sort the table. For each statement, select True or False.",
     "assets": {
       "table": {
@@ -266,7 +266,7 @@
     "estimatedTimeSeconds": 120
   },
   {
-    "id": "tp5-line-eval", "section": "data_insights", "type": "two_part_analysis", "topic": "two-part analysis", "difficulty": "medium",
+    "id": "tp5-line-eval", "section": "data_insights", "type": "two_part_analysis", "topic": "two-part analysis", "difficulty": "easy",
     "stem": "A line is given by $y = 2x + 3$. In the table, select the value of $y$ when $x = 5$ and the value of $x$ when $y = 15$. Make exactly one selection in each column.",
     "assets": {
       "twoPart": {
@@ -312,7 +312,7 @@
     "estimatedTimeSeconds": 135
   },
   {
-    "id": "tp5-exp-fn", "section": "data_insights", "type": "two_part_analysis", "topic": "two-part analysis", "difficulty": "hard",
+    "id": "tp5-exp-fn", "section": "data_insights", "type": "two_part_analysis", "topic": "two-part analysis", "difficulty": "medium",
     "stem": "The function $f$ is defined by $f(x) = 2^{x}$. In the table, select the value of $f(5)$ and the value of $x$ for which $f(x) = 64$. Make exactly one selection in each column.",
     "assets": {
       "twoPart": {
@@ -335,7 +335,7 @@
     "estimatedTimeSeconds": 150
   },
   {
-    "id": "msr-fest-pass-cost", "section": "data_insights", "type": "multi_source_reasoning", "topic": "multi-source reasoning", "difficulty": "medium",
+    "id": "msr-fest-pass-cost", "section": "data_insights", "type": "multi_source_reasoning", "topic": "multi-source reasoning", "difficulty": "easy",
     "groupId": "msr-festival", "orderIndex": 1,
     "stem": "Based on the sources, how much does a student pay for a Full Pass?",
     "choices": [
@@ -350,7 +350,7 @@
     "estimatedTimeSeconds": 105
   },
   {
-    "id": "msr-fest-max-screenings", "section": "data_insights", "type": "multi_source_reasoning", "topic": "multi-source reasoning", "difficulty": "medium",
+    "id": "msr-fest-max-screenings", "section": "data_insights", "type": "multi_source_reasoning", "topic": "multi-source reasoning", "difficulty": "easy",
     "groupId": "msr-festival", "orderIndex": 2,
     "stem": "What is the maximum number of screenings a single Day Pass holder could attend?",
     "choices": [
@@ -379,7 +379,7 @@
     "estimatedTimeSeconds": 165
   },
   {
-    "id": "msr-gym-first-month", "section": "data_insights", "type": "multi_source_reasoning", "topic": "multi-source reasoning", "difficulty": "medium",
+    "id": "msr-gym-first-month", "section": "data_insights", "type": "multi_source_reasoning", "topic": "multi-source reasoning", "difficulty": "easy",
     "groupId": "msr-gym", "orderIndex": 1,
     "stem": "What does a new Basic member pay in the first month, including the joining fee?",
     "choices": [
@@ -394,7 +394,7 @@
     "estimatedTimeSeconds": 105
   },
   {
-    "id": "msr-gym-plus-three", "section": "data_insights", "type": "multi_source_reasoning", "topic": "multi-source reasoning", "difficulty": "medium",
+    "id": "msr-gym-plus-three", "section": "data_insights", "type": "multi_source_reasoning", "topic": "multi-source reasoning", "difficulty": "easy",
     "groupId": "msr-gym", "orderIndex": 2,
     "stem": "What is a new Plus member's total cost for the first three months, including the joining fee?",
     "choices": [

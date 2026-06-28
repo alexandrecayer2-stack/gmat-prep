@@ -27,8 +27,8 @@
     "id": "ds3-divisible-by-12",
     "section": "data_insights",
     "type": "data_sufficiency",
-    "topic": "number-properties",
-    "difficulty": "hard",
+    "topic": "number properties",
+    "difficulty": "medium",
     "stem": "Is the positive integer $n$ divisible by $12$?\n(1) $n$ is divisible by $6$.\n(2) $n$ is divisible by $8$.",
     "correctAnswer": { "format": "single", "value": "C" },
     "explanation": "Statement (1) alone is insufficient: $n=6$ is not divisible by $12$, but $n=12$ is. Statement (2) alone is insufficient: $n=8$ is not divisible by $12$, but $n=24$ is. Together, $n$ is divisible by both $6$ and $8$, hence by their least common multiple $24$. Since $12$ divides $24$, $n$ is divisible by $12$. Sufficient together but not alone, so the answer is C.",
@@ -40,7 +40,7 @@
     "section": "data_insights",
     "type": "graphics_interpretation",
     "topic": "graphics interpretation",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "stem": "The bar chart shows a company's sales, in thousands of dollars, for each quarter of last year. Use the drop-down menus to complete the statements so that they are consistent with the data.",
     "assets": {
       "chart": {
@@ -150,7 +150,7 @@
     "section": "data_insights",
     "type": "multi_source_reasoning",
     "topic": "multi-source reasoning",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "groupId": "msr-courier",
     "orderIndex": 1,
     "stem": "Based on the two sources, what is the cost of sending a $4$ kg package by standard delivery?",

@@ -444,7 +444,7 @@
     "section": "verbal",
     "type": "critical_reasoning",
     "topic": "inference",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "stem": "Every consultant on Team Blue has completed certification. No certified consultant works on weekends. Some Team Blue consultants work remotely. Which statement can be inferred?",
     "choices": [
       {
@@ -484,7 +484,7 @@
     "section": "verbal",
     "type": "critical_reasoning",
     "topic": "evaluate",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "stem": "A library is considering installing solar panels and expects them to reduce operating expenses over 15 years. Which information would be most useful in evaluating the plan?",
     "choices": [
       {
@@ -564,7 +564,7 @@
     "section": "verbal",
     "type": "critical_reasoning",
     "topic": "flaw",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "stem": "Neighborhoods with more parks tend to have lower crime rates. Therefore, building more parks will reduce crime. Which flaw best describes the reasoning?",
     "choices": [
       {
@@ -604,7 +604,7 @@
     "section": "verbal",
     "type": "critical_reasoning",
     "topic": "paradox",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "stem": "A firm's customer satisfaction scores rose after it reduced support staff. Which statement, if true, best helps explain the surprising result?",
     "choices": [
       {
@@ -644,7 +644,7 @@
     "section": "verbal",
     "type": "critical_reasoning",
     "topic": "assumption",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "stem": "A restaurant moves its tasting menu to Tuesdays because customers will be more willing to try unfamiliar dishes on slower nights. Which assumption is required?",
     "choices": [
       {
@@ -684,7 +684,7 @@
     "section": "verbal",
     "type": "critical_reasoning",
     "topic": "weaken",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "stem": "A company says a new training program reduced employee errors. Which statement most weakens the claim?",
     "choices": [
       {
@@ -934,7 +934,7 @@
     "section": "verbal",
     "type": "reading_comprehension",
     "topic": "detail",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "stem": "According to the passage, what has reduced accidental loss of fragile layers in some restorations?",
     "choices": [
       {
@@ -976,7 +976,7 @@
     "section": "verbal",
     "type": "reading_comprehension",
     "topic": "inference",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "stem": "Which inference is best supported by the passage?",
     "choices": [
       {
@@ -1102,7 +1102,7 @@
     "section": "verbal",
     "type": "reading_comprehension",
     "topic": "detail",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "stem": "According to the study, what happened to fish populations near turbine foundations during construction?",
     "choices": [
       {
@@ -1144,7 +1144,7 @@
     "section": "verbal",
     "type": "reading_comprehension",
     "topic": "inference",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "stem": "Which inference is best supported by the passage?",
     "choices": [
       {
@@ -1186,7 +1186,7 @@
     "section": "verbal",
     "type": "reading_comprehension",
     "topic": "function",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "stem": "What is the function of the final sentence, in which the authors argue that wind farms should be evaluated site by site?",
     "choices": [
       {

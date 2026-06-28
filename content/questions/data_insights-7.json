@@ -4,7 +4,7 @@
     "section": "data_insights",
     "type": "data_sufficiency",
     "topic": "algebra",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "stem": "What is the value of $x$?\n(1) $x^2 = 25$\n(2) $x > 0$",
     "correctAnswer": {
       "format": "single",
@@ -22,7 +22,7 @@
     "section": "data_insights",
     "type": "data_sufficiency",
     "topic": "geometry",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "stem": "Is quadrilateral $WXYZ$ a rectangle?\n(1) Opposite sides of $WXYZ$ are parallel.\n(2) One angle of $WXYZ$ measures $90^\\circ$.",
     "correctAnswer": {
       "format": "single",
@@ -149,7 +149,7 @@
     "section": "data_insights",
     "type": "data_sufficiency",
     "topic": "geometry",
-    "difficulty": "hard",
+    "difficulty": "easy",
     "stem": "Is triangle $ABC$ isosceles?\n(1) Two sides of triangle $ABC$ are equal in length.\n(2) Two angles of triangle $ABC$ are equal.",
     "correctAnswer": {
       "format": "single",
@@ -167,7 +167,7 @@
     "section": "data_insights",
     "type": "data_sufficiency",
     "topic": "statistics",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "stem": "What is the median of the 7 numbers in a data set?\n(1) The mean of the 7 numbers is 15.\n(2) The range of the 7 numbers is 12.",
     "correctAnswer": {
       "format": "single",
@@ -185,7 +185,7 @@
     "section": "data_insights",
     "type": "data_sufficiency",
     "topic": "number properties",
-    "difficulty": "hard",
+    "difficulty": "easy",
     "stem": "Is integer $n$ even?\n(1) $n$ is divisible by 8.\n(2) $n$ is a multiple of 4.",
     "correctAnswer": {
       "format": "single",
@@ -203,7 +203,7 @@
     "section": "data_insights",
     "type": "data_sufficiency",
     "topic": "overlapping sets",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "stem": "In a survey of 50 students, how many belong to both Club X and Club Y?\n(1) Exactly 40 students belong to at least one of the two clubs.\n(2) 18 students belong only to Club X, 22 belong only to Club Y, and 8 belong to neither club.",
     "correctAnswer": {
       "format": "single",
@@ -379,7 +379,7 @@
     "section": "data_insights",
     "type": "graphics_interpretation",
     "topic": "chart reading",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "stem": "Use the chart to complete the statement.",
     "correctAnswer": {
       "format": "dropdowns",
@@ -462,7 +462,7 @@
     "section": "data_insights",
     "type": "graphics_interpretation",
     "topic": "chart reading",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "stem": "Use the chart to complete the statement.",
     "correctAnswer": {
       "format": "dropdowns",
@@ -541,7 +541,7 @@
     "section": "data_insights",
     "type": "graphics_interpretation",
     "topic": "chart reading",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "stem": "Use the chart to complete the statement.",
     "correctAnswer": {
       "format": "dropdowns",
@@ -624,7 +624,7 @@
     "section": "data_insights",
     "type": "graphics_interpretation",
     "topic": "chart reading",
-    "difficulty": "hard",
+    "difficulty": "easy",
     "stem": "Use the chart to complete the statement.",
     "correctAnswer": {
       "format": "dropdowns",
@@ -899,7 +899,7 @@
     "section": "data_insights",
     "type": "table_analysis",
     "topic": "table analysis",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "stem": "For each statement, determine whether it is True or False according to the table.",
     "choices": [
       {
@@ -995,7 +995,7 @@
     "section": "data_insights",
     "type": "table_analysis",
     "topic": "table analysis",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "stem": "For each statement, determine whether it is True or False according to the table.",
     "choices": [
       {
@@ -1091,7 +1091,7 @@
     "section": "data_insights",
     "type": "table_analysis",
     "topic": "table analysis",
-    "difficulty": "hard",
+    "difficulty": "easy",
     "stem": "For each statement, determine whether it is True or False according to the table.",
     "choices": [
       {
@@ -1187,7 +1187,7 @@
     "section": "data_insights",
     "type": "table_analysis",
     "topic": "table analysis",
-    "difficulty": "hard",
+    "difficulty": "easy",
     "stem": "For each statement, determine whether it is True or False according to the table.",
     "choices": [
       {
@@ -1283,7 +1283,7 @@
     "section": "data_insights",
     "type": "two_part_analysis",
     "topic": "algebra",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "stem": "For the system of equations $2x+y=11$ and $x-y=1$, determine the values of $x$ and $y$.",
     "choices": [
       {
@@ -1468,7 +1468,7 @@
     "section": "data_insights",
     "type": "two_part_analysis",
     "topic": "rates",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "stem": "A car travels at 60 kilometers per hour. Determine the time needed to travel 180 kilometers and the distance traveled in 1.5 hours.",
     "choices": [
       {

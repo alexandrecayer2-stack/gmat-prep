@@ -45,7 +45,7 @@
     "section": "quant",
     "type": "problem_solving",
     "topic": "percents",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "stem": "A jacket with a regular price of \\$80 is discounted by 20%, and then sales tax of 5% is added to the discounted price. What is the final price?",
     "choices": [
       {
@@ -415,7 +415,7 @@
     "section": "quant",
     "type": "problem_solving",
     "topic": "work",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "stem": "Machine A can finish a job in 8 hours, and machine B can finish the same job in 12 hours. If they work together at constant rates, how long do they take to finish the job?",
     "choices": [
       {
@@ -456,7 +456,7 @@
     "section": "quant",
     "type": "problem_solving",
     "topic": "mixtures",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "stem": "A container holds 30 liters of a 40% acid solution. How many liters of water must be added to make the solution 25% acid?",
     "choices": [
       {
@@ -497,7 +497,7 @@
     "section": "quant",
     "type": "problem_solving",
     "topic": "exponents",
-    "difficulty": "hard",
+    "difficulty": "easy",
     "stem": "What is the value of $2^3\\cdot 2^5\\div 2^4$?",
     "choices": [
       {
@@ -538,7 +538,7 @@
     "section": "quant",
     "type": "problem_solving",
     "topic": "inequalities",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "stem": "How many integers satisfy $-2 < 3x - 1 \\le 11$?",
     "choices": [
       {
@@ -579,7 +579,7 @@
     "section": "quant",
     "type": "problem_solving",
     "topic": "statistics",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "stem": "A data set contains the numbers 3, 5, 7, 7, 10, and 12. What is the difference between the mean and the median?",
     "choices": [
       {
@@ -744,7 +744,7 @@
     "section": "quant",
     "type": "problem_solving",
     "topic": "percents",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "stem": "A city had 1,600 residents last year and 1,840 residents this year. By what percent did the population increase?",
     "choices": [
       {
@@ -785,7 +785,7 @@
     "section": "quant",
     "type": "problem_solving",
     "topic": "fractions",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "stem": "If $\\frac{x}{y}=\\frac{4}{7}$ and $x+y=55$, what is $y$?",
     "choices": [
       {
@@ -826,7 +826,7 @@
     "section": "quant",
     "type": "problem_solving",
     "topic": "geometry",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "stem": "What is the area of a circle with radius 5?",
     "choices": [
       {
@@ -867,7 +867,7 @@
     "section": "quant",
     "type": "problem_solving",
     "topic": "coordinate geometry",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "stem": "What is the midpoint of the segment with endpoints $(-4,3)$ and $(8,-1)$?",
     "choices": [
       {
@@ -908,7 +908,7 @@
     "section": "quant",
     "type": "problem_solving",
     "topic": "rates",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "stem": "A runner covers 12 kilometers in 45 minutes at a constant speed. What is the runner's speed in kilometers per hour?",
     "choices": [
       {
@@ -991,7 +991,7 @@
     "section": "quant",
     "type": "problem_solving",
     "topic": "number properties",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "stem": "What is the greatest common divisor of 84 and 126?",
     "choices": [
       {
@@ -1073,7 +1073,7 @@
     "section": "quant",
     "type": "problem_solving",
     "topic": "counting",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "stem": "How many distinct arrangements are there of the letters in the word PLANET?",
     "choices": [
       {
@@ -1114,7 +1114,7 @@
     "section": "quant",
     "type": "problem_solving",
     "topic": "averages",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "stem": "The average of 4 numbers is 9. If a fifth number, 19, is added to the set, what is the new average?",
     "choices": [
       {
@@ -1196,7 +1196,7 @@
     "section": "quant",
     "type": "problem_solving",
     "topic": "inequalities",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "stem": "How many integers satisfy $|2x-3|<7$?",
     "choices": [
       {
@@ -1237,7 +1237,7 @@
     "section": "quant",
     "type": "problem_solving",
     "topic": "geometry",
-    "difficulty": "hard",
+    "difficulty": "easy",
     "stem": "A triangle is similar to a triangle with side lengths 3, 4, and 5. If the scale factor from the smaller triangle to the larger triangle is 2, what is the perimeter of the larger triangle?",
     "choices": [
       {
@@ -1278,7 +1278,7 @@
     "section": "quant",
     "type": "problem_solving",
     "topic": "statistics",
-    "difficulty": "hard",
+    "difficulty": "easy",
     "stem": "A data set has minimum 5, maximum 22, and median 13. What is its range?",
     "choices": [
       {
@@ -1319,7 +1319,7 @@
     "section": "quant",
     "type": "problem_solving",
     "topic": "sequences",
-    "difficulty": "hard",
+    "difficulty": "easy",
     "stem": "A geometric sequence starts with 2 and has a common ratio of 3. What is the 5th term?",
     "choices": [
       {
@@ -1360,7 +1360,7 @@
     "section": "quant",
     "type": "problem_solving",
     "topic": "probability",
-    "difficulty": "hard",
+    "difficulty": "easy",
     "stem": "A bag contains 3 red marbles and 2 blue marbles. A marble is drawn, replaced, and then a second marble is drawn. What is the probability that both marbles are red?",
     "choices": [
       {
@@ -1401,7 +1401,7 @@
     "section": "quant",
     "type": "problem_solving",
     "topic": "counting",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "stem": "How many 3-digit even integers can be formed using the digits 1, 2, 3, and 4 if no digit may be repeated?",
     "choices": [
       {
@@ -1442,7 +1442,7 @@
     "section": "quant",
     "type": "problem_solving",
     "topic": "arithmetic",
-    "difficulty": "hard",
+    "difficulty": "easy",
     "stem": "A bookstore sold 7 notebooks at \\$4 each and 5 pens at \\$2 each. What was the total revenue?",
     "choices": [
       {
@@ -1483,7 +1483,7 @@
     "section": "quant",
     "type": "problem_solving",
     "topic": "coordinate geometry",
-    "difficulty": "hard",
+    "difficulty": "easy",
     "stem": "What is the slope of the line through the points $(2,1)$ and $(8,13)$?",
     "choices": [
       {
@@ -1524,7 +1524,7 @@
     "section": "quant",
     "type": "problem_solving",
     "topic": "rates",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "stem": "A pool is filled by Pipe A in 9 hours and by Pipe B in 18 hours. A leak empties the pool in 36 hours. If all three are open at once, how long does it take to fill the pool from empty?",
     "choices": [
       {
@@ -1566,7 +1566,7 @@
     "section": "quant",
     "type": "problem_solving",
     "topic": "geometry",
-    "difficulty": "hard",
+    "difficulty": "easy",
     "stem": "A cylinder has radius 2 and height 5. What is its volume?",
     "choices": [
       {

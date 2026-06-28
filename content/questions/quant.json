@@ -111,7 +111,7 @@
     "id": "quant-hard-prob-1",
     "section": "quant",
     "type": "problem_solving",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "topic": "probability",
     "stem": "A committee of 3 people is to be chosen at random from a group of 4 men and 3 women. What is the probability that the committee includes at least one woman?",
     "choices": [
@@ -129,7 +129,7 @@
     "id": "quant-hard-work-1",
     "section": "quant",
     "type": "problem_solving",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "topic": "work",
     "stem": "Pipe A can fill a tank in 6 hours and pipe B can fill the same tank in 4 hours. A drain pipe C can empty the full tank in 12 hours. If all three are open at the same time, how many hours will it take to fill the empty tank?",
     "choices": [
@@ -147,7 +147,7 @@
     "id": "quant-hard-exponent-1",
     "section": "quant",
     "type": "problem_solving",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "topic": "exponents",
     "stem": "If $2^x \\cdot 4^{x+1} = 16^{x-1}$, what is the value of $x$ ?",
     "choices": [

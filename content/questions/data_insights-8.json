@@ -3,7 +3,7 @@
     "id": "qb71",
     "section": "data_insights",
     "type": "data_sufficiency",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "topic": "algebra",
     "stem": "What is the value of $x$?\n\nStatement (1): $3x+4=19$.\n\nStatement (2): $x^2=25$.",
     "correctAnswer": {
@@ -60,7 +60,7 @@
     "id": "qb74",
     "section": "data_insights",
     "type": "data_sufficiency",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "topic": "statistics",
     "stem": "What is the median of the five numbers?\n\nStatement (1): The mean of the five numbers is 10.\n\nStatement (2): The range of the five numbers is 12.",
     "correctAnswer": {
@@ -155,7 +155,7 @@
     "id": "qb79",
     "section": "data_insights",
     "type": "data_sufficiency",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "topic": "number properties",
     "stem": "What is the value of $n$?\n\nStatement (1): When $n$ is divided by 5, the remainder is 2.\n\nStatement (2): When $n$ is divided by 3, the remainder is 2.",
     "correctAnswer": {
@@ -174,7 +174,7 @@
     "id": "qb80",
     "section": "data_insights",
     "type": "data_sufficiency",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "topic": "geometry",
     "stem": "What is the length of side $x$?\n\nStatement (1): The triangle is isosceles with sides $x$, $x$, and 10.\n\nStatement (2): The triangle is isosceles, has base 10, and perimeter 30.",
     "correctAnswer": {
@@ -193,7 +193,7 @@
     "id": "qb81",
     "section": "data_insights",
     "type": "data_sufficiency",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "topic": "algebra",
     "stem": "What is the value of $x$?\n\nStatement (1): $x+y=10$.\n\nStatement (2): $2x-y=8$.",
     "correctAnswer": {
@@ -212,7 +212,7 @@
     "id": "qb82",
     "section": "data_insights",
     "type": "data_sufficiency",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "topic": "rates/work",
     "stem": "How long would it take Pipe B alone to fill the tank?\n\nStatement (1): Pipe A and Pipe B together fill the tank in 6 hours.\n\nStatement (2): Pipe A alone fills the tank in 10 hours, and Pipe A and Pipe B together fill the tank in 6 hours.",
     "correctAnswer": {
@@ -326,7 +326,7 @@
     "id": "qb84",
     "section": "data_insights",
     "type": "graphics_interpretation",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "topic": "line chart",
     "stem": "Use the chart to complete the statements.",
     "assets": {
@@ -418,7 +418,7 @@
     "id": "qb85",
     "section": "data_insights",
     "type": "graphics_interpretation",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "topic": "scatter plot",
     "stem": "Use the chart to complete the statements.",
     "assets": {
@@ -517,7 +517,7 @@
     "id": "qb86",
     "section": "data_insights",
     "type": "graphics_interpretation",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "topic": "bar chart",
     "stem": "Use the chart to complete the statements.",
     "assets": {
@@ -605,7 +605,7 @@
     "id": "qb87",
     "section": "data_insights",
     "type": "graphics_interpretation",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "topic": "line chart",
     "stem": "Use the chart to complete the statements.",
     "assets": {
@@ -708,7 +708,7 @@
     "id": "qb88",
     "section": "data_insights",
     "type": "graphics_interpretation",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "topic": "line chart",
     "stem": "Use the chart to complete the statements.",
     "assets": {
@@ -1090,7 +1090,7 @@
     "id": "qb92",
     "section": "data_insights",
     "type": "table_analysis",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "topic": "clubs",
     "stem": "Use the table to evaluate each statement.",
     "assets": {
@@ -1183,7 +1183,7 @@
     "id": "qb93",
     "section": "data_insights",
     "type": "table_analysis",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "topic": "rates",
     "stem": "Use the table to evaluate each statement.",
     "assets": {
@@ -1276,7 +1276,7 @@
     "id": "qb94",
     "section": "data_insights",
     "type": "table_analysis",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "topic": "revenue",
     "stem": "Use the table to evaluate each statement.",
     "assets": {
@@ -1543,7 +1543,7 @@
     "id": "qb98",
     "section": "data_insights",
     "type": "two_part_analysis",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "topic": "geometry",
     "stem": "For each part, select the value that correctly completes the statement.\n\nPart A: the area of a triangle with base 10 and height 8.\nPart B: the perimeter of a rectangle with sides 9 and 5.",
     "assets": {
@@ -1601,7 +1601,7 @@
     "id": "qb99",
     "section": "data_insights",
     "type": "two_part_analysis",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "topic": "number properties",
     "stem": "For each part, select the value that correctly completes the statement.\n\nPart A: the sum of the first 8 positive odd integers.\nPart B: the sum of the first 9 positive odd integers.",
     "assets": {
@@ -1659,7 +1659,7 @@
     "id": "qb100",
     "section": "data_insights",
     "type": "two_part_analysis",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "topic": "counting",
     "stem": "For each part, select the value that correctly completes the statement.\n\nPart A: the count of integers from 1 to 40 divisible by 3 or 5.\nPart B: the count of integers from 1 to 40 divisible by both 3 and 5.",
     "assets": {

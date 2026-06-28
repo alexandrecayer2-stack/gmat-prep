@@ -35,7 +35,7 @@
     "correctAnswer": { "format": "single", "value": "C" },
     "explanation": "A controlled trial isolating the compound and showing lower illness rates versus placebo (C) directly supports the causal hypothesis while ruling out confounders. (B) suggests a confound (weakening); (D) is just more correlation; (A) and (E) are irrelevant.",
     "estimatedTimeSeconds": 105, "tags": ["critical-reasoning", "strengthen"] },
-  { "id": "v6-cr04", "section": "verbal", "type": "critical_reasoning", "topic": "inference", "difficulty": "medium",
+  { "id": "v6-cr04", "section": "verbal", "type": "critical_reasoning", "topic": "inference", "difficulty": "easy",
     "stem": "Every employee at the firm who received a performance bonus this year exceeded their sales target. No employee in the Western region exceeded their sales target this year.\n\nIf the statements above are true, which of the following must also be true?",
     "choices": [
       { "key": "A", "text": "No employee in the Western region received a performance bonus this year." },
@@ -59,7 +59,7 @@
     "correctAnswer": { "format": "single", "value": "B" },
     "explanation": "Revenue rose despite a price increase, which would normally reduce units sold. A surge in demand from the film release (B) explains how both price and units—and thus revenue—could rise. The others don't account for higher revenue from this specific novel.",
     "estimatedTimeSeconds": 105, "tags": ["critical-reasoning", "paradox"] },
-  { "id": "v6-cr06", "section": "verbal", "type": "critical_reasoning", "topic": "flaw", "difficulty": "hard",
+  { "id": "v6-cr06", "section": "verbal", "type": "critical_reasoning", "topic": "flaw", "difficulty": "medium",
     "stem": "Critic: The new museum wing must be poorly designed. After it opened, attendance at the museum fell compared with the previous year, so visitors are clearly avoiding the new wing.\n\nThe critic's reasoning is most vulnerable to criticism on the grounds that it",
     "choices": [
       { "key": "A", "text": "treats a decline in overall attendance as evidence about one specific part of the museum without establishing a connection between them" },
@@ -71,7 +71,7 @@
     "correctAnswer": { "format": "single", "value": "A" },
     "explanation": "The critic infers that visitors avoid the new wing specifically from a drop in total attendance, without showing the decline is linked to the wing rather than to unrelated causes. That gap is the flaw (A). The other choices misdescribe the argument.",
     "estimatedTimeSeconds": 120, "tags": ["critical-reasoning", "flaw"] },
-  { "id": "v6-cr07", "section": "verbal", "type": "critical_reasoning", "topic": "evaluate", "difficulty": "hard",
+  { "id": "v6-cr07", "section": "verbal", "type": "critical_reasoning", "topic": "evaluate", "difficulty": "medium",
     "stem": "A town is deciding whether to replace its diesel buses with electric buses to reduce total emissions. A consultant argues that the switch will reduce emissions because electric buses produce no tailpipe emissions.\n\nThe answer to which of the following questions would be most useful in evaluating the consultant's argument?",
     "choices": [
       { "key": "A", "text": "How much do electric buses cost to purchase compared with diesel buses?" },
@@ -131,7 +131,7 @@
     "correctAnswer": { "format": "single", "value": "C" },
     "explanation": "We know balcony implies A/C, and some A/C apartments rent above \\$2,000—but those expensive ones need not be the balcony ones, so (C) could be false. (B) restates the first premise; (D) and (E) are its contrapositive; (A) follows because balcony apartments have A/C.",
     "estimatedTimeSeconds": 120, "tags": ["critical-reasoning", "inference"] },
-  { "id": "v6-cr12", "section": "verbal", "type": "critical_reasoning", "topic": "boldface", "difficulty": "hard",
+  { "id": "v6-cr12", "section": "verbal", "type": "critical_reasoning", "topic": "boldface", "difficulty": "medium",
     "stem": "Some analysts argue that the airline should add more flights to increase profit. **But adding flights would raise fuel and staffing costs sharply.** Because the airline's planes already fly nearly full, the added flights would carry few additional passengers. **Therefore, adding flights would more likely reduce the airline's profit than increase it.**\n\nIn the argument, the two portions in boldface play which of the following roles?",
     "choices": [
       { "key": "A", "text": "The first is an objection that the argument rebuts; the second is the argument's main conclusion." },
@@ -155,7 +155,7 @@
     "correctAnswer": { "format": "single", "value": "B" },
     "explanation": "The argument treats the correlation as causal. If breakfast-skippers simply eat much more later (B), their higher weight may stem from total intake rather than from skipping breakfast, so eating breakfast wouldn't by itself cause weight loss. The other options don't break the causal link.",
     "estimatedTimeSeconds": 105, "tags": ["critical-reasoning", "weaken"] },
-  { "id": "v6-cr14", "section": "verbal", "type": "critical_reasoning", "topic": "assumption", "difficulty": "hard",
+  { "id": "v6-cr14", "section": "verbal", "type": "critical_reasoning", "topic": "assumption", "difficulty": "medium",
     "stem": "To reduce the spread of a crop disease, an agricultural agency recommends that farmers plant a newly developed resistant variety of wheat. The agency is confident the recommendation will substantially slow the disease's spread in the region.\n\nThe agency's confidence depends on the assumption that",
     "choices": [
       { "key": "A", "text": "the resistant variety produces a higher yield than the varieties currently planted" },
@@ -179,7 +179,7 @@
     "correctAnswer": { "format": "single", "value": "B" },
     "explanation": "If a downstream stage is a bottleneck that caps daily throughput (B), speeding up an earlier stage can't raise total finished output—parts just pile up before the bottleneck. The other facts don't explain the unchanged output.",
     "estimatedTimeSeconds": 105, "tags": ["critical-reasoning", "paradox"] },
-  { "id": "v6-cr16", "section": "verbal", "type": "critical_reasoning", "topic": "strengthen", "difficulty": "hard",
+  { "id": "v6-cr16", "section": "verbal", "type": "critical_reasoning", "topic": "strengthen", "difficulty": "medium",
     "stem": "A region's health officials claim that a recent public-awareness campaign caused the sharp drop in smoking rates there over the past year. Skeptics note that smoking rates have been gradually declining nationwide for years.\n\nWhich of the following, if true, most strengthens the officials' claim against the skeptics' objection?",
     "choices": [
       { "key": "A", "text": "The campaign was funded partly by private donations." },
@@ -215,7 +215,7 @@
     "correctAnswer": { "format": "single", "value": "A" },
     "explanation": "All local trains stop at Oakdale, but the 5:15 does not, so it is not a local train. Only local trains stop at Lindenville, so a non-local train does not stop at Lindenville—A must be true. (C) contradicts this; (B) and (D) aren't established.",
     "estimatedTimeSeconds": 105, "tags": ["critical-reasoning", "inference"] },
-  { "id": "v6-rc01", "groupId": "rc-coral", "section": "verbal", "type": "reading_comprehension", "topic": "main-idea", "difficulty": "medium",
+  { "id": "v6-rc01", "groupId": "rc-coral", "section": "verbal", "type": "reading_comprehension", "topic": "main idea", "difficulty": "medium",
     "stem": "The primary purpose of the passage is to",
     "choices": [
       { "key": "A", "text": "argue that coral reefs cannot recover from any episode of bleaching" },
@@ -227,7 +227,7 @@
     "correctAnswer": { "format": "single", "value": "B" },
     "explanation": "The passage explains how bleaching occurs (loss of symbiotic algae) and then discusses what determines whether reefs recover. (B) captures both. (A) overstates—the passage says recovery is possible; (C), (D), and (E) describe topics the passage does not pursue.",
     "estimatedTimeSeconds": 120, "tags": ["reading-comprehension", "main-idea"] },
-  { "id": "v6-rc02", "groupId": "rc-coral", "section": "verbal", "type": "reading_comprehension", "topic": "detail", "difficulty": "medium",
+  { "id": "v6-rc02", "groupId": "rc-coral", "section": "verbal", "type": "reading_comprehension", "topic": "detail", "difficulty": "easy",
     "stem": "According to the passage, coral bleaching occurs when",
     "choices": [
       { "key": "A", "text": "coral polyps consume the algae living in their tissues" },
@@ -239,7 +239,7 @@
     "correctAnswer": { "format": "single", "value": "B" },
     "explanation": "The passage states that under stress, such as elevated temperatures, corals expel their symbiotic algae, losing both color and a nutrient source—this is bleaching. (B) matches. (A), (C), (D), and (E) describe mechanisms the passage does not attribute to bleaching.",
     "estimatedTimeSeconds": 105, "tags": ["reading-comprehension", "detail"] },
-  { "id": "v6-rc03", "groupId": "rc-coral", "section": "verbal", "type": "reading_comprehension", "topic": "inference", "difficulty": "hard",
+  { "id": "v6-rc03", "groupId": "rc-coral", "section": "verbal", "type": "reading_comprehension", "topic": "inference", "difficulty": "medium",
     "stem": "The passage suggests that a bleached reef is most likely to recover if",
     "choices": [
       { "key": "A", "text": "the stressful conditions persist for an extended period" },
@@ -263,7 +263,7 @@
     "correctAnswer": { "format": "single", "value": "B" },
     "explanation": "Noting that species differ in recovery supports the passage's point that bleaching outcomes vary and depend partly on which corals are affected. (B) captures this function. The other options misstate the passage's claims or purpose.",
     "estimatedTimeSeconds": 105, "tags": ["reading-comprehension", "function"] },
-  { "id": "v6-rc05", "groupId": "rc-guilds", "section": "verbal", "type": "reading_comprehension", "topic": "main-idea", "difficulty": "medium",
+  { "id": "v6-rc05", "groupId": "rc-guilds", "section": "verbal", "type": "reading_comprehension", "topic": "main idea", "difficulty": "medium",
     "stem": "The passage is primarily concerned with",
     "choices": [
       { "key": "A", "text": "explaining the economic and social functions that medieval craft guilds served" },
@@ -275,7 +275,7 @@
     "correctAnswer": { "format": "single", "value": "A" },
     "explanation": "The passage surveys what guilds did—regulating quality, training, and prices, and providing mutual support. (A) captures this descriptive purpose. (B) and (E) overstate a thesis the passage does not push; (C) and (D) are narrower or absent.",
     "estimatedTimeSeconds": 120, "tags": ["reading-comprehension", "main-idea"] },
-  { "id": "v6-rc06", "groupId": "rc-guilds", "section": "verbal", "type": "reading_comprehension", "topic": "detail", "difficulty": "medium",
+  { "id": "v6-rc06", "groupId": "rc-guilds", "section": "verbal", "type": "reading_comprehension", "topic": "detail", "difficulty": "easy",
     "stem": "According to the passage, one way guilds maintained the quality of goods was by",
     "choices": [
       { "key": "A", "text": "setting standards that members' products had to meet" },
@@ -287,7 +287,7 @@
     "correctAnswer": { "format": "single", "value": "A" },
     "explanation": "The passage states guilds set and enforced quality standards that members' goods had to meet. (A) matches. (B), (C), (D), and (E) describe practices the passage does not attribute to guilds—indeed guilds trained apprentices and regulated, not slashed, prices.",
     "estimatedTimeSeconds": 105, "tags": ["reading-comprehension", "detail"] },
-  { "id": "v6-rc07", "groupId": "rc-guilds", "section": "verbal", "type": "reading_comprehension", "topic": "inference", "difficulty": "hard",
+  { "id": "v6-rc07", "groupId": "rc-guilds", "section": "verbal", "type": "reading_comprehension", "topic": "inference", "difficulty": "medium",
     "stem": "The passage implies that membership in a guild was",
     "choices": [
       { "key": "A", "text": "open to anyone who wished to join without conditions" },
@@ -311,7 +311,7 @@
     "correctAnswer": { "format": "single", "value": "B" },
     "explanation": "Mutual aid to families illustrates the social dimension of guilds, complementing their economic roles—supporting (B). (A) overstates (guilds were not only charities); (C), (D), and (E) are not the point of the reference.",
     "estimatedTimeSeconds": 105, "tags": ["reading-comprehension", "function"] },
-  { "id": "v6-rc09", "groupId": "rc-radio", "section": "verbal", "type": "reading_comprehension", "topic": "main-idea", "difficulty": "medium",
+  { "id": "v6-rc09", "groupId": "rc-radio", "section": "verbal", "type": "reading_comprehension", "topic": "main idea", "difficulty": "medium",
     "stem": "The primary purpose of the passage is to",
     "choices": [
       { "key": "A", "text": "explain how the discovery of cosmic radio waves opened a new way of studying the universe" },
@@ -323,7 +323,7 @@
     "correctAnswer": { "format": "single", "value": "A" },
     "explanation": "The passage recounts the accidental detection of cosmic radio waves and how it gave rise to radio astronomy, a new observational window. (A) fits. (B) and (E) state judgments the passage doesn't make; (C) and (D) are narrower than the passage's purpose.",
     "estimatedTimeSeconds": 120, "tags": ["reading-comprehension", "main-idea"] },
-  { "id": "v6-rc10", "groupId": "rc-radio", "section": "verbal", "type": "reading_comprehension", "topic": "detail", "difficulty": "medium",
+  { "id": "v6-rc10", "groupId": "rc-radio", "section": "verbal", "type": "reading_comprehension", "topic": "detail", "difficulty": "easy",
     "stem": "According to the passage, the cosmic radio static was first detected",
     "choices": [
       { "key": "A", "text": "during a deliberate search for radiation from the center of the galaxy" },
@@ -335,7 +335,7 @@
     "correctAnswer": { "format": "single", "value": "B" },
     "explanation": "The passage describes the detection as accidental, made by an engineer studying static that interfered with radio communication. (B) matches. (A) contradicts the accidental nature; (C), (D), and (E) misstate the circumstances.",
     "estimatedTimeSeconds": 105, "tags": ["reading-comprehension", "detail"] },
-  { "id": "v6-rc11", "groupId": "rc-radio", "section": "verbal", "type": "reading_comprehension", "topic": "inference", "difficulty": "hard",
+  { "id": "v6-rc11", "groupId": "rc-radio", "section": "verbal", "type": "reading_comprehension", "topic": "inference", "difficulty": "medium",
     "stem": "It can be inferred from the passage that radio astronomy allows astronomers to",
     "choices": [
       { "key": "A", "text": "observe only objects that emit visible light" },

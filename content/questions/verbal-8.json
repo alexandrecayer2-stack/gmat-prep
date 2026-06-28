@@ -45,7 +45,7 @@
     "section": "verbal",
     "type": "critical_reasoning",
     "topic": "weaken",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "stem": "An elementary school says reading scores improved because it replaced whole-class instruction with small-group sessions. Which finding most weakens the school's claim?",
     "choices": [
       {
@@ -250,7 +250,7 @@
     "section": "verbal",
     "type": "critical_reasoning",
     "topic": "flaw",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "stem": "Because the company's profit increased after it launched a social media campaign, the campaign must have caused the increase. Which flaw is most clearly illustrated?",
     "choices": [
       {
@@ -291,7 +291,7 @@
     "section": "verbal",
     "type": "critical_reasoning",
     "topic": "paradox",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "stem": "During a heat wave, sales of bottled water doubled, yet the store manager decided to reduce shelf space for water because fewer bottles were in stock at closing each day. Which explanation best resolves the apparent paradox?",
     "choices": [
       {
@@ -332,7 +332,7 @@
     "section": "verbal",
     "type": "critical_reasoning",
     "topic": "assumption",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "stem": "An airport argues that adding a second security lane will shorten wait times because each lane can process travelers independently. Which assumption is required?",
     "choices": [
       {
@@ -414,7 +414,7 @@
     "section": "verbal",
     "type": "critical_reasoning",
     "topic": "strengthen",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "stem": "An online course provider says that adding short practice quizzes after each lesson will increase course completion because students will feel more engaged. Which fact most strengthens the argument?",
     "choices": [
       {
@@ -455,7 +455,7 @@
     "section": "verbal",
     "type": "critical_reasoning",
     "topic": "inference",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "stem": "A district reports that 70% of students enrolled in after-school tutoring attended at least four sessions, and those students improved their math scores more than students who attended fewer than four sessions. Which inference is best supported?",
     "choices": [
       {
@@ -784,7 +784,7 @@
     "section": "verbal",
     "type": "reading_comprehension",
     "topic": "detail",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "groupId": "rc-b1",
     "stem": "According to the passage, why did critics call the reclaimed land wasted space?",
     "choices": [
@@ -826,7 +826,7 @@
     "section": "verbal",
     "type": "reading_comprehension",
     "topic": "inference",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "groupId": "rc-b1",
     "stem": "Which inference is best supported by the passage?",
     "choices": [
@@ -952,7 +952,7 @@
     "section": "verbal",
     "type": "reading_comprehension",
     "topic": "detail",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "groupId": "rc-b2",
     "stem": "According to the passage, what is one advantage of separating the base unit from disposable attachments?",
     "choices": [
@@ -994,7 +994,7 @@
     "section": "verbal",
     "type": "reading_comprehension",
     "topic": "inference",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "groupId": "rc-b2",
     "stem": "Which inference is best supported by the passage?",
     "choices": [
@@ -1120,7 +1120,7 @@
     "section": "verbal",
     "type": "reading_comprehension",
     "topic": "detail",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "groupId": "rc-b3",
     "stem": "According to the passage, what did the seal impressions suggest?",
     "choices": [
@@ -1162,7 +1162,7 @@
     "section": "verbal",
     "type": "reading_comprehension",
     "topic": "inference",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "groupId": "rc-b3",
     "stem": "Which inference is best supported by the passage?",
     "choices": [
@@ -1204,7 +1204,7 @@
     "section": "verbal",
     "type": "reading_comprehension",
     "topic": "function_tone",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "groupId": "rc-b3",
     "stem": "The author’s caution in the final sentence primarily serves to",
     "choices": [

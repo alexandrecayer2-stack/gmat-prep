@@ -580,7 +580,8 @@
       "format": "single",
       "value": "E"
     },
-    "explanation": "1/4 = 2/8, so 3/8 + 2/8 = 5/8."
+    "explanation": "1/4 = 2/8, so 3/8 + 2/8 = 5/8.",
+    "estimatedTimeSeconds": 90
   },
   {
     "id": "g7-quant-16",
@@ -704,7 +705,7 @@
     "section": "quant",
     "type": "problem_solving",
     "topic": "weighted average",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "orderIndex": 0,
     "stem": "A class has $10$ boys with an average score of $72$ and $15$ girls with an average score of $82$. What is the average score of the whole class?",
     "assets": {},
@@ -821,7 +822,7 @@
     "section": "quant",
     "type": "problem_solving",
     "topic": "mixtures",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "orderIndex": 0,
     "stem": "How many liters of pure water must be added to $20$ liters of a $30\\%$ salt solution to make it a $20\\%$ salt solution?",
     "assets": {},
@@ -899,7 +900,7 @@
     "section": "quant",
     "type": "problem_solving",
     "topic": "probability",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "orderIndex": 0,
     "stem": "A bag contains $3$ green and $5$ yellow balls. If one ball is drawn at random, what is the probability that it is green?",
     "assets": {},
@@ -929,7 +930,8 @@
       "format": "single",
       "value": "C"
     },
-    "explanation": "There are 8 balls total, 3 of which are green: probability = 3/8."
+    "explanation": "There are 8 balls total, 3 of which are green: probability = 3/8.",
+    "estimatedTimeSeconds": 100
   },
   {
     "id": "g7-quant-25",
@@ -1014,7 +1016,7 @@
     "section": "quant",
     "type": "problem_solving",
     "topic": "simple interest",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "orderIndex": 0,
     "stem": "A principal of $4000$ dollars earns simple interest at an annual rate of $6\\%$. How much interest in dollars is earned after $3$ years?",
     "assets": {},
@@ -1092,7 +1094,7 @@
     "section": "quant",
     "type": "problem_solving",
     "topic": "sets",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "orderIndex": 0,
     "stem": "In a group of $50$ people, $30$ like tea and $25$ like coffee. If $10$ like neither, how many like both?",
     "assets": {},
@@ -1170,7 +1172,7 @@
     "section": "quant",
     "type": "problem_solving",
     "topic": "ratios",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "orderIndex": 0,
     "stem": "A sum of money is split among three people in the ratio $2 : 3 : 5$. If the total is $400$ dollars, how many dollars does the person with the largest share receive?",
     "assets": {},
@@ -1239,14 +1241,15 @@
       "format": "single",
       "value": "C"
     },
-    "explanation": "Profit = 20 on a cost of 80, so 20/80 = 25%."
+    "explanation": "Profit = 20 on a cost of 80, so 20/80 = 25%.",
+    "estimatedTimeSeconds": 100
   },
   {
     "id": "g7-quant-33",
     "section": "quant",
     "type": "problem_solving",
     "topic": "statistics",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "orderIndex": 0,
     "stem": "What is the median of the numbers $4$, $9$, $2$, $15$, and $7$?",
     "assets": {},
@@ -1285,7 +1288,7 @@
     "section": "quant",
     "type": "problem_solving",
     "topic": "exponents",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "orderIndex": 0,
     "stem": "If $3^{x} = 81$, what is the value of $x$?",
     "assets": {},
@@ -1363,7 +1366,7 @@
     "section": "quant",
     "type": "problem_solving",
     "topic": "rates",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "orderIndex": 0,
     "stem": "Two trains start $360$ miles apart and travel toward each other, one at $50$ mph and the other at $40$ mph. After how many hours do they meet?",
     "assets": {},
@@ -1402,7 +1405,7 @@
     "section": "quant",
     "type": "problem_solving",
     "topic": "absolute value",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "orderIndex": 0,
     "stem": "How many integer solutions does the equation $|x - 4| = 6$ have?",
     "assets": {},
@@ -1480,7 +1483,7 @@
     "section": "quant",
     "type": "problem_solving",
     "topic": "circles",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "orderIndex": 0,
     "stem": "A circle has a radius of $6$. What is its area?",
     "assets": {},
@@ -1510,14 +1513,15 @@
       "format": "single",
       "value": "D"
     },
-    "explanation": "Area = πr^2 = π(6)^2 = 36π."
+    "explanation": "Area = πr^2 = π(6)^2 = 36π.",
+    "estimatedTimeSeconds": 100
   },
   {
     "id": "g7-quant-40",
     "section": "quant",
     "type": "problem_solving",
     "topic": "volume",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "orderIndex": 0,
     "stem": "A rectangular box has dimensions $4$ by $5$ by $6$. What is its volume?",
     "assets": {},
@@ -1556,7 +1560,7 @@
     "section": "quant",
     "type": "problem_solving",
     "topic": "compound interest",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "orderIndex": 0,
     "stem": "A deposit of $2000$ dollars earns interest at an annual rate of $10\\%$, compounded annually. How much in dollars is in the account after $2$ years?",
     "assets": {},
@@ -1595,7 +1599,7 @@
     "section": "quant",
     "type": "problem_solving",
     "topic": "number properties",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "orderIndex": 0,
     "stem": "When the positive integer $n$ is divided by $7$ the remainder is $4$, and when divided by $9$ the remainder is $2$. What is the least possible value of $n$?",
     "assets": {},
@@ -1634,7 +1638,7 @@
     "section": "quant",
     "type": "problem_solving",
     "topic": "probability",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "orderIndex": 0,
     "stem": "A fair coin is flipped $3$ times. What is the probability of getting exactly $2$ heads?",
     "assets": {},
@@ -1664,14 +1668,15 @@
       "format": "single",
       "value": "E"
     },
-    "explanation": "There are C(3,2)=3 favorable outcomes out of 8 total, so 3/8."
+    "explanation": "There are C(3,2)=3 favorable outcomes out of 8 total, so 3/8.",
+    "estimatedTimeSeconds": 150
   },
   {
     "id": "g7-quant-44",
     "section": "quant",
     "type": "problem_solving",
     "topic": "work rates",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "orderIndex": 0,
     "stem": "Pipe A fills a tank in $4$ hours and pipe B in $6$ hours, while a drain empties it in $12$ hours. With all three open, how many hours does it take to fill the tank?",
     "assets": {},
@@ -1710,7 +1715,7 @@
     "section": "quant",
     "type": "problem_solving",
     "topic": "permutations",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "orderIndex": 0,
     "stem": "How many distinct arrangements are there of the letters in the word LEVEL?",
     "assets": {},
@@ -1749,7 +1754,7 @@
     "section": "quant",
     "type": "problem_solving",
     "topic": "geometric sequences",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "orderIndex": 0,
     "stem": "In a geometric sequence the first term is $3$ and the common ratio is $2$. What is the sum of the first $5$ terms?",
     "assets": {},
@@ -1788,7 +1793,7 @@
     "section": "quant",
     "type": "problem_solving",
     "topic": "percents",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "orderIndex": 0,
     "stem": "The price of a stock rises by $20\\%$ and then falls by $20\\%$. The final price is what percent of the original price?",
     "assets": {},
@@ -1818,14 +1823,15 @@
       "format": "single",
       "value": "B"
     },
-    "explanation": "1.20 × 0.80 = 0.96, so the final price is 96% of the original."
+    "explanation": "1.20 × 0.80 = 0.96, so the final price is 96% of the original.",
+    "estimatedTimeSeconds": 150
   },
   {
     "id": "g7-quant-48",
     "section": "quant",
     "type": "problem_solving",
     "topic": "algebra",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "orderIndex": 0,
     "stem": "If $x + y = 9$ and $x^{2} + y^{2} = 53$, what is the value of $xy$?",
     "assets": {},
@@ -1864,7 +1870,7 @@
     "section": "quant",
     "type": "problem_solving",
     "topic": "number properties",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "orderIndex": 0,
     "stem": "What is the units digit of $7^{23}$?",
     "assets": {},
@@ -1903,7 +1909,7 @@
     "section": "quant",
     "type": "problem_solving",
     "topic": "geometry",
-    "difficulty": "hard",
+    "difficulty": "easy",
     "orderIndex": 0,
     "stem": "A cylinder has a radius of $3$ and a height of $7$. What is its volume?",
     "assets": {},
@@ -1933,6 +1939,7 @@
       "format": "single",
       "value": "C"
     },
-    "explanation": "Volume = πr^2h = π(3)^2(7) = π·9·7 = 63π."
+    "explanation": "Volume = πr^2h = π(3)^2(7) = π·9·7 = 63π.",
+    "estimatedTimeSeconds": 150
   }
 ]

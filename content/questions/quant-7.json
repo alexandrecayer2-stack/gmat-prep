@@ -364,7 +364,7 @@
     "section": "quant",
     "type": "problem_solving",
     "topic": "work",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "stem": "Machine A can complete a job in 8 hours, and machine B can complete the same job in 12 hours. If they work together, how long will it take to complete the job?",
     "choices": [
       {
@@ -404,7 +404,7 @@
     "section": "quant",
     "type": "problem_solving",
     "topic": "mixtures",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "stem": "A 30-liter solution that is 20% acid is mixed with a 10-liter solution that is 50% acid. What is the concentration of acid in the final mixture?",
     "choices": [
       {
@@ -564,7 +564,7 @@
     "section": "quant",
     "type": "problem_solving",
     "topic": "sequences",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "stem": "In an arithmetic sequence, the first term is 7 and the common difference is 4. What is the 9th term?",
     "choices": [
       {
@@ -604,7 +604,7 @@
     "section": "quant",
     "type": "problem_solving",
     "topic": "probability",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "stem": "Two fair six-sided dice are rolled. What is the probability that the sum is 8?",
     "choices": [
       {
@@ -684,7 +684,7 @@
     "section": "quant",
     "type": "problem_solving",
     "topic": "fractions",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "stem": "If $\\frac{3}{5}$ of a number is 18, what is the number?",
     "choices": [
       {
@@ -724,7 +724,7 @@
     "section": "quant",
     "type": "problem_solving",
     "topic": "percents",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "stem": "A price increases from 80 to 92. By what percent did the price increase?",
     "choices": [
       {
@@ -764,7 +764,7 @@
     "section": "quant",
     "type": "problem_solving",
     "topic": "number properties",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "stem": "What is the least positive integer that is divisible by both 12 and 18?",
     "choices": [
       {
@@ -804,7 +804,7 @@
     "section": "quant",
     "type": "problem_solving",
     "topic": "algebra",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "stem": "If $x-2y=7$ and $x=13$, what is the value of $y$?",
     "choices": [
       {
@@ -844,7 +844,7 @@
     "section": "quant",
     "type": "problem_solving",
     "topic": "geometry",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "stem": "A right triangle has legs of lengths 9 and 12. What is its area?",
     "choices": [
       {
@@ -884,7 +884,7 @@
     "section": "quant",
     "type": "problem_solving",
     "topic": "coordinate geometry",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "stem": "What is the midpoint of the segment connecting $( -2,4 )$ and $(6,10)$?",
     "choices": [
       {
@@ -964,7 +964,7 @@
     "section": "quant",
     "type": "problem_solving",
     "topic": "statistics",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "stem": "The mean of 5 numbers is 14. If four of the numbers sum to 50, what is the fifth number?",
     "choices": [
       {
@@ -1004,7 +1004,7 @@
     "section": "quant",
     "type": "problem_solving",
     "topic": "sequences",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "stem": "In a geometric sequence, the first term is 3 and each term is twice the previous term. What is the 5th term?",
     "choices": [
       {
@@ -1044,7 +1044,7 @@
     "section": "quant",
     "type": "problem_solving",
     "topic": "probability",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "stem": "A bag contains 3 red balls and 5 blue balls. If one ball is chosen at random, what is the probability that it is red?",
     "choices": [
       {
@@ -1084,7 +1084,7 @@
     "section": "quant",
     "type": "problem_solving",
     "topic": "counting",
-    "difficulty": "hard",
+    "difficulty": "easy",
     "stem": "How many ways are there to choose 2 students from a group of 7?",
     "choices": [
       {
@@ -1124,7 +1124,7 @@
     "section": "quant",
     "type": "problem_solving",
     "topic": "geometry",
-    "difficulty": "hard",
+    "difficulty": "easy",
     "stem": "What is the circumference of a circle with radius 7?",
     "choices": [
       {
@@ -1164,7 +1164,7 @@
     "section": "quant",
     "type": "problem_solving",
     "topic": "algebra",
-    "difficulty": "hard",
+    "difficulty": "easy",
     "stem": "If $x+2y=14$ and $x-y=5$, what is the value of $x$?",
     "choices": [
       {
@@ -1204,7 +1204,7 @@
     "section": "quant",
     "type": "problem_solving",
     "topic": "number properties",
-    "difficulty": "hard",
+    "difficulty": "easy",
     "stem": "What is the greatest common divisor of 24 and 36?",
     "choices": [
       {
@@ -1244,7 +1244,7 @@
     "section": "quant",
     "type": "problem_solving",
     "topic": "percents",
-    "difficulty": "hard",
+    "difficulty": "easy",
     "stem": "A coat is marked down from 90 to 72. What is the percent discount?",
     "choices": [
       {
@@ -1284,7 +1284,7 @@
     "section": "quant",
     "type": "problem_solving",
     "topic": "fractions",
-    "difficulty": "hard",
+    "difficulty": "easy",
     "stem": "What is the value of $\\left(1\\frac{1}{2}\\right)\\left(2\\frac{2}{3}\\right)$?",
     "choices": [
       {
@@ -1324,7 +1324,7 @@
     "section": "quant",
     "type": "problem_solving",
     "topic": "work",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "stem": "Pipe A can fill a tank in 10 hours and pipe B can fill the same tank in 15 hours. If both pipes are opened together, how long will it take to fill the tank?",
     "choices": [
       {
@@ -1364,7 +1364,7 @@
     "section": "quant",
     "type": "problem_solving",
     "topic": "coordinate geometry",
-    "difficulty": "hard",
+    "difficulty": "easy",
     "stem": "What is the slope of the line through the points $(1,2)$ and $(5,10)$?",
     "choices": [
       {
@@ -1404,7 +1404,7 @@
     "section": "quant",
     "type": "problem_solving",
     "topic": "inequalities",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "stem": "How many integers satisfy $|2x-1|<7$?",
     "choices": [
       {
@@ -1444,7 +1444,7 @@
     "section": "quant",
     "type": "problem_solving",
     "topic": "exponents",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "stem": "What is the remainder when $3^{10}$ is divided by 4?",
     "choices": [
       {
@@ -1484,7 +1484,7 @@
     "section": "quant",
     "type": "problem_solving",
     "topic": "mixtures",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "stem": "A 20-liter solution is 30% salt. How many liters of water must be added to make the solution 25% salt?",
     "choices": [
       {
@@ -1524,7 +1524,7 @@
     "section": "quant",
     "type": "problem_solving",
     "topic": "statistics",
-    "difficulty": "hard",
+    "difficulty": "easy",
     "stem": "A data set has a minimum value of 5 and a range of 12. What is the maximum value?",
     "choices": [
       {
@@ -1564,7 +1564,7 @@
     "section": "quant",
     "type": "problem_solving",
     "topic": "counting",
-    "difficulty": "hard",
+    "difficulty": "easy",
     "stem": "How many 2-letter codes can be formed from the letters A, B, C, D, and E if repetition is not allowed and order matters?",
     "choices": [
       {

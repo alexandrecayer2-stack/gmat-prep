@@ -3,7 +3,7 @@
     "id": "ds4-even-integer",
     "section": "data_insights",
     "type": "data_sufficiency",
-    "topic": "number-properties",
+    "topic": "number properties",
     "difficulty": "easy",
     "stem": "Is the integer $k$ even?\n(1) $k = 2m$ for some integer $m$.\n(2) $k > 3$.",
     "correctAnswer": { "format": "single", "value": "A" },
@@ -15,7 +15,7 @@
     "id": "ds4-divisible-by-four",
     "section": "data_insights",
     "type": "data_sufficiency",
-    "topic": "number-properties",
+    "topic": "number properties",
     "difficulty": "medium",
     "stem": "If $n$ is a positive integer, is $n$ divisible by $4$?\n(1) $n$ is even.\n(2) $n/2$ is even.",
     "correctAnswer": { "format": "single", "value": "B" },
@@ -106,7 +106,7 @@
     "section": "data_insights",
     "type": "graphics_interpretation",
     "topic": "graphics interpretation",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "stem": "The scatterplot shows weekly demand for a product at five different prices. Use the drop-down menus to complete the statements.",
     "assets": {
       "chart": {
@@ -139,7 +139,7 @@
     "section": "data_insights",
     "type": "table_analysis",
     "topic": "table analysis",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "stem": "The table shows four products with their price, units sold, and revenue. You may sort the table. For each statement, select True if it can be determined to be true from the data, and False otherwise.",
     "assets": {
       "table": {
@@ -212,7 +212,7 @@
     "section": "data_insights",
     "type": "table_analysis",
     "topic": "table analysis",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "stem": "The table shows five films with their production budget, box-office gross, and audience rating (all monetary figures in millions of dollars). You may sort the table. For each statement, select True or False.",
     "assets": {
       "table": {
@@ -277,7 +277,7 @@
     "section": "data_insights",
     "type": "two_part_analysis",
     "topic": "two-part analysis",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "stem": "The cost $C$, in dollars, to produce $n$ units is $C = 4n + 50$. In the table, select the cost to produce 25 units and the number of units that can be produced for \\$290. Make exactly one selection in each column.",
     "assets": {
       "twoPart": {
@@ -305,7 +305,7 @@
     "section": "data_insights",
     "type": "two_part_analysis",
     "topic": "two-part analysis",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "stem": "The function $f$ is defined by $f(x) = x^2 - 2x$. In the table, select the positive value of $x$ for which $f(x) = 15$ and the value of $f(4)$. Make exactly one selection in each column.",
     "assets": {
       "twoPart": {

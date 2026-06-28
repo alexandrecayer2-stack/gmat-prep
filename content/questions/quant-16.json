@@ -580,7 +580,8 @@
       "format": "single",
       "value": "B"
     },
-    "explanation": "1/3 = 2/6, so 5/6 - 2/6 = 3/6 = 1/2."
+    "explanation": "1/3 = 2/6, so 5/6 - 2/6 = 3/6 = 1/2.",
+    "estimatedTimeSeconds": 90
   },
   {
     "id": "g8-quant-16",
@@ -704,7 +705,7 @@
     "section": "quant",
     "type": "problem_solving",
     "topic": "weighted average",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "orderIndex": 0,
     "stem": "A test was taken by $12$ students averaging $75$ and $8$ students averaging $90$. What is the average score of all $20$ students?",
     "assets": {},
@@ -821,7 +822,7 @@
     "section": "quant",
     "type": "problem_solving",
     "topic": "mixtures",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "orderIndex": 0,
     "stem": "How many liters of pure water must be added to $30$ liters of a $40\\%$ acid solution to make it a $24\\%$ acid solution?",
     "assets": {},
@@ -899,7 +900,7 @@
     "section": "quant",
     "type": "problem_solving",
     "topic": "probability",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "orderIndex": 0,
     "stem": "A box contains $4$ red and $6$ white chips. If one chip is drawn at random, what is the probability that it is red?",
     "assets": {},
@@ -929,7 +930,8 @@
       "format": "single",
       "value": "C"
     },
-    "explanation": "There are 10 chips total, 4 of which are red: probability = 4/10 = 2/5."
+    "explanation": "There are 10 chips total, 4 of which are red: probability = 4/10 = 2/5.",
+    "estimatedTimeSeconds": 100
   },
   {
     "id": "g8-quant-25",
@@ -1014,7 +1016,7 @@
     "section": "quant",
     "type": "problem_solving",
     "topic": "simple interest",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "orderIndex": 0,
     "stem": "A principal of $5000$ dollars earns simple interest at an annual rate of $8\\%$. How much interest in dollars is earned after $4$ years?",
     "assets": {},
@@ -1092,7 +1094,7 @@
     "section": "quant",
     "type": "problem_solving",
     "topic": "sets",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "orderIndex": 0,
     "stem": "In a group of $60$ students, $35$ study French and $28$ study Spanish. If $9$ study neither, how many study both?",
     "assets": {},
@@ -1170,7 +1172,7 @@
     "section": "quant",
     "type": "problem_solving",
     "topic": "ratios",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "orderIndex": 0,
     "stem": "A prize of money is split among three winners in the ratio $3 : 4 : 5$. If the total is $600$ dollars, how many dollars does the winner with the smallest share receive?",
     "assets": {},
@@ -1239,14 +1241,15 @@
       "format": "single",
       "value": "C"
     },
-    "explanation": "Profit = 30 on a cost of 120, so 30/120 = 25%."
+    "explanation": "Profit = 30 on a cost of 120, so 30/120 = 25%.",
+    "estimatedTimeSeconds": 100
   },
   {
     "id": "g8-quant-33",
     "section": "quant",
     "type": "problem_solving",
     "topic": "statistics",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "orderIndex": 0,
     "stem": "What is the range of the numbers $12$, $5$, $19$, $8$, and $14$?",
     "assets": {},
@@ -1285,7 +1288,7 @@
     "section": "quant",
     "type": "problem_solving",
     "topic": "exponents",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "orderIndex": 0,
     "stem": "If $2^{x} = 64$, what is the value of $x$?",
     "assets": {},
@@ -1363,7 +1366,7 @@
     "section": "quant",
     "type": "problem_solving",
     "topic": "rates",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "orderIndex": 0,
     "stem": "Two cars start $480$ miles apart and drive toward each other, one at $55$ mph and the other at $65$ mph. After how many hours do they meet?",
     "assets": {},
@@ -1402,7 +1405,7 @@
     "section": "quant",
     "type": "problem_solving",
     "topic": "absolute value",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "orderIndex": 0,
     "stem": "If $|2x - 6| = 10$, what is the sum of all possible values of $x$?",
     "assets": {},
@@ -1480,7 +1483,7 @@
     "section": "quant",
     "type": "problem_solving",
     "topic": "circles",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "orderIndex": 0,
     "stem": "A circle has a radius of $8$. What is its circumference?",
     "assets": {},
@@ -1510,14 +1513,15 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "Circumference = 2πr = 2π(8) = 16π."
+    "explanation": "Circumference = 2πr = 2π(8) = 16π.",
+    "estimatedTimeSeconds": 100
   },
   {
     "id": "g8-quant-40",
     "section": "quant",
     "type": "problem_solving",
     "topic": "volume",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "orderIndex": 0,
     "stem": "A cube has an edge length of $5$. What is its volume?",
     "assets": {},
@@ -1556,7 +1560,7 @@
     "section": "quant",
     "type": "problem_solving",
     "topic": "compound interest",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "orderIndex": 0,
     "stem": "A deposit of $3000$ dollars earns interest at an annual rate of $20\\%$, compounded annually. How much in dollars is in the account after $2$ years?",
     "assets": {},
@@ -1595,7 +1599,7 @@
     "section": "quant",
     "type": "problem_solving",
     "topic": "number properties",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "orderIndex": 0,
     "stem": "When the positive integer $n$ is divided by $5$ the remainder is $3$, and when divided by $8$ the remainder is $5$. What is the least possible value of $n$?",
     "assets": {},
@@ -1634,7 +1638,7 @@
     "section": "quant",
     "type": "problem_solving",
     "topic": "probability",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "orderIndex": 0,
     "stem": "A fair coin is flipped $4$ times. What is the probability of getting exactly $3$ heads?",
     "assets": {},
@@ -1664,14 +1668,15 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "There are C(4,3)=4 favorable outcomes out of 16 total, so 4/16 = 1/4."
+    "explanation": "There are C(4,3)=4 favorable outcomes out of 16 total, so 4/16 = 1/4.",
+    "estimatedTimeSeconds": 150
   },
   {
     "id": "g8-quant-44",
     "section": "quant",
     "type": "problem_solving",
     "topic": "work rates",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "orderIndex": 0,
     "stem": "Pipe A fills a tank in $3$ hours and pipe B in $6$ hours, while a drain empties it in $4$ hours. With all three open, how many hours does it take to fill the tank?",
     "assets": {},
@@ -1710,7 +1715,7 @@
     "section": "quant",
     "type": "problem_solving",
     "topic": "permutations",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "orderIndex": 0,
     "stem": "How many distinct arrangements are there of the letters in the word ERROR?",
     "assets": {},
@@ -1749,7 +1754,7 @@
     "section": "quant",
     "type": "problem_solving",
     "topic": "geometric sequences",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "orderIndex": 0,
     "stem": "In a geometric sequence the first term is $2$ and the common ratio is $3$. What is the sum of the first $4$ terms?",
     "assets": {},
@@ -1788,7 +1793,7 @@
     "section": "quant",
     "type": "problem_solving",
     "topic": "percents",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "orderIndex": 0,
     "stem": "A quantity is increased by $30\\%$ and then decreased by $10\\%$. The final value is what percent of the original value?",
     "assets": {},
@@ -1818,14 +1823,15 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "1.30 × 0.90 = 1.17, so the final value is 117% of the original."
+    "explanation": "1.30 × 0.90 = 1.17, so the final value is 117% of the original.",
+    "estimatedTimeSeconds": 150
   },
   {
     "id": "g8-quant-48",
     "section": "quant",
     "type": "problem_solving",
     "topic": "algebra",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "orderIndex": 0,
     "stem": "If $x + y = 11$ and $x^{2} + y^{2} = 65$, what is the value of $xy$?",
     "assets": {},
@@ -1864,7 +1870,7 @@
     "section": "quant",
     "type": "problem_solving",
     "topic": "number properties",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "orderIndex": 0,
     "stem": "What is the units digit of $3^{29}$?",
     "assets": {},
@@ -1903,7 +1909,7 @@
     "section": "quant",
     "type": "problem_solving",
     "topic": "geometry",
-    "difficulty": "hard",
+    "difficulty": "easy",
     "orderIndex": 0,
     "stem": "A cylinder has a radius of $4$ and a height of $5$. What is its volume?",
     "assets": {},
@@ -1933,6 +1939,7 @@
       "format": "single",
       "value": "D"
     },
-    "explanation": "Volume = πr^2h = π(4)^2(5) = π·16·5 = 80π."
+    "explanation": "Volume = πr^2h = π(4)^2(5) = π·16·5 = 80π.",
+    "estimatedTimeSeconds": 150
   }
 ]
