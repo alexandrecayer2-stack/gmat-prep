@@ -46,9 +46,11 @@ function SingleChoice({ question, selected, onChange, revealed }: AnswerInputsPr
               disabled={revealed}
               onClick={() => onChange({ format: 'single', value: c.key })}
               className={cn(
-                'flex w-full items-start gap-3 rounded-lg border p-3 text-left transition-colors',
-                !revealed && isSel && 'border-primary bg-accent',
-                !revealed && !isSel && 'border-border hover:border-primary/50 hover:bg-muted/50',
+                'flex w-full items-start gap-3 rounded-lg border bg-card p-3 text-left transition-all',
+                !revealed && isSel && 'border-primary bg-accent ring-1 ring-primary/30',
+                !revealed &&
+                  !isSel &&
+                  'border-border hover:-translate-y-px hover:border-primary/50 hover:bg-muted/40 hover:shadow-sm',
                 revealed && isCorrect && 'border-success bg-success/10',
                 revealed && !isCorrect && isSel && 'border-danger bg-danger/10',
                 revealed && !isCorrect && !isSel && 'border-border opacity-60',

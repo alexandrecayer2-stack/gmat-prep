@@ -16,7 +16,7 @@ export function Card({
 }: HTMLAttributes<HTMLElement> & { as?: CardTag }) {
   return (
     <Component
-      className={cn('rounded-xl border border-border bg-card shadow-sm', className)}
+      className={cn('rounded-xl border border-border bg-card elev', className)}
       {...props}
     />
   );

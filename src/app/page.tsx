@@ -37,7 +37,7 @@ export default function Home() {
           </Link>
           <Link
             href="/learn"
-            className="inline-flex items-center gap-1 rounded-lg border border-border bg-card px-4 py-2 text-sm font-medium hover:bg-muted"
+            className="elev inline-flex items-center gap-1 rounded-lg border border-border bg-card px-4 py-2 text-sm font-medium transition-colors hover:border-primary/40 hover:bg-muted"
           >
             Browse Learn cards
           </Link>
@@ -45,15 +45,15 @@ export default function Home() {
         <dl className="mt-6 flex flex-wrap gap-x-8 gap-y-3 border-t border-border pt-5">
           <div>
             <dt className="text-xs text-muted-foreground">Practice questions</dt>
-            <dd className="font-heading text-lg font-semibold tabular-nums">1,000+</dd>
+            <dd className="font-heading text-xl font-semibold tabular-nums">1,300+</dd>
           </div>
-          <div>
+          <div className="sm:border-l sm:border-border sm:pl-8">
             <dt className="text-xs text-muted-foreground">Exam sections</dt>
-            <dd className="font-heading text-lg font-semibold tabular-nums">3</dd>
+            <dd className="font-heading text-xl font-semibold tabular-nums">3</dd>
           </div>
-          <div>
+          <div className="sm:border-l sm:border-border sm:pl-8">
             <dt className="text-xs text-muted-foreground">Feedback</dt>
-            <dd className="font-heading text-lg font-semibold">Instant</dd>
+            <dd className="font-heading text-xl font-semibold">Instant</dd>
           </div>
         </dl>
       </section>

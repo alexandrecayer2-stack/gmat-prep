@@ -5,13 +5,14 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 :root {
-  --background: #ffffff;
+  /* Page sits on a faint cool tint so white cards lift off it cleanly. */
+  --background: #f6f7f9;
   --foreground: #0f172a;
   --card: #ffffff;
   --card-foreground: #0f172a;
-  --muted: #f1f5f9;
-  --muted-foreground: #64748b;
-  --border: #e2e8f0;
+  --muted: #eaedf3;
+  --muted-foreground: #5b6677;
+  --border: #e3e7ef;
   --primary: #4f46e5;
   --primary-foreground: #ffffff;
   --accent: #eef2ff;
@@ -27,19 +28,23 @@
   --brand-glow: rgba(99, 102, 241, 0.16);
   --gold: #b45309;
   --gold-bg: rgba(245, 158, 11, 0.14);
+  /* Elevation scale — tuned for a tinted page so white cards read as raised. */
+  --shadow-sm: 0 1px 2px 0 rgb(16 24 40 / 0.04), 0 1px 3px 0 rgb(16 24 40 / 0.07);
+  --shadow-md: 0 4px 14px -4px rgb(16 24 40 / 0.1), 0 2px 6px -3px rgb(16 24 40 / 0.07);
 }
 
 .dark {
-  --background: #0b1120;
-  --foreground: #e2e8f0;
-  --card: #0f172a;
-  --card-foreground: #e2e8f0;
-  --muted: #1e293b;
-  --muted-foreground: #94a3b8;
-  --border: #1e293b;
+  /* Deeper page + a touch-lighter card give clear elevation in the dark. */
+  --background: #0a0e1a;
+  --foreground: #e7ecf3;
+  --card: #121a2e;
+  --card-foreground: #e7ecf3;
+  --muted: #1d2740;
+  --muted-foreground: #93a0b5;
+  --border: #233150;
   --primary: #6366f1;
   --primary-foreground: #ffffff;
-  --accent: #1e1b4b;
+  --accent: #211d4d;
   --accent-foreground: #c7d2fe;
   --success: #22c55e;
   --danger: #f87171;
@@ -48,9 +53,12 @@
   --ring: #818cf8;
   --brand-from: #6366f1;
   --brand-to: #a855f7;
-  --brand-glow: rgba(129, 140, 248, 0.22);
+  --brand-glow: rgba(129, 140, 248, 0.24);
   --gold: #fbbf24;
   --gold-bg: rgba(251, 191, 36, 0.14);
+  /* Shadows barely read on dark surfaces — keep them soft; borders do the work. */
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.45);
+  --shadow-md: 0 10px 30px -12px rgb(0 0 0 / 0.6);
 }
 
 @theme inline {
@@ -298,13 +306,18 @@
   color: var(--gold);
 }
 
+/* Canonical resting elevation for content cards (theme-aware). */
+.elev {
+  box-shadow: var(--shadow-sm);
+}
+
 /* Subtle lift on interactive cards. */
 .card-hover {
   transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
 }
 .card-hover:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 24px -12px color-mix(in srgb, var(--brand-from) 45%, transparent);
+  box-shadow: var(--shadow-md), 0 10px 26px -14px color-mix(in srgb, var(--brand-from) 50%, transparent);
   border-color: color-mix(in srgb, var(--brand-from) 35%, var(--border));
 }
 

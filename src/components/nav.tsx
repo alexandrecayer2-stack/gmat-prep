@@ -57,8 +57,10 @@ export function Nav() {
               href={l.href}
               aria-current={isActive(l.href) ? 'page' : undefined}
               className={cn(
-                'rounded-md px-3 py-1.5 whitespace-nowrap transition-colors hover:bg-muted',
-                isActive(l.href) ? 'bg-muted font-medium text-foreground' : 'text-muted-foreground',
+                'rounded-md px-3 py-1.5 whitespace-nowrap transition-colors',
+                isActive(l.href)
+                  ? 'bg-accent font-medium text-accent-foreground'
+                  : 'text-muted-foreground hover:bg-muted hover:text-foreground',
               )}
             >
               {l.label}

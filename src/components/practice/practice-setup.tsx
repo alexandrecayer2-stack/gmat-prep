@@ -146,7 +146,7 @@ export function PracticeSetup({
           type="button"
           onClick={start}
           disabled={!section || types.length === 0}
-          className="rounded-lg bg-primary px-5 py-2.5 font-medium text-primary-foreground transition-opacity hover:opacity-90 disabled:cursor-not-allowed disabled:opacity-50"
+          className="btn-brand inline-flex items-center gap-1.5 rounded-lg px-5 py-2.5 font-medium disabled:cursor-not-allowed disabled:opacity-50"
         >
           Start practice
         </button>
