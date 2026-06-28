@@ -31,7 +31,7 @@
       "format": "single",
       "value": "D"
     },
-    "explanation": "From (1), $n=3(2k+1)$, so $n$ is always divisible by $3$. Statement (2) tells us $n$ is not divisible by $3$, which does not answer the yes/no question on its own.",
+    "explanation": "From (1), $n=3(2k+1)$, so $n$ is always divisible by 3 — a definite \"yes\", so (1) is sufficient. From (2), $n$ leaves remainder 1 when divided by 3, so $n$ is never divisible by 3 — a definite \"no\" also answers the question, so (2) is sufficient. Each statement alone suffices, so the answer is D.",
     "estimatedTimeSeconds": 100,
     "tags": [
       "number_properties"
@@ -221,7 +221,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "(1) gives $x=\\pm 4$, so not sufficient. (2) gives many possibilities, so not sufficient. Together, $x=4$, which is an integer.",
+    "explanation": "From (1), $x^2=16$ gives $x=4$ or $x=-4$; both are integers, so \"Is $x$ an integer?\" is definitively yes — statement (1) alone is sufficient. From (2), $x>0$ allows $x=4$ (integer) or $x=0.5$ (not), so it is not sufficient. Statement (1) alone suffices, so the answer is A.",
     "estimatedTimeSeconds": 100,
     "tags": [
       "algebra"

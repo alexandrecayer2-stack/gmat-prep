@@ -181,7 +181,7 @@
       "format": "single",
       "value": "B"
     },
-    "explanation": "Statement (1) only tells us that two sides are equal and the third side is 10. Many values of $x$ are possible, so it is not sufficient.\n\nStatement (2) gives an isosceles triangle with base 10 and perimeter 30. If the equal sides are each $x$, then $2x+10=30$. Solving gives $2x=20$ and $x=10$. So statement (2) alone is sufficient.\n\nThe answer is A.",
+    "explanation": "Statement (1) only tells us that two sides are equal and the third side is 10. Many values of $x$ are possible, so it is not sufficient.\n\nStatement (2) gives an isosceles triangle with base 10 and perimeter 30. If the equal sides are each $x$, then $2x+10=30$. Solving gives $2x=20$ and $x=10$. So statement (2) alone is sufficient.\n\nThe answer is B.",
     "estimatedTimeSeconds": 130,
     "tags": [
       "geometry",
