@@ -1032,7 +1032,7 @@
       "format": "single",
       "value": "C"
     },
-    "explanation": "The sequence is $3,6,12,24,48$. So the 5th term is 48. Choice C.",
+    "explanation": "Each term doubles, so the ratio is 2 and the $n$th term is $3 \\cdot 2^{n-1}$. The sequence is $3, 6, 12, 24, 48$, so the 5th term is $48$ (i.e. $3 \\cdot 2^4$). The trap is using exponent 5 instead of $n-1=4$ (which would give 96); counting carefully gives answer C.",
     "estimatedTimeSeconds": 90,
     "tags": [
       "sequences"

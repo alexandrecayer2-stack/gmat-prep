@@ -72,7 +72,7 @@
       "format": "single",
       "value": "C"
     },
-    "explanation": "There are $3+4=7$ parts. The larger share is $\\frac{4}{7}\\times 84 = 48$.",
+    "explanation": "The ratio $3:4$ has $3 + 4 = 7$ parts, so the larger share is $\\frac{4}{7}$ of the total: $\\frac{4}{7} \\times \\$84 = \\$48$. The insight is that the larger term ($4$) over the sum of parts gives the larger person's fraction; the answer is C.",
     "estimatedTimeSeconds": 75
   },
   {
@@ -414,7 +414,7 @@
       "format": "single",
       "value": "B"
     },
-    "explanation": "$-3<2x-1\\le 5 \\Rightarrow -1<x\\le 3$. The integers are $0,1,2,3$ — four values.",
+    "explanation": "Isolate $x$ by operating on all three parts of the compound inequality. Add 1: $-2 < 2x \\le 6$; divide by 2: $-1 < x \\le 3$. The integers strictly greater than $-1$ and at most 3 are $0, 1, 2, 3$ — four values. The trap is the strict-versus-inclusive boundaries: $-1$ is excluded but $3$ is included, giving answer B.",
     "estimatedTimeSeconds": 90
   },
   {
@@ -680,7 +680,7 @@
       "format": "single",
       "value": "C"
     },
-    "explanation": "$60 = 2^2\\times 3\\times 5$, so the number of divisors is $(2+1)(1+1)(1+1)=12$.",
+    "explanation": "Use the divisor-count formula on the prime factorization: $60=2^2\\times3^1\\times5^1$, so the number of positive divisors is $(2+1)(1+1)(1+1)=12$. The trap is forgetting to add 1 to each exponent before multiplying, or trying to list all divisors and missing one.",
     "estimatedTimeSeconds": 90
   },
   {
@@ -870,7 +870,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "$100\\times 1.20 = 120$, then $120\\times 0.80 = 96$.",
+    "explanation": "Apply each change in sequence to the actual dollar amount: $\\$100 \\times 1.20 = \\$120$, then $\\$120 \\times 0.80 = \\$96$, choice A. The insight is that the $20\\%$ decrease acts on the higher $\\$120$, not the original $\\$100$, so the price does not return to $\\$100$ — it ends $4\\%$ lower.",
     "estimatedTimeSeconds": 90
   },
   {
@@ -1098,7 +1098,7 @@
       "format": "single",
       "value": "B"
     },
-    "explanation": "$\\binom{8}{2}=\\frac{8\\times 7}{2}=28$.",
+    "explanation": "Order does not matter, so this is a combination: $\\binom{8}{2}=\\frac{8\\times 7}{2}=28$. The key is dividing by 2 to undo the double-counting of each pair (AB and BA are the same choice); the trap is reporting the permutation $8\\times 7=56$. Answer: B.",
     "estimatedTimeSeconds": 90
   },
   {
@@ -1212,7 +1212,7 @@
       "format": "single",
       "value": "D"
     },
-    "explanation": "$0.5x+2=0.3x+3 \\Rightarrow 0.2x=1 \\Rightarrow x=5$.",
+    "explanation": "Distribute the right side: $0.5x + 2 = 0.3(x + 10) = 0.3x + 3$. Collect terms: $0.5x - 0.3x = 3 - 2$, so $0.2x = 1$ and $x = 5$. The key step is expanding the parentheses before isolating $x$; the answer is D.",
     "estimatedTimeSeconds": 90
   }
 ]

@@ -642,7 +642,7 @@
       "format": "single",
       "value": "B"
     },
-    "explanation": "If the units digit is $0$: $9\\times 8=72$ numbers. If the units digit is $2,4,6,$ or $8$: $4\\times 8\\times 8=256$ numbers. The total is $72+256=328$.",
+    "explanation": "Split on the units digit because $0$ behaves differently from the other even digits. If units $= 0$, the hundreds and tens can be any distinct nonzero-allowed digits: $9 \\times 8 = 72$. If units $\\in \\{2,4,6,8\\}$ (4 choices), the hundreds digit has 8 choices (any of the other 9 digits except $0$), and the tens digit has 8 choices (any digit except the two used): $4 \\times 8 \\times 8 = 256$. The trap is forgetting that a leading $0$ is barred only when the units digit isn't $0$; total $= 72 + 256 = 328$.",
     "estimatedTimeSeconds": 150
   },
   {
@@ -908,7 +908,7 @@
       "format": "single",
       "value": "B"
     },
-    "explanation": "$7\\equiv 1 \\pmod 6$, so $7^{20}\\equiv 1^{20}\\equiv 1 \\pmod 6$.",
+    "explanation": "Reduce the base mod 6 before taking the power. Since $7 = 6+1$, we have $7 \\equiv 1 \\pmod 6$, so $7^{20} \\equiv 1^{20} \\equiv 1 \\pmod 6$. The trap is trying to compute the huge number $7^{20}$ directly; the insight is that any base that is $1$ more than the divisor leaves remainder $1$ for every power. The answer is B.",
     "estimatedTimeSeconds": 150
   },
   {
@@ -1250,7 +1250,7 @@
       "format": "single",
       "value": "C"
     },
-    "explanation": "$180=2^2\\cdot 3^2\\cdot 5$, so the number of divisors is $(2+1)(2+1)(1+1)=18$.",
+    "explanation": "Find the divisor count from the prime factorization: write $n=p_1^{a}p_2^{b}\\cdots$ and multiply $(a+1)(b+1)\\cdots$. Here $180=2^2\\cdot 3^2\\cdot 5^1$, so the count is $(2+1)(2+1)(1+1)=18$. The trap is counting divisors by listing (easy to miss some) or adding the exponents instead of adding 1 to each and multiplying.",
     "estimatedTimeSeconds": 150
   },
   {

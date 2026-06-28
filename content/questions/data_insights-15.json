@@ -1843,7 +1843,7 @@
         "partY": "r2"
       }
     },
-    "explanation": "Adding the equations: $2x = 20$, so $x = 10$. Then $y = 16 - 10 = 6$.",
+    "explanation": "Solve the linear system by elimination: adding $x + y = 16$ and $x - y = 4$ cancels $y$ to give $2x = 20$, so $x = 10$. Substitute back: $y = 16 - 10 = 6$. The insight is that adding the equations eliminates $y$ instantly; select $x = 10$ and $y = 6$.",
     "estimatedTimeSeconds": 120,
     "answerCheck": "answer.partX==='r4' && answer.partY==='r2'"
   },

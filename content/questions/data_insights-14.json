@@ -28,7 +28,7 @@
       "format": "single",
       "value": "B"
     },
-    "explanation": "(2) gives yes directly. (1) alone gives y = 4 or y = -4.",
+    "explanation": "The question asks the sign of $y$. Statement (1) $y^2 = 16$ gives $y = 4$ or $y = -4$, so the sign is not determined — not sufficient. Statement (2) states $y = 4$ directly, which is positive — sufficient. The classic trap is reading $y^2 = 16$ as $y = 4$ and forgetting the negative root; only the explicit value in (2) settles it, so the answer is B.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -44,7 +44,7 @@
       "format": "single",
       "value": "C"
     },
-    "explanation": "(1) alone leaves 1, 2, or 3. (2) alone leaves 2 or -2. Together, z = 2.",
+    "explanation": "Statement (1): positive integers less than 4 are 1, 2, or 3 — three values, not sufficient. Statement (2): $z^2=4$ gives $z=2$ or $z=-2$, two values, not sufficient. Together, $z$ must be both a positive integer under 4 and satisfy $z^2=4$, and only $z=2$ qualifies, so the answer is C. The trap is forgetting the negative root in (2); it's eliminated only once (1) restricts $z$ to positive values.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -76,7 +76,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "Every multiple of 6 is divisible by 3. A multiple of 2 is not necessarily.",
+    "explanation": "Statement (1) $n = 6k = 3(2k)$, so $n$ is always a multiple of 3 — sufficient. Statement (2) $n = 2k$ only guarantees $n$ is even; e.g. $n=4$ is not divisible by 3 while $n=6$ is, so it can go either way — not sufficient. Since (1) alone answers 'yes' and (2) alone does not, the answer is A.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -92,7 +92,7 @@
       "format": "single",
       "value": "C"
     },
-    "explanation": "(1) alone is not sufficient. (2) gives q but not p. Together, p = 3.",
+    "explanation": "Statement (1), $2p+q=10$, is one equation in two unknowns, so $p$ is not determined — not sufficient alone. Statement (2) gives $q=4$ but says nothing about $p$, so not sufficient alone. Together, substitute $q=4$ into (1): $2p+4=10$, so $p=3$ — unique value. Combining a relationship with a value for the other variable resolves $p$, so the answer is C.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -172,7 +172,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "If $k^{3}$ > 0, then k > 0. Statement (2) alone is not sufficient.",
+    "explanation": "We need to decide whether $k > 0$. Statement (1): $k^3 > 0$ — an odd power preserves sign, so $k^3 > 0$ forces $k > 0$, a definite 'yes', sufficient. Statement (2): 'k is an integer' allows positives, negatives, or zero, so it is not sufficient. The insight is that cubing (unlike squaring) keeps the sign, so the answer is A.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -204,7 +204,7 @@
       "format": "single",
       "value": "B"
     },
-    "explanation": "Statement (2) alone answers no. Statement (1) alone gives 5 or -5.",
+    "explanation": "The question asks whether $m > 0$. Statement (1) $m^2 = 25$ gives $m = 5$ or $m = -5$, so the sign is undetermined — not sufficient. Statement (2) says $m$ is a multiple of 5 and less than 0, so $m < 0$, answering 'no' definitively — sufficient. A clear 'no' is just as sufficient as a 'yes'; the trap is discarding (2) because it doesn't give an exact value, but it pins the sign, so the answer is B.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -236,7 +236,7 @@
       "format": "single",
       "value": "C"
     },
-    "explanation": "(1) gives 7 or -7. (2) alone does not give a value. Together, u = -7.",
+    "explanation": "Statement (1): $u^2=49$ gives $u=7$ or $u=-7$, two values, not sufficient. Statement (2): 'u is negative' allows infinitely many values, not sufficient. Together, the negativity condition discards $u=7$ and leaves $u=-7$, a unique value, so the answer is C. The trap is taking $\\sqrt{49}=7$ only and missing the negative square root that statement (2) is there to resolve.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -252,7 +252,7 @@
       "format": "single",
       "value": "C"
     },
-    "explanation": "(1) gives 1 or -1. (2) alone is not sufficient. Together, w = 1.",
+    "explanation": "Statement (1) $w^2 = 1$ has two roots, $w = 1$ or $w = -1$, so it does not give a single value — not sufficient. Statement (2) $w > 0$ alone allows any positive number — not sufficient. Together, the only root of $w^2=1$ that is positive is $w = 1$, a unique value. Both statements are needed, so the answer is C; the trap is forgetting the negative root in (1).",
     "estimatedTimeSeconds": 120
   },
   {
@@ -284,7 +284,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "Every multiple of 4 is even. A multiple of 3 is not necessarily even.",
+    "explanation": "Every multiple of 4 is $4k=2(2k)$, which is always even, so statement (1) answers 'yes, $q$ is even' definitively and is sufficient alone. Statement (2), $q$ is a multiple of 3, includes both even (6, 12) and odd (3, 9) values, so it can't settle parity — not sufficient. The insight is that a multiple of an even number is necessarily even, while a multiple of an odd number is not. Answer: A.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -380,7 +380,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "If x = 2y, then x/y = 2, so yes. Statement (2) alone is not sufficient.",
+    "explanation": "We need to decide whether $\\frac{x}{y} > 1$. Statement (1): $x = 2y$ gives $\\frac{x}{y} = 2 > 1$ (and $y \\neq 0$ since the ratio is defined), a definite 'yes', sufficient. Statement (2): 'x and y are positive' is not sufficient, since e.g. $x=1,y=2$ gives $\\frac{1}{2}<1$ while $x=3,y=1$ gives $3>1$. The insight is that (1) fixes the ratio outright, so the answer is A.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -412,7 +412,7 @@
       "format": "single",
       "value": "E"
     },
-    "explanation": "Together, m can be 3, 5, 7, or 9, so we cannot conclude that it is prime.",
+    "explanation": "Prime means exactly two positive divisors. Statement (1) 'm is odd' includes primes (3, 5, 7) and non-primes (9, 15), so not sufficient. Statement (2) 'm less than 10' includes primes (2, 3, 5, 7) and non-primes (4, 6, 8, 9), so not sufficient. Combined, odd and less than 10 still allows 3, 5, 7 (prime) and 9 (not prime), so the answer is uncertain; the trap is forgetting that 9 is odd, under 10, and composite, giving answer E.",
     "estimatedTimeSeconds": 150
   },
   {
@@ -428,7 +428,7 @@
       "format": "single",
       "value": "C"
     },
-    "explanation": "Statement (1) implies x < 0 or x > 4. With statement (2), only x < 0 remains, so the answer is no.",
+    "explanation": "The question asks whether $x>0$. Statement (1): $x^2-4x>0$ factors as $x(x-4)>0$, true when $x<0$ or $x>4$; that allows both negative and positive $x$, so (1) alone is not sufficient. Statement (2): $x<4$ allows negatives and positives, not sufficient. Together, $x<0$ or $x>4$ combined with $x<4$ leaves only $x<0$, giving a definite 'no' — a consistent answer, so the answer is C. The trap is reading a definite 'no' as insufficiency: a firm no is sufficient, and it takes both statements to guarantee it.",
     "estimatedTimeSeconds": 150
   },
   {
@@ -460,7 +460,7 @@
       "format": "single",
       "value": "C"
     },
-    "explanation": "A number that is both prime and even can only be 2, so the answer is no.",
+    "explanation": "Statement (1) $r$ prime allows $r=2$ (not greater than 2) or $r=3,5,\\dots$ (greater) — not sufficient. Statement (2) $r$ even allows $r=2$ or $r=4,6,\\dots$ — not sufficient. Together, the only number that is both prime and even is $r = 2$, which is not greater than 2, giving a definite 'no'. A consistent 'no' is still sufficient, so the answer is C.",
     "estimatedTimeSeconds": 150
   },
   {
@@ -492,7 +492,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "$b^{3}$ = -8 implies b = -2. (2) alone is not sufficient.",
+    "explanation": "Cubing preserves sign and a cube root is unique, so $b^3=-8$ forces $b=-2$, which is negative — statement (1) answers the question 'yes' and is sufficient alone. Statement (2), '$b$ is an integer,' allows positive, negative, or zero values, so it can't determine the sign — not sufficient. The trap is doubting (1) over a sign ambiguity, but odd powers carry the sign through, so $b=-2$ is the only real solution. Answer: A.",
     "estimatedTimeSeconds": 120
   },
   {

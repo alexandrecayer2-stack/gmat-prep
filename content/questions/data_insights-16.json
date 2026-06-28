@@ -853,7 +853,7 @@
       {"key": "r6", "text": "15"}
     ],
     "correctAnswer": {"format": "two_part", "value": {"partP": "r5", "partQ": "r2"}},
-    "explanation": "Adding the equations gives $2p = 26$, so $p = 13$. Then $q = 20 - 13 = 7$.",
+    "explanation": "Add the two equations to eliminate $q$: $(p+q)+(p-q)=20+6$ gives $2p=26$, so $p=13$. Substitute back: $q=20-13=7$. The key step is adding (not subtracting) the equations so the $q$ terms cancel; then check both: $13+7=20$ and $13-7=6$. Select $p=13$ and $q=7$.",
     "estimatedTimeSeconds": 120,
     "answerCheck": "answer.partP==='r5' && answer.partQ==='r2'"
   },
@@ -960,7 +960,7 @@
       {"key": "r6", "text": "48"}
     ],
     "correctAnswer": {"format": "two_part", "value": {"father": "r5", "daughter": "r2"}},
-    "explanation": "Now $f = 4d$. In 5 years $f + 5 = 3(d + 5)$. Substituting, $4d + 5 = 3d + 15$, so $d = 10$. Then $f = 4 \\times 10 = 40$.",
+    "explanation": "Translate the two conditions into equations: now $f = 4d$, and in 5 years $f + 5 = 3(d + 5)$. Substitute the first into the second: $4d + 5 = 3d + 15$, so $d = 10$, giving $f = 4 \\times 10 = 40$ (check: in 5 years $45 = 3 \\times 15$). The trap is adding 5 to only one age; select $f = 40$ and $d = 10$.",
     "estimatedTimeSeconds": 140,
     "answerCheck": "answer.father==='r5' && answer.daughter==='r2'"
   },

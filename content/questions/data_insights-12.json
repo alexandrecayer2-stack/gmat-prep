@@ -172,7 +172,7 @@
       "format": "single",
       "value": "D"
     },
-    "explanation": "Each of the two statements implies divisibility by 6.",
+    "explanation": "A number is divisible by 6 exactly when it is divisible by both 2 and 3. Statement (1): if $n$ is divisible by 12, then $12 = 6 \\times 2$, so $n$ is a multiple of 6 — sufficient. Statement (2): divisible by 3 and even means divisible by 3 and 2, hence by 6 — sufficient. Each statement alone settles the question, so the answer is D; the trap is assuming you need to combine them.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -236,7 +236,7 @@
       "format": "single",
       "value": "C"
     },
-    "explanation": "Together, a + o = 20 and a = o + 4 give a = 12. Neither alone is sufficient.",
+    "explanation": "Let $a$ be apples and $o$ oranges. Statement (1) gives only $a+o=20$, and (2) gives only $a=o+4$ — each is one equation in two unknowns, so neither alone is sufficient. Together, substitute to get $(o+4)+o=20$, so $o=8$ and $a=12$: two independent equations, two unknowns, unique solution. The key is recognizing each statement supplies a different relationship, so combining them resolves the system. Answer: C.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -268,7 +268,7 @@
       "format": "single",
       "value": "C"
     },
-    "explanation": "(1) gives t = 7 or -7. (2) alone is not sufficient. Together, t = -7.",
+    "explanation": "We need a single value of $t$. Statement (1): $t^2 = 49$ gives $t = 7$ or $t = -7$ — two values, not sufficient. Statement (2): $t < 0$ allows infinitely many values, not sufficient. Together, $t < 0$ eliminates $+7$, leaving $t = -7$ uniquely, so both statements together are sufficient; the answer is C. The trap is treating $\\sqrt{49}$ as only $7$ and wrongly calling (1) sufficient.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -300,7 +300,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "(1) directly gives the median. (2) alone does not determine the median.",
+    "explanation": "For five integers in order, the median is by definition the third (middle) value, so you only need that one term. Statement (1) gives the middle integer as 12, which IS the median, so (1) alone is sufficient. Statement (2) fixes only the sum (60), and many ordered sets sum to 60 with different middle values (e.g. 0,0,12,24,24 vs. 11,12,12,12,13), so (2) alone is not sufficient. The trap is thinking the sum constrains the median; it does not, giving answer A.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -316,7 +316,7 @@
       "format": "single",
       "value": "D"
     },
-    "explanation": "Each of the two statements is sufficient: $9k^{2}$ is a perfect square, and an integer with an odd number of divisors is also a perfect square.",
+    "explanation": "A positive integer is a perfect square exactly when every exponent in its prime factorization is even, which is also equivalent to having an odd number of divisors (divisors pair up except the square root). Statement (1): $x=9k^2=(3k)^2$ is a perfect square for any integer $k$, so (1) alone is sufficient. Statement (2): an integer with an odd number of positive divisors must be a perfect square, so (2) alone is sufficient. Since each statement alone settles the question, the answer is D.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -332,7 +332,7 @@
       "format": "single",
       "value": "C"
     },
-    "explanation": "Taken together, we solve p = 4 and q = 2. Neither alone is sufficient.",
+    "explanation": "We need a single value of $p$, so one linear equation in two unknowns won't pin it down. Statement (1) $3p - 2q = 8$ alone has infinitely many $(p,q)$ solutions — not sufficient; likewise (2) $p + q = 6$ alone — not sufficient. Together the two distinct lines intersect at one point: from (2) $q = 6 - p$, substitute into (1) to get $3p - 2(6-p) = 8 \\Rightarrow 5p = 20 \\Rightarrow p = 4$. Both statements are needed, so the answer is C.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -396,7 +396,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "(1) gives x = 3. (2) alone is not sufficient.",
+    "explanation": "A real cube root is unique: $x^3=27$ forces $x=3$ (no negative or other real value cubes to a positive 27), so (1) alone is sufficient. Statement (2) only says $x>0$, which allows infinitely many values, so (2) alone is not sufficient. The trap is over-applying the 'even powers give two roots' rule — odd powers like cubes have a single real root, so no sign ambiguity exists. Answer: A.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -412,7 +412,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "(1) is equivalent to a + b > c, so it is sufficient.",
+    "explanation": "The question asks whether $a + b > c$. Statement (1): $a > c - b$ — add $b$ to both sides to get exactly $a + b > c$, so (1) alone is sufficient. Statement (2): $b > 0$ tells us nothing about $a$ relative to $c$, so it is not sufficient. The key insight is that the inequality in (1) is just the target rearranged, so the answer is A — no need for (2).",
     "estimatedTimeSeconds": 120
   },
   {
@@ -508,7 +508,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "If two angles of a triangle total 90°, the third equals 90°. Statement (2) alone is not sufficient.",
+    "explanation": "A triangle is right exactly when one angle equals 90°, and the three angles always sum to 180°. Statement (1) says two angles sum to 90°, so the third angle is $180 - 90 = 90$°, making the triangle right; (1) alone is sufficient. Statement (2) only says one side is the longest, which is true of every non-equilateral triangle (acute, right, or obtuse), so (2) alone is not sufficient. The trap is assuming a longest side forces a right angle; the answer is A.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -588,7 +588,7 @@
       "format": "single",
       "value": "C"
     },
-    "explanation": "Statement (1) gives two positive solutions; (2) alone is not sufficient. Together, x > 1 eliminates the smaller solution and leaves a unique value.",
+    "explanation": "Statement (1): $x+1/x=5$ becomes $x^2-5x+1=0$, giving $x=\\frac{5\\pm\\sqrt{21}}{2}$; both roots are positive, so (1) alone yields two values and is not sufficient. Statement (2): $x>1$ allows infinitely many values, so (2) alone is not sufficient. Together, the larger root $\\frac{5+\\sqrt{21}}{2}\\approx 4.79$ exceeds 1 while the smaller $\\approx 0.21$ does not, so $x>1$ selects a unique root — the answer is C. The trap is assuming the two positive roots are interchangeable; they are reciprocals, so exactly one lies above 1.",
     "estimatedTimeSeconds": 150
   },
   {
@@ -636,7 +636,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "Statement (1) gives x = 10. (2) alone is not sufficient.",
+    "explanation": "Statement (1) gives $x/y = 2$ with $y = 5$, so $x = 2 \\times 5 = 10$ — a unique value, sufficient. Statement (2) $x - y = 5$ alone leaves $x$ undetermined (e.g. $x=6,y=1$ or $x=10,y=5$) — not sufficient. Since (1) alone works and (2) alone does not, the answer is A; don't be tempted to combine them when one already suffices.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -668,7 +668,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "Between 4 and 8, the only integer divisible by 3 is 6.",
+    "explanation": "List the integers strictly between 4 and 8: 5, 6, 7. Only 6 is divisible by 3, so statement (1) pins $n=6$ uniquely and is sufficient alone. Statement (2) says $n$ is even, which has infinitely many values, so (2) alone is not sufficient. The insight is to enumerate the small range and check divisibility rather than assume a range gives multiple candidates. Answer: A.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -684,7 +684,7 @@
       "format": "single",
       "value": "B"
     },
-    "explanation": "(1) gives x = 5 or -5. (2) alone implies x < -2, hence negative.",
+    "explanation": "We need to know the sign of $x$. Statement (1): $x^2 = 25$ gives $x = 5$ or $x = -5$ — one positive, one negative, so we cannot decide; not sufficient. Statement (2): $x + 2 < 0$ means $x < -2$, which forces $x$ negative — a definite 'yes', so (2) alone is sufficient. The trap is assuming the squared equation pins down the sign; the answer is B.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -700,7 +700,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "The GCD of 18 and 30 is 6. Statement (2) alone leaves k = 3 or 6.",
+    "explanation": "A value is fixed only if a statement pins it to a single number. Statement (1) defines $k$ as the GCD of 18 and 30: $18 = 2 \\cdot 3^2$, $30 = 2 \\cdot 3 \\cdot 5$, so $\\gcd = 2 \\cdot 3 = 6$, a unique value, making (1) sufficient. Statement (2) says $k$ is a factor of 6 greater than 2, leaving $k = 3$ or $k = 6$, so (2) alone is not sufficient. The trap is that (2) sounds restrictive but allows two values; the answer is A.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -716,7 +716,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "Quadrant II is precisely characterized by x negative and y positive.",
+    "explanation": "Quadrant II is defined precisely by $x<0$ and $y>0$, so test each statement against that. Statement (1) gives exactly $x<0$ and $y>0$ — a definite yes, so (1) alone is sufficient. Statement (2) $x+y<0$ holds for points like $(-3,1)$ (quadrant II, yes) and $(1,-3)$ (quadrant IV, no), so (2) alone is not sufficient. Since (1) alone works and (2) alone fails, the answer is A; the trap is thinking $x+y<0$ pins down the quadrant when it only restricts a region crossing several quadrants.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -748,7 +748,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "(1) is already sufficient. (2) alone is not sufficient.",
+    "explanation": "Statement (1) $x - y = 0.5 > 0$ means $x > y$ directly — a definite 'yes', so it is sufficient. Statement (2) only says $x$ and $y$ are integers, which says nothing about their order — not sufficient. The key insight is that (1) gives the sign of $x-y$ outright; since (1) alone answers it and (2) alone does not, the answer is A.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -780,7 +780,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "Having exactly two positive divisors is the definition of a prime number.",
+    "explanation": "By definition, a prime is an integer greater than 1 with exactly two positive divisors (1 and itself), so statement (1) guarantees the number is prime and is sufficient alone. Statement (2), 'greater than 1,' is satisfied by composites like 4 as well as primes, so (2) alone is not sufficient. The trap is thinking (2) adds something essential — but (1) already encodes the full definition, including the 'greater than 1' condition. Answer: A.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -796,7 +796,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "Statement (1) gives a = -8.",
+    "explanation": "We need the exact value of $a$. Statement (1): $a^2 = 64$ would give $\\pm 8$, but the added condition 'a is negative' selects $a = -8$ uniquely, so (1) alone is sufficient. Statement (2): 'a is an integer' leaves infinitely many possibilities, so it is not sufficient. The insight is that statement (1) already bundles in the sign restriction that resolves the square root, so the answer is A.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -844,7 +844,7 @@
       "format": "single",
       "value": "D"
     },
-    "explanation": "Each statement is sufficient: (1) area = 60; (2) width = 6, so area = 60.",
+    "explanation": "Area of a rectangle is length times width, so each statement is sufficient if it determines both dimensions. Statement (1) gives length 10 and width 6, so area $= 60 > 50$ — sufficient. Statement (2) gives perimeter 32 with length 10, so $2(10 + w) = 32 \\Rightarrow w = 6$, again area $= 60 > 50$ — sufficient. Since each statement alone answers the yes/no question, the answer is D; the trap is overlooking that the perimeter plus one side fully determines the other side.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -860,7 +860,7 @@
       "format": "single",
       "value": "C"
     },
-    "explanation": "The equation gives n = 2 or 3. Statement (2) eliminates 2 and leaves n = 3.",
+    "explanation": "Statement (1): $n^2-5n+6=0$ factors as $(n-2)(n-3)=0$, so $n=2$ or $n=3$ — two values, not sufficient. Statement (2): $n>2$ allows infinitely many values, not sufficient. Together, $n>2$ eliminates $n=2$ and leaves only $n=3$, a unique value, so the answer is C. The trap is stopping at statement (1) and treating the quadratic as if it had one root.",
     "estimatedTimeSeconds": 150
   }
 ]

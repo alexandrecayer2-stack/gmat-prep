@@ -140,7 +140,7 @@
       "format": "single",
       "value": "D"
     },
-    "explanation": "Each statement alone implies that x is even.",
+    "explanation": "An integer is even iff it is divisible by 2. Statement (1): a multiple of 4 is $4n = 2(2n)$, always even — sufficient. Statement (2): leaving remainder 2 on division by 4 means $x = 4n + 2 = 2(2n+1)$, also always even — sufficient. The trap is thinking 'remainder 2' might signal oddness; in fact remainder 2 mod 4 is always even, so each statement alone answers yes and the answer is D.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -204,7 +204,7 @@
       "format": "single",
       "value": "D"
     },
-    "explanation": "Each statement alone implies x is positive.",
+    "explanation": "Statement (1): the square of a nonzero integer is always strictly positive (e.g. $(-3)^2=9>0$), so $x>0$ — sufficient. Statement (2): twice a positive integer is itself a positive integer ($2,4,6,\\dots$), so $x>0$ — sufficient. Each statement alone forces $x>0$, so the answer is D; the trap in (1) is forgetting that squaring removes the sign, and the key word in (2) is 'positive' integer (not just any integer).",
     "estimatedTimeSeconds": 120
   },
   {
@@ -236,7 +236,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "Statement (1) gives x = 7 directly. Statement (2) alone is not sufficient.",
+    "explanation": "Statement (1) $2x + 1 = 15$ solves uniquely to $x = 7$ — sufficient. Statement (2) says $x$ is prime and greater than 5, which allows 7, 11, 13, ... — many values, not sufficient. Both happen to be consistent with $x=7$, but only (1) determines it; since (1) alone works and (2) alone does not, the answer is A.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -252,7 +252,7 @@
       "format": "single",
       "value": "B"
     },
-    "explanation": "Statement (1) leaves several possibilities. Statement (2) gives n = 7 directly.",
+    "explanation": "Statement (1) says $n$ is even and less than 10, allowing 8, 6, 4, 2, 0, and negatives — many values, so (1) alone is not sufficient. Statement (2), $3n=21$, gives $n=7$ uniquely, so (2) alone is sufficient. The trap is that the constraint-heavy statement (1) still leaves multiple candidates, while the plain equation (2) determines $n$; note 7 is odd, so the statements never had to agree. Answer: B.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -284,7 +284,7 @@
       "format": "single",
       "value": "D"
     },
-    "explanation": "Each statement alone guarantees x > 5.",
+    "explanation": "We need to decide whether $x > 5$. Statement (1): $x$ is a positive multiple of 6, so $x \\in \\{6, 12, 18, \\dots\\}$, all greater than 5 — a definite 'yes', sufficient. Statement (2): $x$ is an integer greater than 7, so $x \\geq 8 > 5$ — also a definite 'yes', sufficient. Since each statement alone answers the question, the answer is D; the trap is overthinking whether you need both.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -300,7 +300,7 @@
       "format": "single",
       "value": "E"
     },
-    "explanation": "Neither statement determines whether two sides are equal, even when combined.",
+    "explanation": "Isosceles requires two equal sides (equivalently two equal angles). Statement (1) says two angles sum to 90°, forcing the third to be 90° (a right triangle), but the two acute angles can be equal (45-45-90) or unequal (30-60-90), so (1) alone is not sufficient. Statement (2) gives one side length 5 with no other constraint, so it is not sufficient. Combined, a 5-side right triangle can still be either 45-45-90 or scalene like a 3-4-5, so even together they cannot decide; the trap is assuming 'right' implies 'isosceles,' giving answer E.",
     "estimatedTimeSeconds": 150
   },
   {
@@ -316,7 +316,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "Statement (1) gives m = 40 directly. Statement (2) alone is not sufficient.",
+    "explanation": "Statement (1): $m/5=8$ gives $m=40$ directly — a unique value, sufficient. Statement (2): the factors of 40 are $1,2,4,5,8,10,20,40$, many possibilities, so not sufficient. Since (1) alone pins down $m$ and (2) alone does not, the answer is A; the trap is letting (2) feel useful because 40 is a factor of 40, but it never singles out one factor.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -444,7 +444,7 @@
       "format": "single",
       "value": "D"
     },
-    "explanation": "Each statement alone implies divisibility by 4.",
+    "explanation": "$x$ is a multiple of 4 whenever it contains the factor $2^2$. Statement (1): a multiple of 8 is $8m = 4(2m)$, so always divisible by 4 — sufficient. Statement (2): a multiple of 12 is $12m = 4(3m)$, so always divisible by 4 — sufficient. Each statement alone forces divisibility by 4, so the answer is D.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -460,7 +460,7 @@
       "format": "single",
       "value": "E"
     },
-    "explanation": "Even together, the statements only narrow k to 1, 2, 5, or 10.",
+    "explanation": "Factors of 20 are {1, 2, 4, 5, 10, 20} and factors of 30 are {1, 2, 3, 5, 6, 10, 15, 30}; each set has many elements, so neither statement alone is sufficient. Their common factors (the factors of $\\gcd(20,30)=10$) are {1, 2, 5, 10} — still four possible values, so together they are not sufficient either. The insight is that combining 'factor of' conditions only narrows $k$ to factors of the GCD, which here is not a single number. Answer: E.",
     "estimatedTimeSeconds": 150
   },
   {

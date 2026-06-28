@@ -73,7 +73,7 @@
       "format": "single",
       "value": "E"
     },
-    "explanation": "0.35 × 260 = 91.",
+    "explanation": "Convert the percent to a decimal and multiply: $0.35 \\times 260 = 91$, choice E. As a check, split it as $35\\% = 25\\% + 10\\%$, i.e. $65 + 26 = 91$; the trap is misplacing the decimal and landing on 78 or 84.",
     "estimatedTimeSeconds": 90,
     "answerCheck": "num(text(answer)) === 91"
   },
@@ -268,7 +268,7 @@
       "format": "single",
       "value": "C"
     },
-    "explanation": "One part = 77/7 = 11, so red = 4 × 11 = 44.",
+    "explanation": "Set up the ratio red:blue $=4:7$ and find the value of one part using the known blue count: $77\\div 7=11$ marbles per part. Red is 4 parts, so $4\\times 11=44$. The key is converting the ratio into a per-part multiplier rather than guessing; the trap is multiplying 77 by 4/7 incorrectly or applying the ratio to the wrong color. Answer: C.",
     "estimatedTimeSeconds": 90,
     "answerCheck": "num(text(answer)) === 44"
   },
@@ -502,7 +502,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "Side = sqrt(49) = 7, so perimeter = 4 × 7 = 28.",
+    "explanation": "For a square, area $= s^2$, so $s = \\sqrt{49} = 7$. The perimeter is $4s = 4 \\times 7 = 28$. The key is taking the square root to get the side first, then multiplying by 4 — don't confuse perimeter with area; the answer is A.",
     "estimatedTimeSeconds": 90,
     "answerCheck": "num(text(answer)) === 28"
   },
@@ -696,7 +696,7 @@
       "format": "single",
       "value": "D"
     },
-    "explanation": "Add the equations: 3x = 18, so x = 6 (and y = 4).",
+    "explanation": "Use elimination since the $y$ terms are opposites. Adding $2x + y = 16$ and $x - y = 2$ cancels $y$: $3x = 18$, so $x = 6$. The insight is to spot that $+y$ and $-y$ let you add the equations directly instead of substituting; the answer is D.",
     "estimatedTimeSeconds": 120,
     "answerCheck": "num(text(answer)) === 6"
   },
@@ -735,7 +735,7 @@
       "format": "single",
       "value": "E"
     },
-    "explanation": "Total = 10×72 + 15×82 = 720 + 1230 = 1950, over 25 students = 78.",
+    "explanation": "Use a weighted average, not a plain average of the two means, because the groups differ in size. Total points $=10\\times72+15\\times82=720+1230=1950$, divided by $10+15=25$ students gives $1950/25=78$. The trap is averaging 72 and 82 to get 77; the larger girls' group pulls the class mean toward 82.",
     "estimatedTimeSeconds": 150,
     "answerCheck": "num(text(answer)) === 78"
   },
@@ -774,7 +774,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "Combined rate = 1/12 + 1/6 = 1/12 + 2/12 = 3/12 = 1/4 job per hour, so 4 hours.",
+    "explanation": "Add rates, not times: A does $\\frac{1}{12}$ of the job per hour and B does $\\frac{1}{6}$, so combined they do $\\frac{1}{12} + \\frac{2}{12} = \\frac{3}{12} = \\frac{1}{4}$ per hour. Time is the reciprocal of the combined rate, so $1 \\div \\frac{1}{4} = 4$ hours (choice A). The trap is averaging the two times to 9 — rates add, times do not.",
     "estimatedTimeSeconds": 120,
     "answerCheck": "num(text(answer)) === 4"
   },
@@ -813,7 +813,7 @@
       "format": "single",
       "value": "E"
     },
-    "explanation": "Original × 1.25 = 90, so original = 90 / 1.25 = 72.",
+    "explanation": "A 25% increase means the new price is $1.25$ times the original, so original $\\times 1.25 = 90$. Solve: original $=90/1.25=72$ dollars. The trap (choice D) is subtracting 25% of 90, but the percent applies to the unknown original, not the final price — so you divide by 1.25 rather than multiply 90 by 0.75 incorrectly. Answer: E.",
     "estimatedTimeSeconds": 120,
     "answerCheck": "num(text(answer)) === 72"
   },
@@ -891,7 +891,7 @@
       "format": "single",
       "value": "B"
     },
-    "explanation": "12 = 2^2·3 and 18 = 2·3^2, so LCM = 2^2·3^2 = 36.",
+    "explanation": "Take each prime to its highest power across the two numbers: $12 = 2^2 \\cdot 3$ and $18 = 2 \\cdot 3^2$, so $\\text{LCM} = 2^2 \\cdot 3^2 = 36$. The insight is that the LCM uses the larger exponent of each prime (not the product $12 \\times 18 = 216$, which is answer E's trap); the answer is B.",
     "estimatedTimeSeconds": 110,
     "answerCheck": "num(text(answer)) === 36"
   },
@@ -1046,7 +1046,7 @@
       "format": "single",
       "value": "D"
     },
-    "explanation": "Interest = P·r·t = 4000 × 0.06 × 3 = 720.",
+    "explanation": "Simple interest is computed on the original principal each year: $I = P \\cdot r \\cdot t$. Here $I = 4000 \\times 0.06 \\times 3 = \\$720$. The trap is compounding (which would add interest on interest); 'simple' means a flat $\\$240$ per year for 3 years, giving answer D.",
     "estimatedTimeSeconds": 110,
     "answerCheck": "num(text(answer)) === 720"
   },
@@ -1163,7 +1163,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "C(7,2) = (7×6)/(2×1) = 21.",
+    "explanation": "A committee is unordered, so use combinations: $\\binom{7}{2}=\\frac{7\\times6}{2\\times1}=21$. The trap is using permutations ($7\\times6=42$), which double-counts each pair since choosing person A then B is the same committee as B then A.",
     "estimatedTimeSeconds": 110,
     "answerCheck": "num(text(answer)) === 21"
   },
@@ -1202,7 +1202,7 @@
       "format": "single",
       "value": "B"
     },
-    "explanation": "Total parts = 10, one part = 400/10 = 40, largest share = 5 × 40 = 200.",
+    "explanation": "Sum the ratio parts to find the value of one part: $2+3+5 = 10$ parts, so one part $= \\$400 / 10 = \\$40$. The largest share is 5 parts, $5 \\times \\$40 = \\$200$, choice B. The trap is answering with the number of parts (5) or the value of one part ($40$) instead of the full largest share.",
     "estimatedTimeSeconds": 150,
     "answerCheck": "num(text(answer)) === 200"
   },
@@ -1396,7 +1396,7 @@
       "format": "single",
       "value": "C"
     },
-    "explanation": "Closing speed = 50 + 40 = 90 mph, so time = 360 / 90 = 4 hours.",
+    "explanation": "When two objects move toward each other, their speeds add to give the closing rate: $50+40=90$ mph. Time to cover the 360-mile gap is distance ÷ closing speed $=360/90=4$ hours. The key insight is summing the speeds for approaching motion (rather than using one train's speed); the gap shrinks at the combined rate. Answer: C.",
     "estimatedTimeSeconds": 150,
     "answerCheck": "num(text(answer)) === 4"
   },
@@ -1474,7 +1474,7 @@
       "format": "single",
       "value": "B"
     },
-    "explanation": "f(3) = 2(9) - 3(3) + 1 = 18 - 9 + 1 = 10.",
+    "explanation": "Substitute $x = 3$ into $f(x) = 2x^2 - 3x + 1$: $f(3) = 2(3^2) - 3(3) + 1 = 2(9) - 9 + 1 = 18 - 9 + 1 = 10$. The key step is squaring before multiplying by 2 (order of operations); the answer is B.",
     "estimatedTimeSeconds": 110,
     "answerCheck": "num(text(answer)) === 10"
   },
@@ -1590,7 +1590,7 @@
       "format": "single",
       "value": "C"
     },
-    "explanation": "2000 × 1.10^2 = 2000 × 1.21 = 2420.",
+    "explanation": "Compound interest multiplies by $(1 + r)$ each period: amount $= P(1+r)^t = 2000(1.10)^2 = 2000 \\times 1.21 = \\$2420$. The trap is using simple interest ($\\$2400$) and forgetting the extra $\\$20$ earned on the first year's interest; that second-order term is exactly what 'compounded annually' captures, so the answer is C.",
     "estimatedTimeSeconds": 150,
     "answerCheck": "num(text(answer)) === 2420"
   },
@@ -1668,7 +1668,7 @@
       "format": "single",
       "value": "E"
     },
-    "explanation": "There are C(3,2)=3 favorable outcomes out of 8 total, so 3/8.",
+    "explanation": "With 3 fair flips there are $2^3=8$ equally likely outcomes; the number with exactly 2 heads is $\\binom{3}{2}=3$ (HHT, HTH, THH), so the probability is $3/8$. The trap is forgetting that the 2 heads can fall in different positions — it is not a single outcome like $(1/2)^2$, you must count the $\\binom{3}{2}$ arrangements.",
     "estimatedTimeSeconds": 150
   },
   {
@@ -1823,7 +1823,7 @@
       "format": "single",
       "value": "B"
     },
-    "explanation": "1.20 × 0.80 = 0.96, so the final price is 96% of the original.",
+    "explanation": "Apply the two percent changes as successive multipliers on the original price $P$: $P \\times 1.20 \\times 0.80 = 0.96P$, so the final price is $96\\%$ of the original, choice B. The key insight is that a $20\\%$ rise followed by a $20\\%$ fall does not cancel — the decrease applies to a larger base — leaving a net $4\\%$ loss.",
     "estimatedTimeSeconds": 150
   },
   {
@@ -1861,7 +1861,7 @@
       "format": "single",
       "value": "E"
     },
-    "explanation": "(x+y)^2 = x^2 + 2xy + y^2, so 81 = 53 + 2xy, giving 2xy = 28 and xy = 14.",
+    "explanation": "Use the identity $(x+y)^2=x^2+2xy+y^2$ to relate the given sums. Substituting, $9^2=53+2xy$, so $81-53=2xy$, giving $2xy=28$ and $xy=14$. The insight is recognizing that the square of the sum bridges $x+y$ and $x^2+y^2$, avoiding the need to solve for $x$ and $y$ individually. Answer: E.",
     "estimatedTimeSeconds": 160,
     "answerCheck": "num(text(answer)) === 14"
   },

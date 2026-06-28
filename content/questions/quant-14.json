@@ -1022,7 +1022,7 @@
       "format": "single",
       "value": "E"
     },
-    "explanation": "This is 5P3 = 5 × 4 × 3 = 60.",
+    "explanation": "Arranging means order matters, so this is a permutation of 3 books chosen from 5: $_5P_3 = 5 \\times 4 \\times 3 = 60$. Fill the three shelf positions in turn — 5 choices, then 4, then 3. The trap is using a combination ($\\binom{5}{3}=10$); since arrangement is requested, the answer is E.",
     "estimatedTimeSeconds": 120
   },
   {
@@ -1098,7 +1098,7 @@
       "format": "single",
       "value": "B"
     },
-    "explanation": "The rate is 4 widgets per hour. In 5 hours, the machine produces 20 widgets.",
+    "explanation": "At a constant rate, find the unit rate then scale. The machine makes $\\frac{12 \\text{ widgets}}{3 \\text{ hours}} = 4$ widgets per hour, so in 5 hours it makes $4 \\times 5 = 20$ widgets. Equivalently, set up the proportion $\\frac{12}{3} = \\frac{x}{5}$. The answer is B; the only trap is skipping the per-hour rate and misscaling.",
     "estimatedTimeSeconds": 150
   },
   {
@@ -1136,7 +1136,7 @@
       "format": "single",
       "value": "C"
     },
-    "explanation": "40% of 250 is 100. That leaves 250 - 100 = 150.",
+    "explanation": "Spending 40% leaves $100\\%-40\\%=60\\%$, so compute $0.60\\times\\$250=\\$150$ (equivalently $\\$250-0.40\\times\\$250=\\$250-\\$100=\\$150$). The trap is answering with the amount spent (\\$100) instead of the amount remaining.",
     "estimatedTimeSeconds": 90
   },
   {

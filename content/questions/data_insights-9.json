@@ -505,7 +505,7 @@
         "b2": "2"
       }
     },
-    "explanation": "Average is (18+24+30+36)/4 = 108/4 = 27. Ratio 36:18 = 2:1, so the ratio is 2.",
+    "explanation": "For the average, sum the four daily orders and divide by 4: $(18+24+30+36)/4=108/4=27$. For the ratio of Thursday to Monday, compare the bar heights $36:18$, which reduces to $2:1$, i.e., 2. The key is reading exact bar values from the chart and reducing the ratio rather than estimating; select 27 and 2.",
     "estimatedTimeSeconds": 90,
     "tags": [
       "average",

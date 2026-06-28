@@ -72,7 +72,7 @@
       "format": "single",
       "value": "A"
     },
-    "explanation": "Setting y = 12, we get x = 9 and z = 10. Therefore x:z = 9:10.",
+    "explanation": "Chain the ratios by giving $y$ a common value: take $y = 12$, the LCM of 4 and 6. Then $x:y = 3:4$ scales to $x = 9$, and $y:z = 6:5$ scales to $z = 10$. So $x:z = 9:10$, choice A — the trap is multiplying the leading terms ($3 \\times 6$) without matching the shared $y$ term first.",
     "estimatedTimeSeconds": 90
   },
   {
@@ -110,7 +110,7 @@
       "format": "single",
       "value": "C"
     },
-    "explanation": "6x - 15 = 4x + 7, so 2x = 22 and x = 11.",
+    "explanation": "Distribute the left side: $3(2x-5)=6x-15$, so $6x-15=4x+7$. Subtract $4x$ and add 15 to both sides: $2x=22$, giving $x=11$. The key step is expanding the parentheses correctly before collecting like terms; a common slip is forgetting to multiply the $-5$ by 3. Answer: C.",
     "estimatedTimeSeconds": 90
   },
   {
@@ -338,7 +338,7 @@
       "format": "single",
       "value": "B"
     },
-    "explanation": "7 ≡ 1 (mod 6), so $7^{10}$ ≡ $1^{10}$ ≡ 1 (mod 6).",
+    "explanation": "Use modular arithmetic: reduce the base mod 6 first. Since $7 = 6 + 1$, we have $7 \\equiv 1 \\pmod 6$, so $7^{10} \\equiv 1^{10} \\equiv 1 \\pmod 6$. The key move is reducing the base before exponentiating, which turns a huge power into $1^{10}$; the remainder is $1$ (B).",
     "estimatedTimeSeconds": 150
   },
   {

@@ -221,6 +221,6 @@
     "assets": { "twoPart": { "columns": [{ "key": "partA", "label": "g(4)" }, { "key": "partB", "label": "x with g(x) = 128" }] } },
     "choices": [{ "key": "r1", "text": "6" }, { "key": "r2", "text": "7" }, { "key": "r3", "text": "8" }, { "key": "r4", "text": "16" }, { "key": "r5", "text": "64" }, { "key": "r6", "text": "128" }],
     "correctAnswer": { "format": "two_part", "value": { "partA": "r4", "partB": "r2" } },
-    "explanation": "$g(4) = 2^4 = 16$. For $g(x) = 128$: $2^x = 128 = 2^7$, so $x = 7$.",
+    "explanation": "Use $g(x) = 2^x$ in both directions. For column A, $g(4) = 2^4 = 16$ (select r4). For column B, solve $2^x = 128$; since $128 = 2^7$, $x = 7$ (select r2). The trap is confusing the two columns — one plugs a value in, the other reads an exponent out — so the selections are r4 and r2.",
     "estimatedTimeSeconds": 150, "tags": ["two-part-analysis"] }
 ]
