@@ -1,5 +1,5 @@
 [
-  { "id": "v6-cr01", "section": "verbal", "type": "critical_reasoning", "topic": "assumption", "difficulty": "easy",
+  { "id": "v6-cr01", "section": "verbal", "type": "critical_reasoning", "topic": "assumption", "difficulty": "medium",
     "stem": "A city installed brighter streetlights on its main avenue, and in the following year the number of nighttime traffic accidents on that avenue fell by 30 percent. The city concluded that the brighter lighting caused the decline in accidents.\n\nThe conclusion depends on which of the following assumptions?",
     "choices": [
       { "key": "A", "text": "The decline in accidents was not primarily caused by some other change, such as reduced traffic volume on the avenue." },
@@ -35,7 +35,7 @@
     "correctAnswer": { "format": "single", "value": "C" },
     "explanation": "A controlled trial isolating the compound and showing lower illness rates versus placebo (C) directly supports the causal hypothesis while ruling out confounders. (B) suggests a confound (weakening); (D) is just more correlation; (A) and (E) are irrelevant.",
     "estimatedTimeSeconds": 105, "tags": ["critical-reasoning", "strengthen"] },
-  { "id": "v6-cr04", "section": "verbal", "type": "critical_reasoning", "topic": "inference", "difficulty": "easy",
+  { "id": "v6-cr04", "section": "verbal", "type": "critical_reasoning", "topic": "inference", "difficulty": "medium",
     "stem": "Every employee at the firm who received a performance bonus this year exceeded their sales target. No employee in the Western region exceeded their sales target this year.\n\nIf the statements above are true, which of the following must also be true?",
     "choices": [
       { "key": "A", "text": "No employee in the Western region received a performance bonus this year." },
@@ -47,7 +47,7 @@
     "correctAnswer": { "format": "single", "value": "A" },
     "explanation": "Bonus implies exceeded target. No Western employee exceeded target, so no Western employee could have a bonus—A must be true. (B) reverses the conditional; (C) and (D) are not established. (E) is an illicit reversal: working outside the Western region does not guarantee a bonus.",
     "estimatedTimeSeconds": 105, "tags": ["critical-reasoning", "inference"] },
-  { "id": "v6-cr05", "section": "verbal", "type": "critical_reasoning", "topic": "paradox", "difficulty": "medium",
+  { "id": "v6-cr05", "section": "verbal", "type": "critical_reasoning", "topic": "paradox", "difficulty": "easy",
     "stem": "A bookstore raised the price of its bestselling novel by 15 percent. Despite the higher price, the store's total revenue from that novel increased substantially in the month after the change.\n\nWhich of the following, if true, best helps to explain this result?",
     "choices": [
       { "key": "A", "text": "The store reduced the prices of several other novels during the same month." },
@@ -119,7 +119,7 @@
     "correctAnswer": { "format": "single", "value": "B" },
     "explanation": "If the clay exists only in a distant overseas region (B), the pottery—or its raw material—must have come from across the sea, supporting the traders-by-sea conclusion. (A) shows a sea theme but locals could depict boats too; (D) shows locals made other styles but not that they couldn't make this one.",
     "estimatedTimeSeconds": 105, "tags": ["critical-reasoning", "strengthen"] },
-  { "id": "v6-cr11", "section": "verbal", "type": "critical_reasoning", "topic": "inference", "difficulty": "hard",
+  { "id": "v6-cr11", "section": "verbal", "type": "critical_reasoning", "topic": "inference", "difficulty": "medium",
     "stem": "All of the apartments in the building that have a balcony also have central air conditioning. Some of the apartments that have central air conditioning rent for more than \\$2,000 a month.\n\nIf the statements above are true, which of the following could be false?",
     "choices": [
       { "key": "A", "text": "Some apartments with central air conditioning have a balcony." },
@@ -131,7 +131,7 @@
     "correctAnswer": { "format": "single", "value": "C" },
     "explanation": "We know balcony implies A/C, and some A/C apartments rent above \\$2,000—but those expensive ones need not be the balcony ones, so (C) could be false. (B) restates the first premise; (D) and (E) are its contrapositive; (A) follows because balcony apartments have A/C.",
     "estimatedTimeSeconds": 120, "tags": ["critical-reasoning", "inference"] },
-  { "id": "v6-cr12", "section": "verbal", "type": "critical_reasoning", "topic": "boldface", "difficulty": "medium",
+  { "id": "v6-cr12", "section": "verbal", "type": "critical_reasoning", "topic": "boldface", "difficulty": "hard",
     "stem": "Some analysts argue that the airline should add more flights to increase profit. **But adding flights would raise fuel and staffing costs sharply.** Because the airline's planes already fly nearly full, the added flights would carry few additional passengers. **Therefore, adding flights would more likely reduce the airline's profit than increase it.**\n\nIn the argument, the two portions in boldface play which of the following roles?",
     "choices": [
       { "key": "A", "text": "The first is an objection that the argument rebuts; the second is the argument's main conclusion." },
@@ -167,7 +167,7 @@
     "correctAnswer": { "format": "single", "value": "B" },
     "explanation": "A recommendation slows disease spread only if enough farmers follow it. The agency must assume substantial adoption (B); otherwise resistant wheat sits unused and the disease spreads as before. Yield, cost, and neighboring losses are not required for the slowing-spread conclusion.",
     "estimatedTimeSeconds": 120, "tags": ["critical-reasoning", "assumption"] },
-  { "id": "v6-cr15", "section": "verbal", "type": "critical_reasoning", "topic": "paradox", "difficulty": "medium",
+  { "id": "v6-cr15", "section": "verbal", "type": "critical_reasoning", "topic": "paradox", "difficulty": "easy",
     "stem": "A factory installed a new machine that produces parts twice as fast as the old machine it replaced. Yet after the installation, the factory's total daily output of finished parts did not increase at all.\n\nWhich of the following, if true, best explains why total output did not increase?",
     "choices": [
       { "key": "A", "text": "The new machine was more expensive than the old machine." },
@@ -203,7 +203,7 @@
     "correctAnswer": { "format": "single", "value": "B" },
     "explanation": "The manager assumes the premium software is what makes the top performers productive. If their productivity comes from other factors—skill, experience, territory (B)—giving everyone the software won't replicate their results. That overlooked possibility is the flaw.",
     "estimatedTimeSeconds": 105, "tags": ["critical-reasoning", "flaw"] },
-  { "id": "v6-cr18", "section": "verbal", "type": "critical_reasoning", "topic": "inference", "difficulty": "medium",
+  { "id": "v6-cr18", "section": "verbal", "type": "critical_reasoning", "topic": "inference", "difficulty": "hard",
     "stem": "The only trains that stop at Lindenville are local trains. All local trains that run on this line stop at both Lindenville and Oakdale. The 5:15 train does not stop at Oakdale.\n\nIf the statements above are true, which of the following must be true of the 5:15 train?",
     "choices": [
       { "key": "A", "text": "It does not stop at Lindenville." },
@@ -215,7 +215,7 @@
     "correctAnswer": { "format": "single", "value": "A" },
     "explanation": "All local trains stop at Oakdale, but the 5:15 does not, so it is not a local train. Only local trains stop at Lindenville, so a non-local train does not stop at Lindenville—A must be true. (C) contradicts this; (B) and (D) aren't established.",
     "estimatedTimeSeconds": 105, "tags": ["critical-reasoning", "inference"] },
-  { "id": "v6-rc01", "groupId": "rc-coral", "section": "verbal", "type": "reading_comprehension", "topic": "main idea", "difficulty": "medium",
+  { "id": "v6-rc01", "groupId": "rc-coral", "section": "verbal", "type": "reading_comprehension", "topic": "main idea", "difficulty": "easy",
     "stem": "The primary purpose of the passage is to",
     "choices": [
       { "key": "A", "text": "argue that coral reefs cannot recover from any episode of bleaching" },
@@ -239,7 +239,7 @@
     "correctAnswer": { "format": "single", "value": "B" },
     "explanation": "The passage states that under stress, such as elevated temperatures, corals expel their symbiotic algae, losing both color and a nutrient source—this is bleaching. (B) matches. (A), (C), (D), and (E) describe mechanisms the passage does not attribute to bleaching.",
     "estimatedTimeSeconds": 105, "tags": ["reading-comprehension", "detail"] },
-  { "id": "v6-rc03", "groupId": "rc-coral", "section": "verbal", "type": "reading_comprehension", "topic": "inference", "difficulty": "medium",
+  { "id": "v6-rc03", "groupId": "rc-coral", "section": "verbal", "type": "reading_comprehension", "topic": "inference", "difficulty": "easy",
     "stem": "The passage suggests that a bleached reef is most likely to recover if",
     "choices": [
       { "key": "A", "text": "the stressful conditions persist for an extended period" },
@@ -251,7 +251,7 @@
     "correctAnswer": { "format": "single", "value": "B" },
     "explanation": "The passage indicates bleaching is not necessarily fatal: if stress eases before the polyps die, algae can recolonize and the reef recovers. (B) reflects this. (A) and (C) describe conditions that prevent recovery; (D) and (E) are unsupported.",
     "estimatedTimeSeconds": 120, "tags": ["reading-comprehension", "inference"] },
-  { "id": "v6-rc04", "groupId": "rc-coral", "section": "verbal", "type": "reading_comprehension", "topic": "function", "difficulty": "medium",
+  { "id": "v6-rc04", "groupId": "rc-coral", "section": "verbal", "type": "reading_comprehension", "topic": "function", "difficulty": "easy",
     "stem": "The author mentions that some coral species recover more readily than others primarily in order to",
     "choices": [
       { "key": "A", "text": "prove that bleaching has no lasting effect on reefs" },
@@ -263,7 +263,7 @@
     "correctAnswer": { "format": "single", "value": "B" },
     "explanation": "Noting that species differ in recovery supports the passage's point that bleaching outcomes vary and depend partly on which corals are affected. (B) captures this function. The other options misstate the passage's claims or purpose.",
     "estimatedTimeSeconds": 105, "tags": ["reading-comprehension", "function"] },
-  { "id": "v6-rc05", "groupId": "rc-guilds", "section": "verbal", "type": "reading_comprehension", "topic": "main idea", "difficulty": "medium",
+  { "id": "v6-rc05", "groupId": "rc-guilds", "section": "verbal", "type": "reading_comprehension", "topic": "main idea", "difficulty": "easy",
     "stem": "The passage is primarily concerned with",
     "choices": [
       { "key": "A", "text": "explaining the economic and social functions that medieval craft guilds served" },
@@ -287,7 +287,7 @@
     "correctAnswer": { "format": "single", "value": "A" },
     "explanation": "The passage states guilds set and enforced quality standards that members' goods had to meet. (A) matches. (B), (C), (D), and (E) describe practices the passage does not attribute to guilds—indeed guilds trained apprentices and regulated, not slashed, prices.",
     "estimatedTimeSeconds": 105, "tags": ["reading-comprehension", "detail"] },
-  { "id": "v6-rc07", "groupId": "rc-guilds", "section": "verbal", "type": "reading_comprehension", "topic": "inference", "difficulty": "medium",
+  { "id": "v6-rc07", "groupId": "rc-guilds", "section": "verbal", "type": "reading_comprehension", "topic": "inference", "difficulty": "easy",
     "stem": "The passage implies that membership in a guild was",
     "choices": [
       { "key": "A", "text": "open to anyone who wished to join without conditions" },
@@ -299,7 +299,7 @@
     "correctAnswer": { "format": "single", "value": "B" },
     "explanation": "The passage describes apprenticeship and stages of training before one became a full member, implying membership was controlled rather than open to all (B). (A) contradicts this; (C), (D), and (E) are not supported by the passage.",
     "estimatedTimeSeconds": 120, "tags": ["reading-comprehension", "inference"] },
-  { "id": "v6-rc08", "groupId": "rc-guilds", "section": "verbal", "type": "reading_comprehension", "topic": "function", "difficulty": "medium",
+  { "id": "v6-rc08", "groupId": "rc-guilds", "section": "verbal", "type": "reading_comprehension", "topic": "function", "difficulty": "easy",
     "stem": "The author's reference to guilds providing support to members' families during hardship serves to",
     "choices": [
       { "key": "A", "text": "show that guilds functioned only as charitable organizations" },
@@ -311,7 +311,7 @@
     "correctAnswer": { "format": "single", "value": "B" },
     "explanation": "Mutual aid to families illustrates the social dimension of guilds, complementing their economic roles—supporting (B). (A) overstates (guilds were not only charities); (C), (D), and (E) are not the point of the reference.",
     "estimatedTimeSeconds": 105, "tags": ["reading-comprehension", "function"] },
-  { "id": "v6-rc09", "groupId": "rc-radio", "section": "verbal", "type": "reading_comprehension", "topic": "main idea", "difficulty": "medium",
+  { "id": "v6-rc09", "groupId": "rc-radio", "section": "verbal", "type": "reading_comprehension", "topic": "main idea", "difficulty": "easy",
     "stem": "The primary purpose of the passage is to",
     "choices": [
       { "key": "A", "text": "explain how the discovery of cosmic radio waves opened a new way of studying the universe" },
@@ -335,7 +335,7 @@
     "correctAnswer": { "format": "single", "value": "B" },
     "explanation": "The passage describes the detection as accidental, made by an engineer studying static that interfered with radio communication. (B) matches. (A) contradicts the accidental nature; (C), (D), and (E) misstate the circumstances.",
     "estimatedTimeSeconds": 105, "tags": ["reading-comprehension", "detail"] },
-  { "id": "v6-rc11", "groupId": "rc-radio", "section": "verbal", "type": "reading_comprehension", "topic": "inference", "difficulty": "medium",
+  { "id": "v6-rc11", "groupId": "rc-radio", "section": "verbal", "type": "reading_comprehension", "topic": "inference", "difficulty": "easy",
     "stem": "It can be inferred from the passage that radio astronomy allows astronomers to",
     "choices": [
       { "key": "A", "text": "observe only objects that emit visible light" },
@@ -347,7 +347,7 @@
     "correctAnswer": { "format": "single", "value": "B" },
     "explanation": "By detecting radio waves rather than visible light, radio astronomy reveals objects and regions optical telescopes cannot easily see (B). (A) is the opposite; (C), (D), and (E) claim more than the passage supports.",
     "estimatedTimeSeconds": 120, "tags": ["reading-comprehension", "inference"] },
-  { "id": "v6-rc12", "groupId": "rc-radio", "section": "verbal", "type": "reading_comprehension", "topic": "tone", "difficulty": "medium",
+  { "id": "v6-rc12", "groupId": "rc-radio", "section": "verbal", "type": "reading_comprehension", "topic": "tone", "difficulty": "easy",
     "stem": "The author's attitude toward the development of radio astronomy can best be described as",
     "choices": [
       { "key": "A", "text": "skeptical of its scientific value" },

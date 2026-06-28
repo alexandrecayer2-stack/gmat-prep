@@ -40,7 +40,7 @@
     "section": "data_insights",
     "type": "data_sufficiency",
     "topic": "number properties",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "stem": "Is integer $n$ divisible by 12?\n(1) $n$ is divisible by 4.\n(2) $n$ is divisible by 3.",
     "correctAnswer": {
       "format": "single",
@@ -76,7 +76,7 @@
     "section": "data_insights",
     "type": "data_sufficiency",
     "topic": "inequalities",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "stem": "Is $x = y$?\n(1) $x > 0$\n(2) $y > 0$",
     "correctAnswer": {
       "format": "single",
@@ -149,7 +149,7 @@
     "section": "data_insights",
     "type": "data_sufficiency",
     "topic": "geometry",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "stem": "Is triangle $ABC$ isosceles?\n(1) Two sides of triangle $ABC$ are equal in length.\n(2) Two angles of triangle $ABC$ are equal.",
     "correctAnswer": {
       "format": "single",
@@ -185,7 +185,7 @@
     "section": "data_insights",
     "type": "data_sufficiency",
     "topic": "number properties",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "stem": "Is integer $n$ even?\n(1) $n$ is divisible by 8.\n(2) $n$ is a multiple of 4.",
     "correctAnswer": {
       "format": "single",
@@ -541,7 +541,7 @@
     "section": "data_insights",
     "type": "graphics_interpretation",
     "topic": "chart reading",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "stem": "Use the chart to complete the statement.",
     "correctAnswer": {
       "format": "dropdowns",
@@ -707,7 +707,7 @@
     "section": "data_insights",
     "type": "table_analysis",
     "topic": "table analysis",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "stem": "For each statement, determine whether it is True or False according to the table.",
     "choices": [
       {
@@ -803,7 +803,7 @@
     "section": "data_insights",
     "type": "table_analysis",
     "topic": "table analysis",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "stem": "For each statement, determine whether it is True or False according to the table.",
     "choices": [
       {
@@ -899,7 +899,7 @@
     "section": "data_insights",
     "type": "table_analysis",
     "topic": "table analysis",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "stem": "For each statement, determine whether it is True or False according to the table.",
     "choices": [
       {
@@ -995,7 +995,7 @@
     "section": "data_insights",
     "type": "table_analysis",
     "topic": "table analysis",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "stem": "For each statement, determine whether it is True or False according to the table.",
     "choices": [
       {
@@ -1091,7 +1091,7 @@
     "section": "data_insights",
     "type": "table_analysis",
     "topic": "table analysis",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "stem": "For each statement, determine whether it is True or False according to the table.",
     "choices": [
       {
@@ -1187,7 +1187,7 @@
     "section": "data_insights",
     "type": "table_analysis",
     "topic": "table analysis",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "stem": "For each statement, determine whether it is True or False according to the table.",
     "choices": [
       {
@@ -1345,7 +1345,7 @@
     "section": "data_insights",
     "type": "two_part_analysis",
     "topic": "percents",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "stem": "A jacket costs 80 units and is discounted by 25%. Determine the discounted price and the amount saved.",
     "choices": [
       {
@@ -1468,7 +1468,7 @@
     "section": "data_insights",
     "type": "two_part_analysis",
     "topic": "rates",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "stem": "A car travels at 60 kilometers per hour. Determine the time needed to travel 180 kilometers and the distance traveled in 1.5 hours.",
     "choices": [
       {

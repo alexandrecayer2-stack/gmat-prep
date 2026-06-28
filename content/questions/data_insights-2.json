@@ -94,7 +94,7 @@
     "topic": "number properties",
     "subtopic": "divisibility",
     "skillsTested": ["divisibility", "data sufficiency logic"],
-    "difficulty": "easy",
+    "difficulty": "medium",
     "difficultyScore": { "conceptual": 2, "steps": 1, "trap": 1, "computation": 1, "sum": 5 },
     "difficultyDrivers": ["Each statement gives only one factor of 6", "Together the statements are sufficient by definition", "Very limited algebra"],
     "stem": "Is the integer $n$ divisible by $6$?\n(1) $n$ is divisible by $2$.\n(2) $n$ is divisible by $3$.",

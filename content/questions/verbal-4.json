@@ -65,7 +65,7 @@
     "section": "verbal",
     "type": "reading_comprehension",
     "topic": "detail",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "groupId": "rc-passage-commons",
     "orderIndex": 5,
     "stem": "According to the passage, one design principle shared by durable resource-managing communities was that those affected by the rules could",

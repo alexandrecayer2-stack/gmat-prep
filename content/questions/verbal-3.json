@@ -30,7 +30,7 @@
     "section": "verbal",
     "type": "critical_reasoning",
     "topic": "inference",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "stem": "If the statements above are true, which of the following must also be true?",
     "passageOrStimulus": "Everyone who completed the safety course received a certificate. None of the contractors received a certificate.",
     "choices": [
@@ -56,7 +56,7 @@
     "section": "verbal",
     "type": "critical_reasoning",
     "topic": "describe the reasoning",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "stem": "In the argument, the two portions in boldface play which of the following roles?",
     "passageOrStimulus": "**The new highway bypass was expected to reduce traffic in the town center.** Yet in the year after the bypass opened, traffic in the town center actually rose. Some local officials have blamed the bypass for the increase. However, **the rise was most likely caused by the opening of a large shopping mall in the town center during the same year.**",
     "choices": [
@@ -162,7 +162,7 @@
     "section": "verbal",
     "type": "reading_comprehension",
     "topic": "inference",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "groupId": "rc-time-zones",
     "orderIndex": 3,
     "stem": "The passage suggests that the adoption of standard time zones was notable in that it",

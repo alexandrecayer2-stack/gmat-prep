@@ -118,7 +118,7 @@
     "id": "di-hard-twopart-1",
     "section": "data_insights",
     "type": "two_part_analysis",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "topic": "two-part analysis",
     "stem": "A company's revenue $R$ (in thousands of dollars) is related to the number of units sold $u$ by the equation $R = 3u + 12$. In the table, select the number of **Units** that corresponds to a revenue of \\$48 thousand, and the **Revenue** produced when 20 units are sold. Make exactly one selection in each column.",
     "assets": {

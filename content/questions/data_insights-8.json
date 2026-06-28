@@ -22,7 +22,7 @@
     "id": "qb72",
     "section": "data_insights",
     "type": "data_sufficiency",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "topic": "geometry",
     "stem": "What is the area of the rectangle?\n\nStatement (1): The rectangle has length 6 and width 4.\n\nStatement (2): The rectangle has perimeter 20 and length 6.",
     "correctAnswer": {
@@ -41,7 +41,7 @@
     "id": "qb73",
     "section": "data_insights",
     "type": "data_sufficiency",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "topic": "number properties",
     "stem": "Is $n$ divisible by 12?\n\nStatement (1): $n$ is divisible by 6.\n\nStatement (2): $n$ is divisible by 4.",
     "correctAnswer": {
@@ -174,7 +174,7 @@
     "id": "qb80",
     "section": "data_insights",
     "type": "data_sufficiency",
-    "difficulty": "medium",
+    "difficulty": "hard",
     "topic": "geometry",
     "stem": "What is the length of side $x$?\n\nStatement (1): The triangle is isosceles with sides $x$, $x$, and 10.\n\nStatement (2): The triangle is isosceles, has base 10, and perimeter 30.",
     "correctAnswer": {
@@ -811,7 +811,7 @@
     "id": "qb89",
     "section": "data_insights",
     "type": "table_analysis",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "topic": "sales",
     "stem": "Use the table to evaluate each statement.",
     "assets": {
@@ -904,7 +904,7 @@
     "id": "qb90",
     "section": "data_insights",
     "type": "table_analysis",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "topic": "counts",
     "stem": "Use the table to evaluate each statement.",
     "assets": {
@@ -1090,7 +1090,7 @@
     "id": "qb92",
     "section": "data_insights",
     "type": "table_analysis",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "topic": "clubs",
     "stem": "Use the table to evaluate each statement.",
     "assets": {
@@ -1543,7 +1543,7 @@
     "id": "qb98",
     "section": "data_insights",
     "type": "two_part_analysis",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "topic": "geometry",
     "stem": "For each part, select the value that correctly completes the statement.\n\nPart A: the area of a triangle with base 10 and height 8.\nPart B: the perimeter of a rectangle with sides 9 and 5.",
     "assets": {

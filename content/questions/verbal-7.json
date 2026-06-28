@@ -4,7 +4,7 @@
     "section": "verbal",
     "type": "critical_reasoning",
     "topic": "assumption",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "stem": "A museum added evening hours and soon saw more membership renewals. Which assumption is required by the argument?",
     "choices": [
       {
@@ -204,7 +204,7 @@
     "section": "verbal",
     "type": "critical_reasoning",
     "topic": "boldface",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "stem": "A study found that students in later-start schools slept more and scored higher on quizzes. **Therefore, the district should delay the start time for all high schools.** **The later-start schools also had the same curriculum and teacher experience as the comparison schools.** Which option best describes the roles of the boldfaced statements?",
     "choices": [
       {
@@ -244,7 +244,7 @@
     "section": "verbal",
     "type": "critical_reasoning",
     "topic": "flaw",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "stem": "The average salary at Company A is higher than the average salary at Company B. Therefore, employees at Company A are more productive than employees at Company B. Which flaw best describes the reasoning?",
     "choices": [
       {
@@ -284,7 +284,7 @@
     "section": "verbal",
     "type": "critical_reasoning",
     "topic": "paradox",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "stem": "A bakery raised the price of its signature cake by 20%, yet sales of the cake increased. Which statement, if true, best helps resolve the apparent paradox?",
     "choices": [
       {
@@ -444,7 +444,7 @@
     "section": "verbal",
     "type": "critical_reasoning",
     "topic": "inference",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "stem": "Every consultant on Team Blue has completed certification. No certified consultant works on weekends. Some Team Blue consultants work remotely. Which statement can be inferred?",
     "choices": [
       {
@@ -564,7 +564,7 @@
     "section": "verbal",
     "type": "critical_reasoning",
     "topic": "flaw",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "stem": "Neighborhoods with more parks tend to have lower crime rates. Therefore, building more parks will reduce crime. Which flaw best describes the reasoning?",
     "choices": [
       {
@@ -604,7 +604,7 @@
     "section": "verbal",
     "type": "critical_reasoning",
     "topic": "paradox",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "stem": "A firm's customer satisfaction scores rose after it reduced support staff. Which statement, if true, best helps explain the surprising result?",
     "choices": [
       {
@@ -684,7 +684,7 @@
     "section": "verbal",
     "type": "critical_reasoning",
     "topic": "weaken",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "stem": "A company says a new training program reduced employee errors. Which statement most weakens the claim?",
     "choices": [
       {
@@ -724,7 +724,7 @@
     "section": "verbal",
     "type": "reading_comprehension",
     "topic": "main idea",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "stem": "According to the passage, what is the main point about urban beekeeping?",
     "choices": [
       {
@@ -850,7 +850,7 @@
     "section": "verbal",
     "type": "reading_comprehension",
     "topic": "function",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "stem": "What is the function of the passage's final sentence?",
     "choices": [
       {
@@ -892,7 +892,7 @@
     "section": "verbal",
     "type": "reading_comprehension",
     "topic": "main idea",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "stem": "What is the main idea of the passage about multispectral imaging in restoration?",
     "choices": [
       {
@@ -1018,7 +1018,7 @@
     "section": "verbal",
     "type": "reading_comprehension",
     "topic": "function",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "stem": "What is the function of the sentence, 'The technique does not replace judgment, because some spectral signatures overlap and can be misread'?",
     "choices": [
       {
@@ -1060,7 +1060,7 @@
     "section": "verbal",
     "type": "reading_comprehension",
     "topic": "main idea",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "stem": "What is the main point of the passage about offshore wind farms?",
     "choices": [
       {
@@ -1144,7 +1144,7 @@
     "section": "verbal",
     "type": "reading_comprehension",
     "topic": "inference",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "stem": "Which inference is best supported by the passage?",
     "choices": [
       {
@@ -1186,7 +1186,7 @@
     "section": "verbal",
     "type": "reading_comprehension",
     "topic": "function",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "stem": "What is the function of the final sentence, in which the authors argue that wind farms should be evaluated site by site?",
     "choices": [
       {

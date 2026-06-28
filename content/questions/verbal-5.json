@@ -75,7 +75,7 @@
     "estimatedTimeSeconds": 95
   },
   {
-    "id": "rc-pat-detail", "section": "verbal", "type": "reading_comprehension", "topic": "detail", "difficulty": "easy",
+    "id": "rc-pat-detail", "section": "verbal", "type": "reading_comprehension", "topic": "detail", "difficulty": "medium",
     "groupId": "rc-patents", "orderIndex": 2,
     "stem": "The passage presents pharmaceuticals as an example of an industry in which patents",
     "choices": [
@@ -90,7 +90,7 @@
     "estimatedTimeSeconds": 70
   },
   {
-    "id": "rc-pat-inference", "section": "verbal", "type": "reading_comprehension", "topic": "inference", "difficulty": "medium",
+    "id": "rc-pat-inference", "section": "verbal", "type": "reading_comprehension", "topic": "inference", "difficulty": "easy",
     "groupId": "rc-patents", "orderIndex": 3,
     "stem": "It can be inferred that, in a field where innovation is cumulative, a single patent holder",
     "choices": [
@@ -150,7 +150,7 @@
     "estimatedTimeSeconds": 70
   },
   {
-    "id": "rc-haw-inference", "section": "verbal", "type": "reading_comprehension", "topic": "inference", "difficulty": "medium",
+    "id": "rc-haw-inference", "section": "verbal", "type": "reading_comprehension", "topic": "inference", "difficulty": "easy",
     "groupId": "rc-hawthorne", "orderIndex": 3,
     "stem": "Recent reexaminations of the original data suggest that the productivity gains may have been caused mainly by",
     "choices": [
@@ -180,7 +180,7 @@
     "estimatedTimeSeconds": 105
   },
   {
-    "id": "rc-con-main", "section": "verbal", "type": "reading_comprehension", "topic": "main idea", "difficulty": "medium",
+    "id": "rc-con-main", "section": "verbal", "type": "reading_comprehension", "topic": "main idea", "difficulty": "easy",
     "groupId": "rc-container", "orderIndex": 1,
     "stem": "The primary purpose of the passage is to",
     "choices": [
@@ -210,7 +210,7 @@
     "estimatedTimeSeconds": 70
   },
   {
-    "id": "rc-con-inference", "section": "verbal", "type": "reading_comprehension", "topic": "inference", "difficulty": "medium",
+    "id": "rc-con-inference", "section": "verbal", "type": "reading_comprehension", "topic": "inference", "difficulty": "easy",
     "groupId": "rc-container", "orderIndex": 3,
     "stem": "The passage suggests that incompatible designs delayed the benefits of containerization because",
     "choices": [
@@ -270,7 +270,7 @@
     "estimatedTimeSeconds": 105
   },
   {
-    "id": "cr5-oatmilk-strengthen", "section": "verbal", "type": "critical_reasoning", "topic": "strengthen", "difficulty": "medium",
+    "id": "cr5-oatmilk-strengthen", "section": "verbal", "type": "critical_reasoning", "topic": "strengthen", "difficulty": "easy",
     "stem": "Which of the following, if true, most strengthens the manager's claim?",
     "passageOrStimulus": "A coffee chain began offering oat milk as a free alternative to dairy. In the months afterward, its total beverage sales rose. The chain's manager claims the oat-milk option caused the increase.",
     "choices": [
@@ -300,7 +300,7 @@
     "estimatedTimeSeconds": 105
   },
   {
-    "id": "cr5-bookformat-evaluate", "section": "verbal", "type": "critical_reasoning", "topic": "evaluate", "difficulty": "medium",
+    "id": "cr5-bookformat-evaluate", "section": "verbal", "type": "critical_reasoning", "topic": "evaluate", "difficulty": "easy",
     "stem": "The answer to which of the following questions would be most useful in evaluating whether the shorter format will increase profits?",
     "passageOrStimulus": "A publisher claims that its new, shorter book format will increase profits, because shorter books cost less to print. Critics counter that the shorter format will reduce sales.",
     "choices": [
@@ -315,7 +315,7 @@
     "estimatedTimeSeconds": 120
   },
   {
-    "id": "cr5-museum-paradox", "section": "verbal", "type": "critical_reasoning", "topic": "paradox", "difficulty": "medium",
+    "id": "cr5-museum-paradox", "section": "verbal", "type": "critical_reasoning", "topic": "paradox", "difficulty": "easy",
     "stem": "Which of the following, if true, best resolves the apparent discrepancy?",
     "passageOrStimulus": "After a museum began charging an admission fee, the number of daily visitors fell, yet the museum's total revenue from visitors rose.",
     "choices": [
@@ -330,7 +330,7 @@
     "estimatedTimeSeconds": 120
   },
   {
-    "id": "cr5-herbaltea-flaw", "section": "verbal", "type": "critical_reasoning", "topic": "flaw", "difficulty": "medium",
+    "id": "cr5-herbaltea-flaw", "section": "verbal", "type": "critical_reasoning", "topic": "flaw", "difficulty": "easy",
     "stem": "The reasoning in the argument is most vulnerable to criticism on which of the following grounds?",
     "passageOrStimulus": "A wellness blog surveyed its readers and found that those who drink herbal tea report lower stress than those who do not. The blog concludes that drinking herbal tea reduces stress for people in general.",
     "choices": [
@@ -345,7 +345,7 @@
     "estimatedTimeSeconds": 120
   },
   {
-    "id": "cr5-fourday-boldface", "section": "verbal", "type": "critical_reasoning", "topic": "describe the reasoning", "difficulty": "hard",
+    "id": "cr5-fourday-boldface", "section": "verbal", "type": "critical_reasoning", "topic": "describe the reasoning", "difficulty": "medium",
     "stem": "In the argument, the two portions in boldface play which of the following roles?",
     "passageOrStimulus": "**A consultant recommended that the company adopt a four-day workweek in order to cut costs.** The company did so, but its costs did not fall. Some managers blamed the new schedule. However, **the costs stayed high mainly because the company expanded into a new market during the same quarter.**",
     "choices": [

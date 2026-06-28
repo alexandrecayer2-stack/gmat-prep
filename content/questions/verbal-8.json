@@ -4,7 +4,7 @@
     "section": "verbal",
     "type": "critical_reasoning",
     "topic": "assumption",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "stem": "A neighborhood association claims that installing motion-sensor lights in the alley will reduce vandalism because vandals prefer poorly lit places. Which of the following is an assumption on which the argument depends?",
     "choices": [
       {
@@ -86,7 +86,7 @@
     "section": "verbal",
     "type": "critical_reasoning",
     "topic": "strengthen",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "stem": "A startup expects higher profit this year because it cut shipping costs by outsourcing deliveries. Which fact would most strengthen the argument?",
     "choices": [
       {
@@ -168,7 +168,7 @@
     "section": "verbal",
     "type": "critical_reasoning",
     "topic": "evaluate",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "stem": "An electronics retailer plans to extend its warranty because customers are more willing to buy expensive products when coverage lasts longer. Which question would be most useful to evaluate the plan?",
     "choices": [
       {
@@ -250,7 +250,7 @@
     "section": "verbal",
     "type": "critical_reasoning",
     "topic": "flaw",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "stem": "Because the company's profit increased after it launched a social media campaign, the campaign must have caused the increase. Which flaw is most clearly illustrated?",
     "choices": [
       {
@@ -291,7 +291,7 @@
     "section": "verbal",
     "type": "critical_reasoning",
     "topic": "paradox",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "stem": "During a heat wave, sales of bottled water doubled, yet the store manager decided to reduce shelf space for water because fewer bottles were in stock at closing each day. Which explanation best resolves the apparent paradox?",
     "choices": [
       {
@@ -373,7 +373,7 @@
     "section": "verbal",
     "type": "critical_reasoning",
     "topic": "weaken",
-    "difficulty": "hard",
+    "difficulty": "medium",
     "stem": "A nutritionist claims that people who eat breakfast daily have more stable energy because breakfast prevents midmorning sugar crashes. Which finding most weakens the claim?",
     "choices": [
       {
@@ -496,7 +496,7 @@
     "section": "verbal",
     "type": "critical_reasoning",
     "topic": "assumption",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "stem": "A clothing store claims that placing mirrors near the fitting rooms will increase sales because shoppers will feel more confident about how they look. Which assumption is required?",
     "choices": [
       {
@@ -537,7 +537,7 @@
     "section": "verbal",
     "type": "critical_reasoning",
     "topic": "evaluate",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "stem": "A public library plans to remain open two extra evenings per week because working adults would use the building after office hours. Which question would be most useful to evaluate the plan?",
     "choices": [
       {
@@ -701,7 +701,7 @@
     "section": "verbal",
     "type": "critical_reasoning",
     "topic": "strengthen",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "stem": "A small manufacturer says that switching to a new inventory system will reduce mistakes because it will update stock numbers automatically. Which fact most strengthens the claim?",
     "choices": [
       {
@@ -868,7 +868,7 @@
     "section": "verbal",
     "type": "reading_comprehension",
     "topic": "function_tone",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "groupId": "rc-b1",
     "stem": "The final sentence of the passage primarily serves to do which of the following?",
     "choices": [
@@ -910,7 +910,7 @@
     "section": "verbal",
     "type": "reading_comprehension",
     "topic": "main idea",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "groupId": "rc-b2",
     "stem": "Which option best states the main idea of the passage?",
     "choices": [
@@ -1078,7 +1078,7 @@
     "section": "verbal",
     "type": "reading_comprehension",
     "topic": "main idea",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "groupId": "rc-b3",
     "stem": "Which option best states the main idea of the passage?",
     "choices": [
@@ -1204,7 +1204,7 @@
     "section": "verbal",
     "type": "reading_comprehension",
     "topic": "function_tone",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "groupId": "rc-b3",
     "stem": "The author’s caution in the final sentence primarily serves to",
     "choices": [

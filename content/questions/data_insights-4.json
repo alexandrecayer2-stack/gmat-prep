@@ -212,7 +212,7 @@
     "section": "data_insights",
     "type": "table_analysis",
     "topic": "table analysis",
-    "difficulty": "medium",
+    "difficulty": "hard",
     "stem": "The table shows five films with their production budget, box-office gross, and audience rating (all monetary figures in millions of dollars). You may sort the table. For each statement, select True or False.",
     "assets": {
       "table": {
@@ -249,7 +249,7 @@
     "section": "data_insights",
     "type": "two_part_analysis",
     "topic": "two-part analysis",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "stem": "A taxi charges a base fare of \\$3 plus \\$2 per mile. In the table, select the fare for a 5-mile trip and the number of miles for a \\$17 trip. Make exactly one selection in each column.",
     "assets": {
       "twoPart": {
@@ -277,7 +277,7 @@
     "section": "data_insights",
     "type": "two_part_analysis",
     "topic": "two-part analysis",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "stem": "The cost $C$, in dollars, to produce $n$ units is $C = 4n + 50$. In the table, select the cost to produce 25 units and the number of units that can be produced for \\$290. Make exactly one selection in each column.",
     "assets": {
       "twoPart": {

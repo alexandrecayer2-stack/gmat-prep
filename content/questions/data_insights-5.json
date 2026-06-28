@@ -243,7 +243,7 @@
     "estimatedTimeSeconds": 180
   },
   {
-    "id": "tp5-phone-plan", "section": "data_insights", "type": "two_part_analysis", "topic": "two-part analysis", "difficulty": "easy",
+    "id": "tp5-phone-plan", "section": "data_insights", "type": "two_part_analysis", "topic": "two-part analysis", "difficulty": "medium",
     "stem": "A phone plan charges \\$20 per month plus \\$0.10 per minute. In the table, select the cost of a month with 100 minutes and the number of minutes in a month that costs \\$35. Make exactly one selection in each column.",
     "assets": {
       "twoPart": {
@@ -266,7 +266,7 @@
     "estimatedTimeSeconds": 120
   },
   {
-    "id": "tp5-line-eval", "section": "data_insights", "type": "two_part_analysis", "topic": "two-part analysis", "difficulty": "easy",
+    "id": "tp5-line-eval", "section": "data_insights", "type": "two_part_analysis", "topic": "two-part analysis", "difficulty": "medium",
     "stem": "A line is given by $y = 2x + 3$. In the table, select the value of $y$ when $x = 5$ and the value of $x$ when $y = 15$. Make exactly one selection in each column.",
     "assets": {
       "twoPart": {
@@ -335,7 +335,7 @@
     "estimatedTimeSeconds": 150
   },
   {
-    "id": "msr-fest-pass-cost", "section": "data_insights", "type": "multi_source_reasoning", "topic": "multi-source reasoning", "difficulty": "easy",
+    "id": "msr-fest-pass-cost", "section": "data_insights", "type": "multi_source_reasoning", "topic": "multi-source reasoning", "difficulty": "medium",
     "groupId": "msr-festival", "orderIndex": 1,
     "stem": "Based on the sources, how much does a student pay for a Full Pass?",
     "choices": [
@@ -350,7 +350,7 @@
     "estimatedTimeSeconds": 105
   },
   {
-    "id": "msr-fest-max-screenings", "section": "data_insights", "type": "multi_source_reasoning", "topic": "multi-source reasoning", "difficulty": "easy",
+    "id": "msr-fest-max-screenings", "section": "data_insights", "type": "multi_source_reasoning", "topic": "multi-source reasoning", "difficulty": "medium",
     "groupId": "msr-festival", "orderIndex": 2,
     "stem": "What is the maximum number of screenings a single Day Pass holder could attend?",
     "choices": [
@@ -394,7 +394,7 @@
     "estimatedTimeSeconds": 105
   },
   {
-    "id": "msr-gym-plus-three", "section": "data_insights", "type": "multi_source_reasoning", "topic": "multi-source reasoning", "difficulty": "easy",
+    "id": "msr-gym-plus-three", "section": "data_insights", "type": "multi_source_reasoning", "topic": "multi-source reasoning", "difficulty": "medium",
     "groupId": "msr-gym", "orderIndex": 2,
     "stem": "What is a new Plus member's total cost for the first three months, including the joining fee?",
     "choices": [
@@ -409,7 +409,7 @@
     "estimatedTimeSeconds": 105
   },
   {
-    "id": "msr-gym-yesno", "section": "data_insights", "type": "multi_source_reasoning", "topic": "multi-source reasoning", "difficulty": "hard",
+    "id": "msr-gym-yesno", "section": "data_insights", "type": "multi_source_reasoning", "topic": "multi-source reasoning", "difficulty": "medium",
     "groupId": "msr-gym", "orderIndex": 3,
     "stem": "Based on the sources, select Yes for each statement that must be true and No otherwise.",
     "assets": { "dichotomous": { "labels": ["Yes", "No"] } },

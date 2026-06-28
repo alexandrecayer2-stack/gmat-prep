@@ -150,7 +150,7 @@
     "section": "data_insights",
     "type": "multi_source_reasoning",
     "topic": "multi-source reasoning",
-    "difficulty": "easy",
+    "difficulty": "medium",
     "groupId": "msr-courier",
     "orderIndex": 1,
     "stem": "Based on the two sources, what is the cost of sending a $4$ kg package by standard delivery?",
