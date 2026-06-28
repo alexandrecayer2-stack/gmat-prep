@@ -246,7 +246,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "The restaurants are located within walking distance of the garden."
+        "text": "The restaurants generate more than enough kitchen scraps to supply the garden's beds."
       },
       {
         "key": "B",
@@ -254,15 +254,15 @@
       },
       {
         "key": "C",
-        "text": "Composting reduces the amount of waste the restaurants send to landfills."
+        "text": "Composting the restaurants' scraps will lower the garden's spending on commercial fertilizer."
       },
       {
         "key": "D",
-        "text": "The garden has enough volunteers to manage the composting."
+        "text": "The restaurants have agreed to set aside their kitchen scraps for the garden at no charge."
       },
       {
         "key": "E",
-        "text": "Many community gardens compost their own plant trimmings."
+        "text": "The garden's vegetable beds receive ample sunlight throughout the growing season."
       }
     ],
     "correctAnswer": {
@@ -1147,19 +1147,19 @@
       },
       {
         "key": "B",
-        "text": "Paving the trails took two summers to complete."
+        "text": "The paving was designed to channel rainwater away from the surrounding vegetation."
       },
       {
         "key": "C",
-        "text": "The park contains many trails that were not paved."
+        "text": "On the trails that were left unpaved, vegetation damage stayed about the same."
       },
       {
         "key": "D",
-        "text": "Some hikers prefer unpaved natural trails."
+        "text": "The pavement covered the very ground where vegetation had previously been trampled."
       },
       {
         "key": "E",
-        "text": "The park charges an entrance fee."
+        "text": "After the paving, the park hired additional rangers to patrol the popular trails."
       }
     ],
     "correctAnswer": {

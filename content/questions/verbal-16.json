@@ -870,11 +870,11 @@
     "choices": [
       {
         "key": "A",
-        "text": "Do patrons enjoy reading magazines at the library?"
+        "text": "Would patrons read more magazines if they could access them on their own devices?"
       },
       {
         "key": "B",
-        "text": "How many magazines does the library currently offer?"
+        "text": "How many of the library's patrons own devices capable of reading the digital subscriptions?"
       },
       {
         "key": "C",
@@ -882,11 +882,11 @@
       },
       {
         "key": "D",
-        "text": "Are the library's printed magazines stored on open shelves?"
+        "text": "Will dropping printed magazines free up shelf space for other library materials?"
       },
       {
         "key": "E",
-        "text": "Do other libraries offer digital magazine subscriptions?"
+        "text": "Are the digital subscriptions offered by the same publishers as the printed magazines?"
       }
     ],
     "correctAnswer": {

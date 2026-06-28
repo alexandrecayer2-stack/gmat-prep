@@ -12,7 +12,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "The bakery sold at least as many pastries as loaves."
+        "text": "Customers were generally willing to pay the higher price for the loaf."
       },
       {
         "key": "B",
@@ -20,15 +20,15 @@
       },
       {
         "key": "C",
-        "text": "The loaf's ingredients are locally sourced."
+        "text": "The loaf remained the bakery's most popular product after the price increase."
       },
       {
         "key": "D",
-        "text": "The bakery's profit margin decreased."
+        "text": "A 10 percent price increase is large enough to signal higher quality to customers."
       },
       {
         "key": "E",
-        "text": "The loaf was larger in the second week."
+        "text": "The bakery's revenue from the loaf rose in the second week."
       }
     ],
     "correctAnswer": {
@@ -129,7 +129,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "Whether students liked the tutors."
+        "text": "Whether the students who attended tutoring had lower math scores than their peers before the program began."
       },
       {
         "key": "B",
@@ -137,15 +137,15 @@
       },
       {
         "key": "C",
-        "text": "Whether the tutoring rooms were comfortable."
+        "text": "Whether scores in subjects other than mathematics also rose after the program began."
       },
       {
         "key": "D",
-        "text": "Whether the program had a logo."
+        "text": "Whether the tutoring program was more expensive than the school had expected."
       },
       {
         "key": "E",
-        "text": "Whether teachers received parking passes."
+        "text": "Whether most students who could have attended the tutoring actually did so."
       }
     ],
     "correctAnswer": {
@@ -168,23 +168,23 @@
     "choices": [
       {
         "key": "A",
-        "text": "confuses correlation with causation."
+        "text": "takes for granted that managing a campaign budget resembles managing public funds."
       },
       {
         "key": "B",
-        "text": "uses too large a sample."
+        "text": "relies on a sample of diners that is too small to be representative."
       },
       {
         "key": "C",
-        "text": "assumes desserts taste better than entrees."
+        "text": "fails to consider whether the restaurant could raise its dessert prices."
       },
       {
         "key": "D",
-        "text": "ignores all numerical data."
+        "text": "overlooks that diners who skip dessert may dislike the menu."
       },
       {
         "key": "E",
-        "text": "compares two identical groups."
+        "text": "treats the higher spending of dessert buyers as the cause of their ordering dessert."
       }
     ],
     "correctAnswer": {
@@ -246,7 +246,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "The ferry line added a new marketing campaign."
+        "text": "Each additional sailing this summer carried, on average, more passengers than a typical sailing did last summer."
       },
       {
         "key": "B",
@@ -254,15 +254,15 @@
       },
       {
         "key": "C",
-        "text": "The ferries were painted a different color."
+        "text": "The added sailings allowed the ferry line to retire two of its oldest and slowest vessels."
       },
       {
         "key": "D",
-        "text": "The company offered free water onboard."
+        "text": "The ferry line scheduled the additional sailings during the hours that had previously been the least crowded."
       },
       {
         "key": "E",
-        "text": "Some passengers preferred walking."
+        "text": "Passenger wait times on competing ferry lines rose by even more over the same period."
       }
     ],
     "correctAnswer": {
@@ -324,7 +324,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "Permit approvals should never be delayed."
+        "text": "Faster permit approvals cause renovation projects to finish sooner."
       },
       {
         "key": "B",
@@ -332,15 +332,15 @@
       },
       {
         "key": "C",
-        "text": "Vacant units are always undesirable."
+        "text": "Reducing the number of vacant units helps stabilize neighborhood rents."
       },
       {
         "key": "D",
-        "text": "Renovation projects should be eliminated."
+        "text": "Landlords who finish renovations sooner can begin collecting rent earlier."
       },
       {
         "key": "E",
-        "text": "Landlords prefer higher rents."
+        "text": "The housing agency has the authority to speed up permit approvals."
       }
     ],
     "correctAnswer": {
@@ -402,7 +402,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "The users who stretch are more athletic than other users."
+        "text": "Users who do the routine sleep longer than users who do not."
       },
       {
         "key": "B",
@@ -410,15 +410,15 @@
       },
       {
         "key": "C",
-        "text": "All users own smartphones."
+        "text": "Sleeping longer makes users more likely to keep doing the routine."
       },
       {
         "key": "D",
-        "text": "Users prefer stretching to running."
+        "text": "The routine improves users' sleep quality as well as its duration."
       },
       {
         "key": "E",
-        "text": "The app charges a subscription fee."
+        "text": "Most of the app's users complete the evening stretching routine."
       }
     ],
     "correctAnswer": {
@@ -441,11 +441,11 @@
     "choices": [
       {
         "key": "A",
-        "text": "Thursday tickets are slightly cheaper."
+        "text": "Saturday audiences tend to be larger than Thursday audiences at most local venues."
       },
       {
         "key": "B",
-        "text": "Many of the theater's regular patrons are unavailable on Thursdays."
+        "text": "Thursday performances would let the theater rest its staff over the weekend."
       },
       {
         "key": "C",
@@ -453,11 +453,11 @@
       },
       {
         "key": "D",
-        "text": "The theater has a larger lobby on Saturdays."
+        "text": "Most of the theater's competitors also stage their biggest events on Saturday nights."
       },
       {
         "key": "E",
-        "text": "The cast prefers Saturday rehearsals."
+        "text": "Moving to Thursday would reduce the wages the theater pays for weekend overtime."
       }
     ],
     "correctAnswer": {
@@ -480,7 +480,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "The texts were sent only to new patients."
+        "text": "Patients who received the texts reported that the reminders were helpful."
       },
       {
         "key": "B",
@@ -488,15 +488,15 @@
       },
       {
         "key": "C",
-        "text": "Some patients replied to the texts."
+        "text": "No-show rates at a nearby hospital that sent no reminders stayed the same."
       },
       {
         "key": "D",
-        "text": "The reminders were sent at 8 a.m."
+        "text": "The texts were sent the evening before each scheduled appointment."
       },
       {
         "key": "E",
-        "text": "The hospital uses the same software for billing."
+        "text": "The reduction in no-shows was even larger than the hospital had predicted."
       }
     ],
     "correctAnswer": {
@@ -519,7 +519,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "Whether drivers like electric vans more than gas vans."
+        "text": "Whether the electric vans can complete the same daily delivery routes as the gas vans without recharging."
       },
       {
         "key": "B",
@@ -527,15 +527,15 @@
       },
       {
         "key": "C",
-        "text": "Whether the vans are painted white."
+        "text": "Whether electric vans produce fewer emissions than the gas vans they replace."
       },
       {
         "key": "D",
-        "text": "Whether the company uses paper invoices."
+        "text": "Whether the company's competitors have also begun switching to electric vans."
       },
       {
         "key": "E",
-        "text": "Whether the vans have cup holders."
+        "text": "Whether the purchase price of an electric van is higher than that of a gas van."
       }
     ],
     "correctAnswer": {
@@ -562,19 +562,19 @@
       },
       {
         "key": "B",
-        "text": "uses a survey instead of a census."
+        "text": "fails to specify how many trees each neighborhood would need."
       },
       {
         "key": "C",
-        "text": "ignores the cost of tree maintenance."
+        "text": "overlooks the possibility that some neighborhoods cannot support street trees."
       },
       {
         "key": "D",
-        "text": "assumes pollution can never be measured."
+        "text": "concludes that planting trees is the only way to lower pollution."
       },
       {
         "key": "E",
-        "text": "relies on expert testimony."
+        "text": "draws a conclusion about every neighborhood from data on only the most polluted ones."
       }
     ],
     "correctAnswer": {
@@ -714,11 +714,11 @@
     "choices": [
       {
         "key": "A",
-        "text": "More bus routes always improve attendance."
+        "text": "Adding more bus routes does little on its own to improve attendance."
       },
       {
         "key": "B",
-        "text": "Attendance never improves without buses."
+        "text": "Notifying families the night before is the single most important factor in attendance."
       },
       {
         "key": "C",
@@ -726,11 +726,11 @@
       },
       {
         "key": "D",
-        "text": "Families dislike school buses."
+        "text": "The district should run its buses on time and notify families in advance."
       },
       {
         "key": "E",
-        "text": "The district should eliminate all late buses."
+        "text": "Attendance improved only slightly after the later bus routes were added."
       }
     ],
     "correctAnswer": {
@@ -753,11 +753,11 @@
     "choices": [
       {
         "key": "A",
-        "text": "Offer expensive weekend retreats to all volunteers."
+        "text": "Offer all volunteers a one-time signing bonus when they first enroll."
       },
       {
         "key": "B",
-        "text": "Reduce training to a single long lecture."
+        "text": "Expand the initial training program with several additional in-person sessions."
       },
       {
         "key": "C",
@@ -765,11 +765,11 @@
       },
       {
         "key": "D",
-        "text": "Replace all in-person coordination with printed mailings."
+        "text": "Recruit a larger pool of first-year volunteers each season."
       },
       {
         "key": "E",
-        "text": "Increase annual dues for volunteers."
+        "text": "Survey departing volunteers to learn why they did not return."
       }
     ],
     "correctAnswer": {
@@ -792,7 +792,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "The knowledge base will be written in complete sentences."
+        "text": "The online knowledge base will cost less to build than the firm spends on in-person support."
       },
       {
         "key": "B",
@@ -800,15 +800,15 @@
       },
       {
         "key": "C",
-        "text": "The firm has more than one product line."
+        "text": "Most customers currently contact in-person support before solving problems themselves."
       },
       {
         "key": "D",
-        "text": "The firm already has low service costs."
+        "text": "The knowledge base will improve customer satisfaction along with lowering costs."
       },
       {
         "key": "E",
-        "text": "Support agents prefer working remotely."
+        "text": "Competing firms have already replaced their support staff with knowledge bases."
       }
     ],
     "correctAnswer": {
@@ -909,7 +909,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "How many employees prefer paper tickets."
+        "text": "Whether the app reduces the rail line's printing and ticketing costs."
       },
       {
         "key": "B",
@@ -917,15 +917,15 @@
       },
       {
         "key": "C",
-        "text": "Whether the trains are painted blue."
+        "text": "Whether riders find the app's interface attractive and easy to navigate."
       },
       {
         "key": "D",
-        "text": "Whether the app has a logo."
+        "text": "Whether queue times at the station have risen over the past year."
       },
       {
         "key": "E",
-        "text": "Whether the station has a café."
+        "text": "Whether neighboring rail lines have adopted similar mobile apps."
       }
     ],
     "correctAnswer": {
@@ -952,19 +952,19 @@
       },
       {
         "key": "B",
-        "text": "uses numbers instead of words."
+        "text": "overlooks the possibility that higher satisfaction led stores to adopt self-checkout."
       },
       {
         "key": "C",
-        "text": "ignores the weather."
+        "text": "fails to consider whether customers actually prefer self-checkout to staffed lanes."
       },
       {
         "key": "D",
-        "text": "relies on a single store."
+        "text": "assumes that satisfaction scores accurately measure how customers truly feel."
       },
       {
         "key": "E",
-        "text": "assumes satisfaction cannot be measured."
+        "text": "ignores whether self-checkout also reduced the stores' labor costs."
       }
     ],
     "correctAnswer": {
@@ -987,7 +987,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "Every applicant passed the first screening interview."
+        "text": "Every applicant who passed the first screening was invited to a final interview."
       },
       {
         "key": "B",
@@ -995,15 +995,15 @@
       },
       {
         "key": "C",
-        "text": "All applicants accepted the final interview."
+        "text": "Some applicants who declined the final interview had failed the first screening."
       },
       {
         "key": "D",
-        "text": "No applicant declined the invitation."
+        "text": "Every applicant who was invited to a final interview attended it."
       },
       {
         "key": "E",
-        "text": "The final interview was more difficult than the first screening."
+        "text": "Most applicants who passed the first screening declined the final interview."
       }
     ],
     "correctAnswer": {
@@ -1030,19 +1030,19 @@
       },
       {
         "key": "B",
-        "text": "The city had a mild winter."
+        "text": "Total ridership across the system rose after the new stations opened."
       },
       {
         "key": "C",
-        "text": "More people owned bikes than before."
+        "text": "The most heavily used stations were each given additional bikes."
       },
       {
         "key": "D",
-        "text": "The bikes were changed to a different color."
+        "text": "The new stations attracted many riders away from the older stations."
       },
       {
         "key": "E",
-        "text": "Some stations were near parks."
+        "text": "Maintenance costs per station declined after the expansion."
       }
     ],
     "correctAnswer": {
@@ -1104,7 +1104,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "Online permit systems should replace all county offices."
+        "text": "Residents who used the online permit system submitted forms more accurately than those who did not."
       },
       {
         "key": "B",
@@ -1112,15 +1112,15 @@
       },
       {
         "key": "C",
-        "text": "Live chat support is always required."
+        "text": "Adding live chat support improved the accuracy of forms submitted through the online system."
       },
       {
         "key": "D",
-        "text": "Residents dislike online forms."
+        "text": "The county should add live chat support to all of its other online services."
       },
       {
         "key": "E",
-        "text": "The county should abandon technology."
+        "text": "Live chat support is more effective at improving accuracy than in-person help at a county office."
       }
     ],
     "correctAnswer": {
@@ -1143,7 +1143,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "Replace all reading tables with gaming stations."
+        "text": "Convert the main reading room into a teen lounge during after-school hours."
       },
       {
         "key": "B",
@@ -1151,15 +1151,15 @@
       },
       {
         "key": "C",
-        "text": "Ban all teens from the library."
+        "text": "Add a popular new young-adult book collection to the existing quiet reading area."
       },
       {
         "key": "D",
-        "text": "Reduce the number of books in the collection."
+        "text": "Extend the library's weekday hours so teens can visit later in the evening."
       },
       {
         "key": "E",
-        "text": "Close the library on weekdays."
+        "text": "Survey teens about which library services they would most like to see."
       }
     ],
     "correctAnswer": {
@@ -1182,7 +1182,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "The shop already has a large patio."
+        "text": "Morning is the shop's busiest sales period."
       },
       {
         "key": "B",
@@ -1190,15 +1190,15 @@
       },
       {
         "key": "C",
-        "text": "The shop sells pastries."
+        "text": "Customers who order ahead will spend at least as much per visit as before."
       },
       {
         "key": "D",
-        "text": "Coffee beans are dark roasted."
+        "text": "Mobile ordering will shorten the wait time at the shop's counter."
       },
       {
         "key": "E",
-        "text": "The shop's logo is unchanged."
+        "text": "Competing coffee shops have not yet introduced mobile ordering."
       }
     ],
     "correctAnswer": {
@@ -1221,7 +1221,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "Few riders use the trains on rainy days."
+        "text": "The line's current riders rarely bring bicycles aboard the trains."
       },
       {
         "key": "B",
@@ -1229,15 +1229,15 @@
       },
       {
         "key": "C",
-        "text": "The trains are painted in the company's colors."
+        "text": "Allowing bikes aboard will require the line to add storage racks to each car."
       },
       {
         "key": "D",
-        "text": "The line uses ticket scanners."
+        "text": "A competing bus service already allows passengers to bring bicycles aboard."
       },
       {
         "key": "E",
-        "text": "The stations are near office buildings."
+        "text": "Most of the line's current riders live within walking distance of a station."
       }
     ],
     "correctAnswer": {
@@ -1264,19 +1264,19 @@
       },
       {
         "key": "B",
-        "text": "The tomatoes were sold at a roadside stand."
+        "text": "The new fertilizer cost considerably more per acre than the farm's previous fertilizer."
       },
       {
         "key": "C",
-        "text": "The fertilizer was stored in a blue shed."
+        "text": "Several nearby farms that adopted the same fertilizer also reported larger harvests."
       },
       {
         "key": "D",
-        "text": "The farm has been open for many years."
+        "text": "The fertilizer's label lists nutrients known to support tomato growth."
       },
       {
         "key": "E",
-        "text": "The tomatoes were picked by hand."
+        "text": "The harvest was measured in total weight rather than in number of tomatoes."
       }
     ],
     "correctAnswer": {
@@ -1299,7 +1299,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "Whether the parks have benches."
+        "text": "Whether the fountains cost less to install than the city expects to save."
       },
       {
         "key": "B",
@@ -1307,15 +1307,15 @@
       },
       {
         "key": "C",
-        "text": "Whether the city has a mascot."
+        "text": "Whether bottled water sells well in stores outside the parks."
       },
       {
         "key": "D",
-        "text": "Whether the fountains are painted green."
+        "text": "Whether plastic bottles sold in the parks are currently recycled."
       },
       {
         "key": "E",
-        "text": "Whether the parks host concerts."
+        "text": "Whether the fountains will require frequent cleaning in summer."
       }
     ],
     "correctAnswer": {
@@ -1342,19 +1342,19 @@
       },
       {
         "key": "B",
-        "text": "uses too many statistics."
+        "text": "fails to consider whether moving employees near windows would lower their productivity."
       },
       {
         "key": "C",
-        "text": "ignores the weather."
+        "text": "overlooks the possibility that there are not enough window seats for every employee."
       },
       {
         "key": "D",
-        "text": "assumes sick days are never planned."
+        "text": "treats the experience of one office as representative of all offices."
       },
       {
         "key": "E",
-        "text": "compares only two departments."
+        "text": "relies on employees to report their own sick days accurately."
       }
     ],
     "correctAnswer": {
@@ -1377,7 +1377,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "All passengers received refunds."
+        "text": "Every passenger on the affected route accepted the refund that was offered."
       },
       {
         "key": "B",
@@ -1385,15 +1385,15 @@
       },
       {
         "key": "C",
-        "text": "Weather never affects trains."
+        "text": "Passengers on other routes were not affected by any delay."
       },
       {
         "key": "D",
-        "text": "Other routes were also delayed."
+        "text": "The weather delay was the only delay the company experienced that day."
       },
       {
         "key": "E",
-        "text": "Refunds were given before the delay."
+        "text": "The company offers refunds whenever any of its trains is delayed."
       }
     ],
     "correctAnswer": {
@@ -1420,19 +1420,19 @@
       },
       {
         "key": "B",
-        "text": "The airline changed its website font."
+        "text": "Several of this month's flights were canceled and their passengers rebooked."
       },
       {
         "key": "C",
-        "text": "The airline served more snack options."
+        "text": "The airline raised its ticket prices at the start of the month."
       },
       {
         "key": "D",
-        "text": "The airline added more seats."
+        "text": "Last month the airline flew more passengers than it had a year earlier."
       },
       {
         "key": "E",
-        "text": "Passengers liked the pilots."
+        "text": "Many passengers this month booked round-trip rather than one-way tickets."
       }
     ],
     "correctAnswer": {
@@ -1494,7 +1494,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "Trash bins never reduce litter."
+        "text": "Adding trash bins reduces litter near the bins themselves."
       },
       {
         "key": "B",
@@ -1502,15 +1502,15 @@
       },
       {
         "key": "C",
-        "text": "The park should remove all bins."
+        "text": "The city should place trash bins at the edges of the park rather than the center."
       },
       {
         "key": "D",
-        "text": "Litter is caused by trash bins."
+        "text": "Cleanup efforts matter more to a park's appearance than the number of bins does."
       },
       {
         "key": "E",
-        "text": "Edges of parks are always dirty."
+        "text": "Most of the park's litter is now concentrated at its edges."
       }
     ],
     "correctAnswer": {
@@ -1533,7 +1533,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "Increase the number of routes immediately."
+        "text": "Purchase a large fleet of new buses to expand service across the network."
       },
       {
         "key": "B",
@@ -1541,15 +1541,15 @@
       },
       {
         "key": "C",
-        "text": "Remove all express routes."
+        "text": "Survey passengers to find out which routes they find most frustrating."
       },
       {
         "key": "D",
-        "text": "Close the transit system on rainy days."
+        "text": "Lower fares on the routes where buses most often run late."
       },
       {
         "key": "E",
-        "text": "Add more advertising posters."
+        "text": "Hire additional drivers so that existing buses can run longer hours."
       }
     ],
     "correctAnswer": {
@@ -1572,7 +1572,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "The store will stop selling fruit."
+        "text": "Moving the bakery will not reduce sales in the departments it displaces."
       },
       {
         "key": "B",
@@ -1580,15 +1580,15 @@
       },
       {
         "key": "C",
-        "text": "The bakery uses imported flour."
+        "text": "Bakery items are among the most profitable products the store sells."
       },
       {
         "key": "D",
-        "text": "The store has at least one checkout lane."
+        "text": "Shoppers who notice the bakery will make their other purchases more quickly."
       },
       {
         "key": "E",
-        "text": "The bakery closes at the same time every day."
+        "text": "Competing grocery stores place their bakeries near the entrance."
       }
     ],
     "correctAnswer": {
@@ -1611,7 +1611,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "The videos were translated into two languages."
+        "text": "The new training videos cost less to produce than the in-person sessions they replaced."
       },
       {
         "key": "B",
@@ -1619,15 +1619,15 @@
       },
       {
         "key": "C",
-        "text": "The factory has a large parking lot."
+        "text": "Most workers said they found the new training videos clearer than the old manual."
       },
       {
         "key": "D",
-        "text": "The videos were shorter than the old manual."
+        "text": "Defect rates at a competing factory also fell during the same period."
       },
       {
         "key": "E",
-        "text": "The factory sells products overseas."
+        "text": "The factory plans to use similar videos to train workers on packaging tasks as well."
       }
     ],
     "correctAnswer": {
@@ -1650,7 +1650,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "The festival included live music."
+        "text": "Most downtown retailers reported their highest revenue of the year during the festival week."
       },
       {
         "key": "B",
@@ -1658,15 +1658,15 @@
       },
       {
         "key": "C",
-        "text": "Some visitors came from neighboring towns."
+        "text": "Downtown sales returned to their usual level in the week after the festival ended."
       },
       {
         "key": "D",
-        "text": "The downtown area is walkable."
+        "text": "Several retailers had to hire extra staff to handle the festival-week crowds."
       },
       {
         "key": "E",
-        "text": "The festival had a printed map."
+        "text": "Attendance at the festival exceeded the organizers' expectations."
       }
     ],
     "correctAnswer": {
@@ -1806,7 +1806,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "The sale signs were printed in large font."
+        "text": "Many customers came in for the sale but bought nothing at all."
       },
       {
         "key": "B",
@@ -1814,15 +1814,15 @@
       },
       {
         "key": "C",
-        "text": "Customers shopped earlier in the day."
+        "text": "The discounted items had the lowest profit margins in the store."
       },
       {
         "key": "D",
-        "text": "The store changed its music."
+        "text": "Total revenue from full-price items rose even as fewer such items sold."
       },
       {
         "key": "E",
-        "text": "The store added more mirrors."
+        "text": "The extra sale signs were costly to print and display."
       }
     ],
     "correctAnswer": {
@@ -1884,11 +1884,11 @@
     "choices": [
       {
         "key": "A",
-        "text": "Peer-writing centers should replace instructor conferences."
+        "text": "Students who used the peer-writing center more than twice received stronger final papers."
       },
       {
         "key": "B",
-        "text": "Students who attend conferences always write better papers."
+        "text": "Attending an instructor conference improves a paper more than visiting the peer-writing center does."
       },
       {
         "key": "C",
@@ -1896,11 +1896,11 @@
       },
       {
         "key": "D",
-        "text": "All students should visit the writing center exactly twice."
+        "text": "The university should require students to attend at least one instructor conference."
       },
       {
         "key": "E",
-        "text": "Instructor conferences are unnecessary."
+        "text": "Visiting the peer-writing center twice produces weaker papers than visiting it more often."
       }
     ],
     "correctAnswer": {
@@ -1923,7 +1923,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "Raise admission prices and offer fewer programs."
+        "text": "Lower admission prices on weekday afternoons, when families are least likely to visit."
       },
       {
         "key": "B",
@@ -1931,15 +1931,15 @@
       },
       {
         "key": "C",
-        "text": "Reduce the museum's hours by half."
+        "text": "Add a premium guided tour aimed at serious art collectors for an extra fee."
       },
       {
         "key": "D",
-        "text": "Stop advertising to families."
+        "text": "Increase spending on advertisements in publications read mainly by retirees."
       },
       {
         "key": "E",
-        "text": "Convert the museum into office space."
+        "text": "Survey current visitors to learn which exhibits adults find most engaging."
       }
     ],
     "correctAnswer": {

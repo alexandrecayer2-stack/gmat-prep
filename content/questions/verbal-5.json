@@ -274,11 +274,11 @@
     "stem": "Which of the following, if true, most strengthens the manager's claim?",
     "passageOrStimulus": "A coffee chain began offering oat milk as a free alternative to dairy. In the months afterward, its total beverage sales rose. The chain's manager claims the oat-milk option caused the increase.",
     "choices": [
-      { "key": "A", "text": "Oat milk costs the chain more per liter than dairy milk does." },
-      { "key": "B", "text": "Several competing chains also offer oat milk." },
-      { "key": "C", "text": "Oat milk has a longer shelf life than dairy milk." },
+      { "key": "A", "text": "During the same months, the chain expanded the seating area in several of its busiest locations." },
+      { "key": "B", "text": "Customers who ordered oat-milk drinks rated them more highly than the dairy versions they had previously bought." },
+      { "key": "C", "text": "The chain promoted the free oat-milk option prominently on its menu boards." },
       { "key": "D", "text": "A customer survey found that many new customers came specifically to try the oat-milk drinks." },
-      { "key": "E", "text": "Some longtime customers say they dislike the taste of oat milk." }
+      { "key": "E", "text": "Total beverage sales at competing chains that do not offer oat milk also rose over the same period." }
     ],
     "correctAnswer": { "format": "single", "value": "D" },
     "explanation": "(D) supports the causal claim by tying the sales increase directly to the new option—new customers came for oat-milk drinks. (A), (B), (C) are irrelevant to the cause of the rise; (E) cuts against it.",
@@ -290,10 +290,10 @@
     "passageOrStimulus": "All of the firm's senior engineers have a graduate degree. No one in the firm's marketing department has a graduate degree.",
     "choices": [
       { "key": "A", "text": "No senior engineer works in the marketing department." },
-      { "key": "B", "text": "Everyone with a graduate degree is a senior engineer." },
-      { "key": "C", "text": "Every senior engineer works in the marketing department." },
-      { "key": "D", "text": "Some marketing staff are senior engineers." },
-      { "key": "E", "text": "The firm employs more engineers than marketers." }
+      { "key": "B", "text": "Anyone in the firm who lacks a graduate degree is in the marketing department." },
+      { "key": "C", "text": "Every employee with a graduate degree is one of the firm's senior engineers." },
+      { "key": "D", "text": "At least one senior engineer holds a position in the marketing department." },
+      { "key": "E", "text": "No senior engineer lacks a graduate degree, so none can be promoted from marketing." }
     ],
     "correctAnswer": { "format": "single", "value": "A" },
     "explanation": "Senior engineers all hold graduate degrees; no one in marketing does. So a senior engineer cannot be in marketing—(A). (B) is the converse; (C) and (D) contradict the premises; (E) is unsupported.",
@@ -304,10 +304,10 @@
     "stem": "The answer to which of the following questions would be most useful in evaluating whether the shorter format will increase profits?",
     "passageOrStimulus": "A publisher claims that its new, shorter book format will increase profits, because shorter books cost less to print. Critics counter that the shorter format will reduce sales.",
     "choices": [
-      { "key": "A", "text": "Do readers generally prefer hardcover or paperback books?" },
-      { "key": "B", "text": "How many titles does the publisher release each year?" },
-      { "key": "C", "text": "Are the publisher's main competitors also shortening their books?" },
-      { "key": "D", "text": "How long has the publisher been in business?" },
+      { "key": "A", "text": "Do printing costs make up a large share of the publisher's total expenses?" },
+      { "key": "B", "text": "Will the shorter books be priced lower than the current longer editions?" },
+      { "key": "C", "text": "Have readers complained that the publisher's current books are too long?" },
+      { "key": "D", "text": "Does the shorter format reduce the cost of shipping and warehousing the books?" },
       { "key": "E", "text": "Will the savings in printing costs outweigh any revenue lost to reduced sales?" }
     ],
     "correctAnswer": { "format": "single", "value": "E" },
@@ -319,11 +319,11 @@
     "stem": "Which of the following, if true, best resolves the apparent discrepancy?",
     "passageOrStimulus": "After a museum began charging an admission fee, the number of daily visitors fell, yet the museum's total revenue from visitors rose.",
     "choices": [
-      { "key": "A", "text": "The museum reduced its opening hours shortly after introducing the fee." },
-      { "key": "B", "text": "Many visitors complained about having to pay the new fee." },
+      { "key": "A", "text": "The new admission fee was set lower than the fees charged by comparable museums in the region." },
+      { "key": "B", "text": "Many of the visitors who stopped coming after the fee was introduced had previously visited several times each week." },
       { "key": "C", "text": "Before the fee, admission had been free, so the museum had collected no admission revenue at all." },
-      { "key": "D", "text": "The museum's most popular exhibit closed during the period studied." },
-      { "key": "E", "text": "Several nearby museums also charge admission fees." }
+      { "key": "D", "text": "The visitors who continued to come after the fee spent less at the gift shop and cafe than they had before." },
+      { "key": "E", "text": "The museum used the new revenue to fund an additional traveling exhibition the following year." }
     ],
     "correctAnswer": { "format": "single", "value": "C" },
     "explanation": "If admission had been free, prior admission revenue was zero. Charging even a modest fee yields positive revenue from the remaining paying visitors, so revenue can rise although attendance falls—(C). The others don't explain the rise in revenue.",
@@ -334,11 +334,11 @@
     "stem": "The reasoning in the argument is most vulnerable to criticism on which of the following grounds?",
     "passageOrStimulus": "A wellness blog surveyed its readers and found that those who drink herbal tea report lower stress than those who do not. The blog concludes that drinking herbal tea reduces stress for people in general.",
     "choices": [
-      { "key": "A", "text": "It fails to specify which varieties of herbal tea were consumed." },
-      { "key": "B", "text": "It does not describe how the herbal tea was prepared." },
-      { "key": "C", "text": "It assumes that stress can be measured with perfect precision." },
+      { "key": "A", "text": "It presumes, without justification, that no readers who drink herbal tea also use other stress-reduction methods." },
+      { "key": "B", "text": "It takes for granted that the readers surveyed accurately reported their own stress levels." },
+      { "key": "C", "text": "It concludes that herbal tea raises stress when the evidence concerns only the readers who avoid it." },
       { "key": "D", "text": "It draws a causal, general conclusion from a correlation found among a self-selected group of readers." },
-      { "key": "E", "text": "It overlooks the cost of buying herbal tea." }
+      { "key": "E", "text": "It relies on a sample of readers who were already more health-conscious than the general population." }
     ],
     "correctAnswer": { "format": "single", "value": "D" },
     "explanation": "The argument leaps from a correlation in a self-selected readership to a causal claim about people in general—(D), a correlation-causation plus generalization flaw. The others are minor or irrelevant.",

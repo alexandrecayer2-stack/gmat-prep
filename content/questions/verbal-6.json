@@ -50,11 +50,11 @@
   { "id": "v6-cr05", "section": "verbal", "type": "critical_reasoning", "topic": "paradox", "difficulty": "easy",
     "stem": "A bookstore raised the price of its bestselling novel by 15 percent. Despite the higher price, the store's total revenue from that novel increased substantially in the month after the change.\n\nWhich of the following, if true, best helps to explain this result?",
     "choices": [
-      { "key": "A", "text": "The store reduced the prices of several other novels during the same month." },
+      { "key": "A", "text": "The 15 percent increase still left the novel cheaper than the same title sold at competing bookstores." },
       { "key": "B", "text": "A popular film adaptation of the novel was released that month, sharply increasing demand for it." },
-      { "key": "C", "text": "The novel had been the store's bestseller for the previous six months." },
-      { "key": "D", "text": "The store's overall monthly revenue declined slightly that month." },
-      { "key": "E", "text": "The author announced that no sequel to the novel would be written." }
+      { "key": "C", "text": "The higher price meant the store earned more revenue on each copy of the novel it sold." },
+      { "key": "D", "text": "The store raised the prices of its other bestselling titles by even more that month." },
+      { "key": "E", "text": "Several customers complained that the novel had become too expensive." }
     ],
     "correctAnswer": { "format": "single", "value": "B" },
     "explanation": "Revenue rose despite a price increase, which would normally reduce units sold. A surge in demand from the film release (B) explains how both price and units—and thus revenue—could rise. The others don't account for higher revenue from this specific novel.",
@@ -170,11 +170,11 @@
   { "id": "v6-cr15", "section": "verbal", "type": "critical_reasoning", "topic": "paradox", "difficulty": "easy",
     "stem": "A factory installed a new machine that produces parts twice as fast as the old machine it replaced. Yet after the installation, the factory's total daily output of finished parts did not increase at all.\n\nWhich of the following, if true, best explains why total output did not increase?",
     "choices": [
-      { "key": "A", "text": "The new machine was more expensive than the old machine." },
+      { "key": "A", "text": "The new machine occasionally produces parts that must be discarded as defective." },
       { "key": "B", "text": "A later stage of the production line, which all parts must pass through, can process only as many parts per day as before." },
-      { "key": "C", "text": "The new machine requires less maintenance than the old machine." },
-      { "key": "D", "text": "The factory's workers were trained to operate the new machine." },
-      { "key": "E", "text": "The new machine uses the same amount of electricity as the old one." }
+      { "key": "C", "text": "The old machine had been the slowest single step in the entire production line." },
+      { "key": "D", "text": "Demand for the factory's finished parts has grown steadily over the past year." },
+      { "key": "E", "text": "The new machine runs at full speed only after a lengthy daily warm-up period." }
     ],
     "correctAnswer": { "format": "single", "value": "B" },
     "explanation": "If a downstream stage is a bottleneck that caps daily throughput (B), speeding up an earlier stage can't raise total finished output—parts just pile up before the bottleneck. The other facts don't explain the unchanged output.",

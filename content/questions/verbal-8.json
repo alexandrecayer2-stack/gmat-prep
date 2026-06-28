@@ -132,7 +132,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "Hybrid buses eliminated maintenance costs."
+        "text": "The hybrid engines reduced the fleet's maintenance needs over time."
       },
       {
         "key": "B",
@@ -140,15 +140,15 @@
       },
       {
         "key": "C",
-        "text": "The city should stop buying buses."
+        "text": "Switching to hybrid engines lowered the fleet's total operating cost overall."
       },
       {
         "key": "D",
-        "text": "The buses travel faster than before."
+        "text": "The technicians' new training will need to be repeated each year."
       },
       {
         "key": "E",
-        "text": "Training costs were lower than fuel savings."
+        "text": "The 18% drop in fuel use was larger than any previous efficiency gain."
       }
     ],
     "correctAnswer": {
@@ -173,11 +173,11 @@
     "choices": [
       {
         "key": "A",
-        "text": "Whether customers understand warranty terms better than sales tax."
+        "text": "Whether customers who buy expensive products are likely to file warranty claims."
       },
       {
         "key": "B",
-        "text": "Whether the retailer's current products are made abroad."
+        "text": "Whether the retailer's competitors already offer longer warranties on similar products."
       },
       {
         "key": "C",
@@ -185,11 +185,11 @@
       },
       {
         "key": "D",
-        "text": "Whether competitors use blue packaging."
+        "text": "Whether a longer warranty would also increase sales of the retailer's inexpensive products."
       },
       {
         "key": "E",
-        "text": "Whether the store has enough parking spaces."
+        "text": "Whether customers prefer a longer warranty to a lower purchase price."
       }
     ],
     "correctAnswer": {
@@ -259,19 +259,19 @@
       },
       {
         "key": "B",
-        "text": "It attacks the messenger rather than the message."
+        "text": "It overlooks the possibility that the profit increase was too small to be meaningful."
       },
       {
         "key": "C",
-        "text": "It relies on an analogy between unlike cases."
+        "text": "It assumes that what worked for this company will work for every company."
       },
       {
         "key": "D",
-        "text": "It ignores that profits may fall in the future."
+        "text": "It treats an increase in profit as proof that the campaign was inexpensive."
       },
       {
         "key": "E",
-        "text": "It uses a circular definition."
+        "text": "It fails to define what counts as a successful campaign."
       }
     ],
     "correctAnswer": {
@@ -296,7 +296,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "Customers bought bottled water mainly in large packs."
+        "text": "Customers bought bottled water at a steadier pace throughout the day than before the heat wave."
       },
       {
         "key": "B",
@@ -304,15 +304,15 @@
       },
       {
         "key": "C",
-        "text": "The store began selling a different brand of water."
+        "text": "The store raised the price of bottled water during the heat wave."
       },
       {
         "key": "D",
-        "text": "The store increased advertising for other drinks."
+        "text": "Sales of other cold drinks rose even faster than sales of bottled water during the heat wave."
       },
       {
         "key": "E",
-        "text": "Bottled water was moved closer to the cashier."
+        "text": "The shelf space allotted to bottled water had been larger than that given to any other drink."
       }
     ],
     "correctAnswer": {
@@ -542,11 +542,11 @@
     "choices": [
       {
         "key": "A",
-        "text": "Whether the library's books are older than 10 years."
+        "text": "Whether nearby libraries have already extended their evening hours."
       },
       {
         "key": "B",
-        "text": "Whether the library has enough computer terminals."
+        "text": "Whether working adults in the area prefer evenings to weekends for library visits."
       },
       {
         "key": "C",
@@ -554,11 +554,11 @@
       },
       {
         "key": "D",
-        "text": "Whether the library's exterior needs repainting."
+        "text": "Whether the library's current daytime hours are already fully used."
       },
       {
         "key": "E",
-        "text": "Whether children also use the library on weekends."
+        "text": "Whether the extra evening hours would raise overall library membership."
       }
     ],
     "correctAnswer": {
@@ -706,11 +706,11 @@
     "choices": [
       {
         "key": "A",
-        "text": "The old system was created in-house."
+        "text": "The new inventory system was supplied by a well-established software vendor."
       },
       {
         "key": "B",
-        "text": "Employees prefer paper forms."
+        "text": "The new system can also generate detailed sales reports automatically."
       },
       {
         "key": "C",
@@ -718,11 +718,11 @@
       },
       {
         "key": "D",
-        "text": "The new system has more menu options."
+        "text": "Most of the manufacturer's competitors have already adopted automated inventory systems."
       },
       {
         "key": "E",
-        "text": "The manufacturer ships products internationally."
+        "text": "Employees found the new system easier to learn than they had expected."
       }
     ],
     "correctAnswer": {

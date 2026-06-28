@@ -211,19 +211,19 @@
       },
       {
         "key": "B",
-        "text": "Whether the museum gift shop sells postcards."
+        "text": "Whether the museum's late-night visitors tend to spend more at the gift shop than daytime visitors do."
       },
       {
         "key": "C",
-        "text": "Whether the museum has air conditioning."
+        "text": "Whether nearby attractions also offer discounted late-night admission."
       },
       {
         "key": "D",
-        "text": "Whether visitors prefer classical or modern art."
+        "text": "Whether the museum has enough staff willing to work late-night shifts."
       },
       {
         "key": "E",
-        "text": "Whether the museum is located near a subway stop."
+        "text": "Whether late-night visitors are more satisfied with their experience than daytime visitors."
       }
     ],
     "correctAnswer": {
@@ -250,19 +250,19 @@
       },
       {
         "key": "B",
-        "text": "Drip irrigation requires more hoses."
+        "text": "Drip irrigation systems have become considerably cheaper to install in recent years."
       },
       {
         "key": "C",
-        "text": "The farmer also plans to repair fences."
+        "text": "Fields using drip irrigation on similar crops used far less water but produced noticeably smaller yields."
       },
       {
         "key": "D",
-        "text": "Some neighbors prefer sprinkler systems."
+        "text": "The farmer's region has experienced below-average rainfall for several seasons."
       },
       {
         "key": "E",
-        "text": "Water prices are expected to rise."
+        "text": "Drip irrigation delivers water directly to the roots of each plant."
       }
     ],
     "correctAnswer": {
@@ -406,19 +406,19 @@
       },
       {
         "key": "B",
-        "text": "Trees need water."
+        "text": "Residents on tree-lined streets reported feeling cooler outdoors in summer."
       },
       {
         "key": "C",
-        "text": "Some residents enjoy gardening."
+        "text": "The proposed trees are a fast-growing species that reaches full height within a few years."
       },
       {
         "key": "D",
-        "text": "The council met twice."
+        "text": "Homes on tree-lined streets had higher heating bills during the winter months."
       },
       {
         "key": "E",
-        "text": "Tree planting costs money."
+        "text": "Mature trees can lower the air temperature in their immediate vicinity."
       }
     ],
     "correctAnswer": {
@@ -449,7 +449,7 @@
       },
       {
         "key": "C",
-        "text": "The office has large windows."
+        "text": "Adding plants is far less expensive than other measures the office considered."
       },
       {
         "key": "D",
@@ -484,19 +484,19 @@
       },
       {
         "key": "B",
-        "text": "Tutoring sessions were held after school."
+        "text": "Students who attended tutoring also scored higher on the science final."
       },
       {
         "key": "C",
-        "text": "Some tutors used whiteboards."
+        "text": "The school spent more on the tutoring program than it had planned."
       },
       {
         "key": "D",
-        "text": "The final exam included word problems."
+        "text": "Students who skipped tutoring reported studying less for the final exam."
       },
       {
         "key": "E",
-        "text": "Parents were informed about the program."
+        "text": "The tutors were drawn from the school's most experienced teachers."
       }
     ],
     "correctAnswer": {
@@ -523,19 +523,19 @@
       },
       {
         "key": "B",
-        "text": "Whether drivers prefer blue uniforms."
+        "text": "Whether electric vans produce fewer emissions than the diesel vans they would replace."
       },
       {
         "key": "C",
-        "text": "Whether the company has a social-media account."
+        "text": "Whether the company's drivers are willing to learn to operate electric vans."
       },
       {
         "key": "D",
-        "text": "Whether diesel vans are painted white."
+        "text": "Whether electric vans have become more popular among courier companies recently."
       },
       {
         "key": "E",
-        "text": "Whether the company sponsors local sports teams."
+        "text": "Whether the diesel vans could instead be retrofitted to run more efficiently."
       }
     ],
     "correctAnswer": {
@@ -562,19 +562,19 @@
       },
       {
         "key": "B",
-        "text": "No branch used the software effectively."
+        "text": "Most branches that adopted the software automated their reordering."
       },
       {
         "key": "C",
-        "text": "All branches automated reordering."
+        "text": "Every branch that automated reordering did so using the new software."
       },
       {
         "key": "D",
-        "text": "Some branches used different software."
+        "text": "At least one branch failed to adopt the new inventory software."
       },
       {
         "key": "E",
-        "text": "The chain closed several branches."
+        "text": "Branches that automated reordering held less inventory than those that did not."
       }
     ],
     "correctAnswer": {
@@ -640,19 +640,19 @@
       },
       {
         "key": "B",
-        "text": "The gardener owns a hose."
+        "text": "Mulching will improve the garden's appearance as well as its moisture retention."
       },
       {
         "key": "C",
-        "text": "Evaporation is visible on sunny days."
+        "text": "The mulch will not raise the cost of maintaining the garden."
       },
       {
         "key": "D",
-        "text": "The garden includes flowers."
+        "text": "Slowing evaporation is the only way to reduce how often the garden must be watered."
       },
       {
         "key": "E",
-        "text": "The mulch is brown."
+        "text": "The plants in the garden require less water than they currently receive."
       }
     ],
     "correctAnswer": {
@@ -718,19 +718,19 @@
       },
       {
         "key": "B",
-        "text": "The store plays background music."
+        "text": "Total store sales were higher in months when more products were displayed near the checkout."
       },
       {
         "key": "C",
-        "text": "Cashiers wear name tags."
+        "text": "Customers who waited longest in the checkout line bought the most items overall."
       },
       {
         "key": "D",
-        "text": "The checkout area is crowded."
+        "text": "Items placed near the checkout were also featured in the store's weekly advertisements."
       },
       {
         "key": "E",
-        "text": "Customers also buy groceries."
+        "text": "Most shoppers say they enjoy browsing the displays near the checkout line."
       }
     ],
     "correctAnswer": {
@@ -757,19 +757,19 @@
       },
       {
         "key": "B",
-        "text": "Whether the author prefers one cover design."
+        "text": "Whether the hardcover edition is expected to sell well on its own."
       },
       {
         "key": "C",
-        "text": "Whether bookstores use shelves or tables."
+        "text": "Whether readers generally prefer paperbacks to hardcovers for novels of this kind."
       },
       {
         "key": "D",
-        "text": "Whether the novel contains chapters."
+        "text": "Whether the paperback would be priced lower than the hardcover."
       },
       {
         "key": "E",
-        "text": "Whether the publisher has a graphic designer."
+        "text": "Whether the publisher's last novel sold more copies in paperback than in hardcover."
       }
     ],
     "correctAnswer": {
@@ -796,19 +796,19 @@
       },
       {
         "key": "B",
-        "text": "All bicycle users commute by train."
+        "text": "Most residents who use a bicycle weekly also commute by train."
       },
       {
         "key": "C",
-        "text": "Most city residents commute by train."
+        "text": "Train commuters use bicycles more often than non-commuters do."
       },
       {
         "key": "D",
-        "text": "No train commuter drives a car."
+        "text": "Most train commuters use a bicycle as their primary means of travel."
       },
       {
         "key": "E",
-        "text": "Train commuting and bicycle use are unrelated."
+        "text": "A majority of the city's residents use a bicycle at least once a week."
       }
     ],
     "correctAnswer": {
@@ -913,19 +913,19 @@
       },
       {
         "key": "B",
-        "text": "Breakfast foods vary by culture."
+        "text": "People who eat breakfast daily tend to be more health-conscious in general."
       },
       {
         "key": "C",
-        "text": "Some people dislike cereal."
+        "text": "People who snack late at night often report feeling tired the next morning."
       },
       {
         "key": "D",
-        "text": "The study used a questionnaire."
+        "text": "Eating a larger breakfast leaves people feeling fuller throughout the morning."
       },
       {
         "key": "E",
-        "text": "Late-night snacking is common."
+        "text": "Among people who already snack at night, those who add breakfast snack just as often."
       }
     ],
     "correctAnswer": {
@@ -952,19 +952,19 @@
       },
       {
         "key": "B",
-        "text": "Whether the company has branded trucks."
+        "text": "Whether next-day shipping would lower the company's delivery costs."
       },
       {
         "key": "C",
-        "text": "Whether packages are labeled with barcodes."
+        "text": "Whether competitors offer same-day shipping on most orders."
       },
       {
         "key": "D",
-        "text": "Whether employees like overtime pay."
+        "text": "Whether the company can deliver next-day orders on schedule."
       },
       {
         "key": "E",
-        "text": "Whether the warehouses are painted yellow."
+        "text": "Whether most current orders are already delivered the next day in practice."
       }
     ],
     "correctAnswer": {
@@ -1108,19 +1108,19 @@
       },
       {
         "key": "B",
-        "text": "Some students prefer morning sports."
+        "text": "On days when classes started later, students reported getting more sleep the night before."
       },
       {
         "key": "C",
-        "text": "The district has many buses."
+        "text": "On days when classes started later, fewer students were absent for the entire day."
       },
       {
         "key": "D",
-        "text": "Teachers usually arrive early."
+        "text": "Neighboring districts that adopted later start times saw their test scores improve."
       },
       {
         "key": "E",
-        "text": "The school colors are blue and gold."
+        "text": "Most parents in the district favor moving to a later start time."
       }
     ],
     "correctAnswer": {
@@ -1147,19 +1147,19 @@
       },
       {
         "key": "B",
-        "text": "Whether the event would be held on a weekend."
+        "text": "Whether the dinner would attract more attendees than last year's event."
       },
       {
         "key": "C",
-        "text": "Whether the nonprofit has a website."
+        "text": "Whether donors generally respond better to dinners than to mailed appeals."
       },
       {
         "key": "D",
-        "text": "Whether volunteers prefer formal attire."
+        "text": "Whether the nonprofit can secure a discounted rate on the venue."
       },
       {
         "key": "E",
-        "text": "Whether donors enjoy music."
+        "text": "Whether the dinner would raise the nonprofit's profile in the community."
       }
     ],
     "correctAnswer": {
@@ -1264,19 +1264,19 @@
       },
       {
         "key": "B",
-        "text": "More employees were trained on the new system."
+        "text": "The total number of claims the insurer received rose after the system was introduced."
       },
       {
         "key": "C",
-        "text": "The insurer added a chatbot for routine questions."
+        "text": "The screening system was more expensive to operate than the insurer had expected."
       },
       {
         "key": "D",
-        "text": "The company improved its website layout."
+        "text": "Most policyholders said the phone-based screening was easy to complete."
       },
       {
         "key": "E",
-        "text": "Customers submitted fewer paper forms."
+        "text": "A rival insurer adopted a similar screening system the following year."
       }
     ],
     "correctAnswer": {

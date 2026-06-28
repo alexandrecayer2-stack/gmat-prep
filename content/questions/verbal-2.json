@@ -162,11 +162,11 @@
     "stem": "Which of the following is an assumption on which the manager's conclusion depends?",
     "passageOrStimulus": "A warehouse installed motion-activated lighting in February. The electricity bill for March was lower than the bill for January. The manager concludes that the new lighting reduced electricity costs.",
     "choices": [
-      { "key": "A", "text": "The warehouse had fewer customers in March than in January." },
-      { "key": "B", "text": "The motion-activated lights were installed before the March bill was measured." },
+      { "key": "A", "text": "The new lighting used less electricity than the old lighting it replaced." },
+      { "key": "B", "text": "March is typically a colder month than January in the warehouse's region." },
       { "key": "C", "text": "No other change affecting electricity use occurred between January and March." },
-      { "key": "D", "text": "The old lights were still functioning when the new lights were installed." },
-      { "key": "E", "text": "The warehouse's sales increased in March." }
+      { "key": "D", "text": "The savings on the March electricity bill exceeded the cost of installing the lights." },
+      { "key": "E", "text": "The warehouse's electricity rate was the same in March as it was in January." }
     ],
     "correctAnswer": { "format": "single", "value": "C" },
     "distractorRationale": {

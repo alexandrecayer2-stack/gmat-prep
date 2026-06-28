@@ -94,19 +94,19 @@
       },
       {
         "key": "B",
-        "text": "morning classes are less popular than evening classes"
+        "text": "the studio's evening classes are more profitable per session than its morning classes"
       },
       {
         "key": "C",
-        "text": "the studio's current members dislike online workouts"
+        "text": "members who attend the new evening classes will renew their memberships"
       },
       {
         "key": "D",
-        "text": "all nearby gyms already offer evening classes"
+        "text": "no competing studio will respond by extending its own evening classes"
       },
       {
         "key": "E",
-        "text": "the studio owns the building it occupies"
+        "text": "the evening classes have been full for several consecutive months"
       }
     ],
     "correctAnswer": {
@@ -168,7 +168,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "The restaurant reduced its dinner menu."
+        "text": "The restaurant's dinner revenue also increased during the period."
       },
       {
         "key": "B",
@@ -176,15 +176,15 @@
       },
       {
         "key": "C",
-        "text": "The restaurant hired more waiters."
+        "text": "The restaurant lowered the prices of its most popular lunch dishes."
       },
       {
         "key": "D",
-        "text": "The restaurant began accepting only cash."
+        "text": "The lunch customers who did come visited the restaurant more frequently than before."
       },
       {
         "key": "E",
-        "text": "The restaurant opened a second location."
+        "text": "Fewer customers meant servers could give each table more attention."
       }
     ],
     "correctAnswer": {
@@ -250,19 +250,19 @@
       },
       {
         "key": "B",
-        "text": "uses too many examples"
+        "text": "draws a conclusion about all runners from data on winners alone"
       },
       {
         "key": "C",
-        "text": "ignores the role of weather only"
+        "text": "overlooks other factors, such as talent, that also contribute to winning"
       },
       {
         "key": "D",
-        "text": "assumes all winners are professional athletes"
+        "text": "assumes that training fewer than five days per week cannot produce a win"
       },
       {
         "key": "E",
-        "text": "relies on a mathematical formula"
+        "text": "treats training frequency as the only measure of a runner's preparation"
       }
     ],
     "correctAnswer": {
@@ -324,11 +324,11 @@
     "choices": [
       {
         "key": "A",
-        "text": "sleeping eight hours guarantees a high score"
+        "text": "students who sleep at least eight hours score higher on exams than those who sleep less"
       },
       {
         "key": "B",
-        "text": "students should avoid all early classes"
+        "text": "very early-morning classes reduce the amount of sleep students get"
       },
       {
         "key": "C",
@@ -336,11 +336,11 @@
       },
       {
         "key": "D",
-        "text": "early-morning classes are harmful to all students"
+        "text": "schools should require students to sleep at least eight hours before an exam"
       },
       {
         "key": "E",
-        "text": "the researchers used a flawed grading system"
+        "text": "getting more sleep is the most effective way for students to raise their scores"
       }
     ],
     "correctAnswer": {
@@ -363,7 +363,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "the new apartments are farther from the town center than older buildings"
+        "text": "the new apartments will raise property values throughout the town"
       },
       {
         "key": "B",
@@ -371,15 +371,15 @@
       },
       {
         "key": "C",
-        "text": "the town has a long history of renting apartments"
+        "text": "the new apartments will be fully occupied within a year of completion"
       },
       {
         "key": "D",
-        "text": "construction will take at least two years"
+        "text": "the cost of providing town services has risen more slowly than tax revenue in recent years"
       },
       {
         "key": "E",
-        "text": "property values in nearby towns have fallen"
+        "text": "the town's tax rate on apartments is higher than the rate charged in nearby towns"
       }
     ],
     "correctAnswer": {
@@ -406,19 +406,19 @@
       },
       {
         "key": "B",
-        "text": "The museum painted its lobby blue."
+        "text": "The price increase applied only to adult tickets, not to children's tickets."
       },
       {
         "key": "C",
-        "text": "Some visitors preferred the old ticket booths."
+        "text": "Several visitors said the higher prices made them less likely to return."
       },
       {
         "key": "D",
-        "text": "The museum reduced the number of staff on weekdays."
+        "text": "Attendance at a competing museum across town fell during the same month."
       },
       {
         "key": "E",
-        "text": "Local weather was slightly warmer than usual."
+        "text": "The added ticket revenue allowed the museum to repaint several of its galleries."
       }
     ],
     "correctAnswer": {
@@ -562,19 +562,19 @@
       },
       {
         "key": "B",
-        "text": "customers never buy fruit online"
+        "text": "more customers will pass the entrance than currently pass the produce aisle"
       },
       {
         "key": "C",
-        "text": "the store sells only apples and bananas"
+        "text": "the apples displayed at the entrance will stay fresh throughout the day"
       },
       {
         "key": "D",
-        "text": "the entrance area is larger than the produce aisle"
+        "text": "apples are the store's most profitable item per unit sold"
       },
       {
         "key": "E",
-        "text": "apples are more expensive than oranges"
+        "text": "moving the apples will not reduce sales of the items previously near the entrance"
       }
     ],
     "correctAnswer": {
@@ -679,19 +679,19 @@
       },
       {
         "key": "B",
-        "text": "uses too few adjectives"
+        "text": "overlooks the possibility that more satisfied employees were the ones allowed to work remotely"
       },
       {
         "key": "C",
-        "text": "assumes employees never commute"
+        "text": "relies on employees' self-reports of how satisfied they were"
       },
       {
         "key": "D",
-        "text": "ignores salary differences only"
+        "text": "fails to define what counts as higher satisfaction"
       },
       {
         "key": "E",
-        "text": "relies on a survey conducted in one language"
+        "text": "ignores whether remote work also affected employee productivity"
       }
     ],
     "correctAnswer": {
@@ -718,19 +718,19 @@
       },
       {
         "key": "B",
-        "text": "The store sold fewer novels."
+        "text": "Many of the new members rarely bought books after joining."
       },
       {
         "key": "C",
-        "text": "Members visited the store less often."
+        "text": "A number of longtime members let their paid memberships lapse during the period."
       },
       {
         "key": "D",
-        "text": "The store extended its hours."
+        "text": "The store spent more on advertising the membership program than it had before."
       },
       {
         "key": "E",
-        "text": "The bookstore added a cafe."
+        "text": "The new members on average lived farther from the store than existing members did."
       }
     ],
     "correctAnswer": {
@@ -753,7 +753,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "Did the city use blue buses on the route?"
+        "text": "Have riders said they are satisfied with the new bus route?"
       },
       {
         "key": "B",
@@ -761,15 +761,15 @@
       },
       {
         "key": "C",
-        "text": "Are the buses comfortable?"
+        "text": "Does the new route earn enough in fares to cover its operating costs?"
       },
       {
         "key": "D",
-        "text": "Did the route connect to a park?"
+        "text": "Has ridership on the city's other bus routes also grown since the launch?"
       },
       {
         "key": "E",
-        "text": "Do drivers prefer this route?"
+        "text": "Did the city add the new route in response to resident requests?"
       }
     ],
     "correctAnswer": {
@@ -796,19 +796,19 @@
       },
       {
         "key": "B",
-        "text": "the company will stop selling to existing customers"
+        "text": "the free version will attract more users than any paid product the firm has released"
       },
       {
         "key": "C",
-        "text": "the free version will have no features at all"
+        "text": "users of the free version will recommend it to friends who do not yet use the product"
       },
       {
         "key": "D",
-        "text": "competitors will also publish free versions"
+        "text": "the cost of supporting free users will be lower than the cost of supporting paying users"
       },
       {
         "key": "E",
-        "text": "the company will advertise only on social media"
+        "text": "the paid version offers features that most users will find useful"
       }
     ],
     "correctAnswer": {
@@ -870,7 +870,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "The app was updated for aesthetic reasons."
+        "text": "Members who used the feature attended the gym more often than those who did not."
       },
       {
         "key": "B",
@@ -878,15 +878,15 @@
       },
       {
         "key": "C",
-        "text": "Some members disliked the app icon."
+        "text": "Overall renewal rates at the chain rose in the year the feature was launched."
       },
       {
         "key": "D",
-        "text": "The feature was launched during the holiday season."
+        "text": "The members who used the feature had longer memberships than those who did not."
       },
       {
         "key": "E",
-        "text": "The gyms added new treadmills that year."
+        "text": "Most members said they were satisfied with the app after the feature was added."
       }
     ],
     "correctAnswer": {
@@ -948,11 +948,11 @@
     "choices": [
       {
         "key": "A",
-        "text": "parks should receive fewer bins than apartment areas"
+        "text": "the new bins collected more glass from apartment areas than from parks"
       },
       {
         "key": "B",
-        "text": "the bins were too expensive"
+        "text": "placing bins near apartment buildings increases total recycling"
       },
       {
         "key": "C",
@@ -960,11 +960,11 @@
       },
       {
         "key": "D",
-        "text": "glass recycling is more important than paper recycling"
+        "text": "the city should add more recycling bins overall next year"
       },
       {
         "key": "E",
-        "text": "apartment residents recycle more than park visitors"
+        "text": "bins placed in parks collect less waste because fewer residents visit them"
       }
     ],
     "correctAnswer": {
@@ -1030,19 +1030,19 @@
       },
       {
         "key": "B",
-        "text": "The town attracted more visitors."
+        "text": "Many laid-off workers found new jobs in neighboring towns."
       },
       {
         "key": "C",
-        "text": "The weather was milder."
+        "text": "The town's total population grew during the period."
       },
       {
         "key": "D",
-        "text": "Average wages increased everywhere."
+        "text": "Several employers in the town reduced their workers' hours."
       },
       {
         "key": "E",
-        "text": "The town built a new park."
+        "text": "More residents took second jobs to supplement their income."
       }
     ],
     "correctAnswer": {
@@ -1143,7 +1143,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "Were customers asked to rate the color of the checkout counters?"
+        "text": "Did customers report being more satisfied with their shopping experience after the change?"
       },
       {
         "key": "B",
@@ -1151,15 +1151,15 @@
       },
       {
         "key": "C",
-        "text": "Do customers prefer self-checkout?"
+        "text": "Did the time customers spend waiting in the checkout line decrease after the change?"
       },
       {
         "key": "D",
-        "text": "Was the front of the store renovated?"
+        "text": "Did the number of customers visiting the store rise after the checkout counters were moved?"
       },
       {
         "key": "E",
-        "text": "Did the store increase its advertising?"
+        "text": "Did moving the checkout counters require the store to reduce its shelf space?"
       }
     ],
     "correctAnswer": {
@@ -1264,19 +1264,19 @@
       },
       {
         "key": "B",
-        "text": "The charity spent less on administration."
+        "text": "The number of donors fell by a larger percentage than revenue rose."
       },
       {
         "key": "C",
-        "text": "The charity mailed fewer letters."
+        "text": "The charity received more donations from first-time donors this year."
       },
       {
         "key": "D",
-        "text": "The charity hired a new accountant."
+        "text": "Donations from previous years had been steadily increasing."
       },
       {
         "key": "E",
-        "text": "The charity updated its website."
+        "text": "The charity's expenses rose along with its revenue."
       }
     ],
     "correctAnswer": {

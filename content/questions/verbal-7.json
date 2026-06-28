@@ -49,7 +49,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "The stores are located inside shopping centers."
+        "text": "The two stores have together lost money in each of the past three years."
       },
       {
         "key": "B",
@@ -57,15 +57,15 @@
       },
       {
         "key": "C",
-        "text": "The stores have large windows facing the street."
+        "text": "The chain's other stores are expected to remain profitable after the closures."
       },
       {
         "key": "D",
-        "text": "The chain plans to open a new website."
+        "text": "The chain could sell the two stores' inventory at a discount to clear it quickly."
       },
       {
         "key": "E",
-        "text": "Employees at the stores have worked there for many years."
+        "text": "The rent on the two stores is higher than the chain pays at its other locations."
       }
     ],
     "correctAnswer": {
@@ -93,19 +93,19 @@
       },
       {
         "key": "B",
-        "text": "Bus drivers were given new uniforms at the same time."
+        "text": "Bus ridership on the avenue increased after the bus lane opened."
       },
       {
         "key": "C",
-        "text": "Traffic lights throughout the city were lengthened."
+        "text": "Commute times also fell on several avenues that did not get a bus lane."
       },
       {
         "key": "D",
-        "text": "Fuel prices rose during the same month."
+        "text": "Drivers reported that the avenue felt less congested after the change."
       },
       {
         "key": "E",
-        "text": "The city's population increased slightly."
+        "text": "Average commute times across the whole city declined during the same period."
       }
     ],
     "correctAnswer": {
@@ -133,19 +133,19 @@
       },
       {
         "key": "B",
-        "text": "All downtown facilities are public charging stations."
+        "text": "Every public charging station downtown is in use."
       },
       {
         "key": "C",
-        "text": "Some volunteer-staffed facilities are downtown."
+        "text": "Some public charging stations are located outside the downtown area."
       },
       {
         "key": "D",
-        "text": "No charging stations are open 24 hours."
+        "text": "The town has exactly one public charging station."
       },
       {
         "key": "E",
-        "text": "All downtown facilities are open 24 hours."
+        "text": "All downtown facilities are within walking distance of one another."
       }
     ],
     "correctAnswer": {
@@ -169,7 +169,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "How many trees the school currently uses for paper homework"
+        "text": "How much the school would save on paper and printing each year"
       },
       {
         "key": "B",
@@ -177,15 +177,15 @@
       },
       {
         "key": "C",
-        "text": "Whether teachers prefer grading on tablets"
+        "text": "Whether students find online assignments more engaging than paper ones"
       },
       {
         "key": "D",
-        "text": "Whether other schools already use online homework"
+        "text": "Whether the school's current completion rate is already higher than average"
       },
       {
         "key": "E",
-        "text": "How large the computer lab is"
+        "text": "Whether teachers can grade online assignments more quickly"
       }
     ],
     "correctAnswer": {
@@ -569,7 +569,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "It appeals to popularity."
+        "text": "It assumes that what is true of each park individually must be true of all parks together."
       },
       {
         "key": "B",
@@ -577,15 +577,15 @@
       },
       {
         "key": "C",
-        "text": "It compares unlike things."
+        "text": "It overlooks the cost of building and maintaining new parks."
       },
       {
         "key": "D",
-        "text": "It treats a necessary condition as sufficient."
+        "text": "It assumes that building parks is the only way to reduce crime."
       },
       {
         "key": "E",
-        "text": "It uses an analogy that is too weak."
+        "text": "It generalizes from a sample of neighborhoods that may be unrepresentative."
       }
     ],
     "correctAnswer": {
@@ -693,19 +693,19 @@
       },
       {
         "key": "B",
-        "text": "The training lasted two days instead of one."
+        "text": "Errors fell by a larger margin among employees who completed the full training."
       },
       {
         "key": "C",
-        "text": "Some employees said they enjoyed the program."
+        "text": "The training program cost more to run than the company had budgeted."
       },
       {
         "key": "D",
-        "text": "The company's software was upgraded after the program."
+        "text": "Employees who skipped the training reported feeling rushed in their work."
       },
       {
         "key": "E",
-        "text": "Managers praised the training materials."
+        "text": "The company plans to offer the same training to its newest hires."
       }
     ],
     "correctAnswer": {

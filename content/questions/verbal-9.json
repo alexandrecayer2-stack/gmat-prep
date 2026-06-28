@@ -52,7 +52,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "The smaller oven is more expensive to purchase."
+        "text": "The smaller oven consumes even less power per hour than the bakery had expected."
       },
       {
         "key": "B",
@@ -60,15 +60,15 @@
       },
       {
         "key": "C",
-        "text": "The current oven is already fully paid for."
+        "text": "The smaller oven uses the same type of electricity as the current oven."
       },
       {
         "key": "D",
-        "text": "Electricity prices are expected to remain stable."
+        "text": "The smaller oven heats up more quickly than the current oven does."
       },
       {
         "key": "E",
-        "text": "The bakery sells more bread in winter than in summer."
+        "text": "The current oven is rarely run at its full capacity."
       }
     ],
     "correctAnswer": {
@@ -134,11 +134,11 @@
     "choices": [
       {
         "key": "A",
-        "text": "Attendance at the session was the only reason students passed."
+        "text": "Students who attended the session were more likely to pass than those who skipped it."
       },
       {
         "key": "B",
-        "text": "Students who attended the session were guaranteed to pass."
+        "text": "Attending the session was the most effective way for a student to prepare for the exam."
       },
       {
         "key": "C",
@@ -146,11 +146,11 @@
       },
       {
         "key": "D",
-        "text": "The exam was easier than expected for everyone."
+        "text": "Most students who passed the exam had attended the review session."
       },
       {
         "key": "E",
-        "text": "Students who skipped the session failed because they skipped it."
+        "text": "Attending the session was enough, by itself, to guarantee that a student would pass."
       }
     ],
     "correctAnswer": {
@@ -544,7 +544,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "All mentors are older than the participants."
+        "text": "The mentorship program will enroll a large number of unemployed youth."
       },
       {
         "key": "B",
@@ -552,15 +552,15 @@
       },
       {
         "key": "C",
-        "text": "The program will be free to all applicants."
+        "text": "Most participants will remain in contact with their mentors after the program ends."
       },
       {
         "key": "D",
-        "text": "The local unemployment rate is lower than the national rate."
+        "text": "Networking is a more effective route to employment than additional job training."
       },
       {
         "key": "E",
-        "text": "Mentorship programs are more popular than internships."
+        "text": "The jobs obtained through the program will pay more than minimum wage."
       }
     ],
     "correctAnswer": {
@@ -626,7 +626,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "The snack tastes sweeter than similar products."
+        "text": "Customers who already exercised regularly were the most likely to buy the snack."
       },
       {
         "key": "B",
@@ -634,15 +634,15 @@
       },
       {
         "key": "C",
-        "text": "The company sells several other products."
+        "text": "The snack contains more protein per serving than most competing products."
       },
       {
         "key": "D",
-        "text": "The snack is available only online."
+        "text": "Most customers who buy the snack say they enjoy its flavor."
       },
       {
         "key": "E",
-        "text": "Exercise facilities are expanding in the area."
+        "text": "Regular exercise has been shown to increase appetite for high-protein foods."
       }
     ],
     "correctAnswer": {
@@ -708,7 +708,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "Whether students prefer reading on screens or paper."
+        "text": "Whether most students already own a device capable of reading the digital textbooks."
       },
       {
         "key": "B",
@@ -716,15 +716,15 @@
       },
       {
         "key": "C",
-        "text": "Whether the university has enough Wi-Fi access points."
+        "text": "Whether digital textbooks can be updated more easily than printed editions."
       },
       {
         "key": "D",
-        "text": "Whether professors use lecture slides."
+        "text": "Whether students retain information as well when reading on screens as on paper."
       },
       {
         "key": "E",
-        "text": "Whether students carry backpacks."
+        "text": "Whether the printing cost of paper textbooks has been rising in recent years."
       }
     ],
     "correctAnswer": {

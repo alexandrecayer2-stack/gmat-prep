@@ -163,7 +163,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "relies on a sample that is too small to be reliable."
+        "text": "fails to specify how much more readers preferred the new layout to the old one."
       },
       {
         "key": "B",
@@ -171,15 +171,15 @@
       },
       {
         "key": "C",
-        "text": "ignores the cost of producing the new layout."
+        "text": "overlooks the possibility that readers who disliked the new layout did not respond to the poll."
       },
       {
         "key": "D",
-        "text": "assumes the readers are design experts."
+        "text": "assumes that a layout preferred today will still be preferred in the future."
       },
       {
         "key": "E",
-        "text": "appeals to an irrelevant authority."
+        "text": "treats the preferences of the magazine's readers as representative of all readers."
       }
     ],
     "correctAnswer": {
@@ -395,19 +395,19 @@
       },
       {
         "key": "B",
-        "text": "depends on a sample that is too small."
+        "text": "assumes that a single instance of overspending reveals a consistent pattern."
       },
       {
         "key": "C",
-        "text": "assumes that all spending is harmful."
+        "text": "fails to specify how much public spending should be cut."
       },
       {
         "key": "D",
-        "text": "relies on an emotional appeal to voters."
+        "text": "overlooks the possibility that cutting public spending could harm the economy."
       },
       {
         "key": "E",
-        "text": "confuses correlation with causation."
+        "text": "takes for granted that managing a campaign budget resembles managing public funds."
       }
     ],
     "correctAnswer": {
@@ -429,7 +429,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "The bestselling items were already popular before the move."
+        "text": "The bestselling items continued to draw customers into the store after the move."
       },
       {
         "key": "B",
@@ -437,15 +437,15 @@
       },
       {
         "key": "C",
-        "text": "The store lowered the prices of its bestselling items."
+        "text": "The bestselling items still accounted for most of the store's individual sales."
       },
       {
         "key": "D",
-        "text": "The store extended its opening hours after the move."
+        "text": "Customers who came for the bestsellers spent slightly less on those items than before."
       },
       {
         "key": "E",
-        "text": "Bestselling items are usually displayed near the entrance."
+        "text": "Moving the bestsellers freed up space near the entrance for a new display."
       }
     ],
     "correctAnswer": {
@@ -509,19 +509,19 @@
       },
       {
         "key": "B",
-        "text": "Whether passengers find the new procedure pleasant."
+        "text": "Whether the time saved during boarding allows the airline's flights to depart on schedule."
       },
       {
         "key": "C",
-        "text": "Whether competing airlines use a similar procedure."
+        "text": "Whether the airlines that board fastest all use a procedure like the new one."
       },
       {
         "key": "D",
-        "text": "How much it costs to train staff in the new procedure."
+        "text": "Whether the new procedure speeds up the unloading of passengers as well."
       },
       {
         "key": "E",
-        "text": "Whether the airline advertised the change to passengers."
+        "text": "Whether gate agents followed the new procedure correctly on every test flight."
       }
     ],
     "correctAnswer": {

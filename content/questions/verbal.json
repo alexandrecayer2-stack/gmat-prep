@@ -65,11 +65,11 @@
     "passageOrStimulus": "Every plant in the greenhouse requires direct sunlight in order to bloom. The ferns located in the greenhouse receive no direct sunlight at all.",
     "stem": "If the statements above are true, which of the following must also be true?",
     "choices": [
-      { "key": "A", "text": "The ferns are the only plants in the greenhouse that fail to bloom." },
+      { "key": "A", "text": "Plants in the greenhouse other than the ferns will bloom." },
       { "key": "B", "text": "The ferns in the greenhouse will not bloom." },
-      { "key": "C", "text": "Every other plant in the greenhouse will bloom." },
-      { "key": "D", "text": "The ferns would bloom if they were moved outdoors." },
-      { "key": "E", "text": "Direct sunlight alone is enough to make any plant bloom." }
+      { "key": "C", "text": "Any greenhouse plant that receives direct sunlight will bloom." },
+      { "key": "D", "text": "The ferns receive less sunlight than the other plants in the greenhouse." },
+      { "key": "E", "text": "No plant outside the greenhouse requires direct sunlight in order to bloom." }
     ],
     "correctAnswer": { "format": "single", "value": "B" },
     "explanation": "Direct sunlight is **necessary** for any greenhouse plant to bloom. The ferns are greenhouse plants that get no direct sunlight, so the necessary condition is unmet and they cannot bloom—(B) must be true. (E) confuses necessary with sufficient; (A) and (C) make claims about other plants we can't support; (D) assumes sunlight is the only requirement.",

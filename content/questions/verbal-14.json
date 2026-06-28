@@ -363,15 +363,15 @@
     "choices": [
       {
         "key": "A",
-        "text": "The store added more product categories."
+        "text": "The store's wider selection has attracted shoppers from a larger area."
       },
       {
         "key": "B",
-        "text": "Customers spent more time browsing shelves."
+        "text": "Customers spent more on average per visit after the selection grew."
       },
       {
         "key": "C",
-        "text": "The store offered a loyalty program."
+        "text": "A competing store nearby offers an even broader selection of products."
       },
       {
         "key": "D",
@@ -379,7 +379,7 @@
       },
       {
         "key": "E",
-        "text": "The store opened earlier in the day."
+        "text": "The longer lines occur only during the store's busiest hours."
       }
     ],
     "correctAnswer": {
@@ -445,19 +445,19 @@
       },
       {
         "key": "B",
-        "text": "The packaging costs slightly more to produce."
+        "text": "In a recent survey, most customers said sustainability was important to them when shopping."
       },
       {
         "key": "C",
-        "text": "Competitors also advertise sustainability."
+        "text": "The new packaging is made from materials that decompose far faster than the old packaging."
       },
       {
         "key": "D",
-        "text": "The packaging uses simpler graphics."
+        "text": "The company's sales had been rising steadily for several years before the change."
       },
       {
         "key": "E",
-        "text": "The product has been sold for many years."
+        "text": "A competing brand saw its sales rise after switching to eco-friendly packaging years ago."
       }
     ],
     "correctAnswer": {
@@ -484,19 +484,19 @@
       },
       {
         "key": "B",
-        "text": "The cafeteria changed its logo."
+        "text": "Sales of the cafeteria's current plant-based meals held steady throughout this term."
       },
       {
         "key": "C",
-        "text": "Some meals are cheaper than others."
+        "text": "A neighboring college's cafeteria saw plant-based meal sales rise last year."
       },
       {
         "key": "D",
-        "text": "The menu already includes salads."
+        "text": "The cafeteria plans to add several new plant-based dishes to its menu next term."
       },
       {
         "key": "E",
-        "text": "The kitchen has limited storage."
+        "text": "Most students say plant-based meals are healthier than meat-based ones."
       }
     ],
     "correctAnswer": {
@@ -519,11 +519,11 @@
     "choices": [
       {
         "key": "A",
-        "text": "Many students used the app at home."
+        "text": "Students who used the app reported that it made math easier to understand."
       },
       {
         "key": "B",
-        "text": "The app includes colorful graphics."
+        "text": "Students who used the app spent more total time studying math than before."
       },
       {
         "key": "C",
@@ -531,11 +531,11 @@
       },
       {
         "key": "D",
-        "text": "Teachers also gave extra homework."
+        "text": "Students who used the app more often felt more confident about math."
       },
       {
         "key": "E",
-        "text": "The app works on older phones."
+        "text": "Schools that adopted the app reported higher overall student satisfaction."
       }
     ],
     "correctAnswer": {
@@ -558,7 +558,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "The museum offers guided tours."
+        "text": "The museum began offering its late hours at the same time it opened a popular new exhibit."
       },
       {
         "key": "B",
@@ -566,15 +566,15 @@
       },
       {
         "key": "C",
-        "text": "The building has a new exhibit hall."
+        "text": "Visitors who came in the evening stayed longer than daytime visitors did."
       },
       {
         "key": "D",
-        "text": "Some visitors came with friends."
+        "text": "The museum's late hours have been promoted heavily on social media."
       },
       {
         "key": "E",
-        "text": "Tickets are cheaper for members."
+        "text": "Several nearby museums have also extended their hours into the evening."
       }
     ],
     "correctAnswer": {
@@ -597,19 +597,19 @@
     "choices": [
       {
         "key": "A",
-        "text": "Annual plans are more expensive up front."
+        "text": "Annual plans bring in more revenue per subscriber over the course of a year."
       },
       {
         "key": "B",
-        "text": "Many users prefer monthly billing."
+        "text": "Customers who choose annual plans tend to be more satisfied with the service."
       },
       {
         "key": "C",
-        "text": "The service has added new content recently."
+        "text": "The service plans to promote its annual option more heavily next year."
       },
       {
         "key": "D",
-        "text": "Users who choose annual plans generally have the same age profile as monthly users."
+        "text": "Most competing services also offer discounted annual subscription plans."
       },
       {
         "key": "E",
@@ -675,15 +675,15 @@
     "choices": [
       {
         "key": "A",
-        "text": "The filter is easy to install."
+        "text": "Buyers consistently rate the filter highly for ease of use."
       },
       {
         "key": "B",
-        "text": "It is sold with a long warranty."
+        "text": "The filter removes contaminants faster than competing models do."
       },
       {
         "key": "C",
-        "text": "The design is compact."
+        "text": "The filter is certified to meet the manufacturer's published standards."
       },
       {
         "key": "D",
@@ -691,7 +691,7 @@
       },
       {
         "key": "E",
-        "text": "The package includes a replacement cartridge."
+        "text": "Water passed through the filter tastes noticeably cleaner to most users."
       }
     ],
     "correctAnswer": {
@@ -714,7 +714,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "Plants need occasional watering."
+        "text": "Employees say they would prefer a workplace with more plants to one without them."
       },
       {
         "key": "B",
@@ -722,15 +722,15 @@
       },
       {
         "key": "C",
-        "text": "The office has large windows."
+        "text": "Adding plants is far less expensive than other measures the office considered."
       },
       {
         "key": "D",
-        "text": "Some employees dislike indoor decoration."
+        "text": "Offices in the same building that added plants saw no change in employee turnover."
       },
       {
         "key": "E",
-        "text": "Plants were purchased in bulk."
+        "text": "Indoor plants are known to improve air quality in enclosed spaces."
       }
     ],
     "correctAnswer": {
@@ -753,19 +753,19 @@
     "choices": [
       {
         "key": "A",
-        "text": "The module is shorter than the old one."
+        "text": "Trainees rated the new onboarding module as clearer than the old one."
       },
       {
         "key": "B",
-        "text": "Some trainees prefer video lessons."
+        "text": "The new module covers fewer topics than the old module did."
       },
       {
         "key": "C",
-        "text": "The company hired more trainers."
+        "text": "The company adopted the new module in order to shorten training time."
       },
       {
         "key": "D",
-        "text": "The module includes quizzes."
+        "text": "Trainees who completed the new module performed better on their first assignments."
       },
       {
         "key": "E",
@@ -831,11 +831,11 @@
     "choices": [
       {
         "key": "A",
-        "text": "The store has a large parking lot."
+        "text": "The store's total sales rose during the week of a previous author event."
       },
       {
         "key": "B",
-        "text": "The author has published several books."
+        "text": "The author's most recent book has sold well at other stores."
       },
       {
         "key": "C",
@@ -843,11 +843,11 @@
       },
       {
         "key": "D",
-        "text": "The event will include refreshments."
+        "text": "Most members who attended past events said they enjoyed meeting the author."
       },
       {
         "key": "E",
-        "text": "The store is near a train station."
+        "text": "Attendance at the store's author events has grown steadily over the past year."
       }
     ],
     "correctAnswer": {
@@ -909,7 +909,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "Employees prefer shorter lunch breaks."
+        "text": "Employees will be happier working four days than they are working five."
       },
       {
         "key": "B",
@@ -917,15 +917,15 @@
       },
       {
         "key": "C",
-        "text": "The company can track resignations accurately."
+        "text": "Employees can complete the same amount of work in four days as in five."
       },
       {
         "key": "D",
-        "text": "Managers will continue to work five days."
+        "text": "Competing firms have not yet adopted a four-day workweek."
       },
       {
         "key": "E",
-        "text": "The office is near public transit."
+        "text": "Most employees would prefer a four-day week to a pay increase."
       }
     ],
     "correctAnswer": {
@@ -987,7 +987,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "Do evening classes use the same classrooms as morning classes?"
+        "text": "Would the new evening classes attract students who currently take daytime classes instead?"
       },
       {
         "key": "B",
@@ -995,15 +995,15 @@
       },
       {
         "key": "C",
-        "text": "Do professors prefer teaching in the morning?"
+        "text": "Do students who attend evening classes tend to earn higher grades?"
       },
       {
         "key": "D",
-        "text": "Are evening classes shorter than daytime classes?"
+        "text": "Would offering evening classes improve the university's standing among applicants?"
       },
       {
         "key": "E",
-        "text": "Is the campus open on weekends?"
+        "text": "Are the faculty members qualified to teach the subjects offered in the evening?"
       }
     ],
     "correctAnswer": {
@@ -1026,11 +1026,11 @@
     "choices": [
       {
         "key": "A",
-        "text": "Tree cover is the only factor affecting temperature."
+        "text": "Planting more trees would lower summer temperatures in any neighborhood."
       },
       {
         "key": "B",
-        "text": "All neighborhoods should plant exactly the same number of trees."
+        "text": "The neighborhoods with the most tree cover recorded the lowest temperatures of all."
       },
       {
         "key": "C",
@@ -1038,11 +1038,11 @@
       },
       {
         "key": "D",
-        "text": "Temperatures were identical in all neighborhoods in spring."
+        "text": "Neighborhoods with less tree cover should add trees to reduce their temperatures."
       },
       {
         "key": "E",
-        "text": "Tree cover reduces humidity more than any other factor."
+        "text": "Tree cover lowers summer temperatures more than it affects winter temperatures."
       }
     ],
     "correctAnswer": {
@@ -1065,7 +1065,7 @@
     "choices": [
       {
         "key": "A",
-        "text": "Online customers in the city are younger than average."
+        "text": "Strong online demand in the city reflects demand that the firm's physical stores could also capture."
       },
       {
         "key": "B",
@@ -1073,15 +1073,15 @@
       },
       {
         "key": "C",
-        "text": "Competitors are absent from the city."
+        "text": "Online demand in the city is stronger than in any other city the firm serves."
       },
       {
         "key": "D",
-        "text": "The city has a large airport."
+        "text": "The firm's online sales in the city will continue to grow after it expands there."
       },
       {
         "key": "E",
-        "text": "The product is easy to ship."
+        "text": "Customers in the new city are willing to pay the same prices as customers elsewhere."
       }
     ],
     "correctAnswer": {
@@ -1143,11 +1143,11 @@
     "choices": [
       {
         "key": "A",
-        "text": "The store moved to a busier street."
+        "text": "The items the store sells cost more on average than they did last month."
       },
       {
         "key": "B",
-        "text": "The store closed for one day last month."
+        "text": "The store received far more visitors this month than in any earlier month this year."
       },
       {
         "key": "C",
@@ -1155,11 +1155,11 @@
       },
       {
         "key": "D",
-        "text": "The store added a new display window."
+        "text": "Several of the store's most popular items were out of stock for part of last month."
       },
       {
         "key": "E",
-        "text": "Some items were discounted."
+        "text": "Shoppers this month bought more items per visit than shoppers last month."
       }
     ],
     "correctAnswer": {
@@ -1221,11 +1221,11 @@
     "choices": [
       {
         "key": "A",
-        "text": "Flood barriers never fail."
+        "text": "The flood barriers eliminated all flood risk in the protected district."
       },
       {
         "key": "B",
-        "text": "The protected district had no storms."
+        "text": "The protected district would have flooded badly without the barriers."
       },
       {
         "key": "C",
@@ -1233,11 +1233,11 @@
       },
       {
         "key": "D",
-        "text": "All districts should remove drainage systems."
+        "text": "Every district in the city should install identical flood barriers."
       },
       {
         "key": "E",
-        "text": "The season was unusual because it never rained."
+        "text": "The unprotected districts received heavier rainfall than the protected district."
       }
     ],
     "correctAnswer": {
