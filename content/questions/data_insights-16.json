@@ -1,0 +1,1128 @@
+[
+  {
+    "id": "g8-ds-01",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "linear equations",
+    "difficulty": "easy",
+    "orderIndex": 0,
+    "stem": "A rectangular garden has length $L$ meters and width $W$ meters. What is the length $L$?\n\n(1) $L = W + 5$\n(2) $W = 8$",
+    "assets": {},
+    "correctAnswer": {"format": "single", "value": "C"},
+    "explanation": "(1) alone gives a relation but two unknowns, so L is not determined. (2) alone fixes W but says nothing about L. Together, $L = 8 + 5 = 13$, uniquely determined. Answer C.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g8-ds-02",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "averages",
+    "difficulty": "easy",
+    "orderIndex": 1,
+    "stem": "A student took 4 quizzes. What was the student's average (arithmetic mean) score on the 4 quizzes?\n\n(1) The total of the 4 quiz scores was 312.\n(2) The highest quiz score was 88.",
+    "assets": {},
+    "correctAnswer": {"format": "single", "value": "A"},
+    "explanation": "(1) gives the total 312, so the mean is $312 / 4 = 78$, sufficient. (2) gives only one score and nothing about the others, insufficient. Answer A.",
+    "estimatedTimeSeconds": 105
+  },
+  {
+    "id": "g8-ds-03",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "integer properties",
+    "difficulty": "medium",
+    "orderIndex": 2,
+    "stem": "Is the integer $n$ divisible by 6?\n\n(1) $n$ is divisible by 3.\n(2) $n$ is divisible by 4.",
+    "assets": {},
+    "correctAnswer": {"format": "single", "value": "C"},
+    "explanation": "(1) alone: n divisible by 3 need not be divisible by 6 (e.g. 9 is not, 6 is), insufficient. (2) alone: divisible by 4 need not be divisible by 6 (e.g. 4 is not, 12 is), insufficient. Together, n is divisible by both 3 and 4, hence by lcm(3,4) = 12, which is a multiple of 6, so n is divisible by 6. Answer C.",
+    "estimatedTimeSeconds": 135
+  },
+  {
+    "id": "g8-ds-04",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "percentages",
+    "difficulty": "medium",
+    "orderIndex": 3,
+    "stem": "A jacket was sold after a single discount off its original price. What was the original price of the jacket?\n\n(1) The discount was 30 percent of the original price.\n(2) The discount amount was 24.",
+    "assets": {},
+    "correctAnswer": {"format": "single", "value": "C"},
+    "explanation": "(1) gives the discount rate but no absolute amount, insufficient. (2) gives the discount amount but not what fraction it represents, insufficient. Together, the discount of 24 equals 30 percent of the original, so the original is $24 / 0.30 = 80$. Answer C.",
+    "estimatedTimeSeconds": 130
+  },
+  {
+    "id": "g8-ds-05",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "ratios",
+    "difficulty": "medium",
+    "orderIndex": 4,
+    "stem": "A box contains only red marbles and blue marbles. How many red marbles are in the box?\n\n(1) The ratio of red marbles to blue marbles is $3 : 2$.\n(2) There are more than 20 marbles in the box in total.",
+    "assets": {},
+    "correctAnswer": {"format": "single", "value": "E"},
+    "explanation": "(1) gives the ratio only, so the count of red marbles is not fixed, insufficient. (2) gives only a lower bound on the total, insufficient. Together, the total must be a multiple of 5 greater than 20 (since the ratio uses 5 parts), so it could be 25 (15 red), 30 (18 red), 35 (21 red), and so on; the red count is still not unique. Answer E.",
+    "estimatedTimeSeconds": 130
+  },
+  {
+    "id": "g8-ds-06",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "linear equations",
+    "difficulty": "easy",
+    "orderIndex": 5,
+    "stem": "What is the value of $y$?\n\n(1) $5y - 2 = 18$\n(2) $y$ is positive",
+    "assets": {},
+    "correctAnswer": {"format": "single", "value": "A"},
+    "explanation": "(1) gives $5y = 20$, so $y = 4$, a unique value, sufficient. (2) only narrows the sign, insufficient. Answer A.",
+    "estimatedTimeSeconds": 95
+  },
+  {
+    "id": "g8-ds-07",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "systems of equations",
+    "difficulty": "medium",
+    "orderIndex": 6,
+    "stem": "At a stand, apples cost $a$ each and pears cost $p$ each. What is the price $a$ of one apple?\n\n(1) Three apples and two pears cost 13.\n(2) One apple and one pear cost 5.",
+    "assets": {},
+    "correctAnswer": {"format": "single", "value": "C"},
+    "explanation": "(1) is one equation $3a + 2p = 13$ in two unknowns, insufficient. (2) is one equation $a + p = 5$, insufficient. Together: from (2), $p = 5 - a$; substitute into (1): $3a + 2(5 - a) = 13$, so $a + 10 = 13$, giving $a = 3$. Answer C.",
+    "estimatedTimeSeconds": 145
+  },
+  {
+    "id": "g8-ds-08",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "inequalities",
+    "difficulty": "medium",
+    "orderIndex": 7,
+    "stem": "Is $x > 5$?\n\n(1) $x - 3 > 1$\n(2) $2x > 12$",
+    "assets": {},
+    "correctAnswer": {"format": "single", "value": "B"},
+    "explanation": "(1) gives $x > 4$, which allows values like 4.5 (not greater than 5) and 6 (greater than 5), insufficient. (2) gives $x > 6$, and every such value exceeds 5, so it answers the question with a definite yes, sufficient. Answer B.",
+    "estimatedTimeSeconds": 135
+  },
+  {
+    "id": "g8-ds-09",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "geometry",
+    "difficulty": "medium",
+    "orderIndex": 8,
+    "stem": "What is the area of right triangle $T$?\n\n(1) The two legs of $T$ have lengths 6 and 8.\n(2) The hypotenuse of $T$ has length 10.",
+    "assets": {},
+    "correctAnswer": {"format": "single", "value": "A"},
+    "explanation": "(1) gives both legs, so the area is $\\frac{1}{2}(6)(8) = 24$, sufficient. (2) gives only the hypotenuse; many right triangles have hypotenuse 10 with different leg pairs and different areas, insufficient. Answer A.",
+    "estimatedTimeSeconds": 140
+  },
+  {
+    "id": "g8-ds-10",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "number properties",
+    "difficulty": "hard",
+    "orderIndex": 9,
+    "stem": "If $x$ and $y$ are positive integers, is $x + y$ even?\n\n(1) $x^2 + y^2$ is even.\n(2) $xy$ is odd.",
+    "assets": {},
+    "correctAnswer": {"format": "single", "value": "D"},
+    "explanation": "$x + y$ is even exactly when x and y have the same parity. (1) $x^2 + y^2$ even means x and y have the same parity (both even or both odd), so $x + y$ is even, sufficient. (2) $xy$ odd forces both x and y odd, again the same parity, so $x + y$ is even, sufficient. Each alone suffices. Answer D.",
+    "estimatedTimeSeconds": 165
+  },
+  {
+    "id": "g8-ds-11",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "rates",
+    "difficulty": "medium",
+    "orderIndex": 10,
+    "stem": "A car traveled from town P to town Q at a constant speed. What is the distance from P to Q?\n\n(1) The trip took 2.5 hours.\n(2) The car traveled at 60 kilometers per hour for the entire 2.5-hour trip.",
+    "assets": {},
+    "correctAnswer": {"format": "single", "value": "B"},
+    "explanation": "(1) gives the time only, with no speed, so the distance is not determined, insufficient. (2) gives both the speed (60 km/h) and the duration (2.5 hours), so the distance is $60 \\times 2.5 = 150$ kilometers, sufficient on its own. Answer B.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g8-ds-12",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "statistics",
+    "difficulty": "hard",
+    "orderIndex": 11,
+    "stem": "A list consists of the five numbers 7, 9, 12, 15, and $k$. Is the median of the list equal to 12?\n\n(1) $k \\geq 12$\n(2) $k \\leq 15$",
+    "assets": {},
+    "correctAnswer": {"format": "single", "value": "A"},
+    "explanation": "Sorting 7, 9, 12, 15 and inserting k, the median is the third value. (1) If $k \\geq 12$, then 7 and 9 stay below and at least two of {12, 15, k} are at least 12, so the sorted order is 7, 9, 12, ..., making the third value 12; median is 12, a definite yes, sufficient. (2) If $k \\leq 15$, k could be small (e.g. 0 gives sorted 0, 7, 9, 12, 15 with median 9) or 12 (median 12), so the answer varies, insufficient. Answer A.",
+    "estimatedTimeSeconds": 175
+  },
+  {
+    "id": "g8-ds-13",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "linear equations",
+    "difficulty": "easy",
+    "orderIndex": 12,
+    "stem": "What is the value of the integer $m$?\n\n(1) $m + 7 = 12$\n(2) $3m = 15$",
+    "assets": {},
+    "correctAnswer": {"format": "single", "value": "D"},
+    "explanation": "(1) gives $m = 5$, sufficient. (2) gives $m = 15 / 3 = 5$, sufficient. Each statement alone determines m. Answer D.",
+    "estimatedTimeSeconds": 90
+  },
+  {
+    "id": "g8-ds-14",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "word problems",
+    "difficulty": "medium",
+    "orderIndex": 13,
+    "stem": "A theater sold adult tickets and child tickets for one show. How many child tickets were sold?\n\n(1) A total of 200 tickets were sold.\n(2) The number of adult tickets sold was at least three times the number of child tickets sold.",
+    "assets": {},
+    "correctAnswer": {"format": "single", "value": "E"},
+    "explanation": "Let c be child tickets and a adult tickets. (1) gives $a + c = 200$, insufficient. (2) gives only the inequality $a \\geq 3c$, insufficient. Together, $a = 200 - c$ and $200 - c \\geq 3c$, so $c \\leq 50$; the child count could be 50 (adults 150) or 40 (adults 160) or many other values, so it is not unique. Answer E.",
+    "estimatedTimeSeconds": 135
+  },
+  {
+    "id": "g8-ds-15",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "inequalities",
+    "difficulty": "hard",
+    "orderIndex": 14,
+    "stem": "Is the product $ab$ negative?\n\n(1) $a < 0$\n(2) $b > 0$",
+    "assets": {},
+    "correctAnswer": {"format": "single", "value": "C"},
+    "explanation": "(1) gives only the sign of a; without b's sign the product's sign is unknown, insufficient. (2) gives only the sign of b, insufficient. Together, a is negative and b is positive, so the product is negative, a definite yes. Answer C.",
+    "estimatedTimeSeconds": 130
+  },
+  {
+    "id": "g8-ds-16",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "sequences",
+    "difficulty": "hard",
+    "orderIndex": 15,
+    "stem": "In an arithmetic sequence, the terms are $t_1, t_2, t_3, \\ldots$. What is the value of $t_5$?\n\n(1) $t_1 = 4$ and the common difference is 3.\n(2) $t_3 = 10$ and $t_7 = 22$.",
+    "assets": {},
+    "correctAnswer": {"format": "single", "value": "D"},
+    "explanation": "(1) gives $t_5 = t_1 + 4d = 4 + 4(3) = 16$, sufficient. (2) gives $t_7 - t_3 = 4d = 22 - 10 = 12$, so $d = 3$ and $t_5 = t_3 + 2d = 10 + 6 = 16$, sufficient. Each alone determines $t_5$. Answer D.",
+    "estimatedTimeSeconds": 170
+  },
+  {
+    "id": "g8-ds-17",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "percentages",
+    "difficulty": "medium",
+    "orderIndex": 16,
+    "stem": "A company's revenue increased from one year to the next. What was the revenue in the earlier year?\n\n(1) Revenue increased by 20 percent.\n(2) Revenue increased by 90.",
+    "assets": {},
+    "correctAnswer": {"format": "single", "value": "C"},
+    "explanation": "(1) gives the percent increase only, insufficient. (2) gives the absolute increase only, insufficient. Together, 90 equals 20 percent of the earlier revenue, so the earlier revenue is $90 / 0.20 = 450$. Answer C.",
+    "estimatedTimeSeconds": 130
+  },
+  {
+    "id": "g8-ds-18",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "absolute value",
+    "difficulty": "hard",
+    "orderIndex": 17,
+    "stem": "What is the value of $x$?\n\n(1) $|x| = 6$\n(2) $x < 0$",
+    "assets": {},
+    "correctAnswer": {"format": "single", "value": "C"},
+    "explanation": "(1) gives $x = 6$ or $x = -6$, two values, insufficient. (2) tells only the sign, insufficient. Together, x is negative with absolute value 6, so $x = -6$, unique. Answer C.",
+    "estimatedTimeSeconds": 135
+  },
+  {
+    "id": "g8-ds-19",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "geometry",
+    "difficulty": "medium",
+    "orderIndex": 18,
+    "stem": "What is the perimeter of square $S$?\n\n(1) The area of $S$ is 49.\n(2) A diagonal of $S$ has length $7\\sqrt{2}$.",
+    "assets": {},
+    "correctAnswer": {"format": "single", "value": "D"},
+    "explanation": "(1) area 49 gives side $\\sqrt{49} = 7$, so perimeter $= 4(7) = 28$, sufficient. (2) for a square, diagonal $= s\\sqrt{2}$, so $s\\sqrt{2} = 7\\sqrt{2}$ gives $s = 7$ and perimeter 28, sufficient. Each alone works. Answer D.",
+    "estimatedTimeSeconds": 150
+  },
+  {
+    "id": "g8-ds-20",
+    "section": "data_insights",
+    "type": "data_sufficiency",
+    "topic": "overlapping sets",
+    "difficulty": "hard",
+    "orderIndex": 19,
+    "stem": "In a class of 30 students, each studies French, Spanish, or both. How many students study both French and Spanish?\n\n(1) 22 students study French.\n(2) 18 students study Spanish.",
+    "assets": {},
+    "correctAnswer": {"format": "single", "value": "C"},
+    "explanation": "With every student in at least one language, $|F| + |S| - |both| = 30$. (1) alone gives only $|F| = 22$, insufficient. (2) alone gives only $|S| = 18$, insufficient. Together, $22 + 18 - |both| = 30$, so $|both| = 10$. Answer C.",
+    "estimatedTimeSeconds": 160
+  },
+  {
+    "id": "g8-gi-01",
+    "section": "data_insights",
+    "type": "graphics_interpretation",
+    "topic": "graphics interpretation",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "The line chart shows the daily electricity output, in kilowatt-hours, of a rooftop solar array on five consecutive days. Use the drop-down menus to complete the statements consistent with the data.",
+    "assets": {
+      "chart": {
+        "type": "line",
+        "title": "Daily solar output (kWh)",
+        "xKey": "day",
+        "xLabel": "Day",
+        "yLabel": "Output (kWh)",
+        "series": [{"key": "output", "label": "Output"}],
+        "data": [
+          {"day": "Mon", "output": 18},
+          {"day": "Tue", "output": 24},
+          {"day": "Wed", "output": 21},
+          {"day": "Thu", "output": 30},
+          {"day": "Fri", "output": 27}
+        ]
+      },
+      "dropdowns": [
+        {"key": "b1", "before": "The day with the greatest output was ", "after": ".", "options": [{"value": "Mon"}, {"value": "Tue"}, {"value": "Wed"}, {"value": "Thu"}, {"value": "Fri"}]},
+        {"key": "b2", "before": "The total output over the five days was ", "after": " kWh.", "options": [{"value": "110"}, {"value": "120"}, {"value": "130"}, {"value": "140"}]}
+      ]
+    },
+    "correctAnswer": {"format": "dropdowns", "value": {"b1": "Thu", "b2": "120"}},
+    "explanation": "Thursday is highest at 30 kWh. The total is $18 + 24 + 21 + 30 + 27 = 120$ kWh.",
+    "estimatedTimeSeconds": 120,
+    "answerCheck": "answer.b1==='Thu' && answer.b2===String(sum(data.map(d=>d.output)))"
+  },
+  {
+    "id": "g8-gi-02",
+    "section": "data_insights",
+    "type": "graphics_interpretation",
+    "topic": "graphics interpretation",
+    "difficulty": "easy",
+    "orderIndex": 1,
+    "stem": "The bar chart shows the tonnage of material collected by a city recycling program in each of four months. Use the drop-down menus to complete the statements consistent with the data.",
+    "assets": {
+      "chart": {
+        "type": "bar",
+        "title": "Recycling collected (tons)",
+        "xKey": "month",
+        "xLabel": "Month",
+        "yLabel": "Tons",
+        "series": [{"key": "tons", "label": "Tons"}],
+        "data": [
+          {"month": "Jan", "tons": 40},
+          {"month": "Feb", "tons": 55},
+          {"month": "Mar", "tons": 35},
+          {"month": "Apr", "tons": 70}
+        ]
+      },
+      "dropdowns": [
+        {"key": "b1", "before": "The month with the least recycling collected was ", "after": ".", "options": [{"value": "Jan"}, {"value": "Feb"}, {"value": "Mar"}, {"value": "Apr"}]},
+        {"key": "b2", "before": "The total recycling collected over the four months was ", "after": " tons.", "options": [{"value": "180"}, {"value": "190"}, {"value": "200"}, {"value": "210"}]}
+      ]
+    },
+    "correctAnswer": {"format": "dropdowns", "value": {"b1": "Mar", "b2": "200"}},
+    "explanation": "March is lowest at 35 tons. The total is $40 + 55 + 35 + 70 = 200$ tons.",
+    "estimatedTimeSeconds": 110,
+    "answerCheck": "answer.b1==='Mar' && answer.b2===String(sum(data.map(d=>d.tons)))"
+  },
+  {
+    "id": "g8-gi-03",
+    "section": "data_insights",
+    "type": "graphics_interpretation",
+    "topic": "graphics interpretation",
+    "difficulty": "hard",
+    "orderIndex": 2,
+    "stem": "The scatter plot shows, for six students, the number of hours studied and the resulting exam score. Use the drop-down menus to complete the statements consistent with the data.",
+    "assets": {
+      "chart": {
+        "type": "scatter",
+        "title": "Study hours vs exam score",
+        "xKey": "hours",
+        "xLabel": "Hours studied",
+        "yLabel": "Exam score",
+        "series": [{"key": "score", "label": "Score"}],
+        "data": [
+          {"hours": 1, "score": 55},
+          {"hours": 2, "score": 60},
+          {"hours": 3, "score": 70},
+          {"hours": 4, "score": 72},
+          {"hours": 5, "score": 85},
+          {"hours": 6, "score": 90}
+        ]
+      },
+      "dropdowns": [
+        {"key": "b1", "before": "As the number of hours studied increases, the exam score generally ", "after": ".", "options": [{"value": "increases"}, {"value": "decreases"}, {"value": "stays the same"}]},
+        {"key": "b2", "before": "The highest exam score recorded was ", "after": ".", "options": [{"value": "72"}, {"value": "85"}, {"value": "90"}, {"value": "95"}]}
+      ]
+    },
+    "correctAnswer": {"format": "dropdowns", "value": {"b1": "increases", "b2": "90"}},
+    "explanation": "Scores rise as study hours rise, so the relationship is increasing. The largest score among the six points is 90.",
+    "estimatedTimeSeconds": 130,
+    "answerCheck": "answer.b1==='increases' && answer.b2===String(max(data.map(d=>d.score)))"
+  },
+  {
+    "id": "g8-gi-04",
+    "section": "data_insights",
+    "type": "graphics_interpretation",
+    "topic": "graphics interpretation",
+    "difficulty": "medium",
+    "orderIndex": 3,
+    "stem": "The bar chart shows the number of new downloads, in thousands, of a mobile app in each of four quarters. Use the drop-down menus to complete the statements consistent with the data.",
+    "assets": {
+      "chart": {
+        "type": "bar",
+        "title": "App downloads (thousands)",
+        "xKey": "quarter",
+        "xLabel": "Quarter",
+        "yLabel": "Downloads (thousands)",
+        "series": [{"key": "downloads", "label": "Downloads"}],
+        "data": [
+          {"quarter": "Q1", "downloads": 12},
+          {"quarter": "Q2", "downloads": 20},
+          {"quarter": "Q3", "downloads": 36},
+          {"quarter": "Q4", "downloads": 16}
+        ]
+      },
+      "dropdowns": [
+        {"key": "b1", "before": "The quarter with the most downloads was ", "after": ".", "options": [{"value": "Q1"}, {"value": "Q2"}, {"value": "Q3"}, {"value": "Q4"}]},
+        {"key": "b2", "before": "The number of downloads in Q3 was ", "after": " the number in Q1.", "options": [{"value": "equal to"}, {"value": "twice"}, {"value": "three times"}, {"value": "four times"}]}
+      ]
+    },
+    "correctAnswer": {"format": "dropdowns", "value": {"b1": "Q3", "b2": "three times"}},
+    "explanation": "Q3 is tallest at 36 thousand downloads. Comparing Q3 to Q1, $36 / 12 = 3$, so Q3 had three times the downloads of Q1.",
+    "estimatedTimeSeconds": 120,
+    "answerCheck": "answer.b1==='Q3' && answer.b2==='three times' && data.find(d=>d.quarter==='Q3').downloads===3*data.find(d=>d.quarter==='Q1').downloads"
+  },
+  {
+    "id": "g8-gi-05",
+    "section": "data_insights",
+    "type": "graphics_interpretation",
+    "topic": "graphics interpretation",
+    "difficulty": "medium",
+    "orderIndex": 4,
+    "stem": "The line chart shows the water level, in meters, of a reservoir measured at the start of each of five months. Use the drop-down menus to complete the statements consistent with the data.",
+    "assets": {
+      "chart": {
+        "type": "line",
+        "title": "Reservoir water level (m)",
+        "xKey": "month",
+        "xLabel": "Month",
+        "yLabel": "Level (m)",
+        "series": [{"key": "level", "label": "Level"}],
+        "data": [
+          {"month": "M1", "level": 50},
+          {"month": "M2", "level": 46},
+          {"month": "M3", "level": 41},
+          {"month": "M4", "level": 44},
+          {"month": "M5", "level": 38}
+        ]
+      },
+      "dropdowns": [
+        {"key": "b1", "before": "The reservoir level was lowest in ", "after": ".", "options": [{"value": "M1"}, {"value": "M2"}, {"value": "M3"}, {"value": "M4"}, {"value": "M5"}]},
+        {"key": "b2", "before": "From M1 to M5 the level changed by ", "after": " meters.", "options": [{"value": "-8"}, {"value": "-10"}, {"value": "-12"}, {"value": "-14"}]}
+      ]
+    },
+    "correctAnswer": {"format": "dropdowns", "value": {"b1": "M5", "b2": "-12"}},
+    "explanation": "The lowest level, 38 m, occurs in M5. The change from M1 to M5 is $38 - 50 = -12$ meters.",
+    "estimatedTimeSeconds": 125,
+    "answerCheck": "answer.b1==='M5' && answer.b2===String(data[data.length-1].level - data[0].level)"
+  },
+  {
+    "id": "g8-gi-06",
+    "section": "data_insights",
+    "type": "graphics_interpretation",
+    "topic": "graphics interpretation",
+    "difficulty": "easy",
+    "orderIndex": 5,
+    "stem": "The bar chart shows the number of loaves of bread a bakery baked on each of four days. Use the drop-down menus to complete the statements consistent with the data.",
+    "assets": {
+      "chart": {
+        "type": "bar",
+        "title": "Loaves baked per day",
+        "xKey": "day",
+        "xLabel": "Day",
+        "yLabel": "Loaves",
+        "series": [{"key": "loaves", "label": "Loaves"}],
+        "data": [
+          {"day": "Thu", "loaves": 60},
+          {"day": "Fri", "loaves": 80},
+          {"day": "Sat", "loaves": 110},
+          {"day": "Sun", "loaves": 90}
+        ]
+      },
+      "dropdowns": [
+        {"key": "b1", "before": "The day with the most loaves baked was ", "after": ".", "options": [{"value": "Thu"}, {"value": "Fri"}, {"value": "Sat"}, {"value": "Sun"}]},
+        {"key": "b2", "before": "The average number of loaves baked per day was ", "after": ".", "options": [{"value": "75"}, {"value": "80"}, {"value": "85"}, {"value": "90"}]}
+      ]
+    },
+    "correctAnswer": {"format": "dropdowns", "value": {"b1": "Sat", "b2": "85"}},
+    "explanation": "Saturday is tallest at 110 loaves. The average is $(60 + 80 + 110 + 90) / 4 = 340 / 4 = 85$.",
+    "estimatedTimeSeconds": 115,
+    "answerCheck": "answer.b1==='Sat' && answer.b2===String(sum(data.map(d=>d.loaves))/data.length)"
+  },
+  {
+    "id": "g8-gi-07",
+    "section": "data_insights",
+    "type": "graphics_interpretation",
+    "topic": "graphics interpretation",
+    "difficulty": "hard",
+    "orderIndex": 6,
+    "stem": "The scatter plot shows, for six days, the daily high temperature in degrees Celsius and the number of cold drinks a kiosk sold. Use the drop-down menus to complete the statements consistent with the data.",
+    "assets": {
+      "chart": {
+        "type": "scatter",
+        "title": "Temperature vs cold drinks sold",
+        "xKey": "temp",
+        "xLabel": "High temperature (C)",
+        "yLabel": "Drinks sold",
+        "series": [{"key": "drinks", "label": "Drinks"}],
+        "data": [
+          {"temp": 20, "drinks": 30},
+          {"temp": 22, "drinks": 38},
+          {"temp": 25, "drinks": 50},
+          {"temp": 28, "drinks": 62},
+          {"temp": 30, "drinks": 75},
+          {"temp": 33, "drinks": 88}
+        ]
+      },
+      "dropdowns": [
+        {"key": "b1", "before": "The relationship between high temperature and drinks sold is best described as ", "after": ".", "options": [{"value": "positive"}, {"value": "negative"}, {"value": "no relationship"}]},
+        {"key": "b2", "before": "The greatest number of drinks sold on any day was ", "after": ".", "options": [{"value": "62"}, {"value": "75"}, {"value": "88"}, {"value": "90"}]}
+      ]
+    },
+    "correctAnswer": {"format": "dropdowns", "value": {"b1": "positive", "b2": "88"}},
+    "explanation": "Higher temperatures correspond to more drinks sold, so the relationship is positive. The maximum drinks sold among the points is 88.",
+    "estimatedTimeSeconds": 130,
+    "answerCheck": "answer.b1==='positive' && answer.b2===String(max(data.map(d=>d.drinks)))"
+  },
+  {
+    "id": "g8-gi-08",
+    "section": "data_insights",
+    "type": "graphics_interpretation",
+    "topic": "graphics interpretation",
+    "difficulty": "medium",
+    "orderIndex": 7,
+    "stem": "The line chart shows the number of unique visitors, in thousands, to a website on each of five weeks. Use the drop-down menus to complete the statements consistent with the data.",
+    "assets": {
+      "chart": {
+        "type": "line",
+        "title": "Weekly unique visitors (thousands)",
+        "xKey": "week",
+        "xLabel": "Week",
+        "yLabel": "Visitors (thousands)",
+        "series": [{"key": "visitors", "label": "Visitors"}],
+        "data": [
+          {"week": "W1", "visitors": 8},
+          {"week": "W2", "visitors": 14},
+          {"week": "W3", "visitors": 11},
+          {"week": "W4", "visitors": 19},
+          {"week": "W5", "visitors": 20}
+        ]
+      },
+      "dropdowns": [
+        {"key": "b1", "before": "The largest week-over-week increase in visitors occurred between ", "after": ".", "options": [{"value": "W1 and W2"}, {"value": "W2 and W3"}, {"value": "W3 and W4"}, {"value": "W4 and W5"}]},
+        {"key": "b2", "before": "The total number of visitors over the five weeks was ", "after": " thousand.", "options": [{"value": "68"}, {"value": "70"}, {"value": "72"}, {"value": "74"}]}
+      ]
+    },
+    "correctAnswer": {"format": "dropdowns", "value": {"b1": "W3 and W4", "b2": "72"}},
+    "explanation": "Week-over-week changes are $+6$ (W1 to W2), $-3$ (W2 to W3), $+8$ (W3 to W4), and $+1$ (W4 to W5). The largest increase, $+8$, occurs between W3 and W4. The total is $8 + 14 + 11 + 19 + 20 = 72$ thousand.",
+    "estimatedTimeSeconds": 130,
+    "answerCheck": "answer.b1==='W3 and W4' && answer.b2===String(sum(data.map(d=>d.visitors)))"
+  },
+  {
+    "id": "g8-ta-01",
+    "section": "data_insights",
+    "type": "table_analysis",
+    "topic": "table analysis",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "The table lists five runners who finished a 10-kilometer race, with each runner's age, finishing time in minutes, and bib number. For each statement, select True if it can be determined to be true from the data, and False otherwise.",
+    "assets": {
+      "table": {
+        "sortable": true,
+        "caption": "Race results",
+        "columns": [
+          {"key": "runner", "label": "Runner"},
+          {"key": "age", "label": "Age", "numeric": true},
+          {"key": "time", "label": "Time (min)", "numeric": true},
+          {"key": "bib", "label": "Bib", "numeric": true}
+        ],
+        "rows": [
+          {"runner": "Iris", "age": 34, "time": 52, "bib": 118},
+          {"runner": "Jonas", "age": 41, "time": 47, "bib": 205},
+          {"runner": "Kira", "age": 29, "time": 55, "bib": 142},
+          {"runner": "Liam", "age": 38, "time": 49, "bib": 173},
+          {"runner": "Mara", "age": 45, "time": 58, "bib": 96}
+        ]
+      },
+      "dichotomous": {"labels": ["True", "False"]}
+    },
+    "choices": [
+      {"key": "s1", "text": "Jonas had the fastest finishing time."},
+      {"key": "s2", "text": "The runner with the highest bib number was the youngest."},
+      {"key": "s3", "text": "Every runner over the age of 40 finished in under 50 minutes."}
+    ],
+    "correctAnswer": {"format": "dichotomous", "value": {"s1": "True", "s2": "False", "s3": "False"}},
+    "explanation": "s1 — True. Jonas's 47 minutes is the smallest time among 52, 47, 55, 49, 58.\n\ns2 — False. The highest bib number is Jonas's 205, but the youngest runner is Kira at age 29.\n\ns3 — False. Runners over 40 are Jonas (47, under 50) and Mara (58, not under 50), so not every such runner finished in under 50 minutes.",
+    "estimatedTimeSeconds": 165,
+    "answerCheck": "answer.s1==='True' && answer.s2==='False' && answer.s3==='False'"
+  },
+  {
+    "id": "g8-ta-02",
+    "section": "data_insights",
+    "type": "table_analysis",
+    "topic": "table analysis",
+    "difficulty": "medium",
+    "orderIndex": 1,
+    "stem": "The table lists five used cars offered by a dealer, with the price, model year, and odometer reading of each. For each statement, select True if it can be determined to be true from the data, and False otherwise.",
+    "assets": {
+      "table": {
+        "sortable": true,
+        "caption": "Used car inventory",
+        "columns": [
+          {"key": "car", "label": "Car"},
+          {"key": "price", "label": "Price", "numeric": true},
+          {"key": "year", "label": "Year", "numeric": true},
+          {"key": "miles", "label": "Odometer", "numeric": true}
+        ],
+        "rows": [
+          {"car": "Falcon", "price": 12000, "year": 2018, "miles": 60000},
+          {"car": "Comet", "price": 7000, "year": 2016, "miles": 82000},
+          {"car": "Dart", "price": 15000, "year": 2020, "miles": 35000},
+          {"car": "Lark", "price": 8000, "year": 2015, "miles": 95000},
+          {"car": "Nova", "price": 11000, "year": 2019, "miles": 48000}
+        ]
+      },
+      "dichotomous": {"labels": ["True", "False"]}
+    },
+    "choices": [
+      {"key": "s1", "text": "The most expensive car has the lowest odometer reading."},
+      {"key": "s2", "text": "The oldest car is also the cheapest."},
+      {"key": "s3", "text": "Exactly two cars are priced above 11000."}
+    ],
+    "correctAnswer": {"format": "dichotomous", "value": {"s1": "True", "s2": "False", "s3": "True"}},
+    "explanation": "s1 — True. The Dart is most expensive at 15000 and has the lowest odometer reading at 35000.\n\ns2 — False. The oldest car is the Lark (2015), but the cheapest car is the Comet at 7000, so the oldest car is not the cheapest.\n\ns3 — True. Prices above 11000 are the Falcon (12000) and the Dart (15000), exactly two cars.",
+    "estimatedTimeSeconds": 165,
+    "answerCheck": "answer.s1==='True' && answer.s2==='False' && answer.s3==='True'"
+  },
+  {
+    "id": "g8-ta-03",
+    "section": "data_insights",
+    "type": "table_analysis",
+    "topic": "table analysis",
+    "difficulty": "hard",
+    "orderIndex": 2,
+    "stem": "The table lists six coffee shops, showing for each the number of seats, the average daily customers, and the number of staff. For each statement, select True if it can be determined to be true from the data, and False otherwise.",
+    "assets": {
+      "table": {
+        "sortable": true,
+        "caption": "Coffee shop metrics",
+        "columns": [
+          {"key": "shop", "label": "Shop"},
+          {"key": "seats", "label": "Seats", "numeric": true},
+          {"key": "customers", "label": "Daily customers", "numeric": true},
+          {"key": "staff", "label": "Staff", "numeric": true}
+        ],
+        "rows": [
+          {"shop": "Acorn", "seats": 20, "customers": 180, "staff": 4},
+          {"shop": "Birch", "seats": 30, "customers": 240, "staff": 6},
+          {"shop": "Cedar", "seats": 15, "customers": 120, "staff": 3},
+          {"shop": "Dawn", "seats": 25, "customers": 150, "staff": 5},
+          {"shop": "Elm", "seats": 40, "customers": 360, "staff": 8},
+          {"shop": "Fern", "seats": 10, "customers": 90, "staff": 2}
+        ]
+      },
+      "dichotomous": {"labels": ["True", "False"]}
+    },
+    "choices": [
+      {"key": "s1", "text": "The shop with the most seats also serves the most daily customers."},
+      {"key": "s2", "text": "Every shop serves at least 8 daily customers per seat."},
+      {"key": "s3", "text": "More than half of the shops have at least 5 staff."}
+    ],
+    "correctAnswer": {"format": "dichotomous", "value": {"s1": "True", "s2": "False", "s3": "False"}},
+    "explanation": "s1 — True. Elm has the most seats (40) and the most daily customers (360).\n\ns2 — False. Customers per seat are Acorn 9, Birch 8, Cedar 8, Dawn 6, Elm 9, Fern 9. Dawn's ratio is $150 / 25 = 6$, which is below 8, so not every shop meets the threshold.\n\ns3 — False. Shops with at least 5 staff are Birch (6), Dawn (5), and Elm (8), which is 3 of 6 shops, exactly half, not more than half.",
+    "estimatedTimeSeconds": 175,
+    "answerCheck": "answer.s1==='True' && answer.s2==='False' && answer.s3==='False'"
+  },
+  {
+    "id": "g8-ta-04",
+    "section": "data_insights",
+    "type": "table_analysis",
+    "topic": "table analysis",
+    "difficulty": "medium",
+    "orderIndex": 3,
+    "stem": "The table lists five national parks, showing for each the annual number of visitors in thousands, the area in square kilometers, and the number of marked trails. For each statement, select True if it can be determined to be true from the data, and False otherwise.",
+    "assets": {
+      "table": {
+        "sortable": true,
+        "caption": "National park data",
+        "columns": [
+          {"key": "park", "label": "Park"},
+          {"key": "visitors", "label": "Visitors (thousands)", "numeric": true},
+          {"key": "area", "label": "Area (sq km)", "numeric": true},
+          {"key": "trails", "label": "Trails", "numeric": true}
+        ],
+        "rows": [
+          {"park": "Granite Ridge", "visitors": 320, "area": 800, "trails": 12},
+          {"park": "Hollow Lake", "visitors": 150, "area": 450, "trails": 9},
+          {"park": "Iron Peak", "visitors": 280, "area": 1200, "trails": 15},
+          {"park": "Juniper Flats", "visitors": 95, "area": 300, "trails": 6},
+          {"park": "Kettle Falls", "visitors": 410, "area": 650, "trails": 10}
+        ]
+      },
+      "dichotomous": {"labels": ["True", "False"]}
+    },
+    "choices": [
+      {"key": "s1", "text": "The park with the most visitors also has the largest area."},
+      {"key": "s2", "text": "The park with the largest area has the most marked trails."},
+      {"key": "s3", "text": "Every park with more than 200 thousand visitors has at least 10 trails."}
+    ],
+    "correctAnswer": {"format": "dichotomous", "value": {"s1": "False", "s2": "True", "s3": "True"}},
+    "explanation": "s1 — False. Kettle Falls has the most visitors (410 thousand), but its area (650) is not the largest; Iron Peak has 1200.\n\ns2 — True. Iron Peak has the largest area (1200) and the most trails (15).\n\ns3 — True. Parks with more than 200 thousand visitors are Granite Ridge (12 trails), Iron Peak (15 trails), and Kettle Falls (10 trails), each with at least 10 trails.",
+    "estimatedTimeSeconds": 170,
+    "answerCheck": "answer.s1==='False' && answer.s2==='True' && answer.s3==='True'"
+  },
+  {
+    "id": "g8-ta-05",
+    "section": "data_insights",
+    "type": "table_analysis",
+    "topic": "table analysis",
+    "difficulty": "hard",
+    "orderIndex": 4,
+    "stem": "The table lists five software releases, showing for each the number of new features, the number of bugs reported, and the team size. For each statement, select True if it can be determined to be true from the data, and False otherwise.",
+    "assets": {
+      "table": {
+        "sortable": true,
+        "caption": "Software release log",
+        "columns": [
+          {"key": "release", "label": "Release"},
+          {"key": "features", "label": "New features", "numeric": true},
+          {"key": "bugs", "label": "Bugs reported", "numeric": true},
+          {"key": "team", "label": "Team size", "numeric": true}
+        ],
+        "rows": [
+          {"release": "v1.0", "features": 8, "bugs": 24, "team": 4},
+          {"release": "v1.1", "features": 5, "bugs": 10, "team": 5},
+          {"release": "v2.0", "features": 12, "bugs": 36, "team": 6},
+          {"release": "v2.1", "features": 6, "bugs": 18, "team": 3},
+          {"release": "v3.0", "features": 10, "bugs": 20, "team": 5}
+        ]
+      },
+      "dichotomous": {"labels": ["True", "False"]}
+    },
+    "choices": [
+      {"key": "s1", "text": "The release with the most new features also reported the most bugs."},
+      {"key": "s2", "text": "For every release, the number of bugs reported was at least twice the number of new features."},
+      {"key": "s3", "text": "The median team size across the five releases was 5."}
+    ],
+    "correctAnswer": {"format": "dichotomous", "value": {"s1": "True", "s2": "True", "s3": "True"}},
+    "explanation": "s1 — True. v2.0 has the most new features (12) and the most bugs (36).\n\ns2 — True. Bugs versus twice features: v1.0 24 vs 16, v1.1 10 vs 10, v2.0 36 vs 24, v2.1 18 vs 12, v3.0 20 vs 20. In every case bugs are at least twice the features.\n\ns3 — True. Sorting team sizes 4, 5, 6, 3, 5 gives 3, 4, 5, 5, 6, and the middle value is 5.",
+    "estimatedTimeSeconds": 180,
+    "answerCheck": "answer.s1==='True' && answer.s2==='True' && answer.s3==='True'"
+  },
+  {
+    "id": "g8-ta-06",
+    "section": "data_insights",
+    "type": "table_analysis",
+    "topic": "table analysis",
+    "difficulty": "medium",
+    "orderIndex": 5,
+    "stem": "The table lists five public libraries, showing for each the number of books in thousands, the number of weekly visitors, and the number of computers available. For each statement, select True if it can be determined to be true from the data, and False otherwise.",
+    "assets": {
+      "table": {
+        "sortable": true,
+        "caption": "Library statistics",
+        "columns": [
+          {"key": "library", "label": "Library"},
+          {"key": "books", "label": "Books (thousands)", "numeric": true},
+          {"key": "visitors", "label": "Weekly visitors", "numeric": true},
+          {"key": "computers", "label": "Computers", "numeric": true}
+        ],
+        "rows": [
+          {"library": "Maple", "books": 45, "visitors": 1200, "computers": 20},
+          {"library": "Oak", "books": 30, "visitors": 900, "computers": 15},
+          {"library": "Pine", "books": 60, "visitors": 1500, "computers": 25},
+          {"library": "Spruce", "books": 25, "visitors": 1100, "computers": 12},
+          {"library": "Willow", "books": 50, "visitors": 800, "computers": 18}
+        ]
+      },
+      "dichotomous": {"labels": ["True", "False"]}
+    },
+    "choices": [
+      {"key": "s1", "text": "The library with the most books also has the most weekly visitors."},
+      {"key": "s2", "text": "The library with the fewest weekly visitors has the fewest computers."},
+      {"key": "s3", "text": "Exactly three libraries have more than 1000 weekly visitors."}
+    ],
+    "correctAnswer": {"format": "dichotomous", "value": {"s1": "True", "s2": "False", "s3": "True"}},
+    "explanation": "s1 — True. Pine has the most books (60 thousand) and the most weekly visitors (1500).\n\ns2 — False. The fewest weekly visitors belong to Willow (800), but the fewest computers belong to Spruce (12), not Willow (18).\n\ns3 — True. Libraries with more than 1000 weekly visitors are Maple (1200), Pine (1500), and Spruce (1100), exactly three.",
+    "estimatedTimeSeconds": 165,
+    "answerCheck": "answer.s1==='True' && answer.s2==='False' && answer.s3==='True'"
+  },
+  {
+    "id": "g8-ta-07",
+    "section": "data_insights",
+    "type": "table_analysis",
+    "topic": "table analysis",
+    "difficulty": "easy",
+    "orderIndex": 6,
+    "stem": "The table lists four food trucks at a market, showing for each the number of items sold, the revenue, and the rating out of 5. For each statement, select True if it can be determined to be true from the data, and False otherwise.",
+    "assets": {
+      "table": {
+        "sortable": true,
+        "caption": "Food truck sales",
+        "columns": [
+          {"key": "truck", "label": "Truck"},
+          {"key": "items", "label": "Items sold", "numeric": true},
+          {"key": "revenue", "label": "Revenue", "numeric": true},
+          {"key": "rating", "label": "Rating", "numeric": true}
+        ],
+        "rows": [
+          {"truck": "Tacos Plus", "items": 120, "revenue": 960, "rating": 5},
+          {"truck": "Noodle Bar", "items": 80, "revenue": 720, "rating": 4},
+          {"truck": "Burger Hut", "items": 150, "revenue": 1050, "rating": 4},
+          {"truck": "Wrap Cart", "items": 60, "revenue": 540, "rating": 3}
+        ]
+      },
+      "dichotomous": {"labels": ["True", "False"]}
+    },
+    "choices": [
+      {"key": "s1", "text": "Burger Hut sold the most items."},
+      {"key": "s2", "text": "The truck with the highest rating earned the most revenue."},
+      {"key": "s3", "text": "Every truck earned at least 500 in revenue."}
+    ],
+    "correctAnswer": {"format": "dichotomous", "value": {"s1": "True", "s2": "False", "s3": "True"}},
+    "explanation": "s1 — True. Burger Hut sold 150 items, the most among 120, 80, 150, 60.\n\ns2 — False. The highest rating is Tacos Plus at 5, but the most revenue is Burger Hut at 1050, not Tacos Plus at 960.\n\ns3 — True. Revenues are 960, 720, 1050, and 540, all at least 500.",
+    "estimatedTimeSeconds": 150,
+    "answerCheck": "answer.s1==='True' && answer.s2==='False' && answer.s3==='True'"
+  },
+  {
+    "id": "g8-ta-08",
+    "section": "data_insights",
+    "type": "table_analysis",
+    "topic": "table analysis",
+    "difficulty": "medium",
+    "orderIndex": 7,
+    "stem": "The table lists six hiking trails, showing for each the length in kilometers, the elevation gain in meters, and the estimated completion time in hours. For each statement, select True if it can be determined to be true from the data, and False otherwise.",
+    "assets": {
+      "table": {
+        "sortable": true,
+        "caption": "Hiking trail guide",
+        "columns": [
+          {"key": "trail", "label": "Trail"},
+          {"key": "length", "label": "Length (km)", "numeric": true},
+          {"key": "gain", "label": "Elevation gain (m)", "numeric": true},
+          {"key": "hours", "label": "Time (hours)", "numeric": true}
+        ],
+        "rows": [
+          {"trail": "Ridgeline", "length": 8, "gain": 600, "hours": 4},
+          {"trail": "Brookside", "length": 5, "gain": 200, "hours": 2},
+          {"trail": "Summit Loop", "length": 12, "gain": 900, "hours": 6},
+          {"trail": "Meadow Walk", "length": 3, "gain": 100, "hours": 1},
+          {"trail": "Canyon Edge", "length": 10, "gain": 750, "hours": 5},
+          {"trail": "Pine Path", "length": 6, "gain": 300, "hours": 3}
+        ]
+      },
+      "dichotomous": {"labels": ["True", "False"]}
+    },
+    "choices": [
+      {"key": "s1", "text": "The longest trail has the greatest elevation gain."},
+      {"key": "s2", "text": "Every trail longer than 7 kilometers takes more than 3 hours."},
+      {"key": "s3", "text": "The shortest trail has the least elevation gain."}
+    ],
+    "correctAnswer": {"format": "dichotomous", "value": {"s1": "True", "s2": "True", "s3": "True"}},
+    "explanation": "s1 — True. Summit Loop is longest at 12 km and has the greatest elevation gain at 900 m.\n\ns2 — True. Trails longer than 7 km are Ridgeline (4 hours), Summit Loop (6 hours), and Canyon Edge (5 hours), each taking more than 3 hours.\n\ns3 — True. Meadow Walk is shortest at 3 km and has the least elevation gain at 100 m.",
+    "estimatedTimeSeconds": 175,
+    "answerCheck": "answer.s1==='True' && answer.s2==='True' && answer.s3==='True'"
+  },
+  {
+    "id": "g8-tp-01",
+    "section": "data_insights",
+    "type": "two_part_analysis",
+    "topic": "two-part analysis",
+    "difficulty": "medium",
+    "orderIndex": 0,
+    "stem": "Two positive numbers $p$ and $q$ satisfy $p + q = 20$ and $p - q = 6$. In the table, select the value of $p$ and the value of $q$. Make exactly one selection in each column.",
+    "assets": {"twoPart": {"columns": [{"key": "partP", "label": "Value of p"}, {"key": "partQ", "label": "Value of q"}]}},
+    "choices": [
+      {"key": "r1", "text": "5"},
+      {"key": "r2", "text": "7"},
+      {"key": "r3", "text": "9"},
+      {"key": "r4", "text": "11"},
+      {"key": "r5", "text": "13"},
+      {"key": "r6", "text": "15"}
+    ],
+    "correctAnswer": {"format": "two_part", "value": {"partP": "r5", "partQ": "r2"}},
+    "explanation": "Adding the equations gives $2p = 26$, so $p = 13$. Then $q = 20 - 13 = 7$.",
+    "estimatedTimeSeconds": 120,
+    "answerCheck": "answer.partP==='r5' && answer.partQ==='r2'"
+  },
+  {
+    "id": "g8-tp-02",
+    "section": "data_insights",
+    "type": "two_part_analysis",
+    "topic": "two-part analysis",
+    "difficulty": "medium",
+    "orderIndex": 1,
+    "stem": "A store sells notebooks at one fixed price each and pens at another fixed price each. Two notebooks and three pens cost 16, and one notebook and one pen cost 6. In the table, select the price of one notebook and the price of one pen. Make exactly one selection in each column.",
+    "assets": {"twoPart": {"columns": [{"key": "notebook", "label": "Price of a notebook"}, {"key": "pen", "label": "Price of a pen"}]}},
+    "choices": [
+      {"key": "r1", "text": "1"},
+      {"key": "r2", "text": "2"},
+      {"key": "r3", "text": "3"},
+      {"key": "r4", "text": "4"},
+      {"key": "r5", "text": "5"}
+    ],
+    "correctAnswer": {"format": "two_part", "value": {"notebook": "r2", "pen": "r4"}},
+    "explanation": "Let n be the notebook price and p the pen price. Then $2n + 3p = 16$ and $n + p = 6$. From the second, $n = 6 - p$; substituting gives $2(6 - p) + 3p = 16$, so $12 + p = 16$ and $p = 4$. Then $n = 6 - 4 = 2$.",
+    "estimatedTimeSeconds": 135,
+    "answerCheck": "answer.notebook==='r2' && answer.pen==='r4'"
+  },
+  {
+    "id": "g8-tp-03",
+    "section": "data_insights",
+    "type": "two_part_analysis",
+    "topic": "two-part analysis",
+    "difficulty": "hard",
+    "orderIndex": 2,
+    "stem": "A bag holds red and green tokens in the ratio $4 : 3$, and the bag holds 56 tokens in total. In the table, select the number of red tokens and the number of green tokens. Make exactly one selection in each column.",
+    "assets": {"twoPart": {"columns": [{"key": "red", "label": "Red tokens"}, {"key": "green", "label": "Green tokens"}]}},
+    "choices": [
+      {"key": "r1", "text": "18"},
+      {"key": "r2", "text": "21"},
+      {"key": "r3", "text": "24"},
+      {"key": "r4", "text": "28"},
+      {"key": "r5", "text": "32"},
+      {"key": "r6", "text": "35"}
+    ],
+    "correctAnswer": {"format": "two_part", "value": {"red": "r5", "green": "r2"}},
+    "explanation": "The ratio $4 : 3$ has 7 parts, so each part is $56 / 7 = 8$. Red is $4 \\times 8 = 32$ and green is $3 \\times 8 = 21$.",
+    "estimatedTimeSeconds": 140,
+    "answerCheck": "answer.red==='r5' && answer.green==='r2'"
+  },
+  {
+    "id": "g8-tp-04",
+    "section": "data_insights",
+    "type": "two_part_analysis",
+    "topic": "two-part analysis",
+    "difficulty": "medium",
+    "orderIndex": 3,
+    "stem": "A two-digit number has tens digit $t$ and units digit $u$. The digits sum to 11, and the tens digit is 3 more than the units digit. In the table, select the tens digit and the units digit. Make exactly one selection in each column.",
+    "assets": {"twoPart": {"columns": [{"key": "tens", "label": "Tens digit"}, {"key": "units", "label": "Units digit"}]}},
+    "choices": [
+      {"key": "r1", "text": "2"},
+      {"key": "r2", "text": "4"},
+      {"key": "r3", "text": "5"},
+      {"key": "r4", "text": "7"},
+      {"key": "r5", "text": "9"}
+    ],
+    "correctAnswer": {"format": "two_part", "value": {"tens": "r4", "units": "r2"}},
+    "explanation": "From $t + u = 11$ and $t = u + 3$, substitute to get $(u + 3) + u = 11$, so $2u = 8$ and $u = 4$. Then $t = 4 + 3 = 7$.",
+    "estimatedTimeSeconds": 135,
+    "answerCheck": "answer.tens==='r4' && answer.units==='r2'"
+  },
+  {
+    "id": "g8-tp-05",
+    "section": "data_insights",
+    "type": "two_part_analysis",
+    "topic": "two-part analysis",
+    "difficulty": "hard",
+    "orderIndex": 4,
+    "stem": "A boat travels with a current and against it on a river. With the current its effective speed is 18 km/h, and against the current its effective speed is 12 km/h. The boat's speed in still water is $b$ and the current's speed is $c$. In the table, select the value of $b$ and the value of $c$. Make exactly one selection in each column.",
+    "assets": {"twoPart": {"columns": [{"key": "boat", "label": "Boat speed (km/h)"}, {"key": "current", "label": "Current speed (km/h)"}]}},
+    "choices": [
+      {"key": "r1", "text": "3"},
+      {"key": "r2", "text": "6"},
+      {"key": "r3", "text": "9"},
+      {"key": "r4", "text": "12"},
+      {"key": "r5", "text": "15"}
+    ],
+    "correctAnswer": {"format": "two_part", "value": {"boat": "r5", "current": "r1"}},
+    "explanation": "Downstream speed $b + c = 18$ and upstream speed $b - c = 12$. Adding gives $2b = 30$, so $b = 15$. Then $c = 18 - 15 = 3$.",
+    "estimatedTimeSeconds": 145,
+    "answerCheck": "answer.boat==='r5' && answer.current==='r1'"
+  },
+  {
+    "id": "g8-tp-06",
+    "section": "data_insights",
+    "type": "two_part_analysis",
+    "topic": "two-part analysis",
+    "difficulty": "medium",
+    "orderIndex": 5,
+    "stem": "A father is currently 4 times as old as his daughter. In 5 years the father will be 3 times as old as his daughter. Let $f$ be the father's current age and $d$ the daughter's current age. In the table, select the value of $f$ and the value of $d$. Make exactly one selection in each column.",
+    "assets": {"twoPart": {"columns": [{"key": "father", "label": "Father's age"}, {"key": "daughter", "label": "Daughter's age"}]}},
+    "choices": [
+      {"key": "r1", "text": "8"},
+      {"key": "r2", "text": "10"},
+      {"key": "r3", "text": "12"},
+      {"key": "r4", "text": "30"},
+      {"key": "r5", "text": "40"},
+      {"key": "r6", "text": "48"}
+    ],
+    "correctAnswer": {"format": "two_part", "value": {"father": "r5", "daughter": "r2"}},
+    "explanation": "Now $f = 4d$. In 5 years $f + 5 = 3(d + 5)$. Substituting, $4d + 5 = 3d + 15$, so $d = 10$. Then $f = 4 \\times 10 = 40$.",
+    "estimatedTimeSeconds": 140,
+    "answerCheck": "answer.father==='r5' && answer.daughter==='r2'"
+  },
+  {
+    "id": "g8-tp-07",
+    "section": "data_insights",
+    "type": "two_part_analysis",
+    "topic": "two-part analysis",
+    "difficulty": "easy",
+    "orderIndex": 6,
+    "stem": "The sum of two numbers $m$ and $n$ is 24, and one number is twice the other, with $m$ being the larger. In the table, select the value of $m$ and the value of $n$. Make exactly one selection in each column.",
+    "assets": {"twoPart": {"columns": [{"key": "larger", "label": "Value of m"}, {"key": "smaller", "label": "Value of n"}]}},
+    "choices": [
+      {"key": "r1", "text": "6"},
+      {"key": "r2", "text": "8"},
+      {"key": "r3", "text": "12"},
+      {"key": "r4", "text": "16"},
+      {"key": "r5", "text": "18"}
+    ],
+    "correctAnswer": {"format": "two_part", "value": {"larger": "r4", "smaller": "r2"}},
+    "explanation": "With $m = 2n$ and $m + n = 24$, substitute to get $2n + n = 24$, so $3n = 24$ and $n = 8$. Then $m = 2 \\times 8 = 16$.",
+    "estimatedTimeSeconds": 110,
+    "answerCheck": "answer.larger==='r4' && answer.smaller==='r2'"
+  },
+  {
+    "id": "g8-tp-08",
+    "section": "data_insights",
+    "type": "two_part_analysis",
+    "topic": "two-part analysis",
+    "difficulty": "hard",
+    "orderIndex": 7,
+    "stem": "A chemist mixes a 10 percent salt solution with a 30 percent salt solution to make 40 liters of a 25 percent salt solution. Let $x$ be the liters of the 10 percent solution and $y$ the liters of the 30 percent solution. In the table, select the value of $x$ and the value of $y$. Make exactly one selection in each column.",
+    "assets": {"twoPart": {"columns": [{"key": "weak", "label": "Liters of 10% solution"}, {"key": "strong", "label": "Liters of 30% solution"}]}},
+    "choices": [
+      {"key": "r1", "text": "5"},
+      {"key": "r2", "text": "10"},
+      {"key": "r3", "text": "15"},
+      {"key": "r4", "text": "20"},
+      {"key": "r5", "text": "25"},
+      {"key": "r6", "text": "30"}
+    ],
+    "correctAnswer": {"format": "two_part", "value": {"weak": "r2", "strong": "r6"}},
+    "explanation": "Volumes: $x + y = 40$. Salt content: $0.10x + 0.30y = 0.25(40) = 10$. From the first, $x = 40 - y$; substitute: $0.10(40 - y) + 0.30y = 10$, so $4 + 0.20y = 10$, giving $0.20y = 6$ and $y = 30$. Then $x = 40 - 30 = 10$.",
+    "estimatedTimeSeconds": 150,
+    "answerCheck": "answer.weak==='r2' && answer.strong==='r6'"
+  },
+  {
+    "id": "g8-msr-01",
+    "section": "data_insights",
+    "type": "multi_source_reasoning",
+    "topic": "multi-source reasoning",
+    "difficulty": "medium",
+    "groupId": "g8-msr-grp-1",
+    "orderIndex": 1,
+    "stem": "A member takes a single ride that lasts 50 minutes on a standard bike. Under the Pay-As-You-Go plan, what is the total cost of this ride?",
+    "choices": [
+      {"key": "A", "text": "1.00"},
+      {"key": "B", "text": "2.50"},
+      {"key": "C", "text": "4.00"},
+      {"key": "D", "text": "5.50"},
+      {"key": "E", "text": "7.00"}
+    ],
+    "correctAnswer": {"format": "single", "value": "D"},
+    "explanation": "Pay-As-You-Go charges a 1.00 unlock fee plus the standard rate of 0.09 per minute on a standard bike. For 50 minutes the time charge is $50 \\times 0.09 = 4.50$, and adding the 1.00 unlock fee gives a total of 5.50. Answer D.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g8-msr-02",
+    "section": "data_insights",
+    "type": "multi_source_reasoning",
+    "topic": "multi-source reasoning",
+    "difficulty": "medium",
+    "groupId": "g8-msr-grp-1",
+    "orderIndex": 2,
+    "stem": "A Monthly Pass holder takes a 40-minute ride on an electric bike. Based on the sources, what is the total cost of this ride to the member, in addition to the monthly fee already paid?",
+    "choices": [
+      {"key": "A", "text": "0"},
+      {"key": "B", "text": "2.40"},
+      {"key": "C", "text": "3.60"},
+      {"key": "D", "text": "6.00"},
+      {"key": "E", "text": "9.60"}
+    ],
+    "correctAnswer": {"format": "single", "value": "B"},
+    "explanation": "Under the Monthly Pass, the first 30 minutes of each ride are fully free, waiving both the standard rate and the electric surcharge. Only the minutes beyond 30 are billed, here $40 - 30 = 10$ minutes. Each billed minute on an electric bike costs $0.09 + 0.15 = 0.24$, so the charge is $10 \\times 0.24 = 2.40$. There is no unlock fee on the Monthly Pass. Answer B.",
+    "estimatedTimeSeconds": 135
+  },
+  {
+    "id": "g8-msr-03",
+    "section": "data_insights",
+    "type": "multi_source_reasoning",
+    "topic": "multi-source reasoning",
+    "difficulty": "hard",
+    "groupId": "g8-msr-grp-1",
+    "orderIndex": 3,
+    "stem": "Based on the two sources, select Yes if the statement must be true and No otherwise.",
+    "assets": {"dichotomous": {"labels": ["Yes", "No"]}},
+    "choices": [
+      {"key": "s1", "text": "A Pay-As-You-Go rider on a standard bike for exactly 20 minutes pays less than 3.00."},
+      {"key": "s2", "text": "A member who takes ten 25-minute standard rides in a month always pays less with the Monthly Pass than with Pay-As-You-Go."},
+      {"key": "s3", "text": "An electric bike ride always costs more than a standard bike ride of the same duration under Pay-As-You-Go."}
+    ],
+    "correctAnswer": {"format": "dichotomous", "value": {"s1": "Yes", "s2": "Yes", "s3": "Yes"}},
+    "explanation": "s1 — Yes. Pay-As-You-Go for a 20-minute standard ride is the 1.00 unlock plus $20 \\times 0.09 = 1.80$, totaling 2.80, which is less than 3.00.\n\ns2 — Yes. Pay-As-You-Go for ten 25-minute standard rides is $10 \\times (1.00 + 25 \\times 0.09) = 10 \\times 3.25 = 32.50$. The Monthly Pass costs 20.00 and includes the first 30 minutes of every ride, so each 25-minute ride is fully covered with no extra charge, giving 20.00 total, which is less than 32.50.\n\ns3 — Yes. The electric surcharge of 0.15 per minute is positive and applies on top of the standard rate, so for any equal duration the electric ride costs strictly more.",
+    "estimatedTimeSeconds": 165
+  },
+  {
+    "id": "g8-msr-04",
+    "section": "data_insights",
+    "type": "multi_source_reasoning",
+    "topic": "multi-source reasoning",
+    "difficulty": "medium",
+    "groupId": "g8-msr-grp-2",
+    "orderIndex": 1,
+    "stem": "A learner enrolls in the Data Track and completes Course 1 and Course 2 but not the capstone. Based on the sources, how many certificate credits does the learner earn?",
+    "choices": [
+      {"key": "A", "text": "2"},
+      {"key": "B", "text": "3"},
+      {"key": "C", "text": "5"},
+      {"key": "D", "text": "8"},
+      {"key": "E", "text": "10"}
+    ],
+    "correctAnswer": {"format": "single", "value": "C"},
+    "explanation": "In the Data Track, Course 1 is worth 2 credits and Course 2 is worth 3 credits, while the capstone is worth 5 credits. Completing Course 1 and Course 2 only gives $2 + 3 = 5$ credits. Answer C.",
+    "estimatedTimeSeconds": 120
+  },
+  {
+    "id": "g8-msr-05",
+    "section": "data_insights",
+    "type": "multi_source_reasoning",
+    "topic": "multi-source reasoning",
+    "difficulty": "hard",
+    "groupId": "g8-msr-grp-2",
+    "orderIndex": 2,
+    "stem": "A learner wants to receive the Data Track certificate in the shortest possible time. Based on the completion and prerequisite rules, what is the minimum number of weeks required?",
+    "choices": [
+      {"key": "A", "text": "6"},
+      {"key": "B", "text": "8"},
+      {"key": "C", "text": "10"},
+      {"key": "D", "text": "12"},
+      {"key": "E", "text": "14"}
+    ],
+    "correctAnswer": {"format": "single", "value": "D"},
+    "explanation": "The certificate requires all three components. Course 1 takes 4 weeks and must be finished before Course 2 (prerequisite). Course 2 takes 4 weeks. The capstone takes 4 weeks and requires both courses complete first. Since each must follow the previous, the minimum is $4 + 4 + 4 = 12$ weeks. Answer D.",
+    "estimatedTimeSeconds": 150
+  },
+  {
+    "id": "g8-msr-06",
+    "section": "data_insights",
+    "type": "multi_source_reasoning",
+    "topic": "multi-source reasoning",
+    "difficulty": "medium",
+    "groupId": "g8-msr-grp-2",
+    "orderIndex": 3,
+    "stem": "Based on the sources, select Yes if the statement must be true and No otherwise.",
+    "assets": {"dichotomous": {"labels": ["Yes", "No"]}},
+    "choices": [
+      {"key": "s1", "text": "A learner can begin Course 2 before completing Course 1."},
+      {"key": "s2", "text": "Earning the full Data Track certificate requires at least 10 credits."},
+      {"key": "s3", "text": "A learner who completes only the capstone can earn the certificate."}
+    ],
+    "correctAnswer": {"format": "dichotomous", "value": {"s1": "No", "s2": "Yes", "s3": "No"}},
+    "explanation": "s1 — No. Course 1 is a prerequisite for Course 2, so Course 2 cannot begin until Course 1 is complete.\n\ns2 — Yes. The certificate requires all three components: Course 1 (2 credits), Course 2 (3 credits), and the capstone (5 credits), totaling $2 + 3 + 5 = 10$ credits, so at least 10 are required.\n\ns3 — No. The certificate requires all three components, and the capstone alone cannot be taken without completing both courses first, so completing only the capstone is impossible and does not earn the certificate.",
+    "estimatedTimeSeconds": 150
+  }
+]

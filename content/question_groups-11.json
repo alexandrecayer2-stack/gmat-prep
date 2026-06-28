@@ -1,0 +1,32 @@
+[
+  {
+    "id": "g8-msr-grp-1",
+    "section": "data_insights",
+    "title": "City Bike Share Pricing",
+    "sources": [
+      {
+        "title": "Plan Overview",
+        "content": "The city bike share offers two plans. The Pay-As-You-Go plan has no monthly fee: each ride begins with an unlock fee of 1.00, and then the rider is charged a per-minute rate for the duration of the ride. The Monthly Pass costs 20.00 per month, charges no unlock fee, and includes the first 30 minutes of every individual ride at no additional charge; any minutes beyond the first 30 on a ride are billed at the applicable per-minute rate. Both plans allow unlimited rides per day."
+      },
+      {
+        "title": "Per-Minute Rate Table",
+        "content": "The standard per-minute rate is 0.09 per minute. An electric bike carries an additional surcharge of 0.15 per minute on top of the standard rate, so a billed minute on an electric bike costs 0.24 in total. Under the Monthly Pass, the first 30 minutes of each individual ride are fully free, waiving both the standard rate and any electric surcharge for those minutes; only minutes beyond the first 30 are billed, at the applicable rate for the bike type. Under Pay-As-You-Go every minute of the ride is billed at the applicable rate, in addition to the unlock fee."
+      }
+    ]
+  },
+  {
+    "id": "g8-msr-grp-2",
+    "section": "data_insights",
+    "title": "Online Learning Certificate Track",
+    "sources": [
+      {
+        "title": "Data Track Structure",
+        "content": "The Data Track certificate consists of three components that must all be completed to earn the certificate: Course 1, Course 2, and a final Capstone project. Course 1 is worth 2 certificate credits, Course 2 is worth 3 certificate credits, and the Capstone is worth 5 certificate credits. The certificate is awarded only when all three components are complete; credits from a partial set of components do not by themselves earn the certificate."
+      },
+      {
+        "title": "Scheduling and Prerequisites",
+        "content": "Each course runs on a fixed 4-week schedule, and the Capstone also takes 4 weeks. Course 1 is a prerequisite for Course 2, so a learner may not begin Course 2 until Course 1 is complete. The Capstone may not begin until both Course 1 and Course 2 are complete. Components cannot overlap in time for a single learner, since each requires full-time attention during its 4-week run."
+      }
+    ]
+  }
+]
