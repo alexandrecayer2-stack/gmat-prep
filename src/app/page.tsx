@@ -12,8 +12,15 @@ import { PlanCard } from '@/components/plan/plan-card';
 import { Card } from '@/components/ui/card';
 import { SectionLabel } from '@/components/ui/section-label';
 import { SECTION_ICONS } from '@/components/ui/section-icons';
+import { getSectionCounts } from '@/lib/data/content';
 
-export default function Home() {
+export default async function Home() {
+  // Derive the headline count from the live bank so it can never drift from
+  // reality. Round down to a "+" figure for a clean marketing number.
+  const counts = await getSectionCounts();
+  const total = SECTIONS.reduce((sum, s) => sum + (counts[s] ?? 0), 0);
+  const totalLabel = total > 0 ? `${(Math.floor(total / 100) * 100).toLocaleString()}+` : '1,000+';
+
   return (
     <div className="mx-auto max-w-5xl space-y-10 px-4 py-8">
       <section className="hero-surface animate-fade-in-up rounded-2xl border border-border p-6 sm:p-8">
@@ -45,7 +52,7 @@ export default function Home() {
         <dl className="mt-6 flex flex-wrap gap-x-8 gap-y-3 border-t border-border pt-5">
           <div>
             <dt className="text-xs text-muted-foreground">Practice questions</dt>
-            <dd className="font-heading text-xl font-semibold tabular-nums">1,300+</dd>
+            <dd className="font-heading text-xl font-semibold tabular-nums">{totalLabel}</dd>
           </div>
           <div className="sm:border-l sm:border-border sm:pl-8">
             <dt className="text-xs text-muted-foreground">Exam sections</dt>
