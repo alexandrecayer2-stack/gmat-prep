@@ -6,6 +6,8 @@ export const metadata = {
 };
 
 export default async function DiagnosticPage() {
-  const questions = await getDiagnosticQuestions(5);
+  // Fetch a larger pool than we administer; the adaptive runner serves the most
+  // informative subset (≈6 per section).
+  const questions = await getDiagnosticQuestions(14);
   return <DiagnosticFlow questions={questions} />;
 }

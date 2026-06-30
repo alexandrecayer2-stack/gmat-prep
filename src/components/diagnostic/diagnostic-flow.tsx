@@ -11,7 +11,8 @@ import { useAuth } from '@/lib/auth/auth-provider';
 import { saveDiagnostic } from '@/lib/data/diagnostic';
 import { saveStudyPlan } from '@/lib/data/plans';
 import { cn } from '@/lib/utils';
-import { DiagnosticRunner, type DiagnosticResult } from './diagnostic-runner';
+import { type DiagnosticResult } from './diagnostic-runner';
+import { AdaptiveDiagnosticRunner } from './adaptive-diagnostic-runner';
 import { PlanView } from '@/components/plan/plan-view';
 import { TypeBreakdownCard } from '@/components/type-breakdown-card';
 import { Card } from '@/components/ui/card';
@@ -48,6 +49,10 @@ function weeksUntil(dateStr: string): number | null {
 
 const defaultTarget = (total: number) => Math.min(805, total + 50);
 
+// Questions served per section in the adaptive diagnostic (the pool we fetch is
+// larger; the runner picks the most informative subset).
+const ITEMS_PER_SECTION = 6;
+
 export function DiagnosticFlow({ questions }: { questions: QuestionWithGroup[] }) {
   const { user, supabase } = useAuth();
   const router = useRouter();
@@ -62,11 +67,7 @@ export function DiagnosticFlow({ questions }: { questions: QuestionWithGroup[] }
 
   const weakTopics = useMemo(() => (results ? computeWeakTopics(results) : null), [results]);
   const today = useMemo(() => new Date().toISOString().slice(0, 10), []);
-  const countsBySection = useMemo(() => {
-    const c = { quant: 0, verbal: 0, data_insights: 0 } as Record<Section, number>;
-    for (const q of questions) c[q.section] += 1;
-    return c;
-  }, [questions]);
+  const totalQuestions = ITEMS_PER_SECTION * SECTIONS.length;
 
   async function handleComplete(res: DiagnosticResult[]) {
     const items: GradedItem[] = res.map((r) => ({
@@ -140,7 +141,13 @@ export function DiagnosticFlow({ questions }: { questions: QuestionWithGroup[] }
   }
 
   if (step === 'test') {
-    return <DiagnosticRunner questions={questions} onComplete={handleComplete} />;
+    return (
+      <AdaptiveDiagnosticRunner
+        pool={questions}
+        itemsPerSection={ITEMS_PER_SECTION}
+        onComplete={handleComplete}
+      />
+    );
   }
 
   if (step === 'intro') {
@@ -152,14 +159,15 @@ export function DiagnosticFlow({ questions }: { questions: QuestionWithGroup[] }
           </div>
           <h1 className="mt-4 text-2xl font-bold tracking-tight">Diagnostic assessment</h1>
           <p className="mx-auto mt-2 max-w-md text-sm text-muted-foreground">
-            Answer {questions.length}&nbsp;questions across all three sections. There&apos;s no feedback
-            during the test — at the end you&apos;ll get a predicted GMAT Focus score and a
+            Answer about {totalQuestions}&nbsp;questions across all three sections. Each question
+            adapts to your previous answers, so the estimate homes in quickly. There&apos;s no
+            feedback during the test — at the end you&apos;ll get a predicted GMAT Focus score and a
             personalized study plan toward your goal.
           </p>
           <div className="mx-auto mt-5 grid max-w-sm grid-cols-3 gap-2 text-sm">
             {SECTIONS.map((s) => (
               <div key={s} className="rounded-lg bg-muted/50 p-3">
-                <div className="text-lg font-bold tabular-nums">{countsBySection[s]}</div>
+                <div className="text-lg font-bold tabular-nums">{ITEMS_PER_SECTION}</div>
                 <div className="text-xs text-muted-foreground">{SECTION_LABELS[s].split(' ')[0]}</div>
               </div>
             ))}
