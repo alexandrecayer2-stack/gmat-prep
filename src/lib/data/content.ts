@@ -236,6 +236,17 @@ export async function getMockQuestions(config: MockConfig): Promise<MockSectionS
   return out;
 }
 
+/** Fetch specific questions by id (e.g. "redo missed" from Review), arranged like
+ *  a practice session with groups kept contiguous. Missing ids are dropped. */
+export async function getQuestionsByIds(ids: string[]): Promise<QuestionWithGroup[]> {
+  if (ids.length === 0) return [];
+  const supabase = await createClient();
+  const rows = await fetchAllQuestions(supabase, (q) => q.in('id', ids));
+  const questions = rows.map(mapQuestion);
+  const groupsById = await fetchGroupsFor(supabase, questions);
+  return arrangeUnits(questions, groupsById);
+}
+
 export async function getSectionCounts(): Promise<Record<Section, number>> {
   const supabase = await createClient();
   // Server-side `count` per section — avoids pulling rows (and the 1000-row cap).

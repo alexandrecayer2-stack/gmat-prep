@@ -14,7 +14,7 @@ const LINKS: { href: string; label: string; soon?: boolean }[] = [
   { href: '/practice', label: 'Practice' },
   { href: '/learn', label: 'Learn' },
   { href: '/mock', label: 'Mock Exam' },
-  { href: '/review', label: 'Review', soon: true },
+  { href: '/review', label: 'Review' },
 ];
 
 function SoonBadge() {
