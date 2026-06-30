@@ -9,19 +9,25 @@
 > domain/data layers, and a direct `count: 'exact'` query against the production
 > Supabase (`tctcfgpgkcbowycyrdni`). Findings are evidence-backed, not guesses.
 
-> **Status (on `main`, commits `ce3aa09` + `ffd4aa3`):**
-> - ✅ P0-1, P0-2, P0-3, P2-1 — implemented & verified live (DI serves 447;
->   sessions cap at N; chapters renumber; "Answer 15 questions" spaced).
-> - ✅ P1-1 *plumbing* — `distractorRationale` now survives the content gate
->   into the DB (schema + seed fold). The field was being **stripped by Zod**,
->   so 0/1343 questions had it despite 5 files authoring it.
-> - ✅ P1-1 *content* (`fe9a277`) — backfilled **1195 single-answer questions**
->   via a 46-agent workflow; single-format rationale coverage **3% → 100%**.
->   Validated, injected with `scripts/inject-rationales.mjs` (format-preserving),
->   **seeded to prod** (DB now 1416 Qs), and render-verified.
-> - Tests green (44/44). **Code push pending** (no git creds in this env — run
->   `git push origin main`; the seeded content is already live in the DB, but
->   the P0 code fixes only deploy on push). Remaining: P1-2, P1-3, P2-2, P2-3.
+> **Status — ALL REVIEW ITEMS COMPLETE (on `main`, commits `ce3aa09`…`90b4bb3`):**
+> - ✅ **P0-1/2/3, P2-1** — DI serves 447; finite practice sessions; per-section
+>   chapter numbers; "Answer 15 questions" spaced. Verified live.
+> - ✅ **P1-1** — `distractorRationale` was being **stripped by Zod** (0/1343 in
+>   DB). Fixed schema + seed fold, then backfilled **1195 questions** via a
+>   46-agent workflow: single-format coverage **3% → 100%**. Seeded to prod
+>   (DB now 1416 Qs), render-verified.
+> - ✅ **P1-2** — adaptive diagnostic: next item chosen by Fisher information at
+>   the running ability estimate; groups stay atomic. Pure logic unit-tested
+>   (`adaptive.ts`, 6 tests). Verified end-to-end (505 ± 40 over 18 questions).
+> - ✅ **P1-3** — sampler re-checked post-fix: healthy 2:2:1 DI spread, no change
+>   needed. (Note: DI bank is thin on *hard* items — 30 vs 291 medium — a
+>   content-depth follow-up, not a bug.)
+> - ✅ **P2-2** — hero count derived from live section counts ("1,400+").
+> - ✅ **P2-3** — Review built: filterable attempt history + per-question and
+>   bulk "redo missed"; nav un-gated. Verified live.
+> - Tests green (50/50). **Code push still pending** (no git creds in this env —
+>   run `git push origin main`). Prod DB content is already live via seed; the
+>   code changes (P0 cap fix, Review, adaptive diagnostic, etc.) deploy on push.
 
 ---
 
