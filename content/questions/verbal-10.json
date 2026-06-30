@@ -34,6 +34,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "Whether customers like cards better than coupons is irrelevant; the owner only needs to rule out other causes of the rise, not compare promotion types.",
+      "C": "The profitability of repeat visits says nothing about what caused them to increase, which is the gap the assumption must fill.",
+      "D": "The conclusion does not require universal sign-up; even partial adoption could explain a rise, so this overstates what is assumed. The needed assumption is that no other factor caused the increase.",
+      "E": "Matching competitors' prices addresses competitiveness, not whether the card rather than some other change drove the rise in repeat visits."
+    },
     "explanation": "The owner attributes the rise solely to the card; this holds only if no other factor (a new product, more foot traffic, etc.) explains the increase. (A) states exactly that assumption.",
     "estimatedTimeSeconds": 105
   },
@@ -71,6 +77,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "Maintenance cost is irrelevant to whether the lights, rather than something else, reduced accidents; it attacks the policy's value, not the causal claim.",
+      "C": "Unchanged daytime counts are consistent with the lights working at night, so this fails to weaken the claim. The factory closure (B) supplies an alternative cause for the nighttime drop.",
+      "D": "Drivers feeling safer is subjective and, if anything, weakly supports the lights; it does not provide an alternative cause for fewer accidents.",
+      "E": "What neighboring towns did has no bearing on why accidents fell on these particular roads."
     },
     "explanation": "If far fewer cars were on the roads at night because the factory closed, the drop in accidents could be due to reduced exposure rather than the lights — undermining the causal claim.",
     "estimatedTimeSeconds": 105
@@ -110,6 +122,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "Better taste does not show the cereal lowers cholesterol; it is irrelevant to the causal claim. A control group with no change (B) isolates the cereal as the cause.",
+      "C": "High fiber merely offers a possible mechanism, but it does not establish that this cereal actually produced the observed drop in this study.",
+      "D": "That exercise can also lower cholesterol introduces an alternative cause, which weakens rather than strengthens the argument.",
+      "E": "Confirming the study ran the full eight weeks restates a premise and adds no support for the cause-and-effect conclusion."
+    },
     "explanation": "A control group with no change rules out the possibility that cholesterol fell for everyone regardless of the cereal, isolating the cereal as the cause.",
     "estimatedTimeSeconds": 105
   },
@@ -147,6 +165,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "Nothing is stated about employees or who did complete the course, so a universal claim about employees cannot be deduced. Only that no contractor got a badge follows.",
+      "C": "This directly contradicts the premises: since no contractor completed the course, none could have received a badge.",
+      "D": "The premises say badge holders completed the course, not that they are contractors; this reverses and overreaches the given relationship.",
+      "E": "Whether the course was mandatory is never addressed and cannot be inferred from the statements."
     },
     "explanation": "Since a badge requires completing the course and no contractor completed it, no contractor could have received a badge.",
     "estimatedTimeSeconds": 105
@@ -186,6 +210,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "The flaw is not a missing margin of preference; even a large majority would still only show popularity, not objective superiority.",
+      "C": "Possible non-response is a real survey concern but not the critic's central error, which is equating popularity with objective quality.",
+      "D": "The argument makes no claim about future preferences, so durability over time is not the vulnerability.",
+      "E": "Representativeness of all readers is a sampling issue, but the core flaw is treating what is popular as what is objectively better."
+    },
     "explanation": "Preference among readers establishes popularity, not objective quality; treating the two as the same is the flaw.",
     "estimatedTimeSeconds": 105
   },
@@ -223,6 +253,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "Past award-winning ads do not explain why sales rose this year after the budget was cut; it concerns prior advertising quality, not the current paradox.",
+      "C": "Saying advertising usually raises sales deepens the puzzle rather than resolving it, since the company spent less yet sold more.",
+      "D": "A new marketing director is too vague to explain the rise; it names no mechanism, whereas competitors raising prices (A) directly redirects customers.",
+      "E": "A rival's sales falling the previous year is about a different period and does not explain this year's increase."
     },
     "explanation": "A large shift of customers from competitors who raised prices explains how sales could rise even though the company spent less on advertising.",
     "estimatedTimeSeconds": 105
@@ -262,6 +298,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "Revenue raised measures a side effect, not whether higher fees actually cut the number of cars downtown, which is the plan's stated goal.",
+      "C": "The timing of the fees does not help judge whether they will reduce congestion. Whether drivers have alternatives (A) is what determines success.",
+      "D": "Knowing which streets are busiest describes the current problem but does not test whether the fee increase will change driving behavior.",
+      "E": "Neighboring cities' fees are a comparison point, not evidence about how this city's drivers will respond."
+    },
     "explanation": "If drivers have no alternative, higher fees will not reduce how many drive downtown; whether alternatives exist is decisive for the plan's success.",
     "estimatedTimeSeconds": 105
   },
@@ -299,6 +341,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "A shorter program does not undermine the causal claim; it concerns the program's length, not whether prior skill explains the performance gap.",
+      "C": "A companywide sales rise affects everyone equally and so cannot explain why the trained group specifically outperforms the others.",
+      "D": "Representatives enjoying the program speaks to satisfaction, not to whether the program, rather than preexisting ability, caused better performance.",
+      "E": "That training is common in the industry is background and provides no alternative explanation for the gap. Selecting the most experienced reps (B) does."
     },
     "explanation": "If the strongest representatives were the ones chosen for the program, their superior performance may reflect prior skill, not the program — a selection bias that undercuts the causal claim.",
     "estimatedTimeSeconds": 105
@@ -338,6 +386,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "This contradicts the premise that some paperbacks are not on sale, so it cannot follow.",
+      "C": "Nothing rules out hardcovers existing in the store; the premises only describe the sale section and paperbacks.",
+      "D": "Every sale-section book is a paperback, so claiming some are hardcovers directly contradicts the premise.",
+      "E": "No information is given about the proportion of paperbacks, so 'most' cannot be inferred. Only that some books lie outside the sale section follows."
+    },
     "explanation": "A paperback that is not on sale cannot be in the sale section, so at least one book in the store lies outside the sale section.",
     "estimatedTimeSeconds": 105
   },
@@ -375,6 +429,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "Popularity of bike lanes does not show they reduce obesity; it is irrelevant to the causal claim about the correlation.",
+      "C": "That obese people rarely cycle suggests reverse causation or self-selection, which weakens rather than strengthens the argument.",
+      "D": "Reduced car traffic is a different effect of bike lanes and does not connect them to lower obesity. Obesity falling after lanes are added (B) supports the causal direction.",
+      "E": "Cycling burning calories is general background; it does not establish that adding bike lanes actually lowered obesity in these cities."
     },
     "explanation": "Showing that obesity fell after bike lanes were added supports the direction of causation, rather than merely a correlation between the two.",
     "estimatedTimeSeconds": 105
@@ -414,6 +474,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "Whether one instance shows a pattern is a secondary concern; even a genuine pattern of overspending would still not address the proposal's merits, which is the primary flaw.",
+      "C": "Failing to specify the amount of cuts is not the error; the argument's problem is attacking the person, not the lack of detail in the proposal.",
+      "D": "Possible economic harm from cuts is a substantive counterpoint the politician never raises, but the criticized flaw is the ad hominem attack itself.",
+      "E": "The weak analogy between campaign and public funds is a real gap, yet the more fundamental flaw is rejecting the proposal by attacking the opponent's character (A)."
+    },
     "explanation": "Citing the opponent's past behavior rather than addressing the proposal itself is an ad hominem attack, which does not bear on whether the proposal is sound.",
     "estimatedTimeSeconds": 105
   },
@@ -451,6 +517,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "If the bestsellers still drew customers in, that explains foot traffic but not the increase in overall sales; the lift comes from those customers buying other items (B).",
+      "C": "That bestsellers still account for most individual sales does not explain how total sales rose while those very items sold less.",
+      "D": "Customers spending slightly less on the bestsellers describes the decline, deepening the puzzle rather than explaining the overall increase.",
+      "E": "Freeing up entrance space is vague and names no actual added sales, whereas routing customers past more goods (B) directly drives the increase."
     },
     "explanation": "Routing customers past more merchandise raises purchases of other items, which can lift overall sales even as the bestsellers sell a bit less.",
     "estimatedTimeSeconds": 105
@@ -490,6 +562,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "Affordability concerns feasibility, not whether tablets cause higher scores; the plan can be assumed affordable yet still fail if tablets are not the true cause.",
+      "C": "Whether students use the tablets is a separate practical condition; the core assumption is that the tablet itself, not other advantages, produces the higher scores.",
+      "D": "Teacher support relates to implementation, not to whether the correlation between tablet ownership and scores reflects causation.",
+      "E": "How long the tablets last addresses durability, not the causal assumption that tablets, rather than students' other advantages, raise scores."
+    },
     "explanation": "The plan assumes the tablet causes the higher scores. If tablet owners score higher because of other advantages (e.g., wealth), giving tablets to all students would not reproduce the effect.",
     "estimatedTimeSeconds": 105
   },
@@ -527,6 +605,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "On-time departures measure a downstream benefit, not whether the new procedure itself is faster than the old; a fair head-to-head comparison (A) is what is needed.",
+      "C": "What the fastest-boarding airlines use is an outside correlation that does not test this airline's own before-and-after claim.",
+      "D": "Speeding up unloading concerns a different process entirely and is irrelevant to evaluating the boarding-speed claim.",
+      "E": "Whether agents followed the procedure correctly matters only secondarily; the decisive issue is whether the two procedures were tested under comparable conditions."
     },
     "explanation": "A fair comparison requires similar conditions; if the procedures were tested on very different flights, any difference in boarding time may be due to those differences rather than the procedure.",
     "estimatedTimeSeconds": 105
@@ -567,6 +651,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "The passage does not advocate abandoning coral gardening; it presents both gardening and heat-tolerant strains as complementary efforts, so this misstates the purpose.",
+      "C": "The passage is not defeatist about reefs; it describes restoration efforts and their value alongside emissions cuts, the opposite of declaring reefs unsavable.",
+      "D": "A detailed cost comparison of two techniques is not the focus; the passage gives a balanced overview rather than a financial analysis.",
+      "E": "The passage notes limitations rather than simply celebrating nurseries, so an unqualified celebration overstates its tone."
+    },
     "explanation": "The passage presents restoration techniques, their drawbacks, and the conclusion that they help only alongside emissions cuts — a balanced overview, which (B) captures.",
     "estimatedTimeSeconds": 105
   },
@@ -605,6 +695,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "Breeding heat-tolerant strains in labs describes the 'super corals' approach, not coral gardening, which grows and transplants fragments.",
+      "C": "Cutting emissions at the source is the broader solution the passage urges, not the definition of coral gardening.",
+      "D": "Relocating fish is never described as part of coral gardening, which involves growing coral fragments and transplanting them onto reefs.",
+      "E": "Covering the ocean floor with artificial structures is not what the passage describes; gardening means transplanting nursery-grown coral fragments."
     },
     "explanation": "The passage defines coral gardening as growing fragments in underwater nurseries and transplanting them onto degraded reefs.",
     "estimatedTimeSeconds": 105
@@ -645,6 +741,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "The passage values super corals for surviving heat, not for faster growth; growth speed is not the stated benefit.",
+      "C": "Lower cost is not the cited advantage; super corals are valued because they can withstand the heat stress that threatens ordinary corals.",
+      "D": "Genetic diversity is not the reason given; their value lies in tolerating future warming.",
+      "E": "The passage stresses that emissions still must be reduced, so super corals do not eliminate that need."
+    },
     "explanation": "Super corals are described as naturally heat-tolerant strains that \"might withstand future warming,\" so their value lies in surviving heat stress.",
     "estimatedTimeSeconds": 105
   },
@@ -683,6 +785,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "C"
+    },
+    "distractorRationale": {
+      "A": "Unreserved enthusiasm overstates the author, who repeatedly notes limitations and conditions rather than praising without reservation.",
+      "B": "There is no hostility; the author acknowledges encouraging results, indicating support rather than opposition.",
+      "D": "The author is clearly engaged with the topic, so indifference contradicts the evident concern and qualified endorsement.",
+      "E": "The author is not hopeless; noting that restoration helps alongside emissions cuts reflects cautious support, not resignation."
     },
     "explanation": "The author acknowledges encouraging results yet repeatedly notes limitations and conditions, reflecting cautious support.",
     "estimatedTimeSeconds": 105
@@ -723,6 +831,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "The passage explicitly argues cities are being reshaped, not collapsing, so predicting imminent collapse contradicts its thesis.",
+      "C": "The passage analyzes a broad trend rather than advising individual workers on where to live.",
+      "D": "Municipal tax policies are mentioned only as strained budgets, not criticized; this is a detail, not the primary concern.",
+      "E": "The software enabling remote work is not the focus; the passage concerns how remote work redistributes urban activity."
+    },
     "explanation": "The passage argues that work is being redistributed within and around cities rather than abandoned, making (B) the central concern.",
     "estimatedTimeSeconds": 105
   },
@@ -761,6 +875,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "C"
+    },
+    "distractorRationale": {
+      "A": "Downtown office occupancy is presented as having declined, not as resilient; the passage names residential demand as resilient.",
+      "B": "Commercial property tax revenue is described as strained, the opposite of resilient.",
+      "D": "Daily commuting into city centers has fallen with remote work, so it is not the resilient element.",
+      "E": "Downtown foot traffic is cited among the strained items, whereas residential demand in large cities is what proved resilient."
     },
     "explanation": "The passage states that \"residential demand in many large cities has proved resilient.\"",
     "estimatedTimeSeconds": 105
@@ -801,6 +921,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "The passage attributes strained budgets to dependence on downtown activity, not to any legal inability to tax remote workers.",
+      "C": "Nothing says transit funding stopped entirely; the strain stems from reliance on commercial property taxes and downtown foot traffic.",
+      "D": "Tourism is not named as the chief revenue source; the passage points to commercial property taxes and downtown activity.",
+      "E": "The passage does not say suburban governments control these budgets; the strain comes from dependence on downtown commerce."
+    },
     "explanation": "The passage says the redistribution strains budgets \"that depend on commercial property taxes and downtown foot traffic,\" implying reliance on downtown activity.",
     "estimatedTimeSeconds": 105
   },
@@ -839,6 +965,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "The detail is not a criticism of careless spending; it illustrates where economic activity is now occurring.",
+      "C": "The author makes no claim that suburbs are superior places to live; the example shows redistribution of activity, not a ranking.",
+      "D": "Reduced office space is a separate point; the lunch-hours detail illustrates the geographic shift of spending, not why firms cut space.",
+      "E": "The example shows spending moving to neighborhood centers, not that commuting has increased; commuting has in fact declined."
     },
     "explanation": "The detail is offered as a concrete example of activity shifting away from downtown cores toward outlying areas.",
     "estimatedTimeSeconds": 105
@@ -879,6 +1011,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "The passage does not argue subscription libraries were superior; it traces the rise of free libraries and the debate around them.",
+      "C": "Library architecture is not discussed; the focus is the emergence of the free public library and its surrounding debates.",
+      "D": "The passage mentions crime reduction only as an argument supporters made, not as a proven measurable result.",
+      "E": "Philanthropists' conditions are a detail, not the central purpose; the passage's aim is to trace the free library's rise and the debates over it."
+    },
     "explanation": "The passage narrates the emergence of the free public library and the arguments for and against it, which (A) summarizes.",
     "estimatedTimeSeconds": 105
   },
@@ -917,6 +1055,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "The passage attributes paid-fee access to subscription libraries; being funded entirely by philanthropists is not the stated distinction.",
+      "C": "Nothing restricts subscription libraries to non-fiction; the difference the passage names is that they charged annual fees.",
+      "D": "Subscription libraries were open to those who could pay, not exclusively to workers.",
+      "E": "Municipal maintenance describes free public libraries, not the subscription ones, which required paid fees."
     },
     "explanation": "The passage says earlier collections were \"subscription-based, open only to those who could pay annual fees.\"",
     "estimatedTimeSeconds": 105
@@ -957,6 +1101,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "Fear that novels would corrupt morals is presented as an objection to free libraries, not an argument from supporters.",
+      "B": "The objection that taxpayers should not fund strangers' reading is an opponents' argument, the opposite of what supporters claimed.",
+      "D": "Tying book access to wealth reflects the subscription model supporters opposed, not an argument they made.",
+      "E": "Philanthropists retaining control is not cited as a supporters' argument; supporters argued libraries would reduce crime by countering idleness."
+    },
     "explanation": "Supporters \"countered that libraries would reduce crime by offering productive alternatives to idleness,\" matching (C). The other options are objections or unrelated.",
     "estimatedTimeSeconds": 105
   },
@@ -995,6 +1145,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "C"
+    },
+    "distractorRationale": {
+      "A": "The passage says collections varied with local wealth, so uniformly excellent collections contradicts its point.",
+      "B": "It does not claim philanthropic donations ended; the noted result was uneven quality between richer and poorer communities.",
+      "D": "Tax funding moved away from subscription fees, so a return to fees is not what the passage describes.",
+      "E": "Overall access expanded with free libraries; the passage notes unequal quality, not a reduction in access."
     },
     "explanation": "The passage states the arrangement left \"poorer communities with thinner collections,\" implying quality varied with local wealth.",
     "estimatedTimeSeconds": 105

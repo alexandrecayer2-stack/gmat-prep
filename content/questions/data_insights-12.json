@@ -12,6 +12,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "(2) only restricts $x$ to positive integers, leaving many values like 1, 2, 3; it never pins down a single $x$, so it cannot be sufficient alone.",
+      "C": "You don't need both: (1) already solves $2x+5=17$ to give $x=6$, so combining with (2) is unnecessary.",
+      "D": "(2) alone fails — positive integers are not a unique value — so the statements are not each sufficient; only (1) works.",
+      "E": "(1) cleanly gives $x=6$, so the question is answerable; this option wrongly claims neither statement helps."
+    },
     "explanation": "(1) gives x = 6, so it is sufficient. (2) alone leaves multiple positive values.",
     "estimatedTimeSeconds": 120
   },
@@ -27,6 +33,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "(2) says $n$ is divisible by 3, but multiples of 3 can be odd (3, 9) or even (6, 12), so parity is undetermined — not sufficient.",
+      "C": "You don't need (2): (1) alone shows $n^{2}$ odd forces $n$ odd, so combining is unnecessary.",
+      "D": "(2) alone cannot settle parity, so the two statements are not each sufficient; only (1) is.",
+      "E": "(1) determines that $n$ is odd, so the question is answerable; this wrongly says neither statement suffices."
     },
     "explanation": "If $n^{2}$ is odd, then n is odd. (2) alone does not allow a conclusion about parity.",
     "estimatedTimeSeconds": 120
@@ -44,6 +56,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "(1) $x+y=9$ is one equation in two unknowns; $y$ could be 4, 5, or anything, so it cannot fix $y$ alone.",
+      "B": "(2) $x-y=1$ is likewise a single equation in two unknowns and cannot determine $y$ by itself.",
+      "D": "Neither statement alone gives a unique $y$; only by combining the two equations do you solve $x=5$, $y=4$.",
+      "E": "Combining the equations does yield $y=4$, so the question is answerable together — this wrongly claims it is not."
+    },
     "explanation": "Taken together, the two equations give x = 5 and y = 4. Individually, neither is sufficient.",
     "estimatedTimeSeconds": 120
   },
@@ -59,6 +77,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "C"
+    },
+    "distractorRationale": {
+      "A": "(1) gives only the base of 12; without the height you cannot compute area $=\\tfrac12 bh$.",
+      "B": "(2) gives only the height of 7; without the base the area is undetermined.",
+      "D": "Neither dimension alone yields the area; you need both base and height, so a single statement is not sufficient.",
+      "E": "Base and height together give a unique area $=\\tfrac12(12)(7)=42$, so combined they are sufficient — not insufficient."
     },
     "explanation": "Neither statement alone is sufficient, but the base and height together yield a unique area.",
     "estimatedTimeSeconds": 120
@@ -76,6 +100,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "(2) only says $k$ is positive, which permits infinitely many values; it never fixes $k$.",
+      "C": "You don't need (2): (1) already solves $k:4=3:8$ to give $k=\\tfrac32$, so combining is unnecessary.",
+      "D": "(2) alone cannot determine $k$, so the statements are not each sufficient; only (1) works.",
+      "E": "(1) gives $k=\\tfrac32$, so the question is answerable; this wrongly claims neither statement helps."
+    },
     "explanation": "(1) gives k = 3/2. (2) is too vague.",
     "estimatedTimeSeconds": 120
   },
@@ -91,6 +121,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "E"
+    },
+    "distractorRationale": {
+      "A": "(1) fixes only the total of 28; the largest of four numbers summing to 28 could be 25 or 10, so it is undetermined.",
+      "B": "(2) fixes the sum of three numbers (18) but says nothing about how they split or about the fourth number.",
+      "C": "Combining gives the fourth number as $28-18=10$, but the three summing to 18 are unknown and one could exceed 10 (e.g. 16, 1, 1), so the largest is still undetermined.",
+      "D": "Each statement alone is far from fixing the largest value, so neither is individually sufficient."
     },
     "explanation": "Both statements together give a fourth number equal to 28 − 18 = 10, but the three numbers whose sum is 18 are not individually known: one of them could exceed 10 (for example, 16, 1, and 1). Therefore, the largest of the four numbers cannot be determined even when the statements are combined.",
     "estimatedTimeSeconds": 120
@@ -108,6 +144,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "(1) gives $x^{2}>16$, so $x>4$ or $x<-4$; $x$ could be 5 (positive) or $-5$ (negative), so the sign is not determined.",
+      "C": "You don't need both: (2) $x<-3$ already forces $x$ negative, so combining with (1) is unnecessary.",
+      "D": "(1) alone leaves the sign ambiguous (e.g. $x=5$ or $x=-5$), so the statements are not each sufficient; only (2) is.",
+      "E": "(2) settles that $x$ is negative, so the question is answerable; this wrongly claims neither statement suffices."
+    },
     "explanation": "(2) alone is sufficient: if x < -3, then x is negative. (1) alone allows x = 4 or x = -5, etc.",
     "estimatedTimeSeconds": 120
   },
@@ -123,6 +165,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "(2) only says $m$ is a positive integer, allowing many values; it never pins down $m$.",
+      "C": "You don't need (2): (1) solves $2m=18$ to give $m=9$, so combining is unnecessary.",
+      "D": "(2) alone cannot fix $m$, so the statements are not each sufficient; only (1) is.",
+      "E": "(1) gives $m=9$, so the question is answerable; this wrongly claims neither statement helps."
     },
     "explanation": "(1) gives m = 9, so it is sufficient. (2) alone leaves multiple possible positive integers.",
     "estimatedTimeSeconds": 120
@@ -140,6 +188,12 @@
       "format": "single",
       "value": "D"
     },
+    "distractorRationale": {
+      "A": "(1) alone is in fact sufficient ($2(L+5)=30$ gives $L=10$), so claiming only (1) misses that (2) also works on its own.",
+      "B": "(2) alone is in fact sufficient ($50/5=10$), so claiming only (2) misses that (1) also works on its own.",
+      "C": "Each statement independently gives $L=10$, so you do not need to combine them.",
+      "E": "Both statements give $L=10$, so the length is determined — this wrongly claims neither suffices."
+    },
     "explanation": "From (1), 2(L+5)=30, so L=10. From (2), 50/5=10. Each statement is sufficient on its own.",
     "estimatedTimeSeconds": 120
   },
@@ -155,6 +209,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "C"
+    },
+    "distractorRationale": {
+      "A": "(1) $x^{2}=y^{2}$ allows $x=y$ or $x=-y$, so the answer could be yes or no — not sufficient alone.",
+      "B": "(2) only says both are positive but gives no relation between their sizes, so $x=y$ is undetermined.",
+      "D": "Neither alone settles it: (1) leaves the sign ambiguity and (2) gives no link, so a single statement is not sufficient.",
+      "E": "Together, positivity removes the $x=-y$ case, forcing $x=y$, so the combination is sufficient — not insufficient."
     },
     "explanation": "(1) gives only x = y or x = -y. (2) alone is not sufficient. Together, since x and y are positive, we get x = y.",
     "estimatedTimeSeconds": 120
@@ -172,6 +232,12 @@
       "format": "single",
       "value": "D"
     },
+    "distractorRationale": {
+      "A": "(2) is also sufficient on its own (divisible by 3 and even means divisible by 6), so picking only (1) overlooks that (2) works alone.",
+      "B": "(1) is also sufficient on its own (a multiple of 12 is a multiple of 6), so picking only (2) overlooks that (1) works alone.",
+      "C": "Each statement alone proves divisibility by 6, so combining them is unnecessary.",
+      "E": "Both statements settle the question, so it is answerable — this wrongly claims neither suffices."
+    },
     "explanation": "A number is divisible by 6 exactly when it is divisible by both 2 and 3. Statement (1): if $n$ is divisible by 12, then $12 = 6 \\times 2$, so $n$ is a multiple of 6 — sufficient. Statement (2): divisible by 3 and even means divisible by 3 and 2, hence by 6 — sufficient. Each statement alone settles the question, so the answer is D; the trap is assuming you need to combine them.",
     "estimatedTimeSeconds": 120
   },
@@ -187,6 +253,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "D"
+    },
+    "distractorRationale": {
+      "A": "(2) is also sufficient: two positive numbers with product $>25$ have average $\\geq\\sqrt{\\text{product}}>5$ by AM-GM, so picking only (1) overlooks (2).",
+      "B": "(1) is also sufficient: sum $>10$ means average $=\\text{sum}/2>5$, so picking only (2) overlooks (1).",
+      "C": "Each statement alone forces the average above 5, so combining them is unnecessary.",
+      "E": "Both statements answer the question, so it is determinable — this wrongly claims neither suffices."
     },
     "explanation": "(1) If the sum exceeds 10, the average (sum ÷ 2) exceeds 5. (2) If both numbers are positive with a product greater than 25, the AM-GM inequality gives an average at least equal to the square root of the product, hence greater than 5. Each statement is sufficient on its own.",
     "estimatedTimeSeconds": 120
@@ -204,6 +276,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "(2) only says $x$ is prime, which allows 2, 3, 5, 7, …; it never fixes a single value.",
+      "C": "You don't need (2): (1) solves $x/3=4$ to give $x=12$, so combining is unnecessary.",
+      "D": "(2) alone cannot pin down $x$, so the statements are not each sufficient; only (1) is.",
+      "E": "(1) gives $x=12$, so the question is answerable; this wrongly claims neither statement helps."
+    },
     "explanation": "(1) gives x = 12, uniquely. (2) alone leaves multiple prime values.",
     "estimatedTimeSeconds": 120
   },
@@ -219,6 +297,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "D"
+    },
+    "distractorRationale": {
+      "A": "(2) is also sufficient on its own: a 30-60-90 triangle is scalene, so it is definitively not isosceles — picking only (1) overlooks (2).",
+      "B": "(1) is also sufficient on its own: two equal sides make the triangle isosceles — picking only (2) overlooks (1).",
+      "C": "Each statement alone answers the question, so combining them is unnecessary.",
+      "E": "Both statements settle the isosceles question, so it is answerable — this wrongly claims neither suffices."
     },
     "explanation": "(1) Two equal sides: the triangle is isosceles (answer \"yes\"). (2) Angles of 30, 60, and 90 degrees describe a scalene triangle, so it is not isosceles (answer \"no\" established with certainty). Each statement answers the question on its own.",
     "estimatedTimeSeconds": 120
@@ -236,6 +320,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "(1) gives only $a+o=20$, one equation in two unknowns, so the apple count is not fixed.",
+      "B": "(2) gives only $a=o+4$, again one equation in two unknowns, so apples are undetermined alone.",
+      "D": "Neither single equation pins the count; only combining them solves $o=8$, $a=12$, so one statement is not sufficient.",
+      "E": "Together the two equations give a unique $a=12$, so the question is answerable — not insufficient."
+    },
     "explanation": "Let $a$ be apples and $o$ oranges. Statement (1) gives only $a+o=20$, and (2) gives only $a=o+4$ — each is one equation in two unknowns, so neither alone is sufficient. Together, substitute to get $(o+4)+o=20$, so $o=8$ and $a=12$: two independent equations, two unknowns, unique solution. The key is recognizing each statement supplies a different relationship, so combining them resolves the system. Answer: C.",
     "estimatedTimeSeconds": 120
   },
@@ -251,6 +341,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "(2) $r+s>0$ says nothing about which of $r$ or $s$ is larger — $r>s$ could be true or false, so it is not sufficient.",
+      "C": "You don't need (2): (1) $r-s=-2$ already shows $r<s$, definitively answering no, so combining is unnecessary.",
+      "D": "(2) alone leaves the order of $r$ and $s$ ambiguous, so the statements are not each sufficient; only (1) is.",
+      "E": "(1) settles that $r<s$, so the question is answerable; this wrongly claims neither statement helps."
     },
     "explanation": "(1) gives r < s, so the answer to the question is definitively no. (2) alone is insufficient.",
     "estimatedTimeSeconds": 120
@@ -268,6 +364,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "(1) $t^{2}=49$ gives $t=7$ or $t=-7$; the trap is treating $\\sqrt{49}$ as only 7, but two values means not sufficient.",
+      "B": "(2) $t<0$ permits infinitely many negative values, so it cannot fix $t$ alone.",
+      "D": "Neither alone fixes $t$: (1) leaves two roots and (2) leaves a whole range; only combining them gives $t=-7$.",
+      "E": "Together, $t<0$ selects $-7$ from the two roots, so the question is answerable — not insufficient."
+    },
     "explanation": "We need a single value of $t$. Statement (1): $t^2 = 49$ gives $t = 7$ or $t = -7$ — two values, not sufficient. Statement (2): $t < 0$ allows infinitely many values, not sufficient. Together, $t < 0$ eliminates $+7$, leaving $t = -7$ uniquely, so both statements together are sufficient; the answer is C. The trap is treating $\\sqrt{49}$ as only $7$ and wrongly calling (1) sufficient.",
     "estimatedTimeSeconds": 120
   },
@@ -283,6 +385,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "D"
+    },
+    "distractorRationale": {
+      "A": "(2) is also sufficient on its own: $x^{2}<1$ with $x$ positive forces $0<x<1$ — picking only (1) overlooks (2).",
+      "B": "(1) is also sufficient on its own: $0<x<1$ directly answers yes — picking only (2) overlooks (1).",
+      "C": "Each statement alone establishes $0<x<1$, so combining them is unnecessary.",
+      "E": "Both statements answer the question, so it is determinable — this wrongly claims neither suffices."
     },
     "explanation": "Each statement alone is sufficient to establish that x is strictly between 0 and 1.",
     "estimatedTimeSeconds": 120
@@ -300,6 +408,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "(2) fixes only the sum (60); many ordered sets sum to 60 with different middle values, so the median is undetermined.",
+      "C": "You don't need (2): (1) gives the middle integer 12, which is the median by definition, so combining is unnecessary.",
+      "D": "(2) alone cannot fix the median, so the statements are not each sufficient; only (1) is.",
+      "E": "(1) gives the median directly as 12, so the question is answerable; this wrongly claims neither statement helps."
+    },
     "explanation": "For five integers in order, the median is by definition the third (middle) value, so you only need that one term. Statement (1) gives the middle integer as 12, which IS the median, so (1) alone is sufficient. Statement (2) fixes only the sum (60), and many ordered sets sum to 60 with different middle values (e.g. 0,0,12,24,24 vs. 11,12,12,12,13), so (2) alone is not sufficient. The trap is thinking the sum constrains the median; it does not, giving answer A.",
     "estimatedTimeSeconds": 120
   },
@@ -315,6 +429,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "D"
+    },
+    "distractorRationale": {
+      "A": "(2) is also sufficient on its own: an odd number of divisors means $x$ is a perfect square — picking only (1) overlooks (2).",
+      "B": "(1) is also sufficient on its own: $x=9k^{2}=(3k)^{2}$ is always a perfect square — picking only (2) overlooks (1).",
+      "C": "Each statement alone proves $x$ is a perfect square, so combining them is unnecessary.",
+      "E": "Both statements settle the question, so it is answerable — this wrongly claims neither suffices."
     },
     "explanation": "A positive integer is a perfect square exactly when every exponent in its prime factorization is even, which is also equivalent to having an odd number of divisors (divisors pair up except the square root). Statement (1): $x=9k^2=(3k)^2$ is a perfect square for any integer $k$, so (1) alone is sufficient. Statement (2): an integer with an odd number of positive divisors must be a perfect square, so (2) alone is sufficient. Since each statement alone settles the question, the answer is D.",
     "estimatedTimeSeconds": 120
@@ -332,6 +452,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "(1) $3p-2q=8$ is one equation in two unknowns, so $p$ is not fixed alone.",
+      "B": "(2) $p+q=6$ is likewise a single equation in two unknowns and cannot determine $p$ by itself.",
+      "D": "Neither equation alone fixes $p$; only combining them gives $5p=20$, so $p=4$ — one statement is not sufficient.",
+      "E": "Together the two lines intersect at $p=4$, so the question is answerable — not insufficient."
+    },
     "explanation": "We need a single value of $p$, so one linear equation in two unknowns won't pin it down. Statement (1) $3p - 2q = 8$ alone has infinitely many $(p,q)$ solutions — not sufficient; likewise (2) $p + q = 6$ alone — not sufficient. Together the two distinct lines intersect at one point: from (2) $q = 6 - p$, substitute into (1) to get $3p - 2(6-p) = 8 \\Rightarrow 5p = 20 \\Rightarrow p = 4$. Both statements are needed, so the answer is C.",
     "estimatedTimeSeconds": 120
   },
@@ -347,6 +473,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "(2) gives one point (3, 6) but a line through it need not pass through the origin, so the answer is undetermined.",
+      "C": "You don't need (2): (1) gives a y-intercept of 0, which means the line passes through the origin, so combining is unnecessary.",
+      "D": "(2) alone does not settle whether the line hits the origin, so the statements are not each sufficient; only (1) is.",
+      "E": "(1) shows the line passes through the origin, so the question is answerable; this wrongly claims neither statement helps."
     },
     "explanation": "(1) is sufficient because a y-intercept of zero implies the line passes through the origin. (2) alone is not sufficient.",
     "estimatedTimeSeconds": 120
@@ -364,6 +496,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "(1) $|x-5|=2$ gives $x=3$ or $x=7$; one is not greater than 5 and one is, so the answer is undetermined — not sufficient.",
+      "C": "You don't need (1): (2) already imposes $x>5$, answering yes, so combining is unnecessary.",
+      "D": "(1) alone leaves $x=3$ or $7$, so the statements are not each sufficient; only (2) is.",
+      "E": "(2) settles that $x>5$, so the question is answerable; this wrongly claims neither statement suffices."
+    },
     "explanation": "(1) alone gives x = 3 or 7, so it is insufficient. (2) alone imposes x > 5 and is sufficient.",
     "estimatedTimeSeconds": 120
   },
@@ -379,6 +517,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "D"
+    },
+    "distractorRationale": {
+      "A": "(1) alone is in fact sufficient (an even factor makes the product even), so claiming only (1) misses that (2) also works alone.",
+      "B": "(2) alone is in fact sufficient (an odd sum means one even and one odd, so an even product), so claiming only (2) misses (1).",
+      "C": "Each statement independently forces an even product, so you do not need to combine them.",
+      "E": "Both statements answer the question, so it is determinable — this wrongly claims neither suffices."
     },
     "explanation": "Each statement is sufficient: an even factor makes the product even, and an odd sum implies one even and one odd number, hence an even product.",
     "estimatedTimeSeconds": 120
@@ -396,6 +540,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "(2) only says $x$ is positive, allowing infinitely many values; it never fixes $x$.",
+      "C": "You don't need (2): a cube root is unique, so (1) $x^{3}=27$ gives $x=3$ alone — combining is unnecessary.",
+      "D": "(2) alone cannot determine $x$, so the statements are not each sufficient; only (1) is.",
+      "E": "(1) gives $x=3$ uniquely (odd powers have one real root), so the question is answerable; this wrongly claims neither helps."
+    },
     "explanation": "A real cube root is unique: $x^3=27$ forces $x=3$ (no negative or other real value cubes to a positive 27), so (1) alone is sufficient. Statement (2) only says $x>0$, which allows infinitely many values, so (2) alone is not sufficient. The trap is over-applying the 'even powers give two roots' rule — odd powers like cubes have a single real root, so no sign ambiguity exists. Answer: A.",
     "estimatedTimeSeconds": 120
   },
@@ -411,6 +561,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "(2) $b>0$ tells us nothing about $a$ relative to $c$, so $a+b>c$ is undetermined alone.",
+      "C": "You don't need (2): (1) $a>c-b$ rearranges directly to $a+b>c$, so combining is unnecessary.",
+      "D": "(2) alone cannot settle the inequality, so the statements are not each sufficient; only (1) is.",
+      "E": "(1) is just the target inequality rearranged, so the question is answerable; this wrongly claims neither statement helps."
     },
     "explanation": "The question asks whether $a + b > c$. Statement (1): $a > c - b$ — add $b$ to both sides to get exactly $a + b > c$, so (1) alone is sufficient. Statement (2): $b > 0$ tells us nothing about $a$ relative to $c$, so it is not sufficient. The key insight is that the inequality in (1) is just the target rearranged, so the answer is A — no need for (2).",
     "estimatedTimeSeconds": 120
@@ -428,6 +584,12 @@
       "format": "single",
       "value": "E"
     },
+    "distractorRationale": {
+      "A": "(1) leaves divisors of 24 above 6 as 8, 12, or 24 — multiple values, so $n$ is not fixed.",
+      "B": "(2) only says $n$ is even, which is far from a single value.",
+      "C": "Combining still leaves 8, 12, and 24 (all even), so $n$ remains undetermined together.",
+      "D": "Neither statement alone narrows $n$ to one value, so neither is individually sufficient."
+    },
     "explanation": "The divisors of 24 strictly greater than 6 are 8, 12, and 24: statement (1) therefore leaves multiple possible values. Statement (2), \"n is even,\" is also insufficient. Together, since 8, 12, and 24 are all even, n is still not determined.",
     "estimatedTimeSeconds": 150
   },
@@ -443,6 +605,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "E"
+    },
+    "distractorRationale": {
+      "A": "(1) $x^{2}<16$ (and $x\\neq0$) gives $-4<x<4$, which includes both positive and negative values, so the sign is undetermined.",
+      "B": "(2) $x<4$ includes positive numbers like 3 and negatives, so it cannot fix the sign.",
+      "C": "Combining gives $-4<x<4$ with $x\\neq0$, still both signs possible, so together they remain insufficient.",
+      "D": "Neither statement alone settles whether $x<0$, so neither is individually sufficient."
     },
     "explanation": "(1) gives multiple positive and negative values. (2) alone is not sufficient. Together, there are still both positive and negative possible values.",
     "estimatedTimeSeconds": 150
@@ -460,6 +628,12 @@
       "format": "single",
       "value": "D"
     },
+    "distractorRationale": {
+      "A": "(1) alone is in fact sufficient (sum 24 gives 7, 8, 9), so claiming only (1) misses that (2) also works alone.",
+      "B": "(2) alone is in fact sufficient (largest 10 gives 8, 9, 10), so claiming only (2) misses that (1) also works alone.",
+      "C": "Each statement independently fixes the integers, so you do not need to combine them.",
+      "E": "Both statements determine the smallest integer, so it is answerable — this wrongly claims neither suffices."
+    },
     "explanation": "Each statement is sufficient: three consecutive integers whose sum is 24 are 7, 8, 9; if the largest is 10, the three are 8, 9, 10.",
     "estimatedTimeSeconds": 120
   },
@@ -475,6 +649,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "C"
+    },
+    "distractorRationale": {
+      "A": "(1) $x^{2}=y^{2}$ allows $x=y$ or $x=-y$, so the answer could be yes or no — not sufficient alone.",
+      "B": "(2) only says both are positive but gives no relation between their sizes, so $x=y$ is undetermined.",
+      "D": "Neither alone settles it: (1) leaves the sign ambiguity and (2) gives no link, so a single statement is not sufficient.",
+      "E": "Together, positivity removes the $x=-y$ case, forcing $x=y$, so the combination is sufficient — not insufficient."
     },
     "explanation": "(1) allows x = y or x = -y. (2) alone is not sufficient. Together, both being positive forces x = y.",
     "estimatedTimeSeconds": 120
@@ -492,6 +672,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "(2) says $x$ is a multiple of 4, which permits 4, 8, 12, …; it never fixes a single value.",
+      "C": "You don't need (2): (1) solves $x/2=4$ to give $x=8$, so combining is unnecessary.",
+      "D": "(2) alone cannot pin down $x$, so the statements are not each sufficient; only (1) is.",
+      "E": "(1) gives $x=8$, so the question is answerable; this wrongly claims neither statement helps."
+    },
     "explanation": "(1) gives x = 8 directly. (2) alone is not sufficient.",
     "estimatedTimeSeconds": 120
   },
@@ -507,6 +693,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "(2) says one side is longest, true of nearly every triangle (acute, right, or obtuse), so it does not establish a right angle.",
+      "C": "You don't need (2): (1) makes two angles sum to 90°, so the third is 90°, answering yes — combining is unnecessary.",
+      "D": "(2) alone cannot determine a right angle, so the statements are not each sufficient; only (1) is.",
+      "E": "(1) forces the third angle to 90°, so the question is answerable; this wrongly claims neither statement helps."
     },
     "explanation": "A triangle is right exactly when one angle equals 90°, and the three angles always sum to 180°. Statement (1) says two angles sum to 90°, so the third angle is $180 - 90 = 90$°, making the triangle right; (1) alone is sufficient. Statement (2) only says one side is the longest, which is true of every non-equilateral triangle (acute, right, or obtuse), so (2) alone is not sufficient. The trap is assuming a longest side forces a right angle; the answer is A.",
     "estimatedTimeSeconds": 120
@@ -524,6 +716,12 @@
       "format": "single",
       "value": "D"
     },
+    "distractorRationale": {
+      "A": "(1) alone is in fact sufficient (area $=d^{2}/2=50$), so claiming only (1) misses that (2) also works alone.",
+      "B": "(2) alone is in fact sufficient (side 10, area 100), so claiming only (2) misses that (1) also works alone.",
+      "C": "Each statement independently gives the area, so you do not need to combine them.",
+      "E": "Both statements determine the area, so it is answerable — this wrongly claims neither suffices."
+    },
     "explanation": "From (1), area = $d^{2}$/2 = 50. From (2), side = 10, so area = 100. Each statement is sufficient.",
     "estimatedTimeSeconds": 120
   },
@@ -539,6 +737,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "(2) divisible by 2 and 6 only guarantees divisibility by 6, not by 4 (e.g. 6 is not a multiple of 4), so it is not sufficient.",
+      "C": "You don't need (2): (1) divisibility by 8 already implies divisibility by 4, so combining is unnecessary.",
+      "D": "(2) alone does not guarantee divisibility by 4, so the statements are not each sufficient; only (1) is.",
+      "E": "(1) settles divisibility by 4, so the question is answerable; this wrongly claims neither statement helps."
     },
     "explanation": "(1) is sufficient because every multiple of 8 is a multiple of 4. (2) alone does not guarantee divisibility by 4.",
     "estimatedTimeSeconds": 120
@@ -556,6 +760,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "(2) only says $m>0$, which permits infinitely many values; it never fixes $m$.",
+      "C": "You don't need (2): (1) solves $2m+1=15$ to give $m=7$, so combining is unnecessary.",
+      "D": "(2) alone cannot determine $m$, so the statements are not each sufficient; only (1) is.",
+      "E": "(1) gives $m=7$, so the question is answerable; this wrongly claims neither statement helps."
+    },
     "explanation": "(1) gives m = 7. (2) alone is not sufficient.",
     "estimatedTimeSeconds": 120
   },
@@ -571,6 +781,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "D"
+    },
+    "distractorRationale": {
+      "A": "(1) alone is in fact sufficient (ratio $5:4$ means $A>B$), so claiming only (1) misses that (2) also works alone.",
+      "B": "(2) alone is in fact sufficient ($A-B=3>0$ means $A>B$), so claiming only (2) misses that (1) also works alone.",
+      "C": "Each statement independently shows $A>B$, so you do not need to combine them.",
+      "E": "Both statements answer yes, so the question is determinable — this wrongly claims neither suffices."
     },
     "explanation": "(1) A ratio A:B = 5:4 implies A > B. (2) A − B = 3 being positive also gives A > B. Each statement alone is sufficient to answer \"yes\".",
     "estimatedTimeSeconds": 120
@@ -588,6 +804,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "(1) $x+\\tfrac1x=5$ gives $x=\\tfrac{5\\pm\\sqrt{21}}{2}$; both roots are positive, so it yields two values — not sufficient.",
+      "B": "(2) $x>1$ permits infinitely many values, so it cannot fix $x$ alone.",
+      "D": "Neither alone fixes $x$: (1) leaves two positive roots and (2) leaves a range; only combining selects one root.",
+      "E": "Together, $x>1$ picks the larger root $\\tfrac{5+\\sqrt{21}}{2}$, so the question is answerable — not insufficient."
+    },
     "explanation": "Statement (1): $x+1/x=5$ becomes $x^2-5x+1=0$, giving $x=\\frac{5\\pm\\sqrt{21}}{2}$; both roots are positive, so (1) alone yields two values and is not sufficient. Statement (2): $x>1$ allows infinitely many values, so (2) alone is not sufficient. Together, the larger root $\\frac{5+\\sqrt{21}}{2}\\approx 4.79$ exceeds 1 while the smaller $\\approx 0.21$ does not, so $x>1$ selects a unique root — the answer is C. The trap is assuming the two positive roots are interchangeable; they are reciprocals, so exactly one lies above 1.",
     "estimatedTimeSeconds": 150
   },
@@ -603,6 +825,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "D"
+    },
+    "distractorRationale": {
+      "A": "(1) alone is in fact sufficient ($2(L+5)=30$ gives $L=10$), so claiming only (1) misses that (2) also works alone.",
+      "B": "(2) alone is in fact sufficient ($50/5=10$), so claiming only (2) misses that (1) also works alone.",
+      "C": "Each statement independently gives $L=10$, so you do not need to combine them.",
+      "E": "Both statements give $L=10$, so the length is determined — this wrongly claims neither suffices."
     },
     "explanation": "In both cases, the length is 10.",
     "estimatedTimeSeconds": 120
@@ -620,6 +848,12 @@
       "format": "single",
       "value": "E"
     },
+    "distractorRationale": {
+      "A": "(1) gives $x=1$ or $x=3$; one is not greater than 1 and one is, so the answer is undetermined — not sufficient.",
+      "B": "(2) only says $x$ is an integer, far from settling whether $x>1$.",
+      "C": "Combining keeps $x=1$ or $3$ (both integers), so the answer is still ambiguous together.",
+      "D": "Neither statement alone resolves whether $x>1$, so neither is individually sufficient."
+    },
     "explanation": "(1) gives x = 1 or 3. (2) alone is not sufficient. Together, x remains 1 or 3, so the combination is still insufficient.",
     "estimatedTimeSeconds": 150
   },
@@ -635,6 +869,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "(2) $x-y=5$ is one equation in two unknowns, so $x$ could be 6, 10, etc. — not sufficient alone.",
+      "C": "You don't need (2): (1) gives $x/y=2$ with $y=5$, so $x=10$ — combining is unnecessary.",
+      "D": "(2) alone cannot fix $x$, so the statements are not each sufficient; only (1) is.",
+      "E": "(1) gives $x=10$, so the question is answerable; this wrongly claims neither statement helps."
     },
     "explanation": "Statement (1) gives $x/y = 2$ with $y = 5$, so $x = 2 \\times 5 = 10$ — a unique value, sufficient. Statement (2) $x - y = 5$ alone leaves $x$ undetermined (e.g. $x=6,y=1$ or $x=10,y=5$) — not sufficient. Since (1) alone works and (2) alone does not, the answer is A; don't be tempted to combine them when one already suffices.",
     "estimatedTimeSeconds": 120
@@ -652,6 +892,12 @@
       "format": "single",
       "value": "D"
     },
+    "distractorRationale": {
+      "A": "(1) alone is in fact sufficient (two odd numbers sum to an even number), so claiming only (1) misses that (2) also works alone.",
+      "B": "(2) alone is in fact sufficient (one even and one odd sum to an odd number), so claiming only (2) misses (1).",
+      "C": "Each statement independently determines the parity of the sum, so you do not need to combine them.",
+      "E": "Both statements answer the question, so it is determinable — this wrongly claims neither suffices."
+    },
     "explanation": "Each statement is sufficient: two odd numbers have an even sum; one even and one odd number have an odd sum, so the answer to the question is determined in each case.",
     "estimatedTimeSeconds": 120
   },
@@ -667,6 +913,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "(2) only says $n$ is even, which allows infinitely many values; it never fixes $n$.",
+      "C": "You don't need (2): the only integer between 4 and 8 divisible by 3 is 6, so (1) gives $n=6$ alone — combining is unnecessary.",
+      "D": "(2) alone cannot determine $n$, so the statements are not each sufficient; only (1) is.",
+      "E": "(1) pins $n=6$, so the question is answerable; this wrongly claims neither statement helps."
     },
     "explanation": "List the integers strictly between 4 and 8: 5, 6, 7. Only 6 is divisible by 3, so statement (1) pins $n=6$ uniquely and is sufficient alone. Statement (2) says $n$ is even, which has infinitely many values, so (2) alone is not sufficient. The insight is to enumerate the small range and check divisibility rather than assume a range gives multiple candidates. Answer: A.",
     "estimatedTimeSeconds": 120
@@ -684,6 +936,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "(1) $x^{2}=25$ gives $x=5$ or $x=-5$ — one positive, one negative, so the sign is undetermined; not sufficient.",
+      "C": "You don't need (1): (2) $x+2<0$ means $x<-2$, forcing $x$ negative, so combining is unnecessary.",
+      "D": "(1) alone leaves the sign ambiguous, so the statements are not each sufficient; only (2) is.",
+      "E": "(2) settles that $x$ is negative, so the question is answerable; this wrongly claims neither statement suffices."
+    },
     "explanation": "We need to know the sign of $x$. Statement (1): $x^2 = 25$ gives $x = 5$ or $x = -5$ — one positive, one negative, so we cannot decide; not sufficient. Statement (2): $x + 2 < 0$ means $x < -2$, which forces $x$ negative — a definite 'yes', so (2) alone is sufficient. The trap is assuming the squared equation pins down the sign; the answer is B.",
     "estimatedTimeSeconds": 120
   },
@@ -699,6 +957,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "(2) leaves $k$ as a factor of 6 greater than 2, i.e. 3 or 6 — two values, so it is not sufficient alone.",
+      "C": "You don't need (2): (1) defines $k$ as the GCD of 18 and 30, which is 6, so combining is unnecessary.",
+      "D": "(2) alone leaves $k=3$ or $6$, so the statements are not each sufficient; only (1) is.",
+      "E": "(1) gives $k=6$ uniquely, so the question is answerable; this wrongly claims neither statement helps."
     },
     "explanation": "A value is fixed only if a statement pins it to a single number. Statement (1) defines $k$ as the GCD of 18 and 30: $18 = 2 \\cdot 3^2$, $30 = 2 \\cdot 3 \\cdot 5$, so $\\gcd = 2 \\cdot 3 = 6$, a unique value, making (1) sufficient. Statement (2) says $k$ is a factor of 6 greater than 2, leaving $k = 3$ or $k = 6$, so (2) alone is not sufficient. The trap is that (2) sounds restrictive but allows two values; the answer is A.",
     "estimatedTimeSeconds": 120
@@ -716,6 +980,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "(2) $x+y<0$ holds for points in several quadrants (e.g. $(-3,1)$ in II but $(1,-3)$ in IV), so it cannot confirm quadrant II.",
+      "C": "You don't need (2): (1) gives exactly $x<0$ and $y>0$, the definition of quadrant II, so combining is unnecessary.",
+      "D": "(2) alone does not pin the quadrant, so the statements are not each sufficient; only (1) is.",
+      "E": "(1) confirms quadrant II, so the question is answerable; this wrongly claims neither statement helps."
+    },
     "explanation": "Quadrant II is defined precisely by $x<0$ and $y>0$, so test each statement against that. Statement (1) gives exactly $x<0$ and $y>0$ — a definite yes, so (1) alone is sufficient. Statement (2) $x+y<0$ holds for points like $(-3,1)$ (quadrant II, yes) and $(1,-3)$ (quadrant IV, no), so (2) alone is not sufficient. Since (1) alone works and (2) alone fails, the answer is A; the trap is thinking $x+y<0$ pins down the quadrant when it only restricts a region crossing several quadrants.",
     "estimatedTimeSeconds": 120
   },
@@ -731,6 +1001,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "E"
+    },
+    "distractorRationale": {
+      "A": "(1) gives consecutive odd integers with product 15 as 3 and 5 (sum 8) or $-5$ and $-3$ (sum $-8$), so $p=8$ or $-8$ — not sufficient.",
+      "B": "(2) only says $p$ is even, which is far from a single value.",
+      "C": "Combining keeps $p=8$ or $-8$ (both even), so $p$ remains undetermined together.",
+      "D": "Neither statement alone fixes $p$, so neither is individually sufficient."
     },
     "explanation": "Two consecutive odd integers whose product is 15 are either 3 and 5 (sum 8) or −5 and −3 (sum −8). Statement (1) therefore leaves p = 8 or p = −8, and statement (2), \"p is even,\" does not resolve the ambiguity since both values are even. Even combined, the statements do not determine p.",
     "estimatedTimeSeconds": 120
@@ -748,6 +1024,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "(2) only says $x$ and $y$ are integers, which says nothing about their order, so $x>y$ is undetermined.",
+      "C": "You don't need (2): (1) $x-y=0.5>0$ already shows $x>y$, so combining is unnecessary.",
+      "D": "(2) alone cannot settle the order, so the statements are not each sufficient; only (1) is.",
+      "E": "(1) gives the sign of $x-y$ outright, so the question is answerable; this wrongly claims neither statement helps."
+    },
     "explanation": "Statement (1) $x - y = 0.5 > 0$ means $x > y$ directly — a definite 'yes', so it is sufficient. Statement (2) only says $x$ and $y$ are integers, which says nothing about their order — not sufficient. The key insight is that (1) gives the sign of $x-y$ outright; since (1) alone answers it and (2) alone does not, the answer is A.",
     "estimatedTimeSeconds": 120
   },
@@ -763,6 +1045,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "(2) $x+y=15$ is one equation in two unknowns, so $x$ is not fixed alone.",
+      "C": "You don't need (2): (1) gives $3x=2(9)$, so $x=6$ — combining is unnecessary.",
+      "D": "(2) alone cannot determine $x$, so the statements are not each sufficient; only (1) is.",
+      "E": "(1) gives $x=6$, so the question is answerable; this wrongly claims neither statement helps."
     },
     "explanation": "Statement (1) gives x = 6. (2) alone is not sufficient.",
     "estimatedTimeSeconds": 120
@@ -780,6 +1068,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "(2) 'greater than 1' is satisfied by composites like 4 as well as primes, so it does not settle whether the number is prime.",
+      "C": "You don't need (2): (1) 'exactly two positive divisors' is the definition of prime, so combining is unnecessary.",
+      "D": "(2) alone cannot confirm primality, so the statements are not each sufficient; only (1) is.",
+      "E": "(1) guarantees the number is prime, so the question is answerable; this wrongly claims neither statement helps."
+    },
     "explanation": "By definition, a prime is an integer greater than 1 with exactly two positive divisors (1 and itself), so statement (1) guarantees the number is prime and is sufficient alone. Statement (2), 'greater than 1,' is satisfied by composites like 4 as well as primes, so (2) alone is not sufficient. The trap is thinking (2) adds something essential — but (1) already encodes the full definition, including the 'greater than 1' condition. Answer: A.",
     "estimatedTimeSeconds": 120
   },
@@ -795,6 +1089,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "(2) only says $a$ is an integer, leaving infinitely many possibilities; it never fixes $a$.",
+      "C": "You don't need (2): (1) $a^{2}=64$ with $a$ negative selects $a=-8$ uniquely, so combining is unnecessary.",
+      "D": "(2) alone cannot determine $a$, so the statements are not each sufficient; only (1) is.",
+      "E": "(1) gives $a=-8$, so the question is answerable; this wrongly claims neither statement helps."
     },
     "explanation": "We need the exact value of $a$. Statement (1): $a^2 = 64$ would give $\\pm 8$, but the added condition 'a is negative' selects $a = -8$ uniquely, so (1) alone is sufficient. Statement (2): 'a is an integer' leaves infinitely many possibilities, so it is not sufficient. The insight is that statement (1) already bundles in the sign restriction that resolves the square root, so the answer is A.",
     "estimatedTimeSeconds": 120
@@ -812,6 +1112,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "(2) gives the largest as 20 and the other two positive, but they could be tiny, so the average is undetermined.",
+      "C": "You don't need (2): (1) sum 31 gives average $31/3>10$, so combining is unnecessary.",
+      "D": "(2) alone cannot settle whether the average exceeds 10, so the statements are not each sufficient; only (1) is.",
+      "E": "(1) gives average $31/3>10$, so the question is answerable; this wrongly claims neither statement helps."
+    },
     "explanation": "A sum of 31 over three numbers gives an average of 31/3, which is greater than 10.",
     "estimatedTimeSeconds": 120
   },
@@ -827,6 +1133,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "(2) only says $x<5$, which permits infinitely many values; it never fixes $x$.",
+      "C": "You don't need (2): (1) solves $2x+3=11$ to give $x=4$, so combining is unnecessary.",
+      "D": "(2) alone cannot determine $x$, so the statements are not each sufficient; only (1) is.",
+      "E": "(1) gives $x=4$, so the question is answerable; this wrongly claims neither statement helps."
     },
     "explanation": "The equation gives x = 4, so it is sufficient.",
     "estimatedTimeSeconds": 120
@@ -844,6 +1156,12 @@
       "format": "single",
       "value": "D"
     },
+    "distractorRationale": {
+      "A": "(1) alone is in fact sufficient (area $=10\\times6=60>50$), so claiming only (1) misses that (2) also works alone.",
+      "B": "(2) alone is in fact sufficient (perimeter 32 with length 10 gives width 6, area $60>50$), so claiming only (2) misses (1).",
+      "C": "Each statement independently determines the area, so you do not need to combine them.",
+      "E": "Both statements answer the yes/no question, so it is determinable — this wrongly claims neither suffices."
+    },
     "explanation": "Area of a rectangle is length times width, so each statement is sufficient if it determines both dimensions. Statement (1) gives length 10 and width 6, so area $= 60 > 50$ — sufficient. Statement (2) gives perimeter 32 with length 10, so $2(10 + w) = 32 \\Rightarrow w = 6$, again area $= 60 > 50$ — sufficient. Since each statement alone answers the yes/no question, the answer is D; the trap is overlooking that the perimeter plus one side fully determines the other side.",
     "estimatedTimeSeconds": 120
   },
@@ -859,6 +1177,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "C"
+    },
+    "distractorRationale": {
+      "A": "(1) $n^{2}-5n+6=0$ factors as $(n-2)(n-3)=0$, giving $n=2$ or $n=3$ — two values, so it is not sufficient alone.",
+      "B": "(2) $n>2$ permits infinitely many values, so it cannot fix $n$ by itself.",
+      "D": "Neither alone fixes $n$: (1) leaves two roots and (2) leaves a range; only combining gives $n=3$.",
+      "E": "Together, $n>2$ eliminates $n=2$ and leaves $n=3$, so the question is answerable — not insufficient."
     },
     "explanation": "Statement (1): $n^2-5n+6=0$ factors as $(n-2)(n-3)=0$, so $n=2$ or $n=3$ — two values, not sufficient. Statement (2): $n>2$ allows infinitely many values, not sufficient. Together, $n>2$ eliminates $n=2$ and leaves only $n=3$, a unique value, so the answer is C. The trap is stopping at statement (1) and treating the quadratic as if it had one root.",
     "estimatedTimeSeconds": 150

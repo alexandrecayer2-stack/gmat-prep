@@ -34,6 +34,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "$23$ comes from $24-3+8$ minus a stray $6$, or from mishandling the order of operations; the multiplication $3(5)=15$ must be done before the addition and subtraction.",
+      "C": "$11$ subtracts the $8$ instead of adding it: $24-15-8=1$ isn't it either, but $11$ reflects a sign slip on the final term. Correctly, $24-15+8=17$.",
+      "D": "$31$ adds $3(5)=15$ instead of subtracting it ($24+15-8$ mishandled); the term $-3(5)$ is negative, giving $24-15+8=17$.",
+      "E": "$29$ comes from $24-3+8$, treating $3(5)$ as just $3$; you must multiply first to get $15$, leaving $17$."
+    },
     "explanation": "Multiply first: $3(5)=15$. Then $24-15+8=17$.",
     "estimatedTimeSeconds": 90
   },
@@ -71,6 +77,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "$45$ is a near-miss that doesn't match $0.12\\times 350$; the exact product is $42$.",
+      "C": "$36$ uses $0.12\\times 300$ or rounds $350$ down; keep the full $350$ to get $0.12\\times 350=42$.",
+      "D": "$40$ rounds the answer rather than computing it; $0.12\\times 350=42$ exactly.",
+      "E": "$32$ undercounts the product; $12\\%$ of $350$ is $0.12\\times 350=42$."
     },
     "explanation": "$0.12\\times 350 = 42$.",
     "estimatedTimeSeconds": 90
@@ -110,6 +122,12 @@
       "format": "single",
       "value": "E"
     },
+    "distractorRationale": {
+      "A": "$\\frac{1}{2}$ is a near-miss; converting to eighths gives $\\frac{5}{8}-\\frac{2}{8}=\\frac{3}{8}$, not $\\frac{4}{8}$.",
+      "B": "$\\frac{7}{8}$ adds the fractions instead of subtracting: $\\frac{5}{8}+\\frac{2}{8}=\\frac{7}{8}$. The problem asks for the difference, $\\frac{3}{8}$.",
+      "C": "$\\frac{1}{8}$ subtracts before getting a common denominator (treating $\\frac{1}{4}$ as $\\frac{4}{8}$); $\\frac{1}{4}=\\frac{2}{8}$, so $\\frac{5}{8}-\\frac{2}{8}=\\frac{3}{8}$.",
+      "D": "$\\frac{5}{12}$ comes from subtracting numerators and denominators separately ($\\frac{5-1}{8-... }$); the correct method uses a common denominator of $8$, giving $\\frac{3}{8}$."
+    },
     "explanation": "Rewrite $\\frac{1}{4}=\\frac{2}{8}$. Then $\\frac{5}{8}-\\frac{2}{8}=\\frac{3}{8}$.",
     "estimatedTimeSeconds": 90
   },
@@ -147,6 +165,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "E"
+    },
+    "distractorRationale": {
+      "A": "$16$ is the larger number scaled wrong, or $4\\times 4$; each part equals $33/11=3$, so the smaller number is $4\\times 3=12$.",
+      "B": "$11$ is the number of parts ($4+7$), not a number's value; multiply that part value $3$ by $4$ to get the smaller number, $12$.",
+      "C": "$14$ is the larger number, not the smaller; $7\\times 2=14$ uses the wrong part value. The smaller is $4\\times 3=12$.",
+      "D": "$18$ doesn't match either number; the smaller is $4$ parts of $3$, which is $12$."
     },
     "explanation": "The ratio has $4+7=11$ parts, each $33/11=3$. The smaller number is $4\\times 3=12$.",
     "estimatedTimeSeconds": 100
@@ -186,6 +210,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "$27$ overshoots; the total of all four is $4\\times 18=72$, so the fourth number is $72-47=25$.",
+      "C": "$21$ is a near-miss from a subtraction slip; $72-47=25$.",
+      "D": "$19$ may come from $4\\times 18-53$ or a similar arithmetic error; the total is $72$, so the fourth is $72-47=25$.",
+      "E": "$23$ subtracts incorrectly; $72-47=25$, not $23$."
+    },
     "explanation": "The total is $4\\times 18=72$, so the fourth number is $72-47=25$.",
     "estimatedTimeSeconds": 100
   },
@@ -223,6 +253,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "$570$ is not a multiple of $11$ (its alternating digit sum is $(5+0)-7=-2\\ne 0$); only $583$ passes the divisibility test.",
+      "C": "$600$ has alternating digit sum $(6+0)-0=6\\ne 0$, so it is not divisible by $11$; $583=11\\times 53$ is.",
+      "D": "$615$ has alternating digit sum $(6+5)-1=10\\ne 0$, a multiple of $11$ in the sum is required to be $0$ or $\\pm 11$; it isn't divisible. $583$ is.",
+      "E": "$620$ has alternating digit sum $(6+0)-2=4\\ne 0$, so it is not divisible by $11$; the answer is $583$."
     },
     "explanation": "For $583$, the alternating digit sum is $(5+3)-8=0$, so $583=11\\times 53$ is divisible by $11$. None of $570$, $600$, $615$, or $620$ is a multiple of $11$.",
     "estimatedTimeSeconds": 100
@@ -262,6 +298,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "$6$ overshoots; adding $5$ gives $7x=35$, so $x=35/7=5$, not $6$.",
+      "C": "$4$ may come from subtracting $5$ instead of adding it ($7x=25$); the $-5$ must move to the right as $+5$, giving $7x=35$ and $x=5$.",
+      "D": "$7$ is the coefficient, not the solution; solving $7x=35$ gives $x=5$.",
+      "E": "$3$ is too small; $7x=35$ yields $x=5$."
+    },
     "explanation": "Add $5$ to both sides: $7x=35$, so $x=5$.",
     "estimatedTimeSeconds": 90
   },
@@ -299,6 +341,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "$34$ counts only one of the two equal sides ($13+10+11$ style slip); the perimeter sums all three sides: $13+13+10=36$.",
+      "C": "$38$ overcounts the base or a side; the correct sum is $13+13+10=36$.",
+      "D": "$40$ likely uses $15$ or doubles the base; add the actual sides $13+13+10=36$.",
+      "E": "$42$ is too large; $13+13+10=36$."
     },
     "explanation": "Perimeter $=13+13+10=36$.",
     "estimatedTimeSeconds": 90
@@ -338,6 +386,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "$(3,1)$ takes the difference $\\frac{6-(-2)}{...}$ as $\\frac{8}{...}$ wrong, or mis-sums the $x$-coordinates; the midpoint averages them: $\\frac{-2+6}{2}=2$, giving $(2,1)$.",
+      "C": "$(2,0)$ has the right $x$ but mishandles the $y$-average; $\\frac{4+(-2)}{2}=1$, so the midpoint is $(2,1)$.",
+      "D": "$(1,1)$ uses the wrong $x$-average; $\\frac{-2+6}{2}=2$, not $1$, giving $(2,1)$.",
+      "E": "$(2,2)$ has the right $x$ but forgets the $-2$ when averaging the $y$-values; $\\frac{4+(-2)}{2}=1$, so the midpoint is $(2,1)$."
+    },
     "explanation": "Midpoint $=\\left(\\frac{-2+6}{2},\\frac{4+(-2)}{2}\\right)=(2,1)$.",
     "estimatedTimeSeconds": 100
   },
@@ -375,6 +429,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "D"
+    },
+    "distractorRationale": {
+      "A": "$36$ comes from dividing by $5$ instead of $4.5$; speed is distance over time, $180/4.5=40$.",
+      "B": "$50$ overstates the rate (perhaps $180/3.6$); the correct quotient is $180/4.5=40$.",
+      "C": "$42$ is a near-miss division error; $180/4.5=40$ exactly.",
+      "E": "$45$ comes from dividing by $4$ instead of $4.5$; using the full $4.5$ hours gives $180/4.5=40$."
     },
     "explanation": "Speed $=180/4.5=40$.",
     "estimatedTimeSeconds": 100
@@ -414,6 +474,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "$12$ averages the two times $\\frac{10+15}{2}$, which is not how combined work rates behave; add the rates $\\frac{1}{10}+\\frac{1}{15}=\\frac{1}{6}$ for $6$ hours.",
+      "C": "$5$ undershoots; the combined rate is $\\frac{1}{6}$ of the job per hour, so the time is $6$ hours, not $5$.",
+      "D": "$7.5$ is half of $15$ or another partial figure; adding rates gives $\\frac{1}{6}$, so they finish in $6$ hours.",
+      "E": "$8$ is a near-miss; $\\frac{1}{10}+\\frac{1}{15}=\\frac{1}{6}$ gives exactly $6$ hours together."
+    },
     "explanation": "Their rates add: $\\frac{1}{10}+\\frac{1}{15}=\\frac{1}{6}$, so together they take $6$ hours.",
     "estimatedTimeSeconds": 150
   },
@@ -451,6 +517,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "C"
+    },
+    "distractorRationale": {
+      "A": "$4$ overshoots; setting $\\frac{2+x}{8+x}=0.40$ gives $0.6x=1.2$, so $x=2$, not $4$.",
+      "B": "$1$ undershoots the needed acid; solving $\\frac{2+x}{8+x}=0.40$ yields $x=2$.",
+      "D": "$5$ adds far too much acid; the equation $2+x=3.2+0.4x$ gives $x=2$.",
+      "E": "$3$ is a near-miss; carefully, $0.6x=1.2$ means $x=2$."
     },
     "explanation": "The solution has $0.25\\times 8=2$ liters of acid. Adding $x$ liters of acid: $\\frac{2+x}{8+x}=0.40$, so $2+x=3.2+0.4x$, giving $0.6x=1.2$ and $x=2$.",
     "estimatedTimeSeconds": 180
@@ -490,6 +562,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "$5$ forgets the $+1$ in the exponent; $128=2^7$ means $x+1=7$, so $x=6$.",
+      "C": "$7$ is the full exponent $x+1$, not $x$; subtract $1$ to get $x=6$.",
+      "D": "$4$ uses the wrong power of $2$ (e.g., $2^5=32$ confusion); since $128=2^7$, $x+1=7$ and $x=6$.",
+      "E": "$3$ is too small; $128=2^7$ forces $x+1=7$, giving $x=6$."
+    },
     "explanation": "Since $128=2^7$, we have $x+1=7$, so $x=6$.",
     "estimatedTimeSeconds": 120
   },
@@ -527,6 +605,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "C"
+    },
+    "distractorRationale": {
+      "A": "$x=1$ gives $|3-4|=1$, which is not $>11$; the inequality requires $x>5$ or $x<-\\frac{7}{3}$.",
+      "B": "$x=3$ gives $|9-4|=5$, not greater than $11$; only $x=6$ satisfies $x>5$.",
+      "D": "$x=2$ gives $|6-4|=2$, far below $11$; the solution set is $x>5$ or $x<-\\frac{7}{3}$, so $x=6$.",
+      "E": "$x=4$ gives $|12-4|=8$, still not over $11$; you need $x>5$, so $x=6$."
     },
     "explanation": "$|3x-4|>11$ means $3x-4>11$ or $3x-4<-11$, i.e. $x>5$ or $x<-\\frac{7}{3}$. Of the choices, only $x=6$ satisfies this.",
     "estimatedTimeSeconds": 150
@@ -566,6 +650,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "$12$ ignores the given total; the average is simply $84/6=14$, not derived from the middle values.",
+      "B": "$13$ is one of the two middle numbers, not the average; divide the sum by the count: $84/6=14$.",
+      "D": "$15$ is the other middle number; the average is the total over the count, $84/6=14$.",
+      "E": "$16$ overshoots; $84/6=14$ is the average regardless of the median."
+    },
     "explanation": "The average is the total divided by the count: $84/6=14$.",
     "estimatedTimeSeconds": 120
   },
@@ -603,6 +693,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "C"
+    },
+    "distractorRationale": {
+      "A": "$\\frac{1}{5}$ counts only the green marbles ($2$ of $10$); 'not blue' includes red and green, $7$ of $10$.",
+      "B": "$\\frac{3}{5}$ counts only the red marbles ($5$ of $10$ wrongly reduced, or $6/10$); 'not blue' is the $7$ red-or-green marbles over $10$.",
+      "D": "$\\frac{2}{5}$ is the probability of blue ($\\frac{... }$ near-miss) or a complement slip; 'not blue' is $\\frac{7}{10}$.",
+      "E": "$\\frac{4}{5}$ is $\\frac{8}{10}$, perhaps subtracting only the $2$ green from $10$; the blue count is $3$, so not-blue is $\\frac{7}{10}$."
     },
     "explanation": "There are $10$ marbles, of which $5+2=7$ are not blue, so the probability is $\\frac{7}{10}$.",
     "estimatedTimeSeconds": 120
@@ -642,6 +738,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "$360$ skips the leading-zero restriction in the units$\\ne 0$ case, counting $9\\times 8$ hundreds-tens freely; barring a leading $0$ there cuts it to $4\\times 8\\times 8=256$, plus $72$ for units $=0$, totaling $328$.",
+      "C": "$324$ is a near-miss from a casework slip; the correct split gives $72+256=328$.",
+      "D": "$400$ overcounts by ignoring the distinct-digit constraint somewhere; the accurate count is $328$.",
+      "E": "$432$ overcounts both the leading-zero and distinctness limits; carefully, $72+256=328$."
+    },
     "explanation": "Split on the units digit because $0$ behaves differently from the other even digits. If units $= 0$, the hundreds and tens can be any distinct nonzero-allowed digits: $9 \\times 8 = 72$. If units $\\in \\{2,4,6,8\\}$ (4 choices), the hundreds digit has 8 choices (any of the other 9 digits except $0$), and the tens digit has 8 choices (any digit except the two used): $4 \\times 8 \\times 8 = 256$. The trap is forgetting that a leading $0$ is barred only when the units digit isn't $0$; total $= 72 + 256 = 328$.",
     "estimatedTimeSeconds": 150
   },
@@ -679,6 +781,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "$18\\pi$ computes circumference-like $2\\pi r$ instead of area; area is $\\pi r^2=\\pi(81)=81\\pi$.",
+      "C": "$36\\pi$ may square half the radius or use $r=6$; with $r=9$, area $=\\pi(9^2)=81\\pi$.",
+      "D": "$72\\pi$ comes from $8\\times 9$ or a similar slip; the area is $\\pi r^2=81\\pi$.",
+      "E": "$9\\pi$ uses $r$ instead of $r^2$; squaring gives $81$, so the area is $81\\pi$."
     },
     "explanation": "Area $=\\pi r^2=\\pi(9^2)=81\\pi$.",
     "estimatedTimeSeconds": 120
@@ -718,6 +826,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "$3$ is a near-miss; the slope is $\\frac{17-5}{8-2}=\\frac{12}{6}=2$.",
+      "C": "$4$ may divide by $3$ instead of $6$ in the run; rise over run is $\\frac{12}{6}=2$.",
+      "D": "$1$ underestimates the steepness; $\\frac{12}{6}=2$.",
+      "E": "$6$ is the run alone (the denominator), not the slope; divide rise by run: $\\frac{12}{6}=2$."
+    },
     "explanation": "Slope $=\\frac{17-5}{8-2}=\\frac{12}{6}=2$.",
     "estimatedTimeSeconds": 120
   },
@@ -755,6 +869,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "$39$ uses $n=8$ ($7+8\\times 4$) instead of $9$ steps; the $10$th term is $7+(10-1)\\times 4=43$.",
+      "C": "$40$ comes from $10\\times 4$ ignoring the first term offset; $a_{10}=7+9\\times 4=43$.",
+      "D": "$35$ adds only $7$ steps of $4$; from the first term you add $9$ differences, giving $43$.",
+      "E": "$47$ uses $10$ differences ($7+10\\times 4$) instead of $9$; the $10$th term adds $(10-1)d$, so $43$."
     },
     "explanation": "Using $a_n=a_1+(n-1)d$: $a_{10}=7+9\\times 4=43$.",
     "estimatedTimeSeconds": 120
@@ -794,6 +914,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "$\\frac{7}{12}$ is the smaller fraction; cross-multiplying, $7\\times 5=35<3\\times 12=36$, so $\\frac{3}{5}$ is greater.",
+      "B": "They are not equal; the cross products $35$ and $36$ differ, making $\\frac{3}{5}$ larger.",
+      "D": "It can be determined; cross-multiplication shows $\\frac{3}{5}>\\frac{7}{12}$.",
+      "E": "$\\frac{5}{7}$ is not one of the two fractions being compared; the question is between $\\frac{7}{12}$ and $\\frac{3}{5}$, and $\\frac{3}{5}$ is greater."
+    },
     "explanation": "Cross-multiply: $7\\times 5=35$ and $3\\times 12=36$. Since $36>35$, $\\frac{3}{5}$ is greater.",
     "estimatedTimeSeconds": 150
   },
@@ -831,6 +957,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "$18$ doesn't match a clean part count; with $7$ parts of $4$, flour is $5\\times 4=20$.",
+      "C": "$16$ uses $4$ parts of flour instead of $5$; flour is the $5$-part share, $5\\times 4=20$.",
+      "D": "$14$ may average or mis-split; each part is $28/7=4$ and flour is $5$ parts, so $20$.",
+      "E": "$12$ is the water amount ($... $) or too few parts; flour is $5\\times 4=20$, water is $2\\times 4=8$."
     },
     "explanation": "Total parts $=5+2=7$, each $28/7=4$. Flour $=5\\times 4=20$.",
     "estimatedTimeSeconds": 150
@@ -870,6 +1002,12 @@
       "format": "single",
       "value": "E"
     },
+    "distractorRationale": {
+      "A": "$13$ overshoots; clearing denominators gives $4x-6=x+9$, so $3x=15$ and $x=5$.",
+      "B": "$11$ is a near-miss from a cross-multiplication slip; $3x=15$ yields $x=5$.",
+      "C": "$9$ comes from the constant on the right rather than solving; $4x-6=x+9$ gives $x=5$.",
+      "D": "$7$ overestimates; correctly, $3x=15$ so $x=5$."
+    },
     "explanation": "Multiply both sides by $10$: $2(2x-3)=x+9$, so $4x-6=x+9$, giving $3x=15$ and $x=5$.",
     "estimatedTimeSeconds": 150
   },
@@ -907,6 +1045,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "$0$ would mean $7^{20}$ is a multiple of $6$, but $7\\equiv 1\\pmod 6$, so the remainder is $1$.",
+      "C": "$2$ doesn't follow; since $7\\equiv 1$, every power leaves remainder $1$, not $2$.",
+      "D": "$3$ is unrelated to this base; $7^{20}\\equiv 1^{20}\\equiv 1\\pmod 6$.",
+      "E": "$4$ may guess from a pattern in another modulus; here $7\\equiv 1\\pmod 6$ forces remainder $1$."
     },
     "explanation": "Reduce the base mod 6 before taking the power. Since $7 = 6+1$, we have $7 \\equiv 1 \\pmod 6$, so $7^{20} \\equiv 1^{20} \\equiv 1 \\pmod 6$. The trap is trying to compute the huge number $7^{20}$ directly; the insight is that any base that is $1$ more than the divisor leaves remainder $1$ for every power. The answer is B.",
     "estimatedTimeSeconds": 150
@@ -946,6 +1090,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "$7$ is the positive root, but the condition $x<0$ selects the negative one, $x=-7$.",
+      "C": "$49$ is $x^2$, not $x$; take the square root and apply $x<0$ to get $-7$.",
+      "D": "$-49$ negates $x^2$ instead of $x$; the roots are $\\pm 7$, and $x<0$ gives $-7$.",
+      "E": "$0$ does not satisfy $x^2=49$; the negative root is $-7$."
+    },
     "explanation": "$x^2=49$ gives $x=\\pm 7$; the condition $x<0$ gives $x=-7$.",
     "estimatedTimeSeconds": 120
   },
@@ -983,6 +1133,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "E"
+    },
+    "distractorRationale": {
+      "A": "$x=-1$ is exactly the excluded endpoint, since $-1<x$ is strict; the range is $-1<x\\le 3$, so $x=1$ works.",
+      "B": "$x=-2$ gives $3(-2)+1=-5$, below $-2$; the solution is $-1<x\\le 3$, satisfied by $x=1$.",
+      "C": "$x=4$ gives $13$, above $10$; only values in $-1<x\\le 3$ qualify, such as $x=1$.",
+      "D": "$x=5$ gives $16$, far above $10$; the valid range is $-1<x\\le 3$, so $x=1$."
     },
     "explanation": "Subtract $1$: $-3<3x\\le 9$. Divide by $3$: $-1<x\\le 3$. Of the choices, only $x=1$ lies in this range.",
     "estimatedTimeSeconds": 120
@@ -1022,6 +1178,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "$27$ is a near-miss; the total is $5\\times 24=120$, so the fifth number is $120-91=29$.",
+      "B": "$19$ subtracts incorrectly; $120-91=29$.",
+      "D": "$25$ may come from $116-91$ or a total-of-$5$ slip; the total is $120$, giving $29$.",
+      "E": "$17$ undershoots; $120-91=29$."
+    },
     "explanation": "The total is $5\\times 24=120$, so the fifth number is $120-91=29$.",
     "estimatedTimeSeconds": 120
   },
@@ -1059,6 +1221,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "$\\frac{1}{2}$ counts $5,6,7,8$ (greater than or equal to $5$, or $\\ge 5$); strictly greater than $5$ is just $6,7,8$, giving $\\frac{3}{8}$.",
+      "C": "$\\frac{1}{4}$ counts only two outcomes; numbers greater than $5$ are $6,7,8$, so $\\frac{3}{8}$.",
+      "D": "$\\frac{5}{8}$ counts the complement (numbers $\\le 5$); the favorable outcomes are the $3$ values above $5$, $\\frac{3}{8}$.",
+      "E": "$\\frac{2}{3}$ doesn't fit eight equal sectors; three favorable of eight is $\\frac{3}{8}$."
     },
     "explanation": "Numbers greater than $5$ are $6,7,8$: three of eight outcomes, so the probability is $\\frac{3}{8}$.",
     "estimatedTimeSeconds": 120
@@ -1098,6 +1266,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "$12$ undercounts; arranging $4$ distinct books is $4!=24$, not $12$.",
+      "C": "$16$ comes from $4^2$ rather than the factorial; the count is $4!=24$.",
+      "D": "$20$ is a near-miss; $4!=4\\times 3\\times 2\\times 1=24$.",
+      "E": "$18$ doesn't match a factorial; $4!=24$."
+    },
     "explanation": "The number of arrangements is $4!=24$.",
     "estimatedTimeSeconds": 120
   },
@@ -1135,6 +1309,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "$72$ may use $12\\times 6$ or a wrong width; area is length times width, $12\\times 7=84$.",
+      "C": "$96$ overstates the product (e.g., $12\\times 8$); $12\\times 7=84$.",
+      "D": "$56$ uses $8\\times 7$ or a wrong length; with length $12$, area $=12\\times 7=84$.",
+      "E": "$64$ doesn't match either dimension's product; $12\\times 7=84$."
     },
     "explanation": "Area $=12\\times 7=84$.",
     "estimatedTimeSeconds": 120
@@ -1174,6 +1354,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "$8$ takes only one leg of the right triangle ($12-4$); the distance is the hypotenuse $\\sqrt{6^2+8^2}=10$.",
+      "C": "$6$ takes the horizontal difference $9-3$ alone; combine both differences: $\\sqrt{36+64}=10$.",
+      "D": "$9$ is a near-miss; $\\sqrt{36+64}=\\sqrt{100}=10$.",
+      "E": "$7$ may average the legs; the distance formula gives $\\sqrt{36+64}=10$."
+    },
     "explanation": "Distance $=\\sqrt{(9-3)^2+(12-4)^2}=\\sqrt{36+64}=\\sqrt{100}=10$.",
     "estimatedTimeSeconds": 120
   },
@@ -1211,6 +1397,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "$30$ adds a constant ($+6$) instead of multiplying; each term doubles, so the next is $24\\times 2=48$.",
+      "C": "$36$ adds $12$ (the last gap) rather than doubling; the pattern multiplies by $2$, giving $48$.",
+      "D": "$42$ adds $18$, treating the sequence as arithmetic; it's geometric, so $24\\times 2=48$.",
+      "E": "$54$ overshoots; doubling $24$ gives $48$."
     },
     "explanation": "Each term is double the previous one, so the next term is $24\\times 2=48$.",
     "estimatedTimeSeconds": 100
@@ -1250,6 +1442,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "$12$ likely uses $2^2\\cdot 3^2\\cdot 5$ with one exponent dropped; the count is $(2+1)(2+1)(1+1)=18$.",
+      "B": "$16$ comes from a wrong factorization or exponent; $180=2^2\\cdot 3^2\\cdot 5$ gives $3\\times 3\\times 2=18$ divisors.",
+      "D": "$24$ overcounts, perhaps using $(3)(2)(2)(... )$ with an extra factor; the correct product is $(2+1)(2+1)(1+1)=18$.",
+      "E": "$20$ is a near-miss; multiply one-more-than-each-exponent: $3\\times 3\\times 2=18$."
+    },
     "explanation": "Find the divisor count from the prime factorization: write $n=p_1^{a}p_2^{b}\\cdots$ and multiply $(a+1)(b+1)\\cdots$. Here $180=2^2\\cdot 3^2\\cdot 5^1$, so the count is $(2+1)(2+1)(1+1)=18$. The trap is counting divisors by listing (easy to miss some) or adding the exponents instead of adding 1 to each and multiplying.",
     "estimatedTimeSeconds": 150
   },
@@ -1287,6 +1485,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "$5\\sqrt{2}$ halves the diagonal instead of dividing by $\\sqrt{2}$; since the diagonal is $s\\sqrt{2}=10\\sqrt{2}$, the side is $s=10$.",
+      "C": "$20$ doubles the diagonal's coefficient; dividing $10\\sqrt{2}$ by $\\sqrt{2}$ gives $s=10$.",
+      "D": "$10\\sqrt{2}$ is the diagonal itself, not the side; solving $s\\sqrt{2}=10\\sqrt{2}$ gives $s=10$.",
+      "E": "$5$ halves $10$ without justification; $s\\sqrt{2}=10\\sqrt{2}$ means $s=10$."
     },
     "explanation": "For a square, the diagonal is $s\\sqrt{2}$. So $s\\sqrt{2}=10\\sqrt{2}$, giving $s=10$.",
     "estimatedTimeSeconds": 150
@@ -1326,6 +1530,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "$32$ is a near-miss; $x^2-y^2=(x+y)(x-y)=12\\times 4=48$.",
+      "C": "$64$ may square one sum or use $8^2$; the difference of squares factors to $12\\times 4=48$.",
+      "D": "$72$ uses $6\\times 12$ or a wrong factor; $(x+y)(x-y)=12\\times 4=48$.",
+      "E": "$96$ doubles the product; $x^2-y^2=12\\times 4=48$."
+    },
     "explanation": "$x^2-y^2=(x+y)(x-y)=12\\times 4=48$.",
     "estimatedTimeSeconds": 150
   },
@@ -1363,6 +1573,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "$x=-3$ fails the second inequality, since $-3<-2$; the valid range is $-2\\le x<3$, met by $x=1$.",
+      "C": "$x=3$ is excluded because $x<3$ is strict; values in $-2\\le x<3$ qualify, such as $x=1$.",
+      "D": "$x=4$ fails $x<3$; only $-2\\le x<3$ works, so $x=1$.",
+      "E": "$x=5$ is well above the upper bound; the range is $-2\\le x<3$, satisfied by $x=1$."
     },
     "explanation": "The first inequality gives $x<3$; the second gives $x\\ge -2$. So $-2\\le x<3$, and of the choices only $x=1$ is in this range.",
     "estimatedTimeSeconds": 150
@@ -1402,6 +1618,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "$23$ is a near-miss; the largest equals $90-70=20$.",
+      "B": "$25$ overshoots; the six total $90$ and the remaining five total $70$, so the largest is $90-70=20$.",
+      "D": "$21$ is a near-miss from a subtraction slip; $90-70=20$.",
+      "E": "$24$ overstates the difference; $6\\times 15-5\\times 14=90-70=20$."
+    },
     "explanation": "The total of the $6$ integers is $6\\times 15=90$; the total of the remaining $5$ is $5\\times 14=70$. The largest is $90-70=20$.",
     "estimatedTimeSeconds": 180
   },
@@ -1439,6 +1661,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "C"
+    },
+    "distractorRationale": {
+      "A": "$\\frac{1}{12}$ counts only sums of $11$ and $12$ ($2+1=3$ outcomes); 'at least $10$' also includes the three ways to make $10$, giving $\\frac{6}{36}=\\frac{1}{6}$.",
+      "B": "$\\frac{1}{9}$ equals $\\frac{4}{36}$, missing two favorable outcomes; the sums $10,11,12$ occur $6$ times, so $\\frac{1}{6}$.",
+      "D": "$\\frac{1}{4}$ overcounts the favorable sums; only $6$ of $36$ outcomes reach at least $10$, giving $\\frac{1}{6}$.",
+      "E": "$\\frac{5}{18}$ is $\\frac{10}{36}$, likely including sum $9$ as well; 'at least $10$' is just $6$ outcomes, $\\frac{1}{6}$."
     },
     "explanation": "Sums of $10,11,$ and $12$ occur in $3+2+1=6$ of $36$ outcomes: $\\frac{6}{36}=\\frac{1}{6}$.",
     "estimatedTimeSeconds": 150
@@ -1478,6 +1706,12 @@
       "format": "single",
       "value": "D"
     },
+    "distractorRationale": {
+      "A": "$60$ divides by only one repeated pair ($\\frac{5!}{2!}$); both the two L's and two E's repeat, so divide by $2!\\,2!$ to get $30$.",
+      "B": "$24$ is $4!$, treating only four letters or one too few; $LEVEL$ has $5$ letters, giving $\\frac{5!}{2!\\,2!}=30$.",
+      "C": "$12$ over-divides; $\\frac{120}{2!\\,2!}=\\frac{120}{4}=30$, not $12$.",
+      "E": "$20$ is a near-miss; the distinct arrangements number $\\frac{5!}{2!\\,2!}=30$."
+    },
     "explanation": "$LEVEL$ has two L's and two E's, so the number of distinct arrangements is $\\frac{5!}{2!\\,2!}=\\frac{120}{4}=30$.",
     "estimatedTimeSeconds": 150
   },
@@ -1515,6 +1749,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "$14$ doesn't match the weighted result; since the times are equal, the average is the simple mean $\\frac{12+18}{2}=15$ mph, confirmed by $60/4$.",
+      "C": "$16$ overshoots; total distance $60$ over $4$ hours is $15$ mph.",
+      "D": "$13$ undershoots; $60$ miles in $4$ hours gives $15$ mph.",
+      "E": "$17$ overshoots the average; $60/4=15$ mph."
     },
     "explanation": "Total distance $=12\\times 2+18\\times 2=24+36=60$ miles in $4$ hours, so the average speed is $60/4=15$ mph.",
     "estimatedTimeSeconds": 180

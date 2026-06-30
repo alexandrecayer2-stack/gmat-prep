@@ -9,6 +9,12 @@
       { "key": "E", "text": "Drivers preferred the brighter lighting to the previous lighting." }
     ],
     "correctAnswer": { "format": "single", "value": "A" },
+    "distractorRationale": {
+      "B": "Side streets are outside the scope of the conclusion, which is only about accidents on the main avenue; whether their lighting changed says nothing about ruling out an alternative cause on the avenue itself.",
+      "C": "Cost-effectiveness is irrelevant to whether the lighting actually caused the decline; the conclusion is causal, not financial.",
+      "D": "Constant daytime accidents are not required—the argument is about nighttime accidents, and the real gap is ruling out other nighttime causes such as reduced traffic.",
+      "E": "Driver preference does not establish that the lighting caused fewer accidents; the conclusion depends on excluding alternative causes, which preference does not do."
+    },
     "explanation": "A causal claim assumes no alternative cause accounts for the effect. If traffic volume had dropped sharply, that—not the lighting—could explain fewer accidents. Ruling this out (A) is required. The others address cost, side streets, daytime accidents, or preference, none of which the causal conclusion depends on.",
     "estimatedTimeSeconds": 90, "tags": ["critical-reasoning", "assumption"] },
   { "id": "v6-cr02", "section": "verbal", "type": "critical_reasoning", "topic": "weaken", "difficulty": "medium",
@@ -21,6 +27,12 @@
       { "key": "E", "text": "Healthcare costs have risen industry-wide over the past five years." }
     ],
     "correctAnswer": { "format": "single", "value": "B" },
+    "distractorRationale": {
+      "A": "Low operating cost makes the plan cheaper, not more effective; it does nothing to show the program itself lowered costs rather than self-selection.",
+      "C": "Imperfect attendance is a minor detail that does not undermine the causal inference; the key flaw is that joiners were already healthier.",
+      "D": "A competitor's program is irrelevant to whether this company's program causes lower costs.",
+      "E": "An industry-wide cost rise affects everyone equally and does not explain why joiners had lower costs than non-joiners."
+    },
     "explanation": "The plan assumes the program caused the lower costs. If joiners were already healthier (B), the cost gap reflects self-selection, not the program, so making it mandatory for everyone need not lower costs. The other options don't undercut the causal inference.",
     "estimatedTimeSeconds": 105, "tags": ["critical-reasoning", "weaken"] },
   { "id": "v6-cr03", "section": "verbal", "type": "critical_reasoning", "topic": "strengthen", "difficulty": "medium",
@@ -33,6 +45,12 @@
       { "key": "E", "text": "Some people drink green tea for its taste rather than for health reasons." }
     ],
     "correctAnswer": { "format": "single", "value": "C" },
+    "distractorRationale": {
+      "A": "Availability and price say nothing about whether the compound prevents the illness; they don't bear on the causal hypothesis.",
+      "B": "More exercise among tea drinkers is a confounding variable that would weaken, not strengthen, the claim that the compound itself is responsible.",
+      "D": "This is just additional correlation between regional tea consumption and illness; it adds no evidence isolating the compound as the cause.",
+      "E": "Why people drink tea is irrelevant to whether the compound prevents the illness."
+    },
     "explanation": "A controlled trial isolating the compound and showing lower illness rates versus placebo (C) directly supports the causal hypothesis while ruling out confounders. (B) suggests a confound (weakening); (D) is just more correlation; (A) and (E) are irrelevant.",
     "estimatedTimeSeconds": 105, "tags": ["critical-reasoning", "strengthen"] },
   { "id": "v6-cr04", "section": "verbal", "type": "critical_reasoning", "topic": "inference", "difficulty": "medium",
@@ -45,6 +63,12 @@
       { "key": "E", "text": "Every employee who worked outside the Western region received a performance bonus." }
     ],
     "correctAnswer": { "format": "single", "value": "A" },
+    "distractorRationale": {
+      "B": "This reverses the conditional: a bonus implies exceeding the target, but exceeding the target does not guarantee a bonus, so this need not be true.",
+      "C": "Nothing in the premises establishes that anyone outside the Western region got a bonus; the only valid deduction concerns the Western region.",
+      "D": "Total sales by region are never mentioned; failing to exceed targets does not establish lowest total sales.",
+      "E": "An illicit reversal: working outside the Western region does not guarantee a bonus, since bonuses require exceeding the target."
+    },
     "explanation": "Bonus implies exceeded target. No Western employee exceeded target, so no Western employee could have a bonus—A must be true. (B) reverses the conditional; (C) and (D) are not established. (E) is an illicit reversal: working outside the Western region does not guarantee a bonus.",
     "estimatedTimeSeconds": 105, "tags": ["critical-reasoning", "inference"] },
   { "id": "v6-cr05", "section": "verbal", "type": "critical_reasoning", "topic": "paradox", "difficulty": "easy",
@@ -57,6 +81,12 @@
       { "key": "E", "text": "Several customers complained that the novel had become too expensive." }
     ],
     "correctAnswer": { "format": "single", "value": "B" },
+    "distractorRationale": {
+      "A": "Still being cheaper than competitors could help retain buyers but does not explain why revenue rose substantially; a demand surge is needed to account for the increase.",
+      "C": "Higher revenue per copy alone cannot explain rising total revenue, since a price hike normally cuts units sold—you need a reason units didn't fall.",
+      "D": "Raising prices on other titles is about different books and does not explain this novel's higher revenue.",
+      "E": "Customer complaints suggest the higher price hurt sales, the opposite of what would explain rising revenue."
+    },
     "explanation": "Revenue rose despite a price increase, which would normally reduce units sold. A surge in demand from the film release (B) explains how both price and units—and thus revenue—could rise. The others don't account for higher revenue from this specific novel.",
     "estimatedTimeSeconds": 105, "tags": ["critical-reasoning", "paradox"] },
   { "id": "v6-cr06", "section": "verbal", "type": "critical_reasoning", "topic": "flaw", "difficulty": "medium",
@@ -69,6 +99,12 @@
       { "key": "E", "text": "presumes that attendance will continue to fall in future years" }
     ],
     "correctAnswer": { "format": "single", "value": "A" },
+    "distractorRationale": {
+      "B": "The critic cites no visitor testimony at all; the argument rests on overall attendance figures, not on what visitors said.",
+      "C": "The critic does not claim attendance is the only measure of design quality; the flaw is treating total attendance as evidence about the specific wing.",
+      "D": "The argument's problem is not a missing definition of good design but an unsupported leap from total attendance to the new wing.",
+      "E": "The critic makes no prediction about future years; the reasoning concerns the past year's attendance drop."
+    },
     "explanation": "The critic infers that visitors avoid the new wing specifically from a drop in total attendance, without showing the decline is linked to the wing rather than to unrelated causes. That gap is the flaw (A). The other choices misdescribe the argument.",
     "estimatedTimeSeconds": 120, "tags": ["critical-reasoning", "flaw"] },
   { "id": "v6-cr07", "section": "verbal", "type": "critical_reasoning", "topic": "evaluate", "difficulty": "medium",
@@ -81,6 +117,12 @@
       { "key": "E", "text": "Do neighboring towns also operate electric buses?" }
     ],
     "correctAnswer": { "format": "single", "value": "B" },
+    "distractorRationale": {
+      "A": "Purchase cost does not bear on the consultant's claim about total emissions; it addresses budget, not the emissions question.",
+      "C": "Daily ridership is irrelevant to whether switching to electric buses lowers total emissions.",
+      "D": "Bus lifespan concerns durability and replacement cost, not the total-emissions claim being evaluated.",
+      "E": "What neighboring towns do has no bearing on whether this switch actually reduces total emissions."
+    },
     "explanation": "The argument is about total emissions, but it counts only tailpipe emissions. If generating the electricity produces large emissions (B), total emissions might not fall—so this question is decisive. Cost, ridership, lifespan, and neighbors don't bear on the total-emissions claim.",
     "estimatedTimeSeconds": 120, "tags": ["critical-reasoning", "evaluate"] },
   { "id": "v6-cr08", "section": "verbal", "type": "critical_reasoning", "topic": "assumption", "difficulty": "medium",
@@ -93,6 +135,12 @@
       { "key": "E", "text": "Readers find e-books more convenient than printed books." }
     ],
     "correctAnswer": { "format": "single", "value": "B" },
+    "distractorRationale": {
+      "A": "Future cost increases for e-books are not assumed; the plan relies on present cost savings and on revenue holding up.",
+      "C": "Competitors' choices are irrelevant; the profit conclusion depends on the publisher's own revenue and costs, not on rivals.",
+      "D": "The plan does not require that printed books become impossible to produce—only that the shift remains profitable.",
+      "E": "Reader convenience is not necessary to the argument; what matters is that revenue won't fall enough to erase the savings."
+    },
     "explanation": "Profit depends on revenue as well as cost. The plan assumes that abandoning print won't drive away enough buyers to wipe out the cost savings (B). The other statements are unnecessary to the profit conclusion.",
     "estimatedTimeSeconds": 105, "tags": ["critical-reasoning", "assumption"] },
   { "id": "v6-cr09", "section": "verbal", "type": "critical_reasoning", "topic": "weaken", "difficulty": "medium",
@@ -105,6 +153,12 @@
       { "key": "E", "text": "Drivers in both states occasionally exceed the posted speed limit." }
     ],
     "correctAnswer": { "format": "single", "value": "A" },
+    "distractorRationale": {
+      "B": "Knowing when the neighbor lowered its limit does not address whether the lower fatality count comes from the limit or from having far less traffic.",
+      "C": "More highway miles in our state, by itself, does not undermine the comparison; the decisive issue is the difference in number of drivers and traffic volume.",
+      "D": "A nationwide decline affects both states and does not explain why the neighbor has fewer fatalities than we do.",
+      "E": "Occasional speeding in both states is a wash and does not weaken the argument's comparison."
+    },
     "explanation": "The argument compares raw fatality counts, attributing the difference to the speed limit. If the neighboring state simply has far fewer drivers and less traffic (A), its lower fatality count may have nothing to do with the speed limit, undermining the comparison. The others don't address the confound.",
     "estimatedTimeSeconds": 105, "tags": ["critical-reasoning", "weaken"] },
   { "id": "v6-cr10", "section": "verbal", "type": "critical_reasoning", "topic": "strengthen", "difficulty": "medium",
@@ -117,6 +171,12 @@
       { "key": "E", "text": "The site was occupied for several centuries." }
     ],
     "correctAnswer": { "format": "single", "value": "B" },
+    "distractorRationale": {
+      "A": "Boats and sea creatures are just a sea theme; local potters could depict such images too, so this does not show the pottery came from overseas traders.",
+      "C": "Finding several styles at the site does not show that this particular style was made by sea traders rather than locals.",
+      "D": "That locals made a different style does not establish they couldn't have made this one as well, so it doesn't pin the pottery on traders.",
+      "E": "A long period of occupation says nothing about who made this pottery or where its materials came from."
+    },
     "explanation": "If the clay exists only in a distant overseas region (B), the pottery—or its raw material—must have come from across the sea, supporting the traders-by-sea conclusion. (A) shows a sea theme but locals could depict boats too; (D) shows locals made other styles but not that they couldn't make this one.",
     "estimatedTimeSeconds": 105, "tags": ["critical-reasoning", "strengthen"] },
   { "id": "v6-cr11", "section": "verbal", "type": "critical_reasoning", "topic": "inference", "difficulty": "medium",
@@ -129,6 +189,12 @@
       { "key": "E", "text": "If an apartment lacks central air conditioning, it lacks a balcony." }
     ],
     "correctAnswer": { "format": "single", "value": "C" },
+    "distractorRationale": {
+      "A": "This must be true: balcony apartments all have A/C, so some A/C apartments do have a balcony—it cannot be false.",
+      "B": "This simply restates the first premise (balcony implies A/C), so it must be true.",
+      "D": "This is the contrapositive of the first premise (no A/C implies no balcony) and must be true.",
+      "E": "This is also the contrapositive of the first premise and must be true; the only statement that could be false links balconies to the over-\\$2,000 rents."
+    },
     "explanation": "We know balcony implies A/C, and some A/C apartments rent above \\$2,000—but those expensive ones need not be the balcony ones, so (C) could be false. (B) restates the first premise; (D) and (E) are its contrapositive; (A) follows because balcony apartments have A/C.",
     "estimatedTimeSeconds": 120, "tags": ["critical-reasoning", "inference"] },
   { "id": "v6-cr12", "section": "verbal", "type": "critical_reasoning", "topic": "boldface", "difficulty": "hard",
@@ -141,6 +207,12 @@
       { "key": "E", "text": "The first is a position the argument endorses; the second is an objection to that position." }
     ],
     "correctAnswer": { "format": "single", "value": "B" },
+    "distractorRationale": {
+      "A": "The first boldface is not an objection the argument rebuts; it is a premise the argument relies on to reach its anti-flight conclusion.",
+      "C": "The first boldface is a supporting premise, not the main conclusion; the conclusion is the second boldface.",
+      "D": "The argument endorses both portions rather than seeking to undermine them; the rising costs support its conclusion.",
+      "E": "The first portion is supporting evidence, not a position with an objection attached; the second is the conclusion, not an objection."
+    },
     "explanation": "The first boldface (rising costs) is a premise supporting the recommendation against adding flights; the second boldface is the argument's main conclusion. That matches (B). It is not an objection being rebutted, nor is the first the conclusion.",
     "estimatedTimeSeconds": 135, "tags": ["critical-reasoning", "boldface"] },
   { "id": "v6-cr13", "section": "verbal", "type": "critical_reasoning", "topic": "weaken", "difficulty": "medium",
@@ -153,6 +225,12 @@
       { "key": "E", "text": "Some people skip breakfast because they are not hungry in the morning." }
     ],
     "correctAnswer": { "format": "single", "value": "B" },
+    "distractorRationale": {
+      "A": "A mid-morning snack among breakfast eaters does not explain away the weight difference or break the causal link the argument draws.",
+      "C": "Variation in breakfast calories is a side detail that does not show the correlation is non-causal.",
+      "D": "Including several countries speaks to the study's breadth, not to whether skipping breakfast causes weight gain.",
+      "E": "Why some people skip breakfast does not undermine the causal claim; the key weakener is that skippers eat much more later, so total intake drives the weight gap."
+    },
     "explanation": "The argument treats the correlation as causal. If breakfast-skippers simply eat much more later (B), their higher weight may stem from total intake rather than from skipping breakfast, so eating breakfast wouldn't by itself cause weight loss. The other options don't break the causal link.",
     "estimatedTimeSeconds": 105, "tags": ["critical-reasoning", "weaken"] },
   { "id": "v6-cr14", "section": "verbal", "type": "critical_reasoning", "topic": "assumption", "difficulty": "medium",
@@ -165,6 +243,12 @@
       { "key": "E", "text": "the agency has correctly identified the organism that causes the disease" }
     ],
     "correctAnswer": { "format": "single", "value": "B" },
+    "distractorRationale": {
+      "A": "Higher yield would make the variety more attractive but is not required for the recommendation to slow disease spread; what's needed is that enough farmers adopt it.",
+      "C": "Prior losses in neighboring regions are background motivation, not an assumption the slowing-spread conclusion depends on.",
+      "D": "Comparable cost might encourage adoption but is not strictly necessary; the essential assumption is that substantial adoption actually occurs.",
+      "E": "Correctly identifying the disease organism may underlie developing the variety, but the agency's confidence in slowing spread hinges on farmers actually planting it."
+    },
     "explanation": "A recommendation slows disease spread only if enough farmers follow it. The agency must assume substantial adoption (B); otherwise resistant wheat sits unused and the disease spreads as before. Yield, cost, and neighboring losses are not required for the slowing-spread conclusion.",
     "estimatedTimeSeconds": 120, "tags": ["critical-reasoning", "assumption"] },
   { "id": "v6-cr15", "section": "verbal", "type": "critical_reasoning", "topic": "paradox", "difficulty": "medium",
@@ -177,6 +261,12 @@
       { "key": "E", "text": "The new machine runs at full speed only after a lengthy daily warm-up period." }
     ],
     "correctAnswer": { "format": "single", "value": "B" },
+    "distractorRationale": {
+      "A": "Occasional defects would reduce output only slightly and wouldn't fully cancel a machine that runs twice as fast; a downstream bottleneck capping throughput is the real explanation.",
+      "C": "If the old machine had been the single slowest step, replacing it with a faster one should have raised output—this deepens the puzzle rather than explaining it.",
+      "D": "Growing demand for the parts does not explain why the faster machine failed to increase the number of finished parts produced.",
+      "E": "A warm-up period would cause only a partial daily delay, not a complete failure of output to rise; a hard downstream cap explains the unchanged total."
+    },
     "explanation": "If a downstream stage is a bottleneck that caps daily throughput (B), speeding up an earlier stage can't raise total finished output—parts just pile up before the bottleneck. The other facts don't explain the unchanged output.",
     "estimatedTimeSeconds": 105, "tags": ["critical-reasoning", "paradox"] },
   { "id": "v6-cr16", "section": "verbal", "type": "critical_reasoning", "topic": "strengthen", "difficulty": "medium",
@@ -189,6 +279,12 @@
       { "key": "E", "text": "Other regions have run similar campaigns in previous years." }
     ],
     "correctAnswer": { "format": "single", "value": "B" },
+    "distractorRationale": {
+      "A": "How the campaign was funded says nothing about whether it, rather than the national trend, caused the drop.",
+      "C": "The advertising channels used do not show the decline exceeded what the national trend would produce, so they don't answer the skeptics.",
+      "D": "A higher pre-campaign smoking rate does not establish that the campaign, rather than the ongoing national decline, caused the drop.",
+      "E": "Other regions running similar campaigns earlier does not isolate this campaign as the cause of this region's sharper-than-expected decline."
+    },
     "explanation": "The skeptics attribute the drop to the background national trend. If the region's decline far exceeded what that trend predicts (B), the extra drop points to a local cause like the campaign, strengthening the officials' claim. The other facts don't distinguish the campaign from the national trend.",
     "estimatedTimeSeconds": 120, "tags": ["critical-reasoning", "strengthen"] },
   { "id": "v6-cr17", "section": "verbal", "type": "critical_reasoning", "topic": "flaw", "difficulty": "medium",
@@ -201,6 +297,12 @@
       { "key": "E", "text": "not all customers respond the same way to sales pitches" }
     ],
     "correctAnswer": { "format": "single", "value": "B" },
+    "distractorRationale": {
+      "A": "Cost is a budget concern, not a flaw in the logic; even if the premium software were cheap, the inference that it causes high productivity would remain unsupported.",
+      "C": "Some salespeople preferring the standard version does not address whether the software actually drives the top performers' results.",
+      "D": "Future updates to the software are irrelevant to whether the software is what makes top performers productive.",
+      "E": "Variation in customer response does not pinpoint the flaw, which is assuming the software, rather than skill or experience, causes top performance."
+    },
     "explanation": "The manager assumes the premium software is what makes the top performers productive. If their productivity comes from other factors—skill, experience, territory (B)—giving everyone the software won't replicate their results. That overlooked possibility is the flaw.",
     "estimatedTimeSeconds": 105, "tags": ["critical-reasoning", "flaw"] },
   { "id": "v6-cr18", "section": "verbal", "type": "critical_reasoning", "topic": "inference", "difficulty": "hard",
@@ -213,6 +315,12 @@
       { "key": "E", "text": "It stops at Oakdale but not Lindenville." }
     ],
     "correctAnswer": { "format": "single", "value": "A" },
+    "distractorRationale": {
+      "B": "Nothing establishes that the 5:15 is an express making no stops; we can only conclude it is not local and therefore skips Lindenville.",
+      "C": "This contradicts the deduction: since the 5:15 is not local, it cannot stop at Lindenville, which only local trains do.",
+      "D": "The premises don't say the 5:15 isn't on this line—only that it isn't a local train; a non-local train on this line still wouldn't stop at Lindenville.",
+      "E": "We know the 5:15 does not stop at Oakdale, so claiming it does is false; the valid conclusion is that it doesn't stop at Lindenville."
+    },
     "explanation": "All local trains stop at Oakdale, but the 5:15 does not, so it is not a local train. Only local trains stop at Lindenville, so a non-local train does not stop at Lindenville—A must be true. (C) contradicts this; (B) and (D) aren't established.",
     "estimatedTimeSeconds": 105, "tags": ["critical-reasoning", "inference"] },
   { "id": "v6-rc01", "groupId": "rc-coral", "section": "verbal", "type": "reading_comprehension", "topic": "main idea", "difficulty": "easy",
@@ -225,6 +333,12 @@
       { "key": "E", "text": "trace the history of scientific research into coral algae" }
     ],
     "correctAnswer": { "format": "single", "value": "B" },
+    "distractorRationale": {
+      "A": "This overstates the passage, which says reefs can recover; it does not claim recovery from any bleaching is impossible.",
+      "C": "The passage does not compare reef biodiversity with other ecosystems; it focuses on bleaching and recovery.",
+      "D": "No specific government policy is advocated; the passage is explanatory, not prescriptive.",
+      "E": "The passage does not trace the history of research into coral algae; it describes the bleaching mechanism and recovery factors."
+    },
     "explanation": "The passage explains how bleaching occurs (loss of symbiotic algae) and then discusses what determines whether reefs recover. (B) captures both. (A) overstates—the passage says recovery is possible; (C), (D), and (E) describe topics the passage does not pursue.",
     "estimatedTimeSeconds": 120, "tags": ["reading-comprehension", "main-idea"] },
   { "id": "v6-rc02", "groupId": "rc-coral", "section": "verbal", "type": "reading_comprehension", "topic": "detail", "difficulty": "easy",
@@ -237,6 +351,12 @@
       { "key": "E", "text": "sediment from rivers settles on the surface of the reef" }
     ],
     "correctAnswer": { "format": "single", "value": "B" },
+    "distractorRationale": {
+      "A": "The polyps expel, not consume, the algae; bleaching is the loss of the symbiotic algae, not their consumption.",
+      "C": "Predators stripping pigment is not the mechanism the passage gives; bleaching results from stressed corals expelling their algae.",
+      "D": "The passage links bleaching to stress such as elevated temperatures, not to water that is too cold.",
+      "E": "River sediment settling on the reef is not described as the cause of bleaching in the passage."
+    },
     "explanation": "The passage states that under stress, such as elevated temperatures, corals expel their symbiotic algae, losing both color and a nutrient source—this is bleaching. (B) matches. (A), (C), (D), and (E) describe mechanisms the passage does not attribute to bleaching.",
     "estimatedTimeSeconds": 105, "tags": ["reading-comprehension", "detail"] },
   { "id": "v6-rc03", "groupId": "rc-coral", "section": "verbal", "type": "reading_comprehension", "topic": "inference", "difficulty": "easy",
@@ -249,6 +369,12 @@
       { "key": "E", "text": "the coral polyps are replaced by a different species" }
     ],
     "correctAnswer": { "format": "single", "value": "B" },
+    "distractorRationale": {
+      "A": "Persisting stressful conditions prevent recovery rather than enable it; recovery requires the stress to ease before the polyps die.",
+      "C": "Permanent expulsion of all algae would block recovery; the reef recovers when algae are able to return.",
+      "D": "Distance from other reefs is not mentioned as a factor in recovery.",
+      "E": "Replacement of polyps by a different species is not what the passage describes; recovery means the original algae recolonize the surviving polyps."
+    },
     "explanation": "The passage indicates bleaching is not necessarily fatal: if stress eases before the polyps die, algae can recolonize and the reef recovers. (B) reflects this. (A) and (C) describe conditions that prevent recovery; (D) and (E) are unsupported.",
     "estimatedTimeSeconds": 120, "tags": ["reading-comprehension", "inference"] },
   { "id": "v6-rc04", "groupId": "rc-coral", "section": "verbal", "type": "reading_comprehension", "topic": "function", "difficulty": "easy",
@@ -261,6 +387,12 @@
       { "key": "E", "text": "explain why scientists cannot study coral reefs directly" }
     ],
     "correctAnswer": { "format": "single", "value": "B" },
+    "distractorRationale": {
+      "A": "Citing species differences does not prove bleaching has no lasting effect; it shows that outcomes vary depending on the corals.",
+      "C": "The passage does not argue that only some species are worth protecting; the point is that recovery varies by species.",
+      "D": "The reference does not suggest all coral species will go extinct; it illustrates variability in recovery.",
+      "E": "The passage does not claim scientists cannot study reefs directly; that is unrelated to the species comparison."
+    },
     "explanation": "Noting that species differ in recovery supports the passage's point that bleaching outcomes vary and depend partly on which corals are affected. (B) captures this function. The other options misstate the passage's claims or purpose.",
     "estimatedTimeSeconds": 105, "tags": ["reading-comprehension", "function"] },
   { "id": "v6-rc05", "groupId": "rc-guilds", "section": "verbal", "type": "reading_comprehension", "topic": "main idea", "difficulty": "easy",
@@ -273,6 +405,12 @@
       { "key": "E", "text": "criticizing guilds for restricting competition" }
     ],
     "correctAnswer": { "format": "single", "value": "A" },
+    "distractorRationale": {
+      "B": "The passage describes guild functions but does not argue they were the main cause of medieval economic growth; that overstates its claim.",
+      "C": "The passage surveys guilds broadly rather than narrating the daily life of one apprentice.",
+      "D": "A detailed comparison with modern labor unions is not the passage's focus.",
+      "E": "The passage explains guild functions neutrally rather than criticizing them for restricting competition."
+    },
     "explanation": "The passage surveys what guilds did—regulating quality, training, and prices, and providing mutual support. (A) captures this descriptive purpose. (B) and (E) overstate a thesis the passage does not push; (C) and (D) are narrower or absent.",
     "estimatedTimeSeconds": 120, "tags": ["reading-comprehension", "main-idea"] },
   { "id": "v6-rc06", "groupId": "rc-guilds", "section": "verbal", "type": "reading_comprehension", "topic": "detail", "difficulty": "easy",
@@ -285,6 +423,12 @@
       { "key": "E", "text": "requiring all members to work in a single workshop" }
     ],
     "correctAnswer": { "format": "single", "value": "A" },
+    "distractorRationale": {
+      "B": "Exporting only to distant markets is not mentioned as a quality-control method; guilds set standards members' products had to meet.",
+      "C": "The passage says guilds trained apprentices, so forbidding apprentice training contradicts it.",
+      "D": "Guilds regulated prices rather than slashing them below non-members'; lowering prices is not how they maintained quality.",
+      "E": "Requiring all members to share one workshop is not described; quality was maintained through enforced standards."
+    },
     "explanation": "The passage states guilds set and enforced quality standards that members' goods had to meet. (A) matches. (B), (C), (D), and (E) describe practices the passage does not attribute to guilds—indeed guilds trained apprentices and regulated, not slashed, prices.",
     "estimatedTimeSeconds": 105, "tags": ["reading-comprehension", "detail"] },
   { "id": "v6-rc07", "groupId": "rc-guilds", "section": "verbal", "type": "reading_comprehension", "topic": "inference", "difficulty": "easy",
@@ -297,6 +441,12 @@
       { "key": "E", "text": "limited to a single trade across an entire country" }
     ],
     "correctAnswer": { "format": "single", "value": "B" },
+    "distractorRationale": {
+      "A": "Open, unconditional membership contradicts the passage, which describes required training before full status.",
+      "C": "The passage does not say membership was limited to those born into guild families; it describes earning membership through apprenticeship.",
+      "D": "Nothing indicates town authorities discouraged guild membership.",
+      "E": "The passage does not say a guild covered a single trade across an entire country; the implication is that membership was controlled and required training."
+    },
     "explanation": "The passage describes apprenticeship and stages of training before one became a full member, implying membership was controlled rather than open to all (B). (A) contradicts this; (C), (D), and (E) are not supported by the passage.",
     "estimatedTimeSeconds": 120, "tags": ["reading-comprehension", "inference"] },
   { "id": "v6-rc08", "groupId": "rc-guilds", "section": "verbal", "type": "reading_comprehension", "topic": "function", "difficulty": "easy",
@@ -309,6 +459,12 @@
       { "key": "E", "text": "prove that guild members were wealthier than non-members" }
     ],
     "correctAnswer": { "format": "single", "value": "B" },
+    "distractorRationale": {
+      "A": "The reference shows guilds had a social side too, not that they functioned only as charities; that overstates the point.",
+      "C": "The passage does not argue guilds were more important than the church; the mutual-aid example illustrates their social role.",
+      "D": "Family support is not offered to explain why guilds disappeared.",
+      "E": "The point is not that members were wealthier than non-members but that guilds served social as well as economic purposes."
+    },
     "explanation": "Mutual aid to families illustrates the social dimension of guilds, complementing their economic roles—supporting (B). (A) overstates (guilds were not only charities); (C), (D), and (E) are not the point of the reference.",
     "estimatedTimeSeconds": 105, "tags": ["reading-comprehension", "function"] },
   { "id": "v6-rc09", "groupId": "rc-radio", "section": "verbal", "type": "reading_comprehension", "topic": "main idea", "difficulty": "easy",
@@ -321,6 +477,12 @@
       { "key": "E", "text": "compare radio astronomy unfavorably with space-based observation" }
     ],
     "correctAnswer": { "format": "single", "value": "A" },
+    "distractorRationale": {
+      "B": "The passage does not argue optical telescopes are obsolete; it explains how radio detection opened a new observational window.",
+      "C": "It does not describe the engineering of a particular antenna in detail; the focus is on the broader significance of the discovery.",
+      "D": "The passage is not a biography of the engineer; it centers on the rise of radio astronomy.",
+      "E": "The passage does not compare radio astronomy unfavorably with space-based observation; its tone toward radio astronomy is appreciative."
+    },
     "explanation": "The passage recounts the accidental detection of cosmic radio waves and how it gave rise to radio astronomy, a new observational window. (A) fits. (B) and (E) state judgments the passage doesn't make; (C) and (D) are narrower than the passage's purpose.",
     "estimatedTimeSeconds": 120, "tags": ["reading-comprehension", "main-idea"] },
   { "id": "v6-rc10", "groupId": "rc-radio", "section": "verbal", "type": "reading_comprehension", "topic": "detail", "difficulty": "easy",
@@ -333,6 +495,12 @@
       { "key": "E", "text": "by a satellite placed in orbit above the atmosphere" }
     ],
     "correctAnswer": { "format": "single", "value": "B" },
+    "distractorRationale": {
+      "A": "The detection was accidental, not part of a deliberate search for galactic-center radiation.",
+      "C": "It was found by an engineer studying radio interference, not by astronomers using an optical telescope.",
+      "D": "The detection came before radio astronomy existed and helped found it; it did not occur only after the field was established.",
+      "E": "No orbiting satellite was involved; the static was detected by a ground-based engineer investigating interference."
+    },
     "explanation": "The passage describes the detection as accidental, made by an engineer studying static that interfered with radio communication. (B) matches. (A) contradicts the accidental nature; (C), (D), and (E) misstate the circumstances.",
     "estimatedTimeSeconds": 105, "tags": ["reading-comprehension", "detail"] },
   { "id": "v6-rc11", "groupId": "rc-radio", "section": "verbal", "type": "reading_comprehension", "topic": "inference", "difficulty": "easy",
@@ -345,6 +513,12 @@
       { "key": "E", "text": "observe the universe only during nighttime hours" }
     ],
     "correctAnswer": { "format": "single", "value": "B" },
+    "distractorRationale": {
+      "A": "This is the opposite of the point: radio astronomy detects radio waves, not only objects that emit visible light.",
+      "C": "The passage does not claim radio astronomy eliminates all Earth-based interference; that overstates its capability.",
+      "D": "Radio astronomy supplements rather than replaces all other observation; the passage does not claim it makes other methods unnecessary.",
+      "E": "Nothing limits radio observation to nighttime; the inference is that it reveals what optical telescopes cannot easily see."
+    },
     "explanation": "By detecting radio waves rather than visible light, radio astronomy reveals objects and regions optical telescopes cannot easily see (B). (A) is the opposite; (C), (D), and (E) claim more than the passage supports.",
     "estimatedTimeSeconds": 120, "tags": ["reading-comprehension", "inference"] },
   { "id": "v6-rc12", "groupId": "rc-radio", "section": "verbal", "type": "reading_comprehension", "topic": "tone", "difficulty": "easy",
@@ -357,6 +531,12 @@
       { "key": "E", "text": "nostalgic for earlier methods of observation" }
     ],
     "correctAnswer": { "format": "single", "value": "B" },
+    "distractorRationale": {
+      "A": "The passage treats radio astronomy as a valuable advance, not with skepticism about its scientific value.",
+      "C": "The author is clearly engaged with the discovery's significance, not indifferent to its consequences.",
+      "D": "No alarm about cost appears in the passage; the tone is appreciative.",
+      "E": "The passage shows no nostalgia for earlier methods; it welcomes radio astronomy as an advance."
+    },
     "explanation": "The passage presents radio astronomy as an important new way of studying the universe, an appreciative stance (B). Nothing signals skepticism, indifference, alarm, or nostalgia.",
     "estimatedTimeSeconds": 105, "tags": ["reading-comprehension", "tone"] }
 ]

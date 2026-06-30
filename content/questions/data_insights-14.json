@@ -12,6 +12,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "Statement (2) alone, '$x$ is even,' leaves many possibilities ($2, 4, 6, \\dots$), so it cannot fix $x$ — not sufficient. Statement (1) alone gives $x+3=7$, so $x=4$, the answer is A.",
+      "C": "Picks 'both needed,' but (1) alone already solves $x+3=7$ to $x=4$; you never need the parity clue, so the answer is A, not C.",
+      "D": "Claims each statement works alone, but (2) only says $x$ is even and admits many values; only (1) pins $x=4$, so the answer is A.",
+      "E": "Says nothing is sufficient, but (1) alone gives $x=4$; the answer is A."
+    },
     "explanation": "(1) gives x = 4. (2) alone does not fix a unique value.",
     "estimatedTimeSeconds": 120
   },
@@ -27,6 +33,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "Treats $y^2=16$ as forcing $y=4$, forgetting the negative root $y=-4$; the sign is undetermined by (1). Only (2), which states $y=4$ directly, settles it, so the answer is B.",
+      "C": "Assumes both statements are needed, but (2) alone already gives $y=4$ (positive); (1) adds nothing, so the answer is B.",
+      "D": "Claims (1) alone suffices too, but $y^2=16$ allows $y=-4$, so (1) cannot fix the sign; only (2) does, giving B.",
+      "E": "Says neither works, but (2) directly states $y=4$, a positive value — sufficient. The answer is B."
     },
     "explanation": "The question asks the sign of $y$. Statement (1) $y^2 = 16$ gives $y = 4$ or $y = -4$, so the sign is not determined — not sufficient. Statement (2) states $y = 4$ directly, which is positive — sufficient. The classic trap is reading $y^2 = 16$ as $y = 4$ and forgetting the negative root; only the explicit value in (2) settles it, so the answer is B.",
     "estimatedTimeSeconds": 120
@@ -44,6 +56,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "Statement (1) leaves $z=1,2,$ or $3$ — three values, not one. You also need (2) to narrow to $z=2$, so the answer is C, not A.",
+      "B": "Statement (2) $z^2=4$ gives $z=2$ or $z=-2$, two values; the negative root isn't ruled out until (1) restricts $z$ to positives. The answer is C.",
+      "D": "Neither statement alone is sufficient — (1) gives three values and (2) gives two — so 'each alone' is wrong; together they force $z=2$, giving C.",
+      "E": "Says even together they fail, but combining 'positive integer under 4' with $z^2=4$ leaves only $z=2$ — sufficient, so the answer is C."
+    },
     "explanation": "Statement (1): positive integers less than 4 are 1, 2, or 3 — three values, not sufficient. Statement (2): $z^2=4$ gives $z=2$ or $z=-2$, two values, not sufficient. Together, $z$ must be both a positive integer under 4 and satisfy $z^2=4$, and only $z=2$ qualifies, so the answer is C. The trap is forgetting the negative root in (2); it's eliminated only once (1) restricts $z$ to positive values.",
     "estimatedTimeSeconds": 120
   },
@@ -59,6 +77,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "D"
+    },
+    "distractorRationale": {
+      "A": "Picks (1) only, but (2) directly states the perimeter is 28, which answers the question on its own; since both work alone, the answer is D, not A.",
+      "B": "Picks (2) only, but (1) gives side 7, so perimeter $=4\\times7=28$ — also sufficient alone. The answer is D.",
+      "C": "Claims both are needed, but either statement alone gives the perimeter (28). The answer is D.",
+      "E": "Says neither suffices, but each statement independently yields a perimeter of 28. The answer is D."
     },
     "explanation": "Each statement directly gives the perimeter.",
     "estimatedTimeSeconds": 120
@@ -76,6 +100,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "Statement (2) $n=2k$ only guarantees $n$ is even; e.g. $n=4$ is not divisible by 3 while $n=6$ is, so it can't decide divisibility by 3. Only (1) works, giving A.",
+      "C": "Assumes both are needed, but (1) alone shows $n=6k=3(2k)$ is always a multiple of 3; (2) adds nothing, so the answer is A.",
+      "D": "Claims (2) alone suffices too, but being even doesn't force divisibility by 3 ($n=4$ vs $n=6$). Only (1) is sufficient, giving A.",
+      "E": "Says neither works, but (1) makes $n$ a multiple of 6, hence of 3 — sufficient. The answer is A."
+    },
     "explanation": "Statement (1) $n = 6k = 3(2k)$, so $n$ is always a multiple of 3 — sufficient. Statement (2) $n = 2k$ only guarantees $n$ is even; e.g. $n=4$ is not divisible by 3 while $n=6$ is, so it can go either way — not sufficient. Since (1) alone answers 'yes' and (2) alone does not, the answer is A.",
     "estimatedTimeSeconds": 120
   },
@@ -91,6 +121,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "C"
+    },
+    "distractorRationale": {
+      "A": "Statement (1) $2p+q=10$ is one equation in two unknowns, so $p$ isn't fixed; you also need $q$ from (2). The answer is C, not A.",
+      "B": "Statement (2) gives $q=4$ but nothing about $p$, so $p$ is undetermined alone; combined with (1) you get $p=3$. The answer is C.",
+      "D": "Neither statement alone fixes $p$ — (1) has two unknowns and (2) ignores $p$ — so 'each alone' is wrong. Together $2p+4=10$ gives $p=3$, so C.",
+      "E": "Says even together they fail, but substituting $q=4$ into $2p+q=10$ yields $p=3$ uniquely. The answer is C."
     },
     "explanation": "Statement (1), $2p+q=10$, is one equation in two unknowns, so $p$ is not determined — not sufficient alone. Statement (2) gives $q=4$ but says nothing about $p$, so not sufficient alone. Together, substitute $q=4$ into (1): $2p+4=10$, so $p=3$ — unique value. Combining a relationship with a value for the other variable resolves $p$, so the answer is C.",
     "estimatedTimeSeconds": 120
@@ -108,6 +144,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "Statement (1) $t^2=9$ gives $t=3$ or $t=-3$, so the sign is undetermined — not sufficient. Only (2), $t<0$, answers 'yes' directly, giving B.",
+      "C": "Assumes both are needed, but (2) alone states $t<0$, answering the question; (1) is unnecessary, so the answer is B.",
+      "D": "Claims (1) alone works too, but $t^2=9$ allows $t=3$ (positive), so (1) can't decide the sign. Only (2) does, giving B.",
+      "E": "Says neither suffices, but (2) directly states $t<0$ — sufficient. The answer is B."
+    },
     "explanation": "Statement (2) alone is sufficient to answer yes. Statement (1) alone gives 3 or -3.",
     "estimatedTimeSeconds": 120
   },
@@ -123,6 +165,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "D"
+    },
+    "distractorRationale": {
+      "A": "Picks (1) only, but (2) $2r=30$ gives $r=15$ as well, so it is also sufficient alone; the answer is D, not A.",
+      "B": "Picks (2) only, but (1) $r/5=3$ also gives $r=15$ on its own. Both work alone, so the answer is D.",
+      "C": "Claims both are needed, but each statement independently yields $r=15$. The answer is D.",
+      "E": "Says neither works, but each statement alone gives $r=15$. The answer is D."
     },
     "explanation": "Each statement gives r = 15.",
     "estimatedTimeSeconds": 120
@@ -140,6 +188,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "Statement (2) $a<10$ includes primes (2, 3, 5, 7) and non-primes (4, 6, 8, 9), so it can't decide primality alone. Only (1) settles it, giving A.",
+      "C": "Assumes both are needed, but (1) alone shows every even integer greater than 2 has a factor of 2, so it is never prime — a definite 'no.' The answer is A.",
+      "D": "Claims (2) alone works too, but '$a<10$' allows both primes and non-primes, so it is not sufficient. Only (1) is, giving A.",
+      "E": "Says neither works, but (1) guarantees $a$ is composite (even and $>2$) — a sufficient 'no.' The answer is A."
+    },
     "explanation": "Every even integer greater than 2 is not prime. Statement (2) alone is not sufficient.",
     "estimatedTimeSeconds": 150
   },
@@ -155,6 +209,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "Statement (2), perimeter 22, fits many rectangles (e.g. $8\\times3$ with area 24, or $7\\times4$ with area 28), so the area isn't fixed. Only (1) gives it, so A.",
+      "C": "Assumes both are needed, but (1) alone gives length 8 and width 3, so area $=24$; (2) is unnecessary. The answer is A.",
+      "D": "Claims (2) alone suffices, but a perimeter of 22 allows many area values, so it is not sufficient. Only (1) is, giving A.",
+      "E": "Says neither works, but (1) directly gives both dimensions and hence area 24. The answer is A."
     },
     "explanation": "Statement (1) gives the area 24. Statement (2) alone allows for several possible rectangles.",
     "estimatedTimeSeconds": 120
@@ -172,6 +232,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "Statement (2) '$k$ is an integer' admits positives, negatives, and zero, so it cannot decide the sign — not sufficient. Only (1) does, giving A.",
+      "C": "Assumes both are needed, but (1) alone, $k^3>0$, forces $k>0$ since odd powers keep the sign; (2) adds nothing, so the answer is A.",
+      "D": "Claims (2) alone works too, but knowing $k$ is an integer says nothing about its sign. Only (1) is sufficient, giving A.",
+      "E": "Says neither suffices, but $k^3>0$ guarantees $k>0$ — a definite 'yes.' The answer is A."
+    },
     "explanation": "We need to decide whether $k > 0$. Statement (1): $k^3 > 0$ — an odd power preserves sign, so $k^3 > 0$ forces $k > 0$, a definite 'yes', sufficient. Statement (2): 'k is an integer' allows positives, negatives, or zero, so it is not sufficient. The insight is that cubing (unlike squaring) keeps the sign, so the answer is A.",
     "estimatedTimeSeconds": 120
   },
@@ -187,6 +253,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "Statement (2), perimeter 24, does not determine base and height (many triangles share a perimeter), so the area is unfixed. Only (1) gives it, so A.",
+      "C": "Assumes both are needed, but (1) alone gives base 10 and height 6, so area $=\\tfrac{1}{2}\\times10\\times6=30$; (2) is unnecessary. The answer is A.",
+      "D": "Claims (2) alone suffices, but a perimeter of 24 does not pin the area. Only (1) does, giving A.",
+      "E": "Says neither works, but (1) directly yields area 30. The answer is A."
     },
     "explanation": "Statement (1) gives the area directly: 1/2 × 10 × 6 = 30. Statement (2) alone is insufficient.",
     "estimatedTimeSeconds": 120
@@ -204,6 +276,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "Statement (1) $m^2=25$ gives $m=5$ or $m=-5$, so the sign is undetermined — not sufficient. Only (2), which forces $m<0$, settles it, giving B.",
+      "C": "Assumes both are needed, but (2) alone makes $m$ a negative multiple of 5, answering 'no' definitively; (1) is unnecessary, so B.",
+      "D": "Claims (1) alone works too, but $m^2=25$ allows $m=5$ (positive), so it can't fix the sign. Only (2) does, giving B.",
+      "E": "Says neither works, but (2) states $m<0$ — a sufficient 'no.' The answer is B."
+    },
     "explanation": "The question asks whether $m > 0$. Statement (1) $m^2 = 25$ gives $m = 5$ or $m = -5$, so the sign is undetermined — not sufficient. Statement (2) says $m$ is a multiple of 5 and less than 0, so $m < 0$, answering 'no' definitively — sufficient. A clear 'no' is just as sufficient as a 'yes'; the trap is discarding (2) because it doesn't give an exact value, but it pins the sign, so the answer is B.",
     "estimatedTimeSeconds": 120
   },
@@ -219,6 +297,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "Statement (2) '$s$ is odd' leaves many values ($1, 3, 5, 7, \\dots$), so $s$ isn't fixed — not sufficient. Only (1), $s+2=9$, gives $s=7$, so A.",
+      "C": "Assumes both are needed, but (1) alone solves $s+2=9$ to $s=7$; the parity clue is unnecessary, so the answer is A.",
+      "D": "Claims (2) alone suffices, but 'odd' admits many values; only (1) pins $s=7$. The answer is A.",
+      "E": "Says neither works, but (1) gives $s=7$. The answer is A."
     },
     "explanation": "Statement (1) gives s = 7. Statement (2) alone leaves several odd possibilities.",
     "estimatedTimeSeconds": 120
@@ -236,6 +320,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "Statement (1) $u^2=49$ gives $u=7$ or $u=-7$, two values, so it's not sufficient alone; you need (2) to discard the positive root. The answer is C, not A.",
+      "B": "Statement (2) '$u$ is negative' allows infinitely many values, so it can't fix $u$ alone; combined with (1) it leaves $u=-7$. The answer is C.",
+      "D": "Neither statement alone fixes $u$ — (1) gives two roots, (2) gives a whole range — so 'each alone' is wrong. Together $u=-7$, giving C.",
+      "E": "Says even together they fail, but $u^2=49$ with $u<0$ leaves only $u=-7$. The answer is C."
+    },
     "explanation": "Statement (1): $u^2=49$ gives $u=7$ or $u=-7$, two values, not sufficient. Statement (2): 'u is negative' allows infinitely many values, not sufficient. Together, the negativity condition discards $u=7$ and leaves $u=-7$, a unique value, so the answer is C. The trap is taking $\\sqrt{49}=7$ only and missing the negative square root that statement (2) is there to resolve.",
     "estimatedTimeSeconds": 120
   },
@@ -251,6 +341,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "C"
+    },
+    "distractorRationale": {
+      "A": "Statement (1) $w^2=1$ has two roots, $w=1$ or $w=-1$, so it doesn't give a single value; you need (2) to keep the positive one. The answer is C, not A.",
+      "B": "Statement (2) $w>0$ allows any positive number, so it can't fix $w$ alone; combined with (1) it leaves $w=1$. The answer is C.",
+      "D": "Neither statement alone fixes $w$ — (1) has two roots and (2) is a whole range — so 'each alone' is wrong. Together $w=1$, giving C.",
+      "E": "Says even together they fail, but the only positive root of $w^2=1$ is $w=1$. The answer is C."
     },
     "explanation": "Statement (1) $w^2 = 1$ has two roots, $w = 1$ or $w = -1$, so it does not give a single value — not sufficient. Statement (2) $w > 0$ alone allows any positive number — not sufficient. Together, the only root of $w^2=1$ that is positive is $w = 1$, a unique value. Both statements are needed, so the answer is C; the trap is forgetting the negative root in (1).",
     "estimatedTimeSeconds": 120
@@ -268,6 +364,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "Statement (2) $x-y=4$ does not fix the sum: $x=4,y=0$ gives sum 4, while $x=5,y=1$ gives sum 6. Only (1) gives the sum directly, so A.",
+      "C": "Assumes both are needed, but (1) alone states $x+y=12$, exactly the requested sum; (2) is unnecessary, so the answer is A.",
+      "D": "Claims (2) alone suffices, but $x-y=4$ leaves the sum varying, so it is not sufficient. Only (1) is, giving A.",
+      "E": "Says neither works, but (1) directly gives $x+y=12$. The answer is A."
+    },
     "explanation": "Statement (1) x + y = 12 directly gives the requested sum. Statement (2) x − y = 4 does not fix it: for example, x = 4, y = 0 gives a sum of 4, while x = 5, y = 1 gives a sum of 6. Statement (1) alone is sufficient.",
     "estimatedTimeSeconds": 120
   },
@@ -283,6 +385,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "Statement (2), $q$ a multiple of 3, includes even (6, 12) and odd (3, 9) values, so it can't decide parity. Only (1) does, giving A.",
+      "C": "Assumes both are needed, but (1) alone makes $q=4k=2(2k)$, always even — a definite 'yes'; (2) is unnecessary, so the answer is A.",
+      "D": "Claims (2) alone works too, but multiples of 3 can be odd or even, so it is not sufficient. Only (1) is, giving A.",
+      "E": "Says neither works, but every multiple of 4 is even — (1) is sufficient. The answer is A."
     },
     "explanation": "Every multiple of 4 is $4k=2(2k)$, which is always even, so statement (1) answers 'yes, $q$ is even' definitively and is sufficient alone. Statement (2), $q$ is a multiple of 3, includes both even (6, 12) and odd (3, 9) values, so it can't settle parity — not sufficient. The insight is that a multiple of an even number is necessarily even, while a multiple of an odd number is not. Answer: A.",
     "estimatedTimeSeconds": 120
@@ -300,6 +408,12 @@
       "format": "single",
       "value": "D"
     },
+    "distractorRationale": {
+      "A": "Picks (1) only, but (2) $c+1=10$ also gives $c=9$, so it is sufficient alone too; the answer is D, not A.",
+      "B": "Picks (2) only, but (1) $3c=27$ also gives $c=9$ on its own. Both work alone, so the answer is D.",
+      "C": "Claims both are needed, but each statement independently yields $c=9$. The answer is D.",
+      "E": "Says neither works, but each statement alone gives $c=9$. The answer is D."
+    },
     "explanation": "Each statement gives c = 9.",
     "estimatedTimeSeconds": 120
   },
@@ -315,6 +429,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "Statement (2), third angle 80°, leaves the other two as any pair summing to 100° (e.g. 50°–50° isosceles, or 40°–60° scalene), so it can't decide. Only (1) does, giving A.",
+      "C": "Assumes both are needed, but (1) alone gives two equal 50° angles, which forces an isosceles triangle; (2) is unnecessary, so the answer is A.",
+      "D": "Claims (2) alone suffices, but knowing only the third angle is 80° does not settle whether the triangle is isosceles. Only (1) does, giving A.",
+      "E": "Says neither works, but two equal angles guarantee an isosceles triangle — (1) is sufficient. The answer is A."
     },
     "explanation": "Two equal angles imply an isosceles triangle. Statement (2) alone is not sufficient to conclude.",
     "estimatedTimeSeconds": 120
@@ -332,6 +452,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "Statement (1) $h^2=16$ gives $h=4$ or $h=-4$, so it doesn't fix $h$ alone — the negative root is missed. Only (2), stating $h=4$, settles it, giving B.",
+      "C": "Assumes both are needed, but (2) alone directly gives $h=4$; (1) is unnecessary, so the answer is B.",
+      "D": "Claims (1) alone works too, but $h^2=16$ allows $h=-4$, so it can't fix $h$. Only (2) does, giving B.",
+      "E": "Says neither works, but (2) states $h=4$ directly. The answer is B."
+    },
     "explanation": "(2) gives h = 4 directly. (1) alone gives 4 or -4.",
     "estimatedTimeSeconds": 120
   },
@@ -347,6 +473,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "C"
+    },
+    "distractorRationale": {
+      "A": "Statement (1) leaves $p=10$ or $p=11$, so 'is $p>10$?' is undetermined ($10$ is not, $11$ is); you need (2) too. The answer is C, not A.",
+      "B": "Statement (2) '$p$ is odd' admits many values ($9, 11, 13, \\dots$), so it can't answer alone; combined with (1) you get $p=11$. The answer is C.",
+      "D": "Neither statement alone settles whether $p>10$ — (1) gives 10 or 11, (2) gives many odds — so 'each alone' is wrong. Together $p=11>10$, giving C.",
+      "E": "Says even together they fail, but the only odd integer strictly between 9 and 12 is $p=11$, answering 'yes.' The answer is C."
     },
     "explanation": "Statement (1) leaves 10 or 11. Statement (2) leaves several odd numbers. Together, p = 11.",
     "estimatedTimeSeconds": 120
@@ -364,6 +496,12 @@
       "format": "single",
       "value": "D"
     },
+    "distractorRationale": {
+      "A": "Picks (1) only, but (2) circumference $6\\pi$ gives radius 3 too (since $2\\pi r=6\\pi$), so the area follows; both work alone, so the answer is D, not A.",
+      "B": "Picks (2) only, but (1) directly gives radius 3, hence the area, on its own. Both work alone, so the answer is D.",
+      "C": "Claims both are needed, but each statement independently determines the radius and thus the area. The answer is D.",
+      "E": "Says neither works, but each statement fixes the radius (3) and so the area. The answer is D."
+    },
     "explanation": "Each statement determines the radius and therefore the area.",
     "estimatedTimeSeconds": 120
   },
@@ -379,6 +517,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "Statement (2) 'x and y positive' is not enough: $x=1,y=2$ gives $\\frac{x}{y}<1$ while $x=3,y=1$ gives $>1$. Only (1) fixes the ratio, giving A.",
+      "C": "Assumes both are needed, but (1) alone, $x=2y$, makes $\\frac{x}{y}=2>1$ — a definite 'yes'; (2) is unnecessary, so the answer is A.",
+      "D": "Claims (2) alone works too, but positivity doesn't decide whether the ratio exceeds 1. Only (1) does, giving A.",
+      "E": "Says neither suffices, but $x=2y$ forces $\\frac{x}{y}=2>1$ — sufficient. The answer is A."
     },
     "explanation": "We need to decide whether $\\frac{x}{y} > 1$. Statement (1): $x = 2y$ gives $\\frac{x}{y} = 2 > 1$ (and $y \\neq 0$ since the ratio is defined), a definite 'yes', sufficient. Statement (2): 'x and y are positive' is not sufficient, since e.g. $x=1,y=2$ gives $\\frac{1}{2}<1$ while $x=3,y=1$ gives $3>1$. The insight is that (1) fixes the ratio outright, so the answer is A.",
     "estimatedTimeSeconds": 120
@@ -396,6 +540,12 @@
       "format": "single",
       "value": "E"
     },
+    "distractorRationale": {
+      "A": "Statement (1) leaves the factors of 12 — $1, 2, 3, 4, 6, 12$ — so $k$ isn't fixed. Even with (2) several values remain, so the answer is E, not A.",
+      "B": "Statement (2) '$k$ is even' allows many values, so it can't fix $k$ alone; combined with (1) the even factors $2, 4, 6, 12$ still remain. The answer is E.",
+      "C": "Picks 'both together work,' but combining the two leaves $k=2, 4, 6,$ or $12$ — still not unique. The answer is E.",
+      "D": "Claims each alone works, but (1) gives six factors and (2) is a whole class of numbers; neither pins $k$, and even together it isn't unique, so E."
+    },
     "explanation": "Statement (1) alone leaves 1, 2, 3, 4, 6, 12. Statement (2) alone leaves several even numbers. Together, k can still be 2, 4, 6, or 12.",
     "estimatedTimeSeconds": 150
   },
@@ -411,6 +561,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "E"
+    },
+    "distractorRationale": {
+      "A": "Statement (1) '$m$ is odd' includes primes (3, 5, 7) and non-primes (9, 15), so it can't decide; even with (2), $m=9$ stays a counterexample, so the answer is E, not A.",
+      "B": "Statement (2) '$m<10$' includes primes (2, 3, 5, 7) and non-primes (4, 6, 8, 9), so it can't decide; combined with (1) the case $m=9$ remains. The answer is E.",
+      "C": "Picks 'both together work,' but odd and under 10 still allows 3, 5, 7 (prime) and 9 (composite). The answer is E.",
+      "D": "Claims each alone works, but neither parity nor the bound determines primality, and together $m=9$ (odd, $<10$, composite) breaks it, giving E."
     },
     "explanation": "Prime means exactly two positive divisors. Statement (1) 'm is odd' includes primes (3, 5, 7) and non-primes (9, 15), so not sufficient. Statement (2) 'm less than 10' includes primes (2, 3, 5, 7) and non-primes (4, 6, 8, 9), so not sufficient. Combined, odd and less than 10 still allows 3, 5, 7 (prime) and 9 (not prime), so the answer is uncertain; the trap is forgetting that 9 is odd, under 10, and composite, giving answer E.",
     "estimatedTimeSeconds": 150
@@ -428,6 +584,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "Statement (1) $x(x-4)>0$ holds for $x<0$ or $x>4$, which includes both negative and positive $x$, so 'is $x>0$?' is undetermined; you need (2). The answer is C, not A.",
+      "B": "Statement (2) $x<4$ admits negatives and positives, so it can't answer alone; combined with (1) only $x<0$ survives. The answer is C.",
+      "D": "Neither statement alone settles the sign — (1) allows $x<0$ or $x>4$, (2) is a half-line — so 'each alone' is wrong. Together $x<0$, a definite 'no,' giving C.",
+      "E": "Says even together they fail, but (1) and (2) intersect to $x<0$, a consistent 'no' — sufficient. The answer is C."
+    },
     "explanation": "The question asks whether $x>0$. Statement (1): $x^2-4x>0$ factors as $x(x-4)>0$, true when $x<0$ or $x>4$; that allows both negative and positive $x$, so (1) alone is not sufficient. Statement (2): $x<4$ allows negatives and positives, not sufficient. Together, $x<0$ or $x>4$ combined with $x<4$ leaves only $x<0$, giving a definite 'no' — a consistent answer, so the answer is C. The trap is reading a definite 'no' as insufficiency: a firm no is sufficient, and it takes both statements to guarantee it.",
     "estimatedTimeSeconds": 150
   },
@@ -443,6 +605,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "Statement (2) '$t$ is even' leaves many values ($2, 4, 6, \\dots$), so $t$ isn't fixed. Only (1), $t+5=12$, gives $t=7$, so A.",
+      "C": "Assumes both are needed, but (1) alone solves $t+5=12$ to $t=7$; the parity clue is unnecessary, so the answer is A.",
+      "D": "Claims (2) alone suffices, but 'even' admits many values; only (1) pins $t=7$. The answer is A.",
+      "E": "Says neither works, but (1) gives $t=7$. The answer is A."
     },
     "explanation": "(1) gives t = 7. (2) alone leaves several even values.",
     "estimatedTimeSeconds": 120
@@ -460,6 +628,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "Statement (1) '$r$ prime' allows $r=2$ (not $>2$) or $r=3,5,\\dots$ (which are), so 'is $r>2$?' is undetermined; you need (2). The answer is C, not A.",
+      "B": "Statement (2) '$r$ even' allows $r=2$ or $r=4,6,\\dots$, so it can't answer alone; combined with (1) the only common value is $r=2$. The answer is C.",
+      "D": "Neither statement alone settles whether $r>2$ — both leave $r=2$ and larger values open — so 'each alone' is wrong. Together $r=2$, a definite 'no,' giving C.",
+      "E": "Says even together they fail, but the only number both prime and even is $r=2$, answering 'no' — sufficient. The answer is C."
+    },
     "explanation": "Statement (1) $r$ prime allows $r=2$ (not greater than 2) or $r=3,5,\\dots$ (greater) — not sufficient. Statement (2) $r$ even allows $r=2$ or $r=4,6,\\dots$ — not sufficient. Together, the only number that is both prime and even is $r = 2$, which is not greater than 2, giving a definite 'no'. A consistent 'no' is still sufficient, so the answer is C.",
     "estimatedTimeSeconds": 150
   },
@@ -475,6 +649,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "D"
+    },
+    "distractorRationale": {
+      "A": "Picks (1) only, but (2) $a-1=13$ also gives $a=14$, so it is sufficient alone too; the answer is D, not A.",
+      "B": "Picks (2) only, but (1) $a/2=7$ also gives $a=14$ on its own. Both work alone, so the answer is D.",
+      "C": "Claims both are needed, but each statement independently yields $a=14$. The answer is D.",
+      "E": "Says neither works, but each statement alone gives $a=14$. The answer is D."
     },
     "explanation": "Each statement gives a = 14.",
     "estimatedTimeSeconds": 120
@@ -492,6 +672,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "Statement (2) '$b$ is an integer' admits positive, negative, and zero values, so it can't decide the sign. Only (1) does, giving A.",
+      "C": "Assumes both are needed, but (1) alone, $b^3=-8$, has the unique real root $b=-2$, which is negative — a definite 'yes'; (2) is unnecessary, so A.",
+      "D": "Claims (2) alone works too, but knowing $b$ is an integer says nothing about its sign. Only (1) is sufficient, giving A.",
+      "E": "Says neither suffices, but $b^3=-8$ forces $b=-2<0$ — sufficient. The answer is A."
+    },
     "explanation": "Cubing preserves sign and a cube root is unique, so $b^3=-8$ forces $b=-2$, which is negative — statement (1) answers the question 'yes' and is sufficient alone. Statement (2), '$b$ is an integer,' allows positive, negative, or zero values, so it can't determine the sign — not sufficient. The trap is doubting (1) over a sign ambiguity, but odd powers carry the sign through, so $b=-2$ is the only real solution. Answer: A.",
     "estimatedTimeSeconds": 120
   },
@@ -507,6 +693,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "D"
+    },
+    "distractorRationale": {
+      "A": "Picks (1) only, but (2) also works: if $m+1$ is even then $m$ is odd, so each statement settles the parity alone. The answer is D, not A.",
+      "B": "Picks (2) only, but (1) also works: an integer whose square is odd must itself be odd. Both are sufficient alone, so the answer is D.",
+      "C": "Claims both are needed, but either statement alone shows $m$ is odd. The answer is D.",
+      "E": "Says neither works, but (1) (odd square implies odd) and (2) ($m+1$ even implies $m$ odd) each settle it. The answer is D."
     },
     "explanation": "An integer whose square is odd is itself odd, and if m + 1 is even then m is also odd.",
     "estimatedTimeSeconds": 120

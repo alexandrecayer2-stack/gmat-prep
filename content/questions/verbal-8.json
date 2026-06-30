@@ -32,6 +32,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "Relative cost is irrelevant to whether lighting reduces vandalism; the argument is about effectiveness, not price.",
+      "B": "Whether vandals work alone or in groups says nothing about whether lighting deters them, which is the gap the conclusion depends on.",
+      "D": "Existing wiring is a feasibility detail about installing the lights, not an assumption that the lights would actually reduce vandalism.",
+      "E": "Increased resident use is a possible side effect, but the argument's logic is that the light itself deters vandals, so deterrence rather than displacement is the required assumption."
+    },
     "explanation": "The conclusion is that better lighting will reduce vandalism. That requires assuming vandals would actually be deterred by the lighting rather than vandalizing anyway at another time.",
     "estimatedTimeSeconds": 110,
     "tags": [
@@ -72,6 +78,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "D"
+    },
+    "distractorRationale": {
+      "A": "Training unrelated to grouping is too vague to credit with the score gains; the tutoring program is a far more direct alternative cause that occurred at the same time.",
+      "B": "Fewer transfers changes who is enrolled but does not give a competing explanation for higher reading scores the way a simultaneous tutoring program does.",
+      "C": "Reduced homework does not obviously raise reading scores and is not tied to most students the way the tutoring program is.",
+      "E": "A changed test format could affect scores in either direction and offers no clear alternative cause; the tutoring program most strongly weakens the small-group claim."
     },
     "explanation": "If the tutoring program began at the same time and most students attended, it is a plausible alternative explanation for the score increase, so the claim about small-group sessions is weakened.",
     "estimatedTimeSeconds": 110,
@@ -114,6 +126,12 @@
       "format": "single",
       "value": "D"
     },
+    "distractorRationale": {
+      "A": "Customer preference for local couriers, if anything, cuts against outsourcing and does not support the profit claim.",
+      "B": "Lower sales last year is about past performance and gives no reason this year's profit will rise from the cost cut.",
+      "C": "Increased delivery delays is a downside that could hurt sales, weakening rather than strengthening the argument.",
+      "E": "Competitors also outsourcing says nothing about this company's own costs or profit; the direct cost-per-order reduction with steady volume is what supports the conclusion."
+    },
     "explanation": "A direct reduction in shipping cost per order, with no loss of delivery volume, supports the claim that profits should rise.",
     "estimatedTimeSeconds": 110,
     "tags": [
@@ -154,6 +172,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "The passage says maintenance costs rose, not fell, so claiming the engines reduced maintenance needs contradicts the text.",
+      "C": "The passage gives no figures comparing total fuel savings to the maintenance increase, so concluding total cost fell overall goes beyond what is supported; only the partial-offset statement is safe.",
+      "D": "Nothing in the passage says the new training must be repeated annually; this invents a detail.",
+      "E": "The passage never compares the 18% drop to previous efficiency gains, so this is unsupported."
     },
     "explanation": "Because fuel use fell while maintenance costs rose, it is reasonable to infer that some of the fuel savings may be used to offset the new maintenance expense, though the passage does not prove the exact amounts.",
     "estimatedTimeSeconds": 110,
@@ -196,6 +220,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "Whether buyers file claims is one input, but the decisive question weighs total added sales against total added claim costs, which choice C captures directly.",
+      "B": "What competitors offer affects market positioning but does not by itself tell the retailer whether its own plan will be profitable.",
+      "D": "Effects on inexpensive products are outside the plan's stated rationale, which concerns expensive products; this does not evaluate whether the plan pays off.",
+      "E": "A warranty-versus-price preference is a side question; the core evaluation is whether extra sales exceed the extra cost of honoring claims."
+    },
     "explanation": "To evaluate the plan, the key issue is whether the extra sales created by the longer warranty are larger than the added cost of claims. That determines whether the plan helps profits overall.",
     "estimatedTimeSeconds": 110,
     "tags": [
@@ -236,6 +266,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "The first boldface is not a neutral observation but a view the report rejects, and the second is not an explanation of the first; it explains the program's success.",
+      "C": "The first is the claim the report dismisses, not its main conclusion; the report's conclusion is the second boldface about inspections.",
+      "D": "The first is not mere background and the second is not unrelated; both bear directly on why the cleanup succeeded.",
+      "E": "The first is a judgment the report rejects, not a prediction, and the second is a different, independent explanation rather than a restatement."
     },
     "explanation": "The first boldfaced statement is a claim the report dismisses. The second boldfaced statement gives the report's explanation for success, so it reflects the report's own conclusion.",
     "estimatedTimeSeconds": 110,
@@ -278,6 +314,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "The argument does not address the size of the increase; its error is inferring cause from mere sequence, not dismissing a small effect.",
+      "C": "No generalization to other companies is made; the flaw is the causal leap within this single case.",
+      "D": "The argument never claims the campaign was cheap, so misreading profit as proof of low cost is not the flaw.",
+      "E": "Nothing turns on a missing definition of success; the clear flaw is treating after-the-campaign profit as caused by the campaign, i.e., correlation versus causation."
+    },
     "explanation": "The argument assumes that because two events happened together, one must have caused the other. That is the classic correlation-versus-causation flaw.",
     "estimatedTimeSeconds": 110,
     "tags": [
@@ -318,6 +360,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "A steadier buying pace does not explain why fewer bottles remained at closing while sales doubled; it leaves the paradox intact.",
+      "C": "A higher price might dampen demand but does not account for low closing stock alongside doubled sales; reduced deliveries do.",
+      "D": "Faster sales of other drinks is irrelevant to why bottled-water stock ran low at closing.",
+      "E": "The size of the water's shelf space does not explain the day-to-day shortfall in remaining bottles; sharply reduced deliveries explain both higher sales and lower closing stock."
     },
     "explanation": "If deliveries were reduced sharply, the store could have fewer bottles left at closing even while selling more than before. That resolves the apparent contradiction.",
     "estimatedTimeSeconds": 110,
@@ -360,6 +408,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "Traveler preference for the new lane does not establish that an extra lane shortens overall waits; the bottleneck location is what matters.",
+      "B": "Needing twice as many guards is a staffing cost, not the logical assumption that screening is the actual bottleneck.",
+      "D": "The lane's distance from the terminal is irrelevant to whether added screening capacity reduces waits.",
+      "E": "Flight plans are not required by the argument; for an extra lane to help, the delay must occur at security rather than at bag drop or boarding."
+    },
     "explanation": "For an extra lane to shorten waits, the main bottleneck must actually be security screening. If the delay is elsewhere, the added lane would not solve the problem.",
     "estimatedTimeSeconds": 110,
     "tags": [
@@ -400,6 +454,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "D"
+    },
+    "distractorRationale": {
+      "A": "Less exercise among breakfast-skippers does not undercut the breakfast-energy link; it offers a separate factor, not a removal of the association.",
+      "B": "More coffee among breakfast eaters is at most a minor confounder and does not show the link itself vanishes the way the controlled analysis does.",
+      "C": "Higher income is a possible confounder but is weaker than directly controlling for calories and sleep, which eliminates the association entirely.",
+      "E": "Noting that some breakfasts contain sugar is too weak to overturn the claim; the strongest blow is that the association disappears once calories and sleep are controlled for."
     },
     "explanation": "If the relationship disappears after controlling for other variables, breakfast itself is no longer a convincing explanation for stable energy.",
     "estimatedTimeSeconds": 110,
@@ -442,6 +502,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "A general preference for video over text does not speak to whether quizzes raise completion.",
+      "C": "That some quizzes were graded is a vague detail that does not establish quizzes improve completion.",
+      "D": "Having many mobile users is irrelevant to the effect of quizzes on completion.",
+      "E": "Lower completion in long courses is background about completion rates, not evidence that quizzes help; the controlled pilot showing a 12% gain is the direct support."
+    },
     "explanation": "A pilot result showing higher completion in otherwise identical sections with quizzes is direct evidence that the quizzes help the outcome.",
     "estimatedTimeSeconds": 110,
     "tags": [
@@ -482,6 +548,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "The data support a comparison between groups, not the sweeping claim that tutoring caused every improvement.",
+      "C": "Saying lower-attendance students never improved overstates the data, which only say they improved less on average.",
+      "D": "Eliminating tutoring is a recommendation the report does not support; the findings, if anything, point the other way.",
+      "E": "Equal scores contradicts the report, which says four-session students improved more; the supported inference is the comparison in choice B."
     },
     "explanation": "The report supports a comparison: students with at least four sessions improved more than those with fewer sessions. It does not prove causation for every improvement, but it does support the comparison in choice B.",
     "estimatedTimeSeconds": 110,
@@ -524,6 +596,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "Mirror size is a practical detail; the logical gap is whether confidence leads to purchases, not how big the mirrors are.",
+      "B": "Selling multiple sizes is unrelated to the link between feeling confident and buying.",
+      "D": "Where the fitting rooms sit does not bridge the jump from confidence to increased sales.",
+      "E": "A style preference over competitors is outside the argument, which depends on confidence actually making shoppers more likely to buy."
+    },
     "explanation": "The argument moves from increased confidence to increased sales. That only works if confidence actually makes shoppers more willing to purchase.",
     "estimatedTimeSeconds": 110,
     "tags": [
@@ -564,6 +642,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "C"
+    },
+    "distractorRationale": {
+      "A": "What nearby libraries do does not tell this library whether its own extended hours are worth the cost.",
+      "B": "An evenings-versus-weekends preference is a side issue; the plan already targets evenings, so the real question is whether usage justifies the added cost.",
+      "D": "Whether daytime hours are full does not establish whether the new evening hours will draw enough use to cover their cost.",
+      "E": "A rise in membership is one possible benefit but does not directly weigh the extra usage against the staffing and utility costs."
     },
     "explanation": "The key evaluation question is whether the benefit from the extra hours is large enough to cover the costs of keeping the building open later.",
     "estimatedTimeSeconds": 110,
@@ -606,6 +690,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "The first boldface is a factual report, not an unsupported prediction, and the second is a conclusion drawn from it, not a restatement.",
+      "C": "The first is evidence, not a recommendation, and the second is the memo's own conclusion, not a criticism of a recommendation.",
+      "D": "The first supports the memo's position rather than serving as a counterexample, and the second is the conclusion, not an unrelated observation.",
+      "E": "The roles are reversed: the first is the evidence and the second is the conclusion, not the other way around."
+    },
     "explanation": "The first boldfaced portion is factual evidence about how often the lot was full. The second boldfaced portion is the conclusion the memo draws from that evidence.",
     "estimatedTimeSeconds": 110,
     "tags": [
@@ -646,6 +736,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "The argument makes no claim about every score needing to rise; its flaw is ignoring other causes of the higher average.",
+      "C": "No analogy is used, so an overly broad analogy is not the flaw.",
+      "D": "There is no appeal to a random sample; the issue is overlooking alternative explanations for the increase.",
+      "E": "The argument does not confuse sufficient and necessary conditions; it simply assumes the app caused the rise while ignoring other possible causes."
     },
     "explanation": "The score increase could have been caused by many factors besides the app, such as easier material or more study time. Ignoring those alternatives is the flaw.",
     "estimatedTimeSeconds": 110,
@@ -688,6 +784,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "Selling fewer cups to more regulars would tend to lower coffee revenue, not raise it, and does not resolve the paradox.",
+      "C": "Shorter hours would reduce sales opportunities and does not explain rising revenue alongside free refills.",
+      "D": "Competitors offering refills does not explain why this cafe's revenue rose.",
+      "E": "Cheaper beans lower costs but, since revenue depends on sales, do not explain the revenue rise; added food purchases by refill customers do."
+    },
     "explanation": "If customers buying refills also purchased more food, total revenue could rise even without a higher coffee price.",
     "estimatedTimeSeconds": 110,
     "tags": [
@@ -728,6 +830,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "C"
+    },
+    "distractorRationale": {
+      "A": "A well-established vendor lends credibility but is not evidence that the system actually reduces mistakes.",
+      "B": "Generating sales reports is an unrelated feature that does not bear on error reduction.",
+      "D": "Competitors adopting similar systems does not show that this system reduces this manufacturer's mistakes.",
+      "E": "Ease of learning is about user experience, not error rates; the trial showing order errors fell after the switch is the direct evidence."
     },
     "explanation": "A trial showing fewer order errors after the switch is direct evidence that the new system reduces mistakes.",
     "estimatedTimeSeconds": 110,
@@ -771,6 +879,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "This narrows the passage to a single condition about commercial land, missing the broader dual-benefit point.",
+      "C": "The passage does not claim levees are always worse than wetlands; it presents wetlands as a complement, not a blanket superior.",
+      "D": "The passage does not side with critics who wanted development; it defends the restoration's value.",
+      "E": "Water-quality sensors are a detail, not the central idea, which is the dual ecological and storm-protection benefit."
+    },
     "explanation": "The passage argues that the restored marshes provide habitat value and also absorb storm energy, reducing flooding. That dual function is the central point.",
     "estimatedTimeSeconds": 100,
     "tags": [
@@ -812,6 +926,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "Distance from the harbor is not the stated reason; the passage cites the land's irregular shape.",
+      "C": "The passage does not say the land was already set aside for parks.",
+      "D": "Nothing in the passage describes prior protection as a bird sanctuary as the critics' reason.",
+      "E": "Lack of sensor access is not why critics called it wasted; they cited its irregular shape unsuitable for large buildings."
     },
     "explanation": "The passage says the reclaimed land is irregular and cannot support large buildings, which is why critics dismissed it as wasted space.",
     "estimatedTimeSeconds": 100,
@@ -855,6 +975,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "The passage does not claim wetlands can fully replace levees; the final sentence says the opposite.",
+      "B": "Bird habitat is one benefit, but the passage does not say it was the only reason for restoration.",
+      "D": "The passage does not rank storm protection above habitat value; it presents both as valued functions.",
+      "E": "Sensors are a minor detail and are not said to outweigh the wetlands; the supported inference is that planners may value land for multiple functions."
+    },
     "explanation": "The passage explicitly says the project reflects a broader change in urban design in which land can be valued for the services it provides. That supports the inference in choice C.",
     "estimatedTimeSeconds": 100,
     "tags": [
@@ -896,6 +1022,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "C"
+    },
+    "distractorRationale": {
+      "A": "The final sentence does not dismiss the earlier environmental benefits; it adds a qualification.",
+      "B": "It introduces no new contradicting policy.",
+      "D": "It does not argue for removing levees; it notes that levees remain part of flood defense.",
+      "E": "It does not switch the topic to bird migration; its role is to qualify the praise by noting wetlands are only one part of flood defense."
     },
     "explanation": "The final sentence tempers the discussion by explaining that wetlands are not a complete substitute for levees. Its function is to qualify, not overturn, the earlier praise.",
     "estimatedTimeSeconds": 100,
@@ -939,6 +1071,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "The passage does not urge abandoning software components; it describes benefits of modular design.",
+      "C": "The passage does not say hospitals prefer older, simpler devices.",
+      "D": "Disposable attachments are one element, not the only thing that matters.",
+      "E": "Lowering wages is not the stated motive; the main idea is that modular design eases repair, customization, and adaptation despite needing tighter coordination."
+    },
     "explanation": "The passage explains that modular devices solve repair and customization problems, reduce waste, and can adapt to local regulations, while also creating coordination challenges.",
     "estimatedTimeSeconds": 100,
     "tags": [
@@ -980,6 +1118,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "The passage does not claim the device never needs software updates.",
+      "C": "It does not say hospitals no longer need suppliers.",
+      "D": "Redesigning hardware for every clinic is the opposite of the stated advantage.",
+      "E": "The passage notes coordination challenges remain, so it does not claim they are eliminated; the stated advantage is that the base unit stays in service when an attachment wears out."
     },
     "explanation": "The passage explicitly says the base unit stays in service while worn attachments are replaced, which is one advantage of the modular design.",
     "estimatedTimeSeconds": 100,
@@ -1023,6 +1167,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "The passage notes coordination challenges, so the company cannot simply ignore suppliers.",
+      "C": "The passage does not say hospitals prefer unrepairable devices; it stresses easier repair.",
+      "D": "The passage does not guarantee lower costs in every case.",
+      "E": "Nothing indicates the company will stop selling base units; the supported inference is that the system suits places with differing local rules."
+    },
     "explanation": "Because the modular system can adapt software settings without changing hardware, the passage supports the inference that it is useful where local regulations differ.",
     "estimatedTimeSeconds": 100,
     "tags": [
@@ -1064,6 +1214,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "The final sentence does not single out critics by name.",
+      "C": "It does not prove modular devices are cheaper than older ones.",
+      "D": "It raises no new hospital complaint.",
+      "E": "It does not restrict the comparison to consumer electronics; its role is to summarize the new strategy in broader terms as a family of interoperable parts."
     },
     "explanation": "The final sentence rephrases the shift as moving from one rigid product to a family of interoperable parts, which broadens the summary of the strategy.",
     "estimatedTimeSeconds": 100,
@@ -1107,6 +1263,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "The passage argues against reading sparse finds as poverty, so calling the settlement poor misses the point.",
+      "B": "It does not claim all desert communities used the same routes; that overgeneralizes.",
+      "D": "Ranking seal impressions above ceramic jars is a detail, not the main idea.",
+      "E": "The passage does not conclude the site was abandoned quickly; the main idea is that sparse finds can still show participation in long-distance exchange and selective resource management."
+    },
     "explanation": "The passage argues against reading the sparse deposits as evidence of poverty. Instead, it shows that the settlement selectively imported useful items and still engaged in long-distance exchange.",
     "estimatedTimeSeconds": 100,
     "tags": [
@@ -1148,6 +1310,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "The seal impressions point to outside contact through official tracking, not isolation.",
+      "C": "The passage attributes the jars to distant workshops, not local manufacture.",
+      "D": "Nothing says luxury objects were buried intentionally.",
+      "E": "The site is not described as military storage; the seal impressions indicate goods were tracked by officials rather than traded informally."
     },
     "explanation": "The passage directly states that the seal impressions suggest official tracking of goods rather than informal trade.",
     "estimatedTimeSeconds": 100,
@@ -1191,6 +1359,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "The passage does not establish that imports were limited strictly to arid-useful goods; this overstates the selective-import point.",
+      "B": "The passage uses the sparse record to argue against isolation, not for it.",
+      "D": "It does not claim all desert sites had identical records.",
+      "E": "The passage makes no comparison ranking this site as richer than neighbors; the supported inference is that the community had connections beyond the site."
+    },
     "explanation": "Because the passage describes ceramics from distant workshops and official tracking of goods, it supports the inference that the community had connections beyond the site itself.",
     "estimatedTimeSeconds": 100,
     "tags": [
@@ -1232,6 +1406,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "C"
+    },
+    "distractorRationale": {
+      "A": "The final sentence does not reject the new evidence; it cautions about interpreting it.",
+      "B": "It does not express doubt about the value of excavation in general.",
+      "D": "It does not claim luxury objects are more reliable than seal impressions.",
+      "E": "It does not declare the settlement definitively richer; it warns against equating a limited artifact record with a limited social world."
     },
     "explanation": "The final sentence cautions readers not to overinterpret the sparse material record. It does not reject the evidence, only the simplistic inference from that evidence.",
     "estimatedTimeSeconds": 100,

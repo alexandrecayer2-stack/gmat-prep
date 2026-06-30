@@ -34,6 +34,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "$10$ is the percent if you (incorrectly) read the new price drop as $8/80$ or round; the actual drop is $12$, and $12/80=15\\%$.",
+      "B": "$12$ is the dollar amount of the decrease, not the percent. Convert it to a percent of the original: $12/80=15\\%$.",
+      "D": "$18$ overshoots; it would come from dividing by the sale price ($12/68\\approx 18\\%$) instead of the original. Percent decrease uses the original: $12/80=15\\%$.",
+      "E": "$20$ is the discount as a percent of the discounted amount or a rough guess; the correct base is the original price, giving $12/80=15\\%$."
+    },
     "explanation": "The decrease is $80-68=12$. Percent decrease is $12/80=0.15$, or $15\\%$.",
     "estimatedTimeSeconds": 60,
     "tags": [
@@ -75,6 +81,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "C"
+    },
+    "distractorRationale": {
+      "A": "$30$ is the smaller part, $\\frac{5}{12}\\times 72$, not the larger. The question asks for the larger share, $\\frac{7}{12}\\times 72=42$.",
+      "B": "$36$ is half of $72$, the result of splitting evenly instead of in the $5:7$ ratio. The larger part is $\\frac{7}{12}\\times 72=42$.",
+      "D": "$48$ uses too large a fraction; it is $\\frac{8}{12}$ of the total, not $\\frac{7}{12}$. The larger part is $\\frac{7}{12}\\times 72=42$.",
+      "E": "$54$ is $\\frac{9}{12}$ of $72$, an over-count of the parts. With $5+7=12$ parts, the larger part is $\\frac{7}{12}\\times 72=42$."
     },
     "explanation": "The ratio $5:7$ has $5 + 7 = 12$ parts, so the larger part is $\\frac{7}{12}$ of the total: $\\frac{7}{12} \\times 72 = 42$. The key is converting the larger ratio term to a fraction of the whole; the answer is C.",
     "estimatedTimeSeconds": 60,
@@ -118,6 +130,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "$14$ subtracts incorrectly; the total must be $72$, and $72-56=16$, not $14$.",
+      "C": "$18$ is the average itself, not the missing value. The fourth number must make the sum reach $72$: $72-56=16$.",
+      "D": "$20$ overshoots the needed value. The known three sum to $56$, so the fourth is $72-56=16$.",
+      "E": "$22$ is too large; it would push the sum past $72$. The correct fourth number is $72-56=16$."
+    },
     "explanation": "The total is $4\\times 18=72$. The known numbers sum to $16+19+21=56$. The missing number is $72-56=16$.",
     "estimatedTimeSeconds": 60,
     "tags": [
@@ -159,6 +177,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "D"
+    },
+    "distractorRationale": {
+      "A": "$5$ comes from dividing $29$ by some wrong intermediate; first isolate $3x=29-8=21$, then $x=7$.",
+      "B": "$6$ is a near-miss; subtracting $8$ gives $3x=21$, and $21/3=7$, not $6$.",
+      "C": "$8$ likely mishandles the constant (e.g. treating $29-8+3$). Correctly, $3x=21$ so $x=7$.",
+      "E": "$9$ overshoots; $3\\times 9=27\\ne 21$. The right value is $x=7$ since $3\\times 7+8=29$."
     },
     "explanation": "Subtract $8$: $3x=21$. Divide by $3$: $x=7$.",
     "estimatedTimeSeconds": 45,
@@ -202,6 +226,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "$1$ would be the remainder for a number like $49$ or $57$, not $53$. Since $8\\times 6=48$, the remainder is $53-48=5$.",
+      "B": "$3$ is a near-miss; $48+3=51$, not $53$. The correct remainder is $53-48=5$.",
+      "D": "$7$ would require the next multiple ($8\\times 6=48$, then $48+7=55$). But $53-48=5$, so the remainder is $5$.",
+      "E": "$6$ confuses the quotient ($6$) with the remainder. The remainder is $53-48=5$."
+    },
     "explanation": "$8\\times 6=48$, and $53-48=5$. So the remainder is $5$.",
     "estimatedTimeSeconds": 45,
     "tags": [
@@ -243,6 +273,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "$54$ does not match either standard formula; area is length times width, $11\\times 6=66$.",
+      "C": "$72$ comes from using $12\\times 6$ instead of $11\\times 6$. The correct area is $11\\times 6=66$.",
+      "D": "$60$ uses $10\\times 6$, mis-reading the length as $10$. The area is $11\\times 6=66$.",
+      "E": "$77$ uses $11\\times 7$, mis-reading the width. Area is $11\\times 6=66$."
     },
     "explanation": "Area of a rectangle is $lw$. Thus $11\\times 6=66$.",
     "estimatedTimeSeconds": 45,
@@ -286,6 +322,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "$4$ is just the horizontal change $\\Delta x=6-2$, not the full distance. Combine both legs: $\\sqrt{4^2+3^2}=5$.",
+      "C": "$6$ likely adds the legs incorrectly or rounds. The Pythagorean distance is $\\sqrt{16+9}=\\sqrt{25}=5$.",
+      "D": "$7$ is the sum of the legs $4+3$, not the hypotenuse. The distance is $\\sqrt{4^2+3^2}=5$.",
+      "E": "$8$ doubles $\\Delta x$ or otherwise over-counts. The distance formula gives $\\sqrt{16+9}=5$."
+    },
     "explanation": "Use the distance formula: $\\sqrt{(6-2)^2+(6-3)^2}=\\sqrt{16+9}=\\sqrt{25}=5$.",
     "estimatedTimeSeconds": 60,
     "tags": [
@@ -327,6 +369,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "C"
+    },
+    "distractorRationale": {
+      "A": "$4$ is a near-miss; the combined rate $5/24$ gives time $24/5=4.8$, not a whole $4$ hours.",
+      "B": "$5$ rounds $4.8$ up. The exact combined time is $1\\div(5/24)=24/5=4.8$ hours.",
+      "D": "$6$ is the simple average of $8$ and $12$ divided down, or a guess; combined work gives $24/5=4.8$ hours.",
+      "E": "$7$ is too large — together they must finish faster than either alone. The answer is $24/5=4.8$ hours."
     },
     "explanation": "Their combined rate is $1/8+1/12=3/24+2/24=5/24$ job per hour. Time is $1\\div(5/24)=24/5=4.8$ hours.",
     "estimatedTimeSeconds": 60,
@@ -370,6 +418,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "$5$ would only dilute to about $13\\%$, not $10\\%$. Since the $2$ liters of salt must be $10\\%$ of the final volume, the final volume is $20$, so $20-10=10$ liters of water.",
+      "B": "$8$ is a near-miss that undershoots the needed dilution. The final volume must be $20$ liters, so water added is $20-10=10$.",
+      "D": "$12$ over-dilutes, dropping below $10\\%$. The correct final volume is $20$ liters, giving $20-10=10$ liters added.",
+      "E": "$15$ would make a $25$-liter mixture, about $8\\%$ salt. To hit exactly $10\\%$, add $20-10=10$ liters."
+    },
     "explanation": "Salt amount stays $0.20\\times 10=2$ liters. For a $10\\%$ mixture, $2$ liters must be $10\\%$ of the final volume, so final volume is $20$ liters. Water added is $20-10=10$ liters.",
     "estimatedTimeSeconds": 75,
     "tags": [
@@ -412,6 +466,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "$32$ is $2^5$; you added one too few — adding exponents gives $4+3=7$, so $2^7=128$.",
+      "C": "$64$ is $2^6$, off by one in the exponent sum. The correct exponent is $4+3=7$, so $128$.",
+      "D": "$96$ comes from multiplying the bases/values wrongly ($2^4\\cdot 2^3$ is not $16\\times 6$). Add exponents: $2^7=128$.",
+      "E": "$256$ is $2^8$; that would come from $4\\times 2$ or adding an extra power. The exponent is $4+3=7$, giving $128$."
+    },
     "explanation": "When multiplying powers with the same base, add exponents: $2^4\\cdot 2^3=2^{7}=128$.",
     "estimatedTimeSeconds": 45,
     "tags": [
@@ -452,6 +512,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "$3$ undercounts by dropping one endpoint; the solution $-1<x\\le 3$ includes $0,1,2,3$, which is $4$ integers.",
+      "C": "$5$ overcounts, likely by including $-1$ even though the inequality is strict there. The integers are $0,1,2,3$, so $4$.",
+      "D": "$6$ over-counts the range; after solving $-1<x\\le 3$ only $0,1,2,3$ qualify, giving $4$.",
+      "E": "$7$ is far too many; the valid integers are exactly $0,1,2,3$, so the count is $4$."
     },
     "explanation": "Subtract $1$: $-3<3x\\le 9$. Divide by $3$: $-1<x\\le 3$. The integers are $0,1,2,3$, so there are $4$.",
     "estimatedTimeSeconds": 75,
@@ -495,6 +561,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "$3$ is the minimum, not the middle value. With five ordered numbers, the median is the third one, $7$.",
+      "C": "$9$ is the fourth value, not the center. The middle of five sorted numbers is the third, $7$.",
+      "D": "$10$ is not in the set; it may come from averaging neighbors. The median of an odd-sized set is the middle entry, $7$.",
+      "E": "$12$ is the maximum, not the median. The middle of $3,7,7,9,12$ is $7$."
+    },
     "explanation": "The numbers are already in order. The middle value of five numbers is the median, so it is $7$.",
     "estimatedTimeSeconds": 30,
     "tags": [
@@ -536,6 +608,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "C"
+    },
+    "distractorRationale": {
+      "A": "$22$ uses $(n-1)d$ with $n=7$ ($4+6\\cdot 3$), counting one term short. The $8$th term is $4+7\\cdot 3=25$.",
+      "B": "$23$ is a near-miss; $4+7\\cdot 3=25$, not $23$.",
+      "D": "$24$ likely comes from $8\\cdot 3$, forgetting to add the first term and using $n$ instead of $n-1$. Correctly $4+7\\cdot 3=25$.",
+      "E": "$26$ overshoots by adding one extra difference ($4+8\\cdot 3$ would be $28$, or a slip). The $8$th term is $4+7\\cdot 3=25$."
     },
     "explanation": "Use $a_n=a_1+(n-1)d$. Thus $a_8=4+7\\cdot 3=25$.",
     "estimatedTimeSeconds": 60,
@@ -579,6 +657,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "$1/4$ is the probability of a specific single outcome like HH, not exactly one head. Two outcomes (HT, TH) qualify, so $2/4=1/2$.",
+      "C": "$3/4$ counts at least one head (HH, HT, TH). Exactly one head is only HT and TH, giving $2/4=1/2$.",
+      "D": "$1/3$ wrongly treats the outcomes as three equally likely (0,1,2 heads). The $4$ equally likely flips give exactly one head with probability $2/4=1/2$.",
+      "E": "$2/3$ uses an incorrect count of outcomes. Of the four equally likely results, two have exactly one head: $2/4=1/2$."
+    },
     "explanation": "The outcomes are HH, HT, TH, TT. Exactly one head occurs in HT and TH, so the probability is $2/4=1/2$.",
     "estimatedTimeSeconds": 45,
     "tags": [
@@ -619,6 +703,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "E"
+    },
+    "distractorRationale": {
+      "A": "$12$ divides by an extra factor, as if order didn't matter; here arrangements are ordered, giving $4\\cdot 3\\cdot 2=24$.",
+      "B": "$18$ does not match the multiplication; the count is $4$ choices, then $3$, then $2$: $24$.",
+      "C": "$30$ is unrelated to $4\\cdot 3\\cdot 2$. The number of $3$-letter arrangements is $24$.",
+      "D": "$36$ likely uses $6\\cdot 6$ or repeats a digit; with no repeats it is $4\\cdot 3\\cdot 2=24$."
     },
     "explanation": "There are $4$ choices for the first letter, $3$ for the second, and $2$ for the third. So the total is $4\\cdot 3\\cdot 2=24$.",
     "estimatedTimeSeconds": 60,
@@ -662,6 +752,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "$20$ is half of $40$, i.e. $\\frac{1}{2}$ of $40$, not $\\frac{3}{5}$. The correct value is $\\frac{3}{5}\\times 40=24$.",
+      "C": "$25$ is a near-miss; $\\frac{3}{5}\\times 40=3\\times 8=24$, not $25$.",
+      "D": "$28$ overshoots; $40\\div 5=8$ and $3\\times 8=24$.",
+      "E": "$30$ is $\\frac{3}{4}$ of $40$, using the wrong denominator. With fifths, $\\frac{3}{5}\\times 40=24$."
+    },
     "explanation": "Compute $\\frac{3}{5}\\times 40=3\\times 8=24$.",
     "estimatedTimeSeconds": 30,
     "tags": [
@@ -702,6 +798,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "$200$ uses $50\\times 4$, a mis-computed speed. The speed is $150/2.5=60$ mph, so $60\\times 4=240$.",
+      "C": "$225$ scales by adding $1.5$ hours times $50$ or similar; correctly $60\\times 4=240$.",
+      "D": "$250$ rounds the speed to a wrong value. With speed $60$ mph, distance is $60\\times 4=240$.",
+      "E": "$300$ doubles the original $150$, treating $4$ hours as $5$ or using $75$ mph. The correct distance is $60\\times 4=240$."
     },
     "explanation": "Speed is $150/2.5=60$ miles per hour. In $4$ hours, distance is $60\\times 4=240$ miles.",
     "estimatedTimeSeconds": 60,
@@ -745,6 +847,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "$8$ likely uses an exponent that is off by one (e.g. $2^3$ instead of $2^2$ in the factorization). With $84=2^2\\cdot3\\cdot7$, the count is $(2+1)(1+1)(1+1)=12$.",
+      "B": "$10$ does not match $(2+1)(1+1)(1+1)$. The divisor count of $84=2^2\\cdot3\\cdot7$ is $12$.",
+      "D": "$14$ over-counts; perhaps adding exponents instead of using $(e+1)$ products. The correct total is $3\\cdot2\\cdot2=12$.",
+      "E": "$16$ would arise from a wrong factorization like $2^3\\cdot\\dots$. For $84=2^2\\cdot3\\cdot7$, the number of divisors is $12$."
+    },
     "explanation": "Factor $84=2^2\\cdot 3^1\\cdot 7^1$. The number of divisors is $(2+1)(1+1)(1+1)=12$.",
     "estimatedTimeSeconds": 75,
     "tags": [
@@ -786,6 +894,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "C"
+    },
+    "distractorRationale": {
+      "A": "$5$ is the value of $y$, not $x$ (since $y=4$ here actually; either way it answers the wrong variable). Adding the equations gives $2x=14$, so $x=7$.",
+      "B": "$6$ is a near-miss; $x+y=11$ and $x-y=3$ add to $2x=14$, so $x=7$.",
+      "D": "$8$ overshoots; subtracting instead of adding, or a slip. Adding the two equations gives $x=7$.",
+      "E": "$9$ is too large; $2x=14$ forces $x=7$."
     },
     "explanation": "Add the equations: $2x=14$, so $x=7$.",
     "estimatedTimeSeconds": 60,
@@ -829,6 +943,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "$1$ underestimates the rise; the rise is $12-4=8$ over a run of $4$, giving slope $8/4=2$.",
+      "C": "$3$ does not match $\\Delta y/\\Delta x$; the slope is $8/4=2$.",
+      "D": "$4$ is the run $\\Delta x$, or uses rise over the wrong value. Slope is $(12-4)/(5-1)=2$.",
+      "E": "$5$ confuses a coordinate with the slope. The slope is $8/4=2$."
+    },
     "explanation": "Slope is $(12-4)/(5-1)=8/4=2$.",
     "estimatedTimeSeconds": 45,
     "tags": [
@@ -870,6 +990,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "D"
+    },
+    "distractorRationale": {
+      "A": "$65$ subtracts incorrectly; $180-38-67=75$, not $65$.",
+      "B": "$72$ is a near-miss in the subtraction. The third angle is $180-105=75$.",
+      "C": "$78$ overshoots; the two given angles sum to $105$, so the third is $180-105=75$.",
+      "E": "$82$ is too large; $180-38-67=75$."
     },
     "explanation": "The angles of a triangle sum to $180^\\circ$. So the third angle is $180-38-67=75^\\circ$.",
     "estimatedTimeSeconds": 45,
@@ -913,6 +1039,12 @@
       "format": "single",
       "value": "E"
     },
+    "distractorRationale": {
+      "A": "$72$ uses only two dimensions ($8\\times 9$) or drops one factor. Volume needs all three: $3\\times4\\times9=108$.",
+      "B": "$84$ does not match $3\\cdot4\\cdot9$; the volume is $108$.",
+      "C": "$96$ may come from $4\\cdot 24$ or a mis-multiplication. The volume is $3\\times4\\times9=108$.",
+      "D": "$120$ over-counts (e.g. $4\\cdot5\\cdot6$). With dimensions $3,4,9$, the volume is $108$."
+    },
     "explanation": "Volume is $lwh=3\\times 4\\times 9=108$.",
     "estimatedTimeSeconds": 45,
     "tags": [
@@ -954,6 +1086,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "$72$ is what you get applying $25\\%-20\\%$ as a net change wrongly, or $80\\times0.9$; the correct sequence is $80\\times1.25\\times0.80=\\$80$.",
+      "C": "$84$ subtracts the discount from the marked price incorrectly. Marked $\\$100$ then $\\times0.80$ gives $\\$80$.",
+      "D": "$88$ comes from netting the percents to $+10\\%$ ($80\\times1.10$). But $1.25\\times0.80=1$, so the sale price is $\\$80$.",
+      "E": "$96$ applies $25\\%$ markup then subtracts only a flat amount, or uses $80\\times1.2$. The correct sale price is $80\\times1.25\\times0.80=\\$80$."
     },
     "explanation": "Apply the two percent changes in sequence to the wholesale price. Marked price $= 80 \\times 1.25 = \\$100$; then the 20% discount gives $100 \\times 0.80 = \\$80$. The trap is assuming a 25% markup and 20% discount cancel in general — they only return to the original here because $1.25 \\times 0.80 = 1$, so the sale price equals the wholesale $\\$80$, giving answer A.",
     "estimatedTimeSeconds": 75,
@@ -997,6 +1135,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "$15$ adds too little; adding $3$ to every value raises the mean by the full $3$, to $14+3=17$.",
+      "B": "$16$ adds only $2$; the shift equals the amount added to each number, so the mean rises by $3$ to $17$.",
+      "D": "$18$ over-adds, perhaps adding $3$ twice or dividing the total wrong. The new mean is $14+3=17$.",
+      "E": "$19$ overshoots; uniformly adding $3$ shifts the mean by exactly $3$, to $17$."
+    },
     "explanation": "Adding $3$ to each of the $5$ numbers increases the total by $15$, so the mean increases by $3$. New mean is $14+3=17$.",
     "estimatedTimeSeconds": 45,
     "tags": [
@@ -1038,6 +1182,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "$6$ is a common divisor but not the greatest. Both share $2^2\\cdot3=12$, so the GCD is $12$.",
+      "C": "$8$ divides $48$ but not $36$, so it cannot be a common divisor. The GCD is $2^2\\cdot3=12$.",
+      "D": "$16$ divides $48$ but not $36$. The greatest common divisor is $12$.",
+      "E": "$18$ divides $36$ but not $48$. The GCD must divide both, giving $12$."
     },
     "explanation": "$36=2^2\\cdot 3^2$ and $48=2^4\\cdot 3$. The common prime factors are $2^2\\cdot 3=12$.",
     "estimatedTimeSeconds": 60,
@@ -1081,6 +1231,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "$1$ is the units digit of $7^4$ (or $7^8$); since $11\\equiv 3\\pmod4$, you need the $3$rd in the cycle $7,9,3,1$, which is $3$.",
+      "C": "$5$ never appears in the units-digit cycle of powers of $7$. The cycle is $7,9,3,1$, and $7^{11}$ ends in $3$.",
+      "D": "$7$ is the units digit of $7^1$ ($n\\equiv1\\pmod4$). For $7^{11}$, $11\\equiv3\\pmod4$, giving $3$.",
+      "E": "$9$ is the units digit of $7^2$ ($n\\equiv2\\pmod4$). Since $11\\equiv3\\pmod4$, the units digit is $3$."
+    },
     "explanation": "The units digit of powers of $7$ repeats every 4: $7,9,3,1$. Since $11\\equiv 3\\pmod 4$, the units digit is $3$.",
     "estimatedTimeSeconds": 60,
     "tags": [
@@ -1122,6 +1278,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "$6$ drops a step or uses the wrong lower bound; solving gives $7<x\\le16$, so the least integer is $8$.",
+      "C": "$7$ ignores that the lower inequality is strict ($x>7$ excludes $7$). The least integer satisfying $x>7$ is $8$.",
+      "D": "$9$ skips past the smallest valid integer. Since $7<x$, the least integer is $8$, not $9$.",
+      "E": "$10$ overshoots; the smallest integer greater than $7$ is $8$."
     },
     "explanation": "Clear the fraction without flipping signs (multiply by the positive 3): $2<\\frac{x-1}{3}\\le 5$ becomes $6<x-1\\le 15$, then adding 1 gives $7<x\\le 16$. Since the lower bound is strict ($x>7$), the least integer is $8$. The trap is including 7 by misreading the strict inequality, or dropping a step and using 6 as the lower bound.",
     "estimatedTimeSeconds": 75,
@@ -1165,6 +1327,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "$3/5$ uses red over blue, not red over total. With $8$ balls, the probability of red is $3/8$.",
+      "B": "$5/8$ is the probability of blue, not red. Red is $3/8$.",
+      "D": "$5/3$ is greater than $1$ and inverts the ratio. The probability of red is $3/8$.",
+      "E": "$1/2$ assumes equal colors; there are $3$ red of $8$ total, so $3/8$."
+    },
     "explanation": "There are $3+5=8$ balls total. The probability of red is $3/8$.",
     "estimatedTimeSeconds": 30,
     "tags": [
@@ -1205,6 +1373,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "$14$ is $7\\times2$, treating it as picking with the wrong rule. Use $\\binom{7}{2}=\\frac{7\\cdot6}{2}=21$.",
+      "C": "$18$ does not match the combination count. Choosing $2$ from $7$ gives $\\binom{7}{2}=21$.",
+      "D": "$24$ is unrelated to $\\binom{7}{2}$; the correct count is $\\frac{7\\cdot6}{2}=21$.",
+      "E": "$28$ is $\\binom{8}{2}$, using $8$ people instead of $7$. With $7$ people it is $\\binom{7}{2}=21$."
     },
     "explanation": "Order doesn't matter in a committee, so use combinations: $\\binom{7}{2} = \\frac{7 \\cdot 6}{2} = 21$, choice A. The trap is treating it as a permutation and getting $7 \\cdot 6 = 42$ — you must divide by 2 because the two chosen members form the same committee regardless of pick order.",
     "estimatedTimeSeconds": 45,
@@ -1248,6 +1422,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "$7/12$ is the smaller fraction. Cross-multiplying, $7\\times8=56<5\\times12=60$, so $5/8$ is greater.",
+      "C": "They are not equal: $7/12\\approx0.583$ versus $5/8=0.625$. The greater is $5/8$.",
+      "D": "Both are explicit fractions, so the comparison is fully determined. Cross-multiplication shows $5/8>7/12$.",
+      "E": "One must be larger. Since $5\\times12=60>7\\times8=56$, the answer is $5/8$."
+    },
     "explanation": "Compare by cross-multiplying: $7\\times 8=56$ and $5\\times 12=60$. Since $60>56$, $5/8$ is greater.",
     "estimatedTimeSeconds": 45,
     "tags": [
@@ -1289,6 +1469,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "$5$ is too fast; the combined rate $1/10+1/15=1/6$ gives $6$ hours, not $5$.",
+      "C": "$7.5$ is the average of $10$ and $15$ halved wrongly, or a guess; the combined-rate time is $6$ hours.",
+      "D": "$8$ is slower than working together should be. The combined rate $1/6$ gives a fill time of $6$ hours.",
+      "E": "$9$ is far too slow — together they fill faster than either pipe alone. The time is $6$ hours."
     },
     "explanation": "Combined rate is $1/10+1/15=3/30+2/30=5/30=1/6$ tank per hour. Time is $6$ hours.",
     "estimatedTimeSeconds": 60,
@@ -1332,6 +1518,12 @@
       "format": "single",
       "value": "E"
     },
+    "distractorRationale": {
+      "A": "$4$ undershoots; setting $0.40x+1=0.25(x+10)$ gives $0.15x=1.5$, so $x=10$, not $4$.",
+      "B": "$5$ does not balance the salt equation. Solving $0.40x+1=0.25x+2.5$ yields $x=10$.",
+      "C": "$6$ is a near-miss; the correct solution of $0.15x=1.5$ is $x=10$.",
+      "D": "$7$ leaves the mixture below $25\\%$. The balance equation gives $0.15x=1.5$, so $x=10$."
+    },
     "explanation": "Let $x$ be the liters of $40\\%$ solution. Then $0.40x+0.10(10)=0.25(x+10)$. So $0.40x+1=0.25x+2.5$, hence $0.15x=1.5$ and $x=10$.",
     "estimatedTimeSeconds": 90,
     "tags": [
@@ -1374,6 +1566,12 @@
       "format": "single",
       "value": "E"
     },
+    "distractorRationale": {
+      "A": "$64$ is $2^6$, off by two in the exponent; $xy=2^3\\cdot2^5=2^8=256$.",
+      "B": "$128$ is $2^7$, one short. Adding exponents gives $3+5=8$, so $256$.",
+      "C": "$192$ comes from $8\\times24$ or a non-power result. Correctly $2^3\\cdot2^5=2^8=256$.",
+      "D": "$512$ is $2^9$, one too many. The exponent sum is $3+5=8$, giving $256$."
+    },
     "explanation": "$xy=2^3\\cdot 2^5=2^{8}=256$.",
     "estimatedTimeSeconds": 45,
     "tags": [
@@ -1414,6 +1612,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "$5$ undercounts by one, likely dropping an endpoint. The solution $2\\le x<8$ has integers $2,3,4,5,6,7$, which is $6$.",
+      "C": "$7$ over-counts, e.g. wrongly including $8$. Since $x<8$ is strict, the integers are $2$ through $7$: $6$ of them.",
+      "D": "$8$ over-counts the range. After solving $2\\le x<8$, only $2,3,4,5,6,7$ qualify, giving $6$.",
+      "E": "$9$ is too many; the valid integers are exactly $2,3,4,5,6,7$, so $6$."
     },
     "explanation": "Add $3$: $4\\le 2x<16$. Divide by $2$: $2\\le x<8$. Integers are $2,3,4,5,6,7$, so there are $6$.",
     "estimatedTimeSeconds": 75,
@@ -1457,6 +1661,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "$12$ uses the wrong endpoints (e.g. $16-4$). Range is max minus min: $20-4=16$.",
+      "C": "$14$ is a near-miss; $20-4=16$.",
+      "D": "$15$ does not match $20-4$. The range is $16$.",
+      "E": "$18$ overshoots; subtracting the smallest from the largest gives $20-4=16$."
+    },
     "explanation": "Range is largest minus smallest: $20-4=16$.",
     "estimatedTimeSeconds": 30,
     "tags": [
@@ -1498,6 +1708,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "$(4,2)$ mis-averages the $x$-coordinates; $(2+8)/2=5$, not $4$. The midpoint is $(5,2)$.",
+      "C": "$(6,3)$ adds without halving or mis-averages both. The midpoint is $\\left(\\frac{2+8}{2},\\frac{-1+5}{2}\\right)=(5,2)$.",
+      "D": "$(5,3)$ has the right $x$ but mis-averages $y$; $(-1+5)/2=2$, not $3$. The midpoint is $(5,2)$.",
+      "E": "$(4,3)$ errs in both averages. Correctly, the midpoint is $(5,2)$."
     },
     "explanation": "Midpoint is $\\left(\\frac{2+8}{2},\\frac{-1+5}{2}\\right)=(5,2)$.",
     "estimatedTimeSeconds": 60,
@@ -1541,6 +1757,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "$540$ is the angle sum of a pentagon ($n=5$). For a hexagon, $(6-2)\\times180=720$.",
+      "B": "$600$ does not match $(n-2)\\times180$. A hexagon gives $4\\times180=720$.",
+      "D": "$630$ is not a valid polygon angle sum here. Using $(6-2)\\times180$ gives $720$.",
+      "E": "$900$ is the sum for a heptagon ($n=7$). For a hexagon it is $(6-2)\\times180=720$."
+    },
     "explanation": "A polygon with $n$ sides has interior-angle sum $(n-2)\\times 180$. For a hexagon, $(6-2)\\times 180=720$.",
     "estimatedTimeSeconds": 45,
     "tags": [
@@ -1582,6 +1804,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "$10$ uses too few increments; stepping $a_2=4, a_3=8, a_4=14$ — the increments are $2,4,6$, ending at $14$.",
+      "C": "$12$ likely uses $2n$ with the wrong index at the last step. Correctly $a_4=8+2(3)=14$.",
+      "D": "$16$ over-adds, perhaps using an extra increment of $2(4)$. The fourth term is $a_4=8+6=14$.",
+      "E": "$18$ overshoots by adding too large a step. Following the recursion exactly gives $a_4=14$."
     },
     "explanation": "Apply the recursion $a_{n+1}=a_n+2n$ step by step from $a_1=2$: $a_2=2+2(1)=4$, $a_3=4+2(2)=8$, $a_4=8+2(3)=14$. The trap is using the wrong index in $2n$ — at each step $n$ is the current term's index, not the target's, so the increments are $2, 4, 6$. Answer: A.",
     "estimatedTimeSeconds": 90,
@@ -1625,6 +1853,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "$12$ uses only one even ending digit. There are $2$ even choices for the last digit, then $4\\cdot3$: $2\\cdot4\\cdot3=24$.",
+      "B": "$18$ does not match the multiplication. With $2$ choices for the even units digit, the total is $2\\cdot4\\cdot3=24$.",
+      "D": "$30$ over-counts; after fixing an even last digit, the remaining slots give $4\\cdot3$, so $2\\cdot4\\cdot3=24$.",
+      "E": "$36$ ignores the even-ending restriction (that would be $5\\cdot4\\cdot3\\div$ something). Requiring an even last digit gives $24$."
+    },
     "explanation": "The last digit must be even: $2$ or $4$ ($2$ choices). The hundreds digit then has $4$ choices, and the tens digit has $3$ choices. Total $2\\cdot4\\cdot3=24$.",
     "estimatedTimeSeconds": 60,
     "tags": [
@@ -1666,6 +1900,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "$1/12$ counts only $3$ of the favorable pairs (or treats unordered sums). There are $4$ ordered outcomes summing to $9$, so $4/36=1/9$.",
+      "C": "$1/6$ over-counts the favorable outcomes. Exactly $4$ of $36$ ordered rolls sum to $9$, giving $1/9$.",
+      "D": "$1/4$ is far too high for a specific sum. Only $(3,6),(4,5),(5,4),(6,3)$ work: $4/36=1/9$.",
+      "E": "$1/3$ greatly overstates the chance. The probability the sum is $9$ is $4/36=1/9$."
     },
     "explanation": "The favorable ordered pairs are $(3,6)$, $(4,5)$, $(5,4)$, and $(6,3)$. That is $4$ outcomes out of $36$, so the probability is $4/36=1/9$.",
     "estimatedTimeSeconds": 60,

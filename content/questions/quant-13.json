@@ -34,6 +34,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "This nets the two rates as if a $20\\%$ gain and $25\\%$ cut combine to $-5\\%$; percentages must be multiplied, giving $1.20\\times0.75=0.90$, a $10\\%$ drop.",
+      "C": "This assumes the increase and decrease cancel out. They don't, because the $25\\%$ cut applies to the larger, post-increase price; $1.20\\times0.75=0.90$ leaves a net $-10\\%$.",
+      "D": "This is the wrong-sign version of subtracting the rates ($25\\%-20\\%$ mis-signed). Multiplying the factors gives $0.90$, a net decrease of $10\\%$.",
+      "E": "This simply adds the two rates as a gain. The correct method multiplies: $1.20\\times0.75=0.90$, a $10\\%$ decrease, not a $10\\%$ increase."
+    },
     "explanation": "1.20 × 0.75 = 0.90, so the final price is 90% of the original price, representing a net decrease of 10%.",
     "estimatedTimeSeconds": 90
   },
@@ -71,6 +77,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "This is the value of the difference $x/... $ near-miss; collecting terms gives $3x-2x=7+5$, so $x=12$, not $2$.",
+      "C": "This is the constant on the right side, not the solution. Isolating $x$ gives $x=7+5=12$.",
+      "D": "This near-misses by combining only part of the constants; correctly, $3x-2x=7+5$ yields $x=12$.",
+      "E": "This adds $5$ to the answer or mis-collects the constants; the correct isolation gives $x=12$."
     },
     "explanation": "Isolating x: 3x - 2x = 7 + 5, so x = 12.",
     "estimatedTimeSeconds": 90
@@ -110,6 +122,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "This is the area for a different width assignment; solving $4w=32$ gives $w=8$, length $12$, so area $=96$.",
+      "C": "This near-misses on the dimensions; with $w=8$ and length $12$, the area is $8\\times12=96$, not $80$.",
+      "D": "This treats the figure as a square of side $10$ (half the perimeter), ignoring that length exceeds width by $4$; the true area is $96$.",
+      "E": "This overcounts the dimensions; correctly $w=8$ and $l=12$, giving area $96$."
+    },
     "explanation": "If the width is w, then 2(w + w + 4) = 40, so 4w = 32 and w = 8. The length is 12, so the area is 96.",
     "estimatedTimeSeconds": 90
   },
@@ -147,6 +165,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "This subtracts the four given numbers from a wrong total; the sum must be $5\\times12=60$, and $60-48=12$.",
+      "C": "This is a near-miss on the subtraction; the four given values total $48$, so the fifth is $60-48=12$.",
+      "D": "This adds rather than subtracts part of the data; the fifth number is the total $60$ minus the known $48$, i.e. $12$.",
+      "E": "This overshoots the needed value; since the four numbers sum to $48$ and the total is $60$, the fifth is $12$."
     },
     "explanation": "The total sum must be 5 × 12 = 60. The four given numbers total 48, so the fifth number is 12.",
     "estimatedTimeSeconds": 90
@@ -186,6 +210,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "A remainder of $0$ would mean $5$ divides $7^4$, but $7^4$ is odd and not a multiple of $5$; $7^4\\equiv2^4=16\\equiv1\\pmod5$.",
+      "C": "This is the reduced base ($7\\equiv2$) itself, not the final remainder; you still must raise to the 4th power: $2^4=16\\equiv1\\pmod5$.",
+      "D": "This is the remainder of $16$ before the final reduction step is finished, or an off-by-one; $16=3\\times5+1$, so the remainder is $1$.",
+      "E": "This is $2^2=4$ rather than $2^4$, stopping the exponent too early; $2^4=16\\equiv1\\pmod5$."
+    },
     "explanation": "Reduce the base mod 5: $7 \\equiv 2 \\pmod 5$, so $7^4 \\equiv 2^4 = 16 \\pmod 5$. Then $16 = 3 \\times 5 + 1$, so $16 \\equiv 1 \\pmod 5$. The shortcut is replacing $7$ with $2$ before raising to the 4th power; the remainder is $1$ (A).",
     "estimatedTimeSeconds": 90
   },
@@ -223,6 +253,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "This is roughly the value of one part doubled, not the sugar amount; sugar is $3$ parts $\\times5=15$.",
+      "C": "This is a near-miss on the part size; with $8$ parts in $40$ L, one part is $5$ and sugar is $3\\times5=15$.",
+      "D": "This is the water amount ($5$ parts wait—actually a mis-split); sugar is $3$ of the $8$ parts, $3\\times5=15$, while $20$ overstates it.",
+      "E": "This takes too many parts as sugar; sugar is only $3$ of the $8$ parts, giving $15$ L, not $24$."
     },
     "explanation": "The total number of parts is 8. One part equals 40/8 = 5, so sugar is 3 × 5 = 15.",
     "estimatedTimeSeconds": 90
@@ -262,6 +298,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "This near-misses by adding something to the legs; the Pythagorean theorem gives $\\sqrt{6^2+8^2}=\\sqrt{100}=10$.",
+      "C": "This adds the two legs ($6+8=14$) instead of combining their squares; the hypotenuse is $\\sqrt{36+64}=10$.",
+      "D": "This is $2\\times8$ or a similar slip; the correct hypotenuse is $\\sqrt{6^2+8^2}=10$.",
+      "E": "This overshoots; squaring and adding the legs gives $100$, whose root is $10$."
+    },
     "explanation": "By the Pythagorean theorem, the hypotenuse equals √($6^{2}$ + $8^{2}$) = √100 = 10.",
     "estimatedTimeSeconds": 90
   },
@@ -299,6 +341,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "This reuses $\\frac{3}{5}$ or otherwise ignores the without-replacement drop; the correct product is $\\frac{3}{5}\\times\\frac{2}{4}=\\frac{3}{10}$.",
+      "C": "This is $\\frac{3}{5}\\times\\frac{2}{3}$ or a similar mis-denominator; after removing one red, the second draw is $\\frac{2}{4}$, giving $\\frac{3}{10}$.",
+      "D": "This is just the probability of the first ball being red, $\\frac{3}{5}$, not both; multiply by the second draw $\\frac{2}{4}$ to get $\\frac{3}{10}$.",
+      "E": "This is the probability for blue-blue ($\\frac{2}{5}\\times\\frac{1}{4}$), the wrong color; both red is $\\frac{3}{5}\\times\\frac{2}{4}=\\frac{3}{10}$."
     },
     "explanation": "Use sequential probability without replacement. The first ball is red with probability $\\frac{3}{5}$; given that, only 2 of the remaining 4 are red, so the second is red with probability $\\frac{2}{4}$. Multiply: $\\frac{3}{5} \\times \\frac{2}{4} = \\frac{6}{20} = \\frac{3}{10}$. The trap is reusing $\\frac{3}{5}$ for the second draw; the denominator and numerator both drop because the first red ball is removed, giving answer A.",
     "estimatedTimeSeconds": 90
@@ -338,6 +386,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "This uses $18$ steps ($4+18\\times3$) by treating the 20th term as 18 gaps from the 2nd; there are $19$ gaps, so the term is $4+19\\times3=61$.",
+      "C": "This adds one extra step ($4+20\\times3$), counting $20$ differences instead of $19$; the 20th term is $61$.",
+      "D": "This near-misses on the step count; with first term $4$ and difference $3$, the 20th term is $4+19\\times3=61$.",
+      "E": "This overshoots the number of common differences; the correct count is $19$, giving $61$."
+    },
     "explanation": "The first term is 4 and the common difference is 3. The 20th term is 4 + 19 × 3 = 61.",
     "estimatedTimeSeconds": 90
   },
@@ -375,6 +429,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "This is $2^3$, applying only part of the exponent rule; combine all three: $2^{3+5-4}=2^4=16$.",
+      "C": "This is $2^5$, the largest single term, rather than the combined result $2^{3+5-4}=2^4=16$.",
+      "D": "This is $2^2$, dropping too much in the exponent arithmetic; correctly $3+5-4=4$, so $2^4=16$.",
+      "E": "This is $2^6$, from adding all exponents ($3+5-4$ mis-handled as $+4$); the division subtracts, giving $2^4=16$."
     },
     "explanation": "Using the rules of exponents: 2^(3+5-4) = $2^{4}$ = 16.",
     "estimatedTimeSeconds": 90
@@ -414,6 +474,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "This is the value of $y$, not $x$; adding the equations gives $2x=12$, so $x=6$.",
+      "C": "This near-misses the sum; $2x=(x+y)+(x-y)=10+2=12$, so $x=6$, not $8$.",
+      "D": "This is $x+y$, the first equation's right side, not $x$ alone; solving gives $x=6$.",
+      "E": "This is $2x$ itself, the result before dividing; $2x=12$ means $x=6$."
+    },
     "explanation": "Adding the two equations gives 2x = 12, so x = 6.",
     "estimatedTimeSeconds": 90
   },
@@ -451,6 +517,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "This is the discounted price $\\$68$ before tax is added; applying the $10\\%$ tax gives $\\$68\\times1.10=\\$74.80$.",
+      "C": "This near-misses the running price; the discount yields $\\$68$ and tax brings it to $\\$74.80$, not $\\$72$.",
+      "D": "This nets the rates to a $5\\%$ drop ($\\$80\\times0.95$); the discount and tax don't cancel—apply them in sequence to get $\\$74.80$.",
+      "E": "This is the original price, as if discount and tax exactly offset; they don't, leaving $\\$74.80$."
     },
     "explanation": "Apply each percentage multiplicatively to the running price, not to the original. After the 15% discount: $\\$80\\times0.85=\\$68$; then the 10% tax: $\\$68\\times1.10=\\$74.80$. The trap is netting the two rates (a 15% cut and 10% add do not cancel to 5%) or applying the tax to the original \\$80 instead of the discounted \\$68.",
     "estimatedTimeSeconds": 90
@@ -490,6 +562,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "This is the circumference $2\\pi r=3.14\\times10=31.4$, not the area; area is $\\pi r^2=3.14\\times25=78.5$.",
+      "C": "This is $\\pi r^2$ with $r$ used instead of $r^2$ doubled, or $2\\times31.4$; the area is $3.14\\times25=78.5$.",
+      "D": "This near-misses the squaring; with $r=5$, $r^2=25$ and area $=3.14\\times25=78.5$.",
+      "E": "This uses $r^2=50$ (doubling instead of squaring) or diameter; correctly $r^2=25$, so area $=78.5$."
+    },
     "explanation": "The area of a circle is π$r^{2}$. Therefore 3.14 × 25 = 78.5.",
     "estimatedTimeSeconds": 90
   },
@@ -527,6 +605,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "This is the largest integer strictly below $6$ rather than below $7$; $2x<14$ gives $x<7$, so the greatest integer is $6$.",
+      "C": "This is the bound $7$ itself, but $x<7$ is strict, so $x$ cannot equal $7$; the greatest integer is $6$.",
+      "D": "This exceeds the bound; $2x<14$ means $x<7$, so $8$ is impossible and the answer is $6$.",
+      "E": "This far exceeds $x<7$; the greatest allowed integer is $6$."
     },
     "explanation": "2x < 14, so x < 7. The largest possible integer is 6.",
     "estimatedTimeSeconds": 120
@@ -566,6 +650,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "This is the LCM of $12$ and $15$ but misses the $2^3$ from $8$; the full LCM is $2^3\\cdot3\\cdot5=120$.",
+      "C": "This is divisible by $15$ but not by $8$; the least common multiple of all three is $120$.",
+      "D": "This is $2\\times120$, a common multiple but not the least; the smallest is $120$.",
+      "E": "This is $3\\times120$, a larger common multiple; the least is $2^3\\cdot3\\cdot5=120$."
+    },
     "explanation": "The least integer divisible by all three is the LCM, found by taking the highest power of each prime: $8 = 2^3$, $12 = 2^2 \\cdot 3$, $15 = 3 \\cdot 5$, so LCM $= 2^3 \\cdot 3 \\cdot 5 = 120$ (choice A). The trap is multiplying the numbers ($8 \\cdot 12 \\cdot 15 = 1440$) or overlooking that the $2^3$ from 8 dominates the $2^2$ from 12.",
     "estimatedTimeSeconds": 120
   },
@@ -603,6 +693,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "This near-misses the weighting; $0.4\\times80+0.6\\times95=32+57=89$, not $88$.",
+      "C": "This rounds toward a midpoint; weighting by the stated percentages gives exactly $89$.",
+      "D": "This over-weights the higher score; $0.4\\times80+0.6\\times95=89$, not $91$.",
+      "E": "This pulls too far toward $95$; the $40\\%$ weight on $80$ holds the weighted average at $89$."
     },
     "explanation": "Weighted average means multiply each score by its weight and add: $0.4\\times 80+0.6\\times 95=32+57=89$. The key is to weight by the stated percentages, not take the plain average of 80 and 95 (which would give 87.5). Because the heavier 60% weight sits on the higher score, the result tilts toward 95. Answer: A.",
     "estimatedTimeSeconds": 120
@@ -642,6 +738,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "This is roughly half the answer or solves a single fraction; clearing denominators gives $7x=168$, so $x=24$.",
+      "C": "This near-misses the combination; $4x+3x=168$ gives $7x=168$ and $x=24$, not $28$.",
+      "D": "This mishandles the common denominator; multiplying through by $12$ yields $7x=168$, so $x=24$.",
+      "E": "This overshoots; combining $\\frac{x}{3}+\\frac{x}{4}=\\frac{7x}{12}=14$ gives $x=24$."
+    },
     "explanation": "Clear the fractions by multiplying every term by the common denominator $12$: $\\frac{x}{3} + \\frac{x}{4} = 14$ becomes $4x + 3x = 168$. Combine to get $7x = 168$, so $x = 24$. The key step is using the LCD $12$ to avoid messy fractions; the answer is A.",
     "estimatedTimeSeconds": 120
   },
@@ -679,6 +781,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "This computes $\\frac{d^2}{4}$ instead of $\\frac{d^2}{2}$, treating the diagonal as the full square's side relation wrongly; area $=\\frac{100}{2}=50$.",
+      "C": "This near-misses the diagonal relation; from $d^2=2s^2$, area $s^2=\\frac{100}{2}=50$.",
+      "D": "This squares the diagonal directly as if it were the area ($10^2$); the area is $\\frac{d^2}{2}=50$.",
+      "E": "This overshoots; using $d^2=2s^2$ gives area $\\frac{100}{2}=50$, not $125$."
     },
     "explanation": "A square's diagonal splits it into a 45-45-90 triangle, so diagonal $= s\\sqrt{2}$ where $s$ is the side. Rather than solving for $s$ first, square both sides: $d^2 = 2s^2$, so area $s^2 = \\frac{d^2}{2} = \\frac{10^2}{2} = 50$. The insight is that you never need $s$ itself — relating $d^2$ to $s^2$ goes straight to the area and avoids an irrational side length. The answer is A.",
     "estimatedTimeSeconds": 120
@@ -718,6 +826,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "This is the probability of choosing a man ($5/8$), the complement; a woman is chosen with probability $3/8$.",
+      "C": "This assumes an even split; there are $3$ women out of $8$ people, giving $3/8$, not $1/2$.",
+      "D": "This is the women-to-men ratio ($3/... $ near-miss) rather than women out of the total $8$; the probability is $3/8$.",
+      "E": "This inverts or mis-bases the count; with $3$ women among $8$ total, the probability is $3/8$."
+    },
     "explanation": "There are 3 women out of 8 people in total, so the probability is 3/8.",
     "estimatedTimeSeconds": 120
   },
@@ -755,6 +869,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "This is the second value in the sorted list, not the middle one; with five numbers the median is the 3rd, which is $9$.",
+      "C": "This is the fourth value, one past the middle; the median of $3,7,9,10,20$ is $9$.",
+      "D": "This averages two interior values as if the count were even; with five numbers the single middle value is $9$.",
+      "E": "This is the maximum, not the median; the middle of the sorted list is $9$."
     },
     "explanation": "Sorted, the numbers are 3, 7, 9, 10, 20. The median is the middle value, which is **9**.",
     "estimatedTimeSeconds": 120
@@ -794,6 +914,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "This treats growth as simple ($10\\%+10\\%=20\\%$ of \\$1000); compounding gives $\\$1000\\times1.21=\\$1210$.",
+      "C": "This applies only one year of growth ($\\$1000\\times1.10$); over two years the value is $\\$1210$.",
+      "D": "This near-misses the compound interest; $\\$1000\\times(1.10)^2=\\$1210$, not $\\$1220$.",
+      "E": "This overshoots; two years of $10\\%$ compounding yields $\\$1210$, not $\\$1300$."
+    },
     "explanation": "Compound growth multiplies by $(1+r)$ each period, so after 2 years the value is $\\$1000\\times(1.10)^2=\\$1000\\times1.21=\\$1210$. The trap is treating it as simple growth ($10\\%+10\\%=20\\%\\to\\$1200$); compounding adds the extra $\\$10$ of interest earned on the first year's interest.",
     "estimatedTimeSeconds": 120
   },
@@ -831,6 +957,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "This is the pipe's solo fill time, ignoring the leak; the net rate is $\\frac{1}{5}-\\frac{1}{10}=\\frac{1}{10}$, so it takes $10$ hours.",
+      "C": "This near-misses the net rate; $\\frac{1}{5}-\\frac{1}{10}=\\frac{1}{10}$ per hour gives $10$ hours, not $6$.",
+      "D": "This adds the times or mis-combines the rates; the net fill rate $\\frac{1}{10}$ per hour gives $10$ hours.",
+      "E": "This is the leak's empty time, not the net fill time; subtracting rates gives $\\frac{1}{10}$, so $10$ hours."
     },
     "explanation": "The net flow rate is 1/5 - 1/10 = 1/10 of the tank per hour, so it takes 10 hours.",
     "estimatedTimeSeconds": 120
@@ -870,6 +1002,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "This near-misses the last digits; $13^2$ ends in $9$ and $7^2$ ends in $9$, summing to $18$, remainder $8$.",
+      "C": "This mis-squares one term; $169+49=218$, and $218\\bmod10=8$, not $4$.",
+      "D": "This is an arithmetic slip on the units digits; $9+9=18$ gives remainder $8$.",
+      "E": "This would require the sum to be a multiple of $10$; $218$ leaves remainder $8$."
+    },
     "explanation": "$13^{2}$ = 169 gives 9 mod 10, and $7^{2}$ = 49 gives 9 mod 10. The sum is 18, so the remainder is 8.",
     "estimatedTimeSeconds": 120
   },
@@ -907,6 +1045,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "This is the face area $s^2=4^2=16$, not the volume; volume is $s^3=4^3=64$.",
+      "C": "This is $2s^2$ or a near-miss; the volume of a cube is $s^3=64$.",
+      "D": "This is $3s^2=48$ (surface-area-like), not the volume; $4^3=64$.",
+      "E": "This is $6\\times16$, the surface area, not the volume; the volume is $4^3=64$."
     },
     "explanation": "The volume of a cube is $s^{3}$. Therefore $4^{3}$ = 64.",
     "estimatedTimeSeconds": 90
@@ -946,6 +1090,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "This is $54\\times2$, using ratio $2$ instead of $3$; the common ratio is $3$, so the 5th term is $54\\times3=162$.",
+      "C": "This near-misses; multiplying the 4th term $54$ by the ratio $3$ gives $162$, not $216$.",
+      "D": "This is the 6th term ($162\\times2$) or an extra multiplication; the 5th term is $162$.",
+      "E": "This is the 6th term ($162\\times3$); the 5th term is $54\\times3=162$."
+    },
     "explanation": "The common ratio is 3. The 5th term is 54 × 3 = 162.",
     "estimatedTimeSeconds": 120
   },
@@ -983,6 +1133,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "This is the value of one part, not the apple count; apples are $2$ parts $\\times5=10$.",
+      "C": "This near-misses; with $3$ parts $=15$ oranges, one part $=5$ and apples $=2\\times5=10$.",
+      "D": "This copies the orange count; apples are $2$ parts to oranges' $3$, giving $10$.",
+      "E": "This overshoots; one part is $5$ and apples are $2$ parts, so $10$, not $20$."
     },
     "explanation": "3 parts correspond to 15 oranges, so 1 part = 5. Apples are 2 parts, so 10.",
     "estimatedTimeSeconds": 90
@@ -1022,6 +1178,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "This near-misses the subtraction; the total is $6\\times14=84$ and the five numbers sum to $72$, so the sixth is $12$.",
+      "C": "This copies the mean rather than computing the missing value; $84-72=12$.",
+      "D": "This adds instead of subtracting part of the data; the sixth number is $84-72=12$.",
+      "E": "This overshoots; the five given values total $72$, leaving $84-72=12$."
+    },
     "explanation": "The total sum is 6 × 14 = 84. The five given numbers total 72, so the sixth number is 12.",
     "estimatedTimeSeconds": 120
   },
@@ -1059,6 +1221,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "This is the negative of the correct sum, perhaps from mis-signing both roots; the roots $11$ and $-3$ sum to $8$.",
+      "C": "This is the value $|x-4|=7$ near-miss giving only the smaller root's magnitude; the two roots $11$ and $-3$ sum to $8$.",
+      "D": "This is just the larger root $x=11$, not the sum of both; adding $11+(-3)$ gives $8$.",
+      "E": "This is just the smaller root $x=-3$, not the sum; the two roots sum to $11+(-3)=8$."
     },
     "explanation": "An absolute-value equation splits into two cases: $x - 4 = 7$ gives $x = 11$, and $x - 4 = -7$ gives $x = -3$. Their sum is $11 + (-3) = 8$, choice A. The shortcut to remember: for $|x - a| = b$ the two roots are symmetric about $a$, so they always sum to $2a = 8$.",
     "estimatedTimeSeconds": 90
@@ -1098,6 +1266,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "This near-misses the solution of $4s+12=2.5(s+12)$; solving gives $s=12$, not $10$.",
+      "C": "This overshoots the equation's root; $4s+12=2.5(s+12)$ yields $1.5s=18$, so $s=12$.",
+      "D": "This may be the father's age in some mis-setup; the son's current age solves to $12$.",
+      "E": "This far exceeds the solution; correctly $s=12$."
+    },
     "explanation": "If the son is s years old, the father is 4s. In 12 years: 4s + 12 = 2.5(s + 12). This gives s = 12.",
     "estimatedTimeSeconds": 150
   },
@@ -1135,6 +1309,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "This subtracts the overlap twice or once too many; inclusion-exclusion gives $20+15-5=30$.",
+      "C": "This is the tea count alone; those liking at least one are $20+15-5=30$.",
+      "D": "This is the coffee count alone; combining with inclusion-exclusion gives $30$.",
+      "E": "This is the count of one preference minus overlap; the union is $20+15-5=30$."
     },
     "explanation": "Par inclusion-exclusion : 20 + 15 - 5 = 30.",
     "estimatedTimeSeconds": 120
@@ -1174,6 +1354,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "This near-misses the base or change; the increase is $\\frac{92-80}{80}=0.15$, i.e. $15\\%$, not $10\\%$.",
+      "C": "This is the raw change $12$ read as a percent; relative to the base $80$, $12/80=15\\%$.",
+      "D": "This divides by a smaller base or mis-scales; $\\frac{12}{80}=15\\%$, not $20\\%$.",
+      "E": "This overshoots; the increase relative to $80$ is $12/80=15\\%$."
+    },
     "explanation": "Percent increase = (change ÷ original) × 100, using the starting value 80 as the base. The change is $92-80=12$, so $12/80=0.15$, i.e., 15%. The trap is dividing by the new value 92 instead of the original 80; percent change is always relative to the starting amount. Answer: A.",
     "estimatedTimeSeconds": 90
   },
@@ -1211,6 +1397,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "This is $4\\times3$, stopping after two positions; a 3-digit number has three slots: $4\\times3\\times2=24$.",
+      "C": "This near-misses the multiplication; the choices are $4\\times3\\times2=24$.",
+      "D": "This over- or mis-counts; with no repetition the count is $4\\times3\\times2=24$, not $30$.",
+      "E": "This allows extra arrangements; the correct permutation count is $4\\times3\\times2=24$."
     },
     "explanation": "Build the 3-digit number position by position with no repetition: the hundreds digit has 4 choices, the tens has 3 remaining, and the units has 2 remaining. Multiply: $4 \\times 3 \\times 2 = 24$. Because order matters and digits can't repeat, this is the permutation count, not a combination; the answer is A.",
     "estimatedTimeSeconds": 150

@@ -15,6 +15,12 @@
       { "key": "E", "text": "Some customers who signed up for the loyalty card never returned to the bakery." }
     ],
     "correctAnswer": { "format": "single", "value": "B" },
+    "distractorRationale": {
+      "A": "A competitor closing supplies an alternative cause for the sales rise, so it weakens rather than strengthens the owner's claim that the card was responsible. The correct strengthener instead shows the card's mechanism at work among enrollees.",
+      "C": "The price of the free pastry is irrelevant to whether the card caused the sales increase; it neither confirms nor rules out the causal link. To strengthen, you need evidence that enrollees actually bought more.",
+      "D": "Spending less on advertising does nothing to confirm the card drove sales—if anything it leaves the rise unexplained rather than tying it to the card. The right answer connects the increase directly to enrollees' behavior.",
+      "E": "That some sign-ups never returned points away from the card's effectiveness, weakening the conclusion rather than supporting it. The correct choice shows enrollees as a group bought more than comparable non-enrollees."
+    },
     "explanation": "The owner makes a causal claim: the card drove the sales increase. (B) strengthens it by showing the proposed mechanism at work—enrollees bought more than comparable non-enrollees. (A) supplies an alternative cause (weakens); (C) and (D) are irrelevant to the cause of the rise; (E) weakens.",
     "estimatedTimeSeconds": 105,
     "tags": ["critical-reasoning", "strengthen", "causal"]
@@ -35,6 +41,12 @@
       { "key": "E", "text": "Productivity at the company had been roughly flat for the two years before the change." }
     ],
     "correctAnswer": { "format": "single", "value": "D" },
+    "distractorRationale": {
+      "A": "Higher satisfaction is a pleasant side effect but says nothing about whether the schedule caused the task-count gain, so it does not weaken the causal claim. The weakener supplies a rival cause for the measured productivity.",
+      "B": "What competing firms did is irrelevant to whether the four-day week caused this company's gain; it offers no alternative explanation. The correct choice identifies new automation as the real driver.",
+      "C": "Lower electricity costs are an unrelated benefit of fewer office days and do not bear on the productivity measure. To weaken, you must explain the task-count rise some other way, as the automation choice does.",
+      "E": "Flat productivity before the change actually makes the post-change jump look caused by the new schedule, so it supports rather than weakens the conclusion. The weakener instead introduces the automation software as a confound."
+    },
     "explanation": "The conclusion is causal. (D) weakens it by supplying an alternative cause: new automation software inflated the task count during the same period, so the shorter week may not be responsible. (A) and (C) are side effects; (B) is irrelevant; (E) tends to support the causal story rather than weaken it.",
     "estimatedTimeSeconds": 105,
     "tags": ["critical-reasoning", "weaken", "alternative-cause"]
@@ -56,6 +68,12 @@
       { "key": "E", "text": "raised penalties to the maximum from the very first violation" }
     ],
     "correctAnswer": { "format": "single", "value": "C" },
+    "distractorRationale": {
+      "A": "This reverses the passage, which presents these communities as examples that were neither private nor state-run; relying on national governments contradicts their self-devised rules. The inference supported is that they governed themselves.",
+      "B": "Selling resources to private owners is the privatization route the passage explicitly contrasts these cases with, so it is the opposite of what can be inferred. They sustained the commons through their own rules.",
+      "D": "The passage cites these communities as successes, so concluding they failed to prevent overexploitation reverses the point. The supported inference is that their self-made rules kept the resources sustainable.",
+      "E": "This contradicts the passage's description of graduated sanctions that start mildly; penalties were not maxed out from the first violation. The correct inference concerns self-governance, not maximum penalties."
+    },
     "explanation": "The passage offers these communities as cases of arrangements that were 'neither private nor state-run,' governed by rules the users themselves devised and monitored. That is (C). (A) and (B) contradict that; (D) reverses their documented success; (E) contradicts the description of graduated sanctions that begin mildly.",
     "estimatedTimeSeconds": 100,
     "tags": ["reading-comprehension", "inference"]
@@ -77,6 +95,12 @@
       { "key": "E", "text": "disregard the defined boundaries of the resource" }
     ],
     "correctAnswer": { "format": "single", "value": "A" },
+    "distractorRationale": {
+      "B": "Transferring access rights to outsiders is not among the design principles described; the passage stresses clear boundaries, not open transfer. The stated principle is that affected members could help revise the rules.",
+      "C": "The passage describes graduated sanctions, which means first offenses still draw a (mild) penalty rather than none, so avoiding penalties entirely contradicts it. The correct principle is participation in revising rules.",
+      "D": "Appealing to a central government agency contradicts the passage's emphasis on self-governance rather than external authority. The principle named is that those bound by the rules could participate in changing them.",
+      "E": "Disregarding boundaries runs against the passage's point that clearly defined boundaries were a key design principle. The shared principle the question asks about is participation in revising the rules."
+    },
     "explanation": "Among the design principles, the passage states that successful groups 'ensured that those affected by the rules could participate in revising them'—(A). The other options contradict the passage's emphasis on clear boundaries, graduated sanctions, and self-governance rather than appeal to a central authority.",
     "estimatedTimeSeconds": 90,
     "tags": ["reading-comprehension", "detail"]

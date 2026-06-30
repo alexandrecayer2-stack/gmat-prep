@@ -12,6 +12,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "Picks the statement that only bounds $x$ ($x<10$, an integer) without pinning a value; (1) solves $2x+3=11$ to $x=4$, so (1) alone is sufficient.",
+      "C": "Assumes you need both statements, but (2) adds nothing once (1) already gives $x=4$; (1) alone suffices, so the answer is A, not C.",
+      "D": "Claims each statement alone works, but (2) leaves many integers below 10; only (1) determines $x$.",
+      "E": "Says nothing is sufficient, yet (1) alone solves to $x=4$; the correct answer is A."
+    },
     "explanation": "Statement (1) gives x = 4 directly, so it is sufficient. Statement (2) alone is not sufficient.",
     "estimatedTimeSeconds": 120
   },
@@ -27,6 +33,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "Treats $x^2=36$ as fixing the sign, but it allows $x=6$ or $x=-6$, so (1) cannot answer 'is x negative?'; (2) $x<-1$ does, so the answer is B.",
+      "C": "Assumes both are needed, but (2) alone already guarantees $x<0$; (1) is unnecessary.",
+      "D": "Credits (1) as sufficient, yet $x=6$ and $x=-6$ give opposite answers; only (2) works.",
+      "E": "Says neither suffices, but (2) $x<-1$ forces $x$ negative; the answer is B."
     },
     "explanation": "Statement (1) allows x = 6 or x = -6, so it is not sufficient. Statement (2) alone guarantees x is negative, so it is sufficient.",
     "estimatedTimeSeconds": 120
@@ -44,6 +56,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "Mistakes one equation in two unknowns for a solution; $x+y=9$ has infinitely many $(x,y)$. Both statements together give $2x=10$, so $x=5$.",
+      "B": "Same error as A applied to $x-y=1$ alone; one equation cannot fix $x$. The pair is needed, so the answer is C.",
+      "D": "Claims each alone works, but a single linear equation in two variables is never sufficient for $x$; you must combine them.",
+      "E": "Gives up too early — adding the two equations yields $2x=10$, $x=5$, so together they are sufficient: C."
+    },
     "explanation": "Neither statement alone gives x. Together, adding the equations yields 2x = 10, so x = 5.",
     "estimatedTimeSeconds": 120
   },
@@ -59,6 +77,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "D"
+    },
+    "distractorRationale": {
+      "A": "Credits only the multiple-of-6 fact, but a multiple of 9 is also a multiple of 3; both statements alone are sufficient, so the answer is D.",
+      "B": "Credits only the multiple-of-9 fact, overlooking that a multiple of 6 is likewise divisible by 3; each alone works.",
+      "C": "Assumes both are needed, but either statement alone already forces divisibility by 3.",
+      "E": "Says neither suffices, yet both 6 and 9 carry a factor of 3, so each alone answers yes: D."
     },
     "explanation": "Each statement alone implies divisibility by 3, so each alone is sufficient.",
     "estimatedTimeSeconds": 120
@@ -76,6 +100,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "Reads $x^2=49$ as a single value, but it gives $x=7$ or $x=-7$; you also need (2) $x<0$ to choose, so the answer is C.",
+      "B": "$x<0$ alone gives only a sign, not a value; combined with (1) it yields $x=-7$.",
+      "D": "Claims each alone works, but (1) leaves two roots and (2) leaves infinitely many negatives; only together do they fix $x=-7$.",
+      "E": "Says nothing suffices, but together $x^2=49$ and $x<0$ force $x=-7$: C."
+    },
     "explanation": "Statement (1) gives x = 7 or x = -7. Statement (2) narrows it to the negative solution only. Together, x = -7.",
     "estimatedTimeSeconds": 120
   },
@@ -91,6 +121,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "E"
+    },
+    "distractorRationale": {
+      "A": "Odd numbers include both primes (3, 5) and composites (9, 15), so 'n is odd' cannot decide primality; even combined with (2) it fails, giving E.",
+      "B": "'$n>2$' alone covers primes and composites alike, so it is not sufficient.",
+      "C": "Even an odd $n$ greater than 2 can be prime (7) or composite (9), so the two together still do not decide: E.",
+      "D": "Neither statement alone settles primality; each leaves both prime and composite cases."
     },
     "explanation": "An odd number greater than 2 can be prime or composite, and the two statements together still do not determine primality.",
     "estimatedTimeSeconds": 120
@@ -108,6 +144,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "Picks the broad 'multiple of 3' clue, which fits 3, 6, 9, 12, ... ; (1) $x/4=3$ gives $x=12$ uniquely, so (1) alone is sufficient: A.",
+      "C": "Assumes both are needed, but (1) already pins $x=12$; (2) is redundant.",
+      "D": "Credits (2) as sufficient, but many multiples of 3 exist; only (1) determines $x$.",
+      "E": "Says neither works, yet (1) solves directly to $x=12$: A."
+    },
     "explanation": "Statement (1) gives x = 12 directly. Statement (2) alone is not sufficient.",
     "estimatedTimeSeconds": 120
   },
@@ -123,6 +165,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "C"
+    },
+    "distractorRationale": {
+      "A": "Statement (1) leaves {5, 10, 15}, not a single value, so it is not sufficient alone; you need (2) to intersect down to 15, giving C.",
+      "B": "Statement (2) leaves {11, 13, 15, 17, 19}; combining with (1) isolates the shared value 15.",
+      "D": "Claims each alone works, but each list has several entries; only the overlap {15} from both statements is unique.",
+      "E": "Says nothing suffices, but the lists share exactly one value, 15, so together they work: C."
     },
     "explanation": "Statement (1) gives {5, 10, 15}; statement (2) gives {11, 13, 15, 17, 19}. Together, the only common value is 15.",
     "estimatedTimeSeconds": 120
@@ -140,6 +188,12 @@
       "format": "single",
       "value": "D"
     },
+    "distractorRationale": {
+      "A": "Credits only the multiple-of-4 fact, but remainder-2-mod-4 numbers ($4n+2$) are also even; both statements alone are sufficient, so the answer is D.",
+      "B": "Credits only statement (2), overlooking that multiples of 4 are even too; each alone works.",
+      "C": "Assumes both are needed, but either statement alone already forces $x$ even.",
+      "E": "Falls for the trap that 'remainder 2' signals odd; $4n+2=2(2n+1)$ is always even, so each alone answers yes: D."
+    },
     "explanation": "An integer is even iff it is divisible by 2. Statement (1): a multiple of 4 is $4n = 2(2n)$, always even — sufficient. Statement (2): leaving remainder 2 on division by 4 means $x = 4n + 2 = 2(2n+1)$, also always even — sufficient. The trap is thinking 'remainder 2' might signal oddness; in fact remainder 2 mod 4 is always even, so each statement alone answers yes and the answer is D.",
     "estimatedTimeSeconds": 120
   },
@@ -155,6 +209,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "Picks the broad 'factor of 18' clue (1, 2, 3, 6, 9, 18), which is not unique; (1) $x/2=6$ gives $x=12$, so (1) alone is sufficient: A.",
+      "C": "Assumes both are needed, but (1) already determines $x=12$; (2) adds nothing.",
+      "D": "Credits (2) as sufficient, but the factors of 18 are many; only (1) fixes $x$.",
+      "E": "Says neither works, yet (1) solves to $x=12$ directly: A."
     },
     "explanation": "Statement (1) gives x = 12 directly. Statement (2) alone is not sufficient.",
     "estimatedTimeSeconds": 120
@@ -172,6 +232,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "$x<0$ gives only a sign, not a value, so (1) alone is not sufficient; (2) $5x=20$ gives $x=4$, making B correct.",
+      "C": "Assumes both are needed, but (2) alone already solves $x=4$; (1) is unnecessary (and note $x=4$ is not even negative).",
+      "D": "Credits each alone, but (1) only restricts the sign; only (2) determines $x$.",
+      "E": "Says nothing suffices, yet (2) $5x=20$ gives $x=4$: B."
+    },
     "explanation": "Statement (1) gives only a sign, not a value. Statement (2) gives x = 4 directly.",
     "estimatedTimeSeconds": 120
   },
@@ -187,6 +253,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "C"
+    },
+    "distractorRationale": {
+      "A": "Treats one equation in two unknowns as a solution; $x+y=10$ has infinitely many pairs. Adding both statements gives $2x=14$, $x=7$, so the answer is C.",
+      "B": "Same error for $x-y=4$ alone; a single equation cannot fix $x$. Both are needed: C.",
+      "D": "Claims each alone works, but neither lone linear equation determines $x$; combine them.",
+      "E": "Gives up too early — together $2x=14$ yields $x=7$, so they are sufficient: C."
     },
     "explanation": "Neither statement alone is sufficient. Together, adding the equations gives 2x = 14, so x = 7.",
     "estimatedTimeSeconds": 120
@@ -204,6 +276,12 @@
       "format": "single",
       "value": "D"
     },
+    "distractorRationale": {
+      "A": "Credits only the square clue, but 'twice a positive integer' ($2,4,6,\\dots$) is also positive; both statements alone are sufficient, so the answer is D.",
+      "B": "Credits only statement (2), overlooking that a nonzero square is always positive; each alone works.",
+      "C": "Assumes both are needed, but either statement alone already forces $x>0$.",
+      "E": "Says neither suffices, but squaring removes sign and 'positive integer' is positive, so each alone answers yes: D."
+    },
     "explanation": "Statement (1): the square of a nonzero integer is always strictly positive (e.g. $(-3)^2=9>0$), so $x>0$ — sufficient. Statement (2): twice a positive integer is itself a positive integer ($2,4,6,\\dots$), so $x>0$ — sufficient. Each statement alone forces $x>0$, so the answer is D; the trap in (1) is forgetting that squaring removes the sign, and the key word in (2) is 'positive' integer (not just any integer).",
     "estimatedTimeSeconds": 120
   },
@@ -219,6 +297,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "E"
+    },
+    "distractorRationale": {
+      "A": "Reads (1) as pinning a value, but $x^2<10$ allows {-3,...,3}; even with (2) the value stays ambiguous, so the answer is E.",
+      "B": "Statement (2) leaves {1, 2, 3, 4}, not unique; combining with (1) still permits 1, 2, or 3.",
+      "C": "Assumes the overlap is a single value, but {1, 2, 3} survives both statements, so together they are insufficient.",
+      "D": "Neither statement alone fixes $x$ — each leaves a range — so D is wrong; the answer is E."
     },
     "explanation": "Statement (1) gives x in {-3,-2,-1,0,1,2,3}. Statement (2) gives x in {1,2,3,4}. Together, x could still be 1, 2, or 3, so the value is not unique.",
     "estimatedTimeSeconds": 150
@@ -236,6 +320,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "Statement (2) — prime and greater than 5 — allows 7, 11, 13, ..., so it is not unique; (1) $2x+1=15$ solves to $x=7$, giving A.",
+      "C": "Assumes both are needed, but (1) alone already determines $x=7$; (2) is redundant.",
+      "D": "Credits (2) as sufficient, but many primes exceed 5; only (1) pins $x$.",
+      "E": "Says neither works, yet (1) solves uniquely to $x=7$: A."
+    },
     "explanation": "Statement (1) $2x + 1 = 15$ solves uniquely to $x = 7$ — sufficient. Statement (2) says $x$ is prime and greater than 5, which allows 7, 11, 13, ... — many values, not sufficient. Both happen to be consistent with $x=7$, but only (1) determines it; since (1) alone works and (2) alone does not, the answer is A.",
     "estimatedTimeSeconds": 120
   },
@@ -251,6 +341,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "Statement (1) — even and less than 10 — allows 8, 6, 4, 2, 0, and negatives, so it is not unique; (2) $3n=21$ gives $n=7$, making B correct.",
+      "C": "Assumes both are needed, but (2) alone already solves $n=7$; (1) is unnecessary (and 7 is odd, so it wouldn't even fit (1)).",
+      "D": "Credits each alone, but (1) leaves many even values; only (2) determines $n$.",
+      "E": "Says nothing suffices, yet (2) $3n=21$ gives $n=7$: B."
     },
     "explanation": "Statement (1) says $n$ is even and less than 10, allowing 8, 6, 4, 2, 0, and negatives — many values, so (1) alone is not sufficient. Statement (2), $3n=21$, gives $n=7$ uniquely, so (2) alone is sufficient. The trap is that the constraint-heavy statement (1) still leaves multiple candidates, while the plain equation (2) determines $n$; note 7 is odd, so the statements never had to agree. Answer: B.",
     "estimatedTimeSeconds": 120
@@ -268,6 +364,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "Reads $x^2=64$ as one value, but it gives $x=8$ or $x=-8$; you also need (2) $x<0$, so the answer is C.",
+      "B": "$x<0$ alone gives only a sign; combined with (1) it yields $x=-8$.",
+      "D": "Claims each alone works, but (1) leaves two roots and (2) infinitely many negatives; only together do they fix $x=-8$.",
+      "E": "Says nothing suffices, but together $x^2=64$ and $x<0$ force $x=-8$: C."
+    },
     "explanation": "Statement (1) gives x = 8 or x = -8. Statement (2) alone is insufficient. Together, x = -8.",
     "estimatedTimeSeconds": 120
   },
@@ -283,6 +385,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "D"
+    },
+    "distractorRationale": {
+      "A": "Credits only the multiple-of-6 clue, but 'integer greater than 7' also exceeds 5; both statements alone answer yes, so the answer is D.",
+      "B": "Credits only statement (2), overlooking that every positive multiple of 6 is greater than 5; each alone works.",
+      "C": "Assumes both are needed, but either statement alone already guarantees $x>5$.",
+      "E": "Says neither suffices, yet multiples of 6 and integers above 7 both exceed 5, so each alone answers yes: D."
     },
     "explanation": "We need to decide whether $x > 5$. Statement (1): $x$ is a positive multiple of 6, so $x \\in \\{6, 12, 18, \\dots\\}$, all greater than 5 — a definite 'yes', sufficient. Statement (2): $x$ is an integer greater than 7, so $x \\geq 8 > 5$ — also a definite 'yes', sufficient. Since each statement alone answers the question, the answer is D; the trap is overthinking whether you need both.",
     "estimatedTimeSeconds": 120
@@ -300,6 +408,12 @@
       "format": "single",
       "value": "E"
     },
+    "distractorRationale": {
+      "A": "Assumes 'two angles sum to 90°' (a right triangle) means isosceles, but it could be 45-45-90 (isosceles) or 30-60-90 (not), so (1) is not sufficient; even with (2) it stays undecided, giving E.",
+      "B": "One side of length 5 says nothing about equal sides, so (2) alone cannot decide.",
+      "C": "Combining a right triangle with a 5-side still allows both 45-45-90 and scalene 3-4-5, so together they are insufficient.",
+      "D": "Neither statement alone determines whether two sides are equal, so D is wrong; the answer is E."
+    },
     "explanation": "Isosceles requires two equal sides (equivalently two equal angles). Statement (1) says two angles sum to 90°, forcing the third to be 90° (a right triangle), but the two acute angles can be equal (45-45-90) or unequal (30-60-90), so (1) alone is not sufficient. Statement (2) gives one side length 5 with no other constraint, so it is not sufficient. Combined, a 5-side right triangle can still be either 45-45-90 or scalene like a 3-4-5, so even together they cannot decide; the trap is assuming 'right' implies 'isosceles,' giving answer E.",
     "estimatedTimeSeconds": 150
   },
@@ -315,6 +429,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "Picks the broad 'factor of 40' clue (1, 2, 4, 5, 8, 10, 20, 40), which is not unique; (1) $m/5=8$ gives $m=40$, so (1) alone is sufficient: A.",
+      "C": "Assumes both are needed, but (1) already determines $m=40$; (2) adds nothing.",
+      "D": "Credits (2) as sufficient, but 40 has eight factors; only (1) pins $m$.",
+      "E": "Says neither works, yet (1) solves to $m=40$ directly: A."
     },
     "explanation": "Statement (1): $m/5=8$ gives $m=40$ directly — a unique value, sufficient. Statement (2): the factors of 40 are $1,2,4,5,8,10,20,40$, many possibilities, so not sufficient. Since (1) alone pins down $m$ and (2) alone does not, the answer is A; the trap is letting (2) feel useful because 40 is a factor of 40, but it never singles out one factor.",
     "estimatedTimeSeconds": 120
@@ -332,6 +452,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "'$x$ is odd' fits 7, 9, 11, ..., so it is far too broad to be sufficient; (2) $x+4=11$ gives $x=7$, making B correct.",
+      "C": "Assumes both are needed, but (2) alone already solves $x=7$; (1) is unnecessary.",
+      "D": "Credits each alone, but odd numbers are unlimited; only (2) determines $x$.",
+      "E": "Says nothing suffices, yet (2) $x+4=11$ gives $x=7$: B."
+    },
     "explanation": "Statement (1) is too broad. Statement (2) gives x = 7 directly.",
     "estimatedTimeSeconds": 120
   },
@@ -347,6 +473,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "C"
+    },
+    "distractorRationale": {
+      "A": "Reads $x^2=4$ as confirming $x=2$, but it also allows $x=-2$, so (1) cannot answer 'is x equal to 2?'; you need (2) $x>0$, giving C.",
+      "B": "$x>0$ alone allows many values besides 2; combined with (1) it forces $x=2$.",
+      "D": "Claims each alone works, but (1) leaves $x=\\pm2$ and (2) leaves all positives; only together do they confirm $x=2$.",
+      "E": "Says nothing suffices, but together $x^2=4$ and $x>0$ give a definite yes: C."
     },
     "explanation": "Statement (1) gives x = 2 or x = -2. Statement (2) alone is insufficient. Together, x must be 2.",
     "estimatedTimeSeconds": 120
@@ -364,6 +496,12 @@
       "format": "single",
       "value": "D"
     },
+    "distractorRationale": {
+      "A": "Credits only $x<-1$, but 'negative integer' also implies $x<0$; both statements alone are sufficient, so the answer is D.",
+      "B": "Credits only statement (2), overlooking that $x<-1$ already means $x$ is negative; each alone works.",
+      "C": "Assumes both are needed, but either statement alone already forces $x<0$.",
+      "E": "Says neither suffices, yet $x<-1$ and 'negative integer' each guarantee $x$ negative: D."
+    },
     "explanation": "Each statement alone implies x < 0.",
     "estimatedTimeSeconds": 120
   },
@@ -379,6 +517,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "E"
+    },
+    "distractorRationale": {
+      "A": "Statement (1) leaves the factors of 12 (1, 2, 3, 4, 6, 12), not a single value, so it is insufficient; even combined with (2) several common factors remain, giving E.",
+      "B": "Statement (2) leaves the factors of 18 (1, 2, 3, 6, 9, 18); intersecting still allows 1, 2, 3, or 6.",
+      "C": "Assumes the common factors are a single value, but {1, 2, 3, 6} all survive both statements, so together they are insufficient.",
+      "D": "Neither 'factor of' list is a single number, so D is wrong; the answer is E."
     },
     "explanation": "The common factors of 12 and 18 are 1, 2, 3, and 6, so the value of t is not unique even using both statements.",
     "estimatedTimeSeconds": 150
@@ -396,6 +540,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "Picks the broad 'multiple of 3' clue (3, 6, 9, ...), which is not unique; (1) $x+2=9$ gives $x=7$, so (1) alone is sufficient: A.",
+      "C": "Assumes both are needed, but (1) already determines $x=7$; (2) adds nothing.",
+      "D": "Credits (2) as sufficient, but multiples of 3 are unlimited; only (1) pins $x$.",
+      "E": "Says neither works, yet (1) solves to $x=7$ directly: A."
+    },
     "explanation": "Statement (1) gives x = 7 directly. Statement (2) alone is not sufficient.",
     "estimatedTimeSeconds": 120
   },
@@ -411,6 +561,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "'$n$ is even' fits 2, 4, 6, ..., far too broad to be sufficient; (2) $2n=18$ gives $n=9$, making B correct.",
+      "C": "Assumes both are needed, but (2) alone already solves $n=9$; (1) is unnecessary (and 9 is odd, so it wouldn't fit (1)).",
+      "D": "Credits each alone, but even numbers are unlimited; only (2) determines $n$.",
+      "E": "Says nothing suffices, yet (2) $2n=18$ gives $n=9$: B."
     },
     "explanation": "Statement (1) gives several possibilities. Statement (2) gives n = 9 directly.",
     "estimatedTimeSeconds": 120
@@ -428,6 +584,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "Reads $x^2=9$ as one value, but it gives $x=3$ or $x=-3$; you also need (2) $x>0$, so the answer is C.",
+      "B": "$x>0$ alone allows many values; combined with (1) it yields $x=3$.",
+      "D": "Claims each alone works, but (1) leaves two roots and (2) leaves all positives; only together do they fix $x=3$.",
+      "E": "Says nothing suffices, but together $x^2=9$ and $x>0$ force $x=3$: C."
+    },
     "explanation": "Statement (1) gives x = 3 or x = -3. Statement (2) alone is insufficient. Together, x = 3.",
     "estimatedTimeSeconds": 120
   },
@@ -443,6 +605,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "D"
+    },
+    "distractorRationale": {
+      "A": "Credits only the multiple-of-8 fact, but a multiple of 12 is $4(3m)$, also divisible by 4; both statements alone are sufficient, so the answer is D.",
+      "B": "Credits only the multiple-of-12 fact, overlooking that a multiple of 8 is $4(2m)$; each alone works.",
+      "C": "Assumes both are needed, but either statement alone already forces divisibility by 4.",
+      "E": "Says neither suffices, yet both 8 and 12 carry the factor 4, so each alone answers yes: D."
     },
     "explanation": "$x$ is a multiple of 4 whenever it contains the factor $2^2$. Statement (1): a multiple of 8 is $8m = 4(2m)$, so always divisible by 4 — sufficient. Statement (2): a multiple of 12 is $12m = 4(3m)$, so always divisible by 4 — sufficient. Each statement alone forces divisibility by 4, so the answer is D.",
     "estimatedTimeSeconds": 120
@@ -460,6 +628,12 @@
       "format": "single",
       "value": "E"
     },
+    "distractorRationale": {
+      "A": "Statement (1) leaves the factors of 20 (1, 2, 4, 5, 10, 20), not a single value, so it is insufficient; even with (2) several common factors remain, giving E.",
+      "B": "Statement (2) leaves the factors of 30; intersecting yields the factors of $\\gcd(20,30)=10$, namely {1, 2, 5, 10} — still not unique.",
+      "C": "Assumes the common factors pin one value, but {1, 2, 5, 10} all survive both statements, so together they are insufficient.",
+      "D": "Neither 'factor of' list is a single number, so D is wrong; the answer is E."
+    },
     "explanation": "Factors of 20 are {1, 2, 4, 5, 10, 20} and factors of 30 are {1, 2, 3, 5, 6, 10, 15, 30}; each set has many elements, so neither statement alone is sufficient. Their common factors (the factors of $\\gcd(20,30)=10$) are {1, 2, 5, 10} — still four possible values, so together they are not sufficient either. The insight is that combining 'factor of' conditions only narrows $k$ to factors of the GCD, which here is not a single number. Answer: E.",
     "estimatedTimeSeconds": 150
   },
@@ -475,6 +649,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "Picks the broad 'multiple of 7' clue (7, 14, 21, ...), which is not unique; (1) $4x=28$ gives $x=7$, so (1) alone is sufficient: A.",
+      "C": "Assumes both are needed, but (1) already determines $x=7$; (2) adds nothing.",
+      "D": "Credits (2) as sufficient, but multiples of 7 are unlimited; only (1) pins $x$.",
+      "E": "Says neither works, yet (1) solves to $x=7$ directly: A."
     },
     "explanation": "Statement (1) gives x = 7 directly. Statement (2) alone is not sufficient.",
     "estimatedTimeSeconds": 120
@@ -492,6 +672,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "$x<5$ gives only a range, not a value, so (1) alone is not sufficient; (2) $x+3=11$ gives $x=8$, making B correct.",
+      "C": "Assumes both are needed, but (2) alone already solves $x=8$; (1) is unnecessary (and $x=8$ doesn't even satisfy $x<5$).",
+      "D": "Credits each alone, but (1) only restricts $x$ to a range; only (2) determines $x$.",
+      "E": "Says nothing suffices, yet (2) $x+3=11$ gives $x=8$: B."
+    },
     "explanation": "Statement (1) gives only an inequality. Statement (2) gives x = 8 directly.",
     "estimatedTimeSeconds": 120
   },
@@ -507,6 +693,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "C"
+    },
+    "distractorRationale": {
+      "A": "Treats one equation in two unknowns as a solution; $x+y=8$ has infinitely many pairs. Adding both statements gives $2x=10$, $x=5$, so the answer is C.",
+      "B": "Same error for $x-y=2$ alone; a single equation cannot fix $x$. Both are needed: C.",
+      "D": "Claims each alone works, but neither lone linear equation determines $x$; combine them.",
+      "E": "Gives up too early — together $2x=10$ yields $x=5$, so they are sufficient: C."
     },
     "explanation": "Neither statement alone is sufficient. Together, adding the equations gives 2x = 10, so x = 5.",
     "estimatedTimeSeconds": 120

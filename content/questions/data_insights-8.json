@@ -10,6 +10,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "Statement (2) gives $x^2=25$, which leaves $x=5$ or $x=-5$, so it cannot pin down $x$; only statement (1) yields the unique value $x=5$.",
+      "C": "Combining is unnecessary: statement (1) alone already forces $x=5$, so this overstates what is needed.",
+      "D": "Statement (2) is not sufficient because $x^2=25$ permits both $5$ and $-5$; only statement (1) alone works, so the answer is A, not D.",
+      "E": "The question is answerable: statement (1) alone solves to $x=5$, so 'not sufficient even together' is wrong."
+    },
     "explanation": "Statement (1): $3x+4=19$, so $3x=15$ and $x=5$. That determines $x$ uniquely.\n\nStatement (2): $x^2=25$, so $x=5$ or $x=-5$. That does not determine a unique value.\n\nTherefore, statement (1) alone is sufficient, and the answer is A.",
     "estimatedTimeSeconds": 130,
     "tags": [
@@ -28,6 +34,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "D"
+    },
+    "distractorRationale": {
+      "A": "Statement (2) is also sufficient: perimeter $20$ with $L=6$ gives $W=4$ and area $24$, so the answer is D, not just statement (1).",
+      "B": "Statement (1) is sufficient on its own ($6\\cdot 4=24$), so picking only statement (2) ignores that each works.",
+      "C": "Neither statement needs the other; each alone fixes the area at $24$, so combining is unnecessary.",
+      "E": "The area is fully determined ($24$) by either statement, so 'not sufficient' is incorrect."
     },
     "explanation": "Statement (1): Area $=6\\cdot 4=24$, so it is sufficient.\n\nStatement (2): Perimeter $=20$, so $2(L+W)=20$ and $L+W=10$. With $L=6$, we get $W=4$, so the area is again $24$. Statement (2) is also sufficient.\n\nEach statement alone is sufficient, so the answer is D.",
     "estimatedTimeSeconds": 130,
@@ -48,6 +60,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "Statement (1) alone fails: $n=6$ is divisible by 6 but not 12, so divisibility by 12 is not guaranteed; the correct answer requires both statements.",
+      "B": "Statement (2) alone fails: $n=4$ is divisible by 4 but not 12; only together do they force divisibility by $\\mathrm{lcm}(6,4)=12$.",
+      "D": "Neither statement alone settles divisibility by 12 (counterexamples 6 and 4), so 'each alone sufficient' is wrong; you need them combined.",
+      "E": "Together the statements ARE sufficient, since divisibility by both 6 and 4 implies divisibility by 12, so the answer is C, not E."
+    },
     "explanation": "Statement (1) alone is not sufficient because numbers such as 6 are divisible by 6 but not by 12.\n\nStatement (2) alone is not sufficient because numbers such as 4 are divisible by 4 but not by 12.\n\nTogether, if $n$ is divisible by 6 and by 4, then $n$ must be divisible by $\\mathrm{lcm}(6,4)=12$. So the answer is C.",
     "estimatedTimeSeconds": 130,
     "tags": [
@@ -66,6 +84,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "E"
+    },
+    "distractorRationale": {
+      "A": "The mean alone fixes only the total, not the middle value; many five-number sets average 10 with different medians, so statement (1) is insufficient.",
+      "B": "The range alone fixes only the spread, not the median; statement (2) cannot determine the middle value.",
+      "C": "Even combined, mean 10 and range 12 are satisfied by sets with different medians, so the statements together are still insufficient.",
+      "D": "Each statement individually leaves the median undetermined, so 'each alone sufficient' is wrong; in fact even together they fail, giving E."
     },
     "explanation": "Statement (1) gives only the average, which does not determine the median.\n\nStatement (2) gives only the spread, which also does not determine the median.\n\nEven together, many different sets of five numbers can have mean 10 and range 12 but different medians. So neither statement is sufficient, and the answer is E.",
     "estimatedTimeSeconds": 130,
@@ -86,6 +110,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "Statement (1) gives $x^2=25$, so $x=5$ or $x=-5$; since $-5$ is not greater than 4, it cannot answer the question, unlike statement (2).",
+      "C": "Statement (2) alone already settles it ($x=5>4$), so combining with statement (1) is unnecessary.",
+      "D": "Statement (1) is not sufficient because $x=-5$ is possible; only statement (2) alone works, so the answer is B, not D.",
+      "E": "The question is answerable: statement (2) directly gives $x=5$, so 'neither sufficient' is wrong."
+    },
     "explanation": "Statement (1) gives $x=5$ or $x=-5$, so it is not sufficient.\n\nStatement (2) says directly that $x=5$, which does answer whether $x>4$. So statement (2) alone is sufficient.\n\nThe correct answer is B.",
     "estimatedTimeSeconds": 130,
     "tags": [
@@ -104,6 +134,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "C"
+    },
+    "distractorRationale": {
+      "A": "Statement (1) gives only the union (50), with no way to split it into debate's share, so it is not sufficient alone; you need statement (2) too.",
+      "B": "Statement (2) gives only-debate (18) and only-chess (22) but not the overlap, so debate's total is unknown without statement (1)'s union count.",
+      "D": "Neither statement alone gives the debate total: (1) lacks the breakdown and (2) lacks the overlap; only together do you get both$=50-18-22=10$ and debate$=18+10=28$.",
+      "E": "Combined, the statements ARE sufficient: the overlap is $50-18-22=10$ and debate is $18+10=28$, so the answer is C, not E."
     },
     "explanation": "Statement (1) gives only the union count, so it is not sufficient.\n\nStatement (2) gives counts for each non-overlapping group, but we cannot determine the number in both clubs, so it is not sufficient alone.\n\nTogether, the number in both clubs is -18-22=10$. The debate club total is +10=28$. Both statements together are sufficient, so the answer is C.",
     "estimatedTimeSeconds": 130,
@@ -124,6 +160,12 @@
       "format": "single",
       "value": "D"
     },
+    "distractorRationale": {
+      "A": "Statement (2) is also sufficient: the 6-8-10 triangle is right with legs 6 and 8, giving area $\\frac12\\cdot 6\\cdot 8=24$, so the answer is D, not just (1).",
+      "B": "Statement (1) alone gives area $\\frac12\\cdot 10\\cdot 6=30$, so choosing only statement (2) ignores that each works independently.",
+      "C": "Each statement determines the area by itself, so combining them is unnecessary.",
+      "E": "The area is determined by either statement, so 'not sufficient' is wrong."
+    },
     "explanation": "Statement (1) gives base and height, so the area is $\\frac12\\cdot 10\\cdot 6=30$. It is sufficient.\n\nStatement (2) shows the triangle is a 6-8-10 right triangle. Its legs are 6 and 8, so the area is $\\frac12\\cdot 6\\cdot 8=24$. It is also sufficient.\n\nEach statement alone is sufficient, so the answer is D.",
     "estimatedTimeSeconds": 130,
     "tags": [
@@ -142,6 +184,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "C"
+    },
+    "distractorRationale": {
+      "A": "Statement (1) gives only the first two numbers' sum (20), not the full total of four, so the mean cannot be found without statement (2).",
+      "B": "Statement (2) gives only the last two numbers' sum (16); the mean needs the whole total, so statement (2) alone is insufficient.",
+      "D": "Neither half of the sum alone gives the mean; only combined do you get total $20+16=36$ and mean $36/4=9$, so the answer is C, not D.",
+      "E": "Together the statements give the full sum and thus the mean, so the question is answerable and the answer is C, not E."
     },
     "explanation": "Statement (1) gives only part of the total, so it is not sufficient.\n\nStatement (2) also gives only part of the total, so it is not sufficient.\n\nTogether, the total sum is $20+16=36$. Since there are 4 numbers, the mean is $36/4=9$. So the two statements together are sufficient, and the answer is C.",
     "estimatedTimeSeconds": 130,
@@ -162,6 +210,12 @@
       "format": "single",
       "value": "E"
     },
+    "distractorRationale": {
+      "A": "A remainder of 2 mod 5 allows 2, 7, 12, 17, ..., so statement (1) cannot pin down a single $n$.",
+      "B": "A remainder of 2 mod 3 allows 2, 5, 8, 11, ..., so statement (2) cannot determine $n$ alone.",
+      "C": "Even together the value is not unique: $n=2, 17, 32, \\dots$ all satisfy both conditions, so the statements combined are still insufficient.",
+      "D": "Neither statement alone fixes $n$ (infinitely many residue solutions each), and even combined they leave many values, so the answer is E, not D."
+    },
     "explanation": "Statement (1) allows values such as 2, 7, 12, 17, and so on, so it is not sufficient.\n\nStatement (2) allows values such as 2, 5, 8, 11, and so on, so it is not sufficient.\n\nTogether, the conditions still do not identify a unique value; for example, $n=2, 17, 32,\\dots$ all satisfy both statements. So neither statement is sufficient, and the answer is E.",
     "estimatedTimeSeconds": 130,
     "tags": [
@@ -180,6 +234,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "Statement (1) only says two sides equal $x$ and the third is 10; with no perimeter or angle, $x$ can take many values, so it is insufficient; statement (2) is what works.",
+      "C": "Statement (2) alone already gives $2x+10=30$, so $x=10$; combining with statement (1) is unnecessary.",
+      "D": "Statement (1) does not determine $x$ at all, so 'each alone sufficient' is wrong; only statement (2) alone works, giving B.",
+      "E": "The length is determined: statement (2) yields $x=10$, so 'not sufficient' is incorrect."
     },
     "explanation": "Statement (1) only tells us that two sides are equal and the third side is 10. Many values of $x$ are possible, so it is not sufficient.\n\nStatement (2) gives an isosceles triangle with base 10 and perimeter 30. If the equal sides are each $x$, then $2x+10=30$. Solving gives $2x=20$ and $x=10$. So statement (2) alone is sufficient.\n\nThe answer is B.",
     "estimatedTimeSeconds": 130,
@@ -200,6 +260,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "Statement (1), $x+y=10$, has infinitely many $(x,y)$ pairs, so $x$ is not determined without statement (2).",
+      "B": "Statement (2), $2x-y=8$, also has infinitely many solutions, so $x$ is not fixed alone; you need both equations.",
+      "D": "Neither single equation determines $x$; only together does adding them give $3x=18$, so $x=6$ and the answer is C, not D.",
+      "E": "The system is solvable: adding the two equations gives $3x=18$ and $x=6$, so the statements together are sufficient (C), not insufficient."
+    },
     "explanation": "Statement (1) alone does not determine $x$ because many pairs $(x,y)$ satisfy $x+y=10$.\n\nStatement (2) alone also does not determine $x$ because many pairs satisfy $2x-y=8$.\n\nTogether, add the equations: $(x+y)+(2x-y)=10+8$, so $3x=18$ and $x=6$. Therefore, the two statements together are sufficient, and the answer is C.",
     "estimatedTimeSeconds": 130,
     "tags": [
@@ -218,6 +284,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "Statement (1) gives only the combined rate of A and B; without A's solo rate you cannot isolate B's time, so it is insufficient.",
+      "C": "Statement (2) alone is enough: $1/6-1/10=1/15$ gives B's time as 15 hours, so combining with statement (1) is unnecessary.",
+      "D": "Statement (1) alone cannot isolate Pipe B, so 'each alone sufficient' is wrong; only statement (2) works, giving B.",
+      "E": "The question is answerable: statement (2) yields B's rate $1/6-1/10=1/15$, i.e. 15 hours, so 'not sufficient' is incorrect."
     },
     "explanation": "Statement (1) gives only the combined rate, so it is not sufficient by itself.\n\nStatement (2) gives Pipe A's solo rate and the combined rate. From these, Pipe B's rate is $1/6-1/10=5/30-3/30=2/30=1/15$, so Pipe B alone would fill the tank in 15 hours. Statement (2) is sufficient.\n\nTherefore, the answer is B.",
     "estimatedTimeSeconds": 130,

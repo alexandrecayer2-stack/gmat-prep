@@ -34,6 +34,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "This is $250 \\times 0.60 = 150$, the count if $40\\%$ (not $30\\%$) had left; recompute $30\\%$ of $250 = 75$ leaving $175$.",
+      "B": "A near-miss that doesn't match $250 - 75$; the correct remaining count is $250 - 75 = 175$.",
+      "D": "A near-miss above the correct value; $30\\%$ of $250$ is exactly $75$, so $250 - 75 = 175$ remain.",
+      "E": "This subtracts only $50$ (a misread of the percent); $30\\%$ of $250 = 75$, so $250 - 75 = 175$ remain, not $200$."
+    },
     "explanation": "$30\\%$ of $250$ is $75$, so $250-75=175$ employees remained.",
     "estimatedTimeSeconds": 60
   },
@@ -71,6 +77,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "C"
+    },
+    "distractorRationale": {
+      "A": "This is the $\\frac{3}{7}$ smaller share, $\\frac{3}{7}\\times\\$84 = \\$36$; the question asks for the larger share, $\\frac{4}{7}\\times\\$84 = \\$48$.",
+      "B": "This is $\\$84 \\div 2 = \\$42$, splitting evenly instead of in the $3:4$ ratio; the larger share is $\\frac{4}{7}\\times\\$84 = \\$48$.",
+      "D": "A value above the correct share; with $7$ parts the larger person gets $\\frac{4}{7}\\times\\$84 = \\$48$, not $\\$54$.",
+      "E": "This overshoots; the four-part share of a seven-part total is $\\frac{4}{7}\\times\\$84 = \\$48$, not $\\$60$."
     },
     "explanation": "The ratio $3:4$ has $3 + 4 = 7$ parts, so the larger share is $\\frac{4}{7}$ of the total: $\\frac{4}{7} \\times \\$84 = \\$48$. The insight is that the larger term ($4$) over the sum of parts gives the larger person's fraction; the answer is C.",
     "estimatedTimeSeconds": 75
@@ -110,6 +122,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "A near-miss below the answer; the five values must sum to $5\\times22 = 110$, and $110 - 82 = 28$.",
+      "B": "This falls short of the required total; since the four knowns sum to $82$ and all five must total $110$, the fifth is $28$.",
+      "D": "This overshoots the needed sum; $110 - 82 = 28$, not $30$.",
+      "E": "This is too large; subtracting the known sum $82$ from the total $110$ gives $28$, not $32$."
+    },
     "explanation": "The sum of all five is $5\\times 22 = 110$. The four known values sum to $82$, so the fifth is $110-82=28$.",
     "estimatedTimeSeconds": 90
   },
@@ -147,6 +165,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "D"
+    },
+    "distractorRationale": {
+      "A": "This solves $4x = 24$, as if the $9$ were subtracted rather than added back; $4x - 9 = 27$ gives $4x = 36$, so $x = 9$.",
+      "B": "A near-miss; adding $9$ to $27$ gives $4x = 36$, so $x = 36 \\div 4 = 9$, not $7$.",
+      "C": "This corresponds to $4x = 32$; correctly, $4x = 27 + 9 = 36$, so $x = 9$.",
+      "E": "This overshoots; $4x = 36$ gives $x = 9$, not $10$."
     },
     "explanation": "$4x-9=27 \\Rightarrow 4x=36 \\Rightarrow x=9$.",
     "estimatedTimeSeconds": 60
@@ -186,6 +210,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "A near-miss remainder; $67 = 7\\times 9 + 4$, so the remainder is $4$, not $2$.",
+      "B": "This would be the remainder if $67 = 7\\times 9 + 3$, but $7\\times 9 = 63$ and $67 - 63 = 4$.",
+      "D": "This corresponds to $67 - 62$, but $9$ does not divide into $62$ evenly; $9\\times 7 = 63$ leaves remainder $4$.",
+      "E": "This is the quotient digit ($7$ nines fit), not the remainder; the leftover is $67 - 63 = 4$."
+    },
     "explanation": "$67 = 7\\times 9 + 4$, so the remainder is $4$.",
     "estimatedTimeSeconds": 60
   },
@@ -223,6 +253,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "C"
+    },
+    "distractorRationale": {
+      "A": "This is $12\\times 7$, undercounting by one row; there are $13$ rows, so $13\\times 7 = 91$.",
+      "B": "A near-miss that matches no clean product here; $13\\times 7 = 91$.",
+      "D": "This overshoots; $13\\times 7 = 91$, not $96$.",
+      "E": "This is $14\\times 7$, overcounting by one row; with $13$ rows the total is $13\\times 7 = 91$."
     },
     "explanation": "$13\\times 7 = 91$ seats.",
     "estimatedTimeSeconds": 60
@@ -262,6 +298,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "This is just the horizontal difference $|7-1| = 6$ plus a partial; the full distance is $\\sqrt{6^2 + 8^2} = 10$.",
+      "B": "A near-miss; $\\sqrt{36 + 64} = \\sqrt{100} = 10$, not $9$.",
+      "D": "This adds the legs $6 + 8 - 2$ or similar; the distance is the hypotenuse $\\sqrt{36+64} = 10$.",
+      "E": "This adds the two coordinate differences ($6 + 8$) instead of using the Pythagorean formula; the distance is $\\sqrt{6^2+8^2} = 10$."
+    },
     "explanation": "Distance $=\\sqrt{(7-1)^2+(10-2)^2}=\\sqrt{36+64}=\\sqrt{100}=10$.",
     "estimatedTimeSeconds": 90
   },
@@ -299,6 +341,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "C"
+    },
+    "distractorRationale": {
+      "A": "This undershoots; combining rates $\\frac{1}{6}+\\frac{1}{9} = \\frac{5}{18}$ gives a time of $\\frac{18}{5} = 3.6$ hours, not $2.5$.",
+      "B": "A round near-miss; the exact combined time is $\\frac{18}{5} = 3.6$ hours, not $3.0$.",
+      "D": "This overshoots; the combined rate $\\frac{5}{18}$ inverts to $3.6$ hours, not $4.2$.",
+      "E": "This averages the two times ($\\frac{6+9}{3}$ style) instead of adding rates; together they take $\\frac{18}{5} = 3.6$ hours."
     },
     "explanation": "Their combined rate is $\\frac{1}{6}+\\frac{1}{9}=\\frac{5}{18}$ tank per hour, so the time is $\\frac{18}{5}=3.6$ hours.",
     "estimatedTimeSeconds": 120
@@ -338,6 +386,12 @@
       "format": "single",
       "value": "D"
     },
+    "distractorRationale": {
+      "A": "This is too little water; the $1$ liter of acid must become $10\\%$, requiring a $10$-liter total, so add $10 - 5 = 5$ liters.",
+      "B": "A near-miss; halving the concentration requires doubling the volume to $10$ liters, i.e. adding $5$ liters, not $3$.",
+      "C": "This nearly doubles but stops short; reaching $10\\%$ acid needs a $10$-liter total, so $10 - 5 = 5$ liters of water.",
+      "E": "This is the total volume needed ($10$) minus a misstep, or simply over by one; the water to add is $10 - 5 = 5$ liters. (Correct value.)"
+    },
     "explanation": "The acid is $20\\%$ of $5 = 1$ liter. A $10\\%$ solution needs a total of $\\frac{1}{0.10}=10$ liters, so add $10-5=5$ liters of water.",
     "estimatedTimeSeconds": 120
   },
@@ -375,6 +429,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "D"
+    },
+    "distractorRationale": {
+      "A": "This is $3^4 = 81$ alone, dropping the $3^2$ factor; adding exponents gives $3^{2+4} = 3^6 = 729$.",
+      "B": "This is $3^5 = 243$, as if the exponents summed to $5$; correctly $2 + 4 = 6$, so $3^6 = 729$.",
+      "C": "This multiplies the bases or doubles $243$; the rule is to add exponents: $3^2\\times 3^4 = 3^6 = 729$.",
+      "E": "This is $3^7 = 2187$, adding one exponent too many; $2 + 4 = 6$, so the value is $3^6 = 729$."
     },
     "explanation": "$3^2\\times 3^4 = 3^{6} = 729$.",
     "estimatedTimeSeconds": 60
@@ -414,6 +474,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "This miscounts the integers by excluding one endpoint too many; $-1 < x \\le 3$ contains $0,1,2,3$ — four values.",
+      "C": "This treats both boundaries as inclusive, adding $-1$; but $-1$ is strictly excluded, leaving $0,1,2,3$ — four integers.",
+      "D": "This counts both endpoints plus an extra; the solution $-1 < x \\le 3$ has exactly the four integers $0,1,2,3$.",
+      "E": "This over-counts the range; isolating $x$ gives $-1 < x \\le 3$, which holds for only four integers, not seven."
+    },
     "explanation": "Isolate $x$ by operating on all three parts of the compound inequality. Add 1: $-2 < 2x \\le 6$; divide by 2: $-1 < x \\le 3$. The integers strictly greater than $-1$ and at most 3 are $0, 1, 2, 3$ — four values. The trap is the strict-versus-inclusive boundaries: $-1$ is excluded but $3$ is included, giving answer B.",
     "estimatedTimeSeconds": 90
   },
@@ -451,6 +517,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "This is the mean of $5$ and $9$ or a guessed midpoint; the median is the middle value of the ordered list, which is $9$.",
+      "C": "This averages two values incorrectly; with five ordered numbers the median is the third one, $9$, not $11$.",
+      "D": "This picks the fourth value; the middle position in a five-element list is the third, giving $9$.",
+      "E": "This is the largest value, not the center; the median (third of five) is $9$."
     },
     "explanation": "The list is already ordered, and the middle (third) value is $9$.",
     "estimatedTimeSeconds": 60
@@ -490,6 +562,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "This uses $5 + 8\\times 4$, counting only $8$ steps; the $10$th term needs $9$ steps: $5 + 9\\times 4 = 41$.",
+      "B": "A near-miss; $a_{10} = 5 + (10-1)\\times 4 = 5 + 36 = 41$, not $39$.",
+      "D": "This uses $5 + 10\\times 4$, counting one step too many; the formula uses $(10-1) = 9$ steps, giving $41$.",
+      "E": "This overshoots; $a_{10} = 5 + 9\\times 4 = 41$, not $49$."
+    },
     "explanation": "$a_{10}=5+(10-1)\\times 4 = 5+36 = 41$.",
     "estimatedTimeSeconds": 75
   },
@@ -527,6 +605,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "C"
+    },
+    "distractorRationale": {
+      "A": "This is the probability of one specific ordered outcome (e.g. HT); but exactly one head occurs in $2$ of the $4$ outcomes, so $P = \\frac{2}{4} = \\frac{1}{2}$.",
+      "B": "This treats the outcomes as $3$ equally likely cases; the sample space is HH, HT, TH, TT, and exactly one head gives $\\frac{2}{4} = \\frac{1}{2}$.",
+      "D": "This counts the complement or over-counts favorable cases; exactly one head is $2$ of $4$ outcomes, $\\frac{1}{2}$.",
+      "E": "This is $P(\\text{at least one head})$; the question asks for exactly one head, which is $\\frac{2}{4} = \\frac{1}{2}$."
     },
     "explanation": "The outcomes are HH, HT, TH, TT. Exactly one head occurs in $2$ of $4$ cases, so the probability is $\\frac{1}{2}$.",
     "estimatedTimeSeconds": 75
@@ -566,6 +650,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "This is $\\binom{5}{2} = 10$, treating the two posts as interchangeable; but president and vice president are distinct roles, so $5\\times 4 = 20$.",
+      "B": "A near-miss matching no clean count here; with ordered roles there are $5\\times 4 = 20$ ways.",
+      "D": "This is $5^2 = 25$, which would let one person hold both posts; excluding that, $5\\times 4 = 20$.",
+      "E": "This is $5! = 120$, arranging all five people; only two posts are filled, giving $5\\times 4 = 20$."
+    },
     "explanation": "There are $5$ choices for president and $4$ for vice president: $5\\times 4 = 20$.",
     "estimatedTimeSeconds": 90
   },
@@ -603,6 +693,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "C"
+    },
+    "distractorRationale": {
+      "A": "This is $\\frac{1}{3}$ of $60$, or a misread fraction; $\\frac{2}{5}\\times 60 = 24$.",
+      "B": "A near-miss; $\\frac{2}{5}\\times 60 = 24$, not $22$.",
+      "D": "This overshoots; $60 \\div 5 = 12$ and $12\\times 2 = 24$, not $28$.",
+      "E": "This is $\\frac{1}{2}$ of $60$; the fraction $\\frac{2}{5}$ gives $24$."
     },
     "explanation": "$\\frac{2}{5}\\times 60 = 24$.",
     "estimatedTimeSeconds": 60
@@ -642,6 +738,12 @@
       "format": "single",
       "value": "D"
     },
+    "distractorRationale": {
+      "A": "This undershoots; the speed is $\\frac{180}{3} = 60$ km/h, so $5$ hours gives $60\\times 5 = 300$ km.",
+      "B": "A near-miss; at $60$ km/h for $5$ hours the distance is $300$ km, not $260$.",
+      "C": "This adds $100$ to the $180$ rather than scaling by the rate; $60\\times 5 = 300$ km.",
+      "E": "This overshoots; the constant speed $60$ km/h over $5$ hours yields $300$ km, not $320$."
+    },
     "explanation": "The speed is $\\frac{180}{3}=60$ km/h, so in $5$ hours it travels $60\\times 5 = 300$ km.",
     "estimatedTimeSeconds": 75
   },
@@ -679,6 +781,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "C"
+    },
+    "distractorRationale": {
+      "A": "This likely multiplies the exponents ($2\\times2\\times2$) or misses a divisor; the count is $(2+1)(1+1)(1+1) = 12$.",
+      "B": "A near-miss from undercounting; adding $1$ to each exponent of $2^2\\times3\\times5$ gives $3\\times2\\times2 = 12$ divisors.",
+      "D": "This overcounts; the divisor formula gives $(2+1)(1+1)(1+1) = 12$, not $14$.",
+      "E": "This overcounts the divisors; $60 = 2^2\\times3\\times5$ has $(2+1)(1+1)(1+1) = 12$ positive divisors."
     },
     "explanation": "Use the divisor-count formula on the prime factorization: $60=2^2\\times3^1\\times5^1$, so the number of positive divisors is $(2+1)(1+1)(1+1)=12$. The trap is forgetting to add 1 to each exponent before multiplying, or trying to list all divisors and missing one.",
     "estimatedTimeSeconds": 90
@@ -718,6 +826,12 @@
       "format": "single",
       "value": "D"
     },
+    "distractorRationale": {
+      "A": "This is the value of $y$ (from $y = 6$), not $x$; adding the equations gives $2x = 18$, so $x = 9$.",
+      "B": "A near-miss; $x + y = 15$ and $x - y = 3$ add to $2x = 18$, so $x = 9$, not $7$.",
+      "C": "This undershoots; summing the equations eliminates $y$ to give $2x = 18$, hence $x = 9$.",
+      "E": "This is $\\frac{x+y+x-y}{?}$ miscombined; correctly $2x = 18$ gives $x = 9$, not $12$."
+    },
     "explanation": "Adding the two equations gives $2x=18$, so $x=9$.",
     "estimatedTimeSeconds": 75
   },
@@ -755,6 +869,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "C"
+    },
+    "distractorRationale": {
+      "A": "This undershoots; slope is $\\frac{11-3}{6-2} = \\frac{8}{4} = 2$, not $1$.",
+      "B": "A near-miss; the rise $8$ over the run $4$ is $2$, not $1.5$.",
+      "D": "This overshoots; $\\frac{11-3}{6-2} = \\frac{8}{4} = 2$, not $2.5$.",
+      "E": "This may divide $\\Delta y$ by a wrong run; the slope is $\\frac{8}{4} = 2$, not $3$."
     },
     "explanation": "Slope $=\\frac{11-3}{6-2}=\\frac{8}{4}=2$.",
     "estimatedTimeSeconds": 75
@@ -794,6 +914,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "This undershoots; the third angle is $180 - 40 - 75 = 65$ degrees, not $55$.",
+      "B": "A near-miss; subtracting both angles from $180$ gives $65$, not $60$.",
+      "D": "This overshoots; $180 - 40 - 75 = 65$ degrees, not $70$.",
+      "E": "This just repeats the given $75^\\circ$; the remaining angle is $180 - 40 - 75 = 65$ degrees."
+    },
     "explanation": "The angles of a triangle sum to $180^\\circ$, so the third is $180-40-75=65$ degrees.",
     "estimatedTimeSeconds": 60
   },
@@ -831,6 +957,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "D"
+    },
+    "distractorRationale": {
+      "A": "This adds the choices ($2 + 5 + 6 = 13$) instead of multiplying; one of each course gives $2\\times5\\times6 = 60$.",
+      "B": "This multiplies only two of the three counts; all three courses combine as $2\\times5\\times6 = 60$.",
+      "C": "This uses a wrong pair of factors; the full product is $2\\times5\\times6 = 60$.",
+      "E": "This overshoots; $2\\times5\\times6 = 60$, not $72$."
     },
     "explanation": "$2\\times 5\\times 6 = 60$ possible meals.",
     "estimatedTimeSeconds": 75
@@ -870,6 +1002,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "A near-miss; $\\$120\\times0.80 = \\$96$ exactly, not $\\$98$.",
+      "C": "This assumes the $+20\\%$ and $-20\\%$ cancel back to $\\$100$, but the decrease acts on the larger $\\$120$, giving $\\$96$.",
+      "D": "This adds rather than nets the changes; sequentially, $\\$100\\times1.20\\times0.80 = \\$96$.",
+      "E": "This treats the result as a net $+4\\%$; the net effect is $-4\\%$, so the final price is $\\$96$."
+    },
     "explanation": "Apply each change in sequence to the actual dollar amount: $\\$100 \\times 1.20 = \\$120$, then $\\$120 \\times 0.80 = \\$96$, choice A. The insight is that the $20\\%$ decrease acts on the higher $\\$120$, not the original $\\$100$, so the price does not return to $\\$100$ — it ends $4\\%$ lower.",
     "estimatedTimeSeconds": 90
   },
@@ -907,6 +1045,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "C"
+    },
+    "distractorRationale": {
+      "A": "This leaves the mean unchanged, but adding $5$ to every value shifts the mean by $5$: $12 + 5 = 17$.",
+      "B": "A near-miss; the new mean is $12 + 5 = 17$, not $15$.",
+      "D": "This overshoots; adding the constant $5$ gives $12 + 5 = 17$, not $19$.",
+      "E": "This multiplies the mean by $5$ instead of adding; a constant shift gives $12 + 5 = 17$."
     },
     "explanation": "Adding a constant to every value shifts the mean by that same constant: $12+5=17$.",
     "estimatedTimeSeconds": 75
@@ -946,6 +1090,12 @@
       "format": "single",
       "value": "D"
     },
+    "distractorRationale": {
+      "A": "This undershoots; the GCD uses the lowest power of each shared prime, $2^3\\times3 = 24$, not $6$.",
+      "B": "This takes only $2^3 = 8$ and drops the shared factor $3$; the GCD is $2^3\\times3 = 24$.",
+      "C": "A common divisor but not the greatest; both numbers share $2^3\\times3 = 24$.",
+      "E": "This is $36 = 2^2\\times3^2$, which does not divide $48$; the GCD is $2^3\\times3 = 24$."
+    },
     "explanation": "$48=2^4\\times 3$ and $72=2^3\\times 3^2$; the GCD is $2^3\\times 3 = 24$.",
     "estimatedTimeSeconds": 90
   },
@@ -983,6 +1133,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "This is the units digit when the exponent is a multiple of $4$ (cycle position $4$); $17 = 4\\times4+1$ lands at position $1$, giving $3$.",
+      "C": "This is cycle position $3$; $17$ leaves remainder $1$ when divided by $4$, so the units digit is the first in $3,9,7,1$ — namely $3$.",
+      "D": "This is cycle position $2$ ($3^2$ ends in $9$); since $17 \\equiv 1 \\pmod 4$, the units digit is $3$.",
+      "E": "Powers of $3$ never end in $5$; the cycle is $3,9,7,1$, and position $1$ gives units digit $3$."
     },
     "explanation": "The units digits of powers of $3$ cycle as $3, 9, 7, 1$. Since $17 = 4\\times 4 + 1$, the units digit is the first in the cycle: $3$.",
     "estimatedTimeSeconds": 105
@@ -1022,6 +1178,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "This is the boundary value $x = 10$, which does not satisfy the strict inequality $x > 10$; the least integer is $11$.",
+      "C": "This overshoots; $x > 10$ is first satisfied by the integer $11$, not $12$.",
+      "D": "This overshoots; $\\frac{x+2}{4} > 3$ reduces to $x > 10$, so the least integer is $11$.",
+      "E": "This is too large; the smallest integer greater than $10$ is $11$."
+    },
     "explanation": "$\\frac{x+2}{4}>3 \\Rightarrow x+2>12 \\Rightarrow x>10$. The least integer greater than $10$ is $11$.",
     "estimatedTimeSeconds": 90
   },
@@ -1059,6 +1221,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "This is $\\frac{2}{10}$, perhaps halving the red count; with $4$ red of $10$, $P = \\frac{4}{10} = \\frac{2}{5}$.",
+      "C": "This is $\\frac{6}{10}$, the probability of blue; the chance of red is $\\frac{4}{10} = \\frac{2}{5}$.",
+      "D": "This is $\\frac{5}{10}$, as if red and blue were equal; there are $4$ red of $10$, so $P = \\frac{2}{5}$.",
+      "E": "This uses $3$ red in the numerator; there are $4$ red of $10$ marbles, giving $\\frac{4}{10} = \\frac{2}{5}$."
     },
     "explanation": "There are $4+6=10$ marbles, so $P(\\text{red})=\\frac{4}{10}=\\frac{2}{5}$.",
     "estimatedTimeSeconds": 60
@@ -1098,6 +1266,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "This is $2\\times8$, not a combination; choosing $2$ from $8$ unordered is $\\binom{8}{2} = 28$.",
+      "C": "A near-miss matching no clean count here; $\\binom{8}{2} = \\frac{8\\times7}{2} = 28$.",
+      "D": "This is the permutation $8\\times7 = 56$, which double-counts each pair; dividing by $2$ gives $28$.",
+      "E": "This is $8^2 = 64$, allowing repeats and order; the unordered count is $\\binom{8}{2} = 28$."
+    },
     "explanation": "Order does not matter, so this is a combination: $\\binom{8}{2}=\\frac{8\\times 7}{2}=28$. The key is dividing by 2 to undo the double-counting of each pair (AB and BA are the same choice); the trap is reporting the permutation $8\\times 7=56$. Answer: B.",
     "estimatedTimeSeconds": 90
   },
@@ -1135,6 +1309,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "This is $\\frac{5}{9}$; cross-multiplying, $5\\times7 = 35 < 36 = 4\\times9$, so $\\frac{4}{7}$ is the larger fraction.",
+      "C": "The fractions are not equal; $5\\times7 = 35$ but $4\\times9 = 36$, so $\\frac{4}{7} > \\frac{5}{9}$.",
+      "D": "The comparison is fully determined by cross-multiplication: $35 < 36$, so $\\frac{4}{7}$ is larger.",
+      "E": "Neither fraction equals $\\frac{1}{2}$ ($\\frac{5}{9} > \\frac{1}{2}$); comparing directly, $\\frac{4}{7}$ is the larger."
     },
     "explanation": "Cross-multiplying: $5\\times 7 = 35$ and $4\\times 9 = 36$. Since $35<36$, $\\frac{4}{7}$ is larger.",
     "estimatedTimeSeconds": 90
@@ -1174,6 +1354,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "This undershoots; the combined rate $\\frac{1}{12}+\\frac{1}{6} = \\frac{1}{4}$ job/hour inverts to $4$ hours, not $3$.",
+      "C": "A near-miss; together they complete $\\frac{1}{4}$ of the job per hour, so the time is $4$ hours.",
+      "D": "This is the faster worker's solo time, not the joint time; adding rates gives $\\frac{1}{4}$ job/hour, i.e. $4$ hours.",
+      "E": "This averages the two times instead of adding rates; the combined rate $\\frac{1}{4}$ gives $4$ hours."
+    },
     "explanation": "Their combined rate is $\\frac{1}{12}+\\frac{1}{6}=\\frac{1}{12}+\\frac{2}{12}=\\frac{3}{12}=\\frac{1}{4}$ job per hour, so the time is $4$ hours.",
     "estimatedTimeSeconds": 105
   },
@@ -1211,6 +1397,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "D"
+    },
+    "distractorRationale": {
+      "A": "This undershoots; expanding gives $0.2x = 1$, so $x = 5$, not $2$.",
+      "B": "A near-miss; after distributing, $0.5x - 0.3x = 3 - 2$ gives $0.2x = 1$ and $x = 5$.",
+      "C": "This falls just short; $0.2x = 1$ yields $x = 5$, not $4$.",
+      "E": "This overshoots; collecting terms gives $0.2x = 1$, so $x = 5$, not $6$."
     },
     "explanation": "Distribute the right side: $0.5x + 2 = 0.3(x + 10) = 0.3x + 3$. Collect terms: $0.5x - 0.3x = 3 - 2$, so $0.2x = 1$ and $x = 5$. The key step is expanding the parentheses before isolating $x$; the answer is D.",
     "estimatedTimeSeconds": 90

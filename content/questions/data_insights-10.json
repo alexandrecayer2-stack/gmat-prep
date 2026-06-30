@@ -12,6 +12,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "Picks the wrong statement: $x^2=16$ leaves $x=4$ or $x=-4$, so (2) alone is not sufficient even though (1) alone pins $x=4$.",
+      "C": "Claims both are needed, but (1) alone already gives $3x=12$, $x=4$; the second statement is unnecessary.",
+      "D": "Treats both as individually sufficient, but (2) yields two values $x=\\pm 4$, so only (1) works alone.",
+      "E": "Says nothing suffices, yet (1) alone determines $x=4$ exactly."
+    },
     "explanation": "From (1), $3x=12$ so $x=4$ — sufficient. From (2), $x=4$ or $x=-4$ — not sufficient. Statement (1) alone suffices.",
     "estimatedTimeSeconds": 110
   },
@@ -27,6 +33,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "Picks the wrong statement: $n^2>20$ allows $n=5$ (false) or $n=6$ (true), so (1) alone cannot answer; (2) alone does.",
+      "C": "Claims both are needed, but (2) alone ($n>6$) already forces $n>5$.",
+      "D": "Treats both as sufficient, but (1) is ambiguous at $n=5$; only (2) works alone.",
+      "E": "Says nothing suffices, yet (2) alone gives a definite yes."
     },
     "explanation": "From (1), $n\\ge 5$ (since $4^2=16<20\\le 25=5^2$); but $n=5$ makes $n>5$ false while $n=6$ makes it true — not sufficient. From (2), $n>6$ implies $n>5$ — sufficient. Statement (2) alone suffices.",
     "estimatedTimeSeconds": 110
@@ -44,6 +56,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "Length alone gives no width, so the area cannot be found from (1) by itself.",
+      "B": "The perimeter alone fixes length $+$ width $=14$ but not each dimension, so area is undetermined.",
+      "D": "Neither statement alone gives both dimensions; you need (1) and (2) together to get width $=4$ and area $40$.",
+      "E": "Says even together they fail, but combining length $=10$ with perimeter $=28$ pins width $=4$ and area $=40$."
+    },
     "explanation": "Neither statement alone gives both dimensions. Together, length $=10$ and length $+$ width $=14$ give width $=4$, so the area is $40$. Both are needed.",
     "estimatedTimeSeconds": 110
   },
@@ -59,6 +77,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "D"
+    },
+    "distractorRationale": {
+      "A": "Both statements say the same thing — $x$ is a multiple of $2$ — so (2) is equally sufficient, not just (1).",
+      "B": "By symmetry (1) is also sufficient; both alone prove $x$ even.",
+      "C": "Treats the statements as needing each other, but either one alone already shows $x$ is even.",
+      "E": "Says nothing suffices, yet each statement independently establishes that $x$ is even."
     },
     "explanation": "Each statement independently means $x$ is a multiple of $2$, i.e., even. Each alone is sufficient.",
     "estimatedTimeSeconds": 110
@@ -76,6 +100,12 @@
       "format": "single",
       "value": "E"
     },
+    "distractorRationale": {
+      "A": "$x>2$ leaves infinitely many values; a one-sided bound cannot pin a single $x$.",
+      "B": "$x<10$ likewise gives only a range, not a unique value.",
+      "C": "Even combined, $2<x<10$ contains many values, so together they are still insufficient.",
+      "D": "Neither statement alone fixes $x$; each gives only an inequality."
+    },
     "explanation": "Each statement gives only a range, and together they give $2<x<10$ — still many possible values. Not sufficient even together.",
     "estimatedTimeSeconds": 110
   },
@@ -91,6 +121,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "C"
+    },
+    "distractorRationale": {
+      "A": "Pipe A's solo time gives only its rate; without B's rate the combined time is unknown.",
+      "B": "Pipe B's solo time alone leaves A's contribution unknown, so the joint time cannot be found.",
+      "D": "One rate alone cannot give the combined time; you need both to get $\\frac{1}{10}+\\frac{1}{15}=\\frac{1}{6}$, i.e. $6$ hours.",
+      "E": "Says even together they fail, but the two rates add to give a definite $6$ hours."
     },
     "explanation": "One rate alone is not enough. Together the combined rate is $\\frac{1}{10}+\\frac{1}{15}=\\frac{1}{6}$, giving $6$ hours. Both are needed.",
     "estimatedTimeSeconds": 110
@@ -108,6 +144,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "Picks the wrong statement: knowing $8$ take neither gives no count without the total enrolled, so (2) alone fails; (1) alone gives $18+12-4=26$.",
+      "C": "Claims both are needed, but inclusion-exclusion on (1) alone already yields $26$.",
+      "D": "Treats both as sufficient, but (2) alone lacks the total enrollment; only (1) works.",
+      "E": "Says nothing suffices, yet (1) alone gives $26$ via $18+12-4$."
+    },
     "explanation": "From (1), $18+12-4=26$ — sufficient. From (2), without total enrollment the count cannot be found — not sufficient. Statement (1) alone suffices.",
     "estimatedTimeSeconds": 110
   },
@@ -123,6 +165,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "D"
+    },
+    "distractorRationale": {
+      "A": "Only credits (1), but if the largest angle is $80^\\circ<90^\\circ$ in (2), all angles are acute too, so (2) alone also suffices.",
+      "B": "Only credits (2), but the explicit angles $50^\\circ,60^\\circ,70^\\circ$ in (1) are all acute, so (1) alone also suffices.",
+      "C": "Treats the statements as needing each other, but each alone already settles that the triangle is acute.",
+      "E": "Says nothing suffices, yet each statement independently confirms all angles are below $90^\\circ$."
     },
     "explanation": "From (1), all three angles are below $90^\\circ$ — acute. From (2), if the largest angle is $80^\\circ<90^\\circ$, then all angles are acute. Each alone is sufficient.",
     "estimatedTimeSeconds": 110
@@ -140,6 +188,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "Picks the wrong statement: $x^2=9$ gives $x=3$ or $x=-3$, so the sign is undetermined; (1) alone gives $x=-3$.",
+      "C": "Claims both are needed, but (1) alone ($x^3=-27\\Rightarrow x=-3$) already answers yes.",
+      "D": "Treats both as sufficient, but (2) leaves two signs; only the odd power in (1) fixes $x=-3<0$.",
+      "E": "Says nothing suffices, yet (1) alone determines $x=-3$."
+    },
     "explanation": "From (1), $x=-3<0$ — sufficient. From (2), $x=3$ or $x=-3$ — not sufficient. Statement (1) alone suffices.",
     "estimatedTimeSeconds": 110
   },
@@ -155,6 +209,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "Picks the wrong statement: $x^2=16$ gives $x=4$ or $x=-4$, so the sign is unknown; (2) alone fixes it.",
+      "C": "Claims both are needed, but (2) alone ($x^3=64\\Rightarrow x=4$) already shows $x$ positive.",
+      "D": "Treats both as sufficient, but (1) leaves $x=\\pm 4$; only the odd power in (2) gives $x=4>0$.",
+      "E": "Says nothing suffices, yet (2) alone determines $x=4$."
     },
     "explanation": "From (1), $x=4$ or $x=-4$ — not sufficient. From (2), $x=4>0$ — sufficient. Statement (2) alone suffices.",
     "estimatedTimeSeconds": 110
@@ -172,6 +232,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "Picks the wrong statement: the largest value alone gives no sum; (1) alone gives sum $=4\\times 11=44$.",
+      "C": "Claims both are needed, but the mean in (1) alone yields the sum directly.",
+      "D": "Treats both as sufficient, but (2) gives only one of four numbers; only (1) works alone.",
+      "E": "Says nothing suffices, yet (1) alone gives the sum $44$."
+    },
     "explanation": "From (1), the sum is $4\\times 11=44$ — sufficient. From (2), a single value gives no sum — not sufficient. Statement (1) alone suffices.",
     "estimatedTimeSeconds": 110
   },
@@ -187,6 +253,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "C"
+    },
+    "distractorRationale": {
+      "A": "The tens digit alone leaves the units digit open ($30$ to $39$), so $n$ is not determined.",
+      "B": "The units digit alone leaves the tens digit open, so $n$ is not determined.",
+      "D": "Neither digit alone fixes $n$; you need both to get $n=37$.",
+      "E": "Says even together they fail, but tens digit $3$ and units digit $7$ uniquely give $n=37$."
     },
     "explanation": "From (1), $n$ is between $30$ and $39$. From (2), the units digit of $n$ is $7$. Together, $n=37$. Both statements are needed.",
     "estimatedTimeSeconds": 110
@@ -204,6 +276,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "Divisibility by $3$ alone does not guarantee an even number (e.g. $9$), so (1) alone cannot confirm divisibility by $6$.",
+      "B": "Divisibility by $2$ alone does not guarantee a multiple of $3$ (e.g. $4$), so (2) alone is insufficient.",
+      "D": "Neither alone works; divisibility by $6$ needs both factors $2$ and $3$, supplied only by combining the statements.",
+      "E": "Says even together they fail, but having both factors $2$ and $3$ guarantees divisibility by $6$."
+    },
     "explanation": "Divisibility by $6$ requires divisibility by both $2$ and $3$. Neither alone guarantees both; together they do. Both are needed.",
     "estimatedTimeSeconds": 110
   },
@@ -219,6 +297,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "D"
+    },
+    "distractorRationale": {
+      "A": "Both statements give a unit price of $15$; (2) is equally sufficient, not just (1).",
+      "B": "By symmetry (1) also gives $\\frac{45}{3}=15$, so each works alone.",
+      "C": "Treats the statements as needing each other, but either total alone divides out to $15$ per notebook.",
+      "E": "Says nothing suffices, yet each statement alone yields the price $15$."
     },
     "explanation": "From (1), one costs $\\frac{45}{3}=15$. From (2), one costs $\\frac{30}{2}=15$. Each alone is sufficient.",
     "estimatedTimeSeconds": 110
@@ -236,6 +320,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "Equal sides alone allow a non-square rhombus, so (1) cannot confirm a square.",
+      "B": "Right angles alone allow a non-square rectangle, so (2) cannot confirm a square.",
+      "D": "Neither alone works; only combining equal sides with right angles forces a square.",
+      "E": "Says even together they fail, but equal sides plus right angles do guarantee a square."
+    },
     "explanation": "From (1) alone, $Q$ could be a non-square rhombus. From (2) alone, $Q$ could be a non-square rectangle. Together, equal sides and right angles make it a square. Both are needed.",
     "estimatedTimeSeconds": 110
   },
@@ -251,6 +341,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "E"
+    },
+    "distractorRationale": {
+      "A": "$x>0$ alone says nothing about $y$, so the comparison is undetermined.",
+      "B": "$y<5$ alone says nothing about $x$, so the comparison is undetermined.",
+      "C": "Even combined, $x>0$ and $y<5$ allow both $x<y$ (e.g. $x=1,y=4$) and $x>y$ (e.g. $x=1,y=-3$), so still insufficient.",
+      "D": "Neither bound alone relates $x$ and $y$, so neither statement settles whether $x>y$."
     },
     "explanation": "Neither bound relates $x$ and $y$ directly. With $x>0$ and $y<5$, for example $x=1,y=4$ gives $x<y$ while $x=1,y=-3$ gives $x>y$ — not sufficient even together.",
     "estimatedTimeSeconds": 110

@@ -35,6 +35,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "Daytime market thefts are irrelevant to a plan aimed at nighttime theft on unlit streets; it does not address whether lighting would help at night. The real weakener gives an alternative cause for nighttime theft that lighting cannot fix.",
+      "B": "That some streets are already lit does not undermine the plan to light the dark ones where theft concentrates; if anything it is neutral. The weakener must show lighting will not affect nighttime theft.",
+      "D": "Resident preference for brighter streets is unrelated to whether lighting reduces theft, and if anything supports the plan rather than weakening it. The weakener must sever the lighting-theft link.",
+      "E": "The type of bulb (LED) says nothing about whether more light reduces theft. The argument is weakened only by showing nighttime theft has a cause lighting cannot address."
+    },
     "explanation": "The argument assumes that lack of lighting is the primary cause. If nighttime thefts are mostly committed by repeat offenders targeting unlocked doors, more lighting will have little effect on this type of crime.",
     "estimatedTimeSeconds": 90
   },
@@ -73,6 +79,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "Opening earlier introduces an alternative cause for the rise in repeat purchases, which weakens rather than strengthens the causal claim. Strength comes from isolating the container policy as the driver.",
+      "C": "Competitors cutting prices is a rival explanation for changed buying behavior, undercutting the claim instead of supporting it. The strengthener ties loyalty specifically to container users.",
+      "D": "Complaints that the containers are heavier give a reason loyalty might fall, working against the claim. The correct evidence shows container users return more, controlling for spending.",
+      "E": "A simultaneous logo change is a confounding factor that could explain the rise on its own, weakening the argument. The strengthener controls for other variables and still links containers to return rate."
     },
     "explanation": "The fact that customers using reusable containers return more frequently, even after controlling for other variables, directly links the policy to loyalty and strengthens the causal inference.",
     "estimatedTimeSeconds": 90
@@ -113,6 +125,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "Comparing evening to morning profitability is not required; the plan only needs evening expansion to be net profitable, not more profitable than mornings. The necessary assumption is that incremental costs do not erase the revenue gain.",
+      "C": "Whether new members renew is a separate downstream issue; the argument is about profit from the added full classes themselves. It assumes added costs stay below the added revenue.",
+      "D": "Competitor response is not something the argument needs to rule out to conclude its own classes will profit. The required assumption concerns the firm's own cost-revenue balance.",
+      "E": "How long classes have been full is background restating the premise, not an assumption the conclusion depends on. The needed assumption is that incremental costs will not outpace the revenue from more classes."
+    },
     "explanation": "For additional full classes to actually increase profit, one must assume that the incremental cost of those classes does not offset the gain in revenue.",
     "estimatedTimeSeconds": 105
   },
@@ -151,6 +169,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "C"
+    },
+    "distractorRationale": {
+      "A": "A causal claim ('caused households to read more') goes beyond the data, which only reports a correlation in borrowing. Only the average comparison itself can be properly inferred.",
+      "B": "Saying no non-subscribers borrowed books overstates the data; non-subscribers borrowed fewer, not zero. The supported inference is the average difference between the two groups.",
+      "D": "The number of libraries versus bookstores is never mentioned and cannot be inferred. The statement supports only the average borrowing comparison.",
+      "E": "That all subscribers read exactly the same number is an unsupported absolute; averages say nothing about uniformity. Only the average difference is established."
     },
     "explanation": "The statement provides an average comparison within the sample. A causal conclusion cannot be drawn, but the average difference itself is directly established.",
     "estimatedTimeSeconds": 105
@@ -191,6 +215,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "Dinner revenue rising does not explain why lunch revenue grew despite fewer lunch customers; the paradox is about lunch alone. The resolution is that each remaining lunch customer spent more.",
+      "C": "Lowering prices on popular dishes would tend to reduce, not raise, revenue per customer, deepening the paradox rather than resolving it. Higher average spending per customer is what reconciles the figures.",
+      "D": "More frequent visits by the same customers would raise the customer count, contradicting the premise that the number of customers fell. The explanation is higher average spending per customer.",
+      "E": "More server attention per table does not by itself increase revenue and does not explain the rise. The discrepancy is resolved only by higher average spending per customer."
+    },
     "explanation": "If fewer customers generate more revenue, the average spending per customer must have increased significantly.",
     "estimatedTimeSeconds": 120
   },
@@ -229,6 +259,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "C"
+    },
+    "distractorRationale": {
+      "A": "Whether employees preferred four days is about satisfaction, not whether output truly rose because of the policy. Evaluating the claim requires a comparison group of five-day companies.",
+      "B": "A change in sales managers is a possible confounder but the choice does not help test the productivity claim directly. The useful question benchmarks the output rise against similar five-day firms.",
+      "D": "Laptop usage is a tangential detail that does not isolate the policy's effect on output. The decisive evaluation compares the increase to that at five-day companies.",
+      "E": "Free Friday coffee is irrelevant to whether the four-day week raised productivity. The claim is best evaluated by comparing output gains with comparable five-day workplaces."
     },
     "explanation": "Comparing the trend to that of similar companies makes it possible to judge whether the observed increase exceeds what would have been expected without the new policy.",
     "estimatedTimeSeconds": 105
@@ -269,6 +305,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "The flaw is not a sampling problem about generalizing from winners; the student's leap is logical, treating a trait of winners as a guarantee of winning. The error is mistaking a necessary condition for a sufficient one.",
+      "C": "Overlooking talent is a real-world gap, but the precise logical flaw is the conditional confusion: 'present in all winners' does not mean 'enough to win.' That is the necessary-versus-sufficient error.",
+      "D": "The student does not assume fewer than five days cannot win; that misreads the argument. The actual flaw is treating a necessary condition as sufficient.",
+      "E": "Treating frequency as the only measure of preparation is a different criticism than the one committed here. The core flaw is confusing a necessary condition with a sufficient one."
+    },
     "explanation": "Observing that a condition is always present among winners does not support the claim that it is sufficient to guarantee victory.",
     "estimatedTimeSeconds": 90
   },
@@ -307,6 +349,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "The argument does not need hardcover readers to never buy paperbacks; it only needs the paperback not to gut hardcover revenue prematurely. This absolute is far stronger than required.",
+      "C": "Whether the novel won awards is irrelevant to whether the timed paperback release raises total profit. The required assumption is that the paperback does not cannibalize hardcover sales too early.",
+      "D": "Owning all the country's presses is unnecessary for the profit conclusion. The argument depends on the paperback not significantly cutting hardcover sales before they peak.",
+      "E": "The author's format preference has no bearing on total profit. The needed assumption is that the paperback will not heavily reduce hardcover revenue before most of it is earned."
     },
     "explanation": "The argument requires that the paperback release not heavily cannibalize hardcover sales before those sales have generated most of the revenue.",
     "estimatedTimeSeconds": 105
@@ -347,6 +395,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "This restates the supporting evidence about sleep and scores, not the conclusion. The conclusion is the recommendation about scheduling exams.",
+      "B": "That early classes reduce sleep is an unstated bridging assumption, not the stated conclusion. The conclusion is the scheduling recommendation.",
+      "D": "Requiring students to sleep eight hours is a different prescription the argument never makes. The actual conclusion is to avoid exams after very early-morning classes.",
+      "E": "Calling sleep the most effective way to raise scores overstates the argument, which never ranks methods. The conclusion is the scheduling recommendation."
+    },
     "explanation": "The normative conclusion concerns the exam schedule; the rest serves as support.",
     "estimatedTimeSeconds": 90
   },
@@ -385,6 +439,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "Rising property values townwide is a broader effect that does not directly establish that the apartments' own revenue beats their service cost. The justification is that residents pay more in taxes than they consume in services.",
+      "C": "Full occupancy within a year speaks to timing, not to whether taxes from occupants exceed the added service costs. The expectation is justified by a favorable per-household tax-versus-service balance.",
+      "D": "A general historical trend of costs lagging revenue does not guarantee these specific apartments pay their way. The needed condition is that their occupants generate more tax than service cost.",
+      "E": "A higher tax rate than nearby towns does not by itself ensure revenue exceeds the added service cost. Justification comes from occupants paying more in taxes than they require in services."
     },
     "explanation": "For the fiscal balance to be positive, the housed households must generate more in taxes than they cost in additional services.",
     "estimatedTimeSeconds": 120
@@ -425,6 +485,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "Exempting children's tickets does not explain why total attendance rose after a price increase; lower-priced children's entry was already available. A new popular exhibit boosting demand resolves the paradox.",
+      "C": "Visitors saying higher prices deter return reinforces the puzzle rather than resolving the rise in attendance. The resolution is a popular exhibit that drove demand up.",
+      "D": "A competitor's falling attendance does not explain why this museum's attendance rose despite higher prices. The popular new exhibit accounts for the increase.",
+      "E": "Repainting galleries with the extra revenue is a consequence of higher revenue, not an explanation for the attendance increase. A popular exhibit resolves the paradox."
+    },
     "explanation": "A highly popular exhibition can increase demand enough to offset the price increase.",
     "estimatedTimeSeconds": 105
   },
@@ -463,6 +529,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "Widening roads near the stations is an alternative cause for higher speeds, weakening the bike-share claim rather than strengthening it. Strength comes from matching the speed gains to bike usage where comparable areas show none.",
+      "C": "Many residents already owning bikes does not connect the bike-share program to the speed increase. The strengthener ties speed gains to peak bike-share usage at the stations.",
+      "D": "Station paint color is irrelevant to traffic speed. The argument is strengthened by the targeted temporal and spatial correlation absent in non-station areas.",
+      "E": "Recreational use of the bikes does not link the program to reduced congestion. Strength comes from speeds rising with usage at stations but not in comparable areas."
     },
     "explanation": "The temporal and spatial correlation with the stations, combined with the absence of a comparable effect elsewhere, reinforces the idea that the program contributed to the increase in speeds.",
     "estimatedTimeSeconds": 105
@@ -503,6 +575,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "Training sessions are part of implementing the system and would, if anything, support that the system caused the drop, not weaken it. The weakener supplies an outside cause: a supplier change.",
+      "B": "Producing fewer units does not by itself imply a lower defect rate, which is a proportion; this does not undercut the claim. The weakener is a simultaneous raw-material improvement.",
+      "D": "Whether remaining defects were easy to repair is irrelevant to what caused the rate to fall. The alternative cause is the concurrent change in suppliers.",
+      "E": "Supervisor preference does not explain the defect decline. The claim is weakened by a parallel quality improvement from new raw-material suppliers."
+    },
     "explanation": "A parallel improvement tied to raw materials provides an alternative explanation for the decline in defects.",
     "estimatedTimeSeconds": 120
   },
@@ -541,6 +619,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "Nothing requires all debate-team members to attend chess practice; only that some debaters are also club members. What must be true is that some club members attend practice.",
+      "C": "The premise says some members are on the debate team, directly contradicting 'no club members are on the debate team.' What follows is that some club members attend weekly practice.",
+      "D": "We cannot conclude everyone at practice is in the club; the premises do not exclude other attendees. The valid inference is that some club members attend practice.",
+      "E": "Whether the debate team meets weekly is never stated. The guaranteed conclusion is that some club members attend the weekly chess practice."
     },
     "explanation": "If there are club members, and all club members attend the weekly practice, then some people necessarily attend that practice.",
     "estimatedTimeSeconds": 90
@@ -581,6 +665,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "The plan does not require more traffic at the entrance than the produce aisle; it only needs exposed shoppers to be willing buyers. That willingness is the required assumption.",
+      "C": "Freshness throughout the day is a practical concern but not what the visibility-to-sales claim logically depends on. The needed assumption is that those who see the apples are at least somewhat willing to buy.",
+      "D": "Whether apples are the most profitable per unit is irrelevant to whether more exposure lifts apple sales. The assumption is that exposed customers are potential buyers.",
+      "E": "Effects on items formerly near the entrance concern net store sales, not the apple-sales claim itself. The required assumption is that viewers of the apples are willing to buy them."
+    },
     "explanation": "Being seen increases sales only if the customers who are exposed can become potential buyers.",
     "estimatedTimeSeconds": 105
   },
@@ -619,6 +709,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "Teachers liking the posters speaks to opinion, not to whether handwashing reduced flu. Strength comes from linking bigger handwashing increases to bigger flu drops, absent in non-campaign schools.",
+      "C": "The campaign's low cost is irrelevant to whether it reduced flu cases. The strengthener matches handwashing increases to flu decreases versus a control.",
+      "D": "Fewer absences for other reasons does not connect the campaign to the flu decline. The strongest support is the dose-response link present only in campaign schools.",
+      "E": "Year-to-year flu variation introduces noise that could undercut the claim, not support it. Strength comes from the targeted correlation absent in schools without the campaign."
     },
     "explanation": "A targeted correlation between increased handwashing and a drop in cases, absent elsewhere, provides the strongest causal support.",
     "estimatedTimeSeconds": 120
@@ -659,6 +755,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "Adding lobby signs is unrelated to elevator wait times and does not undercut the elevator claim. The weakener shows wait times also fell where no elevators were added.",
+      "B": "Off-season installation could explain shorter waits via fewer guests, but the strongest weakener is a control building that improved without new elevators. A parallel drop with no added elevators directly breaks the causal link.",
+      "D": "Quieter elevators say nothing about wait times. The claim is weakened by an equivalent decline in a building that added no elevators.",
+      "E": "Guest preference for corner rooms is irrelevant to wait times. The weakener is the matching drop in a neighboring building without new elevators."
+    },
     "explanation": "If wait times also decrease in a control building without additional elevators, the decrease cannot be attributed to the new elevators.",
     "estimatedTimeSeconds": 105
   },
@@ -697,6 +799,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "This describes a specific reverse-causation mechanism, but it is one instance of the general logical error rather than the named flaw itself. The flaw is broadly confusing correlation with causation.",
+      "C": "Relying on self-reports is a measurement concern, not the reasoning gap; the leap is inferring cause from association. The flaw is treating correlation as causation.",
+      "D": "Failing to define 'higher satisfaction' is a clarity issue, not the causal-logic error committed here. The flaw is confusing correlation with causation.",
+      "E": "Ignoring productivity is irrelevant to the satisfaction conclusion. The flaw is inferring causation from a mere correlation."
     },
     "explanation": "Higher satisfaction among remote workers does not establish that remote work is the cause.",
     "estimatedTimeSeconds": 90
@@ -737,6 +845,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "Donors falling by a larger percentage than revenue rose contradicts the premise that revenue actually increased. The explanation is that many joined at a lower introductory fee.",
+      "C": "Whether new members bought books is about purchases, not membership fees, and does not explain falling fee revenue alongside more members. Lower introductory fees explain the gap.",
+      "D": "How far new members lived from the store has no bearing on fee revenue. The discrepancy is explained by many members paying a reduced introductory fee.",
+      "E": "Advertising spending is an expense and does not affect the fees collected. The explanation is that the new members paid lower introductory fees."
+    },
     "explanation": "A drop in the average price or in promotional fees could increase membership while reducing total revenue.",
     "estimatedTimeSeconds": 120
   },
@@ -775,6 +889,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "Rider satisfaction does not test whether the route caused growth beyond what would have happened anyway. The key question asks whether ridership would have grown without the route.",
+      "C": "Fare cost recovery measures financial viability, not whether the route caused the ridership growth. The useful question is whether growth would have occurred regardless.",
+      "D": "Growth on other routes is suggestive but the decisive question is the counterfactual for this route. Asking whether ridership would have grown anyway directly tests the success claim.",
+      "E": "Why the city added the route does not bear on whether its growth reflects real success. The crucial question is the counterfactual ridership growth."
     },
     "explanation": "It is necessary to determine whether the observed growth exceeds what would have occurred anyway.",
     "estimatedTimeSeconds": 105
@@ -815,6 +935,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "The model does not require the free version to outdraw every past paid product; it needs free users to convert. The required assumption is that many free users later buy the paid version.",
+      "C": "Word-of-mouth recommendations would help but are not logically required for the revenue conclusion. The needed assumption is conversion of free users to paying ones.",
+      "D": "Relative support costs concern profitability margins, not whether trying the product lifts paid revenue. The argument requires that free users will convert to buyers.",
+      "E": "That the paid version is useful to most users is close but the chain specifically needs free users to decide it is worth buying. Conversion of free users is the required assumption."
+    },
     "explanation": "The freemium model works only if a sufficient share of free users ultimately converts to paying customers.",
     "estimatedTimeSeconds": 105
   },
@@ -853,6 +979,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "C"
+    },
+    "distractorRationale": {
+      "A": "'All refrigerator samples remained usable' overstates the evidence, which says only that some did. Supported is that at least one refrigerated sample remained usable.",
+      "B": "Every room-temperature sample spoiled within 24 hours, so none remained usable; this is the opposite of the premise. The support is for at least one refrigerated sample lasting past 24 hours.",
+      "D": "We cannot conclude no refrigerated sample spoiled; only that some survived. The supported statement is that at least one refrigerated sample remained usable.",
+      "E": "Room temperature was unsafe for the samples, which all spoiled, so this contradicts the notes. What is supported is that at least one refrigerated sample stayed usable."
     },
     "explanation": "The statement explicitly says that some refrigerated samples remained usable after 24 hours.",
     "estimatedTimeSeconds": 90
@@ -893,6 +1025,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "More frequent attendance among feature users is itself a possible confounder, not proof the feature drove renewals. Strength comes from the renewal gap surviving controls for attendance and tenure.",
+      "C": "An overall rise in renewals the launch year could stem from many causes and does not isolate the feature. The strengthener controls for other factors and still finds higher renewal among users.",
+      "D": "Longer memberships among feature users is a confounder that could explain higher renewal, not support the claim. Strength comes from the effect persisting after controlling for membership length.",
+      "E": "General app satisfaction does not tie the specific feature to renewals. The strongest evidence is the renewal advantage that remains after controlling for attendance and tenure."
+    },
     "explanation": "Controlling for other factors makes the association more credible as a true effect of the feature itself.",
     "estimatedTimeSeconds": 120
   },
@@ -931,6 +1069,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "Shortening the ticket-buying process is an alternative cause for fewer complaints, but it is offered broadly; the sharper weakener pins the drop to seat-spacing routes regardless of free bags. That parallel cause directly undercuts the free-bag claim.",
+      "C": "Passengers liking to travel with luggage is generic and does not undercut the link between free bags and falling complaints. The weakener shows complaints fell where seat spacing improved, free bags or not.",
+      "D": "Some customers reading the policy online does not explain the complaint decline or sever the causal link. The weakener is the seat-spacing improvement that lowered complaints independently.",
+      "E": "Baggage-tag color is trivial and unrelated to satisfaction. The argument is weakened by complaints dropping on routes with better seat spacing whether or not bags were free."
     },
     "explanation": "A parallel improvement on certain roads offers an alternative explanation for the decline in complaints.",
     "estimatedTimeSeconds": 105
@@ -971,6 +1115,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "This restates the premise about glass collected, which is the support, not the conclusion. The main conclusion is the recommendation about future bin placement.",
+      "B": "That bins near apartments increase total recycling is an inference about cause, not the stated recommendation. The main conclusion is to place future bins where residents generate waste.",
+      "D": "Adding more bins overall is a different recommendation the argument never makes. The conclusion is to place bins where residents actually generate waste.",
+      "E": "Explaining why park bins collect less is a possible sub-point, not the main conclusion. The conclusion is the placement recommendation."
+    },
     "explanation": "The final recommendation is the main conclusion.",
     "estimatedTimeSeconds": 90
   },
@@ -1009,6 +1159,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "The argument does not need every customer to own a smartphone; advance online buyers are only a subset. The required assumption is that early buyers pay enough premium to offset any lost later sales.",
+      "C": "Lobby size is irrelevant to whether reserving premium seats raises revenue. The needed assumption concerns the price premium covering forgone standard-price sales.",
+      "D": "Actors' seating preferences have no bearing on revenue. The assumption required is that the early-purchase premium offsets any loss from seats otherwise sold later.",
+      "E": "A no-refund policy is not necessary for the revenue conclusion. The argument depends on early buyers paying enough extra to make up for lost later sales."
     },
     "explanation": "Reserving premium seats increases revenue only if the perceived price premium compensates for any potential loss of standard-price sales.",
     "estimatedTimeSeconds": 120
@@ -1049,6 +1205,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "Laid-off workers finding jobs elsewhere would not reduce this town's unemployment count in a way consistent with fewer people working here; it muddies rather than resolves. The clean explanation is the labor force shrinking as people stop looking.",
+      "C": "A growing population does not by itself lower the unemployment rate while employment falls. The resolution is that discouraged workers left the labor force.",
+      "D": "Reduced hours do not move workers out of the 'employed' count, so they would not lower the unemployment rate. The paradox is resolved by people exiting the labor force.",
+      "E": "Residents taking second jobs would not reduce the number of people working; it adds jobs per person, not workers. The explanation is a shrinking labor force from people who stopped looking."
+    },
     "explanation": "The unemployment rate can fall if people leave the labor force, even when the number of jobs decreases.",
     "estimatedTimeSeconds": 105
   },
@@ -1087,6 +1249,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "Having the same number of employees is a partial control but does not rule out other causes like weather or rates. Comparison with similar offices that did not switch better isolates the LED effect.",
+      "C": "Bulbs looking brighter is about appearance, not electricity cost, and does not support the savings claim. The strengthener compares usage against offices that kept old bulbs.",
+      "D": "Buying bulbs in bulk affects purchase cost, not ongoing electricity bills. Strength comes from the comparison with non-switching offices.",
+      "E": "Colder weather would tend to raise energy use, working against the claim rather than supporting it. The strongest evidence is the controlled comparison with similar offices."
     },
     "explanation": "Comparing with similar offices that did not switch helps isolate the effect of the LED lights.",
     "estimatedTimeSeconds": 90
@@ -1127,6 +1295,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "More breaks between classes is a minor difference that could plausibly aid learning but is weaker than an outright difference in instructor quality. The strongest alternative cause is the more experienced professor teaching the pilot.",
+      "C": "If the pilot covered a different subject, the scores would not be comparable at all, but the choice does not clearly do so for the same exam; the cleanest weakener is the teacher difference. A more experienced professor explains the higher scores.",
+      "D": "Students liking shorter lectures is about preference, not learning outcomes, and does not undercut the claim. The weakener is the superior instructor in the pilot course.",
+      "E": "A renovated classroom is a trivial factor unlikely to explain the score gap. The argument is weakened by the pilot's far more experienced professor."
+    },
     "explanation": "A difference in teacher provides a plausible alternative cause for the increase in scores.",
     "estimatedTimeSeconds": 120
   },
@@ -1165,6 +1339,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "Satisfaction does not measure whether shopping time actually fell because of the move rather than other trends. The useful question compares total shopping time to supermarkets that did not move counters.",
+      "C": "Shorter checkout-line waits is only one component and does not establish that total shopping time fell due to the move; customers could linger elsewhere. The decisive question benchmarks against comparable stores.",
+      "D": "More customers visiting is about traffic, not whether each shopper's time dropped because of the change. The evaluation needs a comparison with stores that kept their counters.",
+      "E": "Reduced shelf space is a side effect, not a test of the time-saving claim. The useful question is whether comparable supermarkets saw the same decline without moving counters."
     },
     "explanation": "Comparing with similar supermarkets makes it possible to determine whether the decline is due to the change or to other factors.",
     "estimatedTimeSeconds": 105
@@ -1205,6 +1385,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "Nothing supports that some coats are winter jackets; in fact July-sold coats cannot be winter jackets. What must be true is that at least one coat sold in July is not a winter jacket.",
+      "C": "We are told only that some coats sell in July, not all. The valid conclusion is that at least one July coat is not a winter jacket.",
+      "D": "Whether coats sell in winter is never addressed by the premises. The guaranteed statement is that some coat sold in July is not a winter jacket.",
+      "E": "The premises do not say winter jackets are never sold, only not in July. What must be true is that at least one July-sold coat is not a winter jacket."
+    },
     "explanation": "Since no winter jacket is sold in July, any coat sold in July cannot be a winter jacket; since some coats are sold in July, at least one coat is not a winter jacket.",
     "estimatedTimeSeconds": 90
   },
@@ -1243,6 +1429,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "Customers disliking plain boxes is about appearance, not whether stronger packaging is cost-effective at preventing damage. The strategy makes sense if the packaging costs less than the damage it prevents.",
+      "C": "Short shipping times do not establish that stronger packaging pays off. The condition is that its cost is below the average value of damage avoided.",
+      "D": "Storing only fragile items does not by itself justify the switch on cost grounds. The strategy is best if packaging cost is less than the prevented damage value.",
+      "E": "Recyclability is an environmental feature, not a cost-benefit justification for reducing damage. The condition is that the packaging costs less than the damages it averts."
     },
     "explanation": "The strategy is profitable if the cost of the new packaging is less than the average value of damages avoided.",
     "estimatedTimeSeconds": 120
@@ -1283,6 +1475,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "Donors falling by a larger percentage than revenue rose would not explain how revenue could increase at all; it conflicts with the premise. The explanation is that fewer donors gave much larger average gifts.",
+      "C": "More first-time donors implies more donors, contradicting the premise that the number of donations fell. The discrepancy is resolved by a higher average donation size.",
+      "D": "A trend of rising donations in previous years does not explain this year's rise despite fewer donations. The resolution is a larger average gift per donor.",
+      "E": "Rising expenses concern costs, not revenue, and do not explain how revenue grew with fewer donations. The explanation is a much higher average donation amount."
+    },
     "explanation": "Fewer individual donations can produce more revenue if the average amount per donation has increased substantially.",
     "estimatedTimeSeconds": 105
   },
@@ -1321,6 +1519,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "The argument does not need all performers to dislike earlier times; performer preference is irrelevant to attendance. The required assumption is that commuters are a meaningful share of potential attendees.",
+      "C": "Whether the theater sells snacks has no bearing on whether an earlier start raises attendance. The needed assumption is that commuters make up an important share of the audience.",
+      "D": "An earlier start time does not imply lower ticket prices, and the argument never relies on price changes. The assumption is that commuters are a significant portion of attendees.",
+      "E": "Free parking is unrelated to the claim that an earlier start helps commuters arrive on time. The required assumption is that commuters are an important share of potential attendees."
     },
     "explanation": "The argument depends on commuters representing a large enough share of the audience to influence total attendance.",
     "estimatedTimeSeconds": 105

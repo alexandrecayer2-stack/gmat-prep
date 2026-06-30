@@ -32,6 +32,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "Security staffing is an operational detail that does not bear on whether the evening hours caused the rise in renewals. The argument needs the link between night access and members who could not otherwise attend (B).",
+      "C": "Art preferences are irrelevant to whether the new hours drove renewals. The required assumption is that the evening hours reached members who could not visit during the day (B).",
+      "D": "Operating cost is about expenses, not about why renewals rose. The argument depends on the evening hours attracting members who otherwise could not have come (B).",
+      "E": "Advertising may help attendance but is not what the causal claim requires; even unadvertised, the hours could work. The needed assumption is that night-only members would otherwise be unable to attend (B)."
+    },
     "explanation": "The argument claims the evening hours caused the rise in renewals. That requires assuming the new hours attracted members who otherwise could not have visited. Choice B.",
     "estimatedTimeSeconds": 75,
     "tags": [
@@ -71,6 +77,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "Confirming the stores' losses supports the chain's plan rather than weakening it. To weaken, you need a benefit the closures would destroy, such as the profitable local online orders (B).",
+      "C": "That other stores stay profitable says nothing about hidden value lost by closing these two. The weakener is the profitable online orders tied to the closing stores (B).",
+      "D": "Selling off inventory is a one-time logistics point, not evidence that closing hurts profit. The damage comes from losing the stores' profitable online orders (B).",
+      "E": "Higher rent actually reinforces the case for closing the money-losing stores. To undercut the plan you need a benefit the stores provide, namely the local online orders (B)."
     },
     "explanation": "If the stores produce profitable online orders from local customers, closing them could reduce revenue that is not reflected in the stores' own losses. That weakens the justification. Choice B.",
     "estimatedTimeSeconds": 75,
@@ -112,6 +124,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "Higher ridership shows the lane is used but not that commute times actually fell; usage is not the same as speed. The direct before-and-after drop on the avenue is what strengthens the claim (A).",
+      "C": "If times also fell where no bus lane was added, that points to some other cause and weakens the claim rather than strengthening it. The same-avenue drop is the support (A).",
+      "D": "Drivers' impressions of congestion are subjective and weaker than a measured travel-time decline. The before-and-after drop on the avenue is the strongest support (A).",
+      "E": "A citywide decline suggests a common cause unrelated to the lane, which undercuts rather than bolsters the claim. The avenue-specific drop is what helps (A)."
+    },
     "explanation": "A direct before-and-after drop on the same avenue supports the claim that the bus lane helped reduce commute times. Choice A.",
     "estimatedTimeSeconds": 75,
     "tags": [
@@ -151,6 +169,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "Whether stations are in use is never stated; the premises only place them downtown. What follows is that some downtown facilities are charging stations (A).",
+      "C": "This contradicts the premise that all charging stations are downtown. The valid inference is that some downtown facilities are charging stations (A).",
+      "D": "'At least one' does not mean 'exactly one'; there could be many. The supported inference is that some downtown facilities are charging stations (A).",
+      "E": "Walking distance is never mentioned and cannot be derived. The only inference is that some downtown facilities are charging stations (A)."
     },
     "explanation": "If all charging stations are downtown and at least one exists, then some downtown facilities are public charging stations. Choice A.",
     "estimatedTimeSeconds": 60,
@@ -192,6 +216,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "Paper savings concern cost, not whether completion rates rise, which is the plan's stated goal. The key unknown is whether students can submit online at all, i.e. internet access (B).",
+      "C": "Engagement is suggestive but does not determine whether students can actually complete and submit work. Reliable internet access is the decisive factor (B).",
+      "D": "Knowing the current rate is above average does not tell you whether going online will raise it. What matters is whether students have the access to complete online work (B).",
+      "E": "Faster grading is a benefit for teachers, not evidence about student completion. The plan hinges on students having reliable internet access (B)."
+    },
     "explanation": "The plan depends on students being able to submit work online. The share with reliable internet access directly affects whether completion rates are likely to rise. Choice B.",
     "estimatedTimeSeconds": 75,
     "tags": [
@@ -231,6 +261,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "This reverses the roles: the first statement recommends an action and is the conclusion, while the second is the supporting fact, i.e. the premise (A).",
+      "C": "The first statement is a recommendation, not a factual premise; it is the conclusion the argument drives toward. Only the second is a premise (A).",
+      "D": "The second statement reports a fact used as support, so it is a premise, not a conclusion. The first is the conclusion (A).",
+      "E": "Neither boldface is an objection or an assumption; the first is the recommendation (conclusion) and the second is supporting evidence (premise). Choice A."
     },
     "explanation": "The first boldface sentence is the argument's conclusion: it recommends delaying the start time. The second boldface sentence is a factual statement used as support, so it is a premise. Choice A.",
     "estimatedTimeSeconds": 80,
@@ -272,6 +308,12 @@
       "format": "single",
       "value": "D"
     },
+    "distractorRationale": {
+      "A": "Necessary-versus-sufficient confusion is not present; no conditional is being misread. The actual error is inferring individual productivity from group averages (D).",
+      "B": "No authority is cited, so this misnames the flaw. The reasoning's real defect is moving from group averages to a claim about employees (D).",
+      "C": "The argument does not assume its conclusion in its premises; it draws an unsupported leap instead. That leap is from group averages to individuals (D).",
+      "E": "The argument actually uses numerical evidence (the averages); it does not ignore it. Its flaw is generalizing from those averages to individuals (D)."
+    },
     "explanation": "The argument jumps from a difference in group averages to a claim about productivity of employees. That is a flawed inference from group statistics to a conclusion about individuals. Choice D.",
     "estimatedTimeSeconds": 70,
     "tags": [
@@ -311,6 +353,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "C"
+    },
+    "distractorRationale": {
+      "A": "A smaller cake at the same price is effectively a hidden price increase and does not explain why sales rose after a stated 20% increase. The quality-signal effect resolves the paradox (C).",
+      "B": "Competitors also raising prices does not explain why this bakery's higher-priced cake sold more; it gives no reason for increased demand here. The quality-signaling explanation does (C).",
+      "D": "Less advertising would tend to lower sales, deepening the paradox rather than resolving it. The resolution is that the higher price signaled higher quality (C).",
+      "E": "Fewer cakes bought town-wide makes the rise in this cake's sales more puzzling, not less. The quality-signal effect is what reconciles the higher price with higher sales (C)."
     },
     "explanation": "If customers interpreted the higher price as a sign of higher quality, demand could rise even after the price increase. Choice C.",
     "estimatedTimeSeconds": 75,
@@ -352,6 +400,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "Dislike of email is about a third channel and irrelevant to whether texts can replace calls. The needed assumption is that texts reach patients as reliably as calls (B).",
+      "C": "The argument never claims calls are abandoned forever; permanence is not what the cost conclusion requires. It requires that texts be as reliable as calls (B).",
+      "D": "Texting does not require expensive smartphones, and this overstates what is needed. The required assumption is comparable reliability of texts versus calls (B).",
+      "E": "Hiring new staff would add cost and cut against the savings claim, so it is not an assumption the argument needs. The needed assumption is that texts reach patients as reliably as calls (B)."
+    },
     "explanation": "The cost savings matter only if text reminders are effective enough to replace calls. The argument needs the assumption that texts reach patients as reliably as phone calls. Choice B.",
     "estimatedTimeSeconds": 75,
     "tags": [
@@ -391,6 +445,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "E"
+    },
+    "distractorRationale": {
+      "A": "A new cafeteria is a vague co-occurring change with no clear tie to an 8% output gain. The strong alternative cause is the task-automating software introduced at the same time (E).",
+      "B": "Employees enjoying the schedule does not show the schedule, rather than another factor, caused the gain. The simultaneous automation is the real weakener (E).",
+      "C": "Steady quality alongside higher output tends to support that the gain was real, not weaken the causal claim. The weakener is the concurrent automation software (E).",
+      "D": "Surveying only managers concerns who was asked, not what caused the productivity rise. The competing cause is the new automation software (E)."
     },
     "explanation": "If automation was introduced at the same time, the productivity gain may have been caused by the software rather than the shorter workweek. Choice E.",
     "estimatedTimeSeconds": 75,
@@ -432,6 +492,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "Warmer weather is an alternative cause that could explain higher yields, which weakens rather than strengthens the fertilizer claim. The controlled placebo comparison is what strengthens it (A).",
+      "C": "Plans to buy more fertilizer reflect the farmer's intent, not evidence the fertilizer worked. The placebo-controlled test provides that evidence (A).",
+      "D": "Crop prices rising after harvest concern revenue, not yield, and are irrelevant to the causal claim. The controlled comparison strengthens it (A).",
+      "E": "Long-used soil, if anything, would tend to lower yields and does not support the fertilizer. The placebo-controlled comparison is the strengthener (A)."
+    },
     "explanation": "A controlled comparison between treated plots and placebo plots makes it more likely that the fertilizer, rather than some other factor, caused the higher yield. Choice A.",
     "estimatedTimeSeconds": 75,
     "tags": [
@@ -471,6 +537,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "C"
+    },
+    "distractorRationale": {
+      "A": "Nothing links remote workers to non-consultants; the premises connect Team Blue, certification, and weekends. The valid inference is that no Team Blue consultant works weekends (C).",
+      "B": "This contradicts the chain that certified consultants do not work weekends. The correct inference is the opposite: none of them work weekends (C).",
+      "D": "The premises say some Team Blue consultants work remotely, not that all certified consultants do. The supported inference is that none work weekends (C).",
+      "E": "Every Team Blue consultant is stated to be certified, so this is false. The inference that follows is that none of them work weekends (C)."
     },
     "explanation": "Team Blue consultants are certified, and certified consultants do not work on weekends. Therefore, no Team Blue consultant works on weekends. Choice C.",
     "estimatedTimeSeconds": 65,
@@ -512,6 +584,12 @@
       "format": "single",
       "value": "D"
     },
+    "distractorRationale": {
+      "A": "Books lent per month measures library activity, not whether the panels reduce expenses. What matters is the panels' maintenance and replacement costs (D).",
+      "B": "Whether panels were already bought does not help judge whether they will reduce expenses going forward. The relevant data are their upkeep and replacement costs (D).",
+      "C": "Number of events hosted is unrelated to the panels' net savings. To evaluate the plan you need maintenance and replacement costs (D).",
+      "E": "What nearby libraries do does not establish this library's savings. The decisive information is the panels' maintenance and replacement costs (D)."
+    },
     "explanation": "To judge whether the panels reduce expenses, the library needs to know the costs of maintaining and eventually replacing them. Those costs determine whether the projected savings are real. Choice D.",
     "estimatedTimeSeconds": 80,
     "tags": [
@@ -551,6 +629,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "This reverses the roles: the first boldface is the analyst's causal conclusion, and the second is a factual comparison serving as a premise (A).",
+      "C": "The first boldface is a conclusion ('must have caused'), not a premise. Only the second functions as a premise (A).",
+      "D": "The second boldface is a supporting factual claim, not a second conclusion. The first is the conclusion and the second a premise (A).",
+      "E": "The first boldface is the conclusion being advanced, not an objection, and the second is a premise rather than a conclusion. Choice A."
     },
     "explanation": "The first boldface sentence is the analyst's conclusion. The second boldface sentence is a factual comparison used to support a challenge to the conclusion, so it functions as a premise in the argument structure. Choice A.",
     "estimatedTimeSeconds": 80,
@@ -592,6 +676,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "This describes a part-to-whole (composition) flaw, which is not what happens here. The actual error is inferring causation from a mere correlation (B).",
+      "C": "Overlooking cost is a practical objection, not the logical flaw in the inference. The flaw is treating correlation as causation (B).",
+      "D": "The argument does not claim parks are the only way to cut crime; it leaps from association to cause. That correlation-to-causation leap is the flaw (B).",
+      "E": "Sample representativeness is not the problem stated; the neighborhoods' data are taken as given. The flaw is inferring causation from correlation (B)."
+    },
     "explanation": "The argument assumes that because two things are associated, one must cause the other. That is a correlation-to-causation flaw. Choice B.",
     "estimatedTimeSeconds": 70,
     "tags": [
@@ -631,6 +721,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "E"
+    },
+    "distractorRationale": {
+      "A": "Removing the call center on top of cutting staff would worsen support, deepening the puzzle rather than explaining higher satisfaction. The faster self-service system resolves it (E).",
+      "B": "Fewer users does not explain why the remaining customers were more satisfied. The self-service and chatbot improvement does (E).",
+      "C": "Raising prices would, if anything, lower satisfaction and makes the result more surprising. The explanation is the faster self-service help system (E).",
+      "D": "If employees, not customers, took the survey, the scores would not measure customer satisfaction at all, which does not explain a genuine rise. The self-service system explains it (E)."
     },
     "explanation": "A faster self-service system and chatbot could offset the smaller staff and improve customers' experience, explaining why satisfaction rose. Choice E.",
     "estimatedTimeSeconds": 75,
@@ -672,6 +768,12 @@
       "format": "single",
       "value": "D"
     },
+    "distractorRationale": {
+      "A": "Lowering the price is never part of the plan and is not something the reasoning needs. The required assumption is that Tuesday demand stays high enough to be profitable (D).",
+      "B": "Claiming customers never change habits is far too strong and not what the argument needs. It needs Tuesday turnout to remain sufficient for the menu to succeed (D).",
+      "C": "How the restaurant advertises is irrelevant to the logic of moving to a slower night. The needed assumption is adequate Tuesday demand (D).",
+      "E": "The chef's day preference is beside the point. The argument depends on Tuesdays still drawing enough diners for the tasting menu to be profitable (D)."
+    },
     "explanation": "The reasoning assumes that Tuesday demand will still be sufficient for the tasting menu to succeed; otherwise the move could reduce revenue even if diners are adventurous. Choice D.",
     "estimatedTimeSeconds": 75,
     "tags": [
@@ -712,6 +814,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "A larger drop among those who completed the full training supports the program's effectiveness rather than weakening it. The weakener is that attendees already had fewer errors beforehand (A).",
+      "C": "Cost overruns concern budget, not whether the training actually reduced errors. The weakener is the pre-existing difference in error rates (A).",
+      "D": "Non-attendees feeling rushed does not undercut the link between training and fewer errors; if anything it supports it. The real weakener is selection bias in who attended (A).",
+      "E": "Offering the training to new hires is a future plan, not evidence about the claimed effect. The weakener is that attendees already made fewer errors (A)."
+    },
     "explanation": "If the employees who took the training were already making fewer errors, the improvement may have reflected the initial difference rather than the program itself. Choice A.",
     "estimatedTimeSeconds": 75,
     "tags": [
@@ -751,6 +859,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "C"
+    },
+    "distractorRationale": {
+      "A": "'Always harmful' is an extreme distortion the passage never endorses. The main point is that success depends on habitat diversity, not just on adding hives (C).",
+      "B": "The passage makes no universal claim that rooftop hives beat park hives everywhere. Its main point is that diverse local habitat, not hive count, drives success (C).",
+      "D": "Pesticides are mentioned as one factor, not the sole determinant of honey production. The main point is the need for diverse habitat alongside more hives (C).",
+      "E": "The passage does not say urban pollination is impossible without rural land. Its central claim is that habitat diversity is what makes urban beekeeping work (C)."
     },
     "explanation": "The passage argues that urban beekeeping succeeds only when the surrounding habitat is diverse enough to support the bees; simply increasing hive numbers is not sufficient. Choice C.",
     "estimatedTimeSeconds": 70,
@@ -794,6 +908,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "Heavy traffic is never identified as the condition for strong hives. The passage ties hive health to diverse flowering plants and pesticide-free green spaces (B).",
+      "C": "The passage does not single out rooftops as where hives did best. It points to diverse flora and nearby pesticide-free green spaces (B).",
+      "D": "Large ponds in parks are not the stated condition. Hive health was strongest with diverse flowering plants and pesticide-free surroundings (B).",
+      "E": "Industrial districts are not cited as favorable for hives. The strongest hive health came with diverse flora and pesticide-free green spaces (B)."
+    },
     "explanation": "The passage says hive health was strongest where flowering plants were diverse and where the immediate surroundings included small, pesticide-free green spaces. Choice B.",
     "estimatedTimeSeconds": 60,
     "tags": [
@@ -835,6 +955,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "D"
+    },
+    "distractorRationale": {
+      "A": "The passage's caution is the opposite: more hives alone do not automatically raise honey output. The supported inference is that adding hives without floral diversity could worsen conditions (D).",
+      "B": "The passage makes no rural-versus-urban comparison about disease. The best inference is that adding hives without more floral diversity could worsen conditions (D).",
+      "C": "Nothing says urban bees depend on rooftop hives specifically. The supported inference concerns hives plus floral diversity (D).",
+      "E": "The passage stresses that the surrounding environment matters greatly, so this contradicts it. The inference is that more hives without more flora could worsen conditions (D)."
     },
     "explanation": "Because the researchers cautioned that more hives without improved floral diversity could intensify competition and stress, the best inference is that adding hives alone could worsen conditions. Choice D.",
     "estimatedTimeSeconds": 75,
@@ -878,6 +1004,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "The final sentence reinforces the passage's theme rather than introducing a contradiction. It functions as a warning against a simplistic policy fix (A).",
+      "C": "The closing sentence gives a caution, not a detailed statistic. Its role is to warn against a simplistic recommendation (A).",
+      "D": "There is no shift to history at the end. The sentence warns readers against an oversimplified solution (A).",
+      "E": "The sentence does not define an urban hive. It cautions against the simplistic step of just adding more hives (A)."
+    },
     "explanation": "The final sentence cautions that expanding hive numbers without improving the habitat could be counterproductive. It functions as a warning against a simplistic solution. Choice A.",
     "estimatedTimeSeconds": 70,
     "tags": [
@@ -919,6 +1051,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "D"
+    },
+    "distractorRationale": {
+      "A": "The passage does not claim old solvents outperform imaging; it presents imaging as a helpful analytical tool. The main idea is that imaging aids analysis but does not remove the need for judgment (D).",
+      "B": "The passage explicitly says imaging does not replace judgment, contradicting this. Its main idea is that imaging helps but judgment remains necessary (D).",
+      "C": "Conservators are never said to ignore historical value; the passage in fact emphasizes it. The main idea is that imaging assists while judgment is still required (D).",
+      "E": "The passage notes imaging can be slower and costlier, so this overstates the benefit. Its main idea is that imaging supports analysis without replacing judgment (D)."
     },
     "explanation": "The passage presents multispectral imaging as a useful tool that lets conservators study a work before cleaning it, while emphasizing that human judgment is still necessary. Choice D.",
     "estimatedTimeSeconds": 70,
@@ -962,6 +1100,12 @@
       "format": "single",
       "value": "D"
     },
+    "distractorRationale": {
+      "A": "The passage does not say imaging eliminates chemical cleaning. It says mapping composition first has reduced accidental loss of fragile layers (D).",
+      "B": "The passage notes spectral signatures can overlap and be misread, so imaging is not error-free. The reduction in damage comes from mapping before touching the surface (D).",
+      "C": "Universal cheapness is not claimed; imaging can be more expensive. What reduced damage was mapping composition before intervening (D).",
+      "E": "The passage is about analysis before cleaning, not repainting murals from scratch. The damage reduction came from mapping composition first (D)."
+    },
     "explanation": "The passage says teams now map the composition before touching the surface, which has reduced accidental loss of fragile layers in several cases. Choice D.",
     "estimatedTimeSeconds": 65,
     "tags": [
@@ -1003,6 +1147,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "C"
+    },
+    "distractorRationale": {
+      "A": "The passage treats imaging as valuable precisely for important works, so 'useless' is the reverse of its point. The supported inference is that cost is justified by the work's historical value (C).",
+      "B": "Imaging is described as a tool used before cleaning, not only afterward. The best-supported inference is that its cost is justified when the work has historical value (C).",
+      "D": "The passage says imaging can reveal more than traditional inspection and can also be misread, so results are not always identical. The supported inference is the cost-versus-value point (C).",
+      "E": "Outdoor sculptures are not the focus; the passage discusses paintings and layered works. The inference is that imaging is attractive when justified by historical value (C)."
     },
     "explanation": "The passage notes that imaging can be slower and more expensive, and that advocates see the cost as justified when the work has historical value that cannot be recovered if lost. That supports choice C.",
     "estimatedTimeSeconds": 80,
@@ -1046,6 +1196,12 @@
       "format": "single",
       "value": "E"
     },
+    "distractorRationale": {
+      "A": "Emphasizing uncertainty is close, but the sentence's specific job is to qualify the earlier praise by flagging a limitation. Choice E captures that role more precisely.",
+      "B": "The sentence does not introduce a new, unrelated method; it addresses the same imaging technique. It qualifies the prior praise by noting a limitation (E).",
+      "C": "The sentence says the opposite of removing the need for experts: judgment is still required. It qualifies the earlier praise with a limitation (E).",
+      "D": "There is no shift to anecdote here. The sentence tempers the earlier positive treatment by naming a limit of the technique (E)."
+    },
     "explanation": "This sentence qualifies the earlier positive discussion by explaining that imaging has limits and cannot fully replace expert judgment. Choice E.",
     "estimatedTimeSeconds": 75,
     "tags": [
@@ -1087,6 +1243,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "The passage does not claim wind farms always raise biodiversity; effects vary by species. The main point is that impacts are uneven and require site-by-site assessment (A).",
+      "C": "Fish are described as rebounding, not permanently avoiding foundations. The main point is the uneven, site-specific nature of the effects (A).",
+      "D": "The passage reports a construction-period dip, so construction does have a measurable effect. The main point is that effects vary and must be judged per site (A).",
+      "E": "The passage focuses on fish, not coastal birds. Its main point is that wind farms affect marine life unevenly and should be assessed site by site (A)."
     },
     "explanation": "The passage explains that wind farms can help some species and displace others, so their effects must be evaluated site by site. Choice A.",
     "estimatedTimeSeconds": 70,
@@ -1130,6 +1292,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "The passage says fish rebounded later, so they did not vanish permanently. The correct detail is a dip during construction followed by a rebound (C).",
+      "B": "The increase described is near the foundations, not only in open water; open-water species stayed sparse. The detail is a construction dip then a rebound (C).",
+      "D": "Populations changed during construction, so they did not stay exactly the same. They dipped and then rebounded (C).",
+      "E": "Fish near the foundations were affected during construction, not unaffected. They dipped and later rebounded (C)."
+    },
     "explanation": "The passage says fish populations near turbine foundations initially dipped during construction but later rebounded. Choice C.",
     "estimatedTimeSeconds": 65,
     "tags": [
@@ -1172,6 +1340,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "'Always harm' is an overstatement the passage avoids; some species benefited. The supported inference is that a structure may help one species while displacing another (B).",
+      "C": "Open-water species are described as remaining sparse, not thriving near artificial reefs. The inference is that a structure can help one species and displace another (B).",
+      "D": "The construction-period dip shows construction does matter, contradicting this. The inference is that a structure benefits some species while displacing others (B).",
+      "E": "The researchers in fact distinguished among species, so they did not ignore differences. The supported inference is the help-one, displace-another point (B)."
+    },
     "explanation": "Because some species clustered around the foundations while open-water species remained sparse, the passage supports the inference that a structure can benefit one species while displacing another. Choice B.",
     "estimatedTimeSeconds": 75,
     "tags": [
@@ -1213,6 +1387,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "D"
+    },
+    "distractorRationale": {
+      "A": "The final sentence draws a measured conclusion rather than dismissing the study. It summarizes the cautious site-by-site recommendation (D).",
+      "B": "The sentence offers an analytical conclusion, not an emotional appeal. Its function is to state the cautious per-site conclusion (D).",
+      "C": "There is no shift to economics; the focus stays on environmental effects. The sentence summarizes the site-by-site conclusion (D).",
+      "E": "The sentence reinforces, rather than counters, the study's central finding. It summarizes the authors' cautious conclusion to evaluate each site separately (D)."
     },
     "explanation": "The final sentence states the authors' cautious conclusion: effects vary, so each site should be judged individually. Choice D.",
     "estimatedTimeSeconds": 70,

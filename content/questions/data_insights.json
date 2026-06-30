@@ -7,6 +7,12 @@
     "topic": "data sufficiency",
     "stem": "Is $x > 0$ ?\n\n(1) $x^2 > 0$\n\n(2) $x^3 > 0$",
     "correctAnswer": { "format": "single", "value": "B" },
+    "distractorRationale": {
+      "A": "Choosing **A** overrates statement (1): $x^2 > 0$ only rules out $x = 0$ and is true for both $x = 2$ and $x = -2$, so it cannot fix the sign. The sign is settled only by (2), since $x^3 > 0$ forces $x > 0$.",
+      "C": "Choosing **C** assumes both statements are needed, but (2) alone already determines the answer: $x^3 > 0 \\Rightarrow x > 0$. You do not need (1) at all.",
+      "D": "Choosing **D** claims each statement alone works, but (1) fails — $x^2 > 0$ holds for negative $x$ too. Only (2) is sufficient on its own.",
+      "E": "Choosing **E** dismisses both, yet (2) is decisive: an odd power preserves sign, so $x^3 > 0$ guarantees $x > 0$."
+    },
     "explanation": "**Statement (1):** $x^2 > 0$ only tells you that $x \\neq 0$; $x$ could be positive or negative. Not sufficient.\n\n**Statement (2):** An odd power preserves sign, so $x^3 > 0$ forces $x > 0$. Sufficient.\n\nSince (2) alone works and (1) alone does not, the answer is **B**.",
     "estimatedTimeSeconds": 120
   },
@@ -18,6 +24,12 @@
     "topic": "data sufficiency",
     "stem": "If $x$ and $y$ are positive integers, what is the value of $x + y$ ?\n\n(1) $xy = 12$\n\n(2) $x$ and $y$ are both even, and $x < y$",
     "correctAnswer": { "format": "single", "value": "C" },
+    "distractorRationale": {
+      "A": "Choosing **A** treats (1) as sufficient, but $xy = 12$ has several positive-integer pairs — $(1,12), (2,6), (3,4)$ — with different sums. Statement (1) alone cannot fix $x + y$.",
+      "B": "Choosing **B** treats (2) as sufficient, but 'both even with $x < y$' describes infinitely many pairs like $(2,4)$ or $(4,6)$. You also need the product from (1) to pin down the values.",
+      "D": "Choosing **D** claims either statement alone works, yet neither does: (1) leaves multiple factor pairs and (2) leaves infinitely many even pairs. Only combined do they force $(2,6)$.",
+      "E": "Choosing **E** says even together they fail, but combining them isolates the one factor pair of 12 with both numbers even and $x < y$, namely $(2,6)$, giving $x + y = 8$."
+    },
     "explanation": "**Statement (1):** $xy = 12$ allows $(1,12), (2,6), (3,4)$, etc., giving different sums. Not sufficient.\n\n**Statement (2):** Infinitely many even pairs with $x < y$. Not sufficient.\n\n**Together:** Among the factor pairs of 12, only $(2,6)$ has *both* numbers even, and $x < y$ fixes $x = 2, y = 6$. So $x + y = 8$. Sufficient together but neither alone — the answer is **C**.",
     "estimatedTimeSeconds": 165
   },
@@ -158,6 +170,12 @@
       { "key": "E", "text": "A $150 order shipped by standard, placed before noon" }
     ],
     "correctAnswer": { "format": "single", "value": "C" },
+    "distractorRationale": {
+      "A": "A \\$250 order clears the spending threshold but is shipped by **express**, which is never free. Free shipping requires standard shipping over \\$200, which only (C) satisfies.",
+      "B": "A \\$180 standard order uses the right method but does not exceed \\$200, so it misses the spending requirement. The qualifying order must be standard *and* over \\$200, as in (C).",
+      "D": "A \\$300 order easily clears the spending bar but is **express**, which is excluded from free shipping. Only the \\$220 standard order in (C) meets both conditions.",
+      "E": "A \\$150 standard order is over the noon cutoff timing but still under the \\$200 minimum, so it does not qualify. The free-shipping rule needs spending over \\$200 with standard shipping, met only by (C)."
+    },
     "explanation": "Free shipping requires (i) spending **over \\$200** and (ii) **standard** shipping, since express is never free. Only (C) — a \\$220 standard order — meets both. (A) and (D) are express; (B) and (E) are \\$200 or less.",
     "estimatedTimeSeconds": 150
   },

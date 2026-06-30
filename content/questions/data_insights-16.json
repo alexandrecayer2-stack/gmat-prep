@@ -9,6 +9,12 @@
     "stem": "A rectangular garden has length $L$ meters and width $W$ meters. What is the length $L$?\n\n(1) $L = W + 5$\n(2) $W = 8$",
     "assets": {},
     "correctAnswer": {"format": "single", "value": "C"},
+    "distractorRationale": {
+      "A": "Statement (1) gives $L = W + 5$, a relation in two unknowns, so $L$ is not pinned down without $W$; (1) alone is not sufficient. Together with (2)'s $W = 8$, $L = 13$ is determined.",
+      "B": "Statement (2) fixes $W = 8$ but says nothing about $L$, so it cannot give $L$ on its own. Only combined with (1)'s $L = W + 5$ does $L = 13$ follow.",
+      "D": "Neither statement alone works: (1) has two unknowns and (2) never mentions $L$. Both are needed, so this overstates each statement's power.",
+      "E": "The two statements together do determine $L$: $L = 8 + 5 = 13$. Concluding 'not even together' ignores that the relation plus the value of $W$ fixes $L$."
+    },
     "explanation": "(1) alone gives a relation but two unknowns, so L is not determined. (2) alone fixes W but says nothing about L. Together, $L = 8 + 5 = 13$, uniquely determined. Answer C.",
     "estimatedTimeSeconds": 120
   },
@@ -22,6 +28,12 @@
     "stem": "A student took 4 quizzes. What was the student's average (arithmetic mean) score on the 4 quizzes?\n\n(1) The total of the 4 quiz scores was 312.\n(2) The highest quiz score was 88.",
     "assets": {},
     "correctAnswer": {"format": "single", "value": "A"},
+    "distractorRationale": {
+      "B": "Statement (2) gives only the single highest score, 88, with nothing about the other three, so the mean cannot be found from it. The total in (1) gives $312/4 = 78$ directly.",
+      "C": "This treats both statements as needed, but (1) alone already yields the mean $312/4 = 78$; (2) adds nothing required.",
+      "D": "Statement (2) alone is not sufficient (one score does not fix the average), so the answer is not D. Only (1) works alone.",
+      "E": "The mean is fully determined by (1)'s total, $312/4 = 78$, so it is wrong to call the data insufficient."
+    },
     "explanation": "(1) gives the total 312, so the mean is $312 / 4 = 78$, sufficient. (2) gives only one score and nothing about the others, insufficient. Answer A.",
     "estimatedTimeSeconds": 105
   },
@@ -35,6 +47,12 @@
     "stem": "Is the integer $n$ divisible by 6?\n\n(1) $n$ is divisible by 3.\n(2) $n$ is divisible by 4.",
     "assets": {},
     "correctAnswer": {"format": "single", "value": "C"},
+    "distractorRationale": {
+      "A": "Divisibility by 3 alone does not force divisibility by 6 (e.g. 9 is divisible by 3 but not 6), so (1) is insufficient. You also need a factor of 2, supplied by (2).",
+      "B": "Divisibility by 4 alone does not force divisibility by 6 (e.g. 4 is not divisible by 6), so (2) is insufficient. You also need a factor of 3, supplied by (1).",
+      "D": "Neither statement alone settles the question, as the counterexamples 9 and 4 show. Both are required, so D overstates each.",
+      "E": "Together $n$ is divisible by both 3 and 4, hence by 12, which is a multiple of 6, so the question is answered; it is not insufficient."
+    },
     "explanation": "(1) alone: n divisible by 3 need not be divisible by 6 (e.g. 9 is not, 6 is), insufficient. (2) alone: divisible by 4 need not be divisible by 6 (e.g. 4 is not, 12 is), insufficient. Together, n is divisible by both 3 and 4, hence by lcm(3,4) = 12, which is a multiple of 6, so n is divisible by 6. Answer C.",
     "estimatedTimeSeconds": 135
   },
@@ -48,6 +66,12 @@
     "stem": "A jacket was sold after a single discount off its original price. What was the original price of the jacket?\n\n(1) The discount was 30 percent of the original price.\n(2) The discount amount was 24.",
     "assets": {},
     "correctAnswer": {"format": "single", "value": "C"},
+    "distractorRationale": {
+      "A": "Statement (1) gives only the discount rate, 30 percent, with no dollar amount, so the original price cannot be recovered alone. The amount in (2) is also needed.",
+      "B": "Statement (2) gives the discount amount, 24, but not what fraction of the price it is, so the original is undetermined. The rate in (1) is also needed.",
+      "D": "Neither a bare rate nor a bare amount fixes the price by itself. Both are required, so D is too strong.",
+      "E": "Together the price is found: $24 = 0.30 \\times \\text{original}$, so original $= 24/0.30 = 80$. The data is sufficient, not insufficient."
+    },
     "explanation": "(1) gives the discount rate but no absolute amount, insufficient. (2) gives the discount amount but not what fraction it represents, insufficient. Together, the discount of 24 equals 30 percent of the original, so the original is $24 / 0.30 = 80$. Answer C.",
     "estimatedTimeSeconds": 130
   },
@@ -61,6 +85,12 @@
     "stem": "A box contains only red marbles and blue marbles. How many red marbles are in the box?\n\n(1) The ratio of red marbles to blue marbles is $3 : 2$.\n(2) There are more than 20 marbles in the box in total.",
     "assets": {},
     "correctAnswer": {"format": "single", "value": "E"},
+    "distractorRationale": {
+      "A": "Statement (1) gives only the ratio $3:2$, so the red count scales with the total (15, 30, ...) and is not unique. The bound in (2) does not fix it either.",
+      "B": "Statement (2) only says the total exceeds 20, giving no count at all. It cannot determine the red marbles alone.",
+      "C": "This is the trap: combining the ratio with 'more than 20' still leaves many valid totals (25, 30, 35, ...), each giving a different red count (15, 18, 21, ...). The two together are still insufficient.",
+      "D": "Neither statement alone gives a count, so D is wrong; even together the red count is not unique."
+    },
     "explanation": "(1) gives the ratio only, so the count of red marbles is not fixed, insufficient. (2) gives only a lower bound on the total, insufficient. Together, the total must be a multiple of 5 greater than 20 (since the ratio uses 5 parts), so it could be 25 (15 red), 30 (18 red), 35 (21 red), and so on; the red count is still not unique. Answer E.",
     "estimatedTimeSeconds": 130
   },
@@ -74,6 +104,12 @@
     "stem": "What is the value of $y$?\n\n(1) $5y - 2 = 18$\n(2) $y$ is positive",
     "assets": {},
     "correctAnswer": {"format": "single", "value": "A"},
+    "distractorRationale": {
+      "B": "Statement (2) only tells you $y$ is positive, which does not pin a single value. Statement (1)'s equation gives $y = 4$ outright.",
+      "C": "Statement (1) alone already solves $5y - 2 = 18$ to $y = 4$, so (2) is not needed; treating both as required overstates it.",
+      "D": "Statement (2) alone is not sufficient (positivity allows infinitely many values), so the answer is not D. Only (1) works.",
+      "E": "The value is fully determined: $5y = 20$, so $y = 4$. The data is sufficient, not insufficient."
+    },
     "explanation": "(1) gives $5y = 20$, so $y = 4$, a unique value, sufficient. (2) only narrows the sign, insufficient. Answer A.",
     "estimatedTimeSeconds": 95
   },
@@ -87,6 +123,12 @@
     "stem": "At a stand, apples cost $a$ each and pears cost $p$ each. What is the price $a$ of one apple?\n\n(1) Three apples and two pears cost 13.\n(2) One apple and one pear cost 5.",
     "assets": {},
     "correctAnswer": {"format": "single", "value": "C"},
+    "distractorRationale": {
+      "A": "Statement (1) is the single equation $3a + 2p = 13$ in two unknowns, so $a$ is not determined alone. A second equation from (2) is needed.",
+      "B": "Statement (2) is the single equation $a + p = 5$, again two unknowns and no unique $a$. You also need (1).",
+      "D": "One linear equation cannot solve for two unknowns, so neither statement works alone. Both are required, making D too strong.",
+      "E": "Together the system solves cleanly: substituting $p = 5 - a$ into (1) gives $a = 3$. The data is sufficient, not insufficient."
+    },
     "explanation": "(1) is one equation $3a + 2p = 13$ in two unknowns, insufficient. (2) is one equation $a + p = 5$, insufficient. Together: from (2), $p = 5 - a$; substitute into (1): $3a + 2(5 - a) = 13$, so $a + 10 = 13$, giving $a = 3$. Answer C.",
     "estimatedTimeSeconds": 145
   },
@@ -100,6 +142,12 @@
     "stem": "Is $x > 5$?\n\n(1) $x - 3 > 1$\n(2) $2x > 12$",
     "assets": {},
     "correctAnswer": {"format": "single", "value": "B"},
+    "distractorRationale": {
+      "A": "Statement (1) gives $x > 4$, which allows $4.5$ (not $> 5$) as well as $6$, so it cannot answer 'is $x > 5$'. Statement (2)'s $x > 6$ does answer it.",
+      "C": "Statement (2) alone already settles it ($x > 6$ forces $x > 5$), so (1) is not needed; this incorrectly requires both.",
+      "D": "Statement (1) alone is not sufficient because $x > 4$ permits values at or below 5, so the answer is not D. Only (2) works alone.",
+      "E": "Statement (2) makes the answer a definite yes, so the data is sufficient, not insufficient even alone."
+    },
     "explanation": "(1) gives $x > 4$, which allows values like 4.5 (not greater than 5) and 6 (greater than 5), insufficient. (2) gives $x > 6$, and every such value exceeds 5, so it answers the question with a definite yes, sufficient. Answer B.",
     "estimatedTimeSeconds": 135
   },
@@ -113,6 +161,12 @@
     "stem": "What is the area of right triangle $T$?\n\n(1) The two legs of $T$ have lengths 6 and 8.\n(2) The hypotenuse of $T$ has length 10.",
     "assets": {},
     "correctAnswer": {"format": "single", "value": "A"},
+    "distractorRationale": {
+      "B": "Statement (2) gives only the hypotenuse 10; many right triangles share that hypotenuse with different legs and different areas, so the area is not fixed. The legs in (1) give area directly.",
+      "C": "Statement (1) alone gives both legs, so the area is $\\frac{1}{2}(6)(8) = 24$ without (2); this wrongly treats both as required.",
+      "D": "Statement (2) alone is insufficient (hypotenuse 10 admits many areas), so the answer is not D. Only (1) works alone.",
+      "E": "The legs in (1) determine the area as 24, so the data is sufficient, not insufficient."
+    },
     "explanation": "(1) gives both legs, so the area is $\\frac{1}{2}(6)(8) = 24$, sufficient. (2) gives only the hypotenuse; many right triangles have hypotenuse 10 with different leg pairs and different areas, insufficient. Answer A.",
     "estimatedTimeSeconds": 140
   },
@@ -126,6 +180,12 @@
     "stem": "If $x$ and $y$ are positive integers, is $x + y$ even?\n\n(1) $x^2 + y^2$ is even.\n(2) $xy$ is odd.",
     "assets": {},
     "correctAnswer": {"format": "single", "value": "D"},
+    "distractorRationale": {
+      "A": "Statement (2) is also sufficient: $xy$ odd forces both odd, so same parity and $x + y$ even. Picking A ignores that (2) alone works too.",
+      "B": "Statement (1) is also sufficient: $x^2 + y^2$ even means $x$ and $y$ share parity, so $x + y$ is even. Picking B ignores that (1) alone works too.",
+      "C": "Each statement alone already settles parity, so combining them is unnecessary; this understates each statement's power.",
+      "E": "Both statements individually force same parity and a definite 'yes,' so the data is sufficient, not insufficient."
+    },
     "explanation": "$x + y$ is even exactly when x and y have the same parity. (1) $x^2 + y^2$ even means x and y have the same parity (both even or both odd), so $x + y$ is even, sufficient. (2) $xy$ odd forces both x and y odd, again the same parity, so $x + y$ is even, sufficient. Each alone suffices. Answer D.",
     "estimatedTimeSeconds": 165
   },
@@ -139,6 +199,12 @@
     "stem": "A car traveled from town P to town Q at a constant speed. What is the distance from P to Q?\n\n(1) The trip took 2.5 hours.\n(2) The car traveled at 60 kilometers per hour for the entire 2.5-hour trip.",
     "assets": {},
     "correctAnswer": {"format": "single", "value": "B"},
+    "distractorRationale": {
+      "A": "Statement (1) gives only the 2.5-hour duration with no speed, so distance cannot be computed. Statement (2) supplies both speed and time.",
+      "C": "Statement (2) alone already gives distance $= 60 \\times 2.5 = 150$ km, so (1) is redundant; this wrongly requires both.",
+      "D": "Statement (1) alone is insufficient (time without speed), so the answer is not D. Only (2) works alone.",
+      "E": "Statement (2) determines the distance as 150 km, so the data is sufficient, not insufficient."
+    },
     "explanation": "(1) gives the time only, with no speed, so the distance is not determined, insufficient. (2) gives both the speed (60 km/h) and the duration (2.5 hours), so the distance is $60 \\times 2.5 = 150$ kilometers, sufficient on its own. Answer B.",
     "estimatedTimeSeconds": 120
   },
@@ -152,6 +218,12 @@
     "stem": "A list consists of the five numbers 7, 9, 12, 15, and $k$. Is the median of the list equal to 12?\n\n(1) $k \\geq 12$\n(2) $k \\leq 15$",
     "assets": {},
     "correctAnswer": {"format": "single", "value": "A"},
+    "distractorRationale": {
+      "B": "Statement (2)'s $k \\leq 15$ allows $k = 0$ (median 9) or $k = 12$ (median 12), so the answer varies and (2) is insufficient. Statement (1)'s $k \\geq 12$ forces the median to be 12.",
+      "C": "Statement (1) alone already gives a definite 'yes': with $k \\geq 12$ the third sorted value is 12. Statement (2) is not needed, so requiring both is wrong.",
+      "D": "Statement (2) alone is insufficient because the median depends on how small $k$ is, so the answer is not D. Only (1) works alone.",
+      "E": "Statement (1) settles the median as 12, so the data is sufficient, not insufficient."
+    },
     "explanation": "Sorting 7, 9, 12, 15 and inserting k, the median is the third value. (1) If $k \\geq 12$, then 7 and 9 stay below and at least two of {12, 15, k} are at least 12, so the sorted order is 7, 9, 12, ..., making the third value 12; median is 12, a definite yes, sufficient. (2) If $k \\leq 15$, k could be small (e.g. 0 gives sorted 0, 7, 9, 12, 15 with median 9) or 12 (median 12), so the answer varies, insufficient. Answer A.",
     "estimatedTimeSeconds": 175
   },
@@ -165,6 +237,12 @@
     "stem": "What is the value of the integer $m$?\n\n(1) $m + 7 = 12$\n(2) $3m = 15$",
     "assets": {},
     "correctAnswer": {"format": "single", "value": "D"},
+    "distractorRationale": {
+      "A": "Statement (2) is also sufficient: $3m = 15$ gives $m = 5$ on its own. Choosing A overlooks that (2) alone determines $m$.",
+      "B": "Statement (1) is also sufficient: $m + 7 = 12$ gives $m = 5$ on its own. Choosing B overlooks that (1) alone determines $m$.",
+      "C": "Each equation alone solves for $m = 5$, so combining them is unnecessary; this understates each statement.",
+      "E": "Both statements independently give $m = 5$, so the data is sufficient, not insufficient."
+    },
     "explanation": "(1) gives $m = 5$, sufficient. (2) gives $m = 15 / 3 = 5$, sufficient. Each statement alone determines m. Answer D.",
     "estimatedTimeSeconds": 90
   },
@@ -178,6 +256,12 @@
     "stem": "A theater sold adult tickets and child tickets for one show. How many child tickets were sold?\n\n(1) A total of 200 tickets were sold.\n(2) The number of adult tickets sold was at least three times the number of child tickets sold.",
     "assets": {},
     "correctAnswer": {"format": "single", "value": "E"},
+    "distractorRationale": {
+      "A": "Statement (1)'s $a + c = 200$ is one equation in two unknowns, so the child count is not unique. The inequality in (2) does not pin it down either.",
+      "B": "Statement (2) gives only $a \\geq 3c$, an inequality with no total, so the child count is undetermined alone.",
+      "C": "This is the trap: combining $a + c = 200$ with $a \\geq 3c$ yields $c \\leq 50$, a range (50, 40, ...) rather than a single value, so together they are still insufficient.",
+      "D": "Neither statement alone gives a unique count, so D is wrong; even together $c$ is only bounded, not fixed."
+    },
     "explanation": "Let c be child tickets and a adult tickets. (1) gives $a + c = 200$, insufficient. (2) gives only the inequality $a \\geq 3c$, insufficient. Together, $a = 200 - c$ and $200 - c \\geq 3c$, so $c \\leq 50$; the child count could be 50 (adults 150) or 40 (adults 160) or many other values, so it is not unique. Answer E.",
     "estimatedTimeSeconds": 135
   },
@@ -191,6 +275,12 @@
     "stem": "Is the product $ab$ negative?\n\n(1) $a < 0$\n(2) $b > 0$",
     "assets": {},
     "correctAnswer": {"format": "single", "value": "C"},
+    "distractorRationale": {
+      "A": "Statement (1) gives only $a < 0$; without $b$'s sign the product $ab$ could be positive or negative, so it is insufficient. Statement (2)'s sign is also needed.",
+      "B": "Statement (2) gives only $b > 0$; without $a$'s sign the product's sign is unknown, so it is insufficient. Statement (1) is also needed.",
+      "D": "One sign alone never determines a product's sign, so neither statement works alone. Both are required, making D too strong.",
+      "E": "Together $a < 0$ and $b > 0$ force $ab < 0$, a definite 'yes,' so the data is sufficient, not insufficient."
+    },
     "explanation": "(1) gives only the sign of a; without b's sign the product's sign is unknown, insufficient. (2) gives only the sign of b, insufficient. Together, a is negative and b is positive, so the product is negative, a definite yes. Answer C.",
     "estimatedTimeSeconds": 130
   },
@@ -204,6 +294,12 @@
     "stem": "In an arithmetic sequence, the terms are $t_1, t_2, t_3, \\ldots$. What is the value of $t_5$?\n\n(1) $t_1 = 4$ and the common difference is 3.\n(2) $t_3 = 10$ and $t_7 = 22$.",
     "assets": {},
     "correctAnswer": {"format": "single", "value": "D"},
+    "distractorRationale": {
+      "A": "Statement (2) is also sufficient: $t_7 - t_3 = 4d = 12$ gives $d = 3$ and $t_5 = 16$. Choosing A overlooks that (2) alone determines $t_5$.",
+      "B": "Statement (1) is also sufficient: $t_5 = 4 + 4(3) = 16$ from the first term and common difference. Choosing B overlooks that (1) alone works.",
+      "C": "Each statement alone yields $t_5 = 16$, so combining them is unnecessary; this understates each statement.",
+      "E": "Both statements independently give $t_5 = 16$, so the data is sufficient, not insufficient."
+    },
     "explanation": "(1) gives $t_5 = t_1 + 4d = 4 + 4(3) = 16$, sufficient. (2) gives $t_7 - t_3 = 4d = 22 - 10 = 12$, so $d = 3$ and $t_5 = t_3 + 2d = 10 + 6 = 16$, sufficient. Each alone determines $t_5$. Answer D.",
     "estimatedTimeSeconds": 170
   },
@@ -217,6 +313,12 @@
     "stem": "A company's revenue increased from one year to the next. What was the revenue in the earlier year?\n\n(1) Revenue increased by 20 percent.\n(2) Revenue increased by 90.",
     "assets": {},
     "correctAnswer": {"format": "single", "value": "C"},
+    "distractorRationale": {
+      "A": "Statement (1) gives only the 20 percent rate, with no dollar figure, so the earlier revenue cannot be found. The amount in (2) is also needed.",
+      "B": "Statement (2) gives only the absolute increase of 90 with no rate, so the base is undetermined alone. The rate in (1) is also needed.",
+      "D": "A bare rate or a bare amount cannot fix the base by itself, so neither works alone. Both are required, making D too strong.",
+      "E": "Together $90 = 0.20 \\times \\text{earlier}$, so the earlier revenue is $90/0.20 = 450$; the data is sufficient, not insufficient."
+    },
     "explanation": "(1) gives the percent increase only, insufficient. (2) gives the absolute increase only, insufficient. Together, 90 equals 20 percent of the earlier revenue, so the earlier revenue is $90 / 0.20 = 450$. Answer C.",
     "estimatedTimeSeconds": 130
   },
@@ -230,6 +332,12 @@
     "stem": "What is the value of $x$?\n\n(1) $|x| = 6$\n(2) $x < 0$",
     "assets": {},
     "correctAnswer": {"format": "single", "value": "C"},
+    "distractorRationale": {
+      "A": "Statement (1) gives $|x| = 6$, leaving two values $x = 6$ or $x = -6$, so $x$ is not unique. The sign in (2) is needed to choose.",
+      "B": "Statement (2) only tells you $x < 0$, with no magnitude, so $x$ is undetermined alone. The value in (1) is also needed.",
+      "D": "Neither statement alone gives a single value (one leaves two roots, the other only a sign), so both are required and D is too strong.",
+      "E": "Together $x = -6$ is determined, so the data is sufficient, not insufficient."
+    },
     "explanation": "(1) gives $x = 6$ or $x = -6$, two values, insufficient. (2) tells only the sign, insufficient. Together, x is negative with absolute value 6, so $x = -6$, unique. Answer C.",
     "estimatedTimeSeconds": 135
   },
@@ -243,6 +351,12 @@
     "stem": "What is the perimeter of square $S$?\n\n(1) The area of $S$ is 49.\n(2) A diagonal of $S$ has length $7\\sqrt{2}$.",
     "assets": {},
     "correctAnswer": {"format": "single", "value": "D"},
+    "distractorRationale": {
+      "A": "Statement (2) is also sufficient: $s\\sqrt{2} = 7\\sqrt{2}$ gives $s = 7$ and perimeter 28. Choosing A overlooks that (2) alone determines the perimeter.",
+      "B": "Statement (1) is also sufficient: area 49 gives $s = 7$ and perimeter 28. Choosing B overlooks that (1) alone works.",
+      "C": "Each statement alone yields the side 7 and perimeter 28, so combining them is unnecessary; this understates each.",
+      "E": "Both statements independently give perimeter 28, so the data is sufficient, not insufficient."
+    },
     "explanation": "(1) area 49 gives side $\\sqrt{49} = 7$, so perimeter $= 4(7) = 28$, sufficient. (2) for a square, diagonal $= s\\sqrt{2}$, so $s\\sqrt{2} = 7\\sqrt{2}$ gives $s = 7$ and perimeter 28, sufficient. Each alone works. Answer D.",
     "estimatedTimeSeconds": 150
   },
@@ -256,6 +370,12 @@
     "stem": "In a class of 30 students, each studies French, Spanish, or both. How many students study both French and Spanish?\n\n(1) 22 students study French.\n(2) 18 students study Spanish.",
     "assets": {},
     "correctAnswer": {"format": "single", "value": "C"},
+    "distractorRationale": {
+      "A": "Statement (1) gives only $|F| = 22$; the overlap depends on $|S|$ too, so it is insufficient alone. Statement (2) is also needed.",
+      "B": "Statement (2) gives only $|S| = 18$; without $|F|$ the overlap cannot be found. Statement (1) is also needed.",
+      "D": "Knowing just one group's size cannot fix the overlap, so neither statement works alone. Both are required, making D too strong.",
+      "E": "Together $22 + 18 - |\\text{both}| = 30$ gives $|\\text{both}| = 10$, so the data is sufficient, not insufficient."
+    },
     "explanation": "With every student in at least one language, $|F| + |S| - |both| = 30$. (1) alone gives only $|F| = 22$, insufficient. (2) alone gives only $|S| = 18$, insufficient. Together, $22 + 18 - |both| = 30$, so $|both| = 10$. Answer C.",
     "estimatedTimeSeconds": 160
   },
@@ -1024,6 +1144,12 @@
       {"key": "E", "text": "7.00"}
     ],
     "correctAnswer": {"format": "single", "value": "D"},
+    "distractorRationale": {
+      "A": "\\$1.00 is only the unlock fee; this drops the per-minute time charge entirely. Add $50 \\times 0.09 = 4.50$ to the unlock fee for a total of \\$5.50.",
+      "B": "\\$2.50 does not match the stated rates; it is a near-miss that mis-sizes the time charge. The correct charge is $50 \\times 0.09 = 4.50$ plus the \\$1.00 unlock, giving \\$5.50.",
+      "C": "\\$4.00 ignores the \\$1.00 unlock fee and also miscomputes the time charge; the time charge alone is $50 \\times 0.09 = 4.50$. With the unlock fee the total is \\$5.50.",
+      "E": "\\$7.00 overcharges, likely by applying the electric surcharge that does not apply to a standard bike. The correct total is the \\$1.00 unlock plus $50 \\times 0.09 = 4.50$, i.e. \\$5.50."
+    },
     "explanation": "Pay-As-You-Go charges a 1.00 unlock fee plus the standard rate of 0.09 per minute on a standard bike. For 50 minutes the time charge is $50 \\times 0.09 = 4.50$, and adding the 1.00 unlock fee gives a total of 5.50. Answer D.",
     "estimatedTimeSeconds": 120
   },
@@ -1044,6 +1170,12 @@
       {"key": "E", "text": "9.60"}
     ],
     "correctAnswer": {"format": "single", "value": "B"},
+    "distractorRationale": {
+      "A": "\\$0 assumes the whole 40-minute ride is free, but only the first 30 minutes are included; the 10 extra minutes are billed. At $0.09 + 0.15 = 0.24$ per minute that is \\$2.40.",
+      "C": "\\$3.60 bills 15 minutes ($15 \\times 0.24$) rather than the correct 10 minutes beyond the free 30. Only $40 - 30 = 10$ minutes are charged, giving \\$2.40.",
+      "D": "\\$6.00 charges all 40 minutes at the electric rate ($40 \\times 0.15$ or similar), ignoring the free first 30 minutes and the base rate structure. Bill only the 10 extra minutes at \\$0.24 each: \\$2.40.",
+      "E": "\\$9.60 charges all 40 minutes at the full $0.24$ rate ($40 \\times 0.24$), ignoring that the first 30 minutes are free. Only the 10 overage minutes count, giving \\$2.40."
+    },
     "explanation": "Under the Monthly Pass, the first 30 minutes of each ride are fully free, waiving both the standard rate and the electric surcharge. Only the minutes beyond 30 are billed, here $40 - 30 = 10$ minutes. Each billed minute on an electric bike costs $0.09 + 0.15 = 0.24$, so the charge is $10 \\times 0.24 = 2.40$. There is no unlock fee on the Monthly Pass. Answer B.",
     "estimatedTimeSeconds": 135
   },
@@ -1083,6 +1215,12 @@
       {"key": "E", "text": "10"}
     ],
     "correctAnswer": {"format": "single", "value": "C"},
+    "distractorRationale": {
+      "A": "2 credits counts only Course 1 and forgets Course 2. Course 1 (2) plus Course 2 (3) gives $2 + 3 = 5$.",
+      "B": "3 credits counts only Course 2 and forgets Course 1. Adding both completed courses gives $2 + 3 = 5$.",
+      "D": "8 credits adds in the capstone's 5 ($3 + 5$ or $2 + ... $), but the learner did not complete the capstone. Only the two courses count: $2 + 3 = 5$.",
+      "E": "10 credits is the full certificate total of all three components, but the capstone was not done. The two completed courses give $2 + 3 = 5$."
+    },
     "explanation": "In the Data Track, Course 1 is worth 2 credits and Course 2 is worth 3 credits, while the capstone is worth 5 credits. Completing Course 1 and Course 2 only gives $2 + 3 = 5$ credits. Answer C.",
     "estimatedTimeSeconds": 120
   },
@@ -1103,6 +1241,12 @@
       {"key": "E", "text": "14"}
     ],
     "correctAnswer": {"format": "single", "value": "D"},
+    "distractorRationale": {
+      "A": "6 weeks is far too short; it ignores that the three 4-week components must run in sequence. Course 1, then Course 2, then capstone is $4 + 4 + 4 = 12$ weeks.",
+      "B": "8 weeks counts only two components, omitting one of the three required 4-week stages. All three must be done in order: $4 + 4 + 4 = 12$.",
+      "C": "10 weeks does not match summing three 4-week stages; it is a near-miss that shortchanges the sequence. The minimum is $4 + 4 + 4 = 12$ weeks.",
+      "E": "14 weeks overestimates, adding extra time beyond the three sequential 4-week stages. The prerequisite chain gives exactly $4 + 4 + 4 = 12$ weeks."
+    },
     "explanation": "The certificate requires all three components. Course 1 takes 4 weeks and must be finished before Course 2 (prerequisite). Course 2 takes 4 weeks. The capstone takes 4 weeks and requires both courses complete first. Since each must follow the previous, the minimum is $4 + 4 + 4 = 12$ weeks. Answer D.",
     "estimatedTimeSeconds": 150
   },

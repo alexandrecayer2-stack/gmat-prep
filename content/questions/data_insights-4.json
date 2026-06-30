@@ -7,6 +7,12 @@
     "difficulty": "easy",
     "stem": "Is the integer $k$ even?\n(1) $k = 2m$ for some integer $m$.\n(2) $k > 3$.",
     "correctAnswer": { "format": "single", "value": "A" },
+    "distractorRationale": {
+      "B": "Chooses statement (2) as the sufficient one, but $k>3$ allows $4$ (even) or $5$ (odd), so it cannot decide parity; it is (1), $k=2m$, that guarantees $k$ is even.",
+      "C": "Assumes both statements are needed together, but (1) alone already forces $k$ to be even — (2) adds nothing, so the answer is A, not C.",
+      "D": "Claims each statement alone suffices, but (2) ($k>3$) leaves $k$ either even or odd; only (1) is sufficient, so the answer is A.",
+      "E": "Concludes nothing is sufficient, overlooking that (1) directly states $k=2m$, which makes $k$ even on its own."
+    },
     "explanation": "Statement (1): $k = 2m$ means $k$ is even — sufficient. Statement (2): $k > 3$ could be $4$ (even) or $5$ (odd) — not sufficient. Only (1) alone works, so the answer is A.",
     "estimatedTimeSeconds": 75,
     "tags": ["data-sufficiency", "number-properties", "easy-di"]
@@ -19,6 +25,12 @@
     "difficulty": "medium",
     "stem": "If $n$ is a positive integer, is $n$ divisible by $4$?\n(1) $n$ is even.\n(2) $n/2$ is even.",
     "correctAnswer": { "format": "single", "value": "B" },
+    "distractorRationale": {
+      "A": "Picks statement (1), but $n$ even allows $n=2$ (not divisible by $4$) or $n=4$ (divisible); it is (2), $n/2$ even, that forces $n=4j$.",
+      "C": "Treats both statements as jointly required, but (2) alone already gives $n=4j$; (1) is redundant, so the answer is B, not C.",
+      "D": "Says each alone works, yet (1) ($n$ even) fails for $n=2$; only (2) is sufficient, so the answer is B.",
+      "E": "Concludes neither suffices, missing that (2) yields $n/2=2j$, hence $n=4j$, which is divisible by $4$."
+    },
     "explanation": "Statement (1): $n$ even allows $n=2$ (not divisible by $4$) or $n=4$ (divisible) — not sufficient. Statement (2): if $n/2$ is even, then $n/2 = 2j$, so $n = 4j$, which is divisible by $4$ — sufficient. Only (2) alone works, so the answer is B.",
     "estimatedTimeSeconds": 105,
     "tags": ["data-sufficiency", "number-properties", "medium-di"]
@@ -31,6 +43,12 @@
     "difficulty": "medium",
     "stem": "What is the value of $x$?\n(1) $x^2 = 16$\n(2) $x^4 = 256$",
     "correctAnswer": { "format": "single", "value": "E" },
+    "distractorRationale": {
+      "A": "Treats $x^2=16$ as pinning $x$ down, but it gives $x=4$ or $x=-4$; without more, the value is not unique, so (1) alone is not sufficient.",
+      "B": "Treats (2) as sufficient, but $x^4=256$ reduces to $x^2=16$, still leaving $x=\\pm 4$; it does not determine a single value.",
+      "C": "Assumes combining the statements resolves the sign, but both reduce to $x^2=16$ and together still permit $x=4$ or $x=-4$, so the answer is E.",
+      "D": "Claims each statement alone gives the value, but each only yields $x=\\pm 4$; neither (nor both) is sufficient, so the answer is E."
+    },
     "explanation": "Statement (1): $x = 4$ or $x = -4$ — not unique. Statement (2): $x^4 = 256$ gives $x^2 = 16$, so again $x = \\pm 4$ — not unique. Together they still allow both values, so the answer is E.",
     "estimatedTimeSeconds": 105,
     "tags": ["data-sufficiency", "algebra", "medium-di"]

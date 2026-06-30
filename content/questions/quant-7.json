@@ -32,6 +32,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "A near-miss low; $18\\%$ of $250$ is $0.18\\times 250=45$, not $40$.",
+      "C": "This rounds to a tidy $50$; computing exactly gives $0.18\\times 250=45$.",
+      "D": "A near-miss high; the exact product $0.18\\times 250$ is $45$, not $55$.",
+      "E": "This overshoots; $18\\%$ of $250=45$, while $60$ would be about $24\\%$."
+    },
     "explanation": "Compute $18\\%$ of $250$: $0.18\\times 250=45$. The correct answer is 45, which is choice B.",
     "estimatedTimeSeconds": 90,
     "tags": [
@@ -71,6 +77,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "A near-miss that doesn't match the reciprocal product; $\\frac{5}{8}\\cdot\\frac{12}{5}=\\frac{12}{8}=\\frac{3}{2}$.",
+      "C": "A near-miss; dividing means multiplying by the reciprocal $\\frac{12}{5}$, giving $\\frac{3}{2}$, not $\\frac{5}{3}$.",
+      "D": "This is $\\frac{12}{5}$, the reciprocal of the second fraction alone, not the full quotient $\\frac{5}{8}\\cdot\\frac{12}{5}=\\frac{3}{2}$.",
+      "E": "This inverts the division (it is $\\frac{5}{12}\\div\\frac{5}{8}$ inverted, well below $1$); the correct quotient is $\\frac{3}{2}$."
     },
     "explanation": "Divide by multiplying by the reciprocal: $\\frac{5}{8}\\cdot\\frac{12}{5}=\\frac{12}{8}=\\frac{3}{2}$. So the answer is A.",
     "estimatedTimeSeconds": 90,
@@ -112,6 +124,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "This is $36$, the count if the beads were split evenly into halves rather than the $7:5$ ratio; each of the $12$ parts is $6$, so red is $7\\times 6=42$.",
+      "C": "A near-miss above the answer; with $12$ parts of $6$, red gets $7\\times 6=42$, not $45$.",
+      "D": "A near-miss; $7$ parts at $6$ each gives $42$, while $48$ would be $8$ parts.",
+      "E": "This overshoots; each part is $72\\div 12=6$, so $7$ parts make $42$, not $50$."
+    },
     "explanation": "The ratio has $7+5=12$ equal parts. Each part is $72\\div 12=6$, so red beads are $7\\times 6=42$. The answer is B.",
     "estimatedTimeSeconds": 90,
     "tags": [
@@ -151,6 +169,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "C"
+    },
+    "distractorRationale": {
+      "A": "This just reuses the largest given value, $12$; the missing number is total $44$ minus $30$, which is $14$.",
+      "B": "A near-miss; the four numbers must total $4\\times 11=44$, so the fourth is $44-30=14$, not $13$.",
+      "D": "A near-miss above the answer; $44-30=14$, not $15$.",
+      "E": "This overshoots; the total is $44$ and the known three sum to $30$, leaving $14$."
     },
     "explanation": "The total of the four numbers is $4\\times 11=44$. The known three sum to $8+10+12=30$. So the missing number is $44-30=14$. Choice C.",
     "estimatedTimeSeconds": 90,
@@ -192,6 +216,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "A near-miss; $7^3+5=348$ is exactly divisible by $6$ ($348\\div 6=58$), so the remainder is $0$, not $1$.",
+      "C": "This is the remainder of $7^3=343$ alone modulo something else; including the $+5$, $348$ is divisible by $6$ with remainder $0$.",
+      "D": "A near-miss; $348=6\\times 58$ exactly, so the remainder is $0$, not $3$.",
+      "E": "This overshoots; $348$ is a multiple of $6$, giving remainder $0$."
+    },
     "explanation": "$7^3+5=343+5=348$. Since $348\\div 6=58$ exactly, the remainder is 0. The answer is A.",
     "estimatedTimeSeconds": 90,
     "tags": [
@@ -231,6 +261,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "C"
+    },
+    "distractorRationale": {
+      "A": "A near-miss low; distributing gives $6x-15=21$, so $6x=36$ and $x=6$, not $4$.",
+      "B": "A near-miss; from $6x=36$ we get $x=6$, not $5$.",
+      "D": "A near-miss above the answer; $6x=36$ yields $x=6$, not $7$.",
+      "E": "This may come from solving $6x=48$; correctly $3(2x-5)=21$ gives $6x=36$ and $x=6$."
     },
     "explanation": "Distribute: $6x-15=21$. Then $6x=36$, so $x=6$. Choice C.",
     "estimatedTimeSeconds": 90,
@@ -272,6 +308,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "A near-miss; $2(L+6)=34$ gives $L+6=17$, so $L=11$, not $9$.",
+      "B": "This is $34/2-6$ done as $17-7$ or similar misstep; correctly $L=17-6=11$.",
+      "D": "A near-miss above the answer; $L+6=17$ means $L=11$, not $12$.",
+      "E": "This overshoots; subtracting the width from the half-perimeter gives $17-6=11$."
+    },
     "explanation": "For a rectangle, $2(L+6)=34$, so $L+6=17$ and $L=11$. The answer is C.",
     "estimatedTimeSeconds": 90,
     "tags": [
@@ -311,6 +353,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "C"
+    },
+    "distractorRationale": {
+      "A": "This is $\\sqrt{40}=2\\sqrt{10}$, from squaring the differences wrong; the legs are $6$ and $4$, giving $\\sqrt{36+16}=\\sqrt{52}=2\\sqrt{13}$.",
+      "B": "This is $2\\sqrt{11}=\\sqrt{44}$, a near-miss; the correct sum is $36+16=52$, so the distance is $2\\sqrt{13}$.",
+      "D": "This is $\\sqrt{52}$, which equals the correct answer but left unsimplified; $\\sqrt{52}=2\\sqrt{13}$, so C is the simplified form.",
+      "E": "This is $4\\sqrt{3}=\\sqrt{48}$, a near-miss; $\\sqrt{(8-2)^2+(5-1)^2}=\\sqrt{52}=2\\sqrt{13}$."
     },
     "explanation": "Use the distance formula: $\\sqrt{(8-2)^2+(5-1)^2}=\\sqrt{6^2+4^2}=\\sqrt{52}=2\\sqrt{13}$. The correct choice is C.",
     "estimatedTimeSeconds": 90,
@@ -352,6 +400,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "A near-miss; total distance $300$ over total time $4$ hours is $75$, not $70$.",
+      "B": "A near-miss; the correct average is $300/4=75$, not $72$.",
+      "D": "This may average the two speeds toward $80$; true average speed is total distance over total time, $300/4=75$.",
+      "E": "This wrongly averages $60$ and $90$ as $75$ then drifts, or takes the faster leg; using total/total gives $300/4=75$."
+    },
     "explanation": "Total distance is $120+180=300$. Total time is $120/60+180/90=2+2=4$ hours. Average speed is $300/4=75$. Choice C.",
     "estimatedTimeSeconds": 90,
     "tags": [
@@ -391,6 +445,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "C"
+    },
+    "distractorRationale": {
+      "A": "This is a rounded-down guess; the combined rate $\\frac{1}{8}+\\frac{1}{12}=\\frac{5}{24}$ gives time $\\frac{24}{5}=4.8$, not $4$.",
+      "B": "This averages the two times as $\\frac{8+12}{... }$ improperly; combining rates gives $\\frac{24}{5}=4.8$ hours.",
+      "D": "A near-miss above the answer; $1\\div\\frac{5}{24}=4.8$, not $5$.",
+      "E": "This may average $8$ and $12$ to get... no; the correct combined time is $\\frac{24}{5}=4.8$ hours, well under $6$."
     },
     "explanation": "Their combined rate is $\\frac{1}{8}+\\frac{1}{12}=\\frac{5}{24}$ job per hour. Time for one job is $1\\div \\frac{5}{24}=\\frac{24}{5}=4.8$ hours. Choice C.",
     "estimatedTimeSeconds": 90,
@@ -432,6 +492,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "This averages the two concentrations as $\\frac{20+50}{...}$ or guesses low; the weighted result is $11/40=27.5\\%$.",
+      "B": "A near-miss; total acid is $6+5=11$ liters in $40$ liters, giving $27.5\\%$, not $26\\%$.",
+      "D": "This is the simple average $\\frac{20+50}{... }$ leaning to $30\\%$; weighting by volume gives $11/40=27.5\\%$.",
+      "E": "This overshoots; the acid total $11$ liters in $40$ liters is $27.5\\%$, not $32.5\\%$."
+    },
     "explanation": "Acid amounts are $30\\times 0.20=6$ liters and $10\\times 0.50=5$ liters, for a total of 11 liters of acid. The mixture has 40 liters total, so concentration is $11/40=27.5\\%$. Choice C.",
     "estimatedTimeSeconds": 90,
     "tags": [
@@ -471,6 +537,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "D"
+    },
+    "distractorRationale": {
+      "A": "This is $2^9=512$, undercounting the exponent; $4^3=2^6$, so $2^6\\cdot 2^6=2^{12}=4096$.",
+      "B": "This is $2^{10}=1024$; converting $4^3=2^6$ gives $2^{12}=4096$.",
+      "C": "This is $2^{11}=2048$, one power short; $2^6\\cdot 4^3=2^{12}=4096$.",
+      "E": "This is $2^{13}=8192$, one power too many; the sum of exponents is $6+6=12$, so $4096$."
     },
     "explanation": "$4^3=(2^2)^3=2^6$. So $2^6\\cdot 4^3=2^6\\cdot 2^6=2^{12}=4096$. Choice D.",
     "estimatedTimeSeconds": 90,
@@ -512,6 +584,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "A near-miss; solving gives $-1<x\\le 3$, so the greatest integer is $3$, not $1$.",
+      "B": "A near-miss; the upper bound is $x\\le 3$, so the largest integer is $3$, not $2$.",
+      "D": "This exceeds the bound; $3x+1\\le 10$ gives $x\\le 3$, so $4$ does not satisfy the inequality.",
+      "E": "This overshoots; the solution is $-1<x\\le 3$, so $5$ is far outside the range."
+    },
     "explanation": "Solve the compound inequality: $-3<3x\\le 9$, so $-1<x\\le 3$. The greatest integer that works is 3, which is choice C.",
     "estimatedTimeSeconds": 90,
     "tags": [
@@ -551,6 +629,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "C"
+    },
+    "distractorRationale": {
+      "A": "This is the mode (and the smaller repeated value), not the median; with $7$ ordered values the middle (4th) term is $9$.",
+      "B": "A near-miss; the median is the 4th of $7$ ordered values, which is $9$, not the average of two middle terms.",
+      "D": "A near-miss; the single middle term is $9$, not $10$.",
+      "E": "This may average the two central-ish values; with an odd count the median is the 4th term, $9$."
     },
     "explanation": "The set has 7 values, already in order. The middle value is the 4th term, 9. Choice C.",
     "estimatedTimeSeconds": 90,
@@ -592,6 +676,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "This uses $a_1+8d$ but with $a_1=3$ or miscounts; correctly $7+8\\cdot 4=39$, not $35$.",
+      "B": "A near-miss; $a_9=7+(9-1)\\cdot 4=7+32=39$, not $37$.",
+      "D": "A near-miss above the answer; $7+32=39$, not $41$.",
+      "E": "This uses $9$ steps instead of $8$ (i.e. $7+9\\cdot 4=43$); the 9th term needs $n-1=8$ steps, giving $39$."
+    },
     "explanation": "Use $a_n=a_1+(n-1)d$. So $a_9=7+8\\cdot 4=7+32=39$. Choice C.",
     "estimatedTimeSeconds": 90,
     "tags": [
@@ -631,6 +721,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "C"
+    },
+    "distractorRationale": {
+      "A": "This is $6/36$, overcounting the favorable sums; only $5$ pairs give a sum of $8$, so the probability is $5/36$.",
+      "B": "This is $4/36$, missing one favorable pair; there are $5$ ways $(2,6),(3,5),(4,4),(5,3),(6,2)$, so $5/36$.",
+      "D": "This is $3/36$, undercounting; the five favorable outcomes give $5/36$.",
+      "E": "This is $2/36$, far undercounting; a sum of $8$ occurs in $5$ of $36$ outcomes, so $5/36$."
     },
     "explanation": "The favorable outcomes are $(2,6),(3,5),(4,4),(5,3),(6,2)$, for 5 outcomes out of 36 equally likely outcomes. So the probability is $5/36$. Choice C.",
     "estimatedTimeSeconds": 90,
@@ -672,6 +768,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "This undercounts the arrangements; with units fixed as $2$ or $4$ ($2$ ways), the other places give $4\\times 3$, so $2\\cdot 4\\cdot 3=24$.",
+      "B": "A near-miss; the count is $2\\cdot 4\\cdot 3=24$, not $20$.",
+      "D": "This may use $5$ for the units options or miscount places; only $2$ even digits are available, giving $2\\cdot 4\\cdot 3=24$.",
+      "E": "This treats all three places freely ($... \\cdot 6$); fixing an even units digit limits the total to $24$."
+    },
     "explanation": "The units digit must be 2 or 4: 2 choices. Then the hundreds digit has 4 choices and the tens digit has 3 choices. Total $2\\cdot 4\\cdot 3=24$. Choice C.",
     "estimatedTimeSeconds": 90,
     "tags": [
@@ -711,6 +813,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "C"
+    },
+    "distractorRationale": {
+      "A": "A near-miss; if $\\frac{3}{5}n=18$ then $n=18\\cdot\\frac{5}{3}=30$, not $24$.",
+      "B": "A near-miss; multiplying $18$ by $\\frac{5}{3}$ gives $30$, not $27$.",
+      "D": "A near-miss above the answer; $n=18\\cdot\\frac{5}{3}=30$, not $32$.",
+      "E": "This multiplies $18$ by $2$ instead of $\\frac{5}{3}$; correctly $n=30$, not $36$."
     },
     "explanation": "Let the number be $n$. Then $\\frac{3}{5}n=18$, so $n=18\\cdot \\frac{5}{3}=30$. Choice C.",
     "estimatedTimeSeconds": 90,
@@ -752,6 +860,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "A near-miss low; the increase is $12$, and $12/80=15\\%$, not $10\\%$.",
+      "B": "This uses the raw difference $12$ as a percent; the percent increase is $12/80=15\\%$.",
+      "D": "A near-miss; $12/80=0.15=15\\%$, not $18\\%$.",
+      "E": "This may divide by the new price or round up; the percent increase is $12/80=15\\%$, not $20\\%$."
+    },
     "explanation": "The increase is $92-80=12$. The percent increase is $12/80=0.15=15\\%$. Choice C.",
     "estimatedTimeSeconds": 90,
     "tags": [
@@ -791,6 +905,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "D"
+    },
+    "distractorRationale": {
+      "A": "This is just $18$ itself, which is not divisible by $12$; the LCM is $2^2\\cdot 3^2=36$.",
+      "B": "This is $24$, a multiple of $12$ but not of $18$; the least common multiple is $36$.",
+      "C": "This is $30$, a multiple of neither cleanly; $\\mathrm{LCM}(12,18)=36$.",
+      "E": "This is $48$, a multiple of $12$ but not of $18$; the smallest common multiple is $36$."
     },
     "explanation": "Find the LCM: $12=2^2\\cdot 3$ and $18=2\\cdot 3^2$, so $\\mathrm{LCM}=2^2\\cdot 3^2=36$. Choice D.",
     "estimatedTimeSeconds": 90,
@@ -832,6 +952,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "A near-miss; $13-2y=7$ gives $-2y=-6$ and $y=3$, not $1$.",
+      "B": "A near-miss; solving $-2y=-6$ yields $y=3$, not $2$.",
+      "D": "A near-miss above the answer; $y=3$, not $4$.",
+      "E": "This may drop the factor of $2$ ($13-y=7$ gives $6$); with $-2y=-6$ the answer is $y=3$."
+    },
     "explanation": "Substitute $x=13$ into $x-2y=7$: $13-2y=7$. Then $-2y=-6$, so $y=3$. Choice C.",
     "estimatedTimeSeconds": 90,
     "tags": [
@@ -871,6 +997,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "C"
+    },
+    "distractorRationale": {
+      "A": "This is $\\frac{1}{2}\\cdot 9\\cdot 8$ or a misread leg; the area is $\\frac{1}{2}\\cdot 9\\cdot 12=54$.",
+      "B": "A near-miss; $\\frac{1}{2}\\cdot 9\\cdot 12=54$, not $45$.",
+      "D": "A near-miss above the answer; the area is $54$, not $60$.",
+      "E": "This is the full product $9\\cdot 12=108$ halved wrong, or $\\frac{1}{2}\\cdot 12\\cdot 12$; the area is $\\frac{1}{2}\\cdot 9\\cdot 12=54$."
     },
     "explanation": "The area of a right triangle is $\\frac{1}{2}bh$. So the area is $\\frac{1}{2}\\cdot 9\\cdot 12=54$. Choice C.",
     "estimatedTimeSeconds": 90,
@@ -912,6 +1044,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "This averages the $x$-coordinates wrong (using $\\frac{-2+4}{2}$ style); the correct midpoint is $\\left(\\frac{-2+6}{2},\\frac{4+10}{2}\\right)=(2,7)$.",
+      "C": "This gets the $x$ right but mis-averages $y$; $\\frac{4+10}{2}=7$, so the midpoint is $(2,7)$, not $(2,6)$.",
+      "D": "This mis-averages the $x$-coordinate; $\\frac{-2+6}{2}=2$, giving $(2,7)$, not $(3,7)$.",
+      "E": "This may halve only one endpoint; the midpoint averages both, giving $(2,7)$."
+    },
     "explanation": "The midpoint is the average of each coordinate: $\\left(\\frac{-2+6}{2},\\frac{4+10}{2}\\right)=(2,7)$. Choice B.",
     "estimatedTimeSeconds": 90,
     "tags": [
@@ -951,6 +1089,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "C"
+    },
+    "distractorRationale": {
+      "A": "This is too short; closing at a combined $90$ mph, $30/90=\\frac{1}{3}$ hour $=20$ minutes, not $15$.",
+      "B": "A near-miss; the meeting time is $30/90$ hour $=20$ minutes, not $18$.",
+      "D": "This may use only one train's speed; the combined rate $90$ mph gives $30/90=20$ minutes.",
+      "E": "This uses the gap over a single $... 60$-style rate; combining $40+50=90$ gives $20$ minutes."
     },
     "explanation": "Their combined speed is $40+50=90$ miles per hour. Time is $30/90=1/3$ hour, which is 20 minutes. Choice C.",
     "estimatedTimeSeconds": 90,
@@ -992,6 +1136,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "A near-miss; the five numbers total $5\\times 14=70$, so the fifth is $70-50=20$, not $18$.",
+      "B": "A near-miss; $70-50=20$, not $19$.",
+      "D": "A near-miss above the answer; the fifth number is $70-50=20$, not $21$.",
+      "E": "This overshoots; the total is $70$ and four sum to $50$, leaving $20$."
+    },
     "explanation": "The total of the 5 numbers is $5\\times 14=70$. The missing number is $70-50=20$. Choice C.",
     "estimatedTimeSeconds": 90,
     "tags": [
@@ -1031,6 +1181,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "C"
+    },
+    "distractorRationale": {
+      "A": "This is the 4th term, $3\\cdot 2^3=24$; the 5th term is $3\\cdot 2^4=48$.",
+      "B": "A near-miss; doubling the sequence $3,6,12,24,48$ lands on $48$ for the 5th term, not $36$.",
+      "D": "A near-miss; the 5th term is $3\\cdot 2^4=48$, not $54$.",
+      "E": "This overshoots; the geometric sequence reaches $48$ at the 5th term, not $60$."
     },
     "explanation": "Each term doubles, so the ratio is 2 and the $n$th term is $3 \\cdot 2^{n-1}$. The sequence is $3, 6, 12, 24, 48$, so the 5th term is $48$ (i.e. $3 \\cdot 2^4$). The trap is using exponent 5 instead of $n-1=4$ (which would give 96); counting carefully gives answer C.",
     "estimatedTimeSeconds": 90,
@@ -1072,6 +1228,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "This is $\\frac{1}{4}$, ignoring that there are $8$ balls total; the red probability is $3/8$.",
+      "C": "This is $2/5$, a near-miss using the wrong total; with $8$ balls the probability is $3/8$.",
+      "D": "This is $1/2$, as if red and blue were equal; there are $3$ red of $8$, so $3/8$.",
+      "E": "This is $5/8$, the probability of blue, not red; the red probability is $3/8$."
+    },
     "explanation": "There are 3 favorable outcomes out of 8 total balls, so the probability is $3/8$. Choice B.",
     "estimatedTimeSeconds": 90,
     "tags": [
@@ -1111,6 +1273,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "C"
+    },
+    "distractorRationale": {
+      "A": "This is $\\frac{7\\cdot 6}{...}$ taken as $7\\cdot 2$ or a half-count; $\\binom{7}{2}=\\frac{7\\cdot 6}{2}=21$.",
+      "B": "A near-miss; $\\binom{7}{2}=21$, not $18$.",
+      "D": "This is $\\binom{8}{2}$ or a miscount of the group size; with $7$ students $\\binom{7}{2}=21$.",
+      "E": "This is $\\binom{7}{3}=35$, choosing $3$ instead of $2$; choosing $2$ gives $21$."
     },
     "explanation": "The number of combinations is $\\binom{7}{2}=\\frac{7\\cdot 6}{2\\cdot 1}=21$. Choice C.",
     "estimatedTimeSeconds": 90,
@@ -1152,6 +1320,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "This is $\\pi r$, half the circumference; using $2\\pi r$ with $r=7$ gives $14\\pi$.",
+      "C": "A near-miss; $2\\pi\\cdot 7=14\\pi$, not $21\\pi$.",
+      "D": "This is $4\\pi r$ or uses diameter twice; the circumference is $2\\pi r=14\\pi$.",
+      "E": "This is $\\pi r^2=49\\pi$, the area formula; circumference is $2\\pi r=14\\pi$."
+    },
     "explanation": "Circumference is $2\\pi r$. With $r=7$, the circumference is $2\\pi\\cdot 7=14\\pi$. Choice B.",
     "estimatedTimeSeconds": 90,
     "tags": [
@@ -1191,6 +1365,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "C"
+    },
+    "distractorRationale": {
+      "A": "A near-miss; subtracting the equations gives $y=3$, then $x=y+5=8$, not $6$.",
+      "B": "A near-miss; from $y=3$ and $x-y=5$ we get $x=8$, not $7$.",
+      "D": "A near-miss above the answer; $x=8$, not $9$.",
+      "E": "This may solve for the wrong variable; with $y=3$, $x=5+3=8$, not $10$."
     },
     "explanation": "Subtract the second equation from the first: $3y=9$, so $y=3$. Then $x-y=5$ gives $x=8$. Choice C.",
     "estimatedTimeSeconds": 90,
@@ -1232,6 +1412,12 @@
       "format": "single",
       "value": "D"
     },
+    "distractorRationale": {
+      "A": "This is $6$, a common factor but not the greatest; the GCD is $2^2\\cdot 3=12$.",
+      "B": "This is $8=2^3$, but $36$ is not divisible by $8$; the GCD is $12$.",
+      "C": "This is $10$, which divides neither number; the greatest common divisor is $12$.",
+      "E": "This is $18$, a factor of $36$ but not of $24$; the GCD is $12$."
+    },
     "explanation": "Factor the numbers: $24=2^3\\cdot 3$ and $36=2^2\\cdot 3^2$. The common factors are $2^2\\cdot 3=12$. Choice D.",
     "estimatedTimeSeconds": 90,
     "tags": [
@@ -1271,6 +1457,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "C"
+    },
+    "distractorRationale": {
+      "A": "A near-miss; the discount $18$ over the original $90$ is $20\\%$, not $15\\%$.",
+      "B": "This uses the raw difference $18$ as the percent; the discount is $18/90=20\\%$.",
+      "D": "A near-miss; $18/90=0.20=20\\%$, not $22\\%$.",
+      "E": "This may divide by the sale price $72$; the percent discount is $18/90=20\\%$."
     },
     "explanation": "The discount is $90-72=18$. The percent discount is $18/90=0.20=20\\%$. Choice C.",
     "estimatedTimeSeconds": 90,
@@ -1312,6 +1504,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "A near-miss; $\\frac{3}{2}\\cdot\\frac{8}{3}=\\frac{24}{6}=4$, not $3$.",
+      "C": "A near-miss; the improper-fraction product is $\\frac{3}{2}\\cdot\\frac{8}{3}=4$, not $5$.",
+      "D": "This may multiply the whole parts $1\\times 2$ then add fractions wrongly; converting first gives $\\frac{3}{2}\\cdot\\frac{8}{3}=4$.",
+      "E": "This overshoots; the correct product of $\\frac{3}{2}$ and $\\frac{8}{3}$ is $4$, not $7$."
+    },
     "explanation": "Convert to improper fractions: $1\\frac{1}{2}=\\frac{3}{2}$ and $2\\frac{2}{3}=\\frac{8}{3}$. Then $\\frac{3}{2}\\cdot \\frac{8}{3}=4$. Choice B.",
     "estimatedTimeSeconds": 90,
     "tags": [
@@ -1351,6 +1549,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "A near-miss; the combined rate $\\frac{1}{10}+\\frac{1}{15}=\\frac{1}{6}$ gives $6$ hours, not $5$.",
+      "C": "A near-miss; $1\\div\\frac{1}{6}=6$ hours, not $7$.",
+      "D": "A near-miss above the answer; combining the rates gives $6$ hours, not $8$.",
+      "E": "This may average the two times $\\frac{10+15}{...}$; combining rates gives $\\frac{1}{6}$ tank per hour, so $6$ hours."
     },
     "explanation": "The combined rate is $\\frac{1}{10}+\\frac{1}{15}=\\frac{5}{30}=\\frac{1}{6}$ tank per hour. So the tank fills in 6 hours. Choice B.",
     "estimatedTimeSeconds": 90,
@@ -1392,6 +1596,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "A near-miss; the slope is $\\frac{10-2}{5-1}=\\frac{8}{4}=2$, not $1$.",
+      "C": "A near-miss; rise over run is $\\frac{8}{4}=2$, not $3$.",
+      "D": "This may use the rise $8$ over a run of $... 2$; the slope is $\\frac{8}{4}=2$.",
+      "E": "This may take the run as denominator wrong or use $\\frac{10}{...}$; the slope is $\\frac{8}{4}=2$."
+    },
     "explanation": "Slope is $\\frac{10-2}{5-1}=\\frac{8}{4}=2$. Choice B.",
     "estimatedTimeSeconds": 90,
     "tags": [
@@ -1431,6 +1641,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "C"
+    },
+    "distractorRationale": {
+      "A": "This undercounts; $-3<x<4$ contains the integers $-2,-1,0,1,2,3$, which is $6$, not $4$.",
+      "B": "A near-miss; the open interval $(-3,4)$ holds $6$ integers, not $5$.",
+      "D": "This may include an endpoint; since the bounds are strict, $-3$ and $4$ are excluded, leaving $6$ integers.",
+      "E": "This overcounts by including both endpoints; the strict inequality gives exactly $6$ integers."
     },
     "explanation": "$|2x-1|<7$ means $-7<2x-1<7$. Add 1: $-6<2x<8$. Divide by 2: $-3<x<4$. The integers are $-2,-1,0,1,2,3$, so there are 6. Choice C.",
     "estimatedTimeSeconds": 90,
@@ -1472,6 +1688,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "This treats $3^{10}$ as divisible by $4$; since $3^2\\equiv 1\\pmod 4$, $3^{10}\\equiv 1$, so the remainder is $1$.",
+      "C": "A near-miss; $3^{10}=(3^2)^5\\equiv 1^5\\equiv 1\\pmod 4$, so the remainder is $1$, not $2$.",
+      "D": "This is the remainder of $3^1$ (or odd powers) mod $4$; for the even power $3^{10}$ the remainder is $1$.",
+      "E": "A remainder cannot equal the divisor $4$; $3^{10}\\equiv 1\\pmod 4$, so the remainder is $1$."
+    },
     "explanation": "Because $3^2=9\\equiv 1\\pmod 4$, we have $3^{10}=(3^2)^5\\equiv 1^5\\equiv 1\\pmod 4$. The remainder is 1. Choice B.",
     "estimatedTimeSeconds": 90,
     "tags": [
@@ -1511,6 +1733,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "C"
+    },
+    "distractorRationale": {
+      "A": "This undershoots; the $6$ liters of salt must become $25\\%$ of the new total $24$, so $24-20=4$ liters of water, not $2$.",
+      "B": "A near-miss; the new total is $6/0.25=24$ liters, requiring $4$ liters added, not $3$.",
+      "D": "A near-miss above the answer; $24-20=4$ liters of water are needed, not $5$.",
+      "E": "This overshoots; holding salt fixed at $6$ liters, the total grows to $24$, so only $4$ liters of water are added."
     },
     "explanation": "The amount of salt is fixed at $20\\times 0.30=6$ liters. If the final concentration is 25%, then $6$ is 25% of the new total, so the total volume must be $6/0.25=24$ liters. Therefore $24-20=4$ liters of water are needed. Choice C.",
     "estimatedTimeSeconds": 90,
@@ -1552,6 +1780,12 @@
       "format": "single",
       "value": "E"
     },
+    "distractorRationale": {
+      "A": "A near-miss; range = max $-$ min, so max $=5+12=17$, not $13$.",
+      "B": "A near-miss; adding the range to the minimum gives $5+12=17$, not $14$.",
+      "C": "A near-miss; max $=$ min $+$ range $=5+12=17$, not $15$.",
+      "D": "A near-miss below the answer; $5+12=17$, not $16$."
+    },
     "explanation": "Range equals maximum minus minimum, so maximum = $5+12=17$. Choice E.",
     "estimatedTimeSeconds": 90,
     "tags": [
@@ -1591,6 +1825,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "C"
+    },
+    "distractorRationale": {
+      "A": "This is $\\binom{5}{2}=10$, treating order as not mattering; since order matters it is $5\\times 4=20$.",
+      "B": "A near-miss; with order mattering and no repetition, the count is $5\\cdot 4=20$, not $15$.",
+      "D": "This is $5\\times 5=25$, allowing repetition; without repetition the second letter has $4$ choices, giving $20$.",
+      "E": "This overcounts; $5$ choices then $4$ choices yields $20$ codes, not $30$."
     },
     "explanation": "There are 5 choices for the first letter and 4 for the second, so the total is $5\\cdot 4=20$. Choice C.",
     "estimatedTimeSeconds": 90,

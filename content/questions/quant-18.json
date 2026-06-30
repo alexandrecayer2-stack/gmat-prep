@@ -33,6 +33,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "$96=2^{5}\\cdot3$ has $(5+1)(1+1)=12$ divisors, not $14$; a multiple of $12$ with $14$ divisors must have the form $p^{6}q=2^{6}\\cdot3=192$.",
+      "B": "$144=2^{4}\\cdot3^{2}$ has $(4+1)(2+1)=15$ divisors, not $14$; the correct shape is $2^{6}\\cdot3=192$.",
+      "D": "$360=2^{3}\\cdot3^{2}\\cdot5$ has $(3+1)(2+1)(1+1)=24$ divisors; only $2^{6}\\cdot3=192$ hits exactly $14$.",
+      "E": "$8192=2^{13}$ uses the single-prime form $p^{13}$ and is not even a multiple of $12$; the two-prime form $2^{6}\\cdot3=192$ is required."
+    },
     "explanation": "Since $14=2\\cdot 7$, the only divisor-count shapes are $p^{13}$ (one prime) or $p^{6}q$ (two primes). A multiple of $12=2^{2}\\cdot 3$ needs at least two distinct primes with the power of $2$ at least $2$, so $p^{13}$ is impossible and the form must be $p^{6}q$. To be divisible by $2^{2}\\cdot 3$ with only two primes available, force $p=2$ and $q=3$: $2^{6}\\cdot 3=192$, which has $(6+1)(1+1)=14$ divisors. The headline trap E, $2^{13}=8192$, comes from remembering only the single-prime form $p^{13}$; it is not even a multiple of $12$. A ($96=2^{5}\\cdot3$, $12$ divisors), B ($144=12^{2}$, $15$ divisors), and D ($360=2^{3}\\cdot3^{2}\\cdot5$, $24$ divisors) are tempting multiples of $12$ with the wrong divisor count.",
     "estimatedTimeSeconds": 150,
     "answerCheck": "num(text(answer)) === 192"
@@ -70,6 +76,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "E"
+    },
+    "distractorRationale": {
+      "A": "$n=14$ makes $504n$ a perfect square but ignores the multiple-of-$60$ condition (no factor of $5$); you must also supply $5^{2}$, giving $n=350$.",
+      "B": "$n=70=14\\cdot5$ injects only one factor of $5$, which destroys the perfect square; keeping the exponent of $5$ even requires $5^{2}$, so $n=350$.",
+      "C": "$n=140=14\\cdot10$ contributes a lone factor of $5$ (and an extra $2$), breaking the perfect square; the even-exponent fix is $5^{2}$, giving $n=350$.",
+      "D": "$n=210=14\\cdot15$ adds a single $5$ and a $3$, so $504n$ is no longer a perfect square; the least valid value is $n=14\\cdot5^{2}=350$."
     },
     "explanation": "Factor $504=2^{3}\\cdot 3^{2}\\cdot 7$. For $504n$ to be a perfect square every prime exponent must be even, so $n$ must contribute at least $2^{1}\\cdot 7^{1}$, giving the base value $n=14$ and $504\\cdot 14=7056=84^{2}$. But $84^{2}=2^{4}\\cdot 3^{2}\\cdot 7^{2}$ has no factor of $5$, so it is not a multiple of $60=2^{2}\\cdot 3\\cdot 5$. To inject a $5$ while keeping a perfect square, the exponent of $5$ must stay even, so we need $5^{2}$, not a single $5$. Thus $n=14\\cdot 5^{2}=350$, and $504\\cdot 350=176400=420^{2}$, which is divisible by $60$. Trap A ($14$) ignores the multiple-of-$60$ condition; trap B ($70=14\\cdot5$) adds just one factor of $5$ and destroys the perfect square.",
     "estimatedTimeSeconds": 150,
@@ -109,6 +121,12 @@
       "format": "single",
       "value": "D"
     },
+    "distractorRationale": {
+      "A": "$12=2^{3}+4$ grabs $p=2$ without checking that $2^{2}+8=12$ is not prime; only $p=3$ works, giving $p^{3}+4=31$.",
+      "B": "$13=p^{2}+4$ evaluates the wrong expression at $p=3$; the question asks for $p^{3}+4=27+4=31$.",
+      "C": "$23=p^{3}-4$ is a sign slip on the final expression; with $p=3$, $p^{3}+4=31$.",
+      "E": "$35=p^{3}+8$ uses the wrong constant; the correct value is $p^{3}+4=27+4=31$."
+    },
     "explanation": "The key insight is a modulo-$3$ argument. If $p$ is not $3$, then $p$ is not divisible by $3$, so $p^{2}\\equiv 1 \\pmod 3$, which makes $p^{2}+8\\equiv 1+8\\equiv 0 \\pmod 3$ and therefore composite (it exceeds $3$). So the only candidate is $p=3$, and indeed $p^{2}+8=17$ is prime. Then $p^{3}+4=27+4=31$. Trap A ($12$) comes from grabbing $p=2$ without checking that $2^{2}+8=12$ is not prime; B ($13=p^{2}+4$) and C ($23=p^{3}-4$) and E ($35=p^{3}+8$) are sign/term slips on the final expression.",
     "estimatedTimeSeconds": 150,
     "answerCheck": "num(text(answer)) === 31"
@@ -146,6 +164,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "$6$ undercounts by over-restricting; with $a$ pinned to $2$, the free choices give $3\\cdot2\\cdot2=12$ divisors.",
+      "C": "$18$ is a miscount; the constraints force $a=2$ exactly, then $b\\in\\{1,2,3\\}$, $c\\in\\{1,2\\}$, $e\\in\\{0,1\\}$ yield $1\\cdot3\\cdot2\\cdot2=12$.",
+      "D": "$24$ flips the 'not a multiple of $8$' clause and counts the multiples of $60$ that ARE multiples of $8$ ($a\\in\\{3,4\\}$); the wanted case is $a=2$, giving $12$.",
+      "E": "$36$ ignores the not-a-multiple-of-$8$ clause and counts all multiples of $60$ ($a\\in\\{2,3,4\\}$); restricting to $a=2$ gives $12$."
     },
     "explanation": "Write a divisor as $2^{a}3^{b}5^{c}7^{e}$ with $0\\le a\\le4,\\ 0\\le b\\le3,\\ 0\\le c\\le2,\\ 0\\le e\\le1$. Being a multiple of $60=2^{2}\\cdot3\\cdot5$ forces $a\\ge2,\\ b\\ge1,\\ c\\ge1$. Being NOT a multiple of $8=2^{3}$ forces $a\\le2$. The two conditions on $a$ pin it to exactly $a=2$ (one choice). Then $b\\in\\{1,2,3\\}$ (3), $c\\in\\{1,2\\}$ (2), $e\\in\\{0,1\\}$ (2), giving $1\\cdot3\\cdot2\\cdot2=12$. Trap E ($36$) ignores the not-multiple-of-$8$ clause and counts all multiples of $60$ ($a\\in\\{2,3,4\\}$). Trap D ($24$) flips the last clause and counts multiples of $60$ that ARE multiples of $8$ ($a\\in\\{3,4\\}$).",
     "estimatedTimeSeconds": 150,
@@ -185,6 +209,12 @@
       "format": "single",
       "value": "D"
     },
+    "distractorRationale": {
+      "A": "$26=19+7$ adds the per-prime counts instead of multiplying them; the primes are independent, so the answer is $19\\cdot7=133$.",
+      "B": "$30$ counts unordered triples; the question asks for ordered triples $(a,b,c)$, giving $19\\cdot7=133$.",
+      "C": "$49=7^{2}$ misapplies one prime's count to both primes; the prime $2$ contributes $19$ and the prime $3$ contributes $7$, so $19\\cdot7=133$.",
+      "E": "$216=3^{3}\\cdot2^{3}$ counts all triples of divisors and forgets that the maximum exponent must equal the target; that requirement gives $19\\cdot7=133$."
+    },
     "explanation": "Work prime by prime, where $12=2^{2}\\cdot3$. For the prime $2$, each of $a,b,c$ has an exponent in $\\{0,1,2\\}$ and the maximum of the three must equal $2$. The number of exponent triples with maximum exactly $2$ is (all triples) minus (those staying at most $1$): $3^{3}-2^{3}=27-8=19$. For the prime $3$, exponents are in $\\{0,1\\}$ with maximum exactly $1$: $2^{3}-1^{3}=8-1=7$. Since the primes are independent, multiply: $19\\cdot7=133$. Trap E ($216=3^{3}\\cdot2^{3}$) forgets the 'maximum equals the target' requirement and counts all triples of divisors. Trap A ($26=19+7$) adds the per-prime counts instead of multiplying. Trap B ($30$) counts unordered triples; C ($49=7^{2}$) misapplies one prime's count.",
     "estimatedTimeSeconds": 150,
     "answerCheck": "num(text(answer)) === 133"
@@ -222,6 +252,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "C"
+    },
+    "distractorRationale": {
+      "A": "$10=\\lfloor30/3\\rfloor$ stops after the first Legendre term; you must also add $\\lfloor30/9\\rfloor+\\lfloor30/27\\rfloor$, giving $14$.",
+      "B": "$13$ drops the $\\lfloor30/27\\rfloor=1$ term; the full count of $3$'s in $30!$ is $10+3+1=14$.",
+      "D": "$15$ is a near-miss on the count of $3$'s; the correct Legendre sum is $10+3+1=14$, which is the limiting prime.",
+      "E": "$26$ counts the abundant prime $2$ instead of the scarce prime $3$; each $6$ needs a $3$, so the answer is the smaller count, $14$."
     },
     "explanation": "Since $6=2\\cdot3$, each factor of $6$ needs one $2$ and one $3$, so $k$ is limited by whichever prime is scarcer in $30!$. Count the prime $3$: $\\lfloor 30/3\\rfloor+\\lfloor 30/9\\rfloor+\\lfloor 30/27\\rfloor=10+3+1=14$. Count the prime $2$: $15+7+3+1=26$. The limiting (smaller) count is $14$, so the answer is $14$. Trap E ($26$) uses the abundant prime $2$ instead of the scarce prime $3$; trap A ($10$) stops after the first term $\\lfloor 30/3\\rfloor$; trap B ($13$) drops the $\\lfloor 30/27\\rfloor=1$ term.",
     "estimatedTimeSeconds": 150,
@@ -261,6 +297,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "$312=12\\cdot26$ assumes $a$ and $b$ can be made nearly equal, but no coprime factor pair of $210$ sums to $26$; the closest coprime split is $14\\times15$, giving $348$.",
+      "C": "$372=12\\cdot31$ comes from the coprime split $10\\times21$, which is not optimal; the minimum uses $14\\times15$ for $a+b=348$.",
+      "D": "$444=12\\cdot37$ comes from the coprime split $7\\times30$, a non-optimal pair; the closest coprime split $14\\times15$ gives $348$.",
+      "E": "$2532=12+2520$ wrongly takes $a=\\gcd$ and $b=\\text{lcm}$; writing $a=12x,b=12y$ with $xy=210$ and minimizing gives $348$."
+    },
     "explanation": "Write $a=12x$ and $b=12y$ with $\\gcd(x,y)=1$. Then $\\text{lcm}(a,b)=12xy=2520$, so $xy=2520/12=210=2\\cdot3\\cdot5\\cdot7$, and $x,y$ must be coprime (each prime of $210$ goes entirely to one side). Minimizing $a+b=12(x+y)$ means minimizing $x+y$ where $xy=210$ and $x,y$ are coprime. Among factor pairs of $210$, the closest split is $14\\times15$ (and $\\gcd(14,15)=1$), giving $x+y=29$ and $a+b=12\\cdot29=348$ (the pair $a=168,b=180$). The trap A ($312=12\\cdot26$) assumes you can make $a$ and $b$ nearly equal, but no coprime factor pair of $210$ sums to $26$. Trap E ($2532=12+2520$) wrongly takes $a=\\gcd$ and $b=\\text{lcm}$; C ($372=12\\cdot31$, from $10\\times21$) and D ($444=12\\cdot37$, from $7\\times30$) are non-optimal coprime splits.",
     "estimatedTimeSeconds": 150,
     "answerCheck": "num(text(answer)) === 348"
@@ -298,6 +340,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "C"
+    },
+    "distractorRationale": {
+      "A": "$18$ counts only the perfect-square divisors and ignores the perfect cubes; inclusion-exclusion gives $18+4-1=21$.",
+      "B": "$20$ is a miscount of the union; the correct total is squares plus cubes minus the overlap, $18+4-1=21$.",
+      "D": "$22$ forgets to subtract the single divisor counted in both sets (the perfect sixth power $1$); the answer is $18+4-1=21$.",
+      "E": "$24$ over-counts the union; squares ($18$) plus cubes ($4$) minus the overlap ($1$) gives $21$."
     },
     "explanation": "A divisor $2^{a}3^{b}7^{c}$ is a perfect square when $a,b,c$ are all even: $a\\in\\{0,2,4\\}$ (3), $b\\in\\{0,2,4\\}$ (3), $c\\in\\{0,2\\}$ (2), giving $3\\cdot3\\cdot2=18$. It is a perfect cube when the exponents are multiples of $3$: $a\\in\\{0,3\\}$ (2), $b\\in\\{0,3\\}$ (2), $c\\in\\{0\\}$ (1), giving $2\\cdot2\\cdot1=4$. By inclusion-exclusion subtract those that are both, i.e. perfect sixth powers (exponents multiples of $6$): only $a=0,b=0,c=0$, so $1$. Total $=18+4-1=21$. Trap D ($22$) forgets to subtract the overlap; A ($18$) and (a square-only slip) and the cube-only count $4$ ignore one of the two sets.",
     "estimatedTimeSeconds": 150,
@@ -337,6 +385,12 @@
       "format": "single",
       "value": "E"
     },
+    "distractorRationale": {
+      "A": "$11$ is a plausible digit-sum guess but does not match $N=689$, whose digits sum to $6+8+9=23$.",
+      "B": "$14$ does not match the solution $N=689$; the CRT system yields a digit sum of $23$.",
+      "C": "$17$ is a near-miss digit sum; solving the three congruences gives $N=689$ and $6+8+9=23$.",
+      "D": "$20$ does not correspond to $N=689$; the correct digit sum is $23$."
+    },
     "explanation": "Solve the system step by step. From $N\\equiv 7\\pmod{11}$ write $N=11k+7$. Impose $N\\equiv 5\\pmod 9$: $11k+7\\equiv 2k+7\\equiv 5\\pmod 9$, so $2k\\equiv -2\\equiv 7\\pmod 9$; multiplying by the inverse of $2$ mod $9$ (which is $5$) gives $k\\equiv 35\\equiv 8\\pmod 9$. So $k=9m+8$ and $N=11(9m+8)+7=99m+95$. Impose $N\\equiv 3\\pmod 7$: $99m+95\\equiv (99\\bmod7)m+(95\\bmod7)=1\\cdot m+4\\equiv 3\\pmod 7$, so $m\\equiv -1\\equiv 6\\pmod 7$. The smallest is $m=6$, giving $N=99\\cdot 6+95=689$. Check: $689=9\\cdot76+5$, $689=11\\cdot62+7$, $689=7\\cdot98+3$. The digit sum is $6+8+9=23$. Testing the five answer choices does not shortcut this, since the question asks for a digit sum, not $N$ itself.",
     "estimatedTimeSeconds": 150,
     "answerCheck": "num(text(answer)) === 23"
@@ -374,6 +428,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "D"
+    },
+    "distractorRationale": {
+      "A": "$01$ comes from assuming $17^{20}\\equiv1$ lands exactly at the exponent; since $92\\equiv12\\pmod{20}$, you need $17^{12}\\equiv61\\pmod{100}$.",
+      "B": "$21$ is $17^{4}\\bmod100$, stopping the squaring too early; continuing to $17^{12}$ gives $61$.",
+      "C": "$41$ is $17^{8}\\bmod100$, one step short; $17^{12}=17^{8}\\cdot17^{4}\\equiv41\\cdot21\\equiv61\\pmod{100}$.",
+      "E": "$89$ comes from a period-$10$ assumption ($92\\bmod10=2$, $17^{2}=89$); the correct mod-$100$ period gives $17^{12}\\equiv61$."
     },
     "explanation": "The last two digits are $17^{92}\\bmod 100$. The units digit alone cycles with period $4$, but mod $100$ the period is longer: compute powers of $17$ mod $100$ — $17^1=17,\\ 17^2=89,\\ 17^3=13,\\ 17^4=21,\\ 17^5=57,\\dots$ and the residues repeat with period $20$ (since $17^{20}\\equiv 1\\pmod{100}$). Because $92=20\\cdot4+12$, we need $17^{12}\\bmod 100$. Build up by squaring: $17^4\\equiv 21$, so $17^8\\equiv 21^2=441\\equiv 41$, and $17^{12}=17^8\\cdot 17^4\\equiv 41\\cdot 21=861\\equiv 61\\pmod{100}$. The last two digits are $61$. Trap (E) $89$ comes from using a period-$10$ assumption ($92\\bmod 10=2$, $17^2=89$); other choices come from stopping at $17^4,17^8,$ or from using the units-digit cycle.",
     "estimatedTimeSeconds": 150,
@@ -413,6 +473,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "$4$ undercounts by missing solutions; combining $B$ even with $A+B=8$ or $17$ yields $6$ ordered pairs.",
+      "C": "$8$ over-counts the valid pairs; the digit-sum and divisibility-by-$8$ constraints together allow exactly $6$.",
+      "D": "$10$ over-counts; only $B\\in\\{0,2,4,6,8\\}$ paired with a valid $A$ from $A+B=8$ or $17$ works, giving $6$.",
+      "E": "$11$ over-counts the ordered pairs; the correct total is $5$ pairs from $A+B=8$ plus $1$ from $A+B=17$, namely $6$."
+    },
     "explanation": "Since $72=8\\cdot 9$ with $\\gcd(8,9)=1$, the number must be divisible by both $8$ and $9$. Divisibility by $8$ depends only on the last three digits $\\overline{B72}$: we need $100B+72\\equiv 4B+0\\equiv 0\\pmod 8$ (because $100\\equiv 4$ and $72\\equiv 0$ mod $8$), i.e. $4B\\equiv 0\\pmod 8$, so $B$ is even: $B\\in\\{0,2,4,6,8\\}$. Divisibility by $9$ needs the digit sum $4+A+6+B+7+2=19+A+B$ divisible by $9$, i.e. $A+B\\equiv 8\\pmod 9$, so $A+B=8$ or $A+B=17$. Now combine: for each even $B$, $A=8-B$ (valid digit when $0\\le 8-B\\le 9$) gives $(A,B)=(8,0),(6,2),(4,4),(2,6),(0,8)$ — five pairs; and $A=17-B$ is a valid digit only when $17-B\\le 9$, i.e. $B\\ge 8$, giving $B=8,A=9$: $(9,8)$ — one more. Total $5+1=6$. The trap is to forget the $A+B=17$ case (giving $5$) or to require all six digits for the $8$-test.",
     "estimatedTimeSeconds": 150,
     "answerCheck": "num(text(answer)) === 6"
@@ -450,6 +516,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "E"
+    },
+    "distractorRationale": {
+      "A": "$0$ would require the two ending digits to match, but $2^{(2^{10})}$ ends in $6$ and $7^{(7^{10})}$ ends in $7$; with a borrow the units digit is $9$.",
+      "B": "$1$ uses the trap $2^{0}=1$ for the exponent $\\equiv0\\pmod4$; that residue corresponds to the 4th cycle entry $6$, and after subtracting the result is $9$.",
+      "C": "$5$ does not arise from the units-digit arithmetic; $6$ minus $7$ with a borrow gives $16-7=9$.",
+      "D": "$6$ is the units digit of $2^{(2^{10})}$ alone and ignores the subtraction; subtracting the $7$-ending term gives $9$."
     },
     "explanation": "Units digits of powers of $2$ cycle $2,4,8,6$ with period $4$; the position is determined by the exponent mod $4$, where a residue of $0$ corresponds to the 4th entry ($6$), not to $2^0$. The exponent is $2^{10}=1024$, and $1024\\equiv 0\\pmod 4$, so $2^{(2^{10})}$ ends in $6$ — the key trap is writing $2^0=1$. For $7$: powers cycle $7,9,3,1$ with period $4$; the exponent is $7^{10}$, and $7\\equiv 3\\pmod 4$ with $3^{10}=(3^2)^5\\equiv 1^5=1\\pmod 4$, so $7^{10}\\equiv 1\\pmod 4$, giving $7^{(7^{10})}$ a units digit of $7^1=7$. Now subtract units digits: a number ending in $6$ minus a number ending in $7$. Since $6<7$, borrow: $16-7=9$. The units digit is $9$. Choice (D) $6$ ignores the subtraction; (B) $1$ uses the $2^0=1$ trap.",
     "estimatedTimeSeconds": 150,
@@ -489,6 +561,12 @@
       "format": "single",
       "value": "D"
     },
+    "distractorRationale": {
+      "A": "$1$ does not match the reduction; $3^{200}-2^{200}\\equiv2-4=-2\\equiv5\\pmod7$.",
+      "B": "$2$ reports $3^{200}\\bmod7$ alone or the absolute value of $-2$; the difference is $2-4\\equiv5\\pmod7$.",
+      "C": "$3$ is a miscount of one of the cycle positions; correctly, $3^{200}\\equiv2$ and $2^{200}\\equiv4$, so the remainder is $5$.",
+      "E": "$6$ uses a wrong cycle position; $3^{200}\\equiv2$ and $2^{200}\\equiv4$ give $-2\\equiv5\\pmod7$."
+    },
     "explanation": "Reduce each power mod $7$ using its cycle. Powers of $3$ mod $7$: $3,2,6,4,5,1$ then repeat — period $6$. Since $200=6\\cdot33+2$, $3^{200}\\equiv 3^2\\equiv 2\\pmod 7$. Powers of $2$ mod $7$: $2,4,1$ then repeat — period $3$. Since $200=3\\cdot66+2$, $2^{200}\\equiv 2^2\\equiv 4\\pmod 7$. Therefore $3^{200}-2^{200}\\equiv 2-4=-2\\pmod 7$. A remainder must be in $\\{0,1,\\dots,6\\}$, so add $7$: $-2\\equiv 5\\pmod 7$. The remainder is $5$. The trap is leaving the answer as $-2$ or reporting $2$ (its absolute value), and using the wrong period for one of the bases.",
     "estimatedTimeSeconds": 150,
     "answerCheck": "num(text(answer)) === 5"
@@ -526,6 +604,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "$2$ comes from mis-reading $7^{48}$ as ending in $7$, giving a product ending in $1$, then $1-9$ borrows to $2$; correctly $7^{48}$ ends in $1$, the product ends in $3$, and $13-9=4$.",
+      "C": "$6$ does not follow from the units-digit work; the product ends in $3$ and a number ending in $3$ minus one ending in $9$ borrows to $13-9=4$.",
+      "D": "$7$ comes from a botched borrow on $3-9$; borrowing correctly gives $13-9=4$.",
+      "E": "$9$ is the units digit of $19^{33}$ alone and forgets the subtraction; the product ends in $3$, so $13-9=4$."
     },
     "explanation": "Take units digits one at a time. $13^{21}$ matches $3^{21}$; powers of $3$ cycle $3,9,7,1$ (period $4$) and $21=4\\cdot5+1$, so it ends in $3$. $7^{48}$: powers of $7$ cycle $7,9,3,1$ (period $4$) and $48=4\\cdot12+0$, the 4th entry, so it ends in $1$. The product ends in the units digit of $3\\times 1=3$. $19^{33}$ matches $9^{33}$; powers of $9$ alternate $9,1$ (odd exponent gives $9$), so it ends in $9$. We need (a number ending in $3$) minus (a number ending in $9$). Since $3<9$, borrow: $13-9=4$. The units digit is $4$. Trap (D) $7$ might come from a wrong borrow ($3-9$ mishandled), and (E) $9$ from forgetting the subtraction and mis-reading the product; (C) $6$ from treating $7^{48}$ as ending in $7$ (then $3\\cdot7=21\\to1$, $1-9$ borrow giving $2$) — note the named slips lead to the listed distractors.",
     "estimatedTimeSeconds": 150,
@@ -565,6 +649,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "$27$ is an off-by-one undercount; the largest valid $n$ is $35\\cdot28+17=997$, so $j$ runs $0$ to $28$, giving $29$ values.",
+      "B": "$28$ is an off-by-one undercount; counting $j=0,1,\\dots,28$ gives $29$ solutions in range.",
+      "D": "$30$ over-counts by one; $35\\cdot29+17=1032>1000$, so the count stops at $j=28$, giving $29$.",
+      "E": "$31$ over-counts; the combined congruence has period $35$ and yields exactly $29$ values up to $1000$."
+    },
     "explanation": "First combine the two congruences. Since $5$ and $7$ are coprime, by the Chinese Remainder Theorem the solutions form a single residue class mod $35$. Solve: $n\\equiv 2\\pmod 5$ means $n=5k+2$; then $5k+2\\equiv 3\\pmod 7$ gives $5k\\equiv 1\\pmod 7$, and since $5^{-1}\\equiv 3\\pmod 7$ (because $5\\cdot 3=15\\equiv 1$), $k\\equiv 3\\pmod 7$. So $k=7j+3$ and $n=5(7j+3)+2=35j+17$, i.e. $n\\equiv 17\\pmod{35}$. Now count $n=17,52,87,\\dots$ with $1\\le n\\le 1000$: from $35j+17\\le 1000$ we get $35j\\le 983$, so $j\\le 28.08$, giving $j=0,1,\\dots,28$ — that is $29$ values (the largest is $35\\cdot28+17=997$). The trap is an off-by-one in the count, or using period $12$ instead of $35$.",
     "estimatedTimeSeconds": 150,
     "answerCheck": "num(text(answer)) === 29"
@@ -602,6 +692,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "$-8$ is a root of $s^{3}-57s+56=0$ but gives a negative discriminant ($s^{2}>38$), so $x,y$ would not be real; the only valid root is $s=1$.",
+      "C": "$3$ satisfies $x^{2}+y^{2}=19$ for some real pair but then $x^{3}+y^{3}=72\\neq28$; the system forces $x+y=1$.",
+      "D": "$7$ is the 'nice' root of the cubic but yields $s^{2}=49>38$, a negative discriminant and non-real $x,y$; only $s=1$ works.",
+      "E": "$9$ is the tempting combination $(x^{3}+y^{3})-(x^{2}+y^{2})=28-19$; solving properly with $s=x+y$ gives $x+y=1$."
     },
     "explanation": "Let $s = x+y$ and $p = xy$. Then $x^2+y^2 = s^2 - 2p = 19$, so $p = \\dfrac{s^2-19}{2}$. Also $x^3+y^3 = s^3 - 3ps = 28$. Substituting $p$: $s^3 - 3s\\cdot\\dfrac{s^2-19}{2} = 28$, which gives $-s^3 + 57s = 56$, i.e. $s^3 - 57s + 56 = 0$. This factors over the rationals with roots $s = -8,\\ 1,\\ 7$. The trap is to stop here and pick the 'nice' root $7$ (choice D) or $-8$ (choice A). But $x,y$ must be REAL, which requires the discriminant $s^2 - 4p = -s^2 + 38 \\ge 0$, i.e. $s^2 \\le 38$. Only $s = 1$ survives ($s=7$ and $s=-8$ give negative discriminants and hence non-real $x,y$). Choice C ($3$) satisfies $x^2+y^2=19$ for some real pair but then $x^3+y^3 = 72 \\ne 28$; choice E ($9$) is the tempting combination $x^3{+}y^3 - (x^2{+}y^2) = 28-19$. Answer: $x+y = 1$.",
     "estimatedTimeSeconds": 150,
@@ -641,6 +737,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "$-1$ is one valid value of $k$ (from roots $1,-2$), not the sum; the valid $k$ are $9$ and $-1$, summing to $8$.",
+      "C": "$9$ keeps only the positive factor pair $(1,4)$ and forgets the negative pair $(-1,-4)$ that gives $k=-1$; the sum is $9+(-1)=8$.",
+      "D": "$16$ wrongly counts the double-root cases $k=8$ and $k=0$; excluding them (distinct roots required) leaves $9+(-1)=8$.",
+      "E": "$17=8+9$ naively adds two positive candidates; the genuine distinct-root values are $9$ and $-1$, summing to $8$."
+    },
     "explanation": "Let the integer roots be $r$ and $s$. By Vieta, $r+s = k$ and $rs = 2k = 2(r+s)$. So $rs - 2r - 2s = 0$; add $4$ to both sides to factor: $(r-2)(s-2) = 4$. The integer factor pairs of $4$ are $(1,4),(4,1),(2,2),(-1,-4),(-4,-1),(-2,-2)$. We need DISTINCT roots, so discard $(2,2)$ and $(-2,-2)$ (these give double roots, corresponding to $k=8$ and $k=0$). From $(1,4)$: $r,s = 3,6$, so $k = 9$. From $(-1,-4)$: $r,s = 1,-2$, so $k = -1$. Thus the valid $k$ are $9$ and $-1$, summing to $8$. Traps: forgetting the negative factor pairs leaves only $k=9$ (choice C); counting the double-root cases $k=0$ and $k=8$ as well gives $9 + (-1) + 8 + 0 = 16$ (choice D); naively adding the two positive cases $8+9$ gives $17$ (choice E). Answer: $8$.",
     "estimatedTimeSeconds": 150,
     "answerCheck": "num(text(answer)) === 8"
@@ -678,6 +780,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "D"
+    },
+    "distractorRationale": {
+      "A": "$-5$ is a sign slip when eliminating the system; solving (I) $f(-2)+2f(3)=5$ and (II) $f(3)+2f(-2)=10$ gives $f(-2)=5$.",
+      "B": "$1$ does not satisfy the two-equation elimination; the correct value is $f(-2)=5$.",
+      "C": "$3$ assumes $f(x)=\\tfrac{x^{2}+1}{2}$, ignoring the $f(1-x)$ coupling; the proper substitution gives $f(-2)=5$.",
+      "E": "$9$ comes from reading off $x^{2}+1$ or mislabeling $f(3)$; eliminating correctly yields $f(-2)=5$."
     },
     "explanation": "The single equation involves both $f(x)$ and $f(1-x)$, so create a second equation by replacing $x$ with $1-x$ (which sends $1-x \\mapsto x$): $f(1-x) + 2f(x) = (1-x)^2 + 1$. Now evaluate both at $x = -2$, noting $1-x = 3$: \\;(I) $f(-2) + 2f(3) = 5$ and \\;(II) $f(3) + 2f(-2) = 10$. Multiply (II) by $2$: $2f(3) + 4f(-2) = 20$, then subtract (I): $3f(-2) = 15$, so $f(-2) = 5$. Trap A ($-5$): a sign slip when eliminating (using $1 - c^2$ with the wrong sign) flips the result. Trap E ($9$): just reading off $x^2+1 = 5$... or computing $f(3)=2$ and mislabeling. Trap C ($3$): assuming $f(x) = \\tfrac{x^2+1}{2}$. Answer: $5$.",
     "estimatedTimeSeconds": 150,
@@ -717,6 +825,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "$3$ overlooks the reciprocal root $\\tfrac12$ and adds only $1+2$; the distinct real roots $1,2,\\tfrac12$ sum to $3.5$.",
+      "C": "$4$ does not match the root sum; the distinct real solutions $1,2,\\tfrac12$ total $\\tfrac72=3.5$.",
+      "D": "$4.5$ sums all four roots with multiplicity ($1+1+2+\\tfrac12$); counting distinct roots once gives $3.5$.",
+      "E": "$5$ does not match; the distinct real roots are $1,2,\\tfrac12$, summing to $3.5$."
+    },
     "explanation": "The coefficients read the same forwards and backwards (palindromic), so $x=0$ is not a root and we may divide by $x^2$: $2\\left(x^2 + \\tfrac{1}{x^2}\\right) - 9\\left(x + \\tfrac{1}{x}\\right) + 14 = 0$. Let $t = x + \\tfrac{1}{x}$; then $x^2 + \\tfrac{1}{x^2} = t^2 - 2$, giving $2(t^2-2) - 9t + 14 = 0$, i.e. $2t^2 - 9t + 10 = 0$, so $t = 2$ or $t = \\tfrac{5}{2}$. For $t=2$: $x + \\tfrac1x = 2 \\Rightarrow x^2 - 2x + 1 = 0 \\Rightarrow x = 1$ (a double root). For $t=\\tfrac52$: $2x^2 - 5x + 2 = 0 \\Rightarrow x = 2$ or $x = \\tfrac12$. The DISTINCT real solutions are $1, 2, \\tfrac12$, summing to $\\tfrac72 = 3.5$. Trap D ($4.5$): summing all four roots counted with multiplicity ($1+1+2+\\tfrac12$), which also equals the Vieta coefficient ratio $\\tfrac{9}{2}$. Trap A ($3$): overlooking the reciprocal root $\\tfrac12$ and adding $1+2$. Answer: $3.5$.",
     "estimatedTimeSeconds": 150,
     "answerCheck": "num(text(answer)) === 3.5"
@@ -754,6 +868,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "C"
+    },
+    "distractorRationale": {
+      "A": "$1$ takes only the degenerate solution $m=1$, which gives the double root $0$ and violates 'distinct nonzero roots'; the valid value is $m=10$.",
+      "B": "$9$ reports $m-1$ instead of $m$; from $r=3$ we get $m-1=9$, so $m=10$.",
+      "D": "$11$ keeps the degenerate $m=1$ and adds $10+1$; discarding $m=1$ leaves only $m=10$.",
+      "E": "$19$ does not match; the only qualifying value is $m=10$, so the sum is $10$."
     },
     "explanation": "Let the roots be $r$ and $2r$. By Vieta, $r + 2r = 3r = m-1$ and $r \\cdot 2r = 2r^2 = 2m-2 = 2(m-1)$, so $r^2 = m-1$. Combining $r^2 = m-1$ and $3r = m-1$ gives $r^2 = 3r$, hence $r = 0$ or $r = 3$. The case $r = 0$ forces $m - 1 = 0$, i.e. $m = 1$, but then the equation is $x^2 = 0$ with the double root $0$ — this violates 'two distinct nonzero roots,' so it must be discarded. The case $r = 3$ gives $m - 1 = 9$, so $m = 10$; the equation becomes $x^2 - 9x + 18 = 0$ with roots $3$ and $6$, and indeed $6 = 2\\cdot 3$. Only $m = 10$ qualifies, so the sum of all possible values is $10$. Trap D ($11$): keeping the degenerate $m=1$ and adding $10 + 1$. Trap A ($1$): taking only the degenerate solution. Trap B ($9$): reporting $m-1$. Answer: $10$.",
     "estimatedTimeSeconds": 150,
@@ -793,6 +913,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "$-3$ does not match the full solution set; combining both branches ($x=y$ and $x+y=-1$) gives $3+(-2)+(-1)=0$.",
+      "B": "$-1$ uses only the $x+y=-1$ branch; including the $x=y$ branch ($3$ and $-2$) gives a total of $0$.",
+      "D": "$1$ uses only the $x=y$ branch ($3+(-2)$); the second branch contributes $-1$, so the total is $0$.",
+      "E": "$5$ does not match; summing all real $x$ across both branches gives $3+(-2)+(-1)=0$."
+    },
     "explanation": "Subtract the equations: $x^2 - y^2 = (y+6) - (x+6) = y - x$. Factor the left side: $(x-y)(x+y) = -(x-y)$, so $(x-y)(x+y+1) = 0$. This splits into two branches. Branch 1 ($x = y$): substitute into $x^2 = x + 6$ to get $x^2 - x - 6 = 0$, so $x = 3$ or $x = -2$. Branch 2 ($x + y = -1$, i.e. $y = -1-x$): substitute into $x^2 = y + 6 = 5 - x$ to get $x^2 + x - 5 = 0$; its discriminant is $21 > 0$, so both roots are real and (by Vieta) sum to $-1$. The complete set of real $x$ is $\\{3,\\,-2\\} \\cup \\{$ the two roots of $x^2+x-5\\}$, and their total is $3 + (-2) + (-1) = 0$. The classic trap is to use only the $x=y$ branch, giving $3 + (-2) = 1$ (choice D); using only the second branch gives $-1$ (choice B). Answer: $0$.",
     "estimatedTimeSeconds": 150,
     "answerCheck": "num(text(answer)) === 0"
@@ -830,6 +956,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "C"
+    },
+    "distractorRationale": {
+      "A": "$-2$ does not match the full root sum; both substitution branches together give $0+1+1=2$.",
+      "B": "$1$ solves only one branch (e.g. only $u=0$ or only $u=10$); adding both branches gives $2$.",
+      "D": "$5$ does not match the sum of $x$-values; the real solutions total $0+1+1=2$.",
+      "E": "$10$ reports the value of $u$ instead of summing the $x$-values; the actual root sum is $2$."
     },
     "explanation": "Both factors share the block $x^2 - x$, so let $u = x^2 - x$. The equation becomes $(u-6)(u-4) = 24$, i.e. $u^2 - 10u + 24 = 24$, so $u^2 - 10u = 0$ and $u = 0$ or $u = 10$. Now undo the substitution. For $u = 0$: $x^2 - x = 0 \\Rightarrow x = 0$ or $x = 1$. For $u = 10$: $x^2 - x - 10 = 0$, whose discriminant $1 + 40 = 41 > 0$ gives two real roots summing (by Vieta) to $1$. So the real solutions are $0,\\ 1$, and the two roots of $x^2 - x - 10$, with total $0 + 1 + 1 = 2$. Trap B ($1$): solving only one branch (e.g. only $u = 0$, or only $u = 10$). Trap E ($10$): reporting the value of $u$ instead of summing the $x$-values. Answer: $2$.",
     "estimatedTimeSeconds": 150,
@@ -869,6 +1001,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "$\\dfrac{15}{16}$ uses $1-\\tfrac{1}{16}$, forgetting to square the last denominator; the telescoping sum is $1-\\tfrac{1}{16^{2}}=\\tfrac{255}{256}$.",
+      "B": "$\\dfrac{224}{225}$ uses $1-\\tfrac{1}{15^{2}}$, squaring $n$ instead of $n+1$; the correct last term is $\\tfrac{1}{16^{2}}$, giving $\\tfrac{255}{256}$.",
+      "D": "$\\dfrac{288}{289}$ uses $1-\\tfrac{1}{17^{2}}$, an off-by-one the other way; the sum ends at $\\tfrac{1}{16^{2}}$, so it is $\\tfrac{255}{256}$.",
+      "E": "$\\dfrac{511}{512}$ is $1-\\tfrac{1}{512}$, not a value the telescope produces; the answer is $1-\\tfrac{1}{256}=\\tfrac{255}{256}$."
+    },
     "explanation": "The numerator is the key: $2k+1=(k+1)^{2}-k^{2}$, so $\\dfrac{2k+1}{k^{2}(k+1)^{2}}=\\dfrac{(k+1)^{2}-k^{2}}{k^{2}(k+1)^{2}}=\\dfrac{1}{k^{2}}-\\dfrac{1}{(k+1)^{2}}$. The sum telescopes to $1-\\dfrac{1}{16^{2}}=1-\\dfrac{1}{256}=\\dfrac{255}{256}$. Trap B uses $1-\\tfrac{1}{15^{2}}$ (squaring $n$ instead of $n+1$); A uses $1-\\tfrac{1}{16}$ (forgetting to square the last denominator); D uses $1-\\tfrac{1}{17^{2}}$ (off-by-one the other way); E is $1-\\tfrac{1}{512}$.",
     "estimatedTimeSeconds": 150
   },
@@ -906,6 +1044,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "$\\dfrac{6}{7}$ treats the factorial as if it cancelled to $1-\\tfrac17$; the telescope gives $1-\\tfrac{1}{7!}=\\tfrac{5039}{5040}$.",
+      "B": "$\\dfrac{719}{720}$ stops at $1-\\tfrac{1}{6!}$, dropping the last term; including it gives $1-\\tfrac{1}{7!}=\\tfrac{5039}{5040}$.",
+      "D": "$\\dfrac{1}{5040}$ reports only the leftover tail $\\tfrac{1}{7!}$ instead of $1$ minus it; the sum is $\\tfrac{5039}{5040}$.",
+      "E": "$\\dfrac{40319}{40320}$ runs one term too far to $1-\\tfrac{1}{8!}$; the sum ends at $\\tfrac{1}{7!}$, giving $\\tfrac{5039}{5040}$."
+    },
     "explanation": "Rewrite each term using $\\dfrac{k}{(k+1)!}=\\dfrac{(k+1)-1}{(k+1)!}=\\dfrac{1}{k!}-\\dfrac{1}{(k+1)!}$. The sum telescopes from $k=1$ to $6$: $\\dfrac{1}{1!}-\\dfrac{1}{7!}=1-\\dfrac{1}{5040}=\\dfrac{5039}{5040}$. Trap B stops at $1-\\tfrac{1}{6!}$ (dropping the last term); A treats the factorial as if it cancelled to $1-\\tfrac17$; D reports only the leftover tail $\\tfrac{1}{7!}$ instead of $1$ minus it; E runs one term too far to $1-\\tfrac{1}{8!}$.",
     "estimatedTimeSeconds": 150
   },
@@ -942,6 +1086,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "C"
+    },
+    "distractorRationale": {
+      "A": "$48$ adds $50\\%$ of the original four times ($16\\cdot3$), treating growth as linear; compounding gives $16\\cdot(\\tfrac32)^{4}=81$.",
+      "B": "$54$ stops after $3$ weeks ($16\\cdot(\\tfrac32)^{3}$), an off-by-one; four weeks of growth gives $81$.",
+      "D": "$96$ multiplies once by $\\tfrac32$ then by $4$; the correct factor is $(\\tfrac32)^{4}$, giving $81$.",
+      "E": "$162$ doubles the correct answer; $16\\cdot(\\tfrac32)^{4}=81$."
     },
     "explanation": "Growth of $50\\%$ per week multiplies the mass by $\\tfrac32$ each week, so after $4$ weeks the mass is $16\\cdot\\left(\\tfrac32\\right)^{4}=16\\cdot\\dfrac{81}{16}=81$ grams. Tracking it week by week confirms: $16\\to24\\to36\\to54\\to81$. Trap A adds $50\\%$ of the original four times ($16\\cdot3=48$), treating growth as linear; B stops after $3$ weeks ($16\\cdot(\\tfrac32)^{3}=54$, an off-by-one); D multiplies once by $\\tfrac32$ to get $24$ then by $4$; E doubles the correct answer.",
     "estimatedTimeSeconds": 150,
@@ -981,6 +1131,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "$\\dfrac{57}{32}$ stops the sum at $k=5$; carrying through to $k=8$ gives $\\tfrac{251}{128}$.",
+      "C": "$\\dfrac{509}{256}$ drops the $-\\tfrac{8}{2^{9}}$ correction term in the subtraction; including it gives $\\tfrac{251}{128}$.",
+      "D": "$2$ is the infinite-series limit, ignoring that the sum stops at $k=8$; the finite sum is $\\tfrac{251}{128}$.",
+      "E": "$\\dfrac{255}{128}$ uses $2-\\tfrac{8}{2^{8}}$, mishandling the tail term; the correct closed form gives $\\tfrac{251}{128}$."
+    },
     "explanation": "Let $S=\\displaystyle\\sum_{k=1}^{8}\\dfrac{k}{2^{k}}$. Then $\\tfrac12 S=\\displaystyle\\sum_{k=1}^{8}\\dfrac{k}{2^{k+1}}$, and subtracting shifts the index: $S-\\tfrac12 S=\\displaystyle\\sum_{k=1}^{8}\\dfrac{1}{2^{k}}-\\dfrac{8}{2^{9}}$. The geometric part is $1-\\tfrac{1}{256}=\\tfrac{255}{256}$, so $\\tfrac12 S=\\tfrac{255}{256}-\\tfrac{8}{512}=\\tfrac{255}{256}-\\tfrac{4}{256}=\\tfrac{251}{256}$, giving $S=\\dfrac{251}{128}$. (Closed form: $2-\\dfrac{n+2}{2^{n}}=2-\\dfrac{10}{256}$.) Trap D is the infinite-series limit $2$ (ignoring that the sum stops at $k=8$); C drops the $-\\tfrac{8}{2^{9}}$ correction term; A stops the sum at $k=5$; E uses $2-\\dfrac{8}{2^{8}}$, mishandling the tail term.",
     "estimatedTimeSeconds": 150
   },
@@ -1017,6 +1173,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "D"
+    },
+    "distractorRationale": {
+      "A": "$240$ ignores the inspection stop, solving $80t=60(t+1)$ for $t=3$; accounting for the $0.5$-hour stop gives $80(4.5)=360$.",
+      "B": "$270=60(4.5)$ uses Train A's rate with Train B's travel time; Train B's distance is $80(4.5)=360$.",
+      "C": "$320=80(4)$ uses the wrong travel time; with the stop, $t=4.5$, so the distance is $360$.",
+      "E": "$480=80(6)$ treats $t+1.5$ as Train B's own moving time; Train B actually moves $4.5$ hours, giving $360$."
     },
     "explanation": "Let $t$ be the number of hours Train B actually spends moving. While B moves for $t$ hours, Train A has been traveling for $t + 1$ (the head start) $+\\,0.5$ (B's inspection stop) $= t + 1.5$ hours, since A keeps moving during B's stop. Equal distances: $80t = 60(t + 1.5)$, so $20t = 90$ and $t = 4.5$. Distance $= 80(4.5) = 360$ miles. Trap: ignoring the inspection gives $80t = 60(t+1)\\Rightarrow t=3$, distance $240$ (A); using A's rate with B's time gives $60(4.5)=270$ (B); $80(4)=320$ (C); treating $t+1.5$ as B's own travel time gives $80(6)=480$ (E).",
     "estimatedTimeSeconds": 150,
@@ -1056,6 +1218,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "$6$ ignores the drain entirely (the inlet's solo fill time); with the drain open for $3$ hours the total is $8$.",
+      "C": "$9$ comes from a careless average of $6$ and $9$; computing the net rate then switching gives $3+5=8$.",
+      "D": "$12$ is a careless combination of $6$ and $9$; the correct stage-by-stage calculation gives $8$.",
+      "E": "$18$ leaves the drain open the whole time (net rate $\\tfrac{1}{18}$ throughout); closing it after $3$ hours gives a total of $8$."
+    },
     "explanation": "Net fill rate with both open: $\\frac{1}{6}-\\frac{1}{9}=\\frac{3-2}{18}=\\frac{1}{18}$ of the tank per hour. In the first $3$ hours that fills $3\\cdot\\frac{1}{18}=\\frac{1}{6}$, leaving $\\frac{5}{6}$. With the drain closed the inlet fills at $\\frac{1}{6}$ per hour, taking $\\frac{5/6}{1/6}=5$ more hours. Total $=3+5=8$. Trap: ignoring the drain entirely gives $6$ (A); leaving the drain open the whole time gives $\\frac{1}{18}$ throughout $=18$ (E); a careless average of $6$ and $9$ suggests $9$ (C) or $12$ (D).",
     "estimatedTimeSeconds": 150,
     "answerCheck": "num(text(answer)) === 8"
@@ -1093,6 +1261,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "$240=24\\times10$ applies the post-jam rate to the pre-jam time; the pages before the jam are $18\\times10=180$.",
+      "C": "$360$ does not match the timing; solving $t_{1}+t_{2}=40$ with $18t_{1}+24t_{2}=900$ gives $t_{1}=10$ and $180$ pages.",
+      "D": "$540=18\\times30$ forgets the $5$-minute jam (using $t_{1}+t_{2}=45$); including the stop gives $t_{1}=10$ and $180$ pages.",
+      "E": "$720$ is the pages printed after the jam; the question asks for the pages before it, which is $180$."
     },
     "explanation": "Let $t_1$ and $t_2$ be the minutes spent printing before and after the jam. Elapsed time: $t_1+5+t_2=45$, so $t_1+t_2=40$. Pages: $18t_1+24t_2=900$. Substitute $t_2=40-t_1$: $18t_1+24(40-t_1)=900\\Rightarrow 960-6t_1=900\\Rightarrow t_1=10$. Pages before the jam $=18\\times10=180$. Trap: forgetting the $5$-minute jam (using $t_1+t_2=45$) gives $t_1=30$, so $540$ (D); applying the wrong rate ($24\\times10$) gives $240$ (B); $720$ (E) is the pages after the jam.",
     "estimatedTimeSeconds": 150,
@@ -1132,6 +1306,12 @@
       "format": "single",
       "value": "D"
     },
+    "distractorRationale": {
+      "A": "$2.4=\\tfrac{12}{5}$ ignores both the leak and A's solo first hour; including them gives a total of $3.5$ hours.",
+      "B": "$2.8$ ignores the leak (A solo then A+B at $\\tfrac{5}{12}$); with the leak the net rates give $3.5$ hours.",
+      "C": "$3$ is a near-miss; the first hour fills $\\tfrac16$, then A+B+leak at $\\tfrac13$ per hour need $2.5$ more, totaling $3.5$.",
+      "E": "$4$ is pump A's solo fill time; the combined-with-leak schedule fills the reservoir in $3.5$ hours."
+    },
     "explanation": "First hour, pump A with the leak: $\\frac{1}{4}-\\frac{1}{12}=\\frac{3-1}{12}=\\frac{1}{6}$ of the reservoir filled, leaving $\\frac{5}{6}$. Then A, B, and the leak together: $\\frac{1}{4}+\\frac{1}{6}-\\frac{1}{12}=\\frac{3+2-1}{12}=\\frac{4}{12}=\\frac{1}{3}$ per hour. Time for the rest: $\\frac{5/6}{1/3}=\\frac{5}{2}=2.5$ hours. Total $=1+2.5=3.5$. Trap: ignoring the leak gives $A$ for $1$h ($\\frac14$) then $A{+}B$ at $\\frac{5}{12}$, totaling $\\approx2.8$ (B); ignoring both the leak and A's solo hour ($\\frac{12}{5}=2.4$) gives (A); $4$ (E) is A's solo time.",
     "estimatedTimeSeconds": 150,
     "answerCheck": "num(text(answer)) === 3.5"
@@ -1169,6 +1349,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "D"
+    },
+    "distractorRationale": {
+      "A": "$12$ treats the total as fixed at $75$, solving $48+a=\\tfrac45\\cdot75$; since adding acid raises the total, $\\tfrac{48+a}{75+a}=\\tfrac45$ gives $a=60$.",
+      "B": "$27$ is the current water volume, not the acid to add; solving the $80\\%$ condition gives $a=60$.",
+      "C": "$48$ is the current acid volume, not the amount to add; the answer is $a=60$.",
+      "E": "$75$ is the original total volume, not the acid added; $\\tfrac{48+a}{75+a}=\\tfrac45$ yields $a=60$."
     },
     "explanation": "After two identical operations the acid fraction is $\\left(1-\\frac{d}{75}\\right)^2$, and this equals $\\frac{16}{16+9}=\\frac{16}{25}$, so $\\left(1-\\frac{d}{75}\\right)=\\frac{4}{5}$. Thus the 75 liters now hold $75\\cdot\\frac{16}{25}=48$ liters of acid and $27$ liters of water. Adding $a$ liters of pure acid must give $80\\%=\\frac{4}{5}$: $\\frac{48+a}{75+a}=\\frac{4}{5}\\Rightarrow 5(48+a)=4(75+a)\\Rightarrow 240+5a=300+4a\\Rightarrow a=60$. Check: $\\frac{108}{135}=\\frac{4}{5}$. (B) is the leftover water and (C) the current acid; (A) comes from treating the total as fixed at 75, $48+a=\\frac{4}{5}\\cdot 75$.",
     "estimatedTimeSeconds": 150,
@@ -1208,6 +1394,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "Increasing by $20\\%$ ignores the rent change; with salary $120$ and rent $78$, savings go $40\\to42$, a $5\\%$ increase.",
+      "C": "A $10\\%$ decrease subtracts the percents ($20\\%-30\\%$); actually savings rise from $40$ to $42$, a $5\\%$ increase.",
+      "D": "A $12.5\\%$ decrease compares new savings to new salary ($\\tfrac{42}{120}$ vs $\\tfrac{40}{100}$); comparing savings to old savings gives $+5\\%$.",
+      "E": "A $25\\%$ decrease adds $30$ points to the rent base ($60\\to90$, savings $30$); correctly rent is $60\\cdot1.30=78$, so savings rise $5\\%$."
+    },
     "explanation": "Let last year's salary be $100$. Then rent $=60$ and savings $=100-60=40$. This year salary $=120$ and rent $=60\\cdot1.30=78$, so savings $=120-78=42$. The change is $\\frac{42-40}{40}=\\frac{2}{40}=5\\%$ increase. (A) ignores the rent change; (C) subtracts the percents ($20\\%-30\\%$); (E) adds $30$ points to the rent base ($60\\to 90$, savings $=30$); (D) compares new savings to the new salary ($\\frac{42}{120}$ vs $\\frac{40}{100}$) instead of to old savings.",
     "estimatedTimeSeconds": 150
   },
@@ -1244,6 +1436,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "D"
+    },
+    "distractorRationale": {
+      "A": "$9$ inverts the alligation (ratio $2:1$ instead of $1:2$); the higher-grade group is $\\tfrac23$ of $45=30$ kg, and the \\$16 grade is $\\tfrac35\\cdot30=18$ kg.",
+      "B": "$12$ is the blend price per kg, not a weight; the \\$16 grade in $45$ kg is $18$ kg.",
+      "C": "$15$ ignores the $2:3$ split, treating the higher group as half \\$16; with the group at $30$ kg, the \\$16 grade is $\\tfrac35\\cdot30=18$ kg.",
+      "E": "$27=\\tfrac35\\cdot45$ takes $\\tfrac35$ of the whole blend; only $30$ kg is the higher-grade group, so the \\$16 grade is $\\tfrac35\\cdot30=18$ kg."
     },
     "explanation": "First collapse the two higher grades: in ratio $2:3$ their average cost is $\\frac{2(11)+3(16)}{5}=\\frac{70}{5}=\\$14$ per kg. Now alligate the \\$8 grade against this \\$14 group to reach \\$12: the ratio of \\$8 grade to group is $(14-12):(12-8)=2:4=1:2$, so the group is $\\frac{2}{3}$ of the blend. In 45 kg the group is $\\frac{2}{3}(45)=30$ kg, and the \\$16 grade is $\\frac{3}{5}(30)=18$ kg. (C) ignores the $2:3$ split (treats the group as half \\$16); (A) inverts the alligation ($2:1$); (E) takes $\\frac{3}{5}$ of all 45 kg; (B) is the blend price.",
     "estimatedTimeSeconds": 150,
@@ -1283,6 +1481,12 @@
       "format": "single",
       "value": "D"
     },
+    "distractorRationale": {
+      "A": "$60$ does not satisfy the post-operation ratio; accounting for the milk lost in the draw-off gives original milk $=5(20)=100$ L.",
+      "B": "$75$ ignores the milk removed during the draw-off (solving $\\tfrac{5k}{k+10}=3$); subtracting the lost milk gives $100$ L.",
+      "C": "$90$ is the milk remaining after the operations, not the original amount; the original milk is $100$ L.",
+      "E": "$120$ is the original total volume ($6k$), not the original milk ($5k=100$ L)."
+    },
     "explanation": "Let milk $=5k$ and water $=k$, so the mixture is $\\frac{5}{6}$ milk. Drawing off 12 L removes $12\\cdot\\frac{5}{6}=10$ L milk and $12\\cdot\\frac{1}{6}=2$ L water, leaving milk $=5k-10$ and water $=k-2$. Adding 12 L water gives water $=k+10$. Then $\\frac{5k-10}{k+10}=3\\Rightarrow 5k-10=3k+30\\Rightarrow k=20$. Original milk $=5(20)=100$ L. (B) comes from ignoring the milk lost in the draw-off, solving $\\frac{5k}{k+10}=3$; (C) is the milk remaining after the operations; (E) is the original total volume.",
     "estimatedTimeSeconds": 150,
     "answerCheck": "num(text(answer)) === 100"
@@ -1321,6 +1525,12 @@
       "format": "single",
       "value": "D"
     },
+    "distractorRationale": {
+      "A": "A $10\\%$ decrease just restates that $2024$ is $10\\%$ below $2022$; from $2023$ ($125$) to $2024$ ($90$) the drop is $28\\%$.",
+      "B": "A $15\\%$ decrease mis-combines the two percent statements; using base $125$, $\\tfrac{90-125}{125}=-28\\%$.",
+      "C": "A $20\\%$ decrease mis-combines the statements; the change from $2023$ to $2024$ is $\\tfrac{-35}{125}=-28\\%$.",
+      "E": "A $35\\%$ decrease divides the $35$-point gap by the $2022$ base of $100$; the correct base is the $2023$ value $125$, giving $28\\%$."
+    },
     "explanation": "Let 2022 revenue be $100$. Then 2023 $=125$ and 2024 $=90$. The change from 2023 to 2024 is $\\frac{90-125}{125}=\\frac{-35}{125}=-0.28$, a $28\\%$ decrease. The trap is to use the wrong base: (E) divides the $35$-point gap by $100$ (the 2022 base) instead of by the 2023 value; (A) just reports the '$10\\%$ below 2022' figure; (C) and (B) come from mis-combining the two percent statements.",
     "estimatedTimeSeconds": 150
   },
@@ -1357,6 +1567,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "C"
+    },
+    "distractorRationale": {
+      "A": "$1024=\\tfrac14\\cdot4096$ is simple interest on the principal $P=4096$; the 4th-year interest is $r$ times the year-3 balance, $\\tfrac14\\cdot8000=2000$.",
+      "B": "$1600=8000-6400$ is the 3rd-year interest; the 4th-year interest is $\\tfrac14\\cdot8000=2000$.",
+      "D": "$2500=\\tfrac14\\cdot10000$ applies $r$ to the end-of-year-4 balance; the 4th-year interest uses the year-3 balance, $\\tfrac14\\cdot8000=2000$.",
+      "E": "$3125$ does not match; with $r=25\\%$, the 4th-year interest is $\\tfrac14\\cdot8000=2000$."
     },
     "explanation": "The amount grows by the factor $(1+r)$ each year, so $1+r=\\frac{8000}{6400}=\\frac{5}{4}$, i.e. $r=25\\%$. The interest earned in the 4th year equals $r$ times the balance at the end of year 3: $\\frac{1}{4}\\cdot 8000=2000$. (Equivalently the end-of-year-4 amount is $8000\\cdot\\frac{5}{4}=10000$, and $10000-8000=2000$.) (B) is the 3rd-year interest ($8000-6400$, or $r$ applied to the year-2 balance); (D) applies $r$ to the year-4 balance ($\\frac{1}{4}\\cdot10000$); (A) is simple interest on the principal $\\frac{1}{4}\\cdot 4096$, using $P=6400/(5/4)^2=4096$.",
     "estimatedTimeSeconds": 150,
@@ -1396,6 +1612,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "$3$ operations leave $(\\tfrac45)^{3}=0.512$ spirit, still above $40\\%$; the first value below is at $n=5$.",
+      "B": "$4$ operations leave $(\\tfrac45)^{4}=0.4096$, still above $40\\%$; $n=5$ first drops below $0.40$.",
+      "D": "$6$ over-shoots; the concentration first falls under $40\\%$ at $n=5$ ($0.32768$).",
+      "E": "$7$ over-shoots; $(\\tfrac45)^{5}=0.32768<0.40$ already, so the answer is $5$."
+    },
     "explanation": "After one operation the spirit fraction is $80\\%=\\frac{4}{5}$, so each operation multiplies the spirit concentration by $\\frac{4}{5}$ (this also tells us the draw is 10 L, since $\\frac{50-d}{50}=\\frac{4}{5}$). After $n$ operations the concentration is $\\left(\\frac{4}{5}\\right)^n$: $0.8,\\ 0.64,\\ 0.512,\\ 0.4096,\\ 0.32768,\\dots$ The first value below $0.40$ occurs at $n=5$. (B) is the trap: $\\left(\\frac{4}{5}\\right)^4=0.4096$ is still above $40\\%$, so 4 operations are not enough.",
     "estimatedTimeSeconds": 150,
     "answerCheck": "num(text(answer)) === 5"
@@ -1433,6 +1655,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "$360$ is the count with the two L's adjacent (the complement); subtract it from the total: $1260-360=900$.",
+      "C": "$1260=\\tfrac{7!}{2!\\,2!}$ is the total ignoring the non-adjacency restriction; removing the $360$ adjacent cases gives $900$.",
+      "D": "$1800=\\tfrac{7!}{2!}-6!$ forgets the two O's are identical; treating both repeats correctly gives $1260-360=900$.",
+      "E": "$3600=7!-2\\cdot6!$ treats every letter as distinct; with the repeated L's and O's the answer is $900$."
     },
     "explanation": "BALLOON has $7$ letters with the L repeated twice and the O repeated twice, so the total number of distinguishable arrangements is $\\frac{7!}{2!\\,2!}=1260$. Subtract those with the two L's adjacent: treat LL as a single block, leaving $6$ units (with O still doubled): $\\frac{6!}{2!}=360$. Answer $=1260-360=900$. Distractors: $360$ is the adjacent (complement) count; $1260$ ignores the restriction; $1800=\\frac{7!}{2!}-6!$ forgets the O's are identical; $3600=7!-2\\cdot 6!$ treats every letter as distinct.",
     "estimatedTimeSeconds": 150,
@@ -1472,6 +1700,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "$\\tfrac{5}{12}=\\tfrac{90}{216}$ counts only the 'exactly two equal' case; 'at least two equal' also includes all three equal, totaling $\\tfrac49$.",
+      "C": "$\\tfrac12$ is a naive guess; the complement 'all different' is $\\tfrac{120}{216}=\\tfrac59$, so the answer is $1-\\tfrac59=\\tfrac49$.",
+      "D": "$\\tfrac59$ is the probability all three differ (the complement); the asked probability is $1-\\tfrac59=\\tfrac49$.",
+      "E": "$\\tfrac{1}{36}$ is the probability all three match; 'at least two equal' is $\\tfrac49$."
+    },
     "explanation": "Use the complement: 'at least two equal' is the opposite of 'all three different.' There are $6^3=216$ equally likely outcomes, and the number with all three distinct is $6\\cdot 5\\cdot 4=120$. So $P(\\text{all different})=\\frac{120}{216}=\\frac{5}{9}$ and $P(\\text{at least two equal})=1-\\frac{5}{9}=\\frac{4}{9}$. Distractors: $\\frac{5}{9}$ reports the complement instead; $\\frac{5}{12}$ counts only the 'exactly two equal' case $\\frac{90}{216}$; $\\frac{1}{36}$ is 'all three equal'; $\\frac{1}{2}$ is a naive guess.",
     "estimatedTimeSeconds": 150
   },
@@ -1508,6 +1742,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "$105=126-\\binom{7}{2}$ applies the brother rule but forgets the at-least-one-of-each-sex requirement; doing both gives $120-18=102$.",
+      "C": "$120$ removes the all-men and all-women committees but ignores the brothers; removing the $18$ brother-pair committees gives $102$.",
+      "D": "$125=126-\\binom{4}{4}$ enforces only 'at least one man' and skips the brothers; the full restrictions give $102$.",
+      "E": "$126=\\binom{9}{4}$ ignores all restrictions; applying the mix and brother conditions gives $102$."
     },
     "explanation": "First impose the mix requirement. Total committees of $4$ from $9$ people $=\\binom{9}{4}=126$; remove all-men $\\binom{5}{4}=5$ and all-women $\\binom{4}{4}=1$, leaving $120$ mixed committees. Now remove the mixed committees containing both brothers: with both brothers seated, choose $2$ more from the remaining $7$ ($\\binom{7}{2}=21$), but discard the $\\binom{3}{2}=3$ choices that pick two more men (those would have $0$ women and were never in the mixed pool), giving $21-3=18$ to remove. Answer $=120-18=102$. Distractors: $120$ ignores the brothers; $105=126-\\binom{7}{2}$ applies the brother rule but forgets the mix; $125=126-\\binom{4}{4}$ enforces only 'at least one man'; $126$ ignores all restrictions.",
     "estimatedTimeSeconds": 150,
@@ -1547,6 +1787,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "$96=\\binom{4}{3}\\cdot4!$ forgets to order the three even digits among the chosen odd positions; including their $3!$ orderings gives $24\\cdot24=576$.",
+      "B": "$144=3!\\cdot4!$ forgets to choose which $3$ of the $4$ odd positions are used; the $\\binom{4}{3}$ choice gives $576$.",
+      "D": "$4464=7!-576$ is the complement (arrangements that violate the rule); the valid count is $576$.",
+      "E": "$5040=7!$ ignores the restriction; placing even digits only in odd positions gives $576$."
+    },
     "explanation": "There are three even digits ($2,4,6$) and three even positions ($2$nd, $4$th, $6$th); the four odd positions ($1$st, $3$rd, $5$th, $7$th) are the only allowed homes for the even digits. Place the $3$ even digits into $3$ of the $4$ odd positions: $\\binom{4}{3}\\cdot 3! = 4\\cdot 6 = 24$ ways. The remaining $4$ digits fill the remaining $4$ positions in $4!=24$ ways. Total $=24\\cdot 24=576$. Distractors: $144=3!\\cdot 4!$ forgets to choose which odd positions get used; $96=\\binom{4}{3}\\cdot 4!$ forgets to order the even digits; $5040=7!$ ignores the restriction; $4464=7!-576$ is the complement.",
     "estimatedTimeSeconds": 150,
     "answerCheck": "num(text(answer)) === 576"
@@ -1585,6 +1831,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "$\\tfrac{5}{84}$ is 'all one color'; 'exactly two colors' excludes both monochromatic and all-three-color sets, giving $\\tfrac{55}{84}$.",
+      "B": "$\\tfrac27=\\tfrac{24}{84}$ is 'all three colors' (one of each); the asked event is $\\tfrac{55}{84}$.",
+      "D": "$\\tfrac57=\\tfrac{60}{84}=1-\\tfrac{24}{84}$ forgets to also remove the $5$ monochromatic sets; the answer is $\\tfrac{55}{84}$.",
+      "E": "$\\tfrac{29}{84}$ is the complement of the answer; exactly two colors is $84-5-24=55$ out of $84$."
+    },
     "explanation": "There are $\\binom{9}{3}=84$ equally likely sets of $3$ balls. 'Exactly two colors' is everything except 'all one color' and 'all three colors.' All one color: $\\binom{4}{3}+\\binom{3}{3}+0=4+1=5$ (green has only $2$ balls). All three colors (one of each): $4\\cdot 3\\cdot 2=24$. So exactly two colors $=84-5-24=55$, giving $\\frac{55}{84}$. Distractors: $\\frac{2}{7}=\\frac{24}{84}$ is 'all three colors'; $\\frac{5}{84}$ is 'all one color'; $\\frac{5}{7}=\\frac{60}{84}=1-\\frac{24}{84}$ forgets to remove the monochromatic sets; $\\frac{29}{84}$ is the complement of the answer.",
     "estimatedTimeSeconds": 150
   },
@@ -1622,6 +1874,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "$\\tfrac{1}{24}$ is 'all four correct'; 'exactly one correct' fixes one letter and deranges the other three, giving $\\tfrac{8}{24}=\\tfrac13$.",
+      "B": "$\\tfrac14$ is 'exactly two correct'; with one fixed and three deranged the probability is $\\tfrac13$.",
+      "D": "$\\tfrac38=\\tfrac{D_4}{4!}$ is 'none correct' (a derangement of $4$); 'exactly one correct' is $\\tfrac13$.",
+      "E": "$\\tfrac58=1-\\tfrac{D_4}{4!}$ is 'at least one correct'; the asked event is exactly one, $\\tfrac13$."
+    },
     "explanation": "There are $4!=24$ equally likely ways to place the letters. 'Exactly one correct' means: choose which single letter is correct ($\\binom{4}{1}=4$ ways), and the other three must ALL be wrong — a derangement of $3$ items, of which there are $D_3=2$ (the count of permutations of $3$ with no fixed point). So the favorable count is $4\\cdot 2=8$, giving $\\frac{8}{24}=\\frac{1}{3}$. Distractors: $\\frac{5}{8}=1-\\frac{D_4}{4!}$ is 'at least one correct'; $\\frac{3}{8}=\\frac{D_4}{4!}$ is 'none correct'; $\\frac{1}{4}$ is 'exactly two correct'; $\\frac{1}{24}$ is 'all four correct.' The trap is forgetting that the remaining three must be deranged, not merely permuted.",
     "estimatedTimeSeconds": 150
   },
@@ -1658,6 +1916,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "C"
+    },
+    "distractorRationale": {
+      "A": "$60$ is the count with the two physics books adjacent (the complement); subtract from the total: $210-60=150$.",
+      "B": "$90=210-2\\cdot60$ subtracts the adjacent block twice; subtracting it once gives $210-60=150$.",
+      "D": "$210=\\tfrac{7!}{3!\\,2!\\,2!}$ is the total ignoring the restriction; removing the $60$ adjacent arrangements gives $150$.",
+      "E": "$300$ treats the identical physics books as distinct in the gap method; keeping them identical gives $10\\cdot\\binom{6}{2}=150$."
     },
     "explanation": "Total distinguishable arrangements of the $7$ books $=\\frac{7!}{3!\\,2!\\,2!}=210$. Subtract those with the two physics books adjacent: glue them into one block, leaving $6$ units ($3$ identical math, the physics block, $2$ identical chemistry): $\\frac{6!}{3!\\,2!}=60$. Answer $=210-60=150$. (Equivalently, by the gap method: arrange the $5$ non-physics books in $\\frac{5!}{3!\\,2!}=10$ ways, then choose $2$ of the $6$ gaps for the identical physics books, $\\binom{6}{2}=15$, giving $10\\cdot 15=150$.) Distractors: $60$ is the adjacent (complement) count; $210$ ignores the restriction; $300=10\\cdot P(6,2)$ treats the identical physics books as distinct in the gaps; $90=210-2\\cdot 60$ subtracts the adjacent block twice.",
     "estimatedTimeSeconds": 150,
@@ -1697,6 +1961,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "$6$ undershoots; pushing the smallest value up to $8$ (with $\\{8,9,24,26,33\\}$) still satisfies all constraints, so the max is $8$.",
+      "B": "$7$ undershoots; the constraint $25\\ge3a$ allows $a=8$, realized by $\\{8,9,24,26,33\\}$.",
+      "D": "$9$ violates the constraints: with $a=9$ you would need $b+d=33$ but $b\\ge10,d\\ge25$ force $b+d\\ge35$; the max is $8$.",
+      "E": "$11$ comes from mistaken mean-plus-range arithmetic; the ordering and sum constraints cap the smallest value at $8$."
+    },
     "explanation": "Let the integers in increasing order be $a<b<c<d<e$. The median is the middle value, so $c=24$. The mean of $20$ forces the sum to be $5\\times20=100$. The range gives $e=a+25$. Substituting, $a+b+24+d+(a+25)=100$, so $b+d=51-2a$. To make $a$ as large as possible we make $b$ and $d$ as small as the ordering allows: $b\\ge a+1$ and, since $d>c=24$, $d\\ge25$. Thus $b+d\\ge(a+1)+25=a+26$, giving $51-2a\\ge a+26$, i.e. $25\\ge3a$, so $a\\le8$. At $a=8$: $\\{8,9,24,26,33\\}$ has sum $100$, median $24$, range $25$, all distinct. The greatest possible smallest value is $8$. (Choice D ignores that pushing $a$ to $9$ would force $b+d=33$ with $b\\ge10,d\\ge25$, summing to at least $35>33$; choice E mistakes mean$+$range arithmetic.)",
     "estimatedTimeSeconds": 150,
     "answerCheck": "num(text(answer)) === 8"
@@ -1734,6 +2004,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "$20$ exceeds the maximum; minimizing the other six entries (with two $6$'s) leaves $x_{7}=56-37=19$.",
+      "C": "$21$ comes from setting $x_{5}=x_{6}=7$, which gives $7$ a count of two and breaks the unique mode; keeping the mode unique caps the max at $19$.",
+      "D": "$22$ lets $6$ merely tie rather than strictly lead; requiring $6$ to be the unique mode gives a maximum of $19$.",
+      "E": "$32$ drops the mode condition entirely (e.g. $\\{1,1,1,7,7,7,32\\}$); enforcing a unique mode of $6$ gives $19$."
     },
     "explanation": "The sum is $7\\times8=56$. Sorted as $x_1\\le\\cdots\\le x_7$, the median is $x_4=7$. Because $6$ must be the unique mode it has to appear at least twice, and no other value may appear that many times. To maximize $x_7$, minimize everything else. Place the two $6$'s in the lower half and make the rest as small as the rules permit: $x_1=1,\\;x_2=x_3=6,\\;x_4=7$. The remaining two values $x_5,x_6$ must each occur only once and be at least $7$, and they cannot create a tie with $6$'s count, so take $x_5=8,\\;x_6=9$. Then $x_7=56-(1+6+6+7+8+9)=19$. Trying to push higher fails: making $x_5=x_6=7$ gives $7$ a count of two, breaking uniqueness (that slip yields $21$, choice C); allowing $6$ merely to tie rather than strictly lead yields $22$ (choice D); dropping the mode condition entirely allows $\\{1,1,1,7,7,7,32\\}$ for $32$ (choice E). The true maximum is $\\mathbf{19}$.",
     "estimatedTimeSeconds": 165,
@@ -1773,6 +2049,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "$11$ undershoots; with $a=2$ the range gives $f=a+11=13$, realized by $\\{2,5,5,8,9,13\\}$.",
+      "B": "$12$ undershoots; maximizing the smallest value $a=2$ ties $f=a+11=13$.",
+      "D": "$14$ requires abandoning the unique-mode-of-$5$ condition (e.g. $\\{3,3,4,9,9,14\\}$); keeping it gives a maximum of $13$.",
+      "E": "$15$ exceeds the maximum; the range and unique-mode constraints cap the largest value at $13$."
+    },
     "explanation": "Sort the values $a\\le b\\le c\\le d\\le e\\le f$. The sum is $6\\times7=42$. The median is the average of the two middle terms, so $c+d=13$. The range gives $f=a+11$, which ties the largest value directly to the smallest: maximizing $f$ means maximizing $a$. But $5$ must be the unique mode, so $5$ appears at least twice and is the only value to do so. Putting both $5$'s low, $a=2,\\;b=5,\\;c=5$ forces $d=13-5=8$. The remaining $e$ and $f=a+11=13$ must each be single occurrences: $e=9$ works, and $2+5+5+8+9+13=42$. So $f=13$. Pushing $a$ to $3$ would require two $5$'s plus the sum constraint to still allow $f=14$, but that is only achievable by abandoning the unique-mode requirement (e.g. $\\{3,3,4,9,9,14\\}$, which has no mode of $5$) — that trap gives $14$, choice D. Hence the maximum is $\\mathbf{13}$.",
     "estimatedTimeSeconds": 170,
     "answerCheck": "num(text(answer)) === 13"
@@ -1810,6 +2092,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "C"
+    },
+    "distractorRationale": {
+      "A": "$72=\\tfrac12\\cdot AH\\cdot HB=\\tfrac12\\cdot144$ uses the wrong product; the area is $\\tfrac12\\cdot AB\\cdot CH=\\tfrac12\\cdot25\\cdot12=150$.",
+      "B": "$90$ does not match; with segments $16$ and $9$, the hypotenuse is $25$ and the area is $\\tfrac12\\cdot25\\cdot12=150$.",
+      "D": "$168$ does not match; the area equals $\\tfrac12\\cdot25\\cdot12=150$.",
+      "E": "$300=AB\\cdot CH$ forgets to halve; the area is $\\tfrac12\\cdot25\\cdot12=150$."
     },
     "explanation": "For the altitude to the hypotenuse of a right triangle, $CH^2=AH\\cdot HB$ (the altitude is the geometric mean of the two segments). So $AH\\cdot HB=12^2=144$. We are told $AH-HB=7$. Two numbers with product $144$ and difference $7$ are $16$ and $9$ (since $16\\cdot9=144$ and $16-9=7$). Therefore the hypotenuse is $AB=16+9=25$. The area is $\\tfrac12\\cdot AB\\cdot CH=\\tfrac12\\cdot25\\cdot12=\\mathbf{150}$. (As a check, the legs are $\\sqrt{16\\cdot25}=20$ and $\\sqrt{9\\cdot25}=15$, a $15$-$20$-$25$ triangle with area $\\tfrac12\\cdot15\\cdot20=150$.) Choice A computes $\\tfrac12\\cdot AH\\cdot HB$; choice E forgets to halve $AB\\cdot CH$.",
     "estimatedTimeSeconds": 150,
@@ -1849,6 +2137,12 @@
       "format": "single",
       "value": "D"
     },
+    "distractorRationale": {
+      "A": "$2\\sqrt{10}$ is the straight-line distance $AB$, ignoring the required touch on the $x$-axis; reflecting $B$ gives the minimum $AB'=10$.",
+      "B": "$2\\sqrt{13}$ does not match the reflection distance; $AB'=\\sqrt{6^{2}+8^{2}}=10$.",
+      "C": "$8$ does not match; the minimal path equals $AB'=\\sqrt{36+64}=10$.",
+      "E": "$6\\sqrt{2}$ reflects a coordinate incorrectly; reflecting $B=(7,5)$ to $(7,-5)$ gives $AB'=10$."
+    },
     "explanation": "Reflect $B=(7,5)$ across the $x$-axis to get $B'=(7,-5)$. For any point $P$ on the $x$-axis, $PB=PB'$, so the broken path $AP+PB$ equals $AP+PB'$. That sum is smallest when $A$, $P$, and $B'$ are collinear, giving total length $AB'=\\sqrt{(7-1)^2+(-5-3)^2}=\\sqrt{36+64}=\\sqrt{100}=\\mathbf{10}$. Choice A is the straight-line distance $AB=\\sqrt{6^2+2^2}=2\\sqrt{10}$ (ignoring the required touch on the axis); choice E reflects only one coordinate incorrectly. The minimum total distance is $10$.",
     "estimatedTimeSeconds": 150,
     "answerCheck": "num(text(answer)) === 10"
@@ -1886,6 +2180,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "$31=6+10+15$ adds the face areas; the volume is the square root of their product, $\\sqrt{900}=30$.",
+      "C": "$60$ does not match; $(abc)^{2}=6\\cdot10\\cdot15=900$, so $abc=30$.",
+      "D": "$90$ does not match; the volume is $\\sqrt{6\\cdot10\\cdot15}=\\sqrt{900}=30$.",
+      "E": "$900=6\\cdot10\\cdot15$ is $(abc)^{2}$, not the volume; taking the square root gives $30$."
     },
     "explanation": "Let the edge lengths be $a$, $b$, $c$. The three face areas are $ab$, $bc$, and $ca$. Their product is $(ab)(bc)(ca)=(abc)^2$, so $(abc)^2=6\\cdot10\\cdot15=900$, giving the volume $abc=\\sqrt{900}=\\mathbf{30}$. (Indeed $a=2,b=3,c=5$ produce faces $6,10,15$.) Choice B adds the areas $6+10+15=31$; choice E reports $6\\cdot10\\cdot15=900$ without taking the square root. The volume is $30$.",
     "estimatedTimeSeconds": 135,
@@ -1925,6 +2225,12 @@
       "format": "single",
       "value": "D"
     },
+    "distractorRationale": {
+      "A": "$10$ evaluates $2x+y$ only at the center $(3,4)$; the maximum occurs at a vertex, namely $(9,4)$, giving $22$.",
+      "B": "$16$ pushes $y$ to its largest value at $(3,10)$, ignoring the bigger coefficient on $x$; the vertex $(9,4)$ gives $22$.",
+      "C": "$19$ is not attained at any vertex; testing all vertices, the maximum of $2x+y$ is $22$ at $(9,4)$.",
+      "E": "$28$ comes from adding the center value $10$ to twice the bound $6$; evaluating at the vertices gives a maximum of $22$."
+    },
     "explanation": "The set $|x-3|+|y-4|\\le6$ is a square (a 'diamond') centered at $(3,4)$ with vertices at $(9,4)$, $(-3,4)$, $(3,10)$, and $(3,-2)$. A linear expression like $2x+y$ attains its maximum over such a region at a vertex. Evaluating: $(9,4)\\to22$, $(-3,4)\\to-2$, $(3,10)\\to16$, $(3,-2)\\to4$. The maximum is $\\mathbf{22}$ at $(9,4)$. Choice B comes from naively pushing $y$ to its largest value $(3,10)$ rather than weighting the larger coefficient on $x$; choice A evaluates only at the center $(3,4)$; choice E adds the center value $10$ to the bound $6$ doubled. The maximum is $22$.",
     "estimatedTimeSeconds": 150,
     "answerCheck": "num(text(answer)) === 22"
@@ -1962,6 +2268,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "$6$ counts only the flat middle interval $[-3,2]$; the full solution set $-5<x<4$ contains $8$ integers.",
+      "C": "$9$ over-counts; the open interval $-5<x<4$ holds the integers $-4$ through $3$, which is $8$ values.",
+      "D": "$10$ wrongly includes the endpoints $-5$ and $4$, where the sum equals $9$ (not $<9$); excluding them leaves $8$ integers.",
+      "E": "'infinitely many' is wrong because the sum grows without bound outside $[-3,2]$; the solution set is the bounded interval $-5<x<4$, with $8$ integers."
     },
     "explanation": "Read $|x-2|+|x+3|$ as the total distance from $x$ to $2$ plus the distance from $x$ to $-3$. For $x$ between $-3$ and $2$ this sum is constant at $5$ (the gap between the points), which is already $<9$. Outside that interval, distance grows: if $x>2$, the sum is $(x-2)+(x+3)=2x+1<9\\Rightarrow x<4$; if $x<-3$, the sum is $-(x-2)-(x+3)=-2x-1<9\\Rightarrow x>-5$. Combining, the solution set is the open interval $-5<x<4$. The integers strictly inside are $-4,-3,-2,-1,0,1,2,3$ — exactly $\\mathbf{8}$ values. Choice D wrongly includes the endpoints $-5$ and $4$ (where the sum equals $9$, not less); choice A counts only the flat middle interval $[-3,2]$. The answer is $8$.",
     "estimatedTimeSeconds": 150,

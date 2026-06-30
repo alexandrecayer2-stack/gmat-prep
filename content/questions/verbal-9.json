@@ -34,6 +34,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "Restates the observed correlation as a general rule, but the conclusion is about reducing car congestion, not just raising bike use; the gap that must be bridged is whether new cyclists are former drivers.",
+      "C": "Whether trucks cause congestion is irrelevant; the argument needs the assumption that cyclists are coming out of cars, which is what B supplies.",
+      "D": "A logistical detail about signals; the conclusion about cutting car traffic depends on where the new cyclists come from, not on signal timing.",
+      "E": "A pre-existing downward trend would actually undermine the claim that repainting causes the reduction; the required assumption is that cyclists are former drivers (B)."
+    },
     "explanation": "The correct answer is B. Most new cyclists previously drove cars on the same streets.",
     "estimatedTimeSeconds": 90,
     "tags": [
@@ -74,6 +80,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "Strengthens the bakery's case rather than weakening it; lower power per hour only helps. The weakener is that total hours rise, so total energy may not fall (B).",
+      "C": "Same type of electricity is irrelevant to total cost; the flaw is that per-hour savings can be erased by running the oven far longer (B).",
+      "D": "Faster heat-up slightly helps the bakery, not hurts it; the argument is undermined only by the increase in total run time (B).",
+      "E": "If the current oven is rarely run at full capacity, that does not show the smaller oven costs more; the weakener is the need for many more run hours (B)."
     },
     "explanation": "The correct answer is B. The bakery will need to run the smaller oven for many more hours to meet demand.",
     "estimatedTimeSeconds": 90,
@@ -116,6 +128,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "A simultaneous renovation introduces an alternative cause, which weakens rather than strengthens the checklist claim. Ruling out other hospitals' changes is what supports causation (C).",
+      "B": "More patients than usual would make falling wait times harder, but it does not rule out other causes; eliminating the alternative explanation does (C).",
+      "D": "Staff preference for the old checklist is irrelevant to whether the new one caused shorter waits; the strengthener removes a rival cause (C).",
+      "E": "Parking capacity has nothing to do with in-ER wait times; the conclusion is strengthened by ruling out external triage changes (C)."
+    },
     "explanation": "The correct answer is C. Other nearby hospitals did not change their triage procedures during the month.",
     "estimatedTimeSeconds": 90,
     "tags": [
@@ -156,6 +174,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "C"
+    },
+    "distractorRationale": {
+      "A": "Tempting, but the premise gives raw counts, not rates, so we cannot conclude attendees were more likely to pass; we can only infer the session was not necessary (C).",
+      "B": "Goes too far: nothing compares the session to other prep methods, so 'most effective' is unsupported. The valid inference is that it was not required (C).",
+      "D": "Cannot be inferred because many skippers also passed; the numbers do not establish that most passers attended. The safe inference is non-necessity (C).",
+      "E": "Overstates the evidence as a guarantee; near-certainty for attendees is not the same as sufficiency. The supported claim is only that the session was not necessary (C)."
     },
     "explanation": "The correct answer is C. Attending the session may have helped some students, but it was not necessary for passing.",
     "estimatedTimeSeconds": 90,
@@ -198,6 +222,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "The first statement is not an example feeding the second; the two are opposing claims, with the first being the conclusion the second rebuts (A).",
+      "C": "Neither statement is a policy proposal, and the second disputes rather than endorses the first; the first is a challenged conclusion (A).",
+      "D": "The first is a conclusion, not a premise supporting the second; in fact the second pushes back against it (A).",
+      "E": "The second statement is a rebuttal, not a definition; the first functions as the conclusion it challenges (A)."
+    },
     "explanation": "The correct answer is A. A conclusion challenged by the second boldface statement.",
     "estimatedTimeSeconds": 90,
     "tags": [
@@ -238,6 +268,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "C"
+    },
+    "distractorRationale": {
+      "A": "Adding routes to underserved areas does not explain why average travel time rose; the resolution is that new riders crowded already-congested routes (C).",
+      "B": "Bus-only lanes would tend to speed buses up, deepening the paradox rather than resolving it; the answer is the concentration of riders on busy routes (C).",
+      "D": "Unchanged fares have no bearing on travel time; the paradox is resolved by where the surge in riders went (C).",
+      "E": "A seating preference does not affect travel time; the resolution is that new ridership piled onto congested routes (C)."
     },
     "explanation": "The correct answer is C. The new riders were concentrated on a few heavily congested routes.",
     "estimatedTimeSeconds": 90,
@@ -280,6 +316,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "Lower ad spending does not help link top ratings to top sales, and could even hurt; the needed assumption is that ratings drive purchases over other factors (A).",
+      "C": "Who created the rating system does not bridge rating to market share; the argument assumes ratings outweigh price, compatibility, and loyalty (A).",
+      "D": "Release timing relative to rivals is irrelevant to the leap from rating to sales; the required assumption is A.",
+      "E": "How often ratings update does not connect a high rating to the largest sales share; the assumption is that ratings matter more than other buying factors (A)."
+    },
     "explanation": "The correct answer is A. Customers care more about ratings than about price, compatibility, and brand loyalty.",
     "estimatedTimeSeconds": 120,
     "tags": [
@@ -320,6 +362,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "A two-block distance is a minor detail and does not undercut the core link between parking and revival as decisively as the fact that customers do not drive (B).",
+      "C": "Rising rates at other lots would make the new garage more attractive, strengthening the plan rather than weakening it; the weakener is that customers arrive on foot or transit (B).",
+      "D": "A summer festival is irrelevant to whether more parking revives business; the argument is undercut by customers not driving (B).",
+      "E": "Facade renovations would help downtown, not hurt the argument; the weakener shows parking is not the binding constraint (B)."
     },
     "explanation": "The correct answer is B. Most downtown customers already arrive on foot or by public transit.",
     "estimatedTimeSeconds": 120,
@@ -362,6 +410,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "A single grader controls for grading bias, but the threat here is that sleepers also studied differently; the strengthener holds study time roughly equal (A).",
+      "C": "Letting students pick their own bedtime introduces self-selection, which weakens causal inference rather than strengthening it; equal study time is what supports it (A).",
+      "D": "Library hours do not isolate sleep as the cause; the conclusion is strengthened by ruling out a study-time difference (A).",
+      "E": "The number of chapters covered is irrelevant to whether sleep caused higher scores; the strengthener equalizes study effort (A)."
+    },
     "explanation": "The correct answer is A. Students who slept more also studied roughly the same number of hours as students who slept less.",
     "estimatedTimeSeconds": 120,
     "tags": [
@@ -402,6 +456,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "Contradicted by the survey's mixed opinions, so it cannot be inferred; what follows is that more than one thing changed at once (B).",
+      "C": "The passage never states the guides were cheaper, so this added cause is unsupported; only the multiple-change inference holds (B).",
+      "D": "Mixed survey results do not make surveys unreliable in general; that is an overreach beyond the multi-factor inference (B).",
+      "E": "Nothing supports a sweeping claim that paper labels always cut attendance; the supportable inference is that multiple aspects changed (B)."
     },
     "explanation": "The correct answer is B. The museum changed more than one aspect of the visitor experience.",
     "estimatedTimeSeconds": 135,
@@ -444,6 +504,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "Employee shift preferences bear on morale, not on whether longer hours raise profit; the useful question is whether late shoppers spend more (A).",
+      "C": "Whether self-checkout is used does not test the profit claim; evaluating per-visit spending of late customers does (A).",
+      "D": "Selling seasonal products is too tangential to assess the profit of extended hours; the key issue is late-shopper spending (A).",
+      "E": "What neighboring stores do does not directly test this retailer's profit from staying open later; late-customer spending does (A)."
+    },
     "explanation": "The correct answer is A. Whether customers who shop late buy more per visit than daytime customers.",
     "estimatedTimeSeconds": 120,
     "tags": [
@@ -484,6 +550,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "The second statement opposes the first rather than restating it, so 'restates' is wrong; it is a counterclaim defending the taxes (B).",
+      "C": "It is not a definition of consumer choice; it is a justification of the policy the first statement attacks (B).",
+      "D": "It does not claim sugary drinks are harmless; it argues the tax offsets health costs, functioning as a counterclaim (B).",
+      "E": "Calling it an example of a tax with no effects misreads it; it asserts a real benefit and serves as a counterclaim (B)."
     },
     "explanation": "The correct answer is B. A counterclaim that supports the policy criticized by the first boldface statement.",
     "estimatedTimeSeconds": 120,
@@ -526,6 +598,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "The flaw is not about rural galleries; it is treating a correlation as proof of causation while ignoring a common cause like affluence (A).",
+      "C": "Street-level location is not the problem; the reasoning error is inferring causation from correlation (A).",
+      "D": "Failing to define cultural development is a quibble, not the central logical error of correlation-to-causation (A).",
+      "E": "The argument does not rely on excessive numbers; its flaw is the unjustified causal leap (A)."
+    },
     "explanation": "The correct answer is A. It assumes correlation proves causation without considering that both may result from another factor such as neighborhood affluence.",
     "estimatedTimeSeconds": 120,
     "tags": [
@@ -566,6 +644,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "Enrollment size affects scale but not the logical chain; the argument must assume networks actually raise the odds of getting a job (B).",
+      "C": "Staying in contact with mentors is not required for the conclusion; the needed link is that networks improve employment outcomes (B).",
+      "D": "The argument never compares networking to job training, so it need not assume networking is superior; it only needs B.",
+      "E": "Wage levels are about job quality, not whether participants get jobs at all; the required assumption is B."
     },
     "explanation": "The correct answer is B. Participants who gain networks are more likely to obtain jobs than similar participants who do not.",
     "estimatedTimeSeconds": 135,
@@ -608,6 +692,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "Only three stations is a minor limitation and does not directly undercut the car-reduction claim the way showing riders are not drivers does (B).",
+      "C": "Frequent fifteen-minute service makes the train more appealing, strengthening the claim rather than weakening it; the weakener is B.",
+      "D": "Expensive downtown parking would push people toward the train, supporting the plan; the argument is undermined by riders being former bus or ride-share users (B).",
+      "E": "A marketing campaign would help adoption, not hurt the claim; the weakener is that new riders are not coming out of cars (B)."
+    },
     "explanation": "The correct answer is B. Most commuters who are likely to use the train already use buses or ride-sharing services rather than driving.",
     "estimatedTimeSeconds": 135,
     "tags": [
@@ -648,6 +738,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "Shows reverse causation or self-selection, which weakens the claim rather than strengthening it; matching similar non-buyers is what supports it (B).",
+      "C": "Higher protein content does not establish that the snack sustains exercise habits; the strengthener is the matched comparison (B).",
+      "D": "Enjoying the flavor does not link the snack to continued exercise; controlling for similar customers does (B).",
+      "E": "This points to exercise causing snack purchases, reversing the intended direction; the strengthener removes that confound via matching (B)."
     },
     "explanation": "The correct answer is B. Customers who buy the snack are matched with similar customers who do not, and the snack buyers still exercise more regularly.",
     "estimatedTimeSeconds": 135,
@@ -690,6 +786,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "Downloads stayed nearly constant, so increased popularity cannot be attributed to more downloads; the inference is that existing users used it more (B).",
+      "C": "A redesign is never mentioned, so it cannot be inferred; the supported claim is heavier use by existing users (B).",
+      "D": "Rising app use suggests the expansion did have some effect, so 'no effect' is unsupported; the valid inference is B.",
+      "E": "Nothing ranks downloads as a better measure; the data point to existing users using the app more often (B)."
+    },
     "explanation": "The correct answer is B. More existing users likely used the app more often.",
     "estimatedTimeSeconds": 135,
     "tags": [
@@ -730,6 +832,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "Device ownership matters for usability, but the cost expectation hinges on recurring fees versus print costs (B).",
+      "C": "Ease of updating is a benefit but does not test whether costs actually drop; comparing licensing fees to print costs does (B).",
+      "D": "Information retention is about learning outcomes, not cost; the cost claim is best evaluated by B.",
+      "E": "Rising print costs would favor the switch but do not address whether digital fees exceed them; the decisive question is B."
     },
     "explanation": "The correct answer is B. Whether the digital versions require annual licensing fees that exceed the cost of printed books.",
     "estimatedTimeSeconds": 135,
@@ -773,6 +881,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "Far too extreme; the passage discusses careful management, not a ban, so the balanced purpose is B.",
+      "C": "Profitability versus rural beekeeping is not the passage's focus; its purpose is to weigh benefits against the need for management (B).",
+      "D": "The passage does not argue urban insects are healthier; it explains that urban beekeeping is useful but must be managed (B).",
+      "E": "A history of city honey production is not the main purpose; the passage's aim is the balanced point in B."
+    },
     "explanation": "The correct answer is B. To explain that urban beekeeping can be useful but must be managed carefully.",
     "estimatedTimeSeconds": 90,
     "tags": [
@@ -814,6 +928,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "Wind is not the stated reason; researchers caution because neighborhoods differ in forage and bloom patterns (B).",
+      "C": "The honey-yield comparison is not the cited reason for treating hives differently; varying forage and bloom is (B).",
+      "D": "Resident planting preferences are not given as the caution; the reason is differences in available forage (B).",
+      "E": "Legality is not mentioned as the reason; hives differ because neighborhoods offer different forage and bloom (B)."
     },
     "explanation": "The correct answer is B. Different neighborhoods offer different levels of forage and seasonal bloom patterns.",
     "estimatedTimeSeconds": 90,
@@ -857,6 +977,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "Year-round exotic flowers run counter to the passage's emphasis on native species; a successful program monitors colonies and plants natives (B).",
+      "C": "Maximum hive density contradicts the call for careful management; the suggested practice is monitoring health and native planting (B).",
+      "D": "Relocating wild insects is never proposed; the passage points to colony monitoring and native species (B).",
+      "E": "Focusing only on honey sales ignores the management focus; the implied program emphasizes colony health and native planting (B)."
+    },
     "explanation": "The correct answer is B. Monitoring colony health and planting native species.",
     "estimatedTimeSeconds": 90,
     "tags": [
@@ -898,6 +1024,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "The author is not hostile; the tone weighs benefits and risks, making it balanced and cautious (B).",
+      "C": "It is not uncritical praise; the passage stresses careful management, so the tone is balanced and cautious (B).",
+      "D": "There is no sarcasm or playfulness; the measured discussion is balanced and cautious (B).",
+      "E": "The author is engaged rather than indifferent; the tone is balanced and cautious (B)."
     },
     "explanation": "The correct answer is B. balanced and cautious",
     "estimatedTimeSeconds": 90,
@@ -941,6 +1073,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "Contradicts the passage, which treats temperature control as important; the main idea balances visibility with practical risk management (B).",
+      "C": "Shipping all biologics by air is not advocated; the passage's point is balancing control and risk (B).",
+      "D": "The passage does not claim sensors eliminated delays; it argues for balancing control with risk management (B).",
+      "E": "Saying excursions always destroy drugs is too absolute and conflicts with the balanced view in B."
+    },
     "explanation": "The correct answer is B. Temperature monitoring has improved visibility, but firms must balance control with practical risk management.",
     "estimatedTimeSeconds": 90,
     "tags": [
@@ -982,6 +1120,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "Tighter control does not reduce the need for sensors; the stated tradeoff is higher costs and delays from holding shipments (A).",
+      "C": "Control does not eliminate all transit risk; the passage notes it can raise costs and slow delivery (A).",
+      "D": "Tighter control does not make medicines cheaper to produce; it can increase costs and cause delay (A).",
+      "E": "It does not guarantee faster loading; the described tradeoff is added cost and delay when shipments are held (A)."
     },
     "explanation": "The correct answer is A. It can increase costs and delay delivery if shipments are held back.",
     "estimatedTimeSeconds": 90,
@@ -1025,6 +1169,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "Too absolute; the passage implies some, not all, fluctuations are tolerable, so 'always harmless' overstates it (B).",
+      "C": "Identical storage requirements for all biologics is not implied; what follows is that minor changes may be acceptable (B).",
+      "D": "The passage never suggests ignoring sensor data; the implication is that some shipments survive minor excursions (B).",
+      "E": "It does not rank speed above risk management; the implied point is that minor temperature changes can be acceptable (B)."
+    },
     "explanation": "The correct answer is B. Some shipments may be acceptable even if they experience minor temperature changes.",
     "estimatedTimeSeconds": 90,
     "tags": [
@@ -1066,6 +1216,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "The final sentence does not raise an unrelated problem; it sums up the author's broader view (B).",
+      "C": "No companies are named or criticized; the closing line summarizes the author's overall stance (B).",
+      "D": "It is not a failed-shipment example; it functions as a concluding summary of the author's view (B).",
+      "E": "It does not pivot to drug pricing; the sentence rounds off the author's broader perspective (B)."
     },
     "explanation": "The correct answer is B. summarize the author's broader view of the topic.",
     "estimatedTimeSeconds": 90,
@@ -1109,6 +1265,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "The passage does not claim originals become unnecessary; its main idea is that digitization choices shape interpretation (B).",
+      "C": "It does not say digital documents are always more accurate; the point is that process choices affect study (B).",
+      "D": "Digitizing only dramatic artifacts is not the main idea; the focus is on how choices shape interpretation (B).",
+      "E": "The passage stresses that metadata does affect research, so saying it has no effect contradicts the main idea (B)."
+    },
     "explanation": "The correct answer is B. Digitization changes how archives are studied because choices made in the process shape interpretation.",
     "estimatedTimeSeconds": 90,
     "tags": [
@@ -1150,6 +1312,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "The building's color is irrelevant; what shapes first impressions is resolution, metadata, and annotation (B).",
+      "C": "The archivist's age is not a factor; the passage cites resolution, metadata, and annotation (B).",
+      "D": "Visitor count in the reading room is not mentioned as shaping attention; technical choices like resolution and metadata are (B).",
+      "E": "Paper storage cost is not the stated factor; resolution, metadata, and annotation shape what users notice (B)."
     },
     "explanation": "The correct answer is B. The resolution, metadata, and annotation used.",
     "estimatedTimeSeconds": 90,
@@ -1193,6 +1361,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "Digitization does not make correspondence more dramatic; its value is in revealing daily life (B).",
+      "C": "It does not replace other records; ordinary letters are valuable for what they show about everyday life (B).",
+      "D": "It does not remove the need for annotation; the cited value is insight into daily life (B).",
+      "E": "It does not reduce the need for search tools; the passage values such correspondence for revealing daily life (B)."
+    },
     "explanation": "The correct answer is B. reveal more about daily life.",
     "estimatedTimeSeconds": 90,
     "tags": [
@@ -1234,6 +1408,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "The author is not naive or promotional; the tone raises concerns while offering guidance, so it is critical but constructive (B).",
+      "C": "There is no mockery; the author critiques yet remains constructive (B).",
+      "D": "The author is not confused but reasoned; the tone is critical but constructive (B).",
+      "E": "The tone is not unqualified enthusiasm; it is critical but constructive (B)."
     },
     "explanation": "The correct answer is B. critical but constructive",
     "estimatedTimeSeconds": 90,

@@ -35,6 +35,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "Comfort of the lounge does not address whether the lounge, rather than another factor, caused the sales rise; it weakly supports the store's claim instead. The festival (C) supplies an alternative cause.",
+      "B": "More staff recommendations is itself another change that could have lifted sales, but it is the store's own doing and does not undercut crediting the lounge as clearly as an external traffic surge does.",
+      "D": "Expanding the children's section is another internal change that, if anything, offers a competing explanation; but it is vaguer than the festival, which clearly drove traffic to all shops. The correct answer points to an outside cause for the rise.",
+      "E": "Which book format rose faster says nothing about what caused the overall increase, so it neither weakens nor strengthens the lounge claim."
+    },
     "explanation": "A general increase in traffic at neighboring businesses provides another plausible cause for the sales increase.",
     "estimatedTimeSeconds": 90
   },
@@ -73,6 +79,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "Teacher training is part of rolling out the laptops and supports the school's story rather than undercutting it. Smaller class sizes (B) supply a separate cause for the grade gains.",
+      "C": "Students liking the laptops is subjective and does not show another factor caused the improvement; it weakly favors the claim. The correct answer names a confounding change: smaller classes.",
+      "D": "Extended library hours is a possible alternative cause, but it is not tied specifically to the program students; smaller class sizes for those same students (B) is the more direct confound.",
+      "E": "Starting at a new grading period only sets the timing and offers no rival explanation for why grades actually rose."
     },
     "explanation": "Smaller class sizes provide another plausible explanation for the improvement in grades.",
     "estimatedTimeSeconds": 90
@@ -113,6 +125,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "Clear markings describe the lane itself and, if anything, support the claim; they give no alternative reason commute times fell. The holiday traffic data (B) supplies that alternative.",
+      "C": "Asking drivers to stay on schedule is another pro-bus-lane factor and does not explain away the time drop as a confound. The correct answer shows the data came from an unusually light-traffic period.",
+      "D": "Fewer transfers concerns the rider experience, not why measured commute times dropped, so it fails to weaken the causal claim.",
+      "E": "New bus shelters do not speed up buses or explain shorter commutes; they are irrelevant to the timing comparison."
+    },
     "explanation": "If the data were collected during a period of low traffic, the reduction in travel time may stem from that rather than from the bus lane.",
     "estimatedTimeSeconds": 105
   },
@@ -151,6 +169,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "A deadline in the subject line is a detail of the appeal that, if anything, supports its persuasiveness; it gives no reason the message was not the cause. The correct answer shows the rise came from prior donors who may give regardless.",
+      "C": "A website redesign is a possible alternative cause, but it is not shown to have reached donors the way the email did; the source of the donations (A) more directly undercuts the persuasiveness claim.",
+      "D": "Sending fewer emails would, if anything, make the per-email persuasiveness look better, so it does not weaken the argument.",
+      "E": "Including a short video is part of what could make the appeal persuasive and supports rather than weakens the claim."
     },
     "explanation": "If the increase comes primarily from existing donors, the message is not necessarily the main cause.",
     "estimatedTimeSeconds": 105
@@ -191,6 +215,12 @@
       "format": "single",
       "value": "D"
     },
+    "distractorRationale": {
+      "A": "A lifespan over ten years supports the savings claim by giving more time to recoup costs; it does not weaken it. The correct answer shows the savings figure omits maintenance costs.",
+      "B": "Free installation lowers upfront cost and strengthens, rather than undercuts, the case that the panels save money.",
+      "C": "Rising electricity prices make the panels' offset more valuable, supporting the savings claim instead of weakening it.",
+      "E": "Financing affects how the purchase is paid for, not whether it ultimately saves money; the correct answer attacks the savings calculation directly by noting it ignores maintenance."
+    },
     "explanation": "If maintenance costs are excluded from the calculation, the estimate of savings is overly optimistic.",
     "estimatedTimeSeconds": 105
   },
@@ -229,6 +259,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "Calorie tracking is just a feature of the app and offers no reason the app failed to drive retention; it weakly supports the claim. The correct answer shows retention was already rising before launch.",
+      "C": "Many downloads show adoption, not that the app caused retention to improve, so this does not weaken the conclusion.",
+      "D": "A new class format is a possible alternative cause, but it does not directly show the trend predated the app the way the correct answer does, which removes the app as the driver.",
+      "E": "Some users finding scheduling simpler is subjective testimony that, if anything, supports the app's role rather than undercutting it."
     },
     "explanation": "If retention was already increasing before the launch, the rise cannot be attributed primarily to the app.",
     "estimatedTimeSeconds": 120
@@ -269,6 +305,12 @@
       "format": "single",
       "value": "E"
     },
+    "distractorRationale": {
+      "A": "Higher production cost attacks the packaging's value, not the waste-reduction claim, so it does not weaken the stated argument. The correct answer shows waste was merely shifted, not eliminated.",
+      "B": "Fewer returns occurring only for items on a different carrier hints that the carrier, not the packaging, cut damage, but it concerns returns rather than overall waste; the correct answer directly shows no net reduction in waste.",
+      "C": "Survey preference for the design is subjective and supports the packaging rather than undercutting the waste claim.",
+      "D": "Hiring more warehouse staff has no clear bearing on whether overall waste fell; the correct answer shows the waste was relocated to suppliers."
+    },
     "explanation": "If the waste was simply shifted to suppliers, the overall reduction has not been demonstrated.",
     "estimatedTimeSeconds": 120
   },
@@ -307,6 +349,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "C"
+    },
+    "distractorRationale": {
+      "A": "Less commuting time is a mechanism that supports remote work helping productivity, not a reason the conclusion fails. The correct answer shows the data came from a single atypical team.",
+      "B": "Adding software tools is a possible separate factor, but it does not undercut the generalization as directly as the measure being drawn from one unusually experienced team does.",
+      "D": "Preferring to work from home is about attitude, not output, and does not weaken the productivity conclusion.",
+      "E": "Closing the office on Fridays is a scheduling detail with no clear effect on whether the productivity gain generalizes; the correct answer shows the sample was a single atypical group."
     },
     "explanation": "A single atypical group does not allow the effect to be generalized to all employees.",
     "estimatedTimeSeconds": 105
@@ -347,6 +395,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "More examples is a feature of the module that, if anything, supports its effectiveness; it gives no reason the error drop was illusory. The correct answer shows errors were merely recorded later.",
+      "C": "Completing the module on time shows compliance, not that the recorded error decrease was real or caused by the module.",
+      "D": "Simple language describes the training and weakly supports the claim; it does not explain away the apparent error reduction the way delayed reporting does.",
+      "E": "Offering certificates is an incentive unrelated to whether actual errors fell, so it fails to weaken the claim."
+    },
     "explanation": "If errors are simply recorded later, the observed decrease may be artificial.",
     "estimatedTimeSeconds": 90
   },
@@ -385,6 +439,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "D"
+    },
+    "distractorRationale": {
+      "A": "Attracting shoppers from a larger area suggests the wider selection is paying off and supports the owner, rather than showing the long lines are a problem. The correct answer shows customers actually leave because of the lines.",
+      "B": "Higher average spending after the selection grew bolsters the owner's position; it does not show customers reject the wait.",
+      "C": "A competitor's broader selection is about rival assortment, not whether this store's customers tolerate the lines, so it is irrelevant to the claim.",
+      "E": "Lines being long only at peak hours limits when the problem occurs but does not show customers accept it; the correct answer shows they walk out because of it."
     },
     "explanation": "If customers are leaving because of the line, the argument that they willingly accept waiting falls apart.",
     "estimatedTimeSeconds": 105
@@ -425,6 +485,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "More downtown stations is part of the bike-share program itself and supports its role, not an alternative cause. The correct answer shows new bike lanes, a separate change, drove the rise.",
+      "C": "New users simply describe who is riding, not why ridership rose, so this does not weaken the program's causal claim.",
+      "D": "Bright paint is a cosmetic feature that, if anything, weakly favors the program; it offers no rival explanation for the increase.",
+      "E": "Stations being near train stops is a placement detail consistent with the program working; the correct answer instead points to newly added bike lanes as the cause."
+    },
     "explanation": "Adding bike lanes in certain neighborhoods provides another plausible explanation for the increase.",
     "estimatedTimeSeconds": 120
   },
@@ -463,6 +529,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "Survey statements that sustainability matters are stated preferences, not actual buying behavior, so they support the premise but not the sales prediction as directly as a real sales lift does. The pilot test (A) shows actual sales rising.",
+      "C": "Faster decomposition speaks to the packaging's environmental quality, not to whether it will boost sales; the correct answer provides observed sales gains.",
+      "D": "Pre-existing sales growth gives an alternative reason sales might rise and, if anything, weakens attribution to the new packaging.",
+      "E": "A competitor's past success is a loose analogy with different conditions; the pilot test on this company's own products is stronger, more direct support."
     },
     "explanation": "A pilot test showing increased sales directly supports the prediction.",
     "estimatedTimeSeconds": 90
@@ -503,6 +575,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "Steady sales of current plant-based meals show no upward trend, so this does not support a coming rise; the survey of student demand (A) does.",
+      "C": "A neighboring college's experience is a loose analogy under different conditions and is weaker than direct evidence of these students' preferences.",
+      "D": "Adding new dishes is the cafeteria's own action and assumes the conclusion rather than independently showing demand will grow.",
+      "E": "Students thinking plant-based meals are healthier is an attitude that need not translate into more orders; the survey showing they want more options is more direct."
+    },
     "explanation": "A strong stated preference from students directly supports the expected increase in demand.",
     "estimatedTimeSeconds": 90
   },
@@ -541,6 +619,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "C"
+    },
+    "distractorRationale": {
+      "A": "Reports that the app made math easier are subjective impressions, not measured score gains, so they support the claim less directly than an actual test improvement does. The correct answer shows scores rose on a comparable test.",
+      "B": "More study time is a confound that could explain better performance by itself and does not isolate the app's effect on scores.",
+      "D": "Greater confidence is an attitude, not a measured improvement in math ability, so it does not directly support the score claim.",
+      "E": "Higher overall student satisfaction is broad and unrelated to math achievement; the correct answer ties the app to measured score gains."
     },
     "explanation": "An improvement on a comparable test after using the product is direct evidence.",
     "estimatedTimeSeconds": 105
@@ -581,6 +665,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "Launching late hours alongside a popular new exhibit introduces a confound, so it makes attribution to the hours harder rather than stronger. The correct answer shows attendance peaked on the late-night evenings themselves.",
+      "C": "Evening visitors staying longer concerns visit length, not how many visitors the late hours attract, so it does not support the attendance claim.",
+      "D": "Heavy social-media promotion offers an alternative cause for any attendance gain rather than supporting the late hours as the driver.",
+      "E": "Other museums extending hours says nothing about this museum's attendance; the correct answer provides the direct attendance evidence."
+    },
     "explanation": "If attendance is highest during late evenings, the argument is directly supported.",
     "estimatedTimeSeconds": 105
   },
@@ -619,6 +709,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "E"
+    },
+    "distractorRationale": {
+      "A": "More revenue per subscriber concerns earnings, not whether customers stay, so it does not support the churn-reduction claim. The correct answer shows annual subscribers historically cancel less.",
+      "B": "Annual subscribers being more satisfied may reflect that already-loyal customers self-select into annual plans, so it does not show the plans themselves reduce churn.",
+      "C": "A plan to promote annual options more is a future marketing intention, not evidence that annual plans cut cancellations.",
+      "D": "What competitors offer is irrelevant to whether this service's annual plans reduce its own churn; the correct answer gives this service's own cancellation track record."
     },
     "explanation": "A track record showing fewer cancellations among annual subscribers directly supports the conclusion.",
     "estimatedTimeSeconds": 120
@@ -659,6 +755,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "Drivers noticing the sequence changed shows awareness, not reduced delay, so it does not support effectiveness. The correct answer shows travel times fell on all tested routes.",
+      "C": "Repainting the poles is cosmetic and unrelated to whether delays dropped.",
+      "D": "Heavy traffic on one rainy day is an isolated, weather-driven datapoint that, if anything, cuts against smooth flow rather than supporting the new timing.",
+      "E": "The old signals being outdated motivates the change but does not show the new timing actually reduced delays; the correct answer provides measured time reductions."
+    },
     "explanation": "Lower travel times after implementation directly support the effectiveness of the new setting.",
     "estimatedTimeSeconds": 90
   },
@@ -697,6 +799,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "D"
+    },
+    "distractorRationale": {
+      "A": "Ease-of-use ratings concern convenience, not whether the filter actually removes contaminants, so they do not support effectiveness. The correct answer is an independent test finding no detectable contaminants.",
+      "B": "Removing contaminants faster than rivals compares speed, not whether contaminants are actually eliminated to a safe level.",
+      "C": "Meeting the manufacturer's own published standards is self-referential; an independent lab result (D) is far stronger evidence.",
+      "E": "Cleaner taste is a subjective impression that does not establish contaminant removal; the correct answer provides objective lab confirmation."
     },
     "explanation": "An independent test showing no detectable contaminants is strong evidence of effectiveness.",
     "estimatedTimeSeconds": 105
@@ -737,6 +845,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "Preferring a workplace with more plants is a stated wish, not observed morale, so it supports the claim less directly than an actual morale link does. The correct answer shows teams with more plants reported higher morale.",
+      "C": "Lower cost than other measures speaks to budget, not to whether plants improve morale.",
+      "D": "No change in turnover where plants were added, if anything, undercuts the claim rather than supporting it.",
+      "E": "Improved air quality is a different benefit of plants and does not directly establish a morale effect; the correct answer ties plants to reported morale."
+    },
     "explanation": "An observed link between more plants and higher morale directly supports the argument.",
     "estimatedTimeSeconds": 90
   },
@@ -775,6 +889,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "E"
+    },
+    "distractorRationale": {
+      "A": "Trainees rating the module clearer is a subjective impression, not a measured time reduction, so it supports the claim less directly than the drop from 6 to 4 weeks does.",
+      "B": "Covering fewer topics may shorten the module but could leave gaps, and it does not show that overall training time to competence actually fell.",
+      "C": "Adopting the module in order to shorten training states the intent, not the result, and assumes what must be proven.",
+      "D": "Better first-assignment performance concerns quality of work, not how long training took; the correct answer gives the measured time reduction."
     },
     "explanation": "A measured reduction in time to independence directly supports the conclusion.",
     "estimatedTimeSeconds": 105
@@ -815,6 +935,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "Coming in several colors is a cosmetic feature with no bearing on cost savings. The correct answer shows break-even comes quickly while the cups last far longer.",
+      "C": "Customers liking the feel is about preference, not whether the cups save money over disposables.",
+      "D": "The cups being slightly heavier is irrelevant to the savings comparison and, if anything, a minor drawback.",
+      "E": "A loyalty discount is a separate promotion that does not show reusable cups themselves save money; the correct answer compares break-even to lifespan directly."
+    },
     "explanation": "If the break-even point is reached quickly and the cups last a long time, the total savings are strongly supported.",
     "estimatedTimeSeconds": 120
   },
@@ -853,6 +979,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "C"
+    },
+    "distractorRationale": {
+      "A": "Total sales rising during a past event week could reflect seasonal or other factors, since there is no comparison group to isolate the event's effect. The correct answer compares attendees with similar non-attendees.",
+      "B": "The author's book selling well elsewhere is about a different store and does not show this event will lift this store's sales.",
+      "D": "Attendees enjoying meeting the author is about satisfaction, not purchasing, so it does not support a sales increase.",
+      "E": "Growing attendance shows interest in events, not that the events actually raise book sales; the correct answer provides the controlled buying comparison."
     },
     "explanation": "Comparing similar customers demonstrates a sales effect associated with participation in the event.",
     "estimatedTimeSeconds": 105
@@ -893,6 +1025,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "Whether customers prefer lunch to dinner is irrelevant; the argument is about whether high lunch volume yields profit, not meal preference. The required assumption is that costs do not wipe out the margin per order.",
+      "C": "Serving food every day is background operations and is not what the profit conclusion depends on.",
+      "D": "Lunch orders being larger than breakfast orders does not bear on whether lunch delivery is profitable; the needed assumption concerns margins after delivery and prep costs.",
+      "E": "Whether competitors offer delivery does not establish that this restaurant profits; the argument requires that per-order margin survives the added costs."
+    },
     "explanation": "For volume to be sufficient to generate profit, the margin per order must remain positive after costs.",
     "estimatedTimeSeconds": 105
   },
@@ -931,6 +1069,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "That employees will be happier on four days is already stated as the argument's premise, so it is not the unstated assumption the conclusion needs. The gap is the link from happiness to retention.",
+      "C": "Completing the same work in four days addresses output, not whether happier employees stay; the conclusion is about retention.",
+      "D": "Whether competitors have adopted the policy is irrelevant to whether happiness here will reduce resignations.",
+      "E": "Preferring a four-day week over a raise is a separate comparison and is not required for the happiness-to-retention link the argument depends on."
     },
     "explanation": "The link from happiness to retention must hold for the conclusion to stand.",
     "estimatedTimeSeconds": 105
@@ -971,6 +1115,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "Improved worker satisfaction does not explain why profits fell despite higher output; it is unrelated to the cost-profit gap. The correct answer identifies high interest payments as the drain.",
+      "B": "Producing more units of the same product only restates the higher output and deepens the puzzle rather than resolving it.",
+      "D": "Selling in multiple regions is background that does not explain why higher output coincided with lower profit.",
+      "E": "Customers liking the new packaging, if anything, would help sales and does not account for the profit decline; the correct answer points to costly loan interest."
+    },
     "explanation": "High financial charges can reduce profit even if output increases.",
     "estimatedTimeSeconds": 120
   },
@@ -1009,6 +1159,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "Whether evening classes pull students from daytime classes is a useful concern but secondary; the proposal's viability hinges first on whether enrollment covers the added costs.",
+      "C": "Whether evening students earn higher grades is about academic outcomes, not whether the program is financially feasible, which is the key evaluation question.",
+      "D": "Effect on the university's standing is a soft, indirect benefit; the decisive question is whether enough students enroll to cover costs.",
+      "E": "Faculty qualification is an implementation detail, not the central feasibility issue; the proposal stands or falls on whether enrollment covers the expense."
     },
     "explanation": "Profitability depends directly on a sufficient enrollment level to cover the additional costs.",
     "estimatedTimeSeconds": 105
@@ -1049,6 +1205,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "Claiming trees would lower temperatures in any neighborhood overgeneralizes a correlation into a guaranteed causal effect everywhere, which the data do not support. The correct answer states only an association.",
+      "B": "That the highest-tree-cover neighborhoods had the very lowest temperatures adds a specific extreme the report does not establish; only a general association is supported.",
+      "D": "Recommending that low-cover neighborhoods add trees is a prescriptive action that assumes causation beyond the observed correlation.",
+      "E": "Comparing summer to winter effects introduces data about winter that the report never provides; the supported conclusion is the summer association."
+    },
     "explanation": "The report supports an association between more trees and lower temperatures.",
     "estimatedTimeSeconds": 105
   },
@@ -1087,6 +1249,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "Whether physical stores can capture the online demand is a real concern, but the argument's expansion plan more fundamentally assumes setup is feasible at acceptable cost. (B) names that load-bearing assumption.",
+      "C": "The plan does not require this city to have the strongest demand of all; it only needs viable expansion here, so this overstates what is assumed.",
+      "D": "Continued growth of online sales after expanding is not required; the argument only needs the expansion itself to be feasible.",
+      "E": "Customers paying the same prices as elsewhere is not necessary for the plan to work; the needed assumption is that expansion is achievable without prohibitive cost or staffing problems."
     },
     "explanation": "The argument assumes that expansion is feasible at an acceptable cost and with sufficient staff.",
     "estimatedTimeSeconds": 120
@@ -1127,6 +1295,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "Saying all employees should live near the office is a prescription that goes far beyond the observed association in the data. The correct answer states only that short commutes are one factor linked to fewer absences.",
+      "C": "Claiming long commutes never matter is an absolute that the study, which shows a tendency rather than a rule, does not support.",
+      "D": "The study shows an association, not proof of causation, so this overreaches what the data establish.",
+      "E": "Employee commuting preferences are not addressed by the study at all, so this conclusion is unsupported."
+    },
     "explanation": "The result supports an association, not absolute causation.",
     "estimatedTimeSeconds": 90
   },
@@ -1165,6 +1339,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "C"
+    },
+    "distractorRationale": {
+      "A": "Higher average item prices could explain lower revenue, but the paradox is about fewer items sold despite more visitors, which price does not resolve. The correct answer shows many visitors came for a free event and did not shop.",
+      "B": "Stating that this month had the most visitors all year only sharpens the puzzle of why fewer items sold; it does not resolve it.",
+      "D": "Popular items being out of stock last month would have reduced last month's sales, making this month look better by comparison, which deepens rather than resolves the contradiction.",
+      "E": "More items bought per visit this month, with more visitors, would predict higher total sales, contradicting the premise instead of explaining it."
     },
     "explanation": "More visitors does not mean more purchases if a large portion comes for a free event.",
     "estimatedTimeSeconds": 120
@@ -1205,6 +1385,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "Being sold in more colors is a cosmetic detail unrelated to the causal link between discharge rate and lifespan. The required assumption is that the lower discharge rate is the main reason the battery lasts longer in real use.",
+      "B": "Whether the battery is made of metal has no bearing on the discharge-rate-to-lifespan argument.",
+      "D": "Fast charging concerns how quickly the battery refills, not how long it lasts, so it is not the assumption the conclusion needs.",
+      "E": "Customer preference for smaller batteries is about demand, not the causal claim about lifespan; the argument must assume discharge rate drives the longer life in typical use."
+    },
     "explanation": "The argument must link the proposed cause to actual lifespan under normal use.",
     "estimatedTimeSeconds": 105
   },
@@ -1244,6 +1430,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "Saying the barriers eliminated all flood risk is far stronger than the data, which show less damage, not zero risk. The correct answer claims only that the barriers probably helped reduce damage.",
+      "B": "Asserting the district would have flooded badly without barriers is a counterfactual the comparison does not establish.",
+      "D": "Recommending identical barriers for every district is a prescription that goes beyond what the single comparison supports.",
+      "E": "Concluding the unprotected districts got heavier rainfall invents a rainfall difference not given in the data; the supported conclusion is that the barriers likely helped."
+    },
     "explanation": "The comparison is consistent with the idea that the barriers reduced damage.",
     "estimatedTimeSeconds": 105
   },
@@ -1282,6 +1474,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "Around-the-clock availability is a feature of the chatbot and, if anything, supports the claim rather than offering a rival cause for higher satisfaction. The correct answer shows prices were cut at the same time.",
+      "C": "Answering simple questions quickly restates the faster response times and supports the chatbot, so it does not weaken the claim.",
+      "D": "Rating service after receiving a discount could bias ratings upward, hinting the discount, not the chatbot, lifted satisfaction; but the simultaneous price cut (B) is the clearer confounding cause for the overall improvement.",
+      "E": "Adding more languages is another service improvement, yet it is less clearly tied to the satisfaction rise than the concurrent price reduction, which directly competes with the chatbot as the cause."
     },
     "explanation": "A price reduction can explain the improvement in satisfaction independently of the chatbot.",
     "estimatedTimeSeconds": 120

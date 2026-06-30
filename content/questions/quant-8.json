@@ -32,6 +32,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "This near-miss likely comes from adding $4+7=11$ inside the parentheses or otherwise mishandling the order of operations; first do $7-3=4$, then $4\\cdot 4=16$, then $18+16-5=29$.",
+      "C": "This drops the final $-5$ or adds it instead of subtracting, giving $33$; the correct chain is $18+16-5=29$.",
+      "D": "This adds $5$ instead of subtracting it ($18+16+5-4$ type slip); the parentheses-first result is $18+16-5=29$.",
+      "E": "This multiplies before subtracting inside the parentheses or mis-sequences the steps; do $7-3=4$ first, then $4\\cdot 4=16$ and $18+16-5=29$."
+    },
     "explanation": "Compute inside parentheses first: $7-3=4$. Then $4\\cdot 4=16$. Finally, $18+16-5=29$.",
     "estimatedTimeSeconds": 90,
     "tags": [
@@ -72,6 +78,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "D"
+    },
+    "distractorRationale": {
+      "A": "This is only the discounted price $80\\times 0.80=64$ with the $5\\%$ tax never added; the final price is $64\\times 1.05=67.20$.",
+      "B": "This is a near-miss that rounds or mis-adds the tax; the exact tax-inclusive price is $64\\times 1.05=67.20$.",
+      "C": "This applies tax to a wrong base or under-counts the tax; tax must be $5\\%$ of the discounted $\\$64$, giving $67.20$.",
+      "E": "This nets the $20\\%$ discount against the $5\\%$ tax as a single $15\\%$ off ($80\\times 0.85=68$); the two percents must be applied multiplicatively in sequence, yielding $67.20$."
     },
     "explanation": "A 20% discount leaves $80\\times 0.80=64$. Adding 5% tax gives $64\\times 1.05=67.2$.",
     "estimatedTimeSeconds": 90,
@@ -115,6 +127,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "$\\frac13$ would come from subtracting numerators and denominators directly ($\\frac{5-1}{6-4}$) or another shortcut; use a common denominator: $\\frac{10}{12}-\\frac{3}{12}=\\frac{7}{12}$.",
+      "C": "$\\frac23=\\frac{8}{12}$ is a near-miss off by one twelfth; the exact difference is $\\frac{10}{12}-\\frac{3}{12}=\\frac{7}{12}$.",
+      "D": "$\\frac34=\\frac{9}{12}$ overstates the result; converting to twelfths gives $\\frac{10}{12}-\\frac{3}{12}=\\frac{7}{12}$.",
+      "E": "$\\frac{11}{12}$ adds the fractions instead of subtracting ($\\frac{10}{12}+\\frac{1}{12}$ style); the difference is $\\frac{10}{12}-\\frac{3}{12}=\\frac{7}{12}$."
+    },
     "explanation": "$\\frac{5}{6}=\\frac{10}{12}$ and $\\frac{1}{4}=\\frac{3}{12}$. So the difference is $\\frac{10}{12}-\\frac{3}{12}=\\frac{7}{12}$.",
     "estimatedTimeSeconds": 90,
     "tags": [
@@ -155,6 +173,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "C"
+    },
+    "distractorRationale": {
+      "A": "$30$ would come from misreading the ratio (e.g., using $45\\times\\frac{2}{3}$); each part is $45\\div 5=9$ and children are $4\\times 9=36$.",
+      "B": "$32$ is a near-miss with the wrong part value; the correct one-part value is $9$, so children $=4\\times 9=36$.",
+      "D": "$40$ treats the children's count as $5\\times 8$ or otherwise mis-scales; with one part $=9$, the $4$ children-parts give $36$.",
+      "E": "$45$ just repeats the adult count, ignoring that children correspond to $4$ parts, not $5$; children $=4\\times 9=36$."
     },
     "explanation": "$5$ parts correspond to 45 adults, so 1 part is $45\\div 5=9$. Children are $4$ parts, or $4\\times 9=36$.",
     "estimatedTimeSeconds": 90,
@@ -197,6 +221,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "This is a near-miss from a small arithmetic slip; the four remaining numbers total $90-27=63$, and $63\\div 4=15.75$.",
+      "C": "$17$ divides $63$ incorrectly or estimates; the exact value is $63\\div 4=15.75$.",
+      "D": "$17.25$ may come from removing a different value or rounding; subtract $27$ from the total $90$ to get $63$, then divide by $4$ for $15.75$.",
+      "E": "$17.75$ likely divides $71$ (i.e., $90-19$) by $4$ or makes a similar error; the correct remainder is $90-27=63$, giving $15.75$."
+    },
     "explanation": "The total of all 5 numbers is $5\\times 18=90$. Removing 27 leaves $90-27=63$ for the other 4 numbers, and $63\\div 4=15.75$.",
     "estimatedTimeSeconds": 90,
     "tags": [
@@ -237,6 +267,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "$1$ leaves remainder $1$ on division by $4$ but remainder $1$ (not $2$) on division by $3$; the smallest value satisfying both is $5$.",
+      "C": "$9$ leaves remainder $1$ by $4$ but remainder $0$ by $3$; only $5$ meets both conditions among the small candidates.",
+      "D": "$13$ leaves remainder $1$ by $4$ and remainder $1$ by $3$, so it fails the second condition; $5$ is the smallest that works.",
+      "E": "$17$ leaves remainder $1$ by $4$ but remainder $2$ by $3$, so it qualifies yet is not the smallest; the smallest such integer is $5$."
     },
     "explanation": "Check the listed values. The smallest number that is $1$ more than a multiple of 4 and $2$ more than a multiple of 3 is 5, since $5\\equiv 1\\pmod 4$ and $5\\equiv 2\\pmod 3$.",
     "estimatedTimeSeconds": 90,
@@ -279,6 +315,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "$9$ comes from forgetting to distribute the $3$ (e.g., solving $3x-2=2x+7$); distributing gives $3x-6=2x+7$, so $x=13$.",
+      "B": "$11$ is a near-miss from a sign or constant slip; from $x-6=7$ the value is $x=13$.",
+      "D": "$15$ adds instead of the correct combination after distributing; $3x-6=2x+7$ leads to $x-6=7$, so $x=13$.",
+      "E": "$17$ likely mishandles the constants on both sides; subtracting $2x$ from $3x-6=2x+7$ gives $x-6=7$ and $x=13$."
+    },
     "explanation": "Distribute first: $3x-6=2x+7$. Subtract $2x$ from both sides to get $x-6=7$. Then $x=13$.",
     "estimatedTimeSeconds": 90,
     "tags": [
@@ -319,6 +361,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "$60$ is a near-miss that mis-multiplies; the area is $\\frac12\\cdot 12\\cdot 9=54$.",
+      "C": "$63$ uses $\\frac12\\cdot 14\\cdot 9$ or a similar slip; with base $12$ and height $9$, the area is $\\frac12\\cdot 12\\cdot 9=54$.",
+      "D": "$72$ comes from $\\frac12\\cdot 16\\cdot 9$ or mis-pairing the dimensions; the correct area is $\\frac12\\cdot 12\\cdot 9=54$.",
+      "E": "$108$ forgets the factor of $\\frac12$ and computes $12\\cdot 9$; the triangle's area is half that, $54$."
     },
     "explanation": "Use $\\text{area}=\\frac{1}{2}bh$. So $\\frac{1}{2}\\cdot 12\\cdot 9=54$.",
     "estimatedTimeSeconds": 90,
@@ -361,6 +409,12 @@
       "format": "single",
       "value": "D"
     },
+    "distractorRationale": {
+      "A": "$8$ is just the vertical change $6-(-2)=8$, not the full distance; combine both legs: $\\sqrt{6^2+8^2}=10$.",
+      "B": "$9$ is a near-miss that mis-sums the squares; the distance is $\\sqrt{36+64}=\\sqrt{100}=10$.",
+      "C": "$\\sqrt{52}$ comes from using $6$ and $4$ (e.g., $6-(-2)$ read as $4$) instead of $6$ and $8$; the legs are $6$ and $8$, giving $\\sqrt{100}=10$.",
+      "E": "$12$ adds the two legs $6+8$ instead of using the Pythagorean theorem; the distance is $\\sqrt{6^2+8^2}=10$."
+    },
     "explanation": "The horizontal change is $7-1=6$ and the vertical change is $6-(-2)=8$. The distance is $\\sqrt{6^2+8^2}=\\sqrt{100}=10$.",
     "estimatedTimeSeconds": 90,
     "tags": [
@@ -401,6 +455,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "E"
+    },
+    "distractorRationale": {
+      "A": "$50$ just reports the slower leg's speed; average speed for the trip is total distance over total time, $300/5=60$.",
+      "B": "$55$ averages the two speeds as $(50+75)/2$, which is wrong when the legs take different times; use $300/5=60$.",
+      "C": "$58$ is a near-miss from rounding a flawed average; the correct average speed is $300\\text{ mi}/5\\text{ hr}=60$.",
+      "D": "$62$ overshoots a mis-weighted average; with $3$ hours out and $2$ hours back, average speed is $300/5=60$."
     },
     "explanation": "The total distance is 300 miles. The time is $150/50=3$ hours out and $150/75=2$ hours back, for 5 hours total. Average speed is $300/5=60$ miles per hour.",
     "estimatedTimeSeconds": 90,
@@ -443,6 +503,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "$4$ hours is a near-miss from rounding the combined rate; their rates add to $\\frac{5}{24}$ job/hr, giving $24/5=4.8$ hours.",
+      "C": "$5$ hours rounds $4.8$ up or estimates; the exact time is the reciprocal of $\\frac{5}{24}$, namely $4.8$ hours.",
+      "D": "$6$ hours averages the two times $\\frac{8+12}{2}\\cdot\\!$-style or splits the difference; instead add rates: $\\frac18+\\frac{1}{12}=\\frac{5}{24}$, so time $=4.8$ hours.",
+      "E": "$20$ hours adds the rates' denominators or otherwise inverts the logic; combined rate $\\frac{5}{24}$ gives a time of $4.8$ hours, far less than either machine alone."
+    },
     "explanation": "Their combined rate is $1/8+1/12=3/24+2/24=5/24$ job per hour. Time is the reciprocal: $24/5=4.8$ hours.",
     "estimatedTimeSeconds": 90,
     "tags": [
@@ -483,6 +549,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "C"
+    },
+    "distractorRationale": {
+      "A": "$12$ equals the liters of acid, not the water added; once the acid ($12$ L) is $25\\%$ of the final $48$ L, the water added is $48-30=18$.",
+      "B": "$15$ is a near-miss from a final-volume slip; the acid stays $12$ L, the final volume is $12/0.25=48$, so water $=18$.",
+      "D": "$20$ may come from using a wrong target like $20\\%$ or a rounding error; with a $25\\%$ target the final volume is $48$ L and water added is $18$.",
+      "E": "$30$ doubles the original or assumes the volume must double; the correct final volume is $48$ L, so only $18$ L of water is added."
     },
     "explanation": "The amount of acid stays $30\\times 0.40=12$ liters. If 12 liters is 25% of the final mixture, then the final volume is $12/0.25=48$ liters. Water added is $48-30=18$ liters.",
     "estimatedTimeSeconds": 90,
@@ -525,6 +597,12 @@
       "format": "single",
       "value": "D"
     },
+    "distractorRationale": {
+      "A": "$8=2^3$ subtracts too much, perhaps doing $2^{3+5-4-1}$ or mis-combining; the exponent is $3+5-4=4$, so the value is $16$.",
+      "B": "$12$ is not a power of $2$ and likely comes from arithmetic on the bases rather than the exponents; combine exponents to get $2^4=16$.",
+      "C": "$14$ similarly mishandles the powers; with the same base, add and subtract exponents: $2^{3+5-4}=16$.",
+      "E": "$32=2^5$ forgets to subtract the $\\div 2^4$ exponent fully; the correct exponent is $3+5-4=4$, giving $16$."
+    },
     "explanation": "Combine exponents with the same base: $2^{3+5-4}=2^4=16$.",
     "estimatedTimeSeconds": 90,
     "tags": [
@@ -566,6 +644,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "$6$ over-counts by including an endpoint; since $-\\frac13<x\\le 4$ is strict on the left, the integers are $0,1,2,3,4$, which is $5$.",
+      "C": "$7$ likely counts both endpoints or includes $-1$; only $0,1,2,3,4$ satisfy $-\\frac13<x\\le 4$, so there are $5$.",
+      "D": "$8$ over-counts further by widening the range; solving gives $-\\frac13<x\\le 4$, yielding the $5$ integers $0$ through $4$.",
+      "E": "$9$ may count from $-2$ or mishandle the division by $3$; the correct solution $-\\frac13<x\\le 4$ contains $5$ integers."
+    },
     "explanation": "Add 1 to each part: $-1<3x\\le 12$. Divide by 3: $-\\frac13 < x \\le 4$. The integers are $0,1,2,3,4$, so there are 5.",
     "estimatedTimeSeconds": 90,
     "tags": [
@@ -606,6 +690,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "$\\frac16$ is a near-miss from a small total-sum error; the mean is $\\frac{44}{6}=\\frac{22}{3}$ and the median is $7$, so the gap is $\\frac13$.",
+      "C": "$\\frac12$ overstates the gap, perhaps from a median slip; with mean $\\frac{22}{3}$ and median $7$, the difference is $\\frac13$.",
+      "D": "$\\frac23$ doubles the correct gap, likely from miscomputing the sum as $46$; the actual difference is $\\frac{22}{3}-7=\\frac13$.",
+      "E": "$1$ rounds the difference to a whole number; precisely, $\\frac{22}{3}-7=\\frac13$."
     },
     "explanation": "The median is the average of the middle two values: $\\frac{7+7}{2}=7$. The mean is $(3+5+7+7+10+12)/6=44/6=22/3$. The difference is $22/3-7=1/3$.",
     "estimatedTimeSeconds": 90,
@@ -649,6 +739,12 @@
       "format": "single",
       "value": "E"
     },
+    "distractorRationale": {
+      "A": "$40$ uses $n$ instead of $n-1$ at one step (e.g., $4+6\\cdot 6$); the $8$th term is $4+7\\cdot 6=46$.",
+      "B": "$44$ multiplies by $\\frac{40}{6}$-style or makes an arithmetic slip; correctly, $a_8=4+(8-1)\\cdot 6=46$.",
+      "C": "$45$ is a near-miss off by one; the formula gives $4+7\\cdot 6=46$.",
+      "D": "$48$ likely uses $8$ steps of $6$ from $0$ ($8\\cdot 6$) or counts terms wrong; the $8$th term is $4+7\\cdot 6=46$."
+    },
     "explanation": "Use $a_n=a_1+(n-1)d$. So $a_8=4+7\\cdot 6=4+42=46$.",
     "estimatedTimeSeconds": 90,
     "tags": [
@@ -689,6 +785,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "C"
+    },
+    "distractorRationale": {
+      "A": "$\\frac16$ counts only one favorable outcome; the primes below $5$ are $2$ and $3$, giving $\\frac{2}{6}=\\frac13$.",
+      "B": "$\\frac14$ doesn't fit a six-sided die's outcomes and likely guesses a fraction; the correct probability is $\\frac{2}{6}=\\frac13$.",
+      "D": "$\\frac12$ counts three outcomes, perhaps including $1$ or $5$ as prime/qualifying; only $2$ and $3$ count, so the probability is $\\frac13$.",
+      "E": "$\\frac23$ counts four outcomes, over-including non-qualifying values; the primes less than $5$ are just $2$ and $3$, giving $\\frac13$."
     },
     "explanation": "The prime numbers less than 5 are 2 and 3, so there are 2 favorable outcomes out of 6. Thus the probability is $2/6=1/3$.",
     "estimatedTimeSeconds": 90,
@@ -731,6 +833,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "$12$ uses only two positions ($4\\cdot 3$) instead of three; with no repeats it is $4\\cdot 3\\cdot 2=24$.",
+      "B": "$18$ is a near-miss that mis-multiplies; the count of $3$-letter codes is $4\\cdot 3\\cdot 2=24$.",
+      "D": "$36$ over-counts, perhaps using $4\\cdot 3\\cdot 3$; after picking each letter the choices shrink to $4\\cdot 3\\cdot 2=24$.",
+      "E": "$64=4^3$ allows repetition; since letters cannot repeat, the total is $4\\cdot 3\\cdot 2=24$."
+    },
     "explanation": "There are 4 choices for the first letter, 3 for the second, and 2 for the third. So the total is $4\\cdot 3\\cdot 2=24$.",
     "estimatedTimeSeconds": 90,
     "tags": [
@@ -771,6 +879,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "D"
+    },
+    "distractorRationale": {
+      "A": "$12.5$ divides the increase by the new total or uses a wrong base; percent increase is $240/1600=15\\%$.",
+      "B": "$13$ is a near-miss from rounding; the exact increase is $240/1600=0.15=15\\%$.",
+      "C": "$14$ similarly mis-divides; dividing the $240$ rise by the original $1600$ gives $15\\%$.",
+      "E": "$16$ overstates the rise, perhaps dividing by $1500$; the correct base is the original $1600$, so the increase is $15\\%$."
     },
     "explanation": "The increase is $1840-1600=240$. Divide by the original amount: $240/1600=0.15$, which is 15%.",
     "estimatedTimeSeconds": 90,
@@ -813,6 +927,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "$28$ is the value of $x$ (i.e., $4k$), not $y$; the question asks for $y=7k=35$.",
+      "C": "$40$ is a near-miss that mis-solves for $k$; from $11k=55$ we get $k=5$, so $y=35$.",
+      "D": "$42$ uses $k=6$ or a wrong split; $11k=55$ gives $k=5$ and $y=7\\cdot 5=35$.",
+      "E": "$49$ takes $7k$ with $k=7$ from mis-dividing $55$; correctly $k=5$, so $y=35$."
+    },
     "explanation": "Let $x=4k$ and $y=7k$. Then $4k+7k=55$, so $11k=55$ and $k=5$. Therefore $y=7k=35$.",
     "estimatedTimeSeconds": 90,
     "tags": [
@@ -853,6 +973,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "$10\\pi$ uses $2\\pi r$ (circumference) instead of area; the area is $\\pi r^2=\\pi\\cdot 25=25\\pi$.",
+      "C": "$15\\pi$ does not match any standard formula and is a guess; with $r=5$, area $=\\pi\\cdot 5^2=25\\pi$.",
+      "D": "$20\\pi$ likely confuses the formula or radius; the area is $\\pi r^2=25\\pi$.",
+      "E": "$50\\pi$ uses $\\pi\\cdot 2r^2$ or doubles incorrectly; squaring the radius gives $\\pi\\cdot 25=25\\pi$."
     },
     "explanation": "Use $\\text{area}=\\pi r^2$. With $r=5$, the area is $\\pi\\cdot 25=25\\pi$.",
     "estimatedTimeSeconds": 90,
@@ -895,6 +1021,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "$(1,0)$ is a near-miss from a sign or averaging slip in the $x$-coordinate; the midpoint is $\\left(\\frac{-4+8}{2},\\frac{3-1}{2}\\right)=(2,1)$.",
+      "B": "$(2,0)$ gets the $x$-coordinate right but mishandles the $y$-average; $\\frac{3+(-1)}{2}=1$, so the midpoint is $(2,1)$.",
+      "D": "$(3,1)$ mis-averages the $x$-coordinates; $\\frac{-4+8}{2}=2$, giving $(2,1)$.",
+      "E": "$(4,2)$ adds the coordinates without dividing by $2$; the midpoint formula averages them to $(2,1)$."
+    },
     "explanation": "The midpoint is the average of the x-coordinates and the average of the y-coordinates: $\\left(\\frac{-4+8}{2},\\frac{3+(-1)}{2}\\right)=(2,1)$.",
     "estimatedTimeSeconds": 90,
     "tags": [
@@ -936,6 +1068,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "$14$ is a near-miss from rounding the conversion; $45$ minutes is $\\frac34$ hour, so speed $=12\\div\\frac34=16$.",
+      "B": "$15$ similarly mis-divides; dividing $12$ km by $\\frac34$ hour gives $12\\cdot\\frac43=16$ km/h.",
+      "D": "$18$ may use $\\frac23$ hour instead of $\\frac34$; with $45$ min $=\\frac34$ hr, the speed is $16$ km/h.",
+      "E": "$20$ multiplies by a wrong factor (e.g., treating $45$ min as $\\frac35$ hr); the correct speed is $12\\div\\frac34=16$."
+    },
     "explanation": "Forty-five minutes is $3/4$ of an hour. Speed is $12\\div (3/4)=12\\cdot 4/3=16$ kilometers per hour.",
     "estimatedTimeSeconds": 90,
     "tags": [
@@ -976,6 +1114,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "C"
+    },
+    "distractorRationale": {
+      "A": "$6$ hours adds the rates instead of subtracting the drain; the net fill rate is $\\frac19-\\frac{1}{18}=\\frac{1}{18}$, so it takes $18$ hours.",
+      "B": "$12$ is a near-miss that mis-combines the rates; with net rate $\\frac{1}{18}$ tank/hr, the fill time is $18$ hours.",
+      "D": "$27$ over-states the time, perhaps adding the two clock values oddly; the net rate $\\frac{1}{18}$ gives exactly $18$ hours.",
+      "E": "$36$ likely uses a wrong rate difference; subtracting $\\frac{1}{18}$ from $\\frac19$ leaves $\\frac{1}{18}$, so the tank fills in $18$ hours."
     },
     "explanation": "The net rate is $1/9-1/18=2/18-1/18=1/18$ tank per hour. So the tank fills in 18 hours.",
     "estimatedTimeSeconds": 90,
@@ -1019,6 +1163,12 @@
       "format": "single",
       "value": "D"
     },
+    "distractorRationale": {
+      "A": "$14$ is a common factor of both numbers but not the greatest; the GCD uses all shared prime factors, $2\\cdot 3\\cdot 7=42$.",
+      "B": "$21$ also divides both but omits the factor $2$; the full GCD is $2\\cdot 3\\cdot 7=42$.",
+      "C": "$28$ does not divide $126$ evenly; the correct GCD is $42$.",
+      "E": "$84$ is one of the numbers but does not divide $126$; the greatest common divisor is $42$."
+    },
     "explanation": "Prime factorize: $84=2^2\\cdot 3\\cdot 7$ and $126=2\\cdot 3^2\\cdot 7$. The common factors are $2\\cdot 3\\cdot 7=42$.",
     "estimatedTimeSeconds": 90,
     "tags": [
@@ -1059,6 +1209,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "$0$ would require $6$ to divide $5^4$, but $5$ shares no factor with $6$; since $5\\equiv -1\\pmod 6$, $5^4\\equiv 1$, remainder $1$.",
+      "C": "$2$ is a near-miss; using $5\\equiv -1\\pmod 6$ gives $(-1)^4=1$, so the remainder is $1$.",
+      "D": "$3$ does not follow from the cycle of $5\\pmod 6$; $5^4\\equiv(-1)^4=1$, leaving remainder $1$.",
+      "E": "$5$ is the remainder of $5^1$, not $5^4$; raising $-1\\pmod 6$ to the $4$th power gives $1$."
     },
     "explanation": "Since $5\\equiv -1\\pmod 6$, we have $5^4\\equiv (-1)^4=1\\pmod 6$. The remainder is 1.",
     "estimatedTimeSeconds": 90,
@@ -1101,6 +1257,12 @@
       "format": "single",
       "value": "E"
     },
+    "distractorRationale": {
+      "A": "$120=5!$ counts arrangements of only five letters; PLANET has six distinct letters, so there are $6!=720$.",
+      "B": "$240$ is a near-miss that under-counts the factorial; with six distinct letters the count is $6!=720$.",
+      "C": "$360$ may divide by an imagined repeated letter; all six letters of PLANET are distinct, so the total is $6!=720$.",
+      "D": "$480$ similarly mis-counts; arranging six different letters gives $6!=720$."
+    },
     "explanation": "The word PLANET has 6 distinct letters. The number of arrangements is $6!=720$.",
     "estimatedTimeSeconds": 90,
     "tags": [
@@ -1141,6 +1303,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "$10$ is a near-miss from an arithmetic slip; the new total is $36+19=55$, and $55/5=11$.",
+      "C": "$11.5$ divides $46$ by $4$ or otherwise mis-counts items; the five numbers total $55$, so the average is $11$.",
+      "D": "$12$ over-states the average, perhaps adding $24$; the correct sum $55$ over $5$ values gives $11$.",
+      "E": "$12.5$ may average the old mean with $19$ directly; instead use the total $55$ divided by $5$ to get $11$."
     },
     "explanation": "The original total is $4\\times 9=36$. Adding 19 gives $36+19=55$. The new average is $55/5=11$.",
     "estimatedTimeSeconds": 90,
@@ -1183,6 +1351,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "$28\\%$ is a near-miss that mis-totals the salt; the salt is $2+6=8$ L over $25$ L, which is $32\\%$.",
+      "B": "$30\\%$ averages the two concentrations $\\frac{20+40}{2}$, ignoring the unequal volumes; the weighted result is $8/25=32\\%$.",
+      "D": "$34\\%$ over-weights the stronger solution; the actual salt is $8$ L in $25$ L, giving $32\\%$.",
+      "E": "$36\\%$ further over-states the concentration; total salt $8$ L over total volume $25$ L equals $32\\%$."
+    },
     "explanation": "The amount of salt is $10\\cdot 0.20 + 15\\cdot 0.40 = 2+6=8$ liters. The total volume is 25 liters. So the concentration is $8/25=0.32=32\\%$.",
     "estimatedTimeSeconds": 90,
     "tags": [
@@ -1223,6 +1397,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "C"
+    },
+    "distractorRationale": {
+      "A": "$4$ under-counts by dropping an endpoint or value; solving $-2<x<5$ yields the six integers $-1,0,1,2,3,4$.",
+      "B": "$5$ is a near-miss that misses one integer; the open interval $-2<x<5$ contains $-1,0,1,2,3,4$, which is six.",
+      "D": "$7$ over-counts by including an endpoint like $-2$ or $5$; since the inequality is strict, only $-1$ through $4$ qualify, giving six.",
+      "E": "$8$ over-counts both endpoints; the strict solution $-2<x<5$ has exactly six integers."
     },
     "explanation": "Solve the compound inequality: $-7<2x-3<7$. Add 3 to get $-4<2x<10$. Divide by 2: $-2<x<5$. The integers are $-1,0,1,2,3,4$, so there are 6.",
     "estimatedTimeSeconds": 90,
@@ -1265,6 +1445,12 @@
       "format": "single",
       "value": "D"
     },
+    "distractorRationale": {
+      "A": "$18$ likely adds the original perimeter $3+4+5=12$ to only part of the increase; with a scale factor of $2$ each side doubles to $6,8,10$ for a perimeter of $24$.",
+      "B": "$20$ is a near-miss that mis-scales one side; multiplying every side by $2$ gives $6+8+10=24$.",
+      "C": "$22$ similarly under-scales; the scaled triangle has sides $6,8,10$, summing to $24$.",
+      "E": "$30$ multiplies the original perimeter $12$ by the wrong factor or squares the scale; a linear scale of $2$ gives perimeter $2\\times 12=24$."
+    },
     "explanation": "A similarity scale factor of 2 doubles every side length, so the sides become 6, 8, and 10. Their perimeter is $6+8+10=24$.",
     "estimatedTimeSeconds": 90,
     "tags": [
@@ -1305,6 +1491,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "C"
+    },
+    "distractorRationale": {
+      "A": "$15$ is a near-miss from a subtraction slip; range is $\\text{max}-\\text{min}=22-5=17$.",
+      "B": "$16$ similarly mis-subtracts; $22-5=17$.",
+      "D": "$18$ may bring in the median by mistake; range depends only on max and min, $22-5=17$.",
+      "E": "$19$ uses a wrong endpoint; the range is $22-5=17$."
     },
     "explanation": "Range is maximum minus minimum: $22-5=17$.",
     "estimatedTimeSeconds": 90,
@@ -1347,6 +1539,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "$54$ is the $4$th term, not the $5$th; the $5$th term is $2\\cdot 3^4=162$.",
+      "B": "$108$ does not appear in this sequence and likely doubles a term; the $5$th term is $2\\cdot 3^4=162$.",
+      "D": "$243=3^5$ forgets the leading factor of $2$ and miscounts the power; correctly $a_5=2\\cdot 3^4=162$.",
+      "E": "$486$ is the $6$th term ($2\\cdot 3^5$); the $5$th term is $2\\cdot 3^4=162$."
+    },
     "explanation": "The terms are 2, 6, 18, 54, 162. Equivalently, $a_5=2\\cdot 3^{4}=162$.",
     "estimatedTimeSeconds": 90,
     "tags": [
@@ -1387,6 +1585,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "$\\frac{3}{10}$ uses without-replacement reasoning or mismatched fractions; with replacement each draw is $\\frac35$, so both red is $\\frac{9}{25}$.",
+      "C": "$\\frac{6}{25}$ multiplies red by blue ($\\frac35\\cdot\\frac25$) instead of red by red; both-red is $\\frac35\\cdot\\frac35=\\frac{9}{25}$.",
+      "D": "$\\frac{4}{25}$ squares the blue probability $\\frac25$; the red probability $\\frac35$ squared gives $\\frac{9}{25}$.",
+      "E": "$\\frac15$ likely reduces a wrong product or counts a single draw; two independent red draws give $\\left(\\frac35\\right)^2=\\frac{9}{25}$."
     },
     "explanation": "Because the first marble is replaced, the two draws are independent. The probability of red on each draw is $3/5$, so the probability of red twice is $(3/5)(3/5)=9/25$.",
     "estimatedTimeSeconds": 90,
@@ -1429,6 +1633,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "$8$ under-counts, perhaps fixing only one even units digit; both $2$ and $4$ can end the number, giving $6+6=12$.",
+      "B": "$10$ is a near-miss that misses two arrangements; each even units digit yields $3\\cdot 2=6$, totaling $12$.",
+      "D": "$14$ over-counts beyond the available digits; with no repeats and units $\\in\\{2,4\\}$, the total is $12$.",
+      "E": "$16$ over-counts, perhaps allowing repetition or three even endings; the correct count is $6+6=12$."
+    },
     "explanation": "The units digit must be 2 or 4. If the units digit is 2, there are 3 choices for the hundreds digit and 2 for the tens digit: $3\\cdot 2=6$. If the units digit is 4, there are again 6. Total: 12.",
     "estimatedTimeSeconds": 90,
     "tags": [
@@ -1469,6 +1679,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "D"
+    },
+    "distractorRationale": {
+      "A": "$28$ is only the notebook revenue $7\\times 4$ with the pens omitted; add pen revenue $5\\times 2=10$ for a total of $38$.",
+      "B": "$30$ is a near-miss that mis-adds the two parts; $28+10=38$.",
+      "C": "$34$ likely undercounts the pen sales; notebooks bring $28$ and pens bring $10$, totaling $38$.",
+      "E": "$42$ over-states the total, perhaps using $6$ pens or a price slip; the correct sum is $28+10=38$."
     },
     "explanation": "Notebook revenue is $7\\times 4=28$. Pen revenue is $5\\times 2=10$. Total revenue is $28+10=38$.",
     "estimatedTimeSeconds": 90,
@@ -1511,6 +1727,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "$3$ is a near-miss that mis-divides; slope is $\\frac{13-1}{8-2}=\\frac{12}{6}=2$.",
+      "C": "$4$ likely halves the run or doubles incorrectly; the rise $12$ over the run $6$ gives $2$.",
+      "D": "$5$ may swap rise and run or mis-subtract; the correct slope is $\\frac{12}{6}=2$.",
+      "E": "$6$ uses the run $8-2=6$ as the slope itself; slope is rise over run, $\\frac{12}{6}=2$."
+    },
     "explanation": "Slope is rise over run: $(13-1)/(8-2)=12/6=2$.",
     "estimatedTimeSeconds": 90,
     "tags": [
@@ -1551,6 +1773,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "C"
+    },
+    "distractorRationale": {
+      "A": "$5$ hours is a near-miss from a rate slip; the net rate is $\\frac19+\\frac1{18}-\\frac1{36}=\\frac{5}{36}$, so time $=\\frac{36}{5}=7.2$.",
+      "B": "$6$ hours ignores the leak or mis-adds; subtracting the leak gives net rate $\\frac{5}{36}$ and time $7.2$ hours.",
+      "D": "$8$ hours mis-combines the three rates; the correct net rate $\\frac{5}{36}$ yields $7.2$ hours.",
+      "E": "$9$ hours just reports Pipe A's solo time, ignoring B and the leak; together the net rate $\\frac{5}{36}$ gives $7.2$ hours."
     },
     "explanation": "The net rate is $1/9+1/18-1/36=4/36+2/36-1/36=5/36$ pool per hour. The time is the reciprocal, $36/5=7.2$ hours.",
     "estimatedTimeSeconds": 90,
@@ -1593,6 +1821,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "$10\\pi$ likely uses $r$ instead of $r^2$ (i.e., $\\pi\\cdot 2\\cdot 5$); volume is $\\pi r^2 h=\\pi\\cdot 4\\cdot 5=20\\pi$.",
+      "C": "$25\\pi$ may square the height or mix dimensions; with $r=2,h=5$, $V=\\pi\\cdot 2^2\\cdot 5=20\\pi$.",
+      "D": "$40\\pi$ doubles the volume, perhaps using $r=2$ as a diameter or an extra factor of $2$; correctly $V=\\pi\\cdot 4\\cdot 5=20\\pi$.",
+      "E": "$50\\pi$ squares the height ($\\pi\\cdot 2\\cdot 25$) or mis-pairs the values; the volume is $\\pi r^2 h=20\\pi$."
     },
     "explanation": "Use $V=\\pi r^2 h$. Thus $V=\\pi\\cdot 2^2\\cdot 5=20\\pi$.",
     "estimatedTimeSeconds": 90,

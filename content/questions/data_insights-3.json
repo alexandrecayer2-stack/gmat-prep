@@ -7,6 +7,12 @@
     "difficulty": "easy",
     "stem": "What is the value of $x$?\n(1) $3x=12$\n(2) $x+5=9$",
     "correctAnswer": { "format": "single", "value": "D" },
+    "distractorRationale": {
+      "A": "Choosing A says only statement (1) works, but statement (2), $x+5=9$, also gives $x=4$ on its own, so (2) is sufficient too.",
+      "B": "Choosing B says only statement (2) works, but statement (1), $3x=12$, also gives $x=4$ on its own, so (1) is sufficient too.",
+      "C": "Picking C claims you need both statements together, yet each one alone already pins $x$ to $4$, so combining them is unnecessary.",
+      "E": "E says neither statement suffices even combined, but each statement independently forces $x=4$, so they are clearly sufficient."
+    },
     "explanation": "Statement (1) gives $x=4$. Statement (2) gives $x=4$. Each statement alone determines $x$, so the answer is D.",
     "estimatedTimeSeconds": 60,
     "tags": ["data-sufficiency", "algebra", "easy-di"]
@@ -19,6 +25,12 @@
     "difficulty": "medium",
     "stem": "Is $x>y$?\n(1) $x-y>0$\n(2) $x^2>y^2$",
     "correctAnswer": { "format": "single", "value": "A" },
+    "distractorRationale": {
+      "B": "This credits statement (2) instead of (1), but $x^2>y^2$ only gives $|x|>|y|$; for example $x=-3,y=1$ makes $x<y$, so (2) cannot fix the order.",
+      "C": "Choosing C says both statements are needed, but statement (1), $x-y>0$, already means $x>y$ by itself; statement (2) adds nothing required.",
+      "D": "D claims each statement alone is sufficient, yet statement (2) fails (e.g. $x=-3,y=1$ satisfies $x^2>y^2$ but $x<y$); only (1) works alone.",
+      "E": "E says even together they are insufficient, but statement (1) alone settles $x>y$, so the pair is more than enough."
+    },
     "explanation": "Statement (1): $x-y>0$ means $x>y$ directly, so it is sufficient. Statement (2): $x^2>y^2$ means $|x|>|y|$, which does not fix the order; for example $x=-3, y=1$ gives $x^2>y^2$ but $x<y$, while $x=3, y=1$ gives $x>y$. So (2) is not sufficient. The answer is A.",
     "estimatedTimeSeconds": 105,
     "tags": ["data-sufficiency", "inequalities", "medium-di"]
@@ -31,6 +43,12 @@
     "difficulty": "medium",
     "stem": "Is the positive integer $n$ divisible by $12$?\n(1) $n$ is divisible by $6$.\n(2) $n$ is divisible by $8$.",
     "correctAnswer": { "format": "single", "value": "C" },
+    "distractorRationale": {
+      "A": "Statement (1) alone fails: $n$ divisible by $6$ allows $n=6$, which is not divisible by $12$; you also need the extra factor of $2$ from statement (2).",
+      "B": "Statement (2) alone fails: $n$ divisible by $8$ allows $n=8$, which is not divisible by $12$; you also need the factor of $3$ from statement (1).",
+      "D": "D claims each statement works alone, but neither does ($n=6$ and $n=8$ are counterexamples); only together do they guarantee divisibility by $\\mathrm{lcm}(6,8)=24$.",
+      "E": "E says even combined they fail, but together $n$ is divisible by both $6$ and $8$, hence by $24$, and since $12\\mid 24$, $n$ is divisible by $12$."
+    },
     "explanation": "Statement (1) alone is insufficient: $n=6$ is not divisible by $12$, but $n=12$ is. Statement (2) alone is insufficient: $n=8$ is not divisible by $12$, but $n=24$ is. Together, $n$ is divisible by both $6$ and $8$, hence by their least common multiple $24$. Since $12$ divides $24$, $n$ is divisible by $12$. Sufficient together but not alone, so the answer is C.",
     "estimatedTimeSeconds": 135,
     "tags": ["data-sufficiency", "number-properties", "lcm", "hard-di"]
@@ -162,6 +180,12 @@
       { "key": "E", "text": "$20" }
     ],
     "correctAnswer": { "format": "single", "value": "C" },
+    "distractorRationale": {
+      "A": "\\$9 omits part of the per-kilogram charge; the rate is \\$2 per kg over all $4$ kg, giving $5+2(4)=13$, not $5+2(2)$.",
+      "B": "\\$11 uses too few kilograms in the per-kg term; the correct count is $4$ kg, so $5+2(4)=13$.",
+      "D": "\\$15 likely adds an extra kilogram or uses a higher base; the standard rate is a \\$5 base plus \\$2 per kg, so $5+2(4)=13$.",
+      "E": "\\$20 ignores the base-plus-rate structure (it is closer to a flat \\$5 per kg); standard delivery is $5+2(4)=13$."
+    },
     "explanation": "Standard delivery costs a \\$5 base plus \\$2 per kilogram. For a $4$ kg package: $5 + 2(4) = 13$. The cost is \\$13.",
     "estimatedTimeSeconds": 120,
     "tags": ["multi-source-reasoning", "data-insights"]

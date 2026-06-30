@@ -35,6 +35,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "That passengers found the wifi reliable shows the feature worked but says nothing about whether it, rather than something else, raised satisfaction; it does not weaken the causal claim.",
+      "C": "Offering wifi on every route only confirms the change was widespread; it does not rule out an alternative cause for the higher scores. The fleet upgrade in B is the real confound.",
+      "D": "What competitors offer is irrelevant to whether this airline's own wifi caused its own satisfaction rise; it leaves the alternative cause untouched.",
+      "E": "How the survey is delivered does not bear on whether wifi or something else drove the higher scores. The weakener must supply an alternative cause, as B does."
+    },
     "explanation": "Replacing the fleet with quieter, more comfortable aircraft during the same period is an alternative cause for the rise in satisfaction, undercutting the claim that wifi was responsible.",
     "estimatedTimeSeconds": 90
   },
@@ -73,6 +79,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "The absence of caffeine is consistent with tea aiding sleep and arguably supports the columnist; it does not point to a rival cause, so it fails to weaken.",
+      "C": "What some non-drinkers preferred instead does nothing to explain why tea drinkers fell asleep faster; it leaves the causal claim intact.",
+      "D": "A large sample makes the correlation more reliable, if anything strengthening the argument; it does not expose a confound the way A does.",
+      "E": "How long the drinkers had used tea does not introduce an alternative cause for faster sleep. The weakener is the shared sleep-promoting habits in A."
     },
     "explanation": "If tea drinkers also follow other sleep-promoting habits, those habits, rather than the tea, could explain the faster sleep onset.",
     "estimatedTimeSeconds": 90
@@ -113,6 +125,12 @@
       "format": "single",
       "value": "D"
     },
+    "distractorRationale": {
+      "A": "Being able to turn the feature off does not explain why books finished per user rose; it bears on adoption, not on whether the feature caused the increase.",
+      "B": "Sales of printed books in stores are unrelated to e-reader usage and supply no alternative cause for the on-device increase.",
+      "C": "Readers calling the recommendations accurate, like A in other items, suggests the feature worked but does not rule out a coinciding cause such as the season in D.",
+      "E": "That the feature suggests both new and old titles describes how it works, not whether it, rather than the winter reading surge in D, drove the increase."
+    },
     "explanation": "If the launch coincided with a season when these readers always read much more, the seasonal effect, not the feature, may account for the increase.",
     "estimatedTimeSeconds": 105
   },
@@ -151,6 +169,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "C"
+    },
+    "distractorRationale": {
+      "A": "How long the checklist takes is about convenience, not causation; a quick checklist could still be irrelevant to the infection drop, so this does not weaken.",
+      "B": "Teams finding the checklist easy to follow speaks to compliance, not to whether the checklist, as opposed to the new sterilization protocol in C, caused fewer infections.",
+      "D": "Other hospitals adopting the checklist says nothing about why infections fell at this hospital; it offers no alternative cause.",
+      "E": "Who keeps the infection records does not introduce a rival explanation for the decline. The weakener is the simultaneous sterilization protocol in C."
     },
     "explanation": "A simultaneously adopted hand-sterilization protocol, independently known to prevent infections, offers an alternative explanation for the drop, weakening the claim that the checklist was responsible.",
     "estimatedTimeSeconds": 105
@@ -191,6 +215,12 @@
       "format": "single",
       "value": "E"
     },
+    "distractorRationale": {
+      "A": "Ongoing electricity and maintenance costs concern expense, not whether lights deter burglars; the argument is about effectiveness, so this does not weaken it.",
+      "B": "A few burglaries in bright districts is a minor exception that does not overturn the overall pattern or expose a confound; E does, by tying low burglary to wealth.",
+      "C": "Residents requesting lighting is irrelevant to whether lighting actually reduces burglaries; it does not address the causal claim.",
+      "D": "Daytime burglaries are outside the scope of a nighttime-lighting argument and do not show that lights fail to deter the nighttime burglaries at issue. E supplies the real confound."
+    },
     "explanation": "If well-lit neighborhoods are wealthier and rely on alarm systems that explain their lower burglary rates, then lighting is confounded with wealth, and adding lights elsewhere need not reduce burglaries.",
     "estimatedTimeSeconds": 120
   },
@@ -229,6 +259,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "C"
+    },
+    "distractorRationale": {
+      "A": "Developers appreciating the privacy speaks to satisfaction, not to whether private rooms actually reduced bugs; it does not weaken the conclusion.",
+      "B": "Slightly smaller rooms is an irrelevant physical detail that does not explain the lower bug count or undercut the causal claim.",
+      "D": "A rival firm with a similar bug count under an open plan, if anything, suggests the layout change did not matter, but it is weaker and less direct than C, which shows the per-developer metric is confounded by reduced workload.",
+      "E": "Who maintains the bug tracker does not affect whether private rooms, as opposed to the cut workload in C, caused the lower count."
     },
     "explanation": "If workloads were cut at the same time and bugs are counted per developer rather than per unit of code, developers may simply be producing less code, so the lower bug count need not reflect more reliable code.",
     "estimatedTimeSeconds": 120
@@ -269,6 +305,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "Having more than enough scraps addresses supply, not whether the compost improves yield; it does not strengthen the prediction about harvests.",
+      "C": "Lower fertilizer spending is a cost benefit, not evidence that yield will rise; the prediction is specifically about improved yield, which B supports directly.",
+      "D": "Getting scraps for free concerns cost and access, not the compost's effect on yield, so it does not strengthen the yield prediction.",
+      "E": "Ample sunlight is a general growing condition unrelated to the compost; it does not show the compost itself will boost yield, as the prior trial in B does."
+    },
     "explanation": "A prior trial in which the same compost increased harvests directly supports the prediction that it will improve yield.",
     "estimatedTimeSeconds": 90
   },
@@ -307,6 +349,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "D"
+    },
+    "distractorRationale": {
+      "A": "A colorful flame icon is a cosmetic detail with no shown link to vocabulary retention; it does not strengthen the claim.",
+      "B": "Paying to restore a streak concerns monetization and engagement mechanics, not whether daily practice improves retention.",
+      "C": "A large existing user base says nothing about whether the streak feature increases retention; it does not connect daily practice to learning, as D does.",
+      "E": "That users requested the feature shows interest, not that it improves retention. The strengthener is the research in D linking daily practice to better retention."
     },
     "explanation": "Evidence that frequent daily practice improves retention links the feature, which promotes daily practice, to the predicted gain in retention.",
     "estimatedTimeSeconds": 90
@@ -347,6 +395,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "The owner's long tenure speaks to experience, not to whether the new neighborhood will generate enough demand for the second shop to be profitable.",
+      "C": "A bus line connecting the neighborhoods is irrelevant to local demand at the new location; A directly shows unmet demand there.",
+      "D": "An award for the pastries reflects quality at the current store but does not establish that the new neighborhood will support a profitable shop.",
+      "E": "Comparable rent addresses costs, not whether the new location will draw enough customers; the strengthener is the unmet local demand in A."
+    },
     "explanation": "The absence of competing bakeries plus evidence that residents already seek out fresh bread elsewhere supports the conclusion that a new shop would attract enough demand to be profitable.",
     "estimatedTimeSeconds": 105
   },
@@ -385,6 +439,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "E"
+    },
+    "distractorRationale": {
+      "A": "That beavers are native and once common addresses suitability, not whether their dams will reduce downstream flooding; it does not support the flood-control prediction.",
+      "B": "Dams attracting other wildlife is an unrelated ecological benefit that says nothing about reducing flooding.",
+      "C": "A growing beaver population does not by itself show that the dams lower downstream peak water levels; E provides that direct evidence.",
+      "D": "Local support is about public opinion, not the hydrological effect of the dams. The strengthener is the evidence in E that beaver dams elsewhere lower peak flows."
     },
     "explanation": "Evidence that beaver dams elsewhere slow storm runoff and lower peak downstream levels supports the prediction that the same will happen in this valley.",
     "estimatedTimeSeconds": 105
@@ -425,6 +485,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "That the cap applies only to older buildings merely restates the policy's scope; it does not support the claim that affordable units will decline.",
+      "B": "Some renters wanting to own does not show that landlords will convert units or that affordable rentals will shrink; it does not support the mechanism the way C does.",
+      "D": "A growing population speaks to demand, not to whether landlords will convert rentals to condos in response to the cap.",
+      "E": "High condo prices could motivate conversion in theory but offer no evidence it will happen; the precedent in C, where similar caps were followed by sharp conversion increases, directly supports the argument."
+    },
     "explanation": "Evidence that comparable rent caps elsewhere were followed by a sharp rise in rental-to-condo conversions supports the proposed mechanism and the conclusion that affordable rental units will decline.",
     "estimatedTimeSeconds": 120
   },
@@ -463,6 +529,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "The theater's seating capacity alone says nothing about whether pay-what-you-wish pricing will raise revenue; A shows the Wednesday seats were nearly empty and earning little.",
+      "C": "That museums use such pricing is an unrelated precedent that does not show it will increase this theater's Wednesday revenue.",
+      "D": "Favorable reviews concern general appeal, not whether the new Wednesday pricing adds revenue; A directly establishes the low baseline that makes added revenue likely.",
+      "E": "Wednesday being popular for dining nearby does not connect to ticket revenue and could even compete for patrons' time; it does not strengthen the belief."
     },
     "explanation": "If Wednesday seats were mostly empty and earning little, then filling them at any positive price can only add revenue, supporting the belief that revenue will rise.",
     "estimatedTimeSeconds": 105
@@ -503,6 +575,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "Whether students prefer tablets concerns satisfaction, not the cost savings the argument claims; the conclusion is financial, so this is not the needed assumption.",
+      "C": "Tablets displaying color images is a feature point irrelevant to whether the switch saves money.",
+      "D": "Teacher training touches implementation, not the cost comparison; the argument's savings claim does not depend on it the way it depends on B.",
+      "E": "What other districts have done does not bear on whether this district's tablet costs will stay below its reprinting costs, which is the assumption B states."
+    },
     "explanation": "For the switch to save money, the total cost of the tablets must not outweigh the avoided reprinting costs; the argument assumes this.",
     "estimatedTimeSeconds": 90
   },
@@ -541,6 +619,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "D"
+    },
+    "distractorRationale": {
+      "A": "Whether the print edition was unprofitable concerns past finances, not whether going digital will reach younger readers; it is not required by the argument.",
+      "B": "Lower production cost is a financial point, not a link between digital format and attracting younger readers, so the argument does not depend on it.",
+      "C": "Whether older readers keep subscribing is about retention, not about gaining the younger audience the editor predicts; it is not the needed assumption.",
+      "E": "Publishing more articles is unrelated to whether younger readers will be drawn in. The argument depends on D: that younger readers actually want the magazine's content."
     },
     "explanation": "Going digital can attract younger readers only if those readers actually want the magazine's content; without that, a preferred format alone would not bring them in.",
     "estimatedTimeSeconds": 105
@@ -581,6 +665,12 @@
       "format": "single",
       "value": "E"
     },
+    "distractorRationale": {
+      "A": "The relative cost of clover versus other cover crops is irrelevant to whether clover's nitrogen will reduce fertilizer needs for the corn.",
+      "B": "Whether fertilizer prices rise concerns the savings' value, not whether the substitution is possible; the reasoning does not depend on it.",
+      "C": "That corn needs more nitrogen than clover does not establish that the clover's nitrogen will be available to the corn, which is the assumption E states.",
+      "D": "Clover surviving the winter is one way nitrogen could be added, but the reasoning specifically depends on E: that the added nitrogen remains in the soil when the corn needs it."
+    },
     "explanation": "Reducing fertilizer for the corn depends on the clover's nitrogen remaining available when the corn can use it; if it were lost beforehand, the substitution would fail.",
     "estimatedTimeSeconds": 105
   },
@@ -619,6 +709,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "C"
+    },
+    "distractorRationale": {
+      "A": "That electric buses are quieter is a side benefit unrelated to the greenhouse-gas comparison the claim makes.",
+      "B": "Whether riders stay with the system concerns ridership, not the per-bus emissions accounting that the claim depends on.",
+      "D": "Requiring electricity to be entirely renewable is too strong; a net reduction is possible even with some non-renewable power. The needed assumption is the lifetime offset in C.",
+      "E": "Lower maintenance cost is a financial point, not an emissions one; the claim depends on operating savings outweighing manufacturing emissions, as C states."
     },
     "explanation": "For total emissions to fall, the operating-emission savings over the buses' lifetimes must outweigh the manufacturing emissions; the claim assumes this net reduction. (D is too strong: a reduction is possible even if some electricity is non-renewable.)",
     "estimatedTimeSeconds": 120
@@ -659,6 +755,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "Cheaper local-language production concerns cost, not whether such films will expand the subscriber base in those countries.",
+      "C": "The argument does not require English films to be unpopular; even where English films are liked, local-language content could still attract new subscribers. The needed assumption is B.",
+      "D": "Reducing English-language output is not required; the executive's argument is about adding subscribers, which depends on B, that lack of local content was holding them back.",
+      "E": "Whether subtitling is less effective is a comparison the argument does not rest on; it depends on there being potential subscribers kept away by the prior lack of local content, as B states."
+    },
     "explanation": "Adding local-language films can grow subscribers only if the prior lack of such content was actually holding potential subscribers back; the argument assumes this.",
     "estimatedTimeSeconds": 105
   },
@@ -697,6 +799,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "C"
+    },
+    "distractorRationale": {
+      "A": "Manufacturing cost is irrelevant to whether the compound that worked in mice will work in humans; the conclusion is about therapeutic promise, not price.",
+      "B": "Whether competitors are developing a similar compound does not bear on whether this compound's effect transfers from mice to humans.",
+      "D": "Genetically identical mice concern the study's internal consistency, not the mouse-to-human leap that the conclusion requires; C states that needed assumption.",
+      "E": "The tumor's relative frequency in humans versus mice does not establish that the compound's mechanism works in humans, which is the assumption in C."
     },
     "explanation": "Generalizing from mice to humans requires assuming that the tumor-shrinking mechanism works similarly in both; otherwise the mouse result would not indicate promise in humans.",
     "estimatedTimeSeconds": 120
@@ -737,6 +845,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "The statements do not say Maria's department requires no degree, only that she lacks one; she could be in a department where degrees are common but not mandatory. We can conclude only that she is not in research (A).",
+      "C": "This reverses the conditional: all research employees have advanced degrees, but that does not mean all degree-holders are in research. It is not supported.",
+      "D": "Maria's future plans are not addressed by the statements at all; nothing supports a claim about earning a degree.",
+      "E": "The relative size of the research department is never mentioned. The only forced conclusion is A: Maria is not in the research department."
+    },
     "explanation": "Since all research-department employees hold advanced degrees and Maria does not, she cannot be in that department. The other options go beyond what the statements establish.",
     "estimatedTimeSeconds": 90
   },
@@ -775,6 +889,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "D"
+    },
+    "distractorRationale": {
+      "A": "Claiming bicycling causes higher satisfaction overstates the data, which also show bicyclists live closer to work, a possible alternative cause. D correctly notes the cause is not isolated.",
+      "B": "The survey gives no basis to say proximity has no effect; if anything it is a candidate cause, so this contradicts the data.",
+      "C": "Predicting most commuters would be happier if they biked extrapolates well beyond the correlational survey, which compares existing groups, not the effect of switching.",
+      "E": "The data say drivers report lower satisfaction than bicyclists, not that drivers are dissatisfied in absolute terms. D is the supported statement."
     },
     "explanation": "Because bicyclists also live closer to work, that difference could contribute to their satisfaction, so the data do not isolate bicycling as the cause. The other choices overstate or contradict what the survey supports.",
     "estimatedTimeSeconds": 105
@@ -815,6 +935,12 @@
       "format": "single",
       "value": "E"
     },
+    "distractorRationale": {
+      "A": "Total revenue ignores the admission income forgone on free days; higher shop and cafe sales do not establish higher total revenue, so this is not supported.",
+      "B": "Higher gift-shop and cafe totals could come simply from more visitors, not from each visitor spending more; per-person spending is not established. E avoids this leap.",
+      "C": "Whether most visitors come only when admission is free is not stated; high free-day attendance does not establish the habits of most visitors overall.",
+      "D": "Recommending free admission every day is a policy judgment the facts do not support, since it ignores forgone admission revenue. E stays within what the statements establish."
+    },
     "explanation": "The stated facts support that the larger crowd on free Sundays produces the highest gift-shop and cafe sales. (B is unsupported: higher totals could come from more people, not higher per-person spending; A ignores lost admission revenue.)",
     "estimatedTimeSeconds": 105
   },
@@ -853,6 +979,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "Not having lost to Theo does not mean Rosa beat him; their game could have been a draw. The forced conclusion is the weaker A, that she never lost to him.",
+      "C": "Nothing in the rules forces Wendy to have lost to Theo; the constraint links losing to Theo with never beating Wendy, not Wendy's own result against Theo.",
+      "D": "Theo never defeating Rosa is not guaranteed; the rule only blocks a Theo-loser from beating Wendy. What follows is that Rosa did not lose to Theo, the weaker statement in A, not that Theo could never have beaten her.",
+      "E": "Rosa being the strongest player is far beyond what one win over Wendy and one rule can establish. The only forced conclusion is A."
     },
     "explanation": "Anyone who has lost to Theo has never beaten Wendy. Rosa has beaten Wendy, so Rosa cannot be someone who lost to Theo. (B and D confuse not losing with winning; a draw is possible.)",
     "estimatedTimeSeconds": 120
@@ -893,6 +1025,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "Exactly twenty assumes the minimum doubling is the actual figure, but the rule says at least twice, so sales could exceed twenty; B captures the guaranteed floor.",
+      "C": "Becoming the store's best-selling novel is not established; doubling from ten copies says nothing about how other novels sold.",
+      "D": "Outselling every other carded book is not supported; the rule guarantees this novel's own sales at least doubled, not that it beat all others.",
+      "E": "Selling fewer than twenty contradicts the rule, which guarantees at least double of ten, i.e., at least twenty. B is correct."
+    },
     "explanation": "The records establish that sales at least double, so from ten copies the novel sold at least twenty. \"At least twice\" allows more than twenty, so exactly twenty (A) need not hold.",
     "estimatedTimeSeconds": 105
   },
@@ -931,6 +1069,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "D"
+    },
+    "distractorRationale": {
+      "A": "Customers' taste preference does not bear on whether the reusable-cup program reduces overall waste, which is the manager's claim.",
+      "B": "The cups' color is irrelevant to the waste question; it tells us nothing about whether the program cuts waste.",
+      "C": "The number of locations affects scale, not whether reusables reduce waste per the program's logic; D targets the return rate, the crux of the waste claim.",
+      "E": "Whether the chain sells food is unrelated to cup waste. The most useful question is D: how many borrowed cups are actually returned."
     },
     "explanation": "If few borrowed cups are returned, the program could create as much waste as it eliminates, so the return rate is central to whether overall waste falls.",
     "estimatedTimeSeconds": 90
@@ -971,6 +1115,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "Historical buildings on the street do not bear on whether the conversion will raise total shop sales; this is irrelevant to the argument.",
+      "C": "Whether nearby streets are also being converted does not address whether this street's shops will see higher total sales; A targets the offsetting loss of driving customers.",
+      "D": "The city's past conversions are general background, not evidence about whether these shops' sales will rise once parking is removed.",
+      "E": "Evening hours do not bear on the net sales effect of removing cars; the key question is A, whether lost parking would drive away current customers."
+    },
     "explanation": "If many shoppers currently drive and would lose parking, the loss of those customers could offset gains from foot traffic, so this question bears directly on whether total sales would rise.",
     "estimatedTimeSeconds": 105
   },
@@ -1009,6 +1159,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "How long the machines have been on the market does not reveal the failure rate in years two through five, which determines the warranty's added cost.",
+      "C": "The available colors are irrelevant to whether the longer warranty's cost will be outweighed by added sales.",
+      "D": "Whether competitors also sell dryers is beside the point; the plan turns on the washing machines' failure rate during the extended warranty, as B addresses.",
+      "E": "The number of retail stores affects distribution, not the warranty cost that depends on how often machines fail in years two through five (B)."
     },
     "explanation": "Warranty cost over years two through five depends on how often machines fail in that window; knowing this is essential to judging whether added sales would outweigh added costs.",
     "estimatedTimeSeconds": 105
@@ -1049,6 +1205,12 @@
       "format": "single",
       "value": "E"
     },
+    "distractorRationale": {
+      "A": "The water source, river or reservoir, does not bear on whether adding fluoride will reduce children's tooth decay.",
+      "B": "Whether the water is treated for other contaminants is unrelated to the fluoride proposal's effect on decay.",
+      "C": "What neighboring towns do is irrelevant to whether fluoridation will benefit this town's children; E targets whether children already get enough fluoride elsewhere.",
+      "D": "Dentists' support is an opinion, not evidence about the program's effect; the decisive question is E, whether children already receive sufficient fluoride from other sources."
+    },
     "explanation": "If children already get enough fluoride elsewhere, adding it to the water might produce little additional benefit, so this question directly tests whether the program would reduce decay.",
     "estimatedTimeSeconds": 120
   },
@@ -1087,6 +1249,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "A front-of-store display might affect sales generally but does not explain why revenue rose despite a lower price; B supplies the volume-driven mechanism.",
+      "C": "Selling other cereal brands is irrelevant to why this cereal's revenue increased after its price was cut.",
+      "D": "A recyclable box is a product feature with no bearing on the revenue increase tied to the price drop.",
+      "E": "A fall in the store's overall revenue deepens the puzzle rather than resolving it; B explains the rise by a large enough jump in boxes sold."
     },
     "explanation": "If the lower price drove a large enough jump in volume, total revenue (price times quantity) can rise even though each box earns less, resolving the apparent puzzle.",
     "estimatedTimeSeconds": 90
@@ -1127,6 +1295,12 @@
       "format": "single",
       "value": "D"
     },
+    "distractorRationale": {
+      "A": "This explains why employees took all their days under the old policy but not why the number fell once vacation became unlimited; D explains the actual decrease.",
+      "B": "Many employees enjoying their work is a vague factor that does not specifically account for taking fewer days after the policy change.",
+      "C": "Announcing the policy at a staff meeting concerns how it was communicated, not why employees took less time off.",
+      "E": "Applying the policy equally to all full-time staff does not explain why the average fell. The resolution is D: uncertainty led employees to take less."
+    },
     "explanation": "If removing a defined allotment left employees unsure what was acceptable and so taking less, that explains why an unlimited policy reduced vacation days. (A explains why the old number was high, but not why the new number fell below it.)",
     "estimatedTimeSeconds": 105
   },
@@ -1165,6 +1339,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "Channeling rainwater away would protect vegetation, deepening the puzzle of why damage rose rather than resolving it; A explains the increase via more hikers.",
+      "C": "Damage staying the same on unpaved trails is a comparison that does not explain why damage rose on the paved ones.",
+      "D": "Pavement covering previously trampled ground would tend to reduce damage, making the increase more puzzling, not less. A resolves it.",
+      "E": "Hiring more rangers to patrol would, if anything, reduce damage; it does not explain the rise. The resolution is the surge of hikers straying off the pavement in A."
     },
     "explanation": "If paving made the trails attractive to many more hikers, the resulting surge in visitors straying off the pavement could increase vegetation damage despite the pavement, resolving the discrepancy.",
     "estimatedTimeSeconds": 105
@@ -1205,6 +1385,12 @@
       "format": "single",
       "value": "E"
     },
+    "distractorRationale": {
+      "A": "What the device records describes its function, not why total payouts rose; E explains the rise via an influx of higher-risk new customers.",
+      "B": "Some drivers removing the device after months is too limited to explain a rise in total payouts and does not address the new-customer mix that E identifies.",
+      "C": "The device being easy to use speaks to user experience, not to why total claim payouts increased.",
+      "D": "A uniform discount is a pricing detail that does not explain higher total payouts. The resolution is E: the discount drew higher-risk new customers."
+    },
     "explanation": "Even if device users are individually safer than non-users, an influx of higher-risk new customers drawn by the discount could raise total payouts, reconciling the two facts.",
     "estimatedTimeSeconds": 120
   },
@@ -1243,6 +1429,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "The argument cites the crime data, not the testimony of interested parties, so this misidentifies the flaw; the real error is inferring cause from sequence (A).",
+      "C": "The columnist draws a conclusion about one city, not all cities, so this overgeneralization charge does not fit the argument.",
+      "D": "The argument's problem is not a missing definition of crime but the leap from \"crime fell after she took office\" to \"her policies caused it,\" the post hoc flaw in A.",
+      "E": "There is no necessary-versus-sufficient confusion here; the flaw is assuming that because the decline followed her taking office, she caused it (A)."
     },
     "explanation": "The argument infers causation merely from the fact that the crime decline followed the mayor's taking office, the classic post hoc flaw, ignoring other possible causes.",
     "estimatedTimeSeconds": 105
@@ -1283,6 +1475,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "The seminar's cost is a practical concern, not the reasoning flaw; the gap is that attendance was optional, so top performers may have self-selected, as B notes.",
+      "C": "Whether top performers took other training does not capture the central oversight that motivated people chose the optional seminar; B does.",
+      "D": "Year-to-year changes in seminar content do not address why the correlation may not be causal; the self-selection issue in B is the flaw.",
+      "E": "The rest of the team's training preferences are beside the point; the reasoning overlooks that the seminar was optional and the strong performers self-selected (B)."
+    },
     "explanation": "The top performers self-selected into the optional seminar, so their success may stem from the motivation that led them to attend rather than from the seminar itself; requiring it for others might not replicate the result.",
     "estimatedTimeSeconds": 105
   },
@@ -1322,6 +1520,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "The argument does not claim the average holds for every individual; its flaw is treating a correlation as causal while ignoring confounding health habits, as C states.",
+      "B": "Failing to name the vitamins is a minor gap, not the central problem; the argument overlooks that supplement takers may be healthier in other ways (C).",
+      "D": "Affordability is not the issue; the objection is that the longer life may stem from other health-conscious behaviors, not the supplements themselves (C).",
+      "E": "The writer does not say the study was too small; the vulnerability is the unaddressed confounding of supplement use with broader healthy living (C)."
+    },
     "explanation": "Supplement takers may differ systematically in other healthy behaviors that lengthen life, so the correlation need not mean the supplements themselves are the cause; the argument ignores this confounding.",
     "estimatedTimeSeconds": 120
   },
@@ -1359,6 +1563,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "Life on icy moons is only a speculative aside in the passage, not its primary purpose, which is to explain how vent communities revised the sunlight assumption (B).",
+      "C": "The passage does not chiefly compare the efficiency of photosynthesis and chemosynthesis; that comparison is not its organizing purpose.",
+      "D": "The physical conditions at vents are a detail, not the main aim; the passage centers on overturning the assumption that all life needs sunlight.",
+      "E": "Tracing the history of marine biology is not what the passage does; its purpose is the conceptual shift described in B."
     },
     "explanation": "The passage centers on how vent communities overturned the long-held assumption that all life depends on sunlight, establishing that a complete ecosystem can run on chemical energy. The other choices name details (D), a speculative aside (A), or topics the passage does not chiefly pursue (C, E).",
     "estimatedTimeSeconds": 90
@@ -1398,6 +1608,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "Capturing drifting organic particles is not how the passage says tube worms feed; it attributes their nutrition to symbiotic bacteria in their tissues (C).",
+      "B": "Grazing on bacterial mats is attributed to other animals, not to tube worms, which house bacteria internally (C).",
+      "D": "Absorbing dissolved minerals through the skin is not supported; the worms rely on the nutrients their internal symbiotic bacteria produce.",
+      "E": "Preying on smaller animals is not mentioned for tube worms; the passage describes the symbiosis in C."
+    },
     "explanation": "The passage states that tube worms house symbiotic bacteria within their tissues and absorb the nutrients the bacteria produce. Grazing on microbes (B) is attributed to other animals, and the remaining options are not supported.",
     "estimatedTimeSeconds": 75
   },
@@ -1435,6 +1651,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "D"
+    },
+    "distractorRationale": {
+      "A": "Commercially valuable mineral deposits is not what biologists would have predicted about life there; the prior expectation, given no sunlight, was little complex life (D).",
+      "B": "The same shallow-water species is not what would be expected in the dark deep sea; biologists assuming life needs sunlight would expect scarce life (D).",
+      "C": "Chemosynthesis-based organisms is the post-discovery insight, the opposite of the prior prediction the question asks for. D states what biologists would have expected before.",
+      "E": "Temperatures too high for any life is unsupported; the relevant prior assumption was about the absence of sunlight, leading to the expectation in D."
     },
     "explanation": "Because biologists assumed all life depended on sunlight, they would have expected little complex life where no sunlight reaches. Recognizing chemosynthesis-based life (C) is the post-discovery insight, not the prior prediction; the other options are unsupported.",
     "estimatedTimeSeconds": 105
@@ -1474,6 +1696,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "The passage does not argue the search for alien life should focus on subsurface oceans; it presents the icy-moons idea as a qualified implication others draw (A).",
+      "C": "The icy-moons mention does not cast doubt on chemosynthesis; it extends the vent finding while noting evidence is lacking (A).",
+      "D": "The icy-moons remark is not offered as the strongest evidence that sunlight is unnecessary; it is a speculative implication, qualified by missing evidence (A).",
+      "E": "It is not used to explain why vents were hard to discover; its function is the broader, still-unproven implication described in A."
+    },
     "explanation": "The icy-moons remark is offered as a broader implication some researchers draw, immediately qualified by the note that direct evidence is absent. It is not presented as the author's argument (B) or as strong evidence (D), and it does not cast doubt on chemosynthesis (C).",
     "estimatedTimeSeconds": 105
   },
@@ -1511,6 +1739,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "E"
+    },
+    "distractorRationale": {
+      "A": "Saying algorithmic pricing is more efficient and should be adopted overstates one side; the passage's point is that per-sale optimization can erode trust and future profit (E).",
+      "B": "That customers care only about absolute price contradicts the passage, which stresses perceptions of fairness over absolute price.",
+      "C": "Claiming static pricing always yields higher revenue overstates the case; the passage does not make this absolute claim, but the nuanced one in E.",
+      "D": "A legal disclosure requirement is never advocated; the passage describes firms voluntarily restraining algorithms, the idea captured in E."
     },
     "explanation": "The passage's central claim is that per-sale optimization can erode trust and thus future profit, prompting some firms to limit their algorithms. A and C overstate one side, B contradicts the passage, and D introduces a legal requirement the passage never advocates.",
     "estimatedTimeSeconds": 90
@@ -1550,6 +1784,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "The absolute price paid is the factor the passage explicitly subordinates to fairness; surveys point to perceived fairness as the driver of return (C).",
+      "B": "Shipping speed is not cited as what drives a shopper's return; the passage names perceived fairness (C).",
+      "D": "Product variety is not identified as the return driver; the passage attributes repeat visits to perceptions of fair pricing.",
+      "E": "The seller's standing versus competitors is not the cited driver; perceived fairness is, as C states."
+    },
     "explanation": "The passage states that perceptions of fairness, rather than the absolute price, often drive whether a shopper returns. The other options are not cited as the driver, and A is the factor the passage explicitly subordinates to fairness.",
     "estimatedTimeSeconds": 75
   },
@@ -1587,6 +1827,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "D"
+    },
+    "distractorRationale": {
+      "A": "The passage does not say identity-based pricing risks breaking commerce laws; it links such pricing to feelings of exploitation and lost repeat business (D).",
+      "B": "Falling behind faster-adjusting competitors is not the risk the passage ties to identity-based pricing; it warns of eroded trust and lost repeat business (D).",
+      "C": "Charging too little to cover costs is not the danger described; the passage's concern is that exploited-feeling shoppers stop returning (D).",
+      "E": "Inability to clear inventory is not attributed to identity-based pricing; the stated risk is losing repeat business, as D states."
     },
     "explanation": "The passage links the discovery of identity-based price differences to feelings of exploitation, which can erode the repeat business that sustains profit. The other options describe risks the passage does not attribute to identity-based pricing; if anything, such pricing is framed as profitable in the short run.",
     "estimatedTimeSeconds": 110
@@ -1626,6 +1872,12 @@
       "format": "single",
       "value": "E"
     },
+    "distractorRationale": {
+      "A": "The phrase is not used to criticize firms for false pretense; it introduces a self-interested rationale for their restraint (E).",
+      "B": "It does not introduce evidence that algorithmic pricing is rarely profitable; the passage frames per-sale optimization as profitable short-term, which is why restraint needs a self-interest explanation (E).",
+      "C": "The phrase does not say firms would drop restraint if it became unprofitable; it explains that the restraint already rests on a self-interested calculation about trust (E).",
+      "D": "\"Not pure altruism\" signals the opposite of conceding a fairness motive; it stresses self-interest in preserving trust and future sales (E)."
+    },
     "explanation": "The phrase prefaces the explanation that restraint reflects a calculation that transparency preserves trust and sustains a customer base, underscoring a self-interested rationale rather than altruism. It is not used to criticize the firms (A) or to call the restraint conditional (C).",
     "estimatedTimeSeconds": 100
   },
@@ -1663,6 +1915,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "Describing the goods traded is a detail, not the passage's primary concern, which is how voluntary cooperation gave the League power and limited its endurance (B).",
+      "C": "Arguing the League was a kind of state contradicts the passage, which stresses its looseness and lack of central authority.",
+      "D": "Contrasting military strategies is not the focus; the passage centers on economic cooperation and its limits, as B states.",
+      "E": "Tracing individual merchants' careers is not what the passage does; its concern is the League's cooperative structure and decline (B)."
     },
     "explanation": "The passage explains both the source of the League's power, voluntary cooperation among trading towns, and the limit that same looseness imposed once centralized states arose. C contradicts the passage, and A, D, and E focus on details the passage does not chiefly develop.",
     "estimatedTimeSeconds": 90
@@ -1702,6 +1960,12 @@
       "format": "single",
       "value": "D"
     },
+    "distractorRationale": {
+      "A": "A powerful standing fleet contradicts the passage, which says the League had no permanent army or fleet; it negotiated because kings depended on its tax revenue (D).",
+      "B": "Fixed, regular assemblies are not given as the reason for favorable terms; the leverage came from kings' reliance on Hanseatic tax revenue (D).",
+      "C": "Controlling the only Baltic and North Sea ports is not stated; the negotiating leverage the passage cites is the kings' dependence on tax revenue (D).",
+      "E": "Alliances with rival centralized states is unsupported and counter to the passage; the cited reason is the tax revenue kings depended on (D)."
+    },
     "explanation": "The passage states that the League could negotiate favorable terms with kings who depended on the taxes that Hanseatic commerce generated. A contradicts the passage (the League had no permanent army or fleet), and the other options are unsupported.",
     "estimatedTimeSeconds": 75
   },
@@ -1739,6 +2003,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "E"
+    },
+    "distractorRationale": {
+      "A": "Member towns being far apart is not identified as the obstacle to decisive action; the passage points to misaligned commercial interests (E).",
+      "B": "Merchants competing for the same markets is not named as what blocked unified action; the passage ties indecision to interests failing to align (E).",
+      "C": "A king refusing privileges is an external setback, not the internal source of indecision the passage identifies in misaligned member interests (E).",
+      "D": "Scheduled assemblies would aid action, not hinder it; the difficulty arose when members' interests did not align (E)."
     },
     "explanation": "The passage says authority rested on voluntary cooperation, so the League could act decisively only when members' interests aligned; it follows that misaligned interests would make decisive action hardest. The other options are not identified as the obstacle to unified action.",
     "estimatedTimeSeconds": 110
@@ -1778,6 +2048,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "Exhaustion of traded resources is not the cause the passage gives for the decline; it cites the rise of centralized states the loose League could not match (C).",
+      "B": "Disputes over a permanent ruler is impossible, since the passage stresses the League had no such ruler; the decline came from rival centralized states (C).",
+      "D": "A sudden loss of interest in trade is unsupported; the passage attributes the decline to centralized states with fleets and unified tariffs (C).",
+      "E": "Towns refusing one another trading privileges is not the stated cause; the decline stemmed from competition with centralized states, as C states."
+    },
     "explanation": "The passage attributes the League's eclipse to rival centralized states with standing fleets and unified tariffs that it struggled to answer as a loose confederation. B is impossible (the League had no ruler), and the other options are unsupported.",
     "estimatedTimeSeconds": 100
   },
@@ -1815,6 +2091,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "Claiming language has no effect on color perception is an extreme the passage rejects; its purpose is the moderate, evidence-backed conclusion in B.",
+      "C": "Claiming language determines what speakers can see is the strong extreme the passage scales back, not its purpose, which is the measured view in B.",
+      "D": "Describing the anatomy of the visual system is a detail, not the main purpose of presenting a moderate, supported conclusion (B).",
+      "E": "Comparing several languages' color vocabularies is a detail; the passage's aim is the balanced conclusion about language and color perception (B)."
     },
     "explanation": "The passage advances a measured position, that language influences color perception subtly and conditionally, backed by experiments. A and C represent the extremes the passage explicitly rejects, and D and E are details rather than the main purpose.",
     "estimatedTimeSeconds": 90
@@ -1854,6 +2136,12 @@
       "format": "single",
       "value": "D"
     },
+    "distractorRationale": {
+      "A": "Colors in the left visual field is the opposite of what the passage states; the advantage appears mainly for the right field, processed by the left hemisphere (D).",
+      "B": "A simultaneous verbal task is the condition under which the advantage shrinks or vanishes, not where it appears; the advantage shows in the right visual field (D).",
+      "C": "Extensive color-naming training is not cited as when the advantage appears; the passage ties it to right-visual-field presentation (D).",
+      "E": "Patches far apart on the spectrum is not the stated condition; the advantage appears mainly in the right visual field, as D states."
+    },
     "explanation": "The passage states the effect appears mainly when the colors fall in the right visual field, which the left, language-handling hemisphere processes. B describes the condition under which the advantage shrinks, not where it appears, and the other options are unsupported.",
     "estimatedTimeSeconds": 95
   },
@@ -1892,6 +2180,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "The disappearance under verbal load does not prove language has no role; the author uses it to show language is recruited during perception, not absent (A).",
+      "C": "The passage does not claim verbal tasks improve color discrimination; the verbal load shrinks the advantage, supporting the recruitment idea in A.",
+      "D": "The point is not that the left hemisphere is unrelated to language; the verbal-load effect supports that language is recruited in perception (A).",
+      "E": "It does not establish that color perception is identical across languages; that contradicts the passage's nuanced position, which A captures."
+    },
     "explanation": "The passage uses the disappearance of the advantage under a verbal load to suggest that words are recruited during perception rather than rewiring it permanently. The other options misstate the inference or contradict the passage.",
     "estimatedTimeSeconds": 110
   },
@@ -1929,6 +2223,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "E"
+    },
+    "distractorRationale": {
+      "A": "Enthusiastic endorsement is too strong; the author treats the strong-determination claim as an overstatement that experiments have scaled back, showing measured skepticism (E).",
+      "B": "Reluctant acceptance misreads the tone; the author does not accept the strong claim but questions it cautiously (E).",
+      "C": "Complete indifference is wrong; the author engages with the claim and pushes back on it, conveying measured skepticism (E).",
+      "D": "Open hostility overstates the author's stance, which is careful and qualified rather than antagonistic (E)."
     },
     "explanation": "The author treats the strong-determination claim as an early proposal that careful experiments have scaled back, cautioning against that extreme, which conveys measured skepticism rather than endorsement (A), passive acceptance (B), indifference (C), or hostility (D).",
     "estimatedTimeSeconds": 90

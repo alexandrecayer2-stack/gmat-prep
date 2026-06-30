@@ -35,6 +35,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "A new logo is a cosmetic change with no shown effect on sales, so it neither explains the revenue rise nor undercuts the hours claim; the weakener must supply an alternative cause, as the nearby bakery's closure does.",
+      "C": "Liking the smell is a vague positive detail that does not account for the timing of the increase; only an alternative cause for that month's revenue, like a competitor closing, weakens the argument.",
+      "D": "One extra cashier speeds service but does not provide an independent reason sales rose that month; the real weakener offers a competing cause, namely the rival bakery's closure diverting customers.",
+      "E": "A food festival could plausibly raise sales, but the stem points to the single best weakener; the competitor's closure directly redirects that bakery's own customers, making it the cleaner alternative cause. Treat this as a tempting near-miss and pick the most direct rival explanation."
+    },
     "explanation": "A nearby competitor closed at the same time, which can explain the sales increase without any connection to the extended hours.",
     "estimatedTimeSeconds": 90
   },
@@ -73,6 +79,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "Bright colors are an irrelevant design detail; the claim's success hinges on the dashboard being checked and updated, which is what choice A supplies.",
+      "C": "Whether meetings are boring is a value judgment unrelated to whether the dashboard saves time without losing coordination; the needed assumption is that people will actually use it accurately.",
+      "D": "Being in the same office is not required for the dashboard plan to work; the argument instead depends on members consulting and updating the dashboard reliably.",
+      "E": "Management's preference does not bear on whether coordination is preserved; the load-bearing assumption is that the dashboard will be checked and kept accurate."
     },
     "explanation": "The argument assumes that the dashboard will actually be consulted and reliably updated.",
     "estimatedTimeSeconds": 90
@@ -113,6 +125,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "A preference for phone calls says nothing about whether texts cut no-shows and if anything mildly undercuts the claim; the strengthener is a measured drop among the same patients.",
+      "C": "Painting the waiting room introduces a confound rather than support, since it offers a rival cause for any change; the real strengthener isolates the texts by tracking the same patients.",
+      "D": "Lower cost addresses budget, not effectiveness at reducing absences; to strengthen the causal claim you need the season-adjusted decline in no-shows.",
+      "E": "More social-media followers is unrelated to appointment attendance; the link is reinforced only by the same patients showing fewer no-shows after the texts."
+    },
     "explanation": "A measured decrease in absences among the same patients directly reinforces the causal link.",
     "estimatedTimeSeconds": 105
   },
@@ -151,6 +169,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "Saying all buyers use bottles every day overstates the data, which only said most carry one on at least four days; the supportable inference is that many use them regularly.",
+      "C": "Eliminating the need for tap water is an unsupported leap about substitution; the survey only licenses the modest inference that many buyers use bottles regularly.",
+      "D": "Whether most survey respondents bought last year is not stated; the data describe behavior among buyers, supporting only that many of them use bottles regularly.",
+      "E": "Nothing restricts the sample to athletes; that is fabricated detail, whereas the safe inference is that many recent buyers are using bottles regularly."
     },
     "explanation": "The fact that the majority of buyers report frequent use allows us to infer regular usage among many of them, without generalizing to all.",
     "estimatedTimeSeconds": 105
@@ -191,6 +215,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "More bicycles is expected and consistent with the city's story, not a weakener; to undercut the congestion claim you need a separate cause for the travel-time drop, like nearby road construction.",
+      "C": "Residents liking the lane is irrelevant to whether the lane caused faster travel; the weakener supplies an alternative explanation, the construction diverting drivers.",
+      "D": "The lane's color has no bearing on traffic flow; only an alternative cause for the 12% drop, such as the nearby road work, weakens the argument.",
+      "E": "Removing parking spaces would tend to be neutral or even reduce traffic in line with the city's claim, not against it; the genuine weakener is the unrelated construction that drew drivers away."
+    },
     "explanation": "Road work on another route provides an alternative explanation for the decrease in vehicle traffic.",
     "estimatedTimeSeconds": 120
   },
@@ -229,6 +259,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "Gift-shop spending is a secondary revenue stream, not the core test of the ticket plan; the decisive question is whether added volume offsets the lower ticket price.",
+      "C": "What nearby attractions charge does not settle this museum's own revenue math; the key issue is whether enough extra visitors come to cover the discount.",
+      "D": "Staffing willingness is a feasibility detail, not the revenue question; to evaluate the claim you must know whether added attendance offsets the price cut.",
+      "E": "Visitor satisfaction does not directly bear on total revenue; the central evaluation point is whether the discount draws enough additional visitors to compensate for the lower price."
     },
     "explanation": "The central issue is whether the additional customer volume offsets the drop in unit price.",
     "estimatedTimeSeconds": 105
@@ -269,6 +305,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "A cheaper install addresses cost, not the claim about water use and yield; the strengthener is comparable fields using less water with similar yields.",
+      "C": "Smaller yields actually weaken the claim that output stays level; support requires similar yields with less water, as in choice A.",
+      "D": "Low regional rainfall motivates saving water but does not show drip irrigation keeps yields up; the direct support is the comparable-field result.",
+      "E": "Explaining the mechanism does not prove the real-world outcome of equal yield with less water; the empirical comparison in choice A provides that support."
+    },
     "explanation": "Comparable results with less water and similar yields directly support the claim.",
     "estimatedTimeSeconds": 90
   },
@@ -307,6 +349,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "The chef's enjoyment of vegetables is irrelevant to retaining current customers; the needed assumption is that they will not see the new menu as lowering quality.",
+      "C": "Dish color is a cosmetic aside, not a precondition for keeping existing diners; the argument depends on current customers not perceiving a drop in quality.",
+      "D": "Friday hours are unrelated to whether the menu attracts new diners without losing old ones; the assumption is that current customers will not be put off.",
+      "E": "What competitors offer for dessert does not bear on this restaurant's customer retention; the load-bearing assumption is that current diners will not view the vegetarian menu as a quality decline."
     },
     "explanation": "It must be assumed that current customers will not be driven away by the new menu.",
     "estimatedTimeSeconds": 105
@@ -347,6 +395,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "Noting that some articles got shorter merely restates the premise and does not challenge the reader-preference conclusion; the weakener is the homepage redesign offering another cause for the time drop.",
+      "C": "Fewer ads does not clearly explain less time on site and could even be tangential; the real alternative cause is the layout change that let readers open articles faster.",
+      "D": "Fewer navigation complaints is a positive aside, not a competing explanation for reduced time spent; the weakener is the layout change making articles quicker to access.",
+      "E": "More photos does not account for shorter visits and might lengthen them; the conclusion is undercut by the homepage redesign that sped up article access."
+    },
     "explanation": "The layout change provides an alternative explanation for the decrease in time spent on the site.",
     "estimatedTimeSeconds": 120
   },
@@ -385,6 +439,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "Claiming all employees live near an office overstates the 70% figure; the valid inference is that some who live nearby do not visit weekly.",
+      "C": "Most visiting weekly contradicts the 20% figure; since 70% live near but only 20% visit, the inference is that some nearby residents do not visit each week.",
+      "D": "Nothing rules out full-time home workers; in fact up to 80% may never come in weekly, so the supported inference is that some nearby employees skip weekly visits.",
+      "E": "The number of offices is not stated; the percentages only support that some employees living within commuting distance do not visit an office weekly."
     },
     "explanation": "If 70% live within commuting distance and only 20% visit each week, some nearby residents do not visit every week.",
     "estimatedTimeSeconds": 105
@@ -425,6 +485,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "Feeling cooler outdoors is about ambient comfort, not indoor electricity bills; the strengthener ties trees to lower air-conditioning use, as choice A does.",
+      "C": "Fast growth speaks to how soon benefits arrive, not whether trees cut bills at all; support comes from tree-lined homes using less air conditioning.",
+      "D": "Higher winter heating bills would offset or undercut the savings claim, not strengthen it; the supporting evidence is reduced summer cooling on tree-lined streets.",
+      "E": "A general statement that trees lower nearby air temperature is suggestive but not tied to electricity use; the direct strengthener is the observed drop in air-conditioning use on tree-lined streets."
+    },
     "explanation": "Lower air conditioning usage on tree-lined streets supports the link between trees and reduced utility bills.",
     "estimatedTimeSeconds": 90
   },
@@ -463,6 +529,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "A coffee-versus-tea preference is irrelevant to whether flexible start times raise productivity; the assumption is that coordination among colleagues is preserved.",
+      "C": "Cost of plants belongs to a different argument entirely and has nothing to do with start times; the needed assumption is that flexibility will not harm team coordination.",
+      "D": "Managers disliking early meetings does not establish that flexible hours boost productivity; the argument assumes employees can still coordinate efficiently.",
+      "E": "Replacing all desks is unrelated to the scheduling claim; the load-bearing assumption is that staggered start times will not break down coordination."
     },
     "explanation": "It must be assumed that flexible scheduling will not harm coordination among colleagues.",
     "estimatedTimeSeconds": 120
@@ -503,6 +575,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "Higher science scores too actually fits the self-selection worry and does not defend the math claim; the weakener is that tutored students were already the strongest, as choice A states.",
+      "C": "Spending more than planned concerns budget, not whether tutoring caused the score gain; the weakener is the pre-existing strength of the students who chose tutoring.",
+      "D": "Saying non-attendees studied less would, if anything, support the program rather than weaken it; the real weakener is that tutored students started out stronger.",
+      "E": "Experienced tutors would tend to strengthen the program's case, not undermine it; the conclusion is weakened by the fact that attendees were already top math students."
+    },
     "explanation": "If enrolled students were already stronger to begin with, the score increase does not prove the program's effectiveness.",
     "estimatedTimeSeconds": 105
   },
@@ -541,6 +619,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "Comparing tailpipe emissions addresses environmental impact, not the operational feasibility the company must weigh; the key question is whether a daily route fits one charge.",
+      "C": "Driver willingness is a soft adoption issue, not the core feasibility test; what matters most is whether the vans can finish a typical route on a single charge.",
+      "D": "Popularity among other couriers is bandwagon evidence, not a test of this fleet's practicality; the decisive question is single-charge range versus daily routes.",
+      "E": "Retrofitting diesel vans is a different option, not an evaluation of the electric switch; the most useful question is whether electric vans cover the daily route per charge."
     },
     "explanation": "Feasibility depends largely on the actual range of electric vehicles.",
     "estimatedTimeSeconds": 90
@@ -581,6 +665,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "Most automating reordering goes beyond what only-some-did supports; the firm inference is that at least one branch used the software without automation.",
+      "C": "That every automating branch used the new software is not stated and reverses the given direction; the supported inference is that at least one branch used it without automating.",
+      "D": "The premise says every branch adopted the software, so claiming one failed to adopt it contradicts the text; the valid inference is at least one used it without automating reordering.",
+      "E": "Inventory levels are never mentioned, so comparing them is unsupported; the only safe inference is that at least one branch used the software without automating reordering."
+    },
     "explanation": "Since all branches adopted the software and only some automated their restocking, at least one branch used it without automation.",
     "estimatedTimeSeconds": 105
   },
@@ -619,6 +709,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "Employers calling the law inconvenient is opinion and does not support the no-effect conclusion; the strengthener is concurrent population and business growth that explains the job rise.",
+      "C": "More local spending is a downstream effect, not evidence about employment causation; support comes from independent growth in population and business activity.",
+      "D": "Newspaper announcements are irrelevant to whether the wage hike cost jobs; the strengthener offers an alternative driver of job growth, namely a growing economy.",
+      "E": "Other cities debating laws says nothing about this city's employment; the argument is strengthened by the simultaneous population and business expansion."
     },
     "explanation": "Population growth and increased economic activity provide a plausible alternative explanation for the rise in employment.",
     "estimatedTimeSeconds": 120
@@ -659,6 +755,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "Improving appearance is a side benefit, not something the water-saving argument needs; the required assumption is that mulch stays in place long enough to slow evaporation.",
+      "C": "Cost is outside the evaporation logic the argument relies on; the assumption is that the mulch remains in place to do its job.",
+      "D": "The argument never claims slowing evaporation is the only way to cut watering, so this is too strong to be a needed assumption; what it does assume is that the mulch stays put.",
+      "E": "Whether plants are currently overwatered is a separate matter; the assumption the argument depends on is that the mulch will remain long enough to affect soil moisture."
+    },
     "explanation": "The argument assumes that the mulch remains in place long enough to fulfill its intended purpose.",
     "estimatedTimeSeconds": 90
   },
@@ -697,6 +799,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "Nurse training is part of implementing the new system, so it supports rather than weakens the claim; the weakener is the diversion of low-severity patients next door.",
+      "C": "Renovating the entrance does not plausibly explain a drop in average wait time; the genuine alternative cause is that minor cases were sent to the urgent-care clinic.",
+      "D": "A repaved parking lot has no bearing on emergency wait times; the weakener offers a competing cause, the diversion of low-severity patients.",
+      "E": "Patients liking the signage is irrelevant to wait duration; the claim is weakened because diverting minor cases could account for the shorter average wait."
     },
     "explanation": "Diverting minor cases can explain the reduction in wait times without attributing the entire improvement to the new triage process.",
     "estimatedTimeSeconds": 105
@@ -737,6 +845,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "Higher total store sales could stem from many factors and does not isolate the checkout effect; the strengthener compares the same items selling more when moved to the checkout.",
+      "C": "Longest-waiting customers buying most conflates dwell time with placement and is a confound, not support; the clean strengthener is items selling more after being moved to the checkout.",
+      "D": "If checkout items were also advertised, sales could be driven by the ads rather than placement, weakening the isolation; support requires the placement effect alone, as in choice A.",
+      "E": "Shoppers saying they enjoy the displays is attitude, not purchasing evidence; the claim is strengthened by items selling more frequently once placed at the checkout."
+    },
     "explanation": "More frequent sales after repositioning near the checkout directly support the impulse-buying thesis.",
     "estimatedTimeSeconds": 90
   },
@@ -775,6 +889,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "How well the hardcover sells on its own does not address whether adding paperback is worthwhile; the decisive question is whether paperback demand justifies its extra costs.",
+      "C": "A general reader preference for paperbacks does not weigh demand against the added costs; the useful question is whether expected paperback demand covers the printing and distribution expense.",
+      "D": "That the paperback would be priced lower is a given of the format, not the cost-benefit test; the key question is whether its demand justifies the additional outlay.",
+      "E": "The last novel's split is weak past evidence for this title; the most useful question is whether this book's expected paperback demand justifies the added costs."
     },
     "explanation": "The critical point is whether pocket demand justifies the additional costs.",
     "estimatedTimeSeconds": 120
@@ -815,6 +935,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "Reversing the groups, most weekly cyclists are train commuters is not supported by a statement about train commuters; the valid inference is that most train commuters cycle weekly.",
+      "C": "Comparing commuters to non-commuters needs data on non-commuters, which is absent; the supported inference is simply that a majority of train commuters cycle weekly.",
+      "D": "Weekly use does not mean a bicycle is the primary mode of travel; the inference is only that most train commuters use a bicycle at least once a week.",
+      "E": "Generalizing to all residents goes beyond the train-commuter subgroup described; the safe inference is that a majority of train commuters cycle weekly."
+    },
     "explanation": "The statement specifically concerns train commuters; it can be inferred that a majority of them also cycle each week.",
     "estimatedTimeSeconds": 105
   },
@@ -853,6 +979,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "The manager's enjoyment of short meetings is irrelevant to whether planning is preserved; the assumption is that email already covers the topics the meeting would.",
+      "C": "Immediate email reading is a stronger condition than the argument needs; what it assumes is that the email discussions adequately cover the necessary topics.",
+      "D": "Room size has nothing to do with whether shortening the meeting hurts planning; the assumption is that email handles the topics that would need meeting time.",
+      "E": "Punctual start times do not bear on whether email substitutes for discussion; the load-bearing assumption is that email already covers what the meeting otherwise would."
     },
     "explanation": "It must be assumed that email exchanges actually cover the topics that would have required more time in meetings.",
     "estimatedTimeSeconds": 120
@@ -893,6 +1025,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "Touch screens are a feature description, not a competing cause for higher ratings; the weakener is the simultaneous menu change offering an alternative explanation.",
+      "C": "Repeat kiosk use does not explain the rating rise and does not separate kiosks from other changes; the weakener is the simplified menu introduced at the same time.",
+      "D": "Adding tables could raise satisfaction, but the simplified menu is the change the explanation flags as the alternative cause; treat tables as a weaker near-miss and pick the menu confound.",
+      "E": "How ratings were collected does not provide a rival cause for the increase; the argument is weakened because the shortened menu may have driven the higher ratings."
+    },
     "explanation": "The improvement in ratings may be due to the simplified menu rather than the kiosks themselves.",
     "estimatedTimeSeconds": 90
   },
@@ -931,6 +1069,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "General health-consciousness is a confound that could explain less snacking by itself, not support for breakfast as the cause; the strengthener is the controlled study comparing similar participants.",
+      "C": "Late snackers feeling tired addresses an effect of snacking, not whether breakfast reduces it; support comes from the breakfast-versus-skipped comparison in choice A.",
+      "D": "A larger breakfast leaving people full speaks to one breakfast detail, not the daily-breakfast versus late-snacking link; the direct strengthener is the comparative study.",
+      "E": "If adding breakfast leaves snacking unchanged, that undercuts the claim rather than strengthening it; the support is fewer late-night snacks among daily breakfast eaters."
     },
     "explanation": "A comparative study showing less snacking among people who eat breakfast directly strengthens the conclusion.",
     "estimatedTimeSeconds": 105
@@ -971,6 +1115,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "Lower delivery costs is a benefit of the switch but not the central risk; the decisive question is whether customers would cancel over the extra day.",
+      "C": "What competitors offer is context, not a test of how this company's customers react; the most useful question is whether the one-day delay would prompt cancellations.",
+      "D": "On-time delivery is an operational matter, while the key risk is customer reaction to slower shipping; evaluate whether customers would cancel given the extra day.",
+      "E": "If orders already arrive next day, the change may be moot, but the question that decides the plan is how customers respond to a one-day delay."
+    },
     "explanation": "The essential issue is how customers will react to an additional one-day delay.",
     "estimatedTimeSeconds": 120
   },
@@ -1009,6 +1159,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "Daily library hours are a logistics detail, not what the quieter-is-better claim rests on; the assumption is that quiet actually improves this student's focus.",
+      "C": "Book availability is irrelevant to the comparison about noise; the argument assumes that a quieter setting helps the student concentrate.",
+      "D": "Owning a laptop is not required for the quiet-based claim; the load-bearing assumption is that quiet surroundings improve the student's concentration.",
+      "E": "Slow home internet is a separate disadvantage not invoked by the quietness argument; the assumption is that the student focuses better in quiet places."
     },
     "explanation": "The argument must assume that quiet surroundings actually improve this student's concentration.",
     "estimatedTimeSeconds": 90
@@ -1049,6 +1205,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "No intern getting both contradicts the data, since all were trained and half also had mentors; the inference is that at least one was trained without a mentor.",
+      "C": "All having mentors contradicts the stated half; the supported inference is that at least one trained intern lacked a mentor.",
+      "D": "Some not trained contradicts the premise that all received training; the valid inference is that at least one trained intern had no mentor.",
+      "E": "A single intern is not implied and conflicts with half having mentors; the inference is that at least one intern was trained without a mentor."
+    },
     "explanation": "Since all received training and only some have a mentor, at least one trainee received training without a mentor.",
     "estimatedTimeSeconds": 105
   },
@@ -1087,6 +1249,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "Brighter colors are just a feature of the redesign, not an independent cause of higher sales; the weakener is the move to a more noticeable lower shelf.",
+      "C": "Some customers liking the old logo would, if anything, argue against the redesign helping; the weakener provides a rival cause, the better shelf placement.",
+      "D": "How long the redesign took does not explain why sales rose; the alternative cause is the cereal being moved to a more visible shelf.",
+      "E": "Being sold in several stores is neutral background, not a competing explanation; the claim is weakened because the lower, more visible shelf could have driven the sales increase."
     },
     "explanation": "The shelf repositioning provides a competing explanation for the increase in sales.",
     "estimatedTimeSeconds": 120
@@ -1127,6 +1295,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "More reported sleep is a plausible mechanism but not direct evidence of better attendance; the strengthener is the recorded drop in tardy arrivals on later-start days.",
+      "C": "Fewer full-day absences concerns absenteeism, while the argument is about late arrivals; the direct support is fewer tardies on later-start days.",
+      "D": "Improved test scores in other districts is off-topic and indirect; the strengthener is this district's own comparison showing fewer tardy arrivals with later starts.",
+      "E": "Parental approval is a preference, not evidence about attendance; the conclusion is supported by the observed reduction in late arrivals on later-start days."
+    },
     "explanation": "A direct comparison showing fewer delays with a later start time supports the conclusion.",
     "estimatedTimeSeconds": 105
   },
@@ -1165,6 +1339,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "Beating last year's turnout is about attendance, not whether the dinner is financially viable; the decisive question is whether ticket sales cover venue and catering costs.",
+      "C": "A general preference for dinners over mailings does not settle this event's economics; the useful question is whether projected ticket revenue covers the costs.",
+      "D": "Securing a discounted venue helps one cost line but does not test overall viability; what matters is whether expected ticket sales cover the full cost of the event.",
+      "E": "Raising the nonprofit's profile is a soft benefit, not the financial test; the most useful question is whether ticket sales would cover venue and catering."
     },
     "explanation": "The decisive criterion is that the projected revenue covers the cost of the event.",
     "estimatedTimeSeconds": 90
@@ -1205,6 +1385,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "Where users live is irrelevant to whether dark mode reduces eye strain; the assumption is that the current screen is bright enough for the change to matter.",
+      "C": "An existing search feature has nothing to do with eye strain from brightness; the argument assumes the app is bright enough for dark mode to have an effect.",
+      "D": "A preference for free apps does not bear on the eye-strain claim; the assumption is that reducing the app's brightness would actually matter to users.",
+      "E": "How fast the developer can update is a delivery issue, not the eye-strain logic; the load-bearing assumption is that the screen is currently bright enough for dark mode to help."
+    },
     "explanation": "The argument assumes that the current screen is bright enough for dark mode to have a real effect on eye strain.",
     "estimatedTimeSeconds": 120
   },
@@ -1244,6 +1430,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "Saying expenses never rose contradicts the premise that they rose in the first two quarters; the valid inference is that profit improved in at least one quarter.",
+      "C": "A constant revenue-minus-expense gap is far more specific than the data allow; the inference is that there was at least one quarter of improved profit.",
+      "D": "Nothing is stated about debt, so that cannot be inferred; the supported inference is that profitability improved in at least one quarter.",
+      "E": "Revenue growing more slowly than expenses in all quarters contradicts expenses being flat after quarter two; the inference is that profit improved in at least one quarter."
+    },
     "explanation": "If revenue increased every quarter and expenses only rose at the start, there is at least one quarter in which profitability improved.",
     "estimatedTimeSeconds": 105
   },
@@ -1282,6 +1474,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "A rise in total claims does not explain why the suspicious share fell and does not undercut the system's role; the weakener is the new law's heavier fraud penalties introduced at the same time.",
+      "C": "Higher operating cost concerns budget, not whether the system reduced fraud; the weakener offers an alternative cause, the simultaneous stricter penalties.",
+      "D": "Policyholders finding the screening easy is a positive aside, not a rival explanation; the claim is weakened by the concurrent law imposing tougher penalties.",
+      "E": "A rival adopting a similar system later says nothing about this insurer's decline; the weakener is the new law deterring fraud at the same time the system launched."
     },
     "explanation": "A new law with stricter penalties provides another plausible reason for the decline in suspicious requests.",
     "estimatedTimeSeconds": 120

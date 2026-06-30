@@ -12,6 +12,12 @@
       "format": "single",
       "value": "D"
     },
+    "distractorRationale": {
+      "A": "Picks (1) alone, but $x-3=4$ in (2) also yields $x=7$, so (2) is sufficient too; with both sufficient the answer is D.",
+      "B": "Picks (2) alone, but $x+5=12$ in (1) likewise gives $x=7$, so (1) is sufficient too; each alone works, so D.",
+      "C": "Says both statements are needed together, but each linear equation pins $x=7$ on its own, so neither needs the other; D.",
+      "E": "Claims neither suffices, but both (1) and (2) independently solve to $x=7$; each alone is sufficient, so D."
+    },
     "explanation": "From (1), $x=7$. From (2), $x=7$. Each statement alone is sufficient.",
     "estimatedTimeSeconds": 120
   },
@@ -27,6 +33,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "D"
+    },
+    "distractorRationale": {
+      "A": "Takes (1) as the only sufficient statement, yet (2) gives $2\\pi r=44\\Rightarrow r\\approx 7$ and area $\\approx 154<200$, answering 'no' as well; each alone works, so D.",
+      "B": "Takes (2) as the only sufficient statement, but (1) directly gives area $=49\\pi\\approx 154<200$; (1) alone also answers 'no', so D.",
+      "C": "Combines the statements, but each one alone already determines that the area is about $154$, below $200$; neither needs the other, so D.",
+      "E": "Claims neither suffices, yet both lead to area $\\approx 154<200$ and a definite 'no'; each alone is sufficient, so D."
     },
     "explanation": "From (1), area $=49\\pi\\approx 154<200$, so the answer is no. From (2), $2\\pi r=44$ gives $r\\approx 7$, so area $\\approx 154<200$, again no. Each statement alone is sufficient.",
     "estimatedTimeSeconds": 120
@@ -44,6 +56,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "A total of $280$ is useless without the count of scores, so the mean cannot be found; you also need (2)'s count of four, hence C.",
+      "B": "Three scores summing to $210$ plus an unknown fourth gives no total, so the mean is undetermined; (1)'s total is also required, hence C.",
+      "D": "Neither statement alone gives both the total and the count; only together do you get $280/4=70$, so C, not D.",
+      "E": "The statements do combine: four scores with total $280$ give mean $70$, so together they suffice and the answer is C."
+    },
     "explanation": "From (1) alone the number of scores is unknown. From (2) alone the total is unknown. Together, there are four scores totaling $280$, so the fourth is $280-210=70$ and the mean is $280/4=70$.",
     "estimatedTimeSeconds": 120
   },
@@ -59,6 +77,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "C"
+    },
+    "distractorRationale": {
+      "A": "Knowing only the combined time of $6$ hours leaves B's share unknown, so A's solo rate is not fixed; you also need (2), hence C.",
+      "B": "Knowing only B's solo time of $10$ hours says nothing about A without the combined rate; (1) is also needed, hence C.",
+      "D": "Each statement alone leaves a missing rate; only together does $\\frac{1}{6}-\\frac{1}{10}=\\frac{1}{15}$ give A's $15$ hours, so C, not D.",
+      "E": "The statements do combine to fix A's rate as $\\frac{1}{15}$, so together they are sufficient and the answer is C."
     },
     "explanation": "Neither statement alone fixes A's rate. Together, the combined rate is $\\frac{1}{6}$ and B's rate is $\\frac{1}{10}$, so A's rate is $\\frac{1}{6}-\\frac{1}{10}=\\frac{1}{15}$, and A alone takes $15$ hours.",
     "estimatedTimeSeconds": 120
@@ -76,6 +100,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "Statement (1) gives the union as $30$ but not the grade's total, so 'neither' can't be counted; you also need (2), hence C.",
+      "B": "A total of $35$ alone says nothing about how many are in a club, so 'neither' is undetermined; (1) is also required, hence C.",
+      "D": "Neither statement alone yields both the club union and the grade total; only together is $35-30=5$, so C, not D.",
+      "E": "Combined, the $30$ in at least one club subtracted from $35$ gives $5$ in neither, so together they suffice and the answer is C."
+    },
     "explanation": "From (1), the union is $20+18-8=30$. From (2), the total is $35$. Together, the number in neither club is $35-30=5$.",
     "estimatedTimeSeconds": 120
   },
@@ -91,6 +121,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "Reverses the statements: (2)'s divisibility by $12$ and $2$ only forces divisibility by $12$ (e.g. $12$ itself fails $24$), so (2) is not sufficient; (1) is the sufficient one, hence A.",
+      "C": "Treats both as needed, but (1) alone already forces divisibility by $\\mathrm{lcm}(6,8)=24$; (2) adds nothing decisive, so A.",
+      "D": "Says each alone suffices, but (2) (divisible by $12$ and $2$) allows $n=12$, which is not divisible by $24$; only (1) is sufficient, so A.",
+      "E": "Claims neither suffices, yet (1) guarantees divisibility by $24$ via $\\mathrm{lcm}(6,8)=24$; (1) alone is sufficient, so A."
     },
     "explanation": "From (1), being divisible by both $6$ and $8$ means being divisible by their least common multiple, $24$ — sufficient. From (2), divisibility by $12$ and $2$ only requires divisibility by $12$ (for example $12$ itself), so it is not sufficient.",
     "estimatedTimeSeconds": 120
@@ -108,6 +144,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "Reverses the statements: (2) gives only $\\angle C=72^\\circ$, leaving $\\angle A$ undetermined, while (1) fixes $\\angle A=108^\\circ$; the sufficient statement is (1), so A.",
+      "C": "Treats both as needed, but (1) alone (isosceles with $\\angle B=36^\\circ$) already gives $\\angle A=180-36-36=108^\\circ$; (2) is unnecessary, so A.",
+      "D": "Says each alone suffices, but (2)'s single angle of $72^\\circ$ does not determine $\\angle A$; only (1) does, so A.",
+      "E": "Claims neither suffices, yet (1) yields $\\angle A=108^\\circ$ on its own; (1) alone is sufficient, so A."
+    },
     "explanation": "From (1), $AB=AC$ makes the base angles equal, so $\\angle C=\\angle B=36^\\circ$ and $\\angle A=180-36-36=108^\\circ$ — sufficient. From (2) alone, $\\angle A$ is not determined.",
     "estimatedTimeSeconds": 120
   },
@@ -123,6 +165,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "Reverses the statements: factoring (1) gives $x(x-5)=0$, so $x=0$ or $x=5$ — two values, not sufficient; (2) uniquely gives $x=5$, so B.",
+      "C": "Treats both as needed, but (2) alone already pins $x=5$; (1)'s extra root $x=0$ adds ambiguity rather than help, so B.",
+      "D": "Says each alone suffices, but (1) leaves $x=0$ or $x=5$; only (2) determines $x$ uniquely, so B.",
+      "E": "Claims neither suffices, yet (2) solves cleanly to $x=5$; (2) alone is sufficient, so B."
     },
     "explanation": "Factor (1): $x^2-5x=x(x-5)=0$ gives $x=0$ or $x=5$ — two values, so (1) alone is not sufficient. Statement (2) solves to $x=5$ uniquely, so (2) alone is sufficient. The trap is treating (1) like a normal equation with one root; a quadratic set to zero typically yields two solutions, which is why the simpler-looking statement (2) is what pins down $x$. Answer: B.",
     "estimatedTimeSeconds": 120
@@ -140,6 +188,12 @@
       "format": "single",
       "value": "E"
     },
+    "distractorRationale": {
+      "A": "Knowing the mean is $18$ does not fix the median; many sets with mean $18$ have different medians, so (1) alone fails — and so does the combination, hence E.",
+      "B": "Knowing the range is $12$ says nothing about the middle value, so (2) alone cannot give the median; together they still fail, hence E.",
+      "C": "Even combined, sets with mean $18$ and range $12$ can have different medians, so the statements together are insufficient; E, not C.",
+      "D": "Neither the mean alone nor the range alone determines the median, so 'each alone sufficient' is wrong; the answer is E."
+    },
     "explanation": "Knowing only the mean or only the range does not determine the median, and even together many data sets with mean $18$ and range $12$ have different medians.",
     "estimatedTimeSeconds": 120
   },
@@ -155,6 +209,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "C"
+    },
+    "distractorRationale": {
+      "A": "Two efficiency rates ($30$ and $40$ mpg) are useless without knowing which applies, so distance is undetermined; you also need (2), hence C.",
+      "B": "Knowing the trip is all highway is useless without the highway mpg; (1) is also required, so the answer is C.",
+      "D": "Each statement alone is missing either the mix or the rate; only together does the highway rate give $40g$ miles, so C, not D.",
+      "E": "The statements do combine: all-highway driving at $40$ mpg gives $40g$ miles, so together they suffice and the answer is C."
     },
     "explanation": "From (1) alone the driving mix is unknown. From (2) alone the fuel-efficiency rate is unknown. Together, the highway rate applies, so the car travels $40g$ miles.",
     "estimatedTimeSeconds": 120

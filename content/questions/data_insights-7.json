@@ -10,6 +10,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "Statement (1) gives $x^2=25$, which yields $x=5$ or $x=-5$; this treats a quadratic as if it had a single root, but it does not pin down $x$, so (1) alone is not sufficient. You also need (2) to discard $-5$.",
+      "B": "Statement (2), $x>0$, leaves infinitely many possible values, so it cannot be sufficient alone. It only becomes useful once (1) narrows $x$ to $\\pm 5$.",
+      "D": "This claims each statement alone works, but (1) leaves two roots and (2) leaves a whole range. Only together do they force $x=5$.",
+      "E": "Concluding nothing works overlooks that combining $x^2=25$ with $x>0$ uniquely gives $x=5$. The statements are sufficient together, so the answer is C, not E."
+    },
     "explanation": "Statement (1) gives $x^2=25$, so $x$ could be $5$ or $-5$ and is not unique. Statement (2) says $x>0$, which still does not determine $x$. Together, $x^2=25$ and $x>0$ force $x=5$. Therefore, both statements together are sufficient, but neither alone is sufficient. Choice C.",
     "estimatedTimeSeconds": 75,
     "tags": [
@@ -27,6 +33,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "C"
+    },
+    "distractorRationale": {
+      "A": "Statement (1) (opposite sides parallel) describes any parallelogram, not necessarily a rectangle, so (1) alone is not sufficient. You still need a right angle from (2).",
+      "B": "Statement (2) (one $90^\\circ$ angle) does not by itself make a quadrilateral a rectangle, so (2) alone is not sufficient. It must be paired with (1).",
+      "D": "Neither statement alone settles the question: parallel sides allow a non-rectangular parallelogram, and one right angle alone allows non-rectangles. Only together do they guarantee a rectangle.",
+      "E": "This dismisses the combination, but a parallelogram with one right angle must be a rectangle, so the statements together are sufficient. The answer is C."
     },
     "explanation": "Statement (1) says opposite sides are parallel, which could describe any parallelogram and is not enough to prove the figure is a rectangle. Statement (2) says one angle is $90^\\circ$, which alone is also not enough. Together, a parallelogram with one right angle must be a rectangle. Choice C.",
     "estimatedTimeSeconds": 80,
@@ -46,6 +58,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "Divisibility by 4 alone does not force divisibility by 12 (for example, 4 itself is not divisible by 12), so (1) alone is not sufficient. You also need the factor of 3.",
+      "B": "Divisibility by 3 alone does not force divisibility by 12 (for example, 3 itself is not), so (2) alone is not sufficient. You also need the factor of 4.",
+      "D": "This claims each works alone, but a multiple of 4 need not be a multiple of 12, and likewise for 3. Only the combination of 4 and 3 guarantees divisibility by 12.",
+      "E": "Concluding insufficiency ignores that $4$ and $3$ are coprime, so divisibility by both forces divisibility by $12$. Together they are sufficient, giving C."
+    },
     "explanation": "Statement (1) gives divisibility by 4, which is not enough to conclude divisibility by 12. Statement (2) gives divisibility by 3, which is also not enough. Together, divisibility by 4 and 3 implies divisibility by 12 for an integer. Choice C.",
     "estimatedTimeSeconds": 75,
     "tags": [
@@ -63,6 +81,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "Statement (2) gives the median, but the median does not determine the sum, so it cannot give the mean. The mean comes from statement (1)'s sum: $72/6=12$.",
+      "C": "Combining the two is unnecessary because statement (1) alone yields the mean as $72/6=12$. Since (1) is sufficient by itself, the answer is A, not C.",
+      "D": "This claims (2) also works alone, but the median tells you nothing about the total, so it cannot pin down the mean. Only (1) is sufficient.",
+      "E": "Concluding neither suffices overlooks that the sum in (1) directly gives the mean $72/6=12$. Statement (1) alone is sufficient, so the answer is A."
     },
     "explanation": "Statement (1) gives the sum of the 6 numbers as 72, so the mean is $72/6=12$. That is sufficient. Statement (2) gives the median, which does not determine the mean. Choice A.",
     "estimatedTimeSeconds": 70,
@@ -82,6 +106,12 @@
       "format": "single",
       "value": "E"
     },
+    "distractorRationale": {
+      "A": "Statement (1), $x>0$, says nothing about $y$, so it cannot decide whether $x=y$; (1) alone is not sufficient. Even with (2) added, the equality stays undetermined.",
+      "B": "Statement (2), $y>0$, says nothing about $x$, so it cannot decide whether $x=y$; (2) alone is not sufficient.",
+      "C": "Combining $x>0$ and $y>0$ still allows both $x=y$ (e.g. $1,1$) and $x\\neq y$ (e.g. $1,2$), so the statements together are not sufficient. The answer is E, not C.",
+      "D": "This claims each statement alone settles the question, but each constrains only one variable, leaving the equality open. Neither alone is sufficient."
+    },
     "explanation": "Statement (1) says only that $x>0$, which does not determine whether $x=y$. Statement (2) says only that $y>0$, which also does not determine whether $x=y$. Together, $x$ and $y$ can still be equal or unequal. For example, $x=1,y=1$ works, and $x=1,y=2$ also works. Choice E.",
     "estimatedTimeSeconds": 80,
     "tags": [
@@ -99,6 +129,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "Statement (1) gives only the combined time of 4 hours, so the joint rate $1/4$ cannot be split into A's and B's shares. Without B's rate (supplied in (2)), A's time is unknown.",
+      "C": "Combining the two is unnecessary because statement (2) already supplies both B's time and the combined time, giving A's rate $1/4-1/12=1/6$ and time 6 hours. Since (2) alone is sufficient, the answer is B, not C.",
+      "D": "This claims (1) also works alone, but knowing only the combined 4-hour time cannot isolate A. Only (2) is sufficient.",
+      "E": "Concluding insufficiency ignores that (2) yields A's rate $1/4-1/12=1/6$, so A alone takes 6 hours. Statement (2) alone is sufficient, giving B."
     },
     "explanation": "Statement (1) says A and B together finish the job in 4 hours, which is not enough to isolate A's individual time. Statement (2) says B alone takes 12 hours and together they take 4 hours, so the combined rate is $1/4$ and B's rate is $1/12$. A's rate is $1/4-1/12=1/6$, so A alone takes 6 hours. Statement (2) is sufficient. Choice B.",
     "estimatedTimeSeconds": 85,
@@ -119,6 +155,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "Statement (1) gives the union (30 in at least one club) but not the individual club totals, so the overlap cannot be found from (1) alone. You also need the totals from (2).",
+      "B": "Statement (2) gives the two club totals (18 and 20) but not the union or the number in neither, so the overlap is undetermined from (2) alone.",
+      "D": "This claims each works alone, but the overlap formula $|A|+|B|-|A\\cup B|$ needs both the totals and the union, which no single statement provides.",
+      "E": "Concluding insufficiency overlooks that together they give $18+20-30=8$. The statements are sufficient combined, so the answer is C, not E."
+    },
     "explanation": "Statement (1) says 30 students were in at least one of the two clubs. That alone does not determine the overlap. Statement (2) says 18 are in Club A and 20 are in Club B, which also does not determine the overlap without the union or the number in neither. Together, the union is 30 and the total memberships are 18 + 20. So the overlap is $18+20-30=8$. Both together are sufficient. Choice C.",
     "estimatedTimeSeconds": 85,
     "tags": [
@@ -136,6 +178,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "Statement (2), $x^2=16$, yields $x=4$ or $x=-4$, so it does not determine a unique value; treating it as giving one root is the trap. The unique value comes from the linear equation in (1).",
+      "C": "Combining is unnecessary because the linear equation in (1) alone gives $x=6$. Since (1) is sufficient by itself, the answer is A, not C.",
+      "D": "This claims (2) also works alone, but $x^2=16$ leaves two possible values. Only (1), a single linear equation, pins down $x=6$.",
+      "E": "Concluding neither suffices ignores that (1) solves cleanly to $x=6$. Statement (1) alone is sufficient, so the answer is A."
     },
     "explanation": "Statement (1) gives a single linear equation, $2x+5=17$, so $2x=12$ and $x=6$. That is sufficient. Statement (2), $x^2=16$, leaves $x=4$ or $x=-4$ and is not sufficient. Choice A.",
     "estimatedTimeSeconds": 70,
@@ -155,6 +203,12 @@
       "format": "single",
       "value": "D"
     },
+    "distractorRationale": {
+      "A": "Statement (1) (two equal sides) does make the triangle isosceles, but so does statement (2) on its own, so (1) is not the only sufficient statement. Each works alone.",
+      "B": "Statement (2) (two equal angles) is sufficient because equal angles imply equal opposite sides, but statement (1) also suffices alone, so the answer is not B only. Each works alone.",
+      "C": "Combining is unnecessary: either two equal sides or two equal angles independently guarantees an isosceles triangle. Each statement alone is sufficient, so the answer is D, not C.",
+      "E": "Concluding insufficiency is wrong because both the side condition and the angle condition each define an isosceles triangle. Each alone is sufficient, giving D."
+    },
     "explanation": "Statement (1) says two sides are equal, which by definition makes the triangle isosceles. Statement (2) says two angles are equal, which also guarantees the triangle is isosceles because equal angles in a triangle imply the opposite sides are equal. Each statement alone is sufficient. Choice D.",
     "estimatedTimeSeconds": 75,
     "tags": [
@@ -172,6 +226,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "E"
+    },
+    "distractorRationale": {
+      "A": "Statement (1) gives the mean, but many different middle values can share the same mean, so the median is not determined; (1) alone is not sufficient. Adding (2) still leaves it open.",
+      "B": "Statement (2) gives the range, which fixes only the spread between extremes, not the middle value, so the median is undetermined; (2) alone is not sufficient.",
+      "C": "Even together, the mean and range do not pin down the median, since different 7-number sets can match both yet have different medians. The statements are insufficient combined, so the answer is E, not C.",
+      "D": "This claims each works alone, but neither the mean nor the range determines the central value of seven numbers. Neither alone is sufficient."
     },
     "explanation": "Statement (1) gives the mean, which does not determine the median. Statement (2) gives the range, which also does not determine the median. Even together, the mean and range do not pin down the middle value uniquely. For example, different 7-number sets can have the same mean and range but different medians. Choice E.",
     "estimatedTimeSeconds": 85,
@@ -191,6 +251,12 @@
       "format": "single",
       "value": "D"
     },
+    "distractorRationale": {
+      "A": "Statement (1) (divisible by 8) does guarantee $n$ is even, but statement (2) does too, so (1) is not the only sufficient statement. Each works alone.",
+      "B": "Statement (2) (multiple of 4) guarantees $n$ is even, but statement (1) also suffices alone, so the answer is not B only. Each works alone.",
+      "C": "Combining is unnecessary: any multiple of 8 or of 4 is already even, so each statement settles the question by itself. The answer is D, not C.",
+      "E": "Concluding insufficiency is wrong because multiples of 8 and multiples of 4 are always even. Each statement alone is sufficient, giving D."
+    },
     "explanation": "Statement (1) says $n$ is divisible by 8, which guarantees that $n$ is even. Statement (2) says $n$ is a multiple of 4, which also guarantees that $n$ is even. Each statement alone is sufficient. Choice D.",
     "estimatedTimeSeconds": 70,
     "tags": [
@@ -208,6 +274,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "Statement (1) gives the union (40 in at least one club) but not the breakdown into only-X, only-Y, or neither, so the overlap cannot be found from (1) alone. The full breakdown in (2) is needed.",
+      "C": "Combining is unnecessary because statement (2)'s complete breakdown gives the overlap as $50-18-22-8=2$. Since (2) alone is sufficient, the answer is B, not C.",
+      "D": "This claims (1) also works alone, but knowing only the union of 40 cannot yield the overlap. Only (2), with all four region counts, is sufficient.",
+      "E": "Concluding insufficiency ignores that (2) gives the both-club count directly as $50-18-22-8=2$. Statement (2) alone is sufficient, so the answer is B."
     },
     "explanation": "Statement (1) says 50 students were surveyed and 40 were in at least one of the two clubs. That does not determine the overlap. Statement (2) says 18 were in Club X only, 22 were in Club Y only, and 8 were in neither club. Since the total surveyed is 50, the number in both clubs is $50-18-22-8=2$, so statement (2) alone is sufficient. Choice B.",
     "estimatedTimeSeconds": 85,

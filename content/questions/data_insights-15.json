@@ -12,6 +12,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "Treats (2) as enough because even integers feel restrictive, but \"positive even integer\" allows 2, 4, 6, ... — many values. Only (1) pins $a$ to the single value $a=8$.",
+      "C": "Assumes both statements are needed, but (1) alone solves $2a-6=10$ to $a=8$; (2) adds nothing, so it is not the case that neither works alone.",
+      "D": "Says each alone suffices, but (2) leaves infinitely many even values; only (1) gives a unique $a=8$.",
+      "E": "Claims even together they fail, but (1) by itself yields $a=8$. The data are sufficient."
+    },
     "explanation": "(1) gives $2a = 16$, so $a = 8$ — a unique value, sufficient. (2) leaves many possibilities (2, 4, 6, ...), not sufficient. Answer A.",
     "estimatedTimeSeconds": 120
   },
@@ -27,6 +33,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "Picks (1), but $|n|=5$ gives $n=5$ or $n=-5$, so it cannot confirm $n=5$. Statement (2) solves $n-5=0$ to exactly $n=5$.",
+      "C": "Assumes both are needed, but (2) alone fixes $n=5$; (1) is unnecessary.",
+      "D": "Says each works alone, but (1) leaves the sign ambiguous ($n=\\pm 5$). Only (2) is sufficient.",
+      "E": "Claims neither suffices, but (2) alone gives $n=5$ directly."
     },
     "explanation": "(1) gives $n = 5$ or $n = -5$ — not sufficient. (2) gives $n = 5$ directly — sufficient. Answer B.",
     "estimatedTimeSeconds": 120
@@ -44,6 +56,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "Treats (1) as enough, but $w+v=14$ is one equation in two unknowns and does not fix $w$. Both statements are needed.",
+      "B": "Treats (2) as enough, but $w-v=6$ alone leaves $w$ undetermined. Combine the two to get $w=10$.",
+      "D": "Says each alone works, but neither single equation pins $w$; only adding them gives $2w=20$, $w=10$.",
+      "E": "Claims even together they fail, but adding the equations eliminates $v$ and yields $w=10$."
+    },
     "explanation": "Neither alone fixes $w$ (each is one equation in two unknowns). Together, adding gives $2w = 20$, so $w = 10$. Sufficient only together. Answer C.",
     "estimatedTimeSeconds": 120
   },
@@ -59,6 +77,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "D"
+    },
+    "distractorRationale": {
+      "A": "Picks (1) only, overlooking that (2) also fixes the ratio: flour:sugar $=3:1$ means $1/3$ cup sugar per cup flour. Each statement alone is sufficient.",
+      "B": "Picks (2) only, but (1)'s 6 cups flour to 2 cups sugar gives sugar per flour $=2/6=1/3$ as well. Each alone works.",
+      "C": "Assumes both are needed, but either statement alone determines the per-cup ratio of $1/3$.",
+      "E": "Claims neither suffices, but each statement independently gives sugar per flour $=1/3$."
     },
     "explanation": "(1) gives sugar per flour $= 2/6 = 1/3$ — sufficient. (2) gives flour:sugar $= 3:1$, so sugar per flour $= 1/3$ — sufficient. Each alone works. Answer D.",
     "estimatedTimeSeconds": 120
@@ -76,6 +100,12 @@
       "format": "single",
       "value": "E"
     },
+    "distractorRationale": {
+      "A": "Treats (1) as enough, but $x^{2}>4$ allows $x>2$ or $x<-2$, so the sign is unknown. Even with (2) the sign stays undetermined.",
+      "B": "Treats (2) as enough, but $x^{3}<27$ only gives $x<3$, which includes negatives. The sign cannot be fixed.",
+      "C": "Assumes the two together decide the sign, but $x=2.5$ and $x=-5$ both satisfy both statements, giving opposite signs. Answer is E.",
+      "D": "Says each alone works, but neither statement determines whether $x>0$; combined they still fail."
+    },
     "explanation": "(1) gives $x > 2$ or $x < -2$. (2) gives $x < 3$. Together, $x$ can be $2.5$ (positive) or $-5$ (negative), so the sign is not determined. Answer E.",
     "estimatedTimeSeconds": 150
   },
@@ -91,6 +121,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "Picks (2), but the largest value alone tells nothing about the total of all five numbers. Only (1)'s sum gives the mean, $200/5=40$.",
+      "C": "Assumes both are needed, but (1) alone gives the mean directly; (2) is irrelevant.",
+      "D": "Says each works, but (2) gives no usable information about the average. Only (1) is sufficient.",
+      "E": "Claims neither suffices, but (1)'s sum of 200 fixes the mean at 40."
     },
     "explanation": "(1) mean $= 200/5 = 40$ — sufficient. (2) tells nothing about the total of all five — not sufficient. Answer A.",
     "estimatedTimeSeconds": 120
@@ -108,6 +144,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "Treats (1) as enough, but a 30 percent rate with no dollar figure cannot give the original price. Only (2), with a known sale price, works.",
+      "C": "Assumes both are needed, but (2) alone gives $0.70P=42$, so $P=60$; (1) merely repeats the rate already in (2).",
+      "D": "Says each works, but (1) supplies only a percentage and no price. Only (2) is sufficient.",
+      "E": "Claims neither suffices, but (2) alone solves to $P=60$."
+    },
     "explanation": "(1) gives only the rate, not any price — not sufficient. (2) gives $0.70 P = 42$, so $P = 60$ — sufficient. Answer B.",
     "estimatedTimeSeconds": 120
   },
@@ -123,6 +165,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "C"
+    },
+    "distractorRationale": {
+      "A": "Treats (1) as enough, but a tens digit of 4 leaves 40 through 49 — ten possibilities. Both statements are needed.",
+      "B": "Treats (2) as enough, but \"units is twice tens\" fits 12, 24, 36, 48 — not unique. Combine with the tens digit 4.",
+      "D": "Says each alone works, but neither single statement isolates one value; together they give $k=48$.",
+      "E": "Claims even together they fail, but tens digit 4 plus units digit 8 uniquely gives $k=48$."
     },
     "explanation": "(1) gives 40–49 — not unique. (2) alone gives many values (e.g. 12, 24, 36, 48) — not unique. Together, tens digit 4 and units digit 8 give $k = 48$. Answer C.",
     "estimatedTimeSeconds": 120
@@ -140,6 +188,12 @@
       "format": "single",
       "value": "D"
     },
+    "distractorRationale": {
+      "A": "Picks (1) only, but (2) also determines the circle: $2\\pi r=10\\pi$ gives $r=5$ and area $25\\pi$. Each statement alone is sufficient.",
+      "B": "Picks (2) only, but (1) gives $r=5$ directly, so area $=25\\pi$. Each alone works.",
+      "C": "Assumes both are needed, but either statement alone yields the radius and hence the area.",
+      "E": "Claims neither suffices, but each statement independently fixes the area at $25\\pi$."
+    },
     "explanation": "(1) area $= 25\\pi$ — sufficient. (2) circumference $2\\pi r = 10\\pi$ gives $r = 5$, area $= 25\\pi$ — sufficient. Each alone works. Answer D.",
     "estimatedTimeSeconds": 120
   },
@@ -155,6 +209,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "E"
+    },
+    "distractorRationale": {
+      "A": "Treats (1) as enough, but knowing only the first term gives no third term without the rule. Even both terms do not fix it.",
+      "B": "Treats (2) as enough, but a single term cannot determine a later term with an unknown rule.",
+      "C": "Assumes the two terms together fix the third, but first term 4 and second term 12 fit both add-8 (giving 20) and times-3 (giving 36). Answer is E.",
+      "D": "Says each alone works, but neither term alone, nor both together, determines the third term."
     },
     "explanation": "The rule is unspecified. With first term 4 and second term 12, the sequence could be arithmetic (add 8, giving third term 20) or geometric (times 3, giving third term 36). Together still not determined. Answer E.",
     "estimatedTimeSeconds": 150
@@ -172,6 +232,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "Picks (2), but \"fewer than 40\" only bounds the count and leaves many values. Only (1), with exactly 7 groups of 4, gives 28.",
+      "C": "Assumes both are needed, but (1) alone fixes the count at $4\\times 7=28$; (2) is unnecessary.",
+      "D": "Says each works, but (2) gives only an upper bound, not a unique count. Only (1) is sufficient.",
+      "E": "Claims neither suffices, but (1) alone determines exactly 28 students."
+    },
     "explanation": "(1) gives exactly $4 \\times 7 = 28$ — sufficient. (2) only bounds the count — not sufficient. Answer A.",
     "estimatedTimeSeconds": 120
   },
@@ -187,6 +253,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "Treats (1) as enough, but \"a power of 2\" leaves 1, 2, 4, 8, ... — not unique. Only (2) fixes a single value.",
+      "C": "Assumes both are needed, but (2) alone solves $2^{m}=32$ to $m=5$; (1) is unnecessary.",
+      "D": "Says each works, but (1) lists many possibilities. Only (2) gives the unique $m=5$.",
+      "E": "Claims neither suffices, but (2) alone gives $m=5$ since $2^{5}=32$."
     },
     "explanation": "(1) leaves 1, 2, 4, 8, ... — not sufficient. (2) gives $m = 5$ since $2^{5} = 32$ — sufficient. Answer B.",
     "estimatedTimeSeconds": 120
@@ -204,6 +276,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "Treats (1) as enough, but 20 percent acid with no total volume cannot give liters of acid. Both statements are needed.",
+      "B": "Treats (2) as enough, but a 15-liter total with no percent cannot isolate the acid. Combine with the 20 percent.",
+      "D": "Says each alone works, but neither the percent nor the total alone gives the acid volume; together $0.20\\times 15=3$ liters.",
+      "E": "Claims even together they fail, but the percent and total combine to give 3 liters of acid."
+    },
     "explanation": "(1) gives the percent but no total — not sufficient. (2) gives the total but no percent — not sufficient. Together, acid $= 0.20 \\times 15 = 3$ liters. Answer C.",
     "estimatedTimeSeconds": 150
   },
@@ -219,6 +297,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "D"
+    },
+    "distractorRationale": {
+      "A": "Picks (1) only, but (2) also gives the speed (60 mph), so 3 hours is 180 miles. Each statement alone is sufficient.",
+      "B": "Picks (2) only, but (1) gives speed $=120/2=60$ mph, hence 180 miles in 3 hours. Each alone works.",
+      "C": "Assumes both are needed, but either statement alone fixes the constant speed and thus the distance.",
+      "E": "Claims neither suffices, but each statement independently yields 180 miles in 3 hours."
     },
     "explanation": "(1) speed $= 120/2 = 60$ mph, so 3 hours gives 180 miles — sufficient. (2) speed 60 mph gives 180 miles in 3 hours — sufficient. Each alone works. Answer D.",
     "estimatedTimeSeconds": 120
@@ -236,6 +320,12 @@
       "format": "single",
       "value": "E"
     },
+    "distractorRationale": {
+      "A": "Treats (1) as enough, but knowing the largest is 18 says nothing about the two middle values that form the median.",
+      "B": "Treats (2) as enough, but knowing the smallest is 2 leaves the middle two values free, so the median is undetermined.",
+      "C": "Assumes the extremes together decide the median, but middles of 3 and 5 versus 11 and 14 give medians below or above 10. Answer is E.",
+      "D": "Says each alone works, but neither extreme constrains the two middle numbers; the median can fall on either side of 10."
+    },
     "explanation": "The median of 4 numbers is the average of the two middle values. (1) and (2) fix only the extremes; the two middle values are unconstrained, so the median could be above or below 10 (e.g. middles 3 and 5 vs. 11 and 14). Answer E.",
     "estimatedTimeSeconds": 150
   },
@@ -251,6 +341,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "Picks (2), but divisible by 4 (e.g. 4) need not be divisible by 6, while 12 is — not sufficient. Only (1) guarantees divisibility by 6.",
+      "C": "Assumes both are needed, but (1) alone settles it: divisible by 2 and 3 means divisible by their LCM, 6.",
+      "D": "Says each works, but (2) fails for 4. Only (1) is sufficient.",
+      "E": "Claims neither suffices, but (1) alone guarantees $p$ is divisible by 6."
     },
     "explanation": "(1) a number divisible by 2 and 3 is divisible by their least common multiple 6 — sufficient. (2) e.g. 4 is divisible by 4 but not by 6, while 12 is — not sufficient. Answer A.",
     "estimatedTimeSeconds": 120
@@ -268,6 +364,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "Treats (1) as enough, but a slope of 2 fixes no intercept, so the line may or may not hit the origin. Only (2) is sufficient.",
+      "C": "Assumes both are needed, but (2) alone determines the line $y=3x$, which passes through the origin; (1) is unnecessary.",
+      "D": "Says each works, but (1) leaves the intercept free. Only (2) determines the answer.",
+      "E": "Claims neither suffices, but (2) gives the line $y=3x$, which does pass through $(0,0)$."
+    },
     "explanation": "(1) slope alone does not fix the intercept — not sufficient. (2) slope $= (6-3)/(2-1) = 3$ and the line $y = 3x$ passes through $(0,0)$; checking, $y = 3x$ fits both points and hits the origin — sufficient. Answer B.",
     "estimatedTimeSeconds": 120
   },
@@ -283,6 +385,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "C"
+    },
+    "distractorRationale": {
+      "A": "Treats (1) as enough, but the selling price of 90 without the cost cannot give profit. Both statements are needed.",
+      "B": "Treats (2) as enough, but the cost of 65 without the selling price cannot give profit. Combine the two.",
+      "D": "Says each alone works, but profit requires both revenue and cost; together $90-65=25$.",
+      "E": "Claims even together they fail, but revenue minus cost gives a profit of 25."
     },
     "explanation": "(1) gives revenue but not cost — not sufficient. (2) gives cost but not revenue — not sufficient. Together, profit $= 90 - 65 = 25$. Answer C.",
     "estimatedTimeSeconds": 150
@@ -300,6 +408,12 @@
       "format": "single",
       "value": "D"
     },
+    "distractorRationale": {
+      "A": "Picks (1) only, but (2) also solves to $y=24$ from $\\tfrac{1}{4}y=6$. Each statement alone is sufficient.",
+      "B": "Picks (2) only, but (1) gives $y=24$ from $\\tfrac{y}{3}=8$. Each alone works.",
+      "C": "Assumes both are needed, but either equation alone solves to $y=24$.",
+      "E": "Claims neither suffices, but each statement independently gives $y=24$."
+    },
     "explanation": "(1) gives $y = 24$ — sufficient. (2) gives $y = 24$ — sufficient. Each alone works. Answer D.",
     "estimatedTimeSeconds": 120
   },
@@ -315,6 +429,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "E"
+    },
+    "distractorRationale": {
+      "A": "Treats (1) as enough, but 30 French speakers alone says nothing about the Spanish overlap. The bilingual count is undetermined.",
+      "B": "Treats (2) as enough, but 25 Spanish speakers alone gives no overlap with French.",
+      "C": "Assumes the two counts together fix the overlap, but among 50 people the bilingual count can vary (e.g. 5 up to 25). Answer is E.",
+      "D": "Says each alone works, but neither count alone, nor both together, pins the number who speak both languages."
     },
     "explanation": "With 30 French and 25 Spanish speakers among 50 people, the overlap can range (some may speak neither, or all Spanish speakers may also speak French). Together the count of bilinguals is not determined. Answer E.",
     "estimatedTimeSeconds": 150
@@ -2267,6 +2387,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "Treats a late booking as fully non-reimbursable, but the policy reduces airfare to 75 percent, not to zero.",
+      "B": "A near-miss that does not match the rule; the correct figure is 75 percent of 400, which is 300, not 100.",
+      "D": "Likely applies a different percentage or subtracts a flat amount; under 14 days the airfare is reimbursed at 75 percent, $0.75\\times 400=300$.",
+      "E": "Assumes full reimbursement, but booking fewer than 14 days ahead triggers the 75 percent rate, giving 300."
+    },
     "explanation": "The booking was made fewer than 14 days in advance, so airfare is reimbursed at 75 percent: $0.75 \\times 400 = 300$.",
     "estimatedTimeSeconds": 120
   },
@@ -2304,6 +2430,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "Likely subtracts something extra from the correct total; lodging at the 180 cap times 3 plus meals of $60\\times 3$ gives $540+180=720$.",
+      "C": "Probably uses the 200 nightly rate for one night or miscounts meals; lodging is capped at 180 per night, so the total is 720.",
+      "D": "Counts lodging closer to the uncapped 200 rate; the cap reduces each night to 180, making lodging 540 and the total 720.",
+      "E": "Uses the full 200 per night ($600$) plus meals, ignoring the 180 cap. With the cap, lodging is 540 and the combined total is 720."
     },
     "explanation": "Lodging is capped at 180 per night, so 3 nights give $180 \\times 3 = 540$ (the 200 rate is reduced to the cap). Meals are $60 \\times 3 = 180$. The combined total is $540 + 180 = 720$.",
     "estimatedTimeSeconds": 120
@@ -2385,6 +2517,12 @@
       "format": "single",
       "value": "D"
     },
+    "distractorRationale": {
+      "A": "Reports the number of large plots (6) rather than the standard plots asked for. Subtract: $40-6=34$.",
+      "B": "A near-miss not supported by the sources; standard plots are total minus large, $40-6=34$.",
+      "C": "Likely subtracts the wrong figure; the large plots number 6, so standard plots are $40-6=34$, not 28.",
+      "E": "Gives the total number of plots, but the question asks only for the standard (non-large) ones: $40-6=34$."
+    },
     "explanation": "There are 40 plots in total and 6 large plots, so the standard plots number $40 - 6 = 34$.",
     "estimatedTimeSeconds": 120
   },
@@ -2422,6 +2560,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "Counts only the standard-plot revenue, $34\\times 20=680$, and omits the large plots. Add $6\\times 35=210$ to get 890.",
+      "C": "A near-miss not matching the per-plot fees; standard $680$ plus large $210$ totals 890.",
+      "D": "Likely miscomputes one of the fee products; the correct sum is $34\\times 20+6\\times 35=680+210=890$.",
+      "E": "Overcounts, perhaps applying the large-plot fee to all plots; only 6 plots are large, giving $680+210=890$."
     },
     "explanation": "Standard plots: $34 \\times 20 = 680$. Large plots: $6 \\times 35 = 210$. Total revenue is $680 + 210 = 890$.",
     "estimatedTimeSeconds": 120

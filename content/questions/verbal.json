@@ -15,6 +15,12 @@
       { "key": "E", "text": "The bike-share program cost more to operate than the city had projected." }
     ],
     "correctAnswer": { "format": "single", "value": "B" },
+    "distractorRationale": {
+      "A": "Popularity with tourists says nothing about whether bikes replaced car trips, so it cannot undercut the causal claim. To weaken a causal conclusion, supply an alternative cause for the congestion drop, as the new subway line in (B) does.",
+      "C": "Results in other cities support the idea that bike-share reduces congestion, so this strengthens rather than weakens the conclusion. The weakener must instead offer a rival explanation for City A's specific decline.",
+      "D": "A slight rise in registered cars does not explain why congestion fell, and if anything it makes the decrease more surprising rather than challenging the program's role. The real weakener is an alternative cause like the subway in (B).",
+      "E": "Higher-than-projected operating cost is a budget concern, not evidence about what caused congestion to fall. Weakening a causal claim requires an alternative cause, which (B) provides."
+    },
     "explanation": "The conclusion is causal: the bike-share program reduced congestion. The best way to weaken a causal claim is to supply an **alternative cause** for the same effect. (B) introduces a new subway line opening in the same area during the same period, which could account for the drop in congestion instead of the bikes. (C) strengthens; (A) and (E) are irrelevant to what caused the decrease; (D) doesn't explain the decrease.",
     "estimatedTimeSeconds": 120
   },
@@ -34,6 +40,12 @@
       { "key": "E", "text": "The 10-minute walks slightly reduce the total time employees spend at their desks." }
     ],
     "correctAnswer": { "format": "single", "value": "C" },
+    "distractorRationale": {
+      "A": "If walkers also exercise outside work, that is a confounding difference that could explain their productivity, which weakens the causal leap rather than strengthening it. The strengthener (C) instead shows the mandate itself raised productivity.",
+      "B": "Saying productivity is hard to measure casts doubt on the underlying data, which undercuts the argument rather than supporting it. Strengthening requires evidence the mandate works, as in (C).",
+      "D": "A scheduling preference for morning walks is irrelevant to whether mandatory walks raise overall productivity. The argument is strengthened only by evidence the intervention works, which (C) supplies.",
+      "E": "Noting that walks reduce desk time suggests a possible productivity cost, cutting against the conclusion. The correct strengthener (C) shows a comparable mandate actually raised productivity."
+    },
     "explanation": "The argument moves from a correlation (walkers are more productive) to a prediction about a mandate. (C) provides direct evidence that the very intervention proposed—*requiring* walks—actually raised productivity elsewhere, supporting the causal leap. (A) weakens it by suggesting a confound (the walkers differ in other ways); (B) and (E) cut against the conclusion; (D) is irrelevant.",
     "estimatedTimeSeconds": 120
   },
@@ -53,6 +65,12 @@
       { "key": "E", "text": "Other towns have already adopted the additive with success." }
     ],
     "correctAnswer": { "format": "single", "value": "B" },
+    "distractorRationale": {
+      "A": "The argument need not assume lead poisoning is the most common illness; it only claims the additive will reduce that one condition. The required assumption is (B), that a meaningful share of exposure comes from water, which the negation test confirms.",
+      "C": "Whether the additive has other side effects concerns a different harm and is not needed for the narrow conclusion that lead poisoning specifically will decline. The necessary assumption is (B).",
+      "D": "Long-term affordability is a practical matter the conclusion does not depend on; the claim is about the additive's effect once introduced, not its cost. The needed assumption is (B).",
+      "E": "Success in other towns is supporting evidence at most, not a logical requirement of this argument. Negating it leaves the conclusion intact, whereas negating (B) destroys it, so (B) is the assumption."
+    },
     "explanation": "Apply the **negation test**. If essentially *none* of residents' lead exposure came from drinking water (say it all came from old paint), then cutting the water's lead level would not reduce lead poisoning—and the conclusion collapses. So (B) is required. (A), (D), and (E) are not needed for the conclusion; (C) concerns a different harm, not whether lead poisoning specifically declines.",
     "estimatedTimeSeconds": 135
   },
@@ -72,6 +90,12 @@
       { "key": "E", "text": "No plant outside the greenhouse requires direct sunlight in order to bloom." }
     ],
     "correctAnswer": { "format": "single", "value": "B" },
+    "distractorRationale": {
+      "A": "We are told nothing about whether the other plants receive sunlight, so we cannot conclude they will bloom; sunlight is necessary but we lack evidence it is met for them. The only forced conclusion is (B), that the sunless ferns cannot bloom.",
+      "C": "This treats sunlight as sufficient for blooming, but the passage states only that it is necessary, so a sunlit plant is not guaranteed to bloom. The valid inference is (B).",
+      "D": "Comparing the ferns' sunlight to the other plants' is unsupported, since we know the ferns get none but nothing about how much the others get. Only (B) must be true.",
+      "E": "This extends the rule to plants outside the greenhouse, which the statements never address. The statements support only (B), that the ferns will not bloom."
+    },
     "explanation": "Direct sunlight is **necessary** for any greenhouse plant to bloom. The ferns are greenhouse plants that get no direct sunlight, so the necessary condition is unmet and they cannot bloom—(B) must be true. (E) confuses necessary with sufficient; (A) and (C) make claims about other plants we can't support; (D) assumes sunlight is the only requirement.",
     "estimatedTimeSeconds": 90
   },
@@ -92,6 +116,12 @@
       { "key": "E", "text": "propose a specific new set of rules for governing fisheries" }
     ],
     "correctAnswer": { "format": "single", "value": "B" },
+    "distractorRationale": {
+      "A": "This seizes on the detail of privatization and overstates it into a sweeping recommendation the passage never makes; the passage emphasizes community management, not privatization. The primary purpose is (B), describing how Ostrom complicated the standard model.",
+      "C": "The mathematical foundations of the model are never developed in the passage, so this cannot be its purpose. The passage's focus is (B), how Ostrom's research qualified the accepted view.",
+      "D": "Switzerland and Japan are supporting examples, not the subject of the whole passage; a main-idea answer must capture the overall arc. That arc is (B).",
+      "E": "Ostrom identified governing principles rather than proposing a specific set of fishery rules, so this overstates the content. The primary purpose is (B)."
+    },
     "explanation": "The passage lays out the standard tragedy-of-the-commons view, then devotes most of its length to how Ostrom's fieldwork qualified that view. That is exactly (B). (A) and (D) seize on details (privatization, the two countries) rather than the whole; (C) is never developed; (E) overstates—Ostrom identified principles, she did not propose fishery rules.",
     "estimatedTimeSeconds": 90
   },
@@ -112,6 +142,12 @@
       { "key": "E", "text": "rules that define which individuals are permitted to use a resource" }
     ],
     "correctAnswer": { "format": "single", "value": "C" },
+    "distractorRationale": {
+      "A": "The passage stresses that these systems were neither private nor state-run, so requiring a central authority contradicts the text. Graduated sanctions are penalties that start mild and stiffen for repeat offenders, which is (C).",
+      "B": "This reverses a penalty into a reward; graduated sanctions are punishments, not incentives for conservation. The passage defines them as escalating penalties, so (C) is correct.",
+      "D": "Access fees describe a different feature, not graduated sanctions, which the passage defines as mild-then-stiffer penalties. The answer is (C).",
+      "E": "Rules defining who may use a resource are a separate design feature mentioned in the passage, not graduated sanctions. Graduated sanctions are escalating penalties, so (C) is correct."
+    },
     "explanation": "The second paragraph defines graduated sanctions as \"penalties that began mildly and stiffened only for repeat offenders\"—precisely (C). (A) contradicts the point that these systems were neither private nor state-run; (B) reverses penalty into reward; (D) and (E) describe other features mentioned in the passage, not graduated sanctions.",
     "estimatedTimeSeconds": 75
   },
@@ -132,6 +168,12 @@
       { "key": "E", "text": "forecast how common resources will be governed in the future" }
     ],
     "correctAnswer": { "format": "single", "value": "B" },
+    "distractorRationale": {
+      "A": "The final paragraph does not concede the research was inconclusive; it notes that many commons do collapse to specify the model's scope, not to admit Ostrom proved nothing. Its function is (B), clarifying how her findings relate to the model.",
+      "C": "No new objection to community management is raised in the closing paragraph; it bounds the original model rather than attacking Ostrom's view. The function is (B).",
+      "D": "The paragraph emphasizes institutions rather than declaring them unnecessary, so this is the opposite of its point. Its purpose is (B), clarifying the relationship between Ostrom's findings and the model.",
+      "E": "The paragraph makes no forecast about future governance; it explains when the tragedy applies. That clarification is captured by (B)."
+    },
     "explanation": "The closing paragraph states that Ostrom's work \"did not so much refute the original model as bound it\"—it specifies *when* the tragedy applies (an institutional vacuum). That is a clarification of how her findings relate to the model, i.e., (B). (A) misreads \"many do collapse\"; (C) introduces no new objection; (D) is the opposite of the passage's emphasis on institutions; (E) makes no prediction.",
     "estimatedTimeSeconds": 105
   }

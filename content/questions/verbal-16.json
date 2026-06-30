@@ -35,6 +35,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "A higher price for the machines speaks to cost, not to whether the rowers caused more visits, so it leaves the causal claim untouched.",
+      "C": "A few members enjoying the machines is consistent with the owner's claim rather than a weakener; it gives no alternative cause for the rise in visits across the membership.",
+      "D": "The gym's seven-day schedule is unchanged background, irrelevant to why visits rose after the rowers arrived. Only an alternative cause, like the post-new-year surge, weakens the conclusion.",
+      "E": "A competitor's rowing machines say nothing about why this gym's members came in more often; they offer no rival explanation for the increase."
+    },
     "explanation": "If members routinely exercise more right after the new year no matter what equipment is present, that seasonal surge is an alternative cause for the rise in visits, undercutting the claim that the rowing machines were responsible.",
     "estimatedTimeSeconds": 90
   },
@@ -73,6 +79,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "The drinks being less popular does not bear on cavities; an unpopular but sugar-free drink could still cut cavities. The weakener must supply a competing cause, as the sealant program does.",
+      "C": "A few students bringing drinks from home would, if anything, blunt the policy's effect, not provide an alternative reason cavities fell. Only a separate cause like the new dental program weakens the claim.",
+      "D": "Where the cavity data come from is neutral record-keeping; it offers no rival explanation for the decline.",
+      "E": "Continued dessert sales would tend to keep cavities up, not explain the drop, so it fails to undercut the drink-change credit. The competing cause is the sealant and brushing program."
     },
     "explanation": "A new program teaching brushing and applying protective sealants in the same year is an alternative cause for the drop in cavities, weakening the claim that the drink change was responsible. The other options do not provide a competing cause for fewer cavities.",
     "estimatedTimeSeconds": 105
@@ -113,6 +125,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "A traffic display is part of the app being credited, so it reinforces rather than weakens the app-causes-productivity claim; it is not an independent confound.",
+      "B": "Easy-to-learn is a virtue of the app itself, supporting the managers' view, not an alternative cause for the rise in packages per shift.",
+      "D": "Operating in several cities is background that does not explain why deliveries per shift increased after the switch. The real confound is the smaller zones.",
+      "E": "A competitor's different app is irrelevant to why this company's drivers delivered more; only the simultaneous zone shrinkage offers a rival cause."
+    },
     "explanation": "Shrinking each driver's zone at the same time means stops were closer together, which independently raises packages per shift. That confound offers an alternative explanation for the increase, weakening the claim that the app's routing was the cause.",
     "estimatedTimeSeconds": 105
   },
@@ -151,6 +169,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "D"
+    },
+    "distractorRationale": {
+      "A": "A few abroad students later switching careers does not address why their starting salaries were higher; it leaves the skills-cause-pay claim standing.",
+      "B": "Higher cost of studying abroad speaks to whether it is worth it, not to whether it, rather than family background, caused the pay gap. The confound is the students' wealth and connections.",
+      "C": "Employer training given regardless of where one studied applies to both groups, so it cannot explain why abroad students earn more. Only a difference between the groups, like family wealth, weakens the claim.",
+      "E": "The number of program countries is background detail with no bearing on the salary difference or its cause."
     },
     "explanation": "If study-abroad students mostly come from wealthy, well-connected families, family connections, rather than skills gained abroad, could explain their higher salaries. This confound undermines both the causal claim and the recommendation that all students go abroad.",
     "estimatedTimeSeconds": 120
@@ -191,6 +215,12 @@
       "format": "single",
       "value": "E"
     },
+    "distractorRationale": {
+      "A": "Higher cost of the sensors concerns budget, not safety, and gives no alternative reason collisions fell. The weakener must supply a rival cause, like the traffic-diverting road closure.",
+      "B": "Who records collisions is neutral and unchanged; it offers no competing explanation for the drop.",
+      "C": "Drivers feeling the lights are responsive supports the officials' view rather than undercutting it; it is not an alternative cause for fewer crashes.",
+      "D": "Installing at the busiest intersections first, if anything, makes the safety gain more impressive; it does not explain the drop away. The real confound is the sharp fall in traffic volume."
+    },
     "explanation": "If far fewer cars passed through those intersections because of a road closure, the drop in collisions could simply reflect less traffic rather than safer signals, weakening the conclusion that the sensors made the intersections safer.",
     "estimatedTimeSeconds": 105
   },
@@ -229,6 +259,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "The trial's length is a neutral detail that says nothing about whether the trial causes conversions or merely attracts people already set on subscribing.",
+      "C": "Some trial users canceling does not address the comparison driving the conclusion; the self-selection of already-decided sign-ups is what undercuts the causal claim.",
+      "D": "Selling a print edition is unrelated to whether the online trial converts readers; it provides no alternative explanation for the higher subscription rate.",
+      "E": "That other sites offer trials says nothing about whether this trial causes conversions here. The weakener is that sign-ups are self-selected near-subscribers."
     },
     "explanation": "If trial sign-ups are mostly readers already intent on subscribing, the trial may not cause conversions but merely attract those who would have subscribed anyway. That self-selection undermines the causal conclusion and the case for promoting the trial.",
     "estimatedTimeSeconds": 120
@@ -269,6 +305,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "Oak barrels costing more raises expenses; it does not support the claim that customers will pay higher prices. The strengthener must tie oak aging to higher value, as the blind-tasting result does.",
+      "C": "Long use of steel tanks is background about the past and gives no reason buyers would pay more for the oak-aged wine.",
+      "D": "Oak barrels taking up more space is a logistical drawback, not evidence that customers will pay a premium.",
+      "E": "Other wineries using oak does not show that this winery can charge more; only direct evidence of higher perceived value, like the blind tastings, supports the prediction."
+    },
     "explanation": "If customers in blind tastings judge this winery's oak-aged wine to be worth substantially more, that directly supports the prediction that oak aging will let the winery charge higher prices.",
     "estimatedTimeSeconds": 90
   },
@@ -307,6 +349,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "C"
+    },
+    "distractorRationale": {
+      "A": "Bright paint is a detail about the lanes' appearance and does not establish that the lanes will reduce injuries; the parallel evidence from other avenues does.",
+      "B": "Many residents owning bikes speaks to ridership, not to whether protected lanes cut injuries on this avenue.",
+      "D": "The avenue's length is neutral background with no bearing on whether the lanes will lower cyclist injuries.",
+      "E": "How fast the project finishes is irrelevant to whether the finished lanes reduce injuries; the strengthener is the track record on comparable avenues."
     },
     "explanation": "Evidence that the same kind of protected lanes reduced cyclist injuries on other avenues supports the prediction that they will do so on this avenue as well.",
     "estimatedTimeSeconds": 90
@@ -347,6 +395,12 @@
       "format": "single",
       "value": "D"
     },
+    "distractorRationale": {
+      "A": "Also selling shoes does not address whether free returns on clothing raise overall profit; it leaves the cost-versus-gain question open, which is what D answers.",
+      "B": "Quick shipping is an existing strength unrelated to whether free returns add more profit than they cost.",
+      "C": "Competitors offering free returns might even pressure margins; it does not show this retailer's profit would rise. The strengthener is that return costs are small relative to the added profit.",
+      "E": "Some shoppers reading reviews is background about buyer behavior that says nothing about the profitability of free returns."
+    },
     "explanation": "If the cost of returns is small compared with the profit from the extra purchases free returns encourage, then the policy plausibly raises overall profit, strengthening the manager's argument. The other choices do not address whether profit would rise.",
     "estimatedTimeSeconds": 105
   },
@@ -385,6 +439,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "E"
+    },
+    "distractorRationale": {
+      "A": "When the fish were introduced is background; it does not show that removing them now will let frogs recover. The strengthener links the fish to frog losses directly.",
+      "B": "A color difference between frogs and fish is irrelevant to whether removing the fish helps the frog population rebound.",
+      "C": "The lake's popularity with anglers does not bear on whether the fish are suppressing the frogs or whether removal will help them recover.",
+      "D": "Past removal of invasive plants shows general capability but not that removing these fish will revive the frogs; the predation-and-timing evidence does that."
     },
     "explanation": "Evidence that the fish prey on frog eggs and tadpoles, and that the decline began only after the fish arrived, supports the prediction that removing the fish will let the frog population recover.",
     "estimatedTimeSeconds": 105
@@ -425,6 +485,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "Existing remote-work allowances do not address the skeptics' point about midday errand driving; only showing those errands fall outside rush hour strengthens the congestion claim.",
+      "C": "Reduced commuting expenses is a benefit to employees but says nothing about rush-hour traffic volume.",
+      "D": "Heavy transit use at rush hour is background that does not answer whether remote work cuts road congestion or whether errand driving offsets it.",
+      "E": "Some employees preferring the office bears on uptake, not on whether removing commutes reduces rush-hour congestion. The strengthener neutralizes the errand objection."
+    },
     "explanation": "By showing that remote workers' errand driving falls outside rush hour and would have happened regardless, this choice neutralizes the skeptics' objection and supports the claim that removing commutes will cut rush-hour congestion.",
     "estimatedTimeSeconds": 120
   },
@@ -463,6 +529,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "Certified beans being grown in several countries is sourcing background that does not show profit will rise; the strengthener is customers' willingness to pay more than the added cost.",
+      "C": "Years in business is irrelevant to whether the switch to costlier certified beans will increase profit.",
+      "D": "Some competitors not using certified beans does not establish that this roaster will earn more; only a price premium exceeding the extra cost does.",
+      "E": "Independent oversight of certification speaks to credibility, not to whether the switch raises this roaster's total profit."
     },
     "explanation": "If customers will pay more for certified-bean coffee by an amount that exceeds the extra cost of the beans, the switch raises the margin per sale and supports the belief that total profit will rise.",
     "estimatedTimeSeconds": 105
@@ -503,6 +575,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "Whiter light is a side feature, not something the cost-savings argument depends on; the argument can hold whatever the light's color.",
+      "B": "Whether residents prefer brighter lights concerns preference, not the spending comparison the argument requires.",
+      "D": "What other towns have done is not assumed by this argument about this town's lighting bill.",
+      "E": "The current bulbs nearing end of life is not required; even with new bulbs, the savings could still fail to cover purchase and installation. The needed assumption is that they will not be outweighed by those costs."
+    },
     "explanation": "For annual spending to fall, the electricity savings must not be cancelled out by the cost of buying and installing the new bulbs over the period considered; the argument takes this for granted.",
     "estimatedTimeSeconds": 90
   },
@@ -541,6 +619,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "D"
+    },
+    "distractorRationale": {
+      "A": "Cheaper preparation of plant dishes concerns cost, not the conclusion about total customer count, so it is not a required assumption.",
+      "B": "The argument does not need current customers to keep ordering meat specifically; it needs them not to leave in numbers that cancel the new diners, which is what D states.",
+      "C": "What most restaurants offer is irrelevant to whether this chain's total customer count rises.",
+      "E": "The argument needs only a net gain in customers, not that the new dishes become the most popular items; assuming they top the menu is far more than required."
     },
     "explanation": "The conclusion is about the total number of customers, so the argument assumes the new dishes will not lose enough current customers to offset the meat-avoiding diners they attract; otherwise the total need not rise.",
     "estimatedTimeSeconds": 105
@@ -581,6 +665,12 @@
       "format": "single",
       "value": "E"
     },
+    "distractorRationale": {
+      "A": "Whether netting is the cheapest deterrent concerns cost-effectiveness, not whether the netting will increase the harvest, so it is not assumed.",
+      "B": "The argument needs only that birds eat a large share, not that they out-eat every other pest; comparing birds with other pests is not required.",
+      "C": "Whether other vineyards use netting is irrelevant to whether netting will raise this owner's harvest.",
+      "D": "The argument does not assume the birds migrate; it works whether or not they leave. The required assumption is that the netting itself will not cause losses matching the grapes it saves."
+    },
     "explanation": "The harvest will grow only if the netting does not cause losses of its own, such as damaging vines or blocking sunlight, that match or exceed the grapes saved from birds; the reasoning assumes this.",
     "estimatedTimeSeconds": 105
   },
@@ -619,6 +709,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "Whether employees prefer trackers to other perks concerns preference, not whether the program nets a reduction in insurance spending, so it is not the needed assumption.",
+      "C": "Whether trackers measure heart rate is a feature detail irrelevant to the net-savings claim.",
+      "D": "Whether employees already own trackers is not required; the argument needs the medical savings to exceed the trackers' cost, which is what A states.",
+      "E": "What competitors offer has no bearing on whether this company's own insurance spending falls."
     },
     "explanation": "For total insurance spending to fall, the medical savings from any added exercise must outweigh what the trackers cost; the claim assumes this net reduction. Without it, the program could cost more than it saves.",
     "estimatedTimeSeconds": 120
@@ -659,6 +755,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "Cheaper production of audiobooks concerns cost, not whether the audiobook reaches the listen-while-cooking audience the editor describes.",
+      "C": "The argument does not depend on the print edition having sold poorly; it claims the audiobook reaches a new audience regardless of print sales.",
+      "D": "What most cookbooks do is irrelevant to whether this one can be used by ear, which is the assumption the editor's argument requires.",
+      "E": "Author narration is a nice touch but not required; the argument assumes the recipes can be followed by listening alone, no matter who narrates."
+    },
     "explanation": "The argument's whole point is that listeners can cook from the audiobook; that requires assuming the recipes are usable by ear, without needing to look at a page. If they were not, the audiobook would not serve the intended audience.",
     "estimatedTimeSeconds": 105
   },
@@ -697,6 +799,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "C"
+    },
+    "distractorRationale": {
+      "A": "The premise runs one way: everyone on the overseas account knows two languages, not everyone with two languages is on it. So this reverses the conditional and need not be true.",
+      "B": "Nothing in the statements says Daniel is studying another language; the only forced conclusion is that he is not on the overseas account.",
+      "D": "The overseas account's size is never mentioned and cannot be inferred.",
+      "E": "How many analysts speak two languages is not stated; the statements support only that Daniel, with one language, is off the overseas account."
     },
     "explanation": "Since everyone on the overseas account is fluent in at least two languages and Daniel is fluent in only one, he cannot be on that account. The other choices add claims the statements do not support.",
     "estimatedTimeSeconds": 90
@@ -737,6 +845,12 @@
       "format": "single",
       "value": "D"
     },
+    "distractorRationale": {
+      "A": "Calling rotation the only way to keep soil healthy goes far beyond the data, which compare two groups and never rule out other paths to healthy soil.",
+      "B": "The study actually shows size is a confound, so claiming size has no effect contradicts the support; the warranted point is that rotation cannot be credited alone.",
+      "C": "The passage says nothing about yields, so a yield comparison is unsupported.",
+      "E": "\"Always\" is too strong; the study says rotating farms tend to be larger, not that every large farm rotates."
+    },
     "explanation": "Because crop-rotating farms also tend to be larger, size is a second difference that could bear on soil health, so the data do not isolate rotation as the cause. The other choices overstate or go beyond what the study supports.",
     "estimatedTimeSeconds": 105
   },
@@ -775,6 +889,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "E"
+    },
+    "distractorRationale": {
+      "A": "More total fares could come from many more local riders even at a lower per-rider fare, so a higher individual fare need not hold.",
+      "B": "Profitability depends on costs, which the statements never give; more fares does not establish more profit.",
+      "C": "Higher total fares could result from higher fares rather than more riders, so the local route need not be more popular.",
+      "D": "Discontinuing the express route is a recommendation the facts do not support; only the restatement in E follows from the statements."
     },
     "explanation": "Only E restates what the statements establish: the local route brings in more total fares even though its trips take longer. A and C need not hold (more fares could come from more riders at any fare), B ignores costs, and D is a recommendation the facts do not warrant.",
     "estimatedTimeSeconds": 105
@@ -815,6 +935,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "Nothing tells us how many brass instruments Paula plays; the statements force only that she cannot read music.",
+      "C": "No brass player plays a string instrument, so claiming some do both directly contradicts a premise.",
+      "D": "The premise says music-readers play strings, not that they play brass; this reverses and adds to the statements.",
+      "E": "We cannot conclude Paula is the only brass player who cannot read music; the premises say nothing about how many such players there are."
+    },
     "explanation": "Anyone who reads music plays a string instrument, but no brass player plays a string instrument. Paula plays brass, so she plays no string instrument and therefore cannot read music. The other choices are unsupported or contradict the premises.",
     "estimatedTimeSeconds": 120
   },
@@ -853,6 +979,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "The machine's age is never mentioned and cannot be inferred from the breakdown.",
+      "C": "Nothing tells us about the next interval; the only forced conclusion is that the rule failed or the servicing was not on schedule.",
+      "D": "That servicing is wasted is an over-reading; one short interval does not show on-schedule servicing has no value.",
+      "E": "A recommendation to service more often is not supported; the facts establish only that the stated rule or the servicing claim must give way."
     },
     "explanation": "If on-schedule servicing always yielded at least three hundred hours, a serviced machine could not break down at two hundred fifty hours. So either the stated rule has an exception or the machine was not actually serviced on schedule. The other choices are unsupported.",
     "estimatedTimeSeconds": 105
@@ -893,6 +1025,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "Whether patrons would read more is about usage, not about whether the switch saves money, which is the librarian's claim.",
+      "B": "How many patrons own devices bears on access and convenience, not on the cost comparison that determines savings.",
+      "D": "Freeing shelf space is a possible side benefit but does not address whether the digital subscriptions cost less than print.",
+      "E": "Whether the same publishers supply both formats is irrelevant to the money-saving question, which hinges on the cost comparison in C."
+    },
     "explanation": "Whether the switch saves money turns on how the cost of the digital subscriptions compares with current spending on print; that comparison is exactly what must be known to evaluate the argument.",
     "estimatedTimeSeconds": 90
   },
@@ -931,6 +1069,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "D"
+    },
+    "distractorRationale": {
+      "A": "What neighboring farms did does not determine whether the panels save this farm money over time.",
+      "B": "Where the panels are made is irrelevant to whether their lifetime savings exceed their cost.",
+      "C": "Whether the farm grows crops or raises livestock does not bear on the cost-versus-savings comparison that decides the claim.",
+      "E": "Wind resistance touches durability but not directly the money question; the decisive issue is whether lifetime electricity savings exceed purchase and installation cost."
     },
     "explanation": "The argument is about saving money over time, so the key question is whether the electricity savings over the panels' lifetime outweigh their purchase and installation cost; the answer determines whether the claim holds.",
     "estimatedTimeSeconds": 105
@@ -971,6 +1115,12 @@
       "format": "single",
       "value": "E"
     },
+    "distractorRationale": {
+      "A": "Page count is a product detail that does not tell us whether a higher price raises total revenue.",
+      "B": "Where the magazine is sold does not determine how revenue responds to a price increase; the key is how many buyers are lost.",
+      "C": "How long it has been published is background irrelevant to the revenue effect of a price change.",
+      "D": "The publisher's other magazines do not bear on whether this title's revenue rises; revenue turns on how many readers drop out, as E asks."
+    },
     "explanation": "Total revenue is price times copies sold, so whether a price increase raises revenue depends on how many buyers it drives away. Knowing that number is essential to evaluating the publisher's expectation.",
     "estimatedTimeSeconds": 105
   },
@@ -1009,6 +1159,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "Whether visitors can see the wolves concerns the park experience, not whether the wolves will actually reduce the deer.",
+      "C": "Whether wolves once lived there is historical background that does not settle whether reintroduction will lower deer numbers now.",
+      "D": "An entrance fee is irrelevant to the predation plan's effectiveness.",
+      "E": "What neighboring parks did does not tell us whether wolves will reduce the deer here; the decisive question is whether the deer can evade predation."
     },
     "explanation": "The plan works only if wolves actually reduce the deer; if the deer can readily evade the wolves, their numbers may not fall. Whether the deer can escape predation thus bears directly on whether the plan will succeed.",
     "estimatedTimeSeconds": 120
@@ -1049,6 +1205,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "A quiet side-street location would not boost sales; it offers no reason sourdough sold more despite a higher price.",
+      "C": "Selling other baked goods does not explain why sourdough specifically sold more after its price rose.",
+      "D": "Sourdough's longer baking time is a production fact that does not account for higher sales at a higher price.",
+      "E": "Using paper bags is an incidental detail with no power to explain the rise in sourdough sales. The magazine endorsement that boosted demand does."
+    },
     "explanation": "A prominent magazine naming the sourdough the best in the city would draw many new customers, an increase in demand that can raise sales even as the price rose, resolving the apparent puzzle.",
     "estimatedTimeSeconds": 90
   },
@@ -1087,6 +1249,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "C"
+    },
+    "distractorRationale": {
+      "A": "Being near a highway is fixed background that does not explain why waits grew after the larger ER opened.",
+      "B": "More beds would tend to shorten waits, deepening the puzzle rather than resolving it.",
+      "D": "How long construction took does not explain longer waits once the ER was open.",
+      "E": "Some patients arriving by ambulance is a constant detail that does not account for the rise in average waiting time; the surge in patients drawn by the short-wait reputation does."
     },
     "explanation": "If the reputation for short waits attracted enough extra patients to overwhelm even the larger capacity, average waiting time could rise despite the expansion, resolving the discrepancy. The other choices do not account for longer waits.",
     "estimatedTimeSeconds": 105
@@ -1127,6 +1295,12 @@
       "format": "single",
       "value": "D"
     },
+    "distractorRationale": {
+      "A": "Slightly higher manufacturing cost would, if anything, squeeze revenue, not explain why revenue rose; it deepens the puzzle.",
+      "B": "Selling jeans in many colors is a constant detail that does not explain why revenue rose after the durability change.",
+      "C": "Also selling jackets says nothing about why jeans revenue specifically increased.",
+      "E": "Decades in business is background that does not resolve why longer-lasting jeans brought in more revenue; the influx of premium-paying new buyers does."
+    },
     "explanation": "Even if longer-lasting jeans are replaced less often, a wave of new buyers paying higher prices for the more durable product can raise total jeans revenue, reconciling longer-lasting jeans with rising revenue.",
     "estimatedTimeSeconds": 105
   },
@@ -1165,6 +1339,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "E"
+    },
+    "distractorRationale": {
+      "A": "The fee applying only on weekdays does not explain why total time in traffic rose; it leaves the increase unaccounted for.",
+      "B": "Drivers switching to transit would reduce driving and delay, deepening the puzzle rather than explaining the rise.",
+      "C": "How fee revenue is spent does not bear on why total time stuck in traffic increased.",
+      "D": "The core containing many offices is background that does not explain the rise; the explanation is rerouting that congests already-busy surrounding streets."
     },
     "explanation": "If drivers reroute around the core onto already-busy surrounding streets, congestion and delay there can grow enough to raise the city's total time in traffic even as traffic within the core falls, resolving the discrepancy.",
     "estimatedTimeSeconds": 120
@@ -1205,6 +1385,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "The argument cites no employee opinions, so this misdescribes its reasoning; its actual flaw is inferring cause from mere sequence.",
+      "C": "The conclusion is about this company only, not all companies, so this overgeneralization charge does not fit.",
+      "D": "The argument does not turn on the meaning of \"profit,\" so a missing definition is not its weakness.",
+      "E": "No necessary-versus-sufficient confusion occurs here; the flaw is the post hoc leap from \"after\" to \"because.\""
+    },
     "explanation": "The argument infers causation from the mere fact that profits rose after the schedule changed, the classic post hoc flaw, while ignoring other factors that could have driven the growth.",
     "estimatedTimeSeconds": 105
   },
@@ -1243,6 +1429,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "Cost of employing former marketers is irrelevant to whether their background caused past success; the flaw is overlooking other causes of that success.",
+      "C": "Some marketers also having sales experience does not address why the launches succeeded or whether marketing background was the cause.",
+      "D": "Products changing yearly does not capture the gap in the reasoning, which is assuming the leaders' background, not the products themselves, drove success.",
+      "E": "Whether other employees want to lead is beside the point; the vulnerability is the unexamined assumption that marketing background caused the wins."
     },
     "explanation": "The argument treats the leaders' marketing background as the cause of success, but those launches might have succeeded for other reasons, such as strong products. Overlooking that possibility makes the recommendation unsupported.",
     "estimatedTimeSeconds": 105
@@ -1283,6 +1475,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "How long participants had meditated is a minor data gap; the central flaw is ignoring that low stress might enable the meditation habit rather than result from it.",
+      "B": "The argument does not assume meditation is free, so this misstates its weakness.",
+      "D": "The objection is not about sample size; even a large survey could not rule out the reverse-causation problem the argument overlooks.",
+      "E": "Whether everyone enjoys meditating is not assumed; the flaw is overlooking that already-less-stressed people may simply be the ones who keep meditating."
+    },
     "explanation": "The causal direction may be reversed: people who are already less stressed may find it easier to sustain daily meditation, so the correlation need not mean meditation lowers stress. Ignoring this reverse-causation possibility is the central flaw.",
     "estimatedTimeSeconds": 120
   },
@@ -1322,6 +1520,12 @@
       "format": "single",
       "value": "D"
     },
+    "distractorRationale": {
+      "A": "No claim that one event caused another from co-occurrence is made; the flaw is treating two options as exhaustive when others exist.",
+      "B": "The argument makes no appeal to a past cause recurring, so this mischaracterizes its reasoning.",
+      "C": "There is no sample or generalization here; the weakness is the false either/or between cutting ads and missing the target.",
+      "E": "No key term is left undefined; the flaw is presenting only two possibilities when reducing other costs is a third way to hit the target."
+    },
     "explanation": "The argument presents cutting advertising and missing the target as the only alternatives, but the company could meet the target another way, by reducing other costs. Presenting a false either/or is the flaw, so denying one option does not establish the other.",
     "estimatedTimeSeconds": 105
   },
@@ -1359,6 +1563,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "Calling magnetism the single most important cue overstates the passage, which concludes no one cue dominates and that birds weigh several together.",
+      "C": "The passage explicitly leaves the biological basis of the magnetic sense unsettled, so settling that dispute is not its purpose.",
+      "D": "Why songbirds migrate long distances is not the passage's concern; it focuses on how they navigate.",
+      "E": "The passage does not compare songbirds with other migrating animals, so this is outside its scope."
     },
     "explanation": "The passage traces evidence for celestial and magnetic cues and concludes that no single cue dominates and that birds weigh them together. B overstates the role of magnetism, C is left explicitly unresolved, and D and E are topics the passage does not pursue.",
     "estimatedTimeSeconds": 90
@@ -1398,6 +1608,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "Navigating while deprived of food is not what the coil experiment showed; the experiment demonstrated response to magnetic-field direction.",
+      "C": "Learning the stars' rotation in the nest is a separate, star-based finding, not the result of the artificial-coil experiment.",
+      "D": "Sensing air pressure is never mentioned in connection with the coil experiment or elsewhere.",
+      "E": "Recognizing landmarks is not what the coils tested; reversing the field and seeing birds reorient showed they detect magnetic direction."
+    },
     "explanation": "The passage says that when coils reversed the field's direction, many birds reoriented accordingly, confirming that they can read magnetic information. C describes a separate star-based finding, and the other options are not mentioned.",
     "estimatedTimeSeconds": 75
   },
@@ -1435,6 +1651,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "C"
+    },
+    "distractorRationale": {
+      "A": "If intensity were the same everywhere along a route it could give no positional information; the passage's point is that it varies predictably with latitude.",
+      "B": "The beak-crystal mechanism is a disputed detection method, not the reason intensity can serve as a map; that reason is its regular variation with latitude.",
+      "D": "Nothing in the passage says intensity is stronger at night, so this is unsupported.",
+      "E": "The passage ties intensity to latitude, not to the rotation of the stars; star rotation is a separate cue."
     },
     "explanation": "The passage states that magnetic intensity varies predictably with latitude, which is why it could supply positional, map-like information. A contradicts that variation; B overstates one disputed mechanism; D and E are unsupported.",
     "estimatedTimeSeconds": 110
@@ -1474,6 +1696,12 @@
       "format": "single",
       "value": "D"
     },
+    "distractorRationale": {
+      "A": "The detail is not offered to explain navigational failures; it is offered to imply a second compass beyond the stars.",
+      "B": "It does not prove the star compass plays no role; the passage later says birds use both star and magnetic cues, so this contradicts the text.",
+      "C": "The point is not about the difficulty of keeping birds captive but about what their correct departure implies.",
+      "E": "The beak-crystal claim is a separate, disputed mechanism; the shielded-sky result is cited to show a non-star cue must be at work."
+    },
     "explanation": "The detail is offered to imply a second, independent compass beyond the stars, as the passage states. It does not prove the star compass plays no role (B contradicts the passage's later point that birds use both) and the other options are unsupported.",
     "estimatedTimeSeconds": 105
   },
@@ -1511,6 +1739,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "E"
+    },
+    "distractorRationale": {
+      "A": "\"Permanently\" overstates the passage, which stresses that a network-effect advantage is conditional on switching costs and multihoming.",
+      "B": "Messaging is offered only as an example, not as the main point of the passage.",
+      "C": "Saying a product's value has nothing to do with how many others use it contradicts the very definition of a network effect.",
+      "D": "The passage never advocates breaking up firms, so this is not its main point."
     },
     "explanation": "The passage explains how network effects can entrench a firm but then stresses that this advantage is conditional on switching costs and the ability to use more than one network. A overstates permanence, C contradicts the definition, D is never advocated, and B is only an example.",
     "estimatedTimeSeconds": 90
@@ -1550,6 +1784,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "A falling price as output rises describes economies of scale, not the network effect the passage defines.",
+      "C": "Legal protection from competition is a different phenomenon and not the passage's definition of a network effect.",
+      "D": "A product usable with no connection to others is the opposite of one with a network effect.",
+      "E": "Being sold by a single firm describes a monopoly, not a network effect, which is about value rising with the number of users."
+    },
     "explanation": "The passage defines a network effect as occurring when a product's value to each user rises as the number of other users grows. The other options describe different phenomena not given as the definition.",
     "estimatedTimeSeconds": 75
   },
@@ -1587,6 +1827,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "The passage attributes the benefit of interoperability to keeping users' contacts, not to lowering the challenger's price.",
+      "C": "Forcing the incumbent to improve its product is not the effect the passage assigns to interoperability.",
+      "D": "Preventing the market from tipping to any one firm overstates the passage's claim; interoperability helps a challenger by preserving users' contacts.",
+      "E": "The passage guarantees no such dominance; it says interoperability lets users adopt the challenger without giving up existing contacts."
     },
     "explanation": "The passage says interoperability lets a user switch without abandoning existing contacts, removing the main barrier created by the network effect. The other options describe effects the passage does not attribute to interoperability.",
     "estimatedTimeSeconds": 105
@@ -1626,6 +1872,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "Arguing network effects rarely produce a dominant firm contradicts the passage, which grants that they can entrench one.",
+      "B": "The passage does not claim users always benefit when a dominant firm falls; the reverse dynamic is mentioned to qualify the firm's security.",
+      "D": "The reverse dynamic is not raised to explain messaging-service profits.",
+      "E": "The passage offers no advice that challengers wait for incumbents to collapse; the point qualifies the idea of permanent security."
+    },
     "explanation": "The reverse dynamic is introduced right after the claim that dominance is not always permanent, qualifying the idea that network effects make a firm secure forever. A contradicts the passage, and the remaining options are unsupported.",
     "estimatedTimeSeconds": 110
   },
@@ -1663,6 +1915,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "D"
+    },
+    "distractorRationale": {
+      "A": "Tracing galley design is a detail, not the passage's overall purpose, which weighs the Arsenal against later manufacturing.",
+      "B": "Calling the Arsenal the first true factory is the very view the passage cautions against, so it cannot be its purpose.",
+      "C": "How Venice came to dominate trade is not the passage's main concern; its focus is the Arsenal's organization of work.",
+      "E": "A detailed comparison with rival city-states' shipyards is not what the passage undertakes."
     },
     "explanation": "The passage describes the Arsenal's organization of work and then weighs whether it should be seen as a forerunner of the modern factory. B is the view the passage explicitly cautions against, and C, A, and E are not its main concern.",
     "estimatedTimeSeconds": 90
@@ -1702,6 +1960,12 @@
       "format": "single",
       "value": "E"
     },
+    "distractorRationale": {
+      "A": "The passage says the Arsenal's distinction was less any new invention than its organization of work, so a new kind of galley misreads the text.",
+      "B": "Powered machinery replacing hand labor is not mentioned; the Arsenal relied on arranging hand tasks into stations.",
+      "C": "Secrecy about techniques is not given as the distinguishing feature.",
+      "D": "Reliance on workers from other city-states is not mentioned; what stood out was sequencing tasks with standardized parts."
+    },
     "explanation": "The passage says what distinguished the Arsenal was less any invention than how it arranged familiar tasks, moving hulls past stations where standardized, interchangeable parts were fitted in turn. The other options are contradicted or not mentioned.",
     "estimatedTimeSeconds": 75
   },
@@ -1739,6 +2003,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "The passage does not claim the galleys were faster than rivals'; the military edge came from replacing losses quickly and keeping a reserve fleet.",
+      "C": "Better sailor training is not mentioned as a benefit of the Arsenal's method.",
+      "D": "Lower per-ship cost is not the advantage the passage cites; the edge was rapid replacement and a large reserve fleet.",
+      "E": "More advanced weapons are never claimed; the inferred advantage is quick replacement of ships."
     },
     "explanation": "The passage states that the division of labor let Venice maintain a large reserve fleet and replace losses rapidly in wartime, an advantage over rivals who built ships one at a time. The other supposed advantages are not claimed in the passage.",
     "estimatedTimeSeconds": 105
@@ -1778,6 +2048,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "\"Wholly dismissive\" is too strong; the author credits the Arsenal with anticipating standardization while only cautioning against the factory label.",
+      "C": "\"Uncritical enthusiasm\" ignores the author's cautions, so it overstates the positive side.",
+      "D": "\"Open hostility\" misreads the balanced tone; the author acknowledges genuine merit.",
+      "E": "\"Complete indifference\" is wrong because the author actively evaluates the claim, landing on qualified acknowledgment."
+    },
     "explanation": "The author cautions against calling the Arsenal a true factory yet credits it with anticipating principles of standardization and sequencing, a balanced, qualified acknowledgment. The extreme attitudes in A, C, and D and the indifference in E do not fit.",
     "estimatedTimeSeconds": 100
   },
@@ -1815,6 +2091,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "C"
+    },
+    "distractorRationale": {
+      "A": "Saying third places matter only for goods and services misstates the passage, which locates their value in chance encounters.",
+      "B": "Claiming online forums have fully replaced third places overstates one disputed side of the debate the passage presents.",
+      "D": "Naming suburban design as the single cause of community decline overstates a point the passage does not make central.",
+      "E": "That people form closest friendships at work is not the passage's claim; its main idea concerns third places and the debate over digital substitutes."
     },
     "explanation": "The passage defines third places, locates their value in unplanned recurring encounters, and presents a debate over whether digital spaces can reproduce them. B and D overstate single claims, A misstates their value, and E is unsupported.",
     "estimatedTimeSeconds": 90
@@ -1854,6 +2136,12 @@
       "format": "single",
       "value": "D"
     },
+    "distractorRationale": {
+      "A": "Strict enforcement of social rank is the opposite of the leveling of rank the passage names as a third place's feature.",
+      "B": "A required membership fee is not given as a distinguishing feature; accessibility is.",
+      "C": "Focus on completing scheduled tasks describes the workplace, not the third place the passage contrasts with it.",
+      "E": "Being located far from residential neighborhoods is not stated; the distinguishing features are accessibility and the leveling of rank."
+    },
     "explanation": "The passage states that a third place is marked by its accessibility and by the leveling of social rank within it. A directly contradicts that leveling, and the other options are not given as defining features.",
     "estimatedTimeSeconds": 75
   },
@@ -1892,6 +2180,12 @@
       "format": "single",
       "value": "E"
     },
+    "distractorRationale": {
+      "A": "The critics concede digital spaces can host lively conversation, so saying they cannot overstates their view.",
+      "B": "The critics do not tie online spaces' fate to suburban design; that is not their claim.",
+      "C": "Critics deny, rather than assert, that digital spaces have eliminated the need for physical gathering.",
+      "D": "The passage does not say critics view online spaces as open only to people who already know one another; their point is the lack of chance encounters with near strangers."
+    },
     "explanation": "The critics concede that digital spaces can be lively but argue they rarely deliver the chance physical encounters with near strangers that gave third places their power. That makes E their view; A overstates it, and C, D, and B are unsupported.",
     "estimatedTimeSeconds": 110
   },
@@ -1929,6 +2223,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "D"
+    },
+    "distractorRationale": {
+      "A": "Demonstrating that conversation is unimportant contradicts the passage, which values the encounters that conversation builds.",
+      "B": "The author is not arguing structured institutions are more valuable than informal ones; the point illustrates how third places build loose ties.",
+      "C": "Showing third places are open only to longtime residents contradicts their accessibility; that is not the function of the detail.",
+      "E": "The detail does not aim to prove online forums host no ties; it explains how third places weave a neighborhood's loose ties."
     },
     "explanation": "The point that acquaintances form gradually across lines other institutions keep separate is offered to explain how third places give a neighborhood its fabric of loose ties. The other options contradict the passage or are unsupported.",
     "estimatedTimeSeconds": 105

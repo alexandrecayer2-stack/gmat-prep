@@ -99,6 +99,12 @@
     "difficultyDrivers": ["Each statement gives only one factor of 6", "Together the statements are sufficient by definition", "Very limited algebra"],
     "stem": "Is the integer $n$ divisible by $6$?\n(1) $n$ is divisible by $2$.\n(2) $n$ is divisible by $3$.",
     "correctAnswer": { "format": "single", "value": "C" },
+    "distractorRationale": {
+      "A": "Divisibility by $2$ alone allows numbers like $4$ that are not divisible by $3$, so statement (1) cannot settle the question; you also need the factor of $3$.",
+      "B": "Divisibility by $3$ alone allows numbers like $9$ that are not divisible by $2$, so statement (2) cannot settle the question; you also need the factor of $2$.",
+      "D": "This claims each statement works alone, but neither does: $6=2\\times 3$ requires both factors, which only the combined statements guarantee.",
+      "E": "Picking E says even both statements fail, but together they force divisibility by both $2$ and $3$, hence by $6$, so they are sufficient."
+    },
     "explanation": "Statement (1) alone is not enough, because a number can be divisible by 2 but not by 3. Statement (2) alone is also not enough, because a number can be divisible by 3 but not by 2. Together, the statements imply that $n$ is divisible by both 2 and 3, so $n$ is divisible by $6$.",
     "estimatedTimeSeconds": 60,
     "tags": ["data-sufficiency", "divisibility", "number-properties"]
@@ -115,6 +121,12 @@
     "difficultyDrivers": ["Each statement alone leaves infinitely many possibilities", "Together the equations determine a unique value", "Moderate substitution"],
     "stem": "What is the value of $x$?\n(1) $2x + y = 17$\n(2) $x - y = 1$",
     "correctAnswer": { "format": "single", "value": "C" },
+    "distractorRationale": {
+      "A": "One linear equation in two unknowns has infinitely many solutions, so $2x+y=17$ alone cannot pin down $x$; a second independent equation is required.",
+      "B": "Likewise $x-y=1$ alone leaves infinitely many pairs $(x,y)$; statement (2) by itself does not determine $x$.",
+      "D": "Neither single equation fixes $x$; only the two together yield the unique solution $3x=18$, so $x=6$.",
+      "E": "The two equations are independent, so combining them solves the system to $x=6$ — they are sufficient, not insufficient."
+    },
     "explanation": "Statement (1) alone leaves infinitely many pairs $(x,y)$. Statement (2) alone does the same. Together, from $x-y=1$ we get $y=x-1$. Substituting into $2x+y=17$ gives $2x+(x-1)=17$, so $3x=18$ and $x=6$.",
     "estimatedTimeSeconds": 90,
     "tags": ["data-sufficiency", "algebra", "system-of-equations"]
@@ -131,6 +143,12 @@
     "difficultyDrivers": ["Requires translating a word problem into equations", "Neither statement alone identifies both prices", "Together the system is solvable but still needs careful setup"],
     "stem": "What is the price of one notebook?\n(1) The total cost of $3$ notebooks and $2$ pens is $16$ dollars.\n(2) The total cost of $2$ notebooks and $3$ pens is $17$ dollars.",
     "correctAnswer": { "format": "single", "value": "C" },
+    "distractorRationale": {
+      "A": "The single equation $3n+2p=16$ has many $(n,p)$ solutions, so statement (1) alone cannot isolate the notebook price; a second equation is needed.",
+      "B": "Similarly $2n+3p=17$ alone leaves both prices undetermined; statement (2) by itself is insufficient.",
+      "D": "Each statement gives only one equation in two unknowns; only the two together solve the system, giving $5n=14$ so $n=14/5$.",
+      "E": "The two equations are independent and solvable together, yielding $n=14/5$, so combined they are sufficient rather than insufficient."
+    },
     "explanation": "Let $n$ be the price of a notebook and $p$ the price of a pen. Statement (1) gives $3n+2p=16$, which is not enough by itself. Statement (2) gives $2n+3p=17$, also not enough by itself. Together, multiply the first equation by 3 and the second by 2: $9n+6p=48$ and $4n+6p=34$. Subtract to get $5n=14$, so $n=14/5$.",
     "estimatedTimeSeconds": 100,
     "tags": ["data-sufficiency", "word-problem", "linear-system"]
@@ -147,6 +165,12 @@
     "difficultyDrivers": ["Statement 1 generates multiple candidates", "Statement 2 is intentionally broad", "Together the intersection is unique but requires careful filtering"],
     "stem": "What is the value of $x$?\n(1) $\\operatorname{lcm}(x,12)=60$ and $x<25$.\n(2) $x$ is an odd positive integer divisible by $5$ and is not divisible by $3$.",
     "correctAnswer": { "format": "single", "value": "C" },
+    "distractorRationale": {
+      "A": "Statement (1) narrows $x$ to $5,10,15,$ or $20$ but does not single one out, so it is not sufficient on its own.",
+      "B": "Statement (2) describes infinitely many integers (odd multiples of $5$ not divisible by $3$, such as $5,25,35,\\dots$), so it cannot fix $x$ alone.",
+      "D": "Neither statement alone determines $x$; only their overlap does, since statement (2) selects $5$ as the unique value from statement (1)'s list.",
+      "E": "Together the statements are sufficient: of $5,10,15,20$, only $5$ is odd, divisible by $5$, and not divisible by $3$, giving $x=5$."
+    },
     "explanation": "From statement (1), the possible values of $x$ below $25$ are $5,10,15,$ and $20$. Statement (2) says $x$ is odd, divisible by $5$, and not divisible by $3$. Among the values from statement (1), only $5$ satisfies statement (2). So together the statements are sufficient, but neither statement alone is sufficient.",
     "estimatedTimeSeconds": 120,
     "tags": ["data-sufficiency", "number-properties", "lcm"]

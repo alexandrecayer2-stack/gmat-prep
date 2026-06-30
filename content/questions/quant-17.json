@@ -33,6 +33,12 @@
       "format": "single",
       "value": "D"
     },
+    "distractorRationale": {
+      "A": "Far too small — it would count only the pairs whose two coprime factors are each a single prime, ignoring that one side can take several primes; the correct count assigns each of the $4$ primes independently to $x$ or $y$, giving $2^4=16$.",
+      "B": "This is the count of UNORDERED pairs, obtained by dividing the $16$ ordered pairs by $2$; the question asks for ordered pairs $(a,b)$, so do not halve.",
+      "C": "A near-miss that miscounts the prime assignments; the correct method gives $2^4=16$ since each of the $4$ primes in $210$ goes wholly to $x$ or wholly to $y$.",
+      "E": "This doubles the correct $16$, as if there were $5$ free primes ($2^5$); there are only $4$ distinct primes in $210$, so the answer is $2^4=16$."
+    },
     "explanation": "Write $a = 6x$, $b = 6y$ with $\\gcd(x,y)=1$. Then $\\operatorname{lcm}(a,b) = 6xy = 1260$, so $xy = 210 = 2 \\cdot 3 \\cdot 5 \\cdot 7$. For each of the $4$ distinct primes, the prime must go entirely to $x$ or entirely to $y$ (to keep them coprime), giving $2^4 = 16$ ordered pairs. Trap: dividing by $2$ for unordered pairs gives $8$ (choice B); the question asks for ordered pairs.",
     "estimatedTimeSeconds": 150,
     "answerCheck": "num(text(answer)) === 16"
@@ -70,6 +76,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "D"
+    },
+    "distractorRationale": {
+      "A": "Counts only the $50$ odd values of $n$ and forgets that even multiples of $8$ also work; add the $12$ values $n\\in\\{8,16,\\dots,96\\}$ to get $62$.",
+      "B": "A near-miss that undercounts the qualifying even values; every odd $n$ works ($50$) plus the $12$ multiples of $8$, for a total of $62$.",
+      "C": "A near-miss that still misses some qualifying even values; the correct total is $50$ odd values plus $12$ multiples of $8$, i.e. $62$.",
+      "E": "Overcounts the even cases; only multiples of $8$ (not all multiples of $4$) supply the needed factor of $8$, giving $50+12=62$."
     },
     "explanation": "Factor $n^3 - n = (n-1)n(n+1)$, three consecutive integers, so it is always divisible by $3$. We need an extra factor of $8$. If $n$ is odd, then $n-1$ and $n+1$ are consecutive even numbers, one of which is a multiple of $4$, so their product is divisible by $8$ — every odd $n$ works ($50$ values). If $n$ is even, then $n-1$ and $n+1$ are odd, so all factors of $2$ come from $n$ alone; we need $8 \\mid n$, i.e. $n \\in \\{8,16,\\dots,96\\}$ ($12$ values). Total $50 + 12 = 62$. Trap: stopping at 'odd $n$ only' gives $50$ (choice A), forgetting that multiples of $8$ also qualify.",
     "estimatedTimeSeconds": 150,
@@ -109,6 +121,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "Roughly halves the power of $3$; the correct constraint is $3^k\\le 3^{22}$, so $k\\le 22$, giving $k=22$.",
+      "B": "A near-miss in the prime-counting; the binding prime is $3$ with exponent $22$ in $50!$, so $k=22$.",
+      "D": "Uses only the power of $2$: $\\lfloor 47/2\\rfloor=23$ ignores that $3$ is scarcer. Since $3^{22}$ is the limit, $k=22$.",
+      "E": "This is the full power of $2$ in $50!$ ($47$), not the answer; $12=2^2\\cdot3$ needs $2^{2k}$ and $3^k$, and the $3$'s cap $k$ at $22$."
+    },
     "explanation": "Since $12 = 2^2 \\cdot 3$, we need $2^{2k}$ and $3^k$ inside $50!$. Power of $2$: $\\lfloor 50/2 \\rfloor + \\lfloor 50/4 \\rfloor + \\dots = 25+12+6+3+1 = 47$. Power of $3$: $16+5+1 = 22$. The factor $2$ allows $2k \\le 47$, i.e. $k \\le 23$; the factor $3$ allows $k \\le 22$. The binding constraint is $3$, so $k = 22$. Trap: using only the power of $2$ and writing $\\lfloor 47/2 \\rfloor = 23$ (choice D) ignores the scarcer prime $3$.",
     "estimatedTimeSeconds": 150,
     "answerCheck": "num(text(answer)) === 22"
@@ -146,6 +164,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "D"
+    },
+    "distractorRationale": {
+      "A": "A near-miss in the units-digit subtraction; the product ends in $1$ and $4^{15}$ ends in $4$, and borrowing gives $11-4=7$.",
+      "B": "Comes from computing $1-4=-3$ and reading off $3$; the subtraction requires a borrow, so $11-4=7$.",
+      "C": "Does not match the cycle arithmetic here; the product ends in $1$, minus the $4$ from $4^{15}$, gives units digit $7$ after borrowing.",
+      "E": "A near-miss; correctly $13^{27}\\cdot17^{43}$ ends in $1$ and subtracting $4^{15}$'s $4$ (with borrow) yields $7$, not $9$."
     },
     "explanation": "Only units digits matter. $13^{27}$ behaves like $3^{27}$: cycle $3,9,7,1$ with $27 \\equiv 3 \\pmod 4$, so units $7$. $17^{43}$ behaves like $7^{43}$: cycle $7,9,3,1$ with $43 \\equiv 3 \\pmod 4$, so units $3$. Their product ends in $7 \\cdot 3 = 21 \\to 1$. $4^{15}$: powers of $4$ end in $4$ (odd exponent) or $6$ (even); $15$ is odd, so units $4$. Now $\\dots1 - \\dots4$ requires borrowing: $11 - 4 = 7$. Trap: computing $1 - 4 = -3$ and reporting $3$ (choice B) ignores the borrow.",
     "estimatedTimeSeconds": 150,
@@ -185,6 +209,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "Too small to be the coprime-to-$30$ count among $900$ integers; inclusion-exclusion gives $900-660=240$ (equivalently $\\varphi(30)/30\\cdot900$).",
+      "B": "Undercounts by mishandling the overlaps; the correct inclusion-exclusion total divisible by $2,3,$ or $5$ is $660$, leaving $900-660=240$.",
+      "D": "A near-miss that mismanages the add-back of multiples of $30$; the precise count is $240$.",
+      "E": "This is $900\\cdot\\frac{1}{3}$ or a similar shortcut that ignores the $\\frac{1}{2}$ and $\\frac{2}{3}$ survival factors; the fraction coprime to $30$ is $\\frac{8}{30}$, giving $240$."
+    },
     "explanation": "There are $900$ three-digit integers ($100$ to $999$). By inclusion-exclusion, those divisible by $2$, $3$, or $5$ number: $450 + 300 + 180 - 150 - 90 - 60 + 30 = 660$ (subtracting multiples of $6,10,15$ and adding back multiples of $30$). So none-of-them $= 900 - 660 = 240$. Shortcut check: among any $30$ consecutive integers exactly $\\varphi(30)=8$ are coprime to $30$, and $900/30 \\cdot 8 = 240$. Trap: subtracting only the three single-divisor counts ($900 - 450 - 300 - 180 = -30$) or omitting the add-back step mismanages the overlaps.",
     "estimatedTimeSeconds": 150,
     "answerCheck": "num(text(answer)) === 240"
@@ -222,6 +252,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "Reports $b=3$ alone; the question asks for $a+b=2+3=5$.",
+      "C": "Takes $a=2$ but mis-solves for $b$ (e.g. $b=4$); correctly $b(a+1)=3b=9$ gives $b=3$, so $a+b=5$.",
+      "D": "A near-miss; with $a=2$ and $b=3$ the sum is $5$, not $11$.",
+      "E": "Just adds the constants $4+9$ from $f(f(x))=4x+9$; instead solve $a^2=4,\\ b(a+1)=9$ to get $a+b=5$."
     },
     "explanation": "Compose: $f(f(x)) = a(ax+b)+b = a^2 x + (ab + b)$. Matching to $4x+9$ gives $a^2 = 4$, so $a = 2$ (since $a>0$), and $ab+b = b(a+1) = 3b = 9$, so $b = 3$. Thus $a+b = 5$. The trap (A) reports $b$ alone; (E) just adds the constants $4+9$; (C) takes $a=2$ with a mis-solved $b=4$.",
     "estimatedTimeSeconds": 150,
@@ -261,6 +297,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "Too short; in the first hour the machines finish only half the run, and Y alone needs $3$ more hours, for a total of $4$.",
+      "B": "This is the time Y works alone after the jam; it forgets to add the first hour both machines ran, so the total is $1+3=4$.",
+      "D": "A near-miss; Y completes the remaining $\\frac12$ at $\\frac16$/hour in exactly $3$ hours, so the total is $4$, not $4.5$.",
+      "E": "Overstates the remaining work; only $\\frac12$ is left after the first hour, taking Y $3$ hours, for a total of $4$."
+    },
     "explanation": "Rates: X $=\\frac{1}{3}$, Y $=\\frac{1}{6}$ of the run per hour. In the first hour together they finish $\\frac{1}{3}+\\frac{1}{6}=\\frac{1}{2}$. The remaining $\\frac{1}{2}$ is done by Y alone at $\\frac{1}{6}$/hour, taking $\\frac{1/2}{1/6}=3$ hours. Total $=1+3=4$ hours. The trap answer $3$ (B) is the time Y works alone — it forgets to add the first hour both machines ran.",
     "estimatedTimeSeconds": 150,
     "answerCheck": "num(text(answer)) === 4"
@@ -298,6 +340,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "D"
+    },
+    "distractorRationale": {
+      "A": "A near-miss that misreads the base; after $+25\\%$ then $-20\\%$ the price is back at $100$, so reaching $150$ requires a $50\\%$ increase.",
+      "B": "Likely from treating the changes as additive ($+25\\%-20\\%=+5\\%$, then needing $+30\\%$ to $150$ is mis-estimated); applying each percent to its own base shows the current price is $100$, needing $+50\\%$.",
+      "C": "A near-miss; the current price is exactly the original ($100$), and $\\frac{150-100}{100}=50\\%$, not $45\\%$.",
+      "E": "A near-miss; the required increase from $100$ up to $150$ is $50\\%$, not $55\\%$."
     },
     "explanation": "Take the original price as $100$. After $+25\\%$ it is $125$; taking $20\\%$ off gives $125\\times 0.80=100$ — back to the original. To reach $50\\%$ above original, the target is $150$, so from the current $100$ the needed increase is $\\frac{150-100}{100}=50\\%$. The trap is computing $20\\%$ off the original base (or treating the two changes as additive $+25\\%-20\\%=+5\\%$), which misreads where the current price actually sits; one must apply each percent to its own correct base.",
     "estimatedTimeSeconds": 150,
@@ -337,6 +385,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "Counts only the 'exactly one man' panels; 'at least one of each' also includes panels with $2$ or $3$ men, so use the complement: $210-15-1=194$.",
+      "C": "Subtracts only the all-women panels ($210-15=195$) and forgets the all-men panel must also be removed; the answer is $194$.",
+      "D": "Subtracts only the all-men panel ($210-1=209$) and forgets all-women panels also violate 'at least one man'; subtract both to get $194$.",
+      "E": "This is the total number of unrestricted panels $\\binom{10}{4}=210$; you must subtract the $15$ all-women and $1$ all-men panels, leaving $194$."
+    },
     "explanation": "Use the complement. Total panels of $4$ from $10$ people: $\\binom{10}{4}=210$. Subtract all-women panels $\\binom{6}{4}=15$ and all-men panels $\\binom{4}{4}=1$: $210-15-1=194$. Trap: $209$ comes from subtracting only the all-men case (forgetting that all-women panels also violate 'at least one man'); $195$ subtracts only all-women; $80$ counts only the 'exactly one man' case.",
     "estimatedTimeSeconds": 150,
     "answerCheck": "num(text(answer)) === 194"
@@ -374,6 +428,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "C"
+    },
+    "distractorRationale": {
+      "A": "This is the adjacent count ($240$), the complement, reported by mistake; not-adjacent $=720-240=480$.",
+      "B": "A near-miss; total circular arrangements are $720$ and the adjacent ones number $240$, so the answer is $480$.",
+      "D": "A near-miss in subtracting the adjacent block count; $(7-1)!-2\\cdot(6-1)!=720-240=480$.",
+      "E": "This is the total of all circular arrangements $(7-1)!=720$ with no restriction applied; subtract the $240$ adjacent ones to get $480$."
     },
     "explanation": "Total circular arrangements of $7$ people: $(7-1)!=720$. Count the ones where Maya and Raj ARE adjacent: glue them into one block, giving $6$ units arranged in $(6-1)!=120$ circular ways, times $2$ for their internal order $=240$. So not-adjacent $=720-240=480$. Trap: $720$ forgets the restriction; $240$ is the adjacent count (the complement) reported by mistake.",
     "estimatedTimeSeconds": 150,
@@ -413,6 +473,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "This is the complement — arrangements with the two O's together; subtract it from the total $1260$ to get $1260-360=900$.",
+      "B": "A near-miss; the not-together count is total $1260$ minus the $360$ together-arrangements, which is $900$.",
+      "D": "A near-miss that mishandles a repeated-letter division; correctly $\\frac{7!}{2!2!}-\\frac{6!}{2!}=1260-360=900$.",
+      "E": "This is the total number of distinct arrangements $\\frac{7!}{2!2!}=1260$ with no restriction; remove the $360$ with O's together to get $900$."
+    },
     "explanation": "BALLOON has $7$ letters with L and O each repeated twice, so total distinct arrangements $=\\dfrac{7!}{2!\\,2!}=1260$. Arrangements with the O's together: treat OO as one block, leaving $6$ units (still two L's): $\\dfrac{6!}{2!}=360$. Not-together $=1260-360=900$. Check by the gap method: arrange B,A,L,L,N in $\\dfrac{5!}{2!}=60$ ways, then place the two identical O's in $\\binom{6}{2}=15$ of the gaps: $60\\cdot15=900$. Trap: $1260$ forgets the restriction; $360$ is the complement.",
     "estimatedTimeSeconds": 150,
     "answerCheck": "num(text(answer)) === 900"
@@ -450,6 +516,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "C"
+    },
+    "distractorRationale": {
+      "A": "Too small; with $a,b$ minimized to $1,2$, median $12$, and $d=13$, the largest is $e=50-28=22$.",
+      "B": "A near-miss; minimizing the other four to $1,2,12,13$ forces $e=50-28=22$, not $21$.",
+      "D": "Comes from allowing $d=12$, but $d$ must exceed the median and be distinct, so the smallest valid $d$ is $13$, giving $e=22$.",
+      "E": "Overshoots; the four smallest distinct values consistent with median $12$ are $1,2,12,13$ summing to $28$, leaving $e=22$."
     },
     "explanation": "The five distinct integers $a<b<c<d<e$ have sum $5\\times10=50$ and median $c=12$. To maximize $e$, minimize the other four. The two below the median: smallest distinct positives are $a=1,b=2$. The fourth must exceed the median and be distinct, so the smallest is $d=13$. Then $e=50-(1+2+12+13)=22$. Trap: $23$ comes from allowing $d=12$, violating both distinctness and the requirement that $d$ exceed the median.",
     "estimatedTimeSeconds": 150,
@@ -489,6 +561,12 @@
       "format": "single",
       "value": "E"
     },
+    "distractorRationale": {
+      "A": "$0$ is only $7$ from the mean of $7$, less than $15$'s distance of $8$; the larger deviation, at $15$, produces the greater standard deviation.",
+      "B": "$1$ is $6$ from the mean, closer than $15$ ($8$ away); the farthest value, $15$, maximizes the spread.",
+      "C": "$7$ equals the mean, so it adds a zero deviation and actually DECREASES the standard deviation; choose the farthest value, $15$.",
+      "D": "$12$ is $5$ from the mean, less than $15$'s $8$; the value farthest from the center, $15$, gives the greatest standard deviation."
+    },
     "explanation": "The mean of $S$ is $7$. Standard deviation grows most when the added value lies farthest from the data's center, since its squared deviation dominates the new average squared distance. Distances from the mean $7$: $0\\to7$, $1\\to6$, $7\\to0$, $12\\to5$, $15\\to8$. The value $15$ is farthest ($8$), so it maximizes the spread. Trap: $7$ equals the mean and actually DECREASES the standard deviation; $0$ looks extreme but is only $7$ from the mean, less than $15$'s $8$.",
     "estimatedTimeSeconds": 150,
     "answerCheck": "num(text(answer)) === 15"
@@ -527,6 +605,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "$\\dfrac{9}{36}$ counts only the 'both even' outcomes and forgets the cases where a $4$ pairs with an odd number; adding those $6$ gives $\\dfrac{15}{36}=\\dfrac{5}{12}$.",
+      "B": "$\\dfrac{12}{36}$ counts only outcomes containing a $4$; a product is a multiple of $4$ also when both dice are even, so the total is $\\dfrac{15}{36}=\\dfrac{5}{12}$.",
+      "D": "A near-miss in the count; the favorable outcomes are $9$ (both even) $+6$ ($4$ with an odd) $=15$, giving $\\dfrac{15}{36}=\\dfrac{5}{12}$.",
+      "E": "Overcounts; only $15$ of the $36$ outcomes give a product divisible by $4$, so the probability is $\\dfrac{5}{12}$, not $\\dfrac12$."
+    },
     "explanation": "The product is a multiple of $4$ in two cases: (1) at least one die shows $4$, or (2) both dice are even (each contributing one factor of $2$). Count directly among $36$ outcomes: both even ($2,4,6$ each) gives $3\\times3=9$; add the outcomes with a $4$ paired with an odd number ($1,3,5$), which are not yet counted: a $4$ with an odd partner gives $2\\times3=6$. Total $=9+6=15$, so probability $=\\dfrac{15}{36}=\\dfrac{5}{12}$. Trap: $\\dfrac{1}{4}=\\dfrac{9}{36}$ counts only 'both even' and forgets the $4\\times$odd cases; $\\dfrac{1}{3}$ counts only outcomes containing a $4$.",
     "estimatedTimeSeconds": 150
   },
@@ -563,6 +647,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "D"
+    },
+    "distractorRationale": {
+      "A": "Uses a linear ratio rather than its square; since $[ADE]:[ABC]=4:25$, $[ABC]=150$ and $[DBCE]=150-24=126$.",
+      "B": "Applies the ratio $2:3$ or $2:5$ without squaring it; areas scale as the square, so $[ABC]=24\\cdot\\frac{25}{4}=150$ and the quadrilateral is $126$.",
+      "C": "A near-miss from an unsquared ratio; the area ratio is $4:25$, giving $[DBCE]=150-24=126$.",
+      "E": "This is the area of the whole triangle $[ABC]=150$; the quadrilateral is $[ABC]-[ADE]=150-24=126$."
     },
     "explanation": "Since $DE \\parallel BC$, triangle $ADE \\sim$ triangle $ABC$ with linear ratio $AD:AB = 2:5$. Areas scale by the square: $[ADE]:[ABC] = 4:25$, so $[ABC] = 24 \\cdot \\frac{25}{4} = 150$ and $[DBCE] = 150 - 24 = 126$. The key trap (C, $54{-}24{=}30$ and B) comes from using a linear ratio like $2:3$ or $2:5$ instead of squaring it; E forgets to subtract $[ADE]$.",
     "estimatedTimeSeconds": 150,
@@ -602,6 +692,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "Stops at $6(\\sqrt{2}-1)$ without rationalizing $\\frac{6(\\sqrt2-1)}{\\sqrt2+1}$; finishing gives $6(\\sqrt2-1)^2=18-12\\sqrt2$.",
+      "C": "A near-miss in the algebra of the tangency equation; solving $\\sqrt2(6-r)=6+r$ correctly yields $r=18-12\\sqrt2$.",
+      "D": "Uses a radius of $3$ instead of $6$ for the large circle (or the square side $6$ instead of $12$); with radius $6$, $r=18-12\\sqrt2$.",
+      "E": "Like D, this halves the correct geometry; with the inscribed circle of radius $6$ in a side-$12$ square, $r=18-12\\sqrt2$."
+    },
     "explanation": "Place the square as $[0,12]\\times[0,12]$; the big circle has center $(6,6)$. The small circle of radius $r$ in the corner near $(12,12)$ is tangent to the two sides, so its center is $(12-r,\\,12-r)$, at distance $\\sqrt{2}\\,(6-r)$ from $(6,6)$. External tangency gives $\\sqrt{2}(6-r) = 6 + r$, so $6\\sqrt{2} - 6 = r(\\sqrt{2}+1)$ and $r = \\frac{6(\\sqrt{2}-1)}{\\sqrt{2}+1} = 6(\\sqrt{2}-1)^2 = 18 - 12\\sqrt{2}$. The main trap (B) is forgetting to rationalize the denominator and stopping at $6(\\sqrt{2}-1)$.",
     "estimatedTimeSeconds": 150
   },
@@ -638,6 +734,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "C"
+    },
+    "distractorRationale": {
+      "A": "This is the straight-line distance $AB=2\\sqrt{10}$, which ignores that the path must touch the $x$-axis; reflecting $A$ gives the true minimum $A'B=10$.",
+      "B": "A near-miss below the actual minimum; the reflection method gives $A'B=\\sqrt{36+64}=10$, and no axis-touching path can be shorter.",
+      "D": "Reflects across the wrong axis (the $y$-axis), giving $2\\sqrt{26}$; reflecting $A=(2,3)$ across the $x$-axis to $(2,-3)$ yields the minimum $10$.",
+      "E": "Overshoots the minimum; the shortest reflected path is $A'B=10$, not $12$."
     },
     "explanation": "Reflect $A=(2,3)$ across the $x$-axis to $A'=(2,-3)$. For any $P$ on the $x$-axis, $AP = A'P$, so $AP+PB = A'P + PB \\geq A'B$, with equality when $P$ lies on segment $A'B$. Thus the minimum is $A'B = \\sqrt{(8-2)^2 + (5-(-3))^2} = \\sqrt{36+64} = 10$. The trap A ($2\\sqrt{10}$) is the straight distance $AB$, which ignores that the path must touch the axis; D reflects across the wrong axis.",
     "estimatedTimeSeconds": 150,
@@ -677,6 +779,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "Subtracts the two $2\\times2$ openings but forgets to add the four interior tunnel walls; correctly $216-8+48=256$.",
+      "B": "This is the original cube's surface area $6\\cdot6^2=216$ with no adjustment; drilling removes $8$ and adds $48$, giving $256$.",
+      "D": "Adds the $48$ of tunnel walls but forgets to subtract the two $2\\times2$ square openings; the total is $216-8+48=256$.",
+      "E": "Overcounts the added area (e.g. using full-face removals or extra walls); the correct net is $216-8+48=256$."
+    },
     "explanation": "Original surface area $= 6 \\cdot 6^2 = 216$. Drilling removes two $2\\times 2$ squares (one on each of the two opposite faces): $-2(4) = -8$. It adds the four interior tunnel walls, each $2$ wide and $6$ deep: $+4(2 \\cdot 6) = +48$. Total $= 216 - 8 + 48 = 256$. The trap D ($264$) adds the tunnel walls but forgets to subtract the two square openings; A subtracts but forgets the tunnel walls.",
     "estimatedTimeSeconds": 150,
     "answerCheck": "num(text(answer)) === 256"
@@ -714,6 +822,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "D"
+    },
+    "distractorRationale": {
+      "A": "Equals $2k^2$ with $k=5$; it omits the central column and boundary, but each row $x$ contributes $2(5-|x|)+1$ points, summing to $61$.",
+      "B": "A near-miss that drops the central or boundary term; the row counts $1,3,5,7,9,11,9,7,5,3,1$ total $61$.",
+      "C": "Undercounts the lattice points; summing $2(5-|x|)+1$ over $x=-5,\\dots,5$ gives $61$, not $60$.",
+      "E": "This is the full $11\\times11$ bounding box ($121$); only the points with $|x|+|y|\\le5$ qualify, which number $61$."
     },
     "explanation": "For each integer $x$ with $-5 \\le x \\le 5$, the condition becomes $|y| \\le 5 - |x|$, giving $2(5-|x|) + 1$ integer values of $y$. Summing over $x = -5,\\dots,5$: the counts are $1,3,5,7,9,11,9,7,5,3,1$, which total $61$. (Equivalently $2k^2 + 2k + 1$ with $k=5$.) Trap A ($2k^2 = 50$) and B forget the boundary or the central column; E ($11^2 = 121$) counts the whole $11\\times 11$ bounding box.",
     "estimatedTimeSeconds": 150,
@@ -753,6 +867,12 @@
       "format": "single",
       "value": "D"
     },
+    "distractorRationale": {
+      "A": "Comes from the corner $x=4,\\,y=2$ giving $16-8=8$; the maximum is at $x=4,\\,y=-5$, giving $16+20=36$.",
+      "B": "Comes from $x=-3,\\,y=2$ giving $9+6=15$, the wrong corner; testing all corners, $x=4,\\,y=-5$ yields the greatest value $36$.",
+      "C": "A near-miss from a non-optimal corner; the maximum of $x(x-y)$ over the box is $36$ at $x=4,\\,y=-5$.",
+      "E": "Mishandles the signs when combining $x^2$ and $-xy$; the correct maximum is $16-(4)(-5)=36$, not $41$."
+    },
     "explanation": "Write $x^2 - xy = x(x - y)$. For each fixed value the expression is a quadratic in $x$ that opens upward, so on a closed interval its maximum occurs at an endpoint of $x$; likewise it is linear in $y$, maximized at an endpoint of $y$. Hence the maximum is attained at a corner of the box. Testing corners, $x=4,\\,y=-5$ gives $16 - (4)(-5) = 16 + 20 = 36$, the largest. Trap B ($x=-3,y=2 \\Rightarrow 9+6=15$) and A ($x=4,y=2 \\Rightarrow 8$) pick the wrong corner; E mishandles signs.",
     "estimatedTimeSeconds": 150,
     "answerCheck": "num(text(answer)) === 36"
@@ -790,6 +910,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "Doubles the inradius (e.g. using $\\frac{a+b-c}{1}$ or the wrong semiperimeter); correctly $r=\\frac{7+24-25}{2}=3$, or $84/28=3$.",
+      "C": "This is just a leg length ($7$) of the $7$-$24$-$25$ triangle, not the inradius; $r=\\frac{a+b-c}{2}=3$.",
+      "D": "A near-miss; $r=\\text{area}/s=84/28=3$, not $12$.",
+      "E": "Uses a side length or doubles a quantity; the inradius of the $7$-$24$-$25$ right triangle is $\\frac{7+24-25}{2}=3$."
     },
     "explanation": "All sides are integers, so the triangle is a Pythagorean triple with leg product $2 \\cdot 84 = 168$. Checking factor pairs, only $7$ and $24$ also give an integer hypotenuse: $7^2 + 24^2 = 625 = 25^2$. For a right triangle the inradius is $r = \\frac{a + b - c}{2} = \\frac{7 + 24 - 25}{2} = 3$ (equivalently $r = \\text{area}/s = 84/28 = 3$). Trap B uses $r = \\text{area}/s$ with the wrong semiperimeter or $\\frac{a+b-c}{2}$ doubled; C and E are raw side lengths.",
     "estimatedTimeSeconds": 150,

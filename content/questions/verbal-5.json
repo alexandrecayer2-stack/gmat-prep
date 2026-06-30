@@ -11,6 +11,12 @@
       { "key": "E", "text": "argue that octopuses are smarter than most vertebrates" }
     ],
     "correctAnswer": { "format": "single", "value": "B" },
+    "distractorRationale": {
+      "A": "Overstates the passage: it presents the debate over whether arms act independently as an open question, not a proven claim that arms think entirely on their own. The purpose is to describe the behaviors and lay out that debate (B).",
+      "C": "Too narrow: the passage does not work through a point-by-point comparison of octopus and vertebrate intelligence; it raises a single framing question about distributed cognition. The broader purpose is (B).",
+      "D": "A detail-level distractor about anatomy the passage never makes its focus; digestion is not discussed as the point. The purpose is to describe the behaviors and the intelligence debate (B).",
+      "E": "Overstates: the passage stays neutral about whether octopuses outrank vertebrates rather than arguing they are smarter. Its aim is to lay out the open debate (B)."
+    },
     "explanation": "The passage presents striking octopus behaviors, notes the unusual distributed nervous system, and lays out the open debate about whether the intelligence is best seen as 'one mind or many.' That is (B). (A) and (E) overstate; (C) and (D) are narrow details.",
     "estimatedTimeSeconds": 90
   },
@@ -26,6 +32,12 @@
       { "key": "E", "text": "heart" }
     ],
     "correctAnswer": { "format": "single", "value": "C" },
+    "distractorRationale": {
+      "A": "The passage says the neurons are notably not concentrated in the central brain; choosing the brain reverses the very contrast being drawn. About two-thirds lie in the arms (C).",
+      "B": "The eyes are not where the passage locates the bulk of the neurons; this is a plausible-sounding organ but not the stated answer. The text specifies the arms (C).",
+      "D": "The skin is associated with the octopus's color-changing ability, not with the two-thirds neuron count; this confuses a different feature. The neurons are in the arms (C).",
+      "E": "The heart is unrelated to the neuron distribution the passage describes. Roughly two-thirds of the neurons are in the arms (C)."
+    },
     "explanation": "The first paragraph states that roughly two-thirds of an octopus's neurons lie not in its central brain but in its arms — (C).",
     "estimatedTimeSeconds": 60
   },
@@ -41,6 +53,12 @@
       { "key": "E", "text": "the vertebrate model of cognition applies directly to octopuses" }
     ],
     "correctAnswer": { "format": "single", "value": "A" },
+    "distractorRationale": {
+      "B": "Contradicts the passage, which discusses laboratory experiments rather than claiming octopuses cannot be observed. The interpretive difficulty is that an arm's apparent independence can be redescribed as brain delegation (A).",
+      "C": "Reverses a key premise: the arms contain most of the octopus's neurons, so saying they have none is the opposite of the text. The results are hard to read because the brain may simply be delegating (A).",
+      "D": "Unsupported: the passage never claims octopuses never repeat behaviors. The difficulty lies in redescribing an arm's apparent autonomy as routine delegation by the brain (A).",
+      "E": "Contradicts the passage's whole point that the vertebrate model may not transfer cleanly to octopuses. The experiments are ambiguous because brain delegation can explain them (A)."
+    },
     "explanation": "The passage notes that the very experiments revealing an arm acting 'on its own' can usually be redescribed as the brain delegating a routine task, which is why the two accounts are hard to separate — (A).",
     "estimatedTimeSeconds": 90
   },
@@ -56,6 +74,12 @@
       { "key": "E", "text": "compare octopuses to colonies of social insects" }
     ],
     "correctAnswer": { "format": "single", "value": "D" },
+    "distractorRationale": {
+      "A": "Overstates by treating an open question as a settled assertion of many minds; the phrase poses a question rather than answering it. Its role is to frame that unresolved question (D).",
+      "B": "The phrase concerns cognition, not physical symmetry, which the passage does not invoke here. It frames the open question about octopus intelligence (D).",
+      "C": "Hunting mechanics are not what the phrase introduces; this swaps the framing device for an unrelated detail. The phrase frames the unresolved intelligence question (D).",
+      "E": "The passage does not compare octopuses to insect colonies at this point; this imports an outside analogy. The phrase frames the open question of one mind or many (D)."
+    },
     "explanation": "The phrase names the central unsettled question the passage builds toward — whether the octopus's intelligence is one mind or many. Its role is to frame that open question, (D).",
     "estimatedTimeSeconds": 105
   },
@@ -71,6 +95,12 @@
       { "key": "E", "text": "describe the pharmaceutical industry" }
     ],
     "correctAnswer": { "format": "single", "value": "C" },
+    "distractorRationale": {
+      "A": "Too strong: the passage critiques patents in some settings but never calls for abolition. Its purpose is that patents' value depends on industry structure (C).",
+      "B": "A detail-level distractor: licensing overlapping patents is an example used, not the overall purpose. The passage argues value depends on industry structure (C).",
+      "D": "Overstated and contradicted: the passage shows patents can fail in cumulative fields, not that they always raise innovation. The point is dependence on structure (C).",
+      "E": "Too narrow: pharmaceuticals are one illustrative case, not the subject of the passage. The purpose is the industry-structure argument (C)."
+    },
     "explanation": "The passage grants the standard pro-patent case for pharmaceuticals, then shows it can fail in cumulative-innovation fields, concluding that effects depend on industry structure — (C). (A) and (D) are too strong; (B) and (E) are details.",
     "estimatedTimeSeconds": 95
   },
@@ -86,6 +116,12 @@
       { "key": "E", "text": "require licensing dozens of overlapping patents" }
     ],
     "correctAnswer": { "format": "single", "value": "B" },
+    "distractorRationale": {
+      "A": "Describes the cumulative-innovation failure case, not pharmaceuticals; this swaps the contrast example for the main one. In pharma the pro-patent logic broadly works (B).",
+      "C": "Blocking cumulative invention is the problem in other industries, not in pharmaceuticals, which are the success example here. Pharma is where patents broadly encourage innovation (B).",
+      "D": "Reverses the point: the passage presents patents as well-suited to pharmaceuticals, not unnecessary there. They broadly succeed in encouraging innovation (B).",
+      "E": "The dozens-of-overlapping-patents problem belongs to cumulative fields, not pharma; this misattributes the other case. Pharmaceuticals show patents working (B)."
+    },
     "explanation": "Pharmaceuticals are cited as the case where high development costs and easily copied products make the pro-patent logic work and the evidence broadly supports it — (B).",
     "estimatedTimeSeconds": 70
   },
@@ -101,6 +137,12 @@
       { "key": "E", "text": "can block another firm's project by withholding a license" }
     ],
     "correctAnswer": { "format": "single", "value": "E" },
+    "distractorRationale": {
+      "A": "Overstated and opposite to the cumulative-field worry; a single holder can impede, not reliably accelerate, the whole field. Any one holder can block a project by withholding a license (E).",
+      "B": "Unsupported: nothing says a holder earns no profit; the issue is blocking power over others. A single holder can block another firm's project (E).",
+      "C": "The passage never requires free licensing; that contradicts a holder's leverage. The inference is that a holder can block by withholding a license (E).",
+      "D": "Contradicts the cumulative-innovation point that one holder can stop another firm's work entirely. A single holder can block a project (E)."
+    },
     "explanation": "The passage says a firm may need to license dozens of overlapping patents, 'any one of whose holders can block the project.' So a single holder can block another firm — (E).",
     "estimatedTimeSeconds": 95
   },
@@ -116,6 +158,12 @@
       { "key": "E", "text": "recommend abolishing patents in the software industry" }
     ],
     "correctAnswer": { "format": "single", "value": "A" },
+    "distractorRationale": {
+      "B": "Misreads the remark as advocacy for identical regulation; the author notes the mismatch as a difficulty, not a recommendation. The point is to identify the central problem for policymakers (A).",
+      "C": "The author is not praising consistency but flagging it as a source of trouble against varied industries. The remark identifies the policymakers' core difficulty (A).",
+      "D": "Off-topic: the line is not about pharmaceutical profitability. It pinpoints the difficulty created by a uniform system over diverse industries (A).",
+      "E": "Too specific and unsupported: the author makes no software-abolition recommendation. The observation identifies the central policy difficulty (A)."
+    },
     "explanation": "The mismatch between a uniform system and varied industries is presented as the problem policymakers must grapple with — (A). The other options misread the author's measured stance.",
     "estimatedTimeSeconds": 105
   },
@@ -131,6 +179,12 @@
       { "key": "E", "text": "describe the founding of the Hawthorne Works" }
     ],
     "correctAnswer": { "format": "single", "value": "A" },
+    "distractorRationale": {
+      "B": "Overstated: the passage complicates the lighting interpretation rather than proving lighting has no effect at all. Its purpose is to recount the studies and how their accepted reading was challenged (A).",
+      "C": "An extreme prescription the passage never makes; it discusses observation effects, not a ban on observing workers. The purpose is the recounting-and-complicating one (A).",
+      "D": "Off-topic: modern lighting standards are not the subject. The passage recounts the studies and the reexamination of their interpretation (A).",
+      "E": "Too narrow: the founding of the Hawthorne Works is not the focus. The purpose is to recount the studies and their contested interpretation (A)."
+    },
     "explanation": "The passage recounts the puzzling results, the famous 'Hawthorne effect' interpretation, and recent reexaminations that complicate it — (A). The others are too narrow or overstated.",
     "estimatedTimeSeconds": 90
   },
@@ -146,6 +200,12 @@
       { "key": "E", "text": "replaced entirely with natural light" }
     ],
     "correctAnswer": { "format": "single", "value": "D" },
+    "distractorRationale": {
+      "A": "Only part of the puzzle: productivity rose under brightening but also under dimming and a return to original conditions, which is what made it puzzling. The full answer is (D).",
+      "B": "Only part of the puzzle: dimming raised productivity, but so did brightening and reverting to the start. The complete answer is (D).",
+      "C": "Contradicts the setup: the lighting was changed, not left unchanged; the surprise was that productivity rose across all the changes. The answer is (D).",
+      "E": "Unsupported: the passage does not say lighting was replaced with natural light. Productivity rose under brightening, dimming, and a return to the original state (D)."
+    },
     "explanation": "The puzzle was that productivity rose under brighter light, dimmer light, and when conditions were returned to the original state — (D).",
     "estimatedTimeSeconds": 70
   },
@@ -161,6 +221,12 @@
       { "key": "E", "text": "the season of the year in which the studies were run" }
     ],
     "correctAnswer": { "format": "single", "value": "B" },
+    "distractorRationale": {
+      "A": "This is the famous Hawthorne-effect interpretation that the recent reexaminations cast doubt on, not what they credit. Analysts point instead to factors like pay, supervision, and rest breaks (B).",
+      "C": "Contradicts the finding that lighting itself does not explain the gains; technology improvements are not cited. The reexaminations credit pay, supervision, and rest breaks (B).",
+      "D": "Unsupported: factory size is never offered as a cause. The recent analysis attributes the gains to changes such as pay, supervision, and rest breaks (B).",
+      "E": "Unsupported: seasonality is not raised as the explanation. The reexaminations point to pay, supervision, and rest breaks (B)."
+    },
     "explanation": "The passage says recent analysts find that factors such as pay, supervision, and rest breaks — not mere observation — better explain the changes, (B).",
     "estimatedTimeSeconds": 95
   },
@@ -176,6 +242,12 @@
       { "key": "E", "text": "explain why the original data could never be reexamined" }
     ],
     "correctAnswer": { "format": "single", "value": "C" },
+    "distractorRationale": {
+      "A": "Overstates: the double lesson does not deny the Hawthorne effect outright, only notes its limits. One lesson is that observation can change behavior; the other, that an appealing explanation can outrun evidence (C).",
+      "B": "Misses the critical thrust: the lesson is cautionary about an explanation hardening into fact, not praise of the researchers' rigor. The double lesson is (C).",
+      "D": "Off-topic prescription: the passage does not recommend dimming lighting. The double lesson concerns observation effects and overreaching explanations (C).",
+      "E": "Contradicts the passage, which describes the data being reexamined. The double lesson is that watching can change behavior and that a tidy explanation can outrun the evidence (C)."
+    },
     "explanation": "The closing paragraph draws two lessons: subjects may behave differently when watched, and an appealing explanation can harden into fact before the data are reexamined — (C).",
     "estimatedTimeSeconds": 105
   },
@@ -191,6 +263,12 @@
       { "key": "E", "text": "trace the rise of one particular shipping company" }
     ],
     "correctAnswer": { "format": "single", "value": "D" },
+    "distractorRationale": {
+      "A": "A detail used for background, not the purpose; pre-container loading is set-up, not the thesis. The point is that success owed more to standardization than to the design (D).",
+      "B": "Contradicts the passage, which calls the box simple and effective, not poorly engineered. The purpose is to credit standardization over the design itself (D).",
+      "C": "Off-topic: the metallurgy of steel is never the focus. The passage argues that standardization, not the design, drove success (D).",
+      "E": "Too narrow: the passage is not a history of one shipping company. Its purpose is the standardization argument (D)."
+    },
     "explanation": "The passage reframes the container's success: the box was simple, and the decisive step was persuading the industry to standardize — (D).",
     "estimatedTimeSeconds": 90
   },
@@ -206,6 +284,12 @@
       { "key": "E", "text": "shipped only between two ports" }
     ],
     "correctAnswer": { "format": "single", "value": "A" },
+    "distractorRationale": {
+      "B": "Contradicts the passage: cargo was not moved only by truck; it was loaded onto ships piece by piece. The answer is (A).",
+      "C": "Reverses the timeline: standardized steel boxes came with containerization, not before it. Beforehand, cargo was loaded piece by piece (A).",
+      "D": "Contradicts the labor-intensive picture: handling was manual, not machine-driven, before containers. Cargo was loaded piece by piece (A).",
+      "E": "Unsupported: the passage does not limit prior shipping to two ports. It says cargo was loaded piece by piece (A)."
+    },
     "explanation": "The passage states cargo was loaded piece by piece, a slow, labor-intensive process that kept costs high — (A).",
     "estimatedTimeSeconds": 70
   },
@@ -221,6 +305,12 @@
       { "key": "E", "text": "shipping firms preferred to keep loading cargo by hand" }
     ],
     "correctAnswer": { "format": "single", "value": "C" },
+    "distractorRationale": {
+      "A": "Misattributes the delay to manufacturing cost, which the passage does not blame; the issue is compatibility. A container helps only if equipment everywhere shares the same dimensions (C).",
+      "B": "Overstated: ports did not refuse all containers; the problem was incompatible designs limiting the benefit. Value depends on shared dimensions everywhere (C).",
+      "D": "Contradicts the passage, which does not claim trucks could not carry containers. The delay came from a lack of shared dimensions (C).",
+      "E": "Unsupported preference claim: the passage attributes the delay to incompatible designs, not firms wanting to load by hand. Shared dimensions are what matter (C)."
+    },
     "explanation": "The passage stresses that a box useful at one port but not another offers little advantage; the value depends on shared dimensions everywhere — (C).",
     "estimatedTimeSeconds": 95
   },
@@ -236,6 +326,12 @@
       { "key": "E", "text": "credit government regulation for the change" }
     ],
     "correctAnswer": { "format": "single", "value": "B" },
+    "distractorRationale": {
+      "A": "Misreads tone: the author explains a trade-off rather than criticizing the firms. The phrase shows what the industry gave up to gain a shared network (B).",
+      "C": "Contradicts the passage's logic, which favors the shared network over proprietary lock-in. The phrase explains the cost the industry accepted (B).",
+      "D": "Off-topic: the phrase is about business strategy, not engineering details. It highlights what firms surrendered for a shared network (B).",
+      "E": "Unsupported: the passage credits industry standardization, not government regulation, for the change. The phrase frames the trade-off behind that standardization (B)."
+    },
     "explanation": "The phrase highlights the trade-off behind standardization: firms gave up proprietary lock-in to gain the larger benefits of a shared network — (B).",
     "estimatedTimeSeconds": 105
   },
@@ -251,6 +347,12 @@
       { "key": "E", "text": "The old streetlights had been in service for more than twenty years." }
     ],
     "correctAnswer": { "format": "single", "value": "B" },
+    "distractorRationale": {
+      "A": "Lower electricity use is irrelevant to whether the lights caused fewer accidents; it concerns cost, not safety. The conclusion is weakened by an alternative cause like the simultaneous speed-limit cut (B).",
+      "C": "Drivers finding the roads easier to see slightly supports the officials' causal claim rather than weakening it. The weakener is the concurrent speed-limit reduction (B).",
+      "D": "That neighbors did not switch removes one confound and mildly supports the officials; it does not undermine the conclusion. The weakener supplies an alternative cause (B).",
+      "E": "The age of the old lights is irrelevant to whether the new lights, versus another factor, caused the drop. The weakener is the speed-limit change (B)."
+    },
     "explanation": "The conclusion is causal. (B) supplies an alternative cause—a simultaneous speed-limit reduction could explain the drop in accidents, undermining the claim that the lights were responsible. (A) and (E) are irrelevant; (C) and (D) slightly support the officials.",
     "estimatedTimeSeconds": 105
   },
@@ -266,6 +368,12 @@
       { "key": "E", "text": "Every student enjoys reading." }
     ],
     "correctAnswer": { "format": "single", "value": "C" },
+    "distractorRationale": {
+      "A": "Too strong: the prediction does not require that students currently read nothing, only that the new period add reading. The needed assumption is that it not merely replace reading students already did (C).",
+      "B": "Teacher support is irrelevant to whether scores will rise. The prediction depends on the new period adding net reading time (C).",
+      "D": "Whether reading scores are the most important measure does not bear on whether they will rise. The required assumption is (C).",
+      "E": "Enjoyment is not necessary for scores to improve. The prediction assumes the mandated period adds to, rather than displaces, existing reading (C)."
+    },
     "explanation": "Negate (C): if the mandated period only displaces reading students already did, total reading does not rise and scores need not improve, so the prediction collapses. (A) is too strong; (B), (D), (E) are irrelevant to the score prediction.",
     "estimatedTimeSeconds": 105
   },
@@ -281,6 +389,12 @@
       { "key": "E", "text": "Total beverage sales at competing chains that do not offer oat milk also rose over the same period." }
     ],
     "correctAnswer": { "format": "single", "value": "D" },
+    "distractorRationale": {
+      "A": "Expanding seating offers an alternative cause for the sales rise, which weakens rather than strengthens the oat-milk claim. The strengthener ties new customers to the oat-milk option (D).",
+      "B": "Higher ratings from existing oat-milk drinkers do not show the option drove the overall sales increase. The strengthener is that new customers came specifically for it (D).",
+      "C": "Prominent promotion does not establish that the option itself caused more sales. The causal link is supported by new customers coming for oat-milk drinks (D).",
+      "E": "Competitors without oat milk seeing the same rise points to a broader cause and undercuts the claim. The strengthener is the new-customer survey (D)."
+    },
     "explanation": "(D) supports the causal claim by tying the sales increase directly to the new option—new customers came for oat-milk drinks. (A), (B), (C) are irrelevant to the cause of the rise; (E) cuts against it.",
     "estimatedTimeSeconds": 105
   },
@@ -296,6 +410,12 @@
       { "key": "E", "text": "No senior engineer lacks a graduate degree, so none can be promoted from marketing." }
     ],
     "correctAnswer": { "format": "single", "value": "A" },
+    "distractorRationale": {
+      "B": "This is the converse and does not follow: people without a graduate degree could be elsewhere in the firm, not necessarily marketing. What must be true is that no senior engineer is in marketing (A).",
+      "C": "Reverses the logic: senior engineers all have degrees, but others may hold degrees too, so not every degree-holder is a senior engineer. The valid inference is (A).",
+      "D": "Contradicts the premises: since marketing has no graduate degrees and all senior engineers do, none can be in marketing. The answer is (A).",
+      "E": "Adds an unsupported claim about promotion that the premises do not establish. What must follow is simply that no senior engineer works in marketing (A)."
+    },
     "explanation": "Senior engineers all hold graduate degrees; no one in marketing does. So a senior engineer cannot be in marketing—(A). (B) is the converse; (C) and (D) contradict the premises; (E) is unsupported.",
     "estimatedTimeSeconds": 105
   },
@@ -311,6 +431,12 @@
       { "key": "E", "text": "Will the savings in printing costs outweigh any revenue lost to reduced sales?" }
     ],
     "correctAnswer": { "format": "single", "value": "E" },
+    "distractorRationale": {
+      "A": "Knowing whether printing is a large share of expenses does not resolve the profit question, which turns on savings versus lost sales. The decisive question weighs those two against each other (E).",
+      "B": "Pricing of the shorter books is a side issue and does not directly test whether profits rise overall. The key question compares printing savings with lost revenue (E).",
+      "C": "Reader complaints about length do not determine the net profit effect. The most useful question is whether savings outweigh revenue lost to fewer sales (E).",
+      "D": "Shipping and warehousing savings are extra factors but still secondary to the central balance of savings against lost sales. The pivotal question is (E)."
+    },
     "explanation": "Profit depends on net effect: printing savings versus lost sales revenue. (E) directly tests that balance—if savings outweigh lost revenue, profits rise; if not, they fall. The others don't bear on the profit question.",
     "estimatedTimeSeconds": 120
   },
@@ -326,6 +452,12 @@
       { "key": "E", "text": "The museum used the new revenue to fund an additional traveling exhibition the following year." }
     ],
     "correctAnswer": { "format": "single", "value": "C" },
+    "distractorRationale": {
+      "A": "A fee lower than rivals' does not explain how revenue rose while attendance fell. The resolution is that admission was previously free, so any fee creates new revenue (C).",
+      "B": "Frequent past visitors dropping off explains lower attendance but not why total revenue went up. The key is that prior admission revenue was zero (C).",
+      "D": "Less spending at the gift shop and cafe would tend to lower revenue, deepening the puzzle rather than resolving it. The resolution is the previously free admission (C).",
+      "E": "How the museum spent the new revenue does not explain why revenue rose. The discrepancy resolves because admission used to be free (C)."
+    },
     "explanation": "If admission had been free, prior admission revenue was zero. Charging even a modest fee yields positive revenue from the remaining paying visitors, so revenue can rise although attendance falls—(C). The others don't explain the rise in revenue.",
     "estimatedTimeSeconds": 120
   },
@@ -341,6 +473,12 @@
       { "key": "E", "text": "It relies on a sample of readers who were already more health-conscious than the general population." }
     ],
     "correctAnswer": { "format": "single", "value": "D" },
+    "distractorRationale": {
+      "A": "This is a minor, unstated concern; the central flaw is the leap from correlation to a general causal claim, not an assumption about other methods. The main vulnerability is (D).",
+      "B": "Self-report accuracy is a secondary worry, not the core error. The argument's main flaw is inferring causation and generalizing from a correlation in a self-selected group (D).",
+      "C": "Misstates the conclusion: the argument claims tea reduces stress, not that it raises stress. The real flaw is the correlation-to-causation generalization (D).",
+      "E": "Health-consciousness of readers is one facet, but the central flaw is drawing a causal, general conclusion from a correlation in a self-selected readership (D)."
+    },
     "explanation": "The argument leaps from a correlation in a self-selected readership to a causal claim about people in general—(D), a correlation-causation plus generalization flaw. The others are minor or irrelevant.",
     "estimatedTimeSeconds": 120
   },
@@ -356,6 +494,12 @@
       { "key": "E", "text": "The first is an assumption the argument requires; the second is a counterexample to it." }
     ],
     "correctAnswer": { "format": "single", "value": "B" },
+    "distractorRationale": {
+      "A": "Mislabels the roles: the first boldface is a recommendation, not the author's conclusion, and the second is the author's explanation, not mere support for the first. The correct roles are (B).",
+      "C": "The first boldface is not an objection the author rejects; it is the recommendation that was adopted. The second is the author's explanation, making (B) correct.",
+      "D": "The author does not reject both portions; the second is the explanation the author endorses. The roles are recommendation-acted-on and favored explanation (B).",
+      "E": "The first is a recommendation, not a required assumption, and the second is the author's explanation, not a counterexample to an assumption. The roles are (B)."
+    },
     "explanation": "The first boldface is a recommendation that was adopted but failed to deliver the predicted cost cut; the second is the author's preferred explanation (the market expansion) for why costs stayed high—(B).",
     "estimatedTimeSeconds": 135
   }

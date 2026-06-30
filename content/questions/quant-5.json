@@ -10,6 +10,12 @@
       { "key": "E", "text": "$85$" }
     ],
     "correctAnswer": { "format": "single", "value": "B" },
+    "distractorRationale": {
+      "A": "This is the simple average of the two class averages, $(70+85)/2 = 77.5$, but the classes have different sizes, so you must weight by the number of students.",
+      "C": "This is a near-miss; the correct method totals the points, $10(70)+20(85)=2400$, then divides by $30$ to get $80$.",
+      "D": "This over-weights the smaller class; the larger $20$-student class pulls the combined average toward $85$, giving $2400/30 = 80$, not $82.5$.",
+      "E": "This is the average of the larger class alone; the $10$ students at $70$ must also be included, lowering the combined average to $80$."
+    },
     "explanation": "Use total points: $10(70) + 20(85) = 700 + 1700 = 2400$. The combined average is $2400 / 30 = 80$. (It is closer to $85$ because the larger class weighs more.)",
     "estimatedTimeSeconds": 90
   },
@@ -24,6 +30,12 @@
       { "key": "E", "text": "$50\\%$" }
     ],
     "correctAnswer": { "format": "single", "value": "C" },
+    "distractorRationale": {
+      "A": "This is the raw dollar change, $50-40=10$, not the percent increase; you must divide the change by the original price.",
+      "B": "This divides the change by the new price, $10/50 = 20\\%$, but percent increase uses the original price as the base: $10/40 = 25\\%$.",
+      "D": "This is the difference of the two prices read as a percent, ignoring the division entirely; the increase is $10/40 = 25\\%$.",
+      "E": "This treats the new price as $50\\%$ above the old, perhaps from $10/20$; the correct base is the original $\\$40$, giving $25\\%$."
+    },
     "explanation": "Percent increase is the change divided by the original: $(50 - 40)/40 = 10/40 = 0.25 = 25\\%$.",
     "estimatedTimeSeconds": 60
   },
@@ -38,6 +50,12 @@
       { "key": "E", "text": "$180" }
     ],
     "correctAnswer": { "format": "single", "value": "D" },
+    "distractorRationale": {
+      "A": "This is the smallest share ($2$ parts $\\times \\$40$), but the question asks for the largest, which is $4$ parts $= \\$160$.",
+      "B": "This is the middle share ($3$ parts $\\times \\$40$); the largest share takes $4$ parts, giving $\\$160$.",
+      "C": "This is a near-miss; with $9$ parts each worth $\\$40$, the largest $4$-part share is $4 \\times 40 = \\$160$, not $\\$200$.",
+      "E": "This is half of $\\$360$, treating the largest as one of two shares; instead split into $9$ parts and take $4$ of them for $\\$160$."
+    },
     "explanation": "There are $2+3+4 = 9$ parts, so each part is $360/9 = 40$. The largest share is $4$ parts: $4 \\times 40 = 160$.",
     "estimatedTimeSeconds": 75
   },
@@ -52,6 +70,12 @@
       { "key": "E", "text": "$54$" }
     ],
     "correctAnswer": { "format": "single", "value": "A" },
+    "distractorRationale": {
+      "B": "This is a near-miss toward the wrong simple average; average speed is total distance over total time, $120/3 = 40$ mph.",
+      "C": "This resembles a harmonic-style miscalculation; the correct total is $120$ miles in $3$ hours, giving $40$ mph.",
+      "D": "This is the plain average of $30$ and $60$, but you cannot average speeds directly; total distance over total time gives $40$ mph.",
+      "E": "This over-weights the faster leg; since the slow leg takes longer ($2$ hours vs $1$), the round-trip average is only $40$ mph."
+    },
     "explanation": "Average speed is total distance over total time, not the average of the speeds. The trip out takes $60/30 = 2$ hours and the return takes $60/60 = 1$ hour. Total: $120$ miles in $3$ hours $= 40$ mph.",
     "estimatedTimeSeconds": 105
   },
@@ -66,6 +90,12 @@
       { "key": "E", "text": "$6$" }
     ],
     "correctAnswer": { "format": "single", "value": "B" },
+    "distractorRationale": {
+      "A": "This is a near-miss; substituting $a=b+1$ gives $7b+5=26$, so $7b=21$ and $b=3$, not $2$.",
+      "C": "This may come from solving for $a$ instead of $b$ ($a=b+1=4$), but the question asks for $b$, which equals $3$.",
+      "D": "This is a near-miss; the equation $7b+5=26$ yields $b=3$, not $5$.",
+      "E": "This is too large; from $7b=21$ the value of $b$ is $3$, not $6$."
+    },
     "explanation": "Substitute $a = b + 1$: $5(b+1) + 2b = 26$, so $7b + 5 = 26$, giving $7b = 21$ and $b = 3$.",
     "estimatedTimeSeconds": 90
   },
@@ -80,6 +110,12 @@
       { "key": "E", "text": "$7/8$" }
     ],
     "correctAnswer": { "format": "single", "value": "E" },
+    "distractorRationale": {
+      "A": "This is the probability of all tails (no heads), $(1/2)^3 = 1/8$; the question asks for at least one head, which is the complement $1-1/8 = 7/8$.",
+      "B": "This is the probability of a head on a single flip, ignoring that there are $3$ flips; the correct answer is $1-1/8 = 7/8$.",
+      "C": "This is a near-miss; the only excluded outcome is all tails, so at least one head has probability $1-1/8 = 7/8$, not $5/8$.",
+      "D": "This appears to count only some of the favorable outcomes; all $7$ of the $8$ equally likely outcomes contain a head, giving $7/8$."
+    },
     "explanation": "Use the complement. The probability of no heads (all tails) is $(1/2)^3 = 1/8$. So the probability of at least one head is $1 - 1/8 = 7/8$.",
     "estimatedTimeSeconds": 105
   },
@@ -94,6 +130,12 @@
       { "key": "E", "text": "$14$" }
     ],
     "correctAnswer": { "format": "single", "value": "D" },
+    "distractorRationale": {
+      "A": "This may count only divisors of one prime power; using the formula on $72 = 2^3 \\times 3^2$ gives $(3+1)(2+1) = 12$ divisors.",
+      "B": "This likely uses the exponents themselves, $3 \\times 3$ or similar, instead of adding $1$ to each; the count is $(3+1)(2+1) = 12$.",
+      "C": "This is a near-miss; the divisor count for $2^3 \\times 3^2$ is $(3+1)(2+1) = 12$, not $10$.",
+      "E": "This adds the exponent-plus-one factors instead of multiplying them ($4+3$ extended); the correct product is $4 \\times 3 = 12$."
+    },
     "explanation": "Factor: $72 = 2^3 \\times 3^2$. The number of divisors is $(3+1)(2+1) = 4 \\times 3 = 12$.",
     "estimatedTimeSeconds": 105
   },
@@ -108,6 +150,12 @@
       { "key": "E", "text": "$5$" }
     ],
     "correctAnswer": { "format": "single", "value": "B" },
+    "distractorRationale": {
+      "A": "This is a near-miss that rounds the combined time; adding rates gives $\\frac{5}{12}$ tank per hour, so the time is $\\frac{12}{5} = 2.4$ hours.",
+      "C": "This is a near-miss; the reciprocal of the combined rate $\\frac{5}{12}$ is $2.4$ hours, not $2.5$.",
+      "D": "This may average the two times, $(4+6)/2$ halved or similar; instead add the rates and take the reciprocal to get $2.4$ hours.",
+      "E": "This is roughly the difference of the times, not the combined fill time; together the pipes fill in $\\frac{12}{5} = 2.4$ hours."
+    },
     "explanation": "Add the rates: $\\frac{1}{4} + \\frac{1}{6} = \\frac{3}{12} + \\frac{2}{12} = \\frac{5}{12}$ tank per hour. The time is the reciprocal: $\\frac{12}{5} = 2.4$ hours.",
     "estimatedTimeSeconds": 120
   }

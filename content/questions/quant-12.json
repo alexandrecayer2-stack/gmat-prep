@@ -34,6 +34,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "Subtracting the two percents ($25-20=5$) gives a 5% drop, but percent changes compound rather than subtract. Multiply $1.20 \\times 0.75 = 0.90$, a 10% decrease.",
+      "C": "Treating the $20\\%$ raise and $25\\%$ cut as canceling out ignores that each applies to a different base. The product $1.20 \\times 0.75 = 0.90$ leaves a net 10% decrease.",
+      "D": "A net gain reverses the direction; the larger 25% discount more than offsets the 20% raise. Multiplying gives $0.90$ of the original, a 10% loss, not a 5% gain.",
+      "E": "Adding the percents and keeping a positive sign misreads the result; the chained factors $1.20 \\times 0.75 = 0.90$ yield a 10% decrease, not a 10% increase."
+    },
     "explanation": "The price becomes 1.20 then 0.75 of that amount, which equals 0.90 of the original price. The net change is therefore a decrease of 10%.",
     "estimatedTimeSeconds": 90
   },
@@ -71,6 +77,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "This inverts the correct ratio. Matching $y=12$ gives $x=9$ and $z=10$, so $x:z=9:10$, not $10:9$.",
+      "C": "This comes from a faulty shortcut on the leading terms rather than chaining through a common $y$. The correct $x:z$ is $9:10$.",
+      "D": "Multiplying $3 \\times 6$ and $4 \\times \\frac{?}{}$ without aligning the shared $y$ produces a near-miss; align $y=12$ to get $x=9$, $z=10$, so $x:z=9:10$.",
+      "E": "This is the reciprocal of the trap value $15:8$ and still skips matching the shared $y$ term. Scaling to $y=12$ gives $x:z=9:10$."
     },
     "explanation": "Chain the ratios by giving $y$ a common value: take $y = 12$, the LCM of 4 and 6. Then $x:y = 3:4$ scales to $x = 9$, and $y:z = 6:5$ scales to $z = 10$. So $x:z = 9:10$, choice A — the trap is multiplying the leading terms ($3 \\times 6$) without matching the shared $y$ term first.",
     "estimatedTimeSeconds": 90
@@ -110,6 +122,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "Likely from a sign or arithmetic slip after distributing. Correctly, $6x-15=4x+7$ gives $2x=22$, so $x=11$.",
+      "B": "A near-miss off by one, often from mishandling the constant. Solving $2x=22$ yields $x=11$, not 10.",
+      "D": "Forgetting to multiply $-5$ by 3 (using $6x-5$) shifts the answer; with the correct $-15$, $2x=22$ and $x=11$.",
+      "E": "This overshoots the solution from an arithmetic error in collecting terms. The exact result of $2x=22$ is $x=11$."
+    },
     "explanation": "Distribute the left side: $3(2x-5)=6x-15$, so $6x-15=4x+7$. Subtract $4x$ and add 15 to both sides: $2x=22$, giving $x=11$. The key step is expanding the parentheses correctly before collecting like terms; a common slip is forgetting to multiply the $-5$ by 3. Answer: C.",
     "estimatedTimeSeconds": 90
   },
@@ -147,6 +165,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "D"
+    },
+    "distractorRationale": {
+      "A": "This uses base only without height, or divides incorrectly; area is $\\frac{1}{2}\\times 12 \\times 9 = 54$.",
+      "B": "This treats the figure like a rectangle quarter or mis-divides; the triangle area is $\\frac{12 \\times 9}{2}=54$.",
+      "C": "A near-miss from a multiplication slip ($12 \\times 9 = 108$, not 96); halving 108 gives 54.",
+      "E": "This is $12 \\times 9 = 108$, the full base-times-height without dividing by 2. The triangle area is half of that, 54."
     },
     "explanation": "The area of a triangle is base × height ÷ 2, which gives 12 × 9 ÷ 2 = 54.",
     "estimatedTimeSeconds": 90
@@ -186,6 +210,12 @@
       "format": "single",
       "value": "D"
     },
+    "distractorRationale": {
+      "A": "$\\frac{1}{5}$ is the probability of drawing a blue ball ($2/10$), the opposite of what is asked. Not blue is $8/10=\\frac{4}{5}$.",
+      "B": "$\\frac{2}{5}$ corresponds to $4/10$, perhaps the red-or-blue count; the not-blue outcome covers 8 of 10 balls, $\\frac{4}{5}$.",
+      "C": "$\\frac{3}{5}$ is $6/10$, the green count, not all non-blue balls. There are 8 non-blue balls, giving $\\frac{4}{5}$.",
+      "E": "$\\frac{9}{10}$ would exclude only one ball; two balls are blue, so 8 of 10 are not blue, $\\frac{4}{5}$."
+    },
     "explanation": "There are 10 balls in total and 8 are not blue. The probability is 8/10 = 4/5.",
     "estimatedTimeSeconds": 120
   },
@@ -223,6 +253,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "This divides one too many times or drops a factor; $\\frac{8 \\times 16}{8}=16$, not 8.",
+      "C": "A near-miss from an exponent slip; $2^3=8$ and $4^2=16$, and $\\frac{8\\times16}{8}=16$.",
+      "D": "Using $4^2=32$ or skipping the division by 8 inflates the result; the correct value is $\\frac{8\\times16}{8}=16$.",
+      "E": "Forgetting to divide by 8 leaves $8 \\times 16 = 128$ or mis-simplifies to 64; dividing by 8 gives 16."
     },
     "explanation": "$2^{3}$ = 8 and $4^{2}$ = 16. Therefore 8 × 16 ÷ 8 = 16.",
     "estimatedTimeSeconds": 120
@@ -262,6 +298,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "Off the mark from an arithmetic slip in the sums. Total is $60$ and the first four sum to $40$, so the fifth is $20$.",
+      "B": "A near-miss by one; $5\\times12=60$ minus $4\\times10=40$ leaves exactly $20$.",
+      "D": "This overshoots, perhaps from using the wrong count of numbers. The fifth value is $60-40=20$.",
+      "E": "Adding the two averages ($12+10$) gives 22 but that is not the method; subtract the sums: $60-40=20$."
+    },
     "explanation": "The sum of the 5 numbers is 60. The sum of the first 4 is 40, so the fifth number is 20.",
     "estimatedTimeSeconds": 120
   },
@@ -299,6 +341,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "$\\frac{7}{24}$ is the combined rate (work per hour), not the time. Invert it to get the time, $\\frac{24}{7}$ hours.",
+      "C": "$\\frac{14}{3}$ likely comes from averaging the two times $\\frac{6+8}{?}$ rather than adding rates. The correct time is $\\frac{24}{7}$ hours.",
+      "D": "Adding the two individual rates' denominators or mis-combining yields 7; together they finish faster than either alone, in $\\frac{24}{7}\\approx3.4$ hours.",
+      "E": "$14$ is the sum of the two solo times ($6+8$), but working together is faster, not slower. The answer is $\\frac{24}{7}$ hours."
     },
     "explanation": "The rates add up: 1/6 + 1/8 = 7/24 of the work per hour. The total time is therefore 24/7 hours.",
     "estimatedTimeSeconds": 120
@@ -338,6 +386,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "A remainder of 0 would require 6 to divide $7^{10}$, but $7\\equiv1\\pmod6$, so $7^{10}\\equiv1$, remainder 1.",
+      "C": "Reducing the base incorrectly (e.g., to 2) gives 2, but $7\\equiv1\\pmod6$ forces $7^{10}\\equiv1^{10}=1$.",
+      "D": "This is a near-miss from a faulty base reduction; since $7\\equiv1\\pmod6$, every power stays $1$, so the remainder is 1.",
+      "E": "$5\\equiv-1\\pmod6$ would arise if the base reduced to $-1$, but $7\\equiv+1$, so $7^{10}\\equiv1$, remainder 1."
+    },
     "explanation": "Use modular arithmetic: reduce the base mod 6 first. Since $7 = 6 + 1$, we have $7 \\equiv 1 \\pmod 6$, so $7^{10} \\equiv 1^{10} \\equiv 1 \\pmod 6$. The key move is reducing the base before exponentiating, which turns a huge power into $1^{10}$; the remainder is $1$ (B).",
     "estimatedTimeSeconds": 150
   },
@@ -375,6 +429,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "$\\frac{1}{2}$ inverts the slope formula, dividing run by rise. Slope is $\\frac{\\Delta y}{\\Delta x}=\\frac{8}{4}=2$.",
+      "C": "A near-miss from an arithmetic slip; $\\frac{11-3}{6-2}=\\frac{8}{4}=2$, not 3.",
+      "D": "Using $\\Delta x=2$ instead of $6-2=4$ doubles the result to 4; the correct slope is $\\frac{8}{4}=2$.",
+      "E": "$8$ is just the rise $\\Delta y=11-3$ without dividing by the run $\\Delta x=4$. The slope is $\\frac{8}{4}=2$."
     },
     "explanation": "The slope is (11 - 3) / (6 - 2) = 8/4 = 2.",
     "estimatedTimeSeconds": 90
@@ -414,6 +474,12 @@
       "format": "single",
       "value": "D"
     },
+    "distractorRationale": {
+      "A": "$2$ comes from $10-(\\text{half chord})=10-6$ rather than the Pythagorean relation. The distance is $\\sqrt{10^2-6^2}=8$.",
+      "B": "A near-miss from a square-root or subtraction slip; $\\sqrt{100-36}=\\sqrt{64}=8$, not 4.",
+      "C": "$6$ is half the chord length, used as a leg of the right triangle, not the distance to it. The distance is $\\sqrt{10^2-6^2}=8$.",
+      "E": "$10$ is the radius itself; the perpendicular distance is shorter, $\\sqrt{100-36}=8$."
+    },
     "explanation": "The radius drawn to the midpoint of the chord forms a right triangle: half the chord = 6. Distance = $\\sqrt{10^{2} - 6^{2}}$ = $\\sqrt{64}$ = 8.",
     "estimatedTimeSeconds": 150
   },
@@ -451,6 +517,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "D"
+    },
+    "distractorRationale": {
+      "A": "A near-miss from an arithmetic slip in the sums; $7\\times80-6\\times78=560-468=92$.",
+      "B": "$88$ may come from a small error in one of the totals. The added score is $560-468=92$.",
+      "C": "Using $6\\times80$ instead of $7\\times80$ undercounts by one score; the new sum is $560$, so the added score is $560-468=92$.",
+      "E": "This overshoots from a sum error; $7\\times80=560$ minus $6\\times78=468$ gives exactly 92."
     },
     "explanation": "The initial sum is 6 × 78 = 468. The new sum is 7 × 80 = 560. The added score is 560 - 468 = 92.",
     "estimatedTimeSeconds": 150

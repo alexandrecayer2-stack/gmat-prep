@@ -34,6 +34,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "Too small: this would come from $4x=16$, mis-subtracting 9 from 33. Subtract correctly to get $4x=24$, then $x=6$.",
+      "C": "A near-miss; it does not satisfy $4x+9=33$ since $4(5)+9=29$. The correct value is $x=6$.",
+      "D": "Comes from dividing 33 (not $33-9$) loosely, or guessing one above the answer. Isolate first: $4x=24$, so $x=6$.",
+      "E": "Far too large; $4(8)+9=41\\neq 33$. Subtract 9 then divide by 4 to get $x=6$."
+    },
     "explanation": "4x = 24, so x = 6.",
     "estimatedTimeSeconds": 90,
     "answerCheck": "num(text(answer)) === 6"
@@ -72,6 +78,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "This is $40\\%$ of 180, dropping the extra $5\\%$. Use the full $0.45\\times180=81$.",
+      "C": "A near-miss that doesn't equal $0.45\\times180$; the correct product is 81.",
+      "D": "Larger than $0.45\\times180$ with no clean route; compute $0.45\\times180=81$.",
+      "E": "This is $50\\%$ of 180, rounding the rate up to one-half. Since $45\\%$ is just under half, the answer is 81."
     },
     "explanation": "Convert the percent to a decimal and multiply: $45\\% = 0.45$, so $0.45 \\times 180 = 81$. A quick check: $45\\%$ of 180 is between $\\frac{1}{4}(180)=45$ and $\\frac{1}{2}(180)=90$, and just under half, confirming 81. The answer is B.",
     "estimatedTimeSeconds": 90,
@@ -112,6 +124,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "This is $5$ numbers times 14, using the wrong count. There are six numbers, so sum $=14\\times6=84$.",
+      "B": "Uses a count of about 5.6 or a slip in $14\\times6$; the correct product is 84.",
+      "D": "This overshoots $14\\times6$; multiplying carefully gives 84.",
+      "E": "This is $16\\times6$ or a count of about 6.9, not $14\\times6$. The sum is 84."
+    },
     "explanation": "Sum = average × count = 14 × 6 = 84.",
     "estimatedTimeSeconds": 90,
     "answerCheck": "num(text(answer)) === 84"
@@ -150,6 +168,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "D"
+    },
+    "distractorRationale": {
+      "A": "This is $\\frac{1}{3}$ of 63, using the numerator as if the fraction were $\\frac{1}{7}\\times3$ incorrectly. Compute $\\frac{3}{7}\\times63=27$.",
+      "B": "A near-miss; $\\frac{3}{7}\\times63=27$, not 24.",
+      "C": "This does not equal $\\frac{189}{7}$; dividing $189$ by 7 gives 27.",
+      "E": "Too large; $\\frac{3}{7}\\times63=\\frac{189}{7}=27$, not 36."
     },
     "explanation": "(3/7) × 63 = 189/7 = 27.",
     "estimatedTimeSeconds": 90,
@@ -190,6 +214,12 @@
       "format": "single",
       "value": "E"
     },
+    "distractorRationale": {
+      "A": "This is $3^3$ alone, ignoring the $3^2$ factor. Add exponents: $3^{2+3}=3^5=243$.",
+      "B": "This is $3^4$, the result of adding the bases or miscounting exponents. The correct sum of exponents gives $3^5=243$.",
+      "C": "This is $3^6$, from multiplying the exponents ($2\\times3$) instead of adding them. Add to get $3^5=243$.",
+      "D": "This is $3^5\\cdot 5$ or a multiply-instead-of-add slip; $3^2\\cdot3^3=3^5=243$."
+    },
     "explanation": "Add exponents: 3^(2+3) = 3^5 = 243.",
     "estimatedTimeSeconds": 90,
     "answerCheck": "num(text(answer)) === 243"
@@ -228,6 +258,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "Comes from $(20-3)\\times4+5$, doing subtraction before multiplication. Order of operations requires $3\\times4$ first, giving 13.",
+      "C": "Comes from evaluating strictly left to right; multiplying first gives $20-12+5=13$.",
+      "D": "Comes from $20-3\\times4-5$ or subtracting the 5, a sign slip. The correct value is $20-12+5=13$.",
+      "E": "Comes from $20-(3\\times4-5)$ or grouping the wrong terms; the answer is $20-12+5=13$."
     },
     "explanation": "Multiply first: 3 × 4 = 12, then 20 - 12 + 5 = 13.",
     "estimatedTimeSeconds": 90,
@@ -268,6 +304,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "This is one part times 3 minus a step, or $45/3$, mixing up the parts. One part $=45/5=9$, so dogs $=3\\times9=27$.",
+      "B": "A near-miss that doesn't match $3\\times9$; the dog count is 27.",
+      "D": "This overshoots; with one part $=9$, dogs $=3\\times9=27$, not 30.",
+      "E": "This applies the ratio as $5\\times$ something or scales the wrong way. Dogs correspond to 3 parts: $3\\times9=27$."
+    },
     "explanation": "One part = 45/5 = 9, so dogs = 3 × 9 = 27.",
     "estimatedTimeSeconds": 90,
     "answerCheck": "num(text(answer)) === 27"
@@ -306,6 +348,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "D"
+    },
+    "distractorRationale": {
+      "A": "This is half of $base+height$ ($\\frac{1}{2}(14+9)$), adding the dimensions instead of multiplying. Area $=\\frac{1}{2}\\times14\\times9=63$.",
+      "B": "This is $base+height\\times$ a slip, not the area; multiply: $\\frac{1}{2}\\times14\\times9=63$.",
+      "C": "This is $base\\times height$ without the $\\frac{1}{2}$. A triangle's area takes half, giving 63.",
+      "E": "This is $2\\times base\\times height$ or $base\\times height\\times2$, doubling instead of halving. The area is $\\frac{1}{2}\\times14\\times9=63$."
     },
     "explanation": "Area = (1/2) × base × height = (1/2) × 14 × 9 = 63.",
     "estimatedTimeSeconds": 90,
@@ -346,6 +394,12 @@
       "format": "single",
       "value": "E"
     },
+    "distractorRationale": {
+      "A": "Off by one from the division; $58-56=2$, not 1.",
+      "B": "This would be the remainder for a nearby dividend like 59 or 52; for 58, $7\\times8=56$ leaves 2.",
+      "C": "A near-miss; $58-56=2$ is the remainder, not 4.",
+      "D": "Too large; the largest multiple of 7 not exceeding 58 is 56, leaving remainder 2."
+    },
     "explanation": "7 × 8 = 56, and 58 - 56 = 2.",
     "estimatedTimeSeconds": 90,
     "answerCheck": "num(text(answer)) === 2"
@@ -384,6 +438,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "This is the discount amount ($0.30\\times90=27$), not the price paid. The sale price is $90-27=63$.",
+      "C": "This is $0.60\\times90$, mis-taking the kept fraction as $60\\%$. A $30\\%$ discount keeps $70\\%$: $0.70\\times90=63$.",
+      "D": "A near-miss; paying $70\\%$ of 90 gives 63, not 60.",
+      "E": "This subtracts a flat 20 or uses the wrong rate; $30\\%$ off 90 leaves $0.70\\times90=63$."
     },
     "explanation": "30% off means paying 70%: 0.70 × 90 = 63.",
     "estimatedTimeSeconds": 90,
@@ -424,6 +484,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "Comes from $\\frac{x}{3}=6$, perhaps adding 5 to a mis-read 1; correctly $\\frac{x}{3}=4+5=9$, so $x=27$.",
+      "B": "Comes from $\\frac{x}{3}=7$, mis-adding $4+5$; the correct value is $\\frac{x}{3}=9$, giving $x=27$.",
+      "D": "A near-miss from $\\frac{x}{3}=8$; adding correctly gives $\\frac{x}{3}=9$ and $x=27$.",
+      "E": "Comes from $\\frac{x}{3}=10$ or subtracting instead of adding 5; the answer is $x=27$."
+    },
     "explanation": "x/3 = 9, so x = 27.",
     "estimatedTimeSeconds": 90,
     "answerCheck": "num(text(answer)) === 27"
@@ -462,6 +528,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "D"
+    },
+    "distractorRationale": {
+      "A": "Too slow; $96/4=24$, not 20 (this would need 80 miles).",
+      "B": "A near-miss; dividing $96$ by 4 gives exactly 24.",
+      "C": "Slightly over; $96/4=24$ mph, not 26.",
+      "E": "Too fast; $96/4=24$ mph (28 would cover 112 miles in 4 hours)."
     },
     "explanation": "Speed = distance / time = 96 / 4 = 24.",
     "estimatedTimeSeconds": 90,
@@ -502,6 +574,12 @@
       "format": "single",
       "value": "E"
     },
+    "distractorRationale": {
+      "A": "This is twice the side ($2\\times9$), or half the perimeter; a square has four sides, so perimeter $=4\\times9=36$.",
+      "B": "This is $3\\times9$, using three sides instead of four. Perimeter $=4\\times9=36$.",
+      "C": "A near-miss; with side $=9$, the perimeter is $4\\times9=36$, not 40.",
+      "D": "This is the area itself, not the perimeter. Take the square root for the side ($9$), then $4\\times9=36$."
+    },
     "explanation": "For a square, side $=\\sqrt{\\text{area}}=\\sqrt{81}=9$, then perimeter $=4\\times9=36$. The trap is confusing the formulas — multiplying the area by 4, or stopping at the side length (9) instead of going on to the perimeter.",
     "estimatedTimeSeconds": 90,
     "answerCheck": "num(text(answer)) === 36"
@@ -540,6 +618,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "This counts only some factor pairs and misses one; the full list 1, 2, 3, 6, 9, 18 has 6 factors.",
+      "C": "Off by one, likely omitting a factor; 18 has exactly 6 positive factors.",
+      "D": "Overcounts (perhaps using $18=2\\cdot3^2$ as if exponents add); the factor count is $(1+1)(2+1)=6$.",
+      "E": "This is a factor of 18, not the number of factors; there are 6 factors."
     },
     "explanation": "The factors of 18 are 1, 2, 3, 6, 9, 18 — that is 6 factors.",
     "estimatedTimeSeconds": 90,
@@ -580,6 +664,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "This is just one of the original fractions, not the difference; $\\frac56-\\frac13=\\frac56-\\frac26=\\frac12$.",
+      "C": "This subtracts $\\frac16$ instead of $\\frac13=\\frac26$; correctly $\\frac56-\\frac26=\\frac12$.",
+      "D": "This combines numerators and denominators directly; use a common denominator of $6$, giving $\\frac56-\\frac26=\\frac12$.",
+      "E": "A near-miss from an incorrect common denominator; converting $\\frac13$ to $\\frac26$ gives $\\frac12$."
+    },
     "explanation": "1/3 = 2/6, so 5/6 - 2/6 = 3/6 = 1/2.",
     "estimatedTimeSeconds": 90
   },
@@ -617,6 +707,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "D"
+    },
+    "distractorRationale": {
+      "A": "This is the smallest value (16) rounded, or a slip; the mean is $\\frac{16+22+34}{3}=24$.",
+      "B": "A near-miss that doesn't equal $72/3$; the average is 24.",
+      "C": "This overshoots; the sum is 72 and $72/3=24$, not 28.",
+      "E": "Too high; $\\frac{16+22+34}{3}=\\frac{72}{3}=24$."
     },
     "explanation": "Sum = 72, and 72 / 3 = 24.",
     "estimatedTimeSeconds": 90,
@@ -657,6 +753,12 @@
       "format": "single",
       "value": "E"
     },
+    "distractorRationale": {
+      "A": "Comes from a wrong root such as $\\sqrt{169}=11$; correctly $13-7=6$.",
+      "B": "A near-miss; $\\sqrt{169}-\\sqrt{49}=13-7=6$, not 5.",
+      "C": "This is $\\sqrt{49}$ alone, forgetting the subtraction. The difference is $13-7=6$.",
+      "D": "Comes from mis-rooting 169 as 15 or a subtraction slip; the answer is $13-7=6$."
+    },
     "explanation": "sqrt(169) = 13 and sqrt(49) = 7, so 13 - 7 = 6.",
     "estimatedTimeSeconds": 90,
     "answerCheck": "num(text(answer)) === 6"
@@ -695,6 +797,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "A near-miss; adding the equations gives $4x=24$, so $x=6$, not 4.",
+      "C": "This may be $y+3$ or a partial result; eliminating $y$ yields $4x=24$ and $x=6$.",
+      "D": "Off by one from the answer; $4x=24$ gives $x=6$.",
+      "E": "Too large; adding the two equations gives $4x=24$, so $x=6$ (and $y=2$)."
     },
     "explanation": "Add the two equations to eliminate $y$: $(3x + y) + (x - y) = 20 + 4$ gives $4x = 24$, so $x = 6$ (choice A). Elimination is fastest here because the $+y$ and $-y$ terms cancel directly; substituting back gives $y = 2$ as a check.",
     "estimatedTimeSeconds": 120,
@@ -735,6 +843,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "Rounds the weighted mean down; the exact value is $1620/20=81$.",
+      "C": "A near-miss above 81; combining points gives $1620/20=81$.",
+      "D": "This is the simple mean of 75 and 90, ignoring that 12 students outweigh 8. The weighted average is $1620/20=81$.",
+      "E": "Too high; total points $1620$ over 20 students is exactly 81, not 84."
+    },
     "explanation": "Combine groups by total points, not by averaging the averages: $12\\times 75+8\\times 90=900+720=1620$ points across $12+8=20$ students. Divide: $1620/20=81$. The trap is taking the simple mean of 75 and 90 (which gives 82.5); the larger group of 12 pulls the weighted average down toward 75. Answer: B.",
     "estimatedTimeSeconds": 150,
     "answerCheck": "num(text(answer)) === 81"
@@ -773,6 +887,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "C"
+    },
+    "distractorRationale": {
+      "A": "This is roughly half of the slower time or a guess; the combined rate $\\frac{1}{10}+\\frac{1}{15}=\\frac{1}{6}$ gives 6 hours.",
+      "B": "A near-miss; the combined rate is $\\frac{1}{6}$ job/hour, so the time is 6 hours, not 7.",
+      "D": "This averages the two times wrongly; adding rates gives $\\frac{1}{6}$ and a time of 6 hours.",
+      "E": "This is the simple average of 10 and 15, but rates add, not times. The result is 6 hours."
     },
     "explanation": "Combined rate = 1/10 + 1/15 = 3/30 + 2/30 = 5/30 = 1/6 job per hour, so 6 hours.",
     "estimatedTimeSeconds": 120,
@@ -813,6 +933,12 @@
       "format": "single",
       "value": "E"
     },
+    "distractorRationale": {
+      "A": "Comes from subtracting $40\\%$ of 84 ($84-33.6\\approx50.4$) or another wrong base; divide by 1.40 to get 60.",
+      "B": "This is $84\\times0.60$ or $84$ minus $40\\%$ of 84, taking the percent on the final price. Divide by 1.40: original $=60$.",
+      "C": "A near-miss; $84/1.40=60$, not 56.",
+      "D": "A near-miss above the answer; $1.40\\times60=84$, so the original is 60."
+    },
     "explanation": "A $40\\%$ increase means the new price is $1.40$ times the original, so $1.40 \\times \\text{original} = \\$84$. Divide: $\\text{original} = 84 / 1.40 = \\$60$. The trap is subtracting $40\\%$ of $\\$84$ instead of dividing by $1.40$ (the percent is taken on the original, not the final price); the answer is E.",
     "estimatedTimeSeconds": 120,
     "answerCheck": "num(text(answer)) === 60"
@@ -851,6 +977,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "Comes from setting $30+w=42$ or a rate slip; the acid stays $12$ L and $12/(30+w)=0.24$ gives $w=20$.",
+      "C": "A near-miss; solving $12/(30+w)=0.24$ yields total 50 and $w=20$, not 16.",
+      "D": "This may target a different final concentration; for $24\\%$, $30+w=50$, so $w=20$.",
+      "E": "This is the final-volume-minus-something slip or adds too much; the needed water is $50-30=20$ L."
     },
     "explanation": "Acid = 0.40 × 30 = 12 liters. We need 12 / (30 + w) = 0.24, so 30 + w = 50, w = 20.",
     "estimatedTimeSeconds": 150,
@@ -891,6 +1023,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "This is $2\\times3$, taking only the shared primes once and dropping a factor of 2. The GCD uses $2^2\\cdot3=12$.",
+      "C": "This is $2^3$, an exponent not actually common to both ($36$ has only $2^2$). The GCD is $2^2\\cdot3=12$.",
+      "D": "This is $2^4$, the higher power of 2 from 48, but 36 only has $2^2$. Take the lower power: GCD $=12$.",
+      "E": "This is the LCM ($2^4\\cdot3^2$), using the highest powers. The GCD uses the lowest: $2^2\\cdot3=12$."
+    },
     "explanation": "Find the GCD by taking the lowest power of each shared prime. Factor: $48 = 2^4 \\cdot 3$ and $36 = 2^2 \\cdot 3^2$; the common primes are 2 and 3 at their minimum exponents, so $\\gcd = 2^2 \\cdot 3 = 12$. The trap is grabbing the higher exponents (which gives the LCM, 144) instead of the lower ones; the answer is B.",
     "estimatedTimeSeconds": 110,
     "answerCheck": "num(text(answer)) === 12"
@@ -930,6 +1068,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "This is $\\frac{1}{10}$, the chance of one specific chip, not all 4 reds. The probability is $\\frac{4}{10}=\\frac{2}{5}$.",
+      "B": "This is the probability of white ($\\frac{6}{10}$), the complement. Red is $\\frac{4}{10}=\\frac{2}{5}$.",
+      "D": "This treats the colors as equally likely; with 4 reds of 10 chips, the probability is $\\frac{2}{5}$, not $\\frac{1}{2}$.",
+      "E": "This is red-over-white ($\\frac{4}{6}$) rather than red-over-total. Divide by all 10 chips: $\\frac{4}{10}=\\frac{2}{5}$."
+    },
     "explanation": "There are 10 chips total, 4 of which are red: probability = 4/10 = 2/5.",
     "estimatedTimeSeconds": 100
   },
@@ -967,6 +1111,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "D"
+    },
+    "distractorRationale": {
+      "A": "This is $7+(12)\\times5$ minus a step or uses $d\\times11$ alone ($55$), dropping the first term. Use $7+11\\times5=62$.",
+      "B": "Comes from $7+(12-1)\\times5$ miscomputed; the correct value is $7+55=62$.",
+      "C": "This uses 12 intervals ($7+12\\times5=67$) then a slip, or adds wrong; the 12th term has 11 steps: $62$.",
+      "E": "This uses 12 steps instead of 11 ($7+12\\times5=67$). The 12th term is $7+11\\times5=62$."
     },
     "explanation": "a_12 = 7 + (12 - 1)×5 = 7 + 55 = 62.",
     "estimatedTimeSeconds": 110,
@@ -1007,6 +1157,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "This is the horizontal gap alone ($14-2=12$), ignoring the vertical change. The distance is $\\sqrt{12^2+5^2}=13$.",
+      "C": "A near-miss; $\\sqrt{144+25}=\\sqrt{169}=13$, not 15.",
+      "D": "This adds the legs ($12+5$) instead of using the Pythagorean sum; the distance is 13.",
+      "E": "This is $12^2+5^2=169$, forgetting the square root. The distance is $\\sqrt{169}=13$."
+    },
     "explanation": "Apply the distance formula $\\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}=\\sqrt{(14-2)^2+(8-3)^2}=\\sqrt{144+25}=\\sqrt{169}=13$. The key insight is recognizing the 5-12-13 right triangle, which avoids arithmetic slips; the trap (choice E) is forgetting to take the square root and reporting 169.",
     "estimatedTimeSeconds": 110,
     "answerCheck": "num(text(answer)) === 13"
@@ -1045,6 +1201,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "This is one year's interest, $5000\\times0.08$, missing the 4-year factor. Multiply by $t$: $400\\times4=1600$.",
+      "C": "This is two years' worth ($400\\times2$); over 4 years simple interest is $400\\times4=1600$.",
+      "D": "This is three years' worth ($400\\times3$); the period is 4 years, giving 1600.",
+      "E": "This overshoots (e.g., $400\\times5$ or a rate slip); $5000\\times0.08\\times4=1600$."
     },
     "explanation": "Simple interest is $I = P \\cdot r \\cdot t$, with no compounding: $I = \\$5000 \\times 0.08 \\times 4 = \\$1600$, choice B. The trap is computing one year's interest ($\\$400$) and forgetting to multiply by the 4 years.",
     "estimatedTimeSeconds": 110,
@@ -1085,6 +1247,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "Too small; $4(3)+7=19$, which is not greater than 23. The threshold is $x>4$, so 5.",
+      "B": "Boundary value, not a solution: $4(4)+7=23$ is not strictly greater than 23. The smallest integer above is 5.",
+      "D": "This satisfies the inequality but isn't the smallest; $x>4$ makes 5 the least integer.",
+      "E": "Also a solution but not the smallest; the least integer with $x>4$ is 5."
+    },
     "explanation": "4x > 16 gives x > 4, so the smallest integer is 5.",
     "estimatedTimeSeconds": 110,
     "answerCheck": "num(text(answer)) === 5"
@@ -1123,6 +1291,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "D"
+    },
+    "distractorRationale": {
+      "A": "Comes from a miscount of those studying at least one; $51=35+28-\\text{both}$ gives both $=12$, not 8.",
+      "B": "A near-miss; inclusion-exclusion gives both $=35+28-51=12$.",
+      "C": "This may forget the 9 who study neither; with 51 studying a language, both $=12$.",
+      "E": "This overshoots; $35+28-51=12$ study both, not 16."
     },
     "explanation": "Study at least one = 60 - 9 = 51. By inclusion-exclusion 35 + 28 - both = 51, so both = 12.",
     "estimatedTimeSeconds": 150,
@@ -1163,6 +1337,12 @@
       "format": "single",
       "value": "E"
     },
+    "distractorRationale": {
+      "A": "Too small; $\\binom{8}{3}=56$, not 24 (this resembles $8\\times3$).",
+      "B": "Comes from a partial product or wrong division; $\\binom{8}{3}=\\frac{336}{6}=56$.",
+      "C": "A near-miss that isn't $\\frac{336}{6}$; the combination count is 56.",
+      "D": "This is the permutation count $8\\times7\\times6$, treating order as mattering. Divide by $3!$ for a team: 56."
+    },
     "explanation": "Choosing a team is unordered, so use combinations: $\\binom{8}{3}=\\frac{8\\times 7\\times 6}{3\\times 2\\times 1}=\\frac{336}{6}=56$. The key is dividing by $3!$ to remove duplicate orderings; the trap (choice D, 336) is using permutations $8\\times 7\\times 6$ and forgetting that order doesn't matter for a team. Answer: E.",
     "estimatedTimeSeconds": 110,
     "answerCheck": "num(text(answer)) === 56"
@@ -1201,6 +1381,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "This is two parts ($2\\times50$) or a wrong term; the smallest share is 3 parts, $3\\times50=150$.",
+      "C": "This is the middle share (4 parts, $4\\times50=200$), not the smallest. The smallest is $3\\times50=150$.",
+      "D": "This is the largest share (5 parts, $5\\times50=250$). The smallest corresponds to 3 parts: 150.",
+      "E": "This is half the total or uses too many parts; one part is $600/12=50$, so the smallest share is $3\\times50=150$."
     },
     "explanation": "Add the ratio terms to get the total number of parts: $3 + 4 + 5 = 12$ parts for \\$600, so one part $= 600 / 12 = \\$50$. The smallest share corresponds to the ratio term $3$: $3 \\times 50 = \\$150$. The key is finding the value of one part first; the answer is B.",
     "estimatedTimeSeconds": 150,
@@ -1241,6 +1427,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "This computes profit over the selling price ($30/150$) instead of cost. Use cost: $30/120=25\\%$.",
+      "B": "A near-miss; $30/120=25\\%$, not $30\\%$.",
+      "D": "This is roughly $30/90$ or a wrong base; profit over cost is $30/120=25\\%$.",
+      "E": "This overstates the margin; the profit 30 over cost 120 is $25\\%$, not $40\\%$."
+    },
     "explanation": "Profit = 30 on a cost of 120, so 30/120 = 25%.",
     "estimatedTimeSeconds": 100
   },
@@ -1278,6 +1470,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "D"
+    },
+    "distractorRationale": {
+      "A": "Comes from a wrong max or min, e.g. $19-8$; the range is $\\text{max}-\\text{min}=19-5=14$.",
+      "B": "A near-miss; using the true extremes $19-5=14$, not 12.",
+      "C": "Off by one, perhaps $19-6$ or a subtraction slip; the range is $19-5=14$.",
+      "E": "This is the maximum value, not the range. Subtract the minimum: $19-5=14$."
     },
     "explanation": "Range = largest - smallest = 19 - 5 = 14.",
     "estimatedTimeSeconds": 100,
@@ -1318,6 +1516,12 @@
       "format": "single",
       "value": "E"
     },
+    "distractorRationale": {
+      "A": "This is $\\log$ off by two; $2^4=16$, not 64. Since $64=2^6$, $x=6$.",
+      "B": "$2^5=32$, not 64. The correct exponent is $x=6$.",
+      "C": "$2^7=128$, overshooting 64. Since $64=2^6$, $x=6$.",
+      "D": "$2^8=256$, far past 64. The value is $x=6$ because $64=2^6$."
+    },
     "explanation": "64 = 2^6, so x = 6.",
     "estimatedTimeSeconds": 100,
     "answerCheck": "num(text(answer)) === 6"
@@ -1356,6 +1560,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "A near-miss; $\\sqrt{8^2+15^2}=\\sqrt{289}=17$, not 16.",
+      "C": "This may average or guess; the Pythagorean result is $\\sqrt{64+225}=17$.",
+      "D": "This overshoots; $8^2+15^2=289$ and $\\sqrt{289}=17$, not 20.",
+      "E": "This adds the legs ($8+15$) instead of using $a^2+b^2=c^2$; the hypotenuse is 17."
     },
     "explanation": "Hypotenuse = sqrt(8^2 + 15^2) = sqrt(64 + 225) = sqrt(289) = 17.",
     "estimatedTimeSeconds": 110,
@@ -1396,6 +1606,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "Too short; the closing speed is $55+65=120$ mph, so $480/120=4$ hours, not 3.",
+      "B": "Comes from using one car's speed or a wrong sum; combined rate 120 mph gives $480/120=4$.",
+      "D": "This may subtract the speeds instead of adding; moving toward each other, rates add to 120, giving 4 hours.",
+      "E": "Too long; with closing speed 120 mph, $480/120=4$ hours."
+    },
     "explanation": "When two objects move toward each other, their speeds add to give the closing rate. Closing speed $= 55 + 65 = 120$ mph, so time to cover the gap is $\\frac{480}{120} = 4$ hours. The insight is combining the rates rather than tracking each car separately; the answer is C.",
     "estimatedTimeSeconds": 150,
     "answerCheck": "num(text(answer)) === 4"
@@ -1434,6 +1650,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "D"
+    },
+    "distractorRationale": {
+      "A": "This may be one root or a partial sum; the two roots $8$ and $-2$ sum to 6.",
+      "B": "A near-miss; solving both cases gives $8+(-2)=6$, not 4.",
+      "C": "This is the positive root alone ($x=8$), ignoring the negative case $x=-2$. The sum is $8+(-2)=6$.",
+      "E": "This adds the magnitudes ($8+2$) instead of the signed roots; $8+(-2)=6$."
     },
     "explanation": "2x - 6 = 10 gives x = 8, and 2x - 6 = -10 gives x = -2. Their sum is 8 + (-2) = 6.",
     "estimatedTimeSeconds": 150,
@@ -1474,6 +1696,12 @@
       "format": "single",
       "value": "E"
     },
+    "distractorRationale": {
+      "A": "Comes from a sign or term slip; $3(4)-4+4=12$, not 10.",
+      "B": "Comes from $3(4)-2(2)+something$ miscomputed; $f(2)=12-4+4=12$.",
+      "C": "A near-miss; $3(2)^2-2(2)+4=12$, not 16.",
+      "D": "Comes from mishandling the constant or sign; $12-4+4=12$."
+    },
     "explanation": "Substitute $x=2$ and respect order of operations (square before multiplying): $f(2)=3(2)^2-2(2)+4=3(4)-4+4=12-4+4=12$. The trap is computing $(3\\cdot2)^2=36$ by multiplying before squaring, or mishandling the signs of the middle and last terms.",
     "estimatedTimeSeconds": 110,
     "answerCheck": "num(text(answer)) === 12"
@@ -1513,6 +1741,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "This is $\\pi r$ or uses $r$ once instead of $2r$; circumference $=2\\pi r=16\\pi$.",
+      "C": "A near-miss; $2\\pi(8)=16\\pi$, not $12\\pi$.",
+      "D": "This is $4\\pi r$ or doubles too much; circumference $=2\\pi(8)=16\\pi$.",
+      "E": "This is $\\pi r^2$ (the area), not the circumference. Use $2\\pi r=16\\pi$."
+    },
     "explanation": "Circumference = 2πr = 2π(8) = 16π.",
     "estimatedTimeSeconds": 100
   },
@@ -1550,6 +1784,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "This is $3\\times5$ (edge times 3), not the cube. Volume $=5^3=125$.",
+      "C": "This is $5^2$, the area of one face. Volume cubes the edge: $5^3=125$.",
+      "D": "This is $3\\times5^2$ or another partial product; volume $=5^3=125$.",
+      "E": "This is $4\\times5^2$ or a surface-area-like slip; the volume is $5^3=125$."
     },
     "explanation": "Volume = edge^3 = 5^3 = 125.",
     "estimatedTimeSeconds": 100,
@@ -1590,6 +1830,12 @@
       "format": "single",
       "value": "D"
     },
+    "distractorRationale": {
+      "A": "This is just the first year's balance ($3000\\times1.20$), stopping a year early. After 2 years it is $3000\\times1.20^2=4320$.",
+      "B": "This is simple interest ($3000+2\\times600$), ignoring interest on interest. Compounding gives $3000\\times1.44=4320$.",
+      "C": "A near-miss; $3000\\times1.20^2=4320$, not 4500.",
+      "E": "This overshoots (e.g., $3000\\times1.6$); $1.20^2=1.44$, so the balance is 4320."
+    },
     "explanation": "With annual compounding the balance is $P(1+r)^t = \\$3000 \\times 1.20^2 = \\$3000 \\times 1.44 = \\$4320$, choice D. The trap is treating it as simple interest ($\\$3000 + 2 \\times \\$600 = \\$4200$); compounding adds interest on the first year's interest, the extra $\\$120$.",
     "estimatedTimeSeconds": 150,
     "answerCheck": "num(text(answer)) === 4320"
@@ -1628,6 +1874,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "E"
+    },
+    "distractorRationale": {
+      "A": "Check: $21=8\\times2+5$ works for mod 8, but $21=5\\times4+1$ gives remainder 1, not 3. The least valid $n$ is 13.",
+      "B": "$29$ leaves remainder 4 on division by 5, not 3. The smallest $n$ meeting both conditions is 13.",
+      "C": "$33$ leaves remainder 1 on division by 8, not 5. The least valid value is 13.",
+      "D": "$53$ satisfies both conditions but is not the smallest; 13 is the least positive $n$."
     },
     "explanation": "n = 13 gives 13 = 5×2 + 3 (remainder 3) and 13 = 8×1 + 5 (remainder 5), and it is the smallest such positive integer.",
     "estimatedTimeSeconds": 160,
@@ -1668,6 +1920,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "This is the chance of one specific outcome ($\\frac{1}{16}$), not all $\\binom{4}{3}=4$ arrangements. The probability is $\\frac{4}{16}=\\frac{1}{4}$.",
+      "C": "Comes from miscounting favorable arrangements as 2; there are 4, giving $\\frac{4}{16}=\\frac{1}{4}$.",
+      "D": "This counts $\\binom{4}{1}+\\binom{4}{2}$ or another mix; exactly 3 heads gives $\\frac{4}{16}=\\frac{1}{4}$.",
+      "E": "This treats outcomes as a coin flip; exactly 3 heads in 4 flips is $\\frac{4}{16}=\\frac{1}{4}$, not $\\frac{1}{2}$."
+    },
     "explanation": "For independent coin flips, probability = (favorable arrangements) ÷ (total outcomes). Total outcomes are $2^4=16$, and the number of ways to place exactly 3 heads is $\\binom{4}{3}=4$, so $4/16=1/4$. The insight is counting which positions the 3 heads occupy with a combination, not assuming every count of heads is equally likely. Answer: A.",
     "estimatedTimeSeconds": 150
   },
@@ -1705,6 +1963,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "This may use only the fill pipes or omit the drain; the net rate $\\frac{1}{3}+\\frac{1}{6}-\\frac{1}{4}=\\frac{1}{4}$ gives 4 hours.",
+      "C": "A near-miss; the net rate is $\\frac{1}{4}$ tank/hour, so the time is 4 hours, not 5.",
+      "D": "Comes from a sign slip on the drain; subtracting it correctly gives $\\frac{1}{4}$ and 4 hours.",
+      "E": "This adds times or mishandles the drain; net rate $\\frac{1}{4}$ tank/hour means 4 hours."
     },
     "explanation": "Net rate = 1/3 + 1/6 - 1/4 = 4/12 + 2/12 - 3/12 = 3/12 = 1/4 tank per hour, so 4 hours.",
     "estimatedTimeSeconds": 160,
@@ -1745,6 +2009,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "Too small; $\\frac{5!}{3!}=20$, not 10 (this resembles dividing by an extra factor).",
+      "B": "A near-miss; with R repeated 3 times, $\\frac{5!}{3!}=20$, not 30.",
+      "D": "This divides $5!$ by 2 instead of $3!$, undercounting the repeated R's. The correct count is $\\frac{120}{6}=20$.",
+      "E": "This is $5!$ with no adjustment for the three identical R's. Divide by $3!$: $\\frac{120}{6}=20$."
+    },
     "explanation": "ERROR has 5 letters with R repeated 3 times (E, O distinct), so divide the total arrangements by the repeats: $\\frac{5!}{3!} = \\frac{120}{6} = 20$. The insight is dividing by $3!$ to remove indistinguishable orderings of the three R's; the answer is C.",
     "estimatedTimeSeconds": 160,
     "answerCheck": "num(text(answer)) === 20"
@@ -1783,6 +2053,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "E"
+    },
+    "distractorRationale": {
+      "A": "This is the 4th term alone ($54$), not the sum. Add all four: $2+6+18+54=80$.",
+      "B": "A near-miss that isn't $2+6+18+54$; the sum is 80.",
+      "C": "Comes from a term slip in the sequence; $2+6+18+54=80$.",
+      "D": "This includes a 5th term ($162$) or sums $6+18+54+...$; with exactly four terms the sum is 80."
     },
     "explanation": "List or sum the geometric terms with first term 2 and ratio 3. The terms are $2, 6, 18, 54$, summing to $80$; equivalently use $S = \\frac{a(r^n - 1)}{r - 1} = \\frac{2(3^4 - 1)}{3 - 1} = \\frac{2 \\cdot 80}{2} = 80$. The trap is including a 5th term or stopping at three; with only four terms the answer is E.",
     "estimatedTimeSeconds": 150,
@@ -1823,6 +2099,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "Comes from $1.30\\times0.90$ miscomputed or rounding; the exact product is $1.17$, i.e. $117\\%$.",
+      "C": "This applies $+30\\%$ then $-10\\%$ as $1.30-0.10$ on the original; chain them: $1.30\\times0.90=117\\%$.",
+      "D": "A near-miss; $1.30\\times0.90=1.17$, so $117\\%$, not $123\\%$.",
+      "E": "This is just the $+30\\%$ step, ignoring the later decrease. The net is $1.30\\times0.90=117\\%$."
+    },
     "explanation": "Chain the percentage changes as multipliers on the original: a 30% increase then a 10% decrease gives $1.30\\times0.90=1.17$, i.e. 117% of the original. The trap is subtracting the percents ($30\\%-10\\%=20\\%\\to120\\%$); the 10% cut applies to the already-enlarged amount, not the original.",
     "estimatedTimeSeconds": 150
   },
@@ -1860,6 +2142,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "A near-miss; from $121=65+2xy$, $2xy=56$ and $xy=28$, not 24.",
+      "C": "Comes from a slip in $121-65$; correctly $2xy=56$, so $xy=28$.",
+      "D": "Overshoots; $(x+y)^2=x^2+2xy+y^2$ gives $2xy=56$ and $xy=28$.",
+      "E": "Comes from mis-subtracting or doubling; $xy=\\frac{121-65}{2}=28$."
     },
     "explanation": "Use the identity $(x+y)^2 = x^2 + 2xy + y^2$ to link the given sums. Substituting, $11^2 = 65 + 2xy$, so $121 = 65 + 2xy$, giving $2xy = 56$ and $xy = 28$ (choice B). The insight is that squaring $x+y$ produces the cross term $2xy$, which you isolate using the known $x^2+y^2$ — no need to solve for $x$ and $y$ individually.",
     "estimatedTimeSeconds": 160,
@@ -1900,6 +2188,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "This is the units digit of $3^4$ (or $3^{28}$), one position too early in the cycle. Since $29\\equiv1\\pmod4$, it matches $3^1=3$.",
+      "B": "This is $3^3$'s units digit, the wrong spot in the cycle 3, 9, 7, 1. For $3^{29}$ it is 3.",
+      "D": "This is $3^2$'s units digit; $29\\equiv1\\pmod4$ points to $3^1$, whose units digit is 3.",
+      "E": "6 never appears as a units digit of a power of 3 (the cycle is 3, 9, 7, 1). The answer is 3."
+    },
     "explanation": "Units digits of powers of 3 cycle 3, 9, 7, 1 with period 4. Since 29 = 4×7 + 1, the units digit matches 3^1, which is 3.",
     "estimatedTimeSeconds": 150,
     "answerCheck": "num(text(answer)) === 3"
@@ -1938,6 +2232,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "D"
+    },
+    "distractorRationale": {
+      "A": "This is $\\pi r h$ ($\\pi\\cdot4\\cdot5$), forgetting to square the radius. Volume $=\\pi r^2h=80\\pi$.",
+      "B": "This uses $2rh$ or another partial product; $\\pi(4)^2(5)=80\\pi$.",
+      "C": "A near-miss that isn't $\\pi\\cdot16\\cdot5$; the volume is $80\\pi$.",
+      "E": "This overshoots (e.g., $\\pi\\cdot4^2\\cdot... $ miscounted); $\\pi r^2h=\\pi\\cdot16\\cdot5=80\\pi$."
     },
     "explanation": "Volume = πr^2h = π(4)^2(5) = π·16·5 = 80π.",
     "estimatedTimeSeconds": 150

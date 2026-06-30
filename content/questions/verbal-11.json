@@ -35,6 +35,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "Whether customers were willing to pay the higher price is consistent with the story, but the manager's inference about valuation collapses only if some other factor drove sales; willingness alone does not bridge price to higher valuation. The needed assumption is that no other change affected demand.",
+      "C": "Remaining the most popular product restates the setup rather than supplying the missing link; sales could rise for reasons unrelated to valuation even if it stays the top seller. The conclusion depends on ruling out other causes of the sales increase.",
+      "D": "This offers a specific mechanism (signaling quality), but the conclusion does not require that exact explanation, and a 'large enough' threshold is not assumed. What the argument actually needs is that nothing else explains the sales rise.",
+      "E": "Higher revenue is a likely consequence of more sales, not a premise the conclusion rests on; the argument is about valuation, not revenue. The required assumption is that no other change drove demand."
+    },
     "explanation": "The manager infers higher valuation from a price increase plus higher sales. That holds only if no other factor explains the increase in sales, which is what choice B states.",
     "estimatedTimeSeconds": 90
   },
@@ -73,6 +79,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "Fewer crashes on nearby roads too suggests a broader trend, which would weaken rather than strengthen the marker explanation. The strengthener is that traffic volume stayed steady, ruling out reduced exposure.",
+      "C": "A general preference for daytime travel does not connect the markers to the specific decline in nighttime crashes on this road. Holding traffic volume constant is what supports the conclusion.",
+      "D": "Low installation cost speaks to the markers' value for money, not to whether they actually caused fewer crashes. The relevant support is steady traffic volume.",
+      "E": "Repaving the year before introduces an alternative cause for the safety improvement, undercutting the markers' role rather than strengthening it. Stable traffic volume is the genuine strengthener."
     },
     "explanation": "If traffic volume stayed about the same, the drop in crashes is less likely to be explained by reduced exposure, making the marker explanation more plausible.",
     "estimatedTimeSeconds": 90
@@ -113,6 +125,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "A sharper weekend drop adds detail about timing but does not provide an alternative cause for the overall decline; it neither supports nor undercuts the videos-are-easier claim. The interface simplification is the real alternative explanation.",
+      "C": "That some customers still prefer paper does not explain why calls fell; if anything it cuts against the videos' appeal but offers no competing cause for fewer calls. The simultaneous interface change is what weakens the conclusion.",
+      "D": "Two-language availability would tend to support the videos' usefulness, not weaken the conclusion. The weakener is the concurrent interface simplification.",
+      "E": "More recent staff training affects how calls are handled, not how many calls customers need to make. The genuine alternative cause is the simplified interface."
+    },
     "explanation": "If the interface was simplified at the same time, the drop in support calls may be due to the interface change rather than the videos being easier to use.",
     "estimatedTimeSeconds": 90
   },
@@ -151,6 +169,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "Whether tutored students started lower bears on selection effects, but it does not test the timing-based claim that the program caused the school-wide average to rise; even lower-starting students rising could reflect a general trend. A comparison school directly tests that.",
+      "C": "Gains in other subjects might hint at a broader cause, but this is indirect; rises elsewhere could have separate explanations. The cleanest test is whether scores rose at schools without the program.",
+      "D": "Cost overruns are irrelevant to whether the program actually raised math scores. The useful question is the comparison-school check.",
+      "E": "Participation rates tell us how many students were reached, not whether the program rather than an outside trend drove the score increase. The decisive evidence is a no-program comparison school."
     },
     "explanation": "A comparison school helps test whether the increase reflects the tutoring program or a broader trend, directly addressing the causal question.",
     "estimatedTimeSeconds": 90
@@ -191,6 +215,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "Sample size is not the core problem; even a large sample of dessert buyers vs. non-buyers would still confuse association with causation. The flaw is treating spending as the cause of dessert ordering, reversing or misreading the relationship.",
+      "C": "Whether prices could be raised is an unconsidered option but not the reasoning error; the conclusion's defect is causal, not about pricing strategy. The flaw is mistaking association for causation.",
+      "D": "Why some diners skip dessert is beside the point; the argument's mistake is inferring that free desserts will boost revenue from a mere correlation. It treats the link between dessert orders and spending as causal.",
+      "E": "This reverses the actual causal confusion in a misleading way, but the precise flaw is treating the higher spending of dessert buyers as proof that desserts cause higher revenue, rather than recognizing those diners may simply be bigger spenders."
+    },
     "explanation": "Diners who order dessert may already be inclined to spend more. The owner treats an association as proof that desserts cause higher revenue.",
     "estimatedTimeSeconds": 90
   },
@@ -229,6 +259,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "C"
+    },
+    "distractorRationale": {
+      "A": "'Only the west wing' shows access is restricted, so saying the museum is open to all visitors every Tuesday overstates what the passage supports. What follows is that the east wing cannot be entered on Tuesday.",
+      "B": "The museum is closed on Mondays, so nothing is open then; this contradicts the passage. The supported inference is that the east wing is off-limits on Tuesday.",
+      "D": "Visitors may enter the west wing, so the museum clearly has one; this contradicts the text. The valid inference is that the east wing cannot be entered on Tuesday.",
+      "E": "Renovation occurring on Tuesday says nothing about Mondays, and 'always' is unsupported. The text only lets us conclude the east wing is closed to visitors on Tuesday."
     },
     "explanation": "On Tuesday, visitors may enter only the west wing because the east wing is being renovated, so they cannot enter the east wing.",
     "estimatedTimeSeconds": 90
@@ -269,6 +305,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "Heavier average loads per sailing could even reduce waiting if more capacity is used efficiently; it does not clearly explain longer waits. Rising demand outpacing the added sailings does.",
+      "C": "Retiring slow vessels would tend to improve service, deepening the paradox rather than resolving it. The resolution is that more passengers than usual arrived.",
+      "D": "Adding sailings during the least crowded hours would do little to lengthen overall waits and does not explain the increase. The discrepancy is resolved by a surge in passengers.",
+      "E": "Competitors' even worse waits is a comparison that does not explain why this line's waits rose. The explanation is that demand grew faster than the extra sailings."
+    },
     "explanation": "If demand rose even more than the increase in sailings, average wait times could still rise, resolving the contradiction.",
     "estimatedTimeSeconds": 90
   },
@@ -307,6 +349,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "The first boldface presents traffic data supporting the case, so it is evidence, not the conclusion; and the second is the conclusion, not evidence. The roles are evidence, then conclusion.",
+      "C": "The data point supports the argument's direction rather than opposing it, so 'counterevidence' is wrong for the first statement. It is evidence, and the second is the conclusion.",
+      "D": "The first boldface is data, not a conclusion, and the second is the argument's conclusion rather than a mere recommendation distinct from it. The pair is evidence and conclusion.",
+      "E": "The first statement is factual data, not a recommendation, and the second is the conclusion rather than evidence. Correctly, the roles are evidence and conclusion."
     },
     "explanation": "The data statement supports the case for bike lanes, so it is evidence; the final statement is the conclusion the argument draws from it.",
     "estimatedTimeSeconds": 100
@@ -347,6 +395,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "That faster approvals speed renovations is a supporting premise in the chain, not the final claim the argument builds toward. The main point is that faster approvals can help stabilize rents.",
+      "C": "That fewer vacancies stabilize rents is an intermediate link, not the overall conclusion. The argument's main point connects faster approvals all the way to stabilizing rents.",
+      "D": "Collecting rent earlier is not stated and is at most a side effect, not the argument's conclusion. The main point is that speeding approvals can help stabilize rents.",
+      "E": "Whether the agency has authority is never claimed and is irrelevant to the reasoning. The main conclusion is that faster approvals can help stabilize rents."
+    },
     "explanation": "The chain of support leads to the broader claim that faster permit approvals can help stabilize rents, which is the main conclusion.",
     "estimatedTimeSeconds": 100
   },
@@ -385,6 +439,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "Reducing pickup frequency could discourage recycling, undercutting the goal even if bins are free. The plan that uses existing staff and digital notices fits raising recycling at low cost.",
+      "C": "Hiring a consultant and building a facility implies large new spending, which conflicts with the no-new-tax constraint. The low-cost campaign plan is the better fit.",
+      "D": "Dramatically raising fines is punitive, hard to enforce, and not clearly tied to higher recycling; it also risks public backlash. A low-cost outreach campaign better meets the goal.",
+      "E": "Cutting recycling services entirely for a month works directly against the goal of increasing recycling. The existing-staff campaign is the plan that fits."
     },
     "explanation": "A campaign using existing staff and digital notices plausibly improves recycling while avoiding major added cost, fitting the no-new-tax goal.",
     "estimatedTimeSeconds": 100
@@ -425,6 +485,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "That routine-users sleep longer than non-users restates the observed correlation rather than supplying the assumption needed to claim causation. The conclusion requires that the routine itself does not keep users awake.",
+      "C": "Reverse causation (sleeping longer leads to more routine use) would undercut the conclusion, not support it; it is not a required assumption. The needed assumption is that the routine has no countervailing wakefulness effect.",
+      "D": "Sleep quality is a separate outcome the argument never claims; the conclusion is only about duration. The required assumption concerns the routine not keeping users awake.",
+      "E": "How many users complete the routine affects reach, not whether the routine causes longer sleep. The assumption needed is that the routine does not itself delay sleep."
+    },
     "explanation": "The conclusion requires that the routine not have a countervailing effect such as keeping users awake; otherwise the longer sleep could not be attributed to it.",
     "estimatedTimeSeconds": 100
   },
@@ -463,6 +529,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "C"
+    },
+    "distractorRationale": {
+      "A": "Larger Saturday audiences elsewhere would actually cut against moving away from Saturday, weakening rather than strengthening the plan. The strengthener is that Thursday options are genuinely limited.",
+      "B": "Resting staff over the weekend is a benefit unrelated to attendance, so it does not support the attendance prediction. The relevant support is that competing Thursday events are scarce.",
+      "D": "If competitors stage their biggest events on Saturday, that argues for keeping the Saturday slot less crowded by comparison, not moving to Thursday; it does not strengthen the Thursday rationale. Limited Thursday options is the real strengthener.",
+      "E": "Reduced weekend overtime is a cost saving, not evidence that Thursday attendance will rise. The argument is strengthened by confirming Thursday has few competing events."
     },
     "explanation": "If other entertainment options are genuinely limited on Thursdays, the claimed advantage is real and the move is more likely to raise attendance.",
     "estimatedTimeSeconds": 100
@@ -503,6 +575,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "Patients calling the reminders helpful is testimonial that, if anything, supports the hospital, so it does not weaken the claim. The weakener is the simultaneous introduction of free parking.",
+      "C": "Steady no-shows at a no-reminder hospital actually strengthens the claim by ruling out a general trend. The weakener is the concurrent free-parking change.",
+      "D": "The timing of the texts is a detail about how reminders work, not an alternative cause for the drop. Free parking introduced at the same time is the real alternative cause.",
+      "E": "A larger-than-predicted reduction does not undermine causation; it could even support it. The weakener is that free parking was launched simultaneously."
+    },
     "explanation": "If free parking was introduced at the same time, the lower no-show rate could be due to parking rather than the reminder texts.",
     "estimatedTimeSeconds": 100
   },
@@ -541,6 +619,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "Whether the vans can finish routes without recharging is an operational feasibility question, not a direct test of five-year cost savings. The decisive issue is how charging costs will move relative to fuel costs.",
+      "C": "Lower emissions are an environmental benefit, irrelevant to the operating-cost prediction. The useful question is whether charging costs will rise faster than fuel costs.",
+      "D": "Whether competitors are also switching does not bear on this company's costs. The relevant question concerns charging versus fuel cost trends.",
+      "E": "A higher purchase price is one factor, but the claim is about total cost over five years where ongoing energy costs dominate; purchase price alone is not decisive. The key question is the relative trend of charging and fuel costs."
     },
     "explanation": "Whether charging costs may rise relative to fuel directly bears on whether the main ongoing cost will be lower, which is decisive for the forecast.",
     "estimatedTimeSeconds": 100
@@ -581,6 +665,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "How many trees each neighborhood needs is an implementation detail, not the logical flaw; the argument's error is causal, not quantitative. It assumes correlation proves causation.",
+      "C": "Whether some neighborhoods cannot support trees is a practical objection, but the reasoning error is inferring causation from a correlation. That is the flaw.",
+      "D": "The argument does not claim trees are the only way to lower pollution, so this misstates what it does; the actual flaw is treating correlation as causation. It also wrongly assumes the effect holds in every neighborhood.",
+      "E": "The data come from neighborhoods with more or fewer trees generally, not only the most polluted ones, so this misdescribes the evidence. The real flaw is assuming correlation proves causation."
+    },
     "explanation": "The data show an association, not proof that trees caused the lower pollution; the mayor treats correlation as causation.",
     "estimatedTimeSeconds": 100
   },
@@ -619,6 +709,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "C"
+    },
+    "distractorRationale": {
+      "A": "'Some students revised' does not support 'every student revised'; only some who received feedback revised. The safe inference is that some revised essays were submitted before the deadline.",
+      "B": "The passage says every submitter got feedback but does not establish that anyone actually submitted; 'some submitted' is not guaranteed. What follows is that some revised essays were submitted before the deadline.",
+      "D": "Receiving feedback did not require revising; only some who got feedback revised. So 'no student received feedback without revising' is unsupported, while 'some revised essays were submitted before the deadline' does follow.",
+      "E": "Nothing says the revised essays were the same one; this is unsupported. The valid inference is that some revised essays were submitted before the deadline."
     },
     "explanation": "Some students who received feedback revised their essays, and every revised essay was submitted before the deadline, so at least some revised essays were submitted before the deadline.",
     "estimatedTimeSeconds": 100
@@ -659,6 +755,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "Expanding the coffee menu does not explain why revenue on those specific titles fell after a price cut. The explanation is that the small cut led to fewer copies sold.",
+      "C": "Displaying titles near the entrance would tend to raise sales, deepening the paradox rather than resolving it. The resolution is a modest price cut plus fewer copies sold.",
+      "D": "A logo change is unrelated to revenue on those particular slow-selling titles. The explanation is that only slightly lower prices coincided with fewer sales.",
+      "E": "That the books were hardcovers does not explain the revenue drop following a price cut. The result is explained by a small price reduction and fewer copies sold."
+    },
     "explanation": "If the price cut was modest and customers bought fewer copies, revenue can still fall even after prices are lowered.",
     "estimatedTimeSeconds": 100
   },
@@ -697,6 +799,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "The first boldface is a caution about the data, not a conclusion; the second is the conclusion, not merely a recommendation distinct from it. The roles are a qualification of the evidence and the conclusion.",
+      "C": "The first statement qualifies the evidence rather than stating a conclusion, and the second is the conclusion, not a restatement of the data. The correct pair is qualification of evidence and conclusion.",
+      "D": "The first boldface concedes a limit of the argument's own evidence rather than presenting an opposing claim, so 'counterclaim' is wrong; and the second is the conclusion, not a concession. It qualifies the evidence and then concludes.",
+      "E": "The first boldface limits the evidence rather than serving as a plain premise, and the second is the conclusion, not a rebuttal. The roles are qualification of the evidence and the conclusion."
     },
     "explanation": "The first boldface limits the significance of the data, so it qualifies the evidence; the second states what the city should do, the argument's conclusion.",
     "estimatedTimeSeconds": 120
@@ -737,6 +845,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "That adding routes does little alone is part of the support, not the full conclusion; the argument goes further to name what matters more. The main point is that reliability and advance notice matter more than route count alone.",
+      "B": "Singling out advance notice as the single most important factor overstates the argument, which credits both reliability and notice. The main point pairs the two against route count.",
+      "D": "An action recommendation to run on time and notify families is implied, but the stated conclusion is the comparative claim about what matters more. That comparison is the main point.",
+      "E": "That attendance rose only slightly is a premise describing the disappointing result, not the conclusion. The main point is that reliability and advance notice matter more than route count alone."
+    },
     "explanation": "The evidence points to two factors, reliability and advance notice, and the conclusion is that these matter more than simply adding routes.",
     "estimatedTimeSeconds": 120
   },
@@ -775,6 +889,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "C"
+    },
+    "distractorRationale": {
+      "A": "A one-time signing bonus rewards enrollment, not second-year return, and adds cost without clearly improving retention. Mentors and brief check-ins target retention at low cost.",
+      "B": "Adding several in-person training sessions raises costs, conflicting with the keep-training-costs-low constraint. Low-cost mentoring and check-ins fit the dual goal.",
+      "D": "Recruiting more first-year volunteers grows intake but does nothing to raise the return rate. The strategy that fits is mentoring with brief check-ins.",
+      "E": "Surveying departing volunteers gathers information but does not by itself improve retention. Assigning mentors with monthly check-ins directly supports return at low cost."
     },
     "explanation": "Mentors and brief check-ins directly support retention at relatively low cost, fitting the nonprofit's dual goal.",
     "estimatedTimeSeconds": 120
@@ -815,6 +935,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "That the knowledge base is cheaper to build is a plausible cost premise, but the conclusion still fails if customers won't use it; this is not the missing assumption. The argument must assume customers are willing and able to use it.",
+      "C": "Whether customers currently contact support first is not required; the savings depend on future use of the knowledge base, not present habits. The needed assumption is that customers will actually use it.",
+      "D": "Improved satisfaction is a separate benefit the cost argument does not require. The required assumption is that customers will be willing and able to use the knowledge base.",
+      "E": "What competitors have done is irrelevant to whether this firm's customers will use the base. The assumption the argument needs is that customers will use it."
+    },
     "explanation": "The plan lowers costs only if customers actually use and benefit from the knowledge base, which the argument must assume.",
     "estimatedTimeSeconds": 120
   },
@@ -853,6 +979,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "Growing two kinds of crops is an irrelevant detail with no bearing on whether even moisture raises yields. The strengthener is that similar farms saw higher yields with drip irrigation.",
+      "C": "Workers' preference about carrying hoses is about convenience, not yield. Higher yields at comparable drip-using farms is the real support.",
+      "D": "Requiring more pipes is a cost or logistics point, not evidence of higher yields. The strengthener is that other regional farms reported higher yields.",
+      "E": "Morning harvesting is unrelated to the moisture-yield claim. The argument is strengthened by similar farms reporting higher yields after adopting drip irrigation."
     },
     "explanation": "If similar farms saw higher yields after adopting drip irrigation, that supports the claim that the method can improve yields.",
     "estimatedTimeSeconds": 120
@@ -893,6 +1025,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "Being in a shopping district describes location but offers no alternative cause for fewer injuries. The weakener is that fewer pedestrians used the blocks, lowering exposure.",
+      "C": "Crews working at night concerns scheduling, not whether the sidewalks became safer. The weakener is reduced pedestrian traffic on the repaired blocks.",
+      "D": "Using the same contractor everywhere is irrelevant to whether injuries fell because of safer sidewalks. Fewer pedestrians using the blocks is what weakens the claim.",
+      "E": "That some pedestrians also use buses says nothing about why injuries declined on these blocks. The weakener is that fewer people used the repaired blocks."
+    },
     "explanation": "If fewer pedestrians used the repaired blocks, injuries could fall simply because exposure fell, not because the sidewalks became safer.",
     "estimatedTimeSeconds": 120
   },
@@ -931,6 +1069,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "Whether the app cuts printing and ticketing costs addresses savings, not the predicted reduction in queue times. The useful question is whether riders can actually use the app, i.e., whether they have smartphones with data.",
+      "C": "An attractive, easy interface helps adoption somewhat, but the plan first requires that riders even have capable devices; aesthetics is secondary. Whether most riders have smartphones with data is more decisive.",
+      "D": "Whether queue times rose over the past year is background, not a test of whether the app will cut them. The key is whether riders have the smartphones needed to use it.",
+      "E": "What neighboring lines have done does not show whether this line's riders can use the app. The decisive question is whether most riders carry smartphones with data access."
     },
     "explanation": "The plan works only if riders can use the app, so whether most riders have smartphones with data access is directly relevant.",
     "estimatedTimeSeconds": 120
@@ -971,6 +1115,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "Reverse causation (satisfaction leading stores to adopt self-checkout) is a stretch given that satisfaction is measured after adoption; the more basic flaw is that the two groups of stores may differ in other ways. The argument assumes the stores are otherwise identical and reads correlation as causation.",
+      "C": "Whether customers prefer self-checkout to staffed lanes is a substantive question but not the logical flaw; the reasoning fails because the compared stores may differ in many respects. It wrongly assumes they are otherwise equivalent.",
+      "D": "Whether satisfaction scores truly reflect feelings questions the metric, not the causal leap the argument makes. The flaw is assuming self-checkout and non-self-checkout stores are otherwise identical.",
+      "E": "Whether self-checkout also cut labor costs is irrelevant to the satisfaction claim. The vulnerability is assuming the stores are otherwise identical, treating correlation as causation."
+    },
     "explanation": "Different stores may differ in many ways besides self-checkout; the retailer assumes the groups are otherwise equivalent and treats correlation as causation.",
     "estimatedTimeSeconds": 120
   },
@@ -1009,6 +1159,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "'Only those who passed were invited' does not mean every passer was invited; the conditional runs the other way. What follows is that some applicants passed the first screening.",
+      "C": "Only passers were invited, so anyone who declined a final interview must have passed the first screening; saying some who declined had failed contradicts the setup. The valid inference is that some applicants passed.",
+      "D": "Some who were invited declined, so it is false that every invited applicant attended. The supported inference is that some applicants passed the first screening.",
+      "E": "Nothing supports 'most' passers declining; we only know some who were invited declined. The valid inference is simply that some applicants passed the first screening."
     },
     "explanation": "Since only those who passed the first screening were invited, and some applicants were invited (some of whom declined), at least some applicants passed the first screening.",
     "estimatedTimeSeconds": 120
@@ -1049,6 +1205,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "Higher total ridership would tend to raise, not lower, average rides per station, so it deepens the paradox rather than explaining it. The explanation is that new stations were placed where demand was low.",
+      "C": "Giving the busiest stations more bikes would, if anything, raise their usage and not explain a falling system-wide average. The result is explained by low-demand placement of new stations.",
+      "D": "If new stations merely pulled riders from older ones, total rides stay similar and the average per station could hold; this does not cleanly explain the drop. The drop is explained by adding stations where existing demand was little.",
+      "E": "Lower maintenance cost per station is a cost figure, irrelevant to rides per station. The explanation is that the new stations sat in low-demand areas, diluting the average."
+    },
     "explanation": "If the new stations were added where demand was low, total rides are spread across more stations, lowering the average rides per station.",
     "estimatedTimeSeconds": 120
   },
@@ -1087,6 +1249,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "The first boldface limits the pilot's scope rather than stating a conclusion, and the second is a recommendation, not a premise. The roles are a limitation on the evidence and a recommendation.",
+      "C": "The first statement narrows where the pilot ran, which limits the evidence rather than serving as a counterexample, and the second is a recommendation, not a conclusion. The pair is limitation on the evidence and recommendation.",
+      "D": "The first boldface is a scope limitation, not a neutral premise, and the second is a recommendation. The correct roles are a limitation on the evidence and a recommendation.",
+      "E": "The first statement limits the evidence rather than concluding anything, while the second recommends action rather than stating a conclusion. The roles are limitation on the evidence and recommendation."
     },
     "explanation": "The first boldface limits how broadly the pilot results apply, so it is a limitation on the evidence; the second is a recommendation to expand the program.",
     "estimatedTimeSeconds": 150
@@ -1127,6 +1295,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "More accurate submissions by users is a supporting observation, not the broad claim the argument reaches. The main point is that technology works best when paired with human assistance.",
+      "C": "That live chat improved accuracy is the key supporting finding, not the conclusion itself, which generalizes beyond this one case. The main point is the general claim about technology plus human help.",
+      "D": "Recommending live chat for all other services goes beyond what the argument concludes. The stated main point is that technology works best when paired with human assistance.",
+      "E": "Comparing live chat to in-person help is never made; the passage does not rank those. The main point is that technology is most effective when combined with human assistance."
+    },
     "explanation": "The evidence supports the broader claim that technology is most effective when paired with human help, which is the conclusion.",
     "estimatedTimeSeconds": 150
   },
@@ -1165,6 +1339,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "Converting the main reading room into a teen lounge directly sacrifices quiet space, violating the constraint. A separate room after school attracts teens while preserving quiet.",
+      "C": "Putting a young-adult collection in the quiet reading area risks bringing teen noise into that space, conflicting with the goal. A separate room avoids that.",
+      "D": "Extending hours might add some access but does not specifically draw teens and could affect quiet patrons during shared hours; it is less targeted. A separate after-school teen room fits the goal and constraint best.",
+      "E": "Surveying teens gathers preferences but does not itself increase visits while protecting quiet space. Holding teen events in a separate room does both."
     },
     "explanation": "A separate room after school can attract teens while preserving the quiet area, meeting the goal and its constraint.",
     "estimatedTimeSeconds": 150
@@ -1205,6 +1385,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "That morning is the busiest period is background that does not establish the predicted increase; sales could still not rise if hurried customers ignore the app. The assumption needed is that hurrying customers will actually use mobile ordering.",
+      "C": "Spending at least as much per visit concerns per-customer amount, but the argument's logic first requires that hurried customers use the feature at all. The required assumption is that they will use mobile ordering.",
+      "D": "Shorter counter wait times is a possible benefit, not the premise the claim rests on. The claim depends on hurried customers actually using the ordering option.",
+      "E": "Whether competitors have mobile ordering is irrelevant to this shop's predicted increase. The assumption required is that hurrying customers will use the feature."
+    },
     "explanation": "The claim works only if hurried customers actually use the new ordering option; otherwise the predicted increase would not follow.",
     "estimatedTimeSeconds": 90
   },
@@ -1243,6 +1429,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "That current riders rarely bring bikes describes the status quo and, if anything, hints the feature is little used; it does not strengthen the ridership claim. The strengthener is that many potential riders avoid the line because they need a bike at the destination.",
+      "C": "Needing to add storage racks is a cost or logistics point, not support for higher ridership. The strengthener is unmet last-mile demand among potential riders.",
+      "D": "A competing bus allowing bikes suggests demand exists but also competition; it does not directly support that this line's ridership will rise. The strengthener is potential riders who avoid the line for lack of a destination bike.",
+      "E": "If current riders live within walking distance, last-mile bike access matters little to them, which does not strengthen the argument. The support comes from potential riders who need a bike at their destination."
     },
     "explanation": "If many potential riders avoid the line because they need a bike at their destination, adding bikes directly addresses that barrier.",
     "estimatedTimeSeconds": 90
@@ -1283,6 +1475,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "Higher cost per acre speaks to whether the fertilizer is worth it, not to whether it caused the larger harvest. The weakener is the simultaneous switch to a better irrigation schedule.",
+      "C": "Nearby farms also reporting larger harvests with the same fertilizer would strengthen the causal claim, not weaken it. The weakener is the concurrent irrigation change.",
+      "D": "Helpful nutrients on the label supports the fertilizer's plausibility, strengthening rather than weakening the claim. The weakener is that irrigation also changed at the same time.",
+      "E": "How the harvest was measured does not provide an alternative cause for a larger yield. The genuine alternative cause is the improved irrigation schedule introduced simultaneously."
+    },
     "explanation": "If irrigation also changed at the same time, the larger harvest may be due to watering rather than the fertilizer.",
     "estimatedTimeSeconds": 90
   },
@@ -1321,6 +1519,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "Comparing installation cost to expected savings evaluates the budget, not whether fountains will actually cut bottle sales. The useful question is whether visitors already bring reusable bottles.",
+      "C": "How bottled water sells in stores outside the parks is irrelevant to in-park bottle sales. The key is whether park visitors already carry reusable bottles.",
+      "D": "Whether park bottles are recycled concerns waste handling, not whether fewer bottles will be sold. The useful question is whether visitors already bring reusable bottles.",
+      "E": "Frequent cleaning is a maintenance burden, not a test of the predicted drop in bottle sales. The relevant question is whether visitors already bring reusable bottles."
     },
     "explanation": "If visitors already bring reusable bottles, the new fountains may have little effect on bottle sales, which is directly useful in evaluating the plan.",
     "estimatedTimeSeconds": 90
@@ -1361,6 +1565,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "Whether moving employees lowers productivity raises a side effect but is not the reasoning error. The flaw is inferring that proximity to windows causes fewer sick days from a mere correlation.",
+      "C": "Too few window seats is a practical obstacle, not the logical defect. The flaw is treating the window-seat correlation as proof of causation.",
+      "D": "Generalizing from one office to all offices misstates the argument, which only concerns this office. The actual flaw is assuming window proximity causes fewer sick days.",
+      "E": "Self-reported sick days questions the data's accuracy, not the causal leap. The flaw is assuming proximity to windows causes the fewer sick days."
+    },
     "explanation": "The manager infers a cause from an observed association; other factors could explain why window seats correlate with fewer sick days.",
     "estimatedTimeSeconds": 90
   },
@@ -1399,6 +1609,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "That refunds were offered does not mean every passenger accepted; acceptance is not stated. The supported inference is that some passengers on the affected route received refunds.",
+      "C": "Other routes getting no refunds does not imply they had no delays; the passage is silent on their delays. The valid inference is that some affected-route passengers received refunds.",
+      "D": "Nothing says the weather delay was the only delay that day; this is unsupported. What follows is that some affected-route passengers got refunds.",
+      "E": "A general refund policy for any delay is not established; only this delay's refunds are described. The valid inference is that some passengers on the affected route received refunds."
     },
     "explanation": "Refunds were offered to passengers on the affected route, so at least some passengers on that route received them.",
     "estimatedTimeSeconds": 90
@@ -1439,6 +1655,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "Canceled flights with rebooked passengers would reduce passengers flown but would not by itself raise ticket sales; rebooking is not a new sale. The explanation is that more tickets were sold for future flights.",
+      "C": "Higher prices would tend to reduce ticket sales, not raise them while fewer fly; this does not resolve the gap. The resolution is that many tickets sold were for future flights.",
+      "D": "A year-over-year comparison for last month is irrelevant to this month's mismatch between sales and passengers flown. The explanation is future-dated ticket sales.",
+      "E": "Round-trip versus one-way changes ticket composition but does not explain selling more tickets while flying fewer passengers. The explanation is that more tickets were sold for future flights."
+    },
     "explanation": "If many tickets were sold for future flights, ticket sales can rise while the number of passengers flown this month falls.",
     "estimatedTimeSeconds": 90
   },
@@ -1477,6 +1699,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "The first boldface limits the pilot's scope rather than stating a conclusion, and the second is a recommendation, not a premise. The roles are a limitation on the evidence and a recommendation.",
+      "C": "The first statement narrows where the pilot applied, limiting the evidence rather than acting as a counterexample, and the second recommends a study rather than concluding. The pair is limitation on the evidence and recommendation.",
+      "D": "The first boldface is a scope limitation, not a plain premise, and the second is a recommendation. The correct roles are a limitation on the evidence and a recommendation.",
+      "E": "The first statement limits the evidence rather than concluding, while the second recommends studying before expanding rather than stating a conclusion. The roles are limitation on the evidence and recommendation."
     },
     "explanation": "The first boldface narrows the pilot's scope, limiting the evidence; the second recommends studying whether the result generalizes.",
     "estimatedTimeSeconds": 100
@@ -1517,6 +1745,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "That bins reduce litter near themselves is a supporting observation, not the full conclusion, which adds the offsetting effect. The main point is that adding bins can shift litter unless cleanup is broader.",
+      "C": "Recommending bins at the edges is an action not stated; the argument concludes about shifting litter, not bin placement. The main point is that bins can shift litter unless cleanup covers the whole park.",
+      "D": "Ranking cleanup above bin count overstates the argument, which says bins help but can be offset. The main point is the conditional claim about shifting litter.",
+      "E": "That litter is now concentrated at the edges is a premise describing what happened, not the conclusion. The main point is that adding bins can merely shift litter unless cleanup is broader."
+    },
     "explanation": "The conclusion is not just that bins matter, but that their benefit can be offset unless cleanup covers the whole park.",
     "estimatedTimeSeconds": 100
   },
@@ -1555,6 +1789,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "Purchasing a large new fleet directly violates the constraint of not adding many new vehicles. Reassigning buses and using real-time data improves punctuality without many new vehicles.",
+      "C": "Surveying passengers gathers opinions but does not itself reduce late buses. The strategy that fits is reassigning buses and adjusting schedules with real-time data.",
+      "D": "Lowering fares on late routes does not make buses arrive on time and may even strain those routes further. Reassigning buses with real-time scheduling fits the goal.",
+      "E": "Hiring more drivers to run longer hours adds labor cost and extends service rather than fixing lateness, and does not target punctuality directly. The fitting strategy is reassigning buses and using real-time data."
     },
     "explanation": "Reassigning buses and using real-time data can improve punctuality without needing many new vehicles, fitting the goal.",
     "estimatedTimeSeconds": 100
@@ -1595,6 +1835,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "Not reducing sales in displaced departments protects other revenue but is not what the bakery-sales conclusion requires; sales could rise even if a displaced department dips. The required assumption is that current visibility is insufficient.",
+      "C": "Whether bakery items are the most profitable products is irrelevant to whether moving the bakery raises its sales. The assumption needed is that shoppers do not already notice the bakery enough.",
+      "D": "Faster other purchases is unrelated to the visibility-based sales claim. The argument depends on shoppers not already noticing the bakery well enough.",
+      "E": "What competing stores do with their bakeries does not bear on whether this move increases sales. The required assumption is that current visibility is inadequate."
+    },
     "explanation": "If shoppers already notice the bakery well enough, moving it would not necessarily increase sales; the conclusion depends on current visibility being insufficient.",
     "estimatedTimeSeconds": 100
   },
@@ -1633,6 +1879,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "Cheaper production cost supports the budget case, not whether the videos caused fewer mistakes. The strengthener is that workers who did not watch the videos showed no similar drop.",
+      "C": "Workers finding the videos clearer is favorable testimony but weaker than a controlled comparison; perceptions are not the same as a measured effect. The comparison group that did not improve is the stronger support.",
+      "D": "A competitor's defect rates also falling suggests a broader trend, which would weaken the causal claim. The strengthener is the non-watching group's lack of improvement.",
+      "E": "Plans to use videos for packaging is a future intention, not evidence the videos caused the assembly improvement. The strengthener is that non-viewers did not show the same drop."
     },
     "explanation": "A comparison group that did not watch the videos and did not improve supports the claim that the videos caused the drop in mistakes.",
     "estimatedTimeSeconds": 100
@@ -1673,6 +1925,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "Record festival-week revenue restates the observed rise without offering an alternative cause; it could even reflect the festival's success. The weakener is the simultaneous large holiday discounts.",
+      "C": "Sales returning to normal afterward is consistent with a temporary festival boost and does not undermine the festival's role. The weakener is that discounts ran during the same week.",
+      "D": "Hiring extra staff for crowds suggests the festival drew people, supporting rather than weakening the claim. The weakener is the concurrent holiday discounts.",
+      "E": "Higher-than-expected attendance strengthens the festival explanation. The weakener is that retailers also offered large discounts during the same week."
+    },
     "explanation": "If retailers also offered large discounts, the higher sales could be due to the discounts rather than the festival.",
     "estimatedTimeSeconds": 100
   },
@@ -1711,6 +1969,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "Light color preference is an aesthetic detail unrelated to whether lights reduce thefts. The useful question is whether thefts also fell in comparable neighborhoods without more lights.",
+      "C": "Whether poles are steel is irrelevant to the theft-reduction question. The decisive comparison is with similar neighborhoods lacking added lights.",
+      "D": "Pole height does not address whether the lights cause fewer thefts. The useful information is whether thefts fell in comparable areas without more streetlights.",
+      "E": "Whether the neighborhood has a park is unrelated to evaluating the lighting proposal. The relevant question is the comparable-neighborhood comparison."
     },
     "explanation": "A comparable-neighborhood comparison helps determine whether thefts fell because of the lights or because of a broader trend.",
     "estimatedTimeSeconds": 100
@@ -1751,6 +2015,12 @@
       "format": "single",
       "value": "A"
     },
+    "distractorRationale": {
+      "B": "Using too few examples is not the flaw; even a large sample of class-goers vs. others would still confuse correlation with causation. The flaw is assuming the two groups are alike in every relevant respect.",
+      "C": "The music playlist is an irrelevant detail, not the reasoning error. The flaw is assuming class attendees and non-attendees do not differ in other relevant ways.",
+      "D": "The argument never assumes cancellations are impossible; it claims classes reduce them. The flaw is treating an association as proof of causation by assuming the groups are otherwise the same.",
+      "E": "Treating a probability as a certainty does not capture the error; the gym infers causation from correlation. The flaw is assuming class-goers and others are alike in every relevant respect."
+    },
     "explanation": "Members who choose group classes may differ in ways that already make them less likely to cancel; the gym wrongly assumes the association proves causation.",
     "estimatedTimeSeconds": 100
   },
@@ -1789,6 +2059,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "'Some interns work remotely' does not follow; interns are part-time, but only some part-timers work remotely, and those may not be interns. What does follow is that some part-time workers are not contractors.",
+      "C": "Nothing links contractors to interns, so 'all contractors are interns' is unsupported. The valid inference is that some part-time workers are not contractors.",
+      "D": "We cannot conclude no intern works remotely; the premises leave that open. The supported inference is that some part-time workers are not contractors.",
+      "E": "Only interns are necessarily part-time, not the reverse, so 'every part-time worker is an intern' is unsupported. The valid inference is that some part-time workers are not contractors."
     },
     "explanation": "Some part-time workers work remotely, and no remote worker is a contractor, so some part-time workers are not contractors.",
     "estimatedTimeSeconds": 100
@@ -1829,6 +2105,12 @@
       "format": "single",
       "value": "B"
     },
+    "distractorRationale": {
+      "A": "If many customers bought nothing, that would tend to lower profit, not explain a rise; it does not resolve the result. The explanation is that the most expensive items were excluded from the sale.",
+      "C": "If discounted items had the lowest margins, selling more of them adds little profit and would not by itself explain a profit increase. Profit rises because the priciest, high-margin items stayed at full price while lower-margin items cleared.",
+      "D": "Saying full-price revenue rose even as fewer such items sold is itself paradoxical and unexplained; it restates rather than resolves the puzzle. The resolution is that the most expensive items were kept out of the sale.",
+      "E": "Costly sale signs would reduce profit, working against the observed rise. The explanation is that the store excluded its most expensive items from the sale."
+    },
     "explanation": "If the most expensive items were excluded from the sale, the store could sell fewer full-price items yet earn more profit by clearing lower-margin items while keeping high-margin items at full price.",
     "estimatedTimeSeconds": 100
   },
@@ -1867,6 +2149,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "A"
+    },
+    "distractorRationale": {
+      "B": "The first boldface qualifies the evidence by noting preexisting high ridership rather than serving as a neutral premise, and the second is the conclusion. The roles are a qualification of the evidence and a conclusion.",
+      "C": "The first statement limits the evidence rather than stating a conclusion, and the second is the conclusion, not a premise. The pair is qualification of the evidence and conclusion.",
+      "D": "The first boldface qualifies the argument's own evidence rather than offering a counterexample, and the second is the conclusion, not a premise. The roles are qualification of the evidence and conclusion.",
+      "E": "The first statement is a factual qualification, not a recommendation, and the second is the conclusion. The correct roles are a qualification of the evidence and a conclusion."
     },
     "explanation": "The first boldface limits the scope of the evidence, suggesting preexisting ridership; the second states the argument's conclusion about causation.",
     "estimatedTimeSeconds": 120
@@ -1907,6 +2195,12 @@
       "format": "single",
       "value": "C"
     },
+    "distractorRationale": {
+      "A": "That frequent peer-center users got stronger papers is a supporting finding, not the full conclusion, which hinges on combining the two sources. The main point is that combining peer and instructor feedback beats either alone.",
+      "B": "Ranking instructor conferences above the writing center is never claimed; the argument credits the combination, not one source over the other. The main point is the superiority of combining both.",
+      "D": "Recommending that students be required to attend a conference goes beyond the conclusion, which is a comparative claim, not a policy. The main point is that the combination is more effective than either source alone.",
+      "E": "Comparing two versus more peer-center visits misreads the evidence, which is about pairing peer help with an instructor conference. The main point is that combining peer and instructor feedback is most effective."
+    },
     "explanation": "The conclusion is that the combination of peer and instructor feedback is more effective than either alone.",
     "estimatedTimeSeconds": 150
   },
@@ -1945,6 +2239,12 @@
     "correctAnswer": {
       "format": "single",
       "value": "B"
+    },
+    "distractorRationale": {
+      "A": "Lowering prices contradicts the constraint of keeping admission unchanged, and targeting low-traffic times for families is poorly aimed. Family-themed weekends with existing staff fit the goal without changing prices.",
+      "C": "A premium tour for art collectors targets adults, not families, and charges an extra fee, missing the goal. Family weekends using current staff better fit the constraint.",
+      "D": "Advertising in retiree-focused publications targets the wrong audience for attracting families with children. The fitting strategy is family-themed weekends with hands-on exhibits.",
+      "E": "Surveying current visitors about adult-favorite exhibits gathers data but does not directly attract families. Family weekends with hands-on exhibits, using current staff, meet the goal at no added admission cost."
     },
     "explanation": "Family weekends and hands-on exhibits are likely to attract families without changing admission prices or requiring a major new expense.",
     "estimatedTimeSeconds": 150
