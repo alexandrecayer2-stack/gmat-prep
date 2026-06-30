@@ -13,13 +13,15 @@
 > - ✅ P0-1, P0-2, P0-3, P2-1 — implemented & verified live (DI serves 447;
 >   sessions cap at N; chapters renumber; "Answer 15 questions" spaced).
 > - ✅ P1-1 *plumbing* — `distractorRationale` now survives the content gate
->   into the DB (schema + seed fold). Discovered the field was being **stripped
->   by Zod**, so 0/1343 questions had it despite 5 files authoring it. The fix
->   unlocks 40 already-written rationales on the next `npm run seed`.
-> - ⏳ P1-1 *content* — only 3% (40/1416) of questions have rationales; ~1376
->   still need authoring. Large content task; best run as a fan-out workflow.
-> - Tests green (44/44). **Push pending** (no git creds in this env — run
->   `git push origin main`). Remaining: P1-1 content, P1-2, P1-3, P2-2, P2-3.
+>   into the DB (schema + seed fold). The field was being **stripped by Zod**,
+>   so 0/1343 questions had it despite 5 files authoring it.
+> - ✅ P1-1 *content* (`fe9a277`) — backfilled **1195 single-answer questions**
+>   via a 46-agent workflow; single-format rationale coverage **3% → 100%**.
+>   Validated, injected with `scripts/inject-rationales.mjs` (format-preserving),
+>   **seeded to prod** (DB now 1416 Qs), and render-verified.
+> - Tests green (44/44). **Code push pending** (no git creds in this env — run
+>   `git push origin main`; the seeded content is already live in the DB, but
+>   the P0 code fixes only deploy on push). Remaining: P1-2, P1-3, P2-2, P2-3.
 
 ---
 
