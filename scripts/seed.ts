@@ -59,7 +59,14 @@ const questionRows = gate.questions.map((q) => ({
   stem: q.stem,
   passage_or_stimulus: q.passageOrStimulus ?? null,
   assets: q.assets ?? null,
-  choices: q.choices ?? null,
+  // Fold the question-level distractorRationale map into each choice (the shape
+  // the app reads). A per-choice value, if present, wins over the map.
+  choices: q.choices
+    ? q.choices.map((c) => {
+        const dr = c.distractorRationale ?? q.distractorRationale?.[c.key];
+        return dr ? { ...c, distractorRationale: dr } : c;
+      })
+    : null,
   correct_answer: q.correctAnswer,
   explanation: q.explanation,
   source_note: q.sourceNote ?? null,

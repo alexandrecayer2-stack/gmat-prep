@@ -22,6 +22,10 @@ export const difficultySchema = z.enum(['easy', 'medium', 'hard']);
 export const choiceSchema = z.object({
   key: z.string().min(1),
   text: z.string().min(1),
+  // "Why this answer is wrong" — shown under each distractor after answering.
+  // Optional; Zod strips unknown keys, so the field must be declared here or it
+  // never survives the content gate into the database.
+  distractorRationale: z.string().min(1).optional(),
 });
 
 const cellSchema = z.union([z.string(), z.number()]);
@@ -93,6 +97,11 @@ export const questionSchema = z
     choices: z.array(choiceSchema).optional(),
     correctAnswer: correctAnswerSchema,
     explanation: z.string().min(1),
+    // "Why each wrong answer is wrong", keyed by the distractor's choice key
+    // (e.g. { A: "...", C: "..." }; the correct key is omitted). Authored at the
+    // question level for compactness; the seed folds each entry into the matching
+    // choice's `distractorRationale` so the app can render it per choice.
+    distractorRationale: z.record(z.string(), z.string().min(1)).optional(),
     sourceNote: z.string().optional(),
     estimatedTimeSeconds: z.number().int().positive().default(120),
     orderIndex: z.number().int().default(0),
