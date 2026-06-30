@@ -110,7 +110,7 @@ export default async function LearnPage() {
                             <span
                               className={`inline-flex items-center rounded-full px-2.5 py-0.5 text-xs font-medium ${colors.badge}`}
                             >
-                              Chapter {ch.orderIndex}
+                              Chapter {ci + 1}
                             </span>
                           </div>
                           <ChevronRight className="size-4 text-muted-foreground/40 transition-all group-hover:translate-x-0.5 group-hover:text-muted-foreground" />

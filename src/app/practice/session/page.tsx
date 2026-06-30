@@ -7,7 +7,7 @@ import type { Difficulty, QuestionType, Section } from '@/lib/domain/types';
 export default async function SessionPage({
   searchParams,
 }: {
-  searchParams: Promise<{ section?: string; types?: string; difficulty?: string }>;
+  searchParams: Promise<{ section?: string; types?: string; difficulty?: string; count?: string }>;
 }) {
   const sp = await searchParams;
 
@@ -21,8 +21,10 @@ export default async function SessionPage({
     sp.difficulty && ['easy', 'medium', 'hard'].includes(sp.difficulty)
       ? (sp.difficulty as Difficulty)
       : undefined;
+  const parsedCount = Number(sp.count);
+  const count = Number.isFinite(parsedCount) && parsedCount > 0 ? Math.min(parsedCount, 100) : 10;
 
-  const questions = await getPracticeQuestions({ section, types, difficulty });
+  const questions = await getPracticeQuestions({ section, types, difficulty, count });
 
   if (questions.length === 0) {
     return (

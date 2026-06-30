@@ -28,6 +28,49 @@ export interface QuestionFilter {
   section?: Section;
   types?: QuestionType[];
   difficulty?: Difficulty;
+  // Cap the session at roughly this many questions (groups kept whole), so a
+  // practice session is a finite set rather than the entire filtered bank.
+  count?: number;
+}
+
+type ServerClient = Awaited<ReturnType<typeof createClient>>;
+type QuestionQuery = ReturnType<ReturnType<ServerClient['from']>['select']>;
+
+// PostgREST returns at most ~1000 rows for an unbounded select, so a plain
+// `.select('*')` silently truncates the 1300+ question bank (Data Insights, which
+// sorts last, was the casualty). Page through with explicit ranges so every
+// matching row is fetched. `apply` lets callers add `.eq` filters per page.
+async function fetchAllQuestions(
+  supabase: ServerClient,
+  apply?: (q: QuestionQuery) => QuestionQuery,
+): Promise<QuestionRow[]> {
+  const PAGE = 1000;
+  const rows: QuestionRow[] = [];
+  for (let from = 0; ; from += PAGE) {
+    let query = supabase.from('questions').select('*').range(from, from + PAGE - 1);
+    if (apply) query = apply(query);
+    const { data, error } = await query;
+    if (error) throw new Error(error.message);
+    const batch = (data ?? []) as unknown as QuestionRow[];
+    rows.push(...batch);
+    if (batch.length < PAGE) break;
+  }
+  return rows;
+}
+
+// Fetch the question_groups referenced by a set of questions, keyed by id.
+async function fetchGroupsFor(
+  supabase: ServerClient,
+  questions: Question[],
+): Promise<Record<string, QuestionGroup>> {
+  const groupIds = [...new Set(questions.map((q) => q.groupId).filter(Boolean))] as string[];
+  const groupsById: Record<string, QuestionGroup> = {};
+  if (groupIds.length) {
+    const { data, error } = await supabase.from('question_groups').select('*').in('id', groupIds);
+    if (error) throw new Error(error.message);
+    for (const g of ((data ?? []) as unknown as GroupRow[]).map(mapGroup)) groupsById[g.id] = g;
+  }
+  return groupsById;
 }
 
 function shuffle<T>(arr: T[]): T[] {
@@ -70,30 +113,43 @@ function arrangeUnits(
   );
 }
 
+// Take the first ~`count` questions while keeping RC/Multi-Source groups whole:
+// once we've reached the target we stop, but never split a group mid-way.
+function takeUnits(questions: QuestionWithGroup[], count: number): QuestionWithGroup[] {
+  if (count <= 0 || questions.length <= count) return questions;
+  const out: QuestionWithGroup[] = [];
+  let i = 0;
+  while (i < questions.length && out.length < count) {
+    const gid = questions[i].groupId;
+    if (!gid) {
+      out.push(questions[i]);
+      i += 1;
+    } else {
+      // Push the whole contiguous group, even if it slightly overshoots `count`.
+      while (i < questions.length && questions[i].groupId === gid) {
+        out.push(questions[i]);
+        i += 1;
+      }
+    }
+  }
+  return out;
+}
+
 export async function getPracticeQuestions(filter: QuestionFilter): Promise<QuestionWithGroup[]> {
   const supabase = await createClient();
 
-  let query = supabase.from('questions').select('*');
-  if (filter.section) query = query.eq('section', filter.section);
-  if (filter.types && filter.types.length) query = query.in('type', filter.types);
-  if (filter.difficulty) query = query.eq('difficulty', filter.difficulty);
+  const rows = await fetchAllQuestions(supabase, (q) => {
+    let query = q;
+    if (filter.section) query = query.eq('section', filter.section);
+    if (filter.types && filter.types.length) query = query.in('type', filter.types);
+    if (filter.difficulty) query = query.eq('difficulty', filter.difficulty);
+    return query;
+  });
+  const questions = rows.map(mapQuestion);
+  const groupsById = await fetchGroupsFor(supabase, questions);
 
-  const { data, error } = await query;
-  if (error) throw new Error(error.message);
-  const questions = ((data ?? []) as unknown as QuestionRow[]).map(mapQuestion);
-
-  const groupIds = [...new Set(questions.map((q) => q.groupId).filter(Boolean))] as string[];
-  const groupsById: Record<string, QuestionGroup> = {};
-  if (groupIds.length) {
-    const { data: gdata, error: gerr } = await supabase
-      .from('question_groups')
-      .select('*')
-      .in('id', groupIds);
-    if (gerr) throw new Error(gerr.message);
-    for (const g of ((gdata ?? []) as unknown as GroupRow[]).map(mapGroup)) groupsById[g.id] = g;
-  }
-
-  return arrangeUnits(questions, groupsById);
+  const arranged = arrangeUnits(questions, groupsById);
+  return filter.count ? takeUnits(arranged, filter.count) : arranged;
 }
 
 // Pick up to `n` items from a section, spread across difficulties.
@@ -125,20 +181,8 @@ function pickSpread(items: Question[], n: number): Question[] {
  */
 export async function getDiagnosticQuestions(perSection = 5): Promise<QuestionWithGroup[]> {
   const supabase = await createClient();
-  const { data, error } = await supabase.from('questions').select('*');
-  if (error) throw new Error(error.message);
-  const all = ((data ?? []) as unknown as QuestionRow[]).map(mapQuestion);
-
-  const groupIds = [...new Set(all.map((q) => q.groupId).filter(Boolean))] as string[];
-  const groupsById: Record<string, QuestionGroup> = {};
-  if (groupIds.length) {
-    const { data: gdata, error: gerr } = await supabase
-      .from('question_groups')
-      .select('*')
-      .in('id', groupIds);
-    if (gerr) throw new Error(gerr.message);
-    for (const g of ((gdata ?? []) as unknown as GroupRow[]).map(mapGroup)) groupsById[g.id] = g;
-  }
+  const all = (await fetchAllQuestions(supabase)).map(mapQuestion);
+  const groupsById = await fetchGroupsFor(supabase, all);
 
   const sections: Section[] = ['quant', 'verbal', 'data_insights'];
   const out: QuestionWithGroup[] = [];
@@ -174,20 +218,8 @@ export interface MockSectionSet {
  */
 export async function getMockQuestions(config: MockConfig): Promise<MockSectionSet[]> {
   const supabase = await createClient();
-  const { data, error } = await supabase.from('questions').select('*');
-  if (error) throw new Error(error.message);
-  const all = ((data ?? []) as unknown as QuestionRow[]).map(mapQuestion);
-
-  const groupIds = [...new Set(all.map((q) => q.groupId).filter(Boolean))] as string[];
-  const groupsById: Record<string, QuestionGroup> = {};
-  if (groupIds.length) {
-    const { data: gdata, error: gerr } = await supabase
-      .from('question_groups')
-      .select('*')
-      .in('id', groupIds);
-    if (gerr) throw new Error(gerr.message);
-    for (const g of ((gdata ?? []) as unknown as GroupRow[]).map(mapGroup)) groupsById[g.id] = g;
-  }
+  const all = (await fetchAllQuestions(supabase)).map(mapQuestion);
+  const groupsById = await fetchGroupsFor(supabase, all);
 
   const out: MockSectionSet[] = [];
   for (const section of config.sections) {
@@ -206,10 +238,19 @@ export async function getMockQuestions(config: MockConfig): Promise<MockSectionS
 
 export async function getSectionCounts(): Promise<Record<Section, number>> {
   const supabase = await createClient();
-  const { data, error } = await supabase.from('questions').select('section');
-  if (error) throw new Error(error.message);
+  // Server-side `count` per section — avoids pulling rows (and the 1000-row cap).
+  const sections: Section[] = ['quant', 'verbal', 'data_insights'];
   const counts = { quant: 0, verbal: 0, data_insights: 0 } as Record<Section, number>;
-  for (const row of (data ?? []) as { section: Section }[]) counts[row.section] += 1;
+  await Promise.all(
+    sections.map(async (section) => {
+      const { count, error } = await supabase
+        .from('questions')
+        .select('*', { count: 'exact', head: true })
+        .eq('section', section);
+      if (error) throw new Error(error.message);
+      counts[section] = count ?? 0;
+    }),
+  );
   return counts;
 }
 

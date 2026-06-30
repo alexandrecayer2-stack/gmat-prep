@@ -13,6 +13,7 @@ import { saveStudyPlan } from '@/lib/data/plans';
 import { cn } from '@/lib/utils';
 import { DiagnosticRunner, type DiagnosticResult } from './diagnostic-runner';
 import { PlanView } from '@/components/plan/plan-view';
+import { TypeBreakdownCard } from '@/components/type-breakdown-card';
 import { Card } from '@/components/ui/card';
 import { SectionLabel } from '@/components/ui/section-label';
 import { CountUpNumber } from '@/components/ui/accuracy-ring';
@@ -72,6 +73,7 @@ export function DiagnosticFlow({ questions }: { questions: QuestionWithGroup[] }
       section: r.question.section,
       difficulty: r.question.difficulty,
       isCorrect: r.isCorrect,
+      type: r.question.type,
       topic: r.question.topic,
     }));
     const est = estimateDiagnostic(items);
@@ -150,7 +152,7 @@ export function DiagnosticFlow({ questions }: { questions: QuestionWithGroup[] }
           </div>
           <h1 className="mt-4 text-2xl font-bold tracking-tight">Diagnostic assessment</h1>
           <p className="mx-auto mt-2 max-w-md text-sm text-muted-foreground">
-            Answer {questions.length} questions across all three sections. There&apos;s no feedback
+            Answer {questions.length}&nbsp;questions across all three sections. There&apos;s no feedback
             during the test — at the end you&apos;ll get a predicted GMAT Focus score and a
             personalized study plan toward your goal.
           </p>
@@ -215,6 +217,8 @@ export function DiagnosticFlow({ questions }: { questions: QuestionWithGroup[] }
             );
           })}
         </div>
+
+        <TypeBreakdownCard estimate={estimate} />
 
         <Card className="p-6">
           <h2 className="text-lg font-semibold">Set your target</h2>

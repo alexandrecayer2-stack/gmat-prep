@@ -30,6 +30,7 @@ export function PracticeSetup({
     initialSection ? SECTION_TYPES[initialSection] : [],
   );
   const [difficulty, setDifficulty] = useState<'any' | Difficulty>('any');
+  const [count, setCount] = useState<number>(10);
 
   function pickSection(s: Section) {
     setSection(s);
@@ -46,6 +47,7 @@ export function PracticeSetup({
       section,
       types: types.join(','),
       difficulty,
+      count: String(count),
     });
     router.push(`/practice/session?${params.toString()}`);
   }
@@ -136,6 +138,30 @@ export function PracticeSetup({
                 label={DIFFICULTY_LABELS[d]}
                 sub={DIFFICULTY_LEVEL[d]}
               />
+            ))}
+          </div>
+        </section>
+      )}
+
+      {section && (
+        <section>
+          <SectionLabel className="mb-2">4 · Number of questions</SectionLabel>
+          <div className="flex flex-wrap gap-2">
+            {[5, 10, 20, 40].map((n) => (
+              <button
+                key={n}
+                type="button"
+                onClick={() => setCount(n)}
+                aria-pressed={count === n}
+                className={cn(
+                  'rounded-lg border px-3 py-1.5 text-sm transition-colors',
+                  count === n
+                    ? 'border-primary bg-accent text-accent-foreground'
+                    : 'border-border text-muted-foreground hover:bg-muted',
+                )}
+              >
+                {n}
+              </button>
             ))}
           </div>
         </section>
