@@ -4,37 +4,8 @@ import { useEffect, useState } from 'react';
 import { Flame } from 'lucide-react';
 import { useAuth } from '@/lib/auth/auth-provider';
 import { getAttemptTimestamps } from '@/lib/data/attempts';
+import { computeStreak, type StreakState } from '@/lib/streak';
 import { cn } from '@/lib/utils';
-
-interface StreakState {
-  streak: number;
-  doneToday: boolean;
-  last7: boolean[]; // oldest → today
-}
-
-const dayKey = (d: Date) => `${d.getFullYear()}-${d.getMonth()}-${d.getDate()}`;
-
-function computeStreak(timestamps: string[]): StreakState {
-  const days = new Set(timestamps.map((iso) => dayKey(new Date(iso))));
-  const today = new Date();
-  const doneToday = days.has(dayKey(today));
-
-  let streak = 0;
-  const cursor = new Date(today);
-  if (!doneToday) cursor.setDate(cursor.getDate() - 1); // a streak from yesterday is still alive today
-  while (days.has(dayKey(cursor))) {
-    streak += 1;
-    cursor.setDate(cursor.getDate() - 1);
-  }
-
-  const last7: boolean[] = [];
-  for (let i = 6; i >= 0; i--) {
-    const d = new Date(today);
-    d.setDate(d.getDate() - i);
-    last7.push(days.has(dayKey(d)));
-  }
-  return { streak, doneToday, last7 };
-}
 
 /** A compact study-streak chip. Hidden until there's an active (≥1 day) streak. */
 export function StreakIndicator() {
