@@ -78,6 +78,10 @@ function SingleChoice({ question, selected, onChange, revealed }: AnswerInputsPr
                   </span>
                 )}
               </span>
+              {revealed && isCorrect && <span className="sr-only">Correct answer</span>}
+              {revealed && !isCorrect && isSel && (
+                <span className="sr-only">Your answer, incorrect</span>
+              )}
               {revealed && isCorrect && <Check className="size-5 shrink-0 text-success" />}
               {revealed && !isCorrect && isSel && <X className="size-5 shrink-0 text-danger" />}
             </button>
@@ -188,6 +192,8 @@ function TwoPart({ question, selected, onChange, revealed }: AnswerInputsProps) 
                       }
                       className="size-4 accent-[var(--primary)]"
                     />
+                    {isCorrect && <span className="sr-only">Correct answer</span>}
+                    {isWrong && <span className="sr-only">Your answer, incorrect</span>}
                   </td>
                 );
               })}
@@ -251,6 +257,8 @@ function Dichotomous({ question, selected, onChange, revealed }: AnswerInputsPro
                       }
                       className="size-4 accent-[var(--primary)]"
                     />
+                    {isCorrect && <span className="sr-only">Correct answer</span>}
+                    {isWrong && <span className="sr-only">Your answer, incorrect</span>}
                   </td>
                 );
               })}

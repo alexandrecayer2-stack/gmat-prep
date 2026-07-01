@@ -140,6 +140,8 @@ export function PracticeRunner({ questions }: { questions: QuestionWithGroup[] }
             <button
               type="button"
               onClick={() => setShowCalc((s) => !s)}
+              aria-expanded={showCalc}
+              aria-controls="di-calculator"
               className={cn(
                 'inline-flex items-center gap-1 rounded-md border border-border px-2 py-1 text-xs transition-colors hover:bg-muted',
                 showCalc && 'bg-accent text-accent-foreground',
@@ -247,7 +249,7 @@ export function PracticeRunner({ questions }: { questions: QuestionWithGroup[] }
 
       {/* Floating calculator (Data Insights) */}
       {isDI && showCalc && (
-        <div className="fixed bottom-4 right-4 z-50">
+        <div id="di-calculator" className="fixed bottom-4 right-4 z-50">
           <Calculator />
         </div>
       )}

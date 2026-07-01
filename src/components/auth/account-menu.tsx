@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Check, LogOut, Mail, UserRound } from 'lucide-react';
 import { useAuth } from '@/lib/auth/auth-provider';
 
@@ -12,6 +12,16 @@ export function AccountMenu() {
   const [error, setError] = useState('');
 
   const signedIn = Boolean(user) && !isAnonymous;
+
+  // Close the account menu on Escape (mirrors the nav drawer's behavior).
+  useEffect(() => {
+    if (!open) return;
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') setOpen(false);
+    };
+    window.addEventListener('keydown', onKey);
+    return () => window.removeEventListener('keydown', onKey);
+  }, [open]);
 
   async function send(kind: 'save' | 'signin') {
     if (!email.trim()) return;
@@ -43,6 +53,8 @@ export function AccountMenu() {
         type="button"
         onClick={() => setOpen((o) => !o)}
         aria-label="Account"
+        aria-haspopup="true"
+        aria-expanded={open}
         className="inline-flex items-center gap-1.5 rounded-md border border-border px-2.5 py-1.5 text-sm text-muted-foreground transition-colors hover:bg-muted hover:text-foreground"
       >
         <UserRound className="size-4" />
@@ -53,7 +65,7 @@ export function AccountMenu() {
 
       {open && (
         <>
-          <div className="fixed inset-0 z-40" onClick={() => setOpen(false)} />
+          <div className="fixed inset-0 z-40" aria-hidden="true" onClick={() => setOpen(false)} />
           <div className="absolute right-0 z-50 mt-2 w-72 rounded-xl border border-border bg-card p-4 shadow-lg">
             {signedIn ? (
               <>

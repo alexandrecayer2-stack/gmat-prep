@@ -251,6 +251,7 @@ export function DiagnosticFlow({ questions }: { questions: QuestionWithGroup[] }
             value={target}
             onChange={(e) => setTarget(Number(e.target.value))}
             aria-label="Target score"
+            aria-valuetext={`${target} points`}
             className="mt-2 w-full accent-[var(--primary)]"
           />
           <div className="flex justify-between text-xs text-muted-foreground">

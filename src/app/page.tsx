@@ -94,7 +94,7 @@ export default async function Home() {
         </div>
         <Link
           href="/mock"
-          className="bg-brand inline-flex items-center gap-1.5 rounded-lg px-4 py-2 text-sm font-medium text-white shadow-sm transition-transform hover:-translate-y-0.5"
+          className="btn-brand inline-flex items-center gap-1.5 rounded-lg px-4 py-2 text-sm font-medium"
         >
           Start mock exam <ArrowRight className="size-4" />
         </Link>

@@ -88,6 +88,8 @@ export function LessonCompletionDots({ lessons, section }: DotsProps) {
           <div
             key={l.id}
             title={l.title}
+            role="img"
+            aria-label={`${l.title}: ${done ? 'complete' : 'incomplete'}`}
             className={`size-1.5 rounded-full ${done ? colors.progressBar : 'bg-muted-foreground/25'}`}
           />
         );
