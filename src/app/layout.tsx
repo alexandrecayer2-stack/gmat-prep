@@ -5,6 +5,7 @@ import { Providers } from '@/components/providers';
 import { Nav } from '@/components/nav';
 import { ServiceWorkerRegister } from '@/components/pwa/service-worker-register';
 import { OfflineSync } from '@/components/pwa/offline-sync';
+import { InstallPrompt } from '@/components/pwa/install-prompt';
 
 const geistSans = Geist({ variable: '--font-geist-sans', subsets: ['latin'] });
 const geistMono = Geist_Mono({ variable: '--font-geist-mono', subsets: ['latin'] });
@@ -40,6 +41,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
           <main className="flex-1">{children}</main>
           <ServiceWorkerRegister />
           <OfflineSync />
+          <InstallPrompt />
         </Providers>
       </body>
     </html>

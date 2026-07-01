@@ -6,7 +6,11 @@ import { CloudOff, Loader2, WifiOff } from 'lucide-react';
 import type { Difficulty, QuestionType, QuestionWithGroup, Section } from '@/lib/domain/types';
 import { SECTIONS, SECTION_TYPES } from '@/lib/domain/constants';
 import { loadBank } from '@/lib/offline/bank';
-import { selectPracticeQuestions, type QuestionBank } from '@/lib/domain/selection';
+import {
+  selectPracticeQuestions,
+  selectQuestionsByIds,
+  type QuestionBank,
+} from '@/lib/domain/selection';
 import { PracticeSetup, type PracticeFilters } from './practice-setup';
 import { PracticeRunner } from './practice-runner';
 
@@ -66,6 +70,20 @@ export function OfflinePractice() {
       .then((b) => {
         if (cancelled) return;
         setBank(b);
+        const params = new URLSearchParams(window.location.search);
+        // "Redo"/lesson exercises: an explicit id list (e.g. from an offline lesson).
+        const idsParam = params.get('ids');
+        if (idsParam) {
+          const ids = idsParam.split(',').map((s) => s.trim()).filter(Boolean).slice(0, 100);
+          const selected = selectQuestionsByIds(b, ids);
+          if (selected.length) {
+            setQuestions(selected);
+            setStatus('running');
+          } else {
+            setStatus('ready');
+          }
+          return;
+        }
         // Seamless hand-off: if the URL carries a filter, start immediately.
         const preset = filtersFromSearch(window.location.search);
         if (preset) run(b, preset);

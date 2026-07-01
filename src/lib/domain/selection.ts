@@ -148,6 +148,15 @@ export function countMatching(bank: QuestionBank, filter: PracticeSelection): nu
   return qs.length;
 }
 
+// Build a session from an explicit id list (e.g. a lesson's exercises, or "redo
+// missed"), arranged with groups kept contiguous. Missing ids are dropped.
+export function selectQuestionsByIds(bank: QuestionBank, ids: string[]): QuestionWithGroup[] {
+  if (ids.length === 0) return [];
+  const wanted = new Set(ids);
+  const qs = bank.questions.filter((q) => wanted.has(q.id));
+  return arrangeUnits(qs, groupsMap(bank));
+}
+
 export interface MockSectionSet {
   section: Section;
   questions: QuestionWithGroup[];

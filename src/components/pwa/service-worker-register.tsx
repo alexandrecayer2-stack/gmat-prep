@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { RefreshCw } from 'lucide-react';
 import { primeBank } from '@/lib/offline/bank';
+import { primeLearn } from '@/lib/offline/learn';
 
 // Registers the service worker and surfaces a "new version" prompt when an
 // updated worker is waiting. Registration is production-only so it never fights
@@ -32,9 +33,10 @@ export function ServiceWorkerRegister() {
       .then((registration) => {
         if (cancelled) return;
 
-        // Download the question bank into the cache (once) so practice works the
-        // next time there's no connection.
+        // Download the question bank + lessons into the cache (once) so practice
+        // and reading work the next time there's no connection.
         void primeBank();
+        void primeLearn();
 
         // A worker already waiting from a previous load.
         if (registration.waiting && navigator.serviceWorker.controller) {
