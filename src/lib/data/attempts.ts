@@ -101,15 +101,114 @@ export interface UserStats {
   // + mock), or null when there isn't enough data yet to be meaningful.
   estimate: DiagnosticEstimate | null;
   estimateQuestionCount: number;
+  // Total time spent across every recorded attempt, in seconds.
+  timeSpentSeconds: number;
 }
 
 type QuestionMeta = { section: Section; topic: string; difficulty: Difficulty; type: QuestionType };
+
+interface AnsweredRow {
+  questionId: string;
+  createdAt: string;
+  isCorrect: boolean;
+  q: QuestionMeta;
+}
+
+// Turn a set of answered questions into an IRT estimate the same way everywhere:
+// keep the EARLIEST (cold) attempt per question so re-answers can't inflate the
+// score, fade older answers by recency, then run the diagnostic estimator.
+// Returns the estimate (null below the meaningful minimum) and the distinct count.
+function estimateFromAnswered(answered: AnsweredRow[]): {
+  estimate: DiagnosticEstimate | null;
+  count: number;
+} {
+  const sorted = [...answered].sort((a, b) =>
+    a.createdAt < b.createdAt ? -1 : a.createdAt > b.createdAt ? 1 : 0,
+  );
+  const earliestByQuestion = new Map<string, AnsweredRow>();
+  for (const a of sorted) if (!earliestByQuestion.has(a.questionId)) earliestByQuestion.set(a.questionId, a);
+
+  const distinct = [...earliestByQuestion.values()]; // ascending by time
+  const n = distinct.length;
+  const items: GradedItem[] = distinct.map((a, i) => ({
+    section: a.q.section,
+    difficulty: a.q.difficulty,
+    type: a.q.type,
+    topic: a.q.topic,
+    isCorrect: a.isCorrect,
+    weight: recencyWeight(n - 1 - i), // newest answer → weight 1, older ones fade
+  }));
+  return { estimate: n >= MIN_ESTIMATE_ANSWERS ? estimateDiagnostic(items) : null, count: n };
+}
+
+export interface ScoreTrendPoint {
+  n: number; // distinct questions answered up to this point
+  total: number; // estimated GMAT Focus total at that point
+  date: string; // ISO timestamp of the attempt that produced this point
+}
+
+/**
+ * The predicted total as it evolved over the user's history — one point per
+ * distinct question answered (down-sampled to at most `maxPoints`). Powers the
+ * dashboard "score over time" trend. Empty until the estimate is meaningful.
+ */
+export async function getScoreTrend(
+  supabase: SupabaseClient,
+  userId: string,
+  maxPoints = 24,
+): Promise<ScoreTrendPoint[]> {
+  const { data, error } = await supabase
+    .from('attempts')
+    .select('question_id, is_correct, created_at, questions(section, topic, difficulty, type)')
+    .eq('user_id', userId)
+    .order('created_at', { ascending: true });
+  if (error) throw new Error(error.message);
+
+  const answered: AnsweredRow[] = [];
+  const seen = new Set<string>();
+  for (const row of (data ?? []) as unknown as AttemptStatRow[]) {
+    if (!row.questions) continue;
+    // First (earliest) attempt per question defines its position on the timeline.
+    if (seen.has(row.question_id)) continue;
+    seen.add(row.question_id);
+    answered.push({
+      questionId: row.question_id,
+      createdAt: row.created_at ?? '',
+      isCorrect: row.is_correct,
+      q: row.questions,
+    });
+  }
+
+  const n = answered.length;
+  if (n < MIN_ESTIMATE_ANSWERS) return [];
+
+  // Cut points: every distinct question when small, else evenly spaced.
+  const cuts: number[] = [];
+  if (n <= maxPoints) {
+    for (let k = MIN_ESTIMATE_ANSWERS; k <= n; k++) cuts.push(k);
+  } else {
+    for (let i = 0; i < maxPoints; i++) {
+      cuts.push(Math.round(MIN_ESTIMATE_ANSWERS + ((n - MIN_ESTIMATE_ANSWERS) * i) / (maxPoints - 1)));
+    }
+  }
+
+  const points: ScoreTrendPoint[] = [];
+  let lastN = -1;
+  for (const k of cuts) {
+    if (k === lastN) continue;
+    lastN = k;
+    const { estimate } = estimateFromAnswered(answered.slice(0, k));
+    if (estimate) points.push({ n: k, total: estimate.total, date: answered[k - 1].createdAt });
+  }
+  return points;
+}
 
 interface AttemptStatRow {
   question_id: string;
   is_correct: boolean;
   context: string;
   created_at: string;
+  time_spent_seconds?: number;
   questions: QuestionMeta | null;
 }
 
@@ -120,7 +219,7 @@ const MIN_ESTIMATE_ANSWERS = 3;
 export async function getUserStats(supabase: SupabaseClient, userId: string): Promise<UserStats> {
   const { data, error } = await supabase
     .from('attempts')
-    .select('question_id, is_correct, context, created_at, questions(section, topic, difficulty, type)')
+    .select('question_id, is_correct, context, created_at, time_spent_seconds, questions(section, topic, difficulty, type)')
     .eq('user_id', userId);
   if (error) throw new Error(error.message);
 
@@ -132,17 +231,19 @@ export async function getUserStats(supabase: SupabaseClient, userId: string): Pr
     byDifficulty: {},
     estimate: null,
     estimateQuestionCount: 0,
+    timeSpentSeconds: 0,
   };
 
   // Collect every answered question (any context) for the ability estimate; the
   // accuracy tallies stay practice-only so the existing "practice progress" cards
   // keep their meaning.
-  const answered: { questionId: string; createdAt: string; isCorrect: boolean; q: QuestionMeta }[] = [];
+  const answered: AnsweredRow[] = [];
 
   for (const row of (data ?? []) as unknown as AttemptStatRow[]) {
     const q = row.questions;
     if (!q) continue;
 
+    stats.timeSpentSeconds += row.time_spent_seconds ?? 0;
     answered.push({
       questionId: row.question_id,
       createdAt: row.created_at ?? '',
@@ -166,28 +267,9 @@ export async function getUserStats(supabase: SupabaseClient, userId: string): Pr
     if (row.is_correct) stats.byDifficulty[q.difficulty].correct += 1;
   }
 
-  // Keep only the EARLIEST (cold) attempt per question: re-answering a question
-  // you've already seen the explanation for would inflate the estimate, so each
-  // item counts once. Then fade older answers so the estimate tracks recent form.
-  answered.sort((a, b) => (a.createdAt < b.createdAt ? -1 : a.createdAt > b.createdAt ? 1 : 0));
-  const earliestByQuestion = new Map<string, (typeof answered)[number]>();
-  for (const a of answered) if (!earliestByQuestion.has(a.questionId)) earliestByQuestion.set(a.questionId, a);
-
-  const distinct = [...earliestByQuestion.values()]; // ascending by time
-  const n = distinct.length;
-  const items: GradedItem[] = distinct.map((a, i) => ({
-    section: a.q.section,
-    difficulty: a.q.difficulty,
-    type: a.q.type,
-    topic: a.q.topic,
-    isCorrect: a.isCorrect,
-    weight: recencyWeight(n - 1 - i), // newest answer → weight 1, older ones fade
-  }));
-
-  stats.estimateQuestionCount = n;
-  if (n >= MIN_ESTIMATE_ANSWERS) {
-    stats.estimate = estimateDiagnostic(items);
-  }
+  const { estimate, count } = estimateFromAnswered(answered);
+  stats.estimate = estimate;
+  stats.estimateQuestionCount = count;
 
   return stats;
 }

@@ -8,6 +8,7 @@ import {
   SECTION_TYPES,
 } from '@/lib/domain/constants';
 import { DashboardStats } from '@/components/dashboard-stats';
+import { ScoreTrendCard } from '@/components/score-trend-card';
 import { PlanCard } from '@/components/plan/plan-card';
 import { Card } from '@/components/ui/card';
 import { SectionLabel } from '@/components/ui/section-label';
@@ -68,6 +69,8 @@ export default async function Home() {
       <PlanCard />
 
       <DashboardStats />
+
+      <ScoreTrendCard />
 
       {/* Mock Exam banner */}
       <section className="flex flex-wrap items-center justify-between gap-4 rounded-xl border border-primary/30 bg-accent/40 p-5">
