@@ -24,7 +24,7 @@
 - ✅ **Search + section filter** on the Learn index (chapter/lesson search).
 - ✅ **Topic-level "practice this topic" deep links** (lesson → topic-filtered session; `?topic=` on the practice route).
 - ✅ **Mark-as-read** per lesson (toggle + chapter-list checkmark; stored as a sentinel in `passed_exercise_ids`, no schema change).
-- ✅ **More lessons** — bank now **32 lessons** (added Circles/Sectors, Probability & Counting, RC Inference 2026-07-01).
+- ✅ **More lessons** — bank now **35 lessons** (2026-07-01: Circles/Sectors, Combinatorics, Author's Tone, plus CR Evaluate/Boldface, DS Traps, Units-Digit/Remainder Cycles). Every chapter has 4-6 lessons; no duplicate titles.
 - *Optional follow-ups:* still more content; offline honoring of `?topic=`.
 
 ### 3. Polish & scale · Priority **Low / ongoing**
