@@ -37,8 +37,16 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
     >
       <body className="flex min-h-full flex-col bg-background text-foreground">
         <Providers>
+          <a
+            href="#main-content"
+            className="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-3 focus:z-[120] focus:rounded-md focus:bg-primary focus:px-3 focus:py-2 focus:text-sm focus:font-medium focus:text-primary-foreground"
+          >
+            Skip to content
+          </a>
           <Nav />
-          <main className="flex-1">{children}</main>
+          <main id="main-content" tabIndex={-1} className="flex-1 outline-none">
+            {children}
+          </main>
           <ServiceWorkerRegister />
           <OfflineSync />
           <InstallPrompt />
