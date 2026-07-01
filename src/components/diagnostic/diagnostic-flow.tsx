@@ -10,6 +10,7 @@ import { buildStudyPlan, type StudyPlan } from '@/lib/domain/study-plan';
 import { useAuth } from '@/lib/auth/auth-provider';
 import { saveDiagnostic } from '@/lib/data/diagnostic';
 import { saveStudyPlan } from '@/lib/data/plans';
+import { useToast } from '@/components/ui/toast';
 import { cn } from '@/lib/utils';
 import { type DiagnosticResult } from './diagnostic-runner';
 import { AdaptiveDiagnosticRunner } from './adaptive-diagnostic-runner';
@@ -55,6 +56,7 @@ const ITEMS_PER_SECTION = 6;
 
 export function DiagnosticFlow({ questions }: { questions: QuestionWithGroup[] }) {
   const { user, supabase } = useAuth();
+  const { toast } = useToast();
   const router = useRouter();
   const [step, setStep] = useState<Step>('intro');
   const [results, setResults] = useState<DiagnosticResult[] | null>(null);
@@ -133,9 +135,11 @@ export function DiagnosticFlow({ questions }: { questions: QuestionWithGroup[] }
         targetDate: targetDate || null,
         diagnosticSessionId: sessionId,
       });
+      toast('Study plan saved', 'success');
       router.push('/plan');
     } catch (e) {
       console.error('Failed to save plan:', e);
+      toast("Couldn't save your plan — try again", 'error');
       setSaving(false);
     }
   }

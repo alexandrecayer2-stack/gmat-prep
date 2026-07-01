@@ -4,12 +4,14 @@ import { useEffect, useState } from 'react';
 import { BookOpenCheck, Check } from 'lucide-react';
 import { useAuth } from '@/lib/auth/auth-provider';
 import { getLessonProgressForUser, setLessonRead } from '@/lib/data/learn-progress';
+import { useToast } from '@/components/ui/toast';
 import { cn } from '@/lib/utils';
 
 /** Toggle for marking a lesson's body as read. Persists per-user via the
  *  read sentinel in user_lesson_progress (no schema change). */
 export function MarkAsReadButton({ lessonId }: { lessonId: string }) {
   const { user, loading } = useAuth();
+  const { toast } = useToast();
   const [read, setRead] = useState(false);
   const [ready, setReady] = useState(false);
   const [saving, setSaving] = useState(false);
@@ -39,9 +41,11 @@ export function MarkAsReadButton({ lessonId }: { lessonId: string }) {
     setRead(next); // optimistic
     try {
       await setLessonRead(lessonId, next);
+      toast(next ? 'Marked as read' : 'Marked as unread', 'success');
     } catch (e) {
       console.error('Failed to update read state:', e);
       setRead(!next); // revert
+      toast("Couldn't update — try again", 'error');
     } finally {
       setSaving(false);
     }
