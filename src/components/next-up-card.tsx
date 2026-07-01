@@ -6,7 +6,7 @@ import { ArrowRight, CalendarClock, ClipboardList, Sparkles, Target } from 'luci
 import { useAuth } from '@/lib/auth/auth-provider';
 import { getReviewQueue, getUserStats } from '@/lib/data/attempts';
 import { getActivePlan } from '@/lib/data/plans';
-import type { Section } from '@/lib/domain/types';
+import { chooseNextAction, weakestTopic, type NextAction } from '@/lib/next-action';
 import { Card } from '@/components/ui/card';
 import { SectionLabel } from '@/components/ui/section-label';
 
@@ -37,43 +37,13 @@ export function NextUpCard() {
         if (!active) return;
         const now = Date.now();
         const dueIds = queue.filter((q) => new Date(q.dueAt).getTime() <= now).map((q) => q.questionId);
-
-        if (dueIds.length > 0) {
-          setRec({
-            icon: CalendarClock,
-            title: `Review ${dueIds.length} due question${dueIds.length === 1 ? '' : 's'}`,
-            body: 'Spaced repetition resurfaced these — the highest-leverage thing to do right now.',
-            href: `/practice/session?ids=${dueIds.slice(0, 100).join(',')}`,
-            cta: 'Start review',
-          });
-        } else if (!stats.estimate && !plan) {
-          setRec({
-            icon: Sparkles,
-            title: 'Take the diagnostic',
-            body: 'Get a predicted GMAT Focus score and a personalized study plan in ~15 questions.',
-            href: '/diagnostic',
-            cta: 'Start',
-          });
-        } else {
-          const weak = weakestTopic(stats.byTopic);
-          if (weak) {
-            setRec({
-              icon: Target,
-              title: `Practice ${weak.topic}`,
-              body: `Your weakest area — ${weak.pct}% so far. A focused set will move your score most.`,
-              href: `/practice/session?section=${weak.section}&topic=${encodeURIComponent(weak.topic)}&count=10`,
-              cta: 'Practice',
-            });
-          } else {
-            setRec({
-              icon: ClipboardList,
-              title: 'Take a full mock exam',
-              body: 'Simulate the real GMAT Focus under time, then review every question.',
-              href: '/mock',
-              cta: 'Start mock',
-            });
-          }
-        }
+        const action = chooseNextAction({
+          dueCount: dueIds.length,
+          hasEstimate: !!stats.estimate,
+          hasPlan: !!plan,
+          weakest: weakestTopic(stats.byTopic),
+        });
+        setRec(toRecommendation(action, dueIds));
         setReady(true);
       })
       .catch(() => active && setReady(true));
@@ -107,17 +77,40 @@ export function NextUpCard() {
   );
 }
 
-function weakestTopic(
-  byTopic: Record<string, { total: number; correct: number; section: Section }>,
-): { topic: string; section: Section; pct: number } | null {
-  let worst: { topic: string; section: Section; pct: number; total: number } | null = null;
-  for (const [key, t] of Object.entries(byTopic)) {
-    if (t.total < 3) continue; // need a meaningful sample
-    const pct = Math.round((t.correct / t.total) * 100);
-    const topic = key.split('::')[1] ?? key;
-    if (!worst || pct < worst.pct || (pct === worst.pct && t.total > worst.total)) {
-      worst = { topic, section: t.section, pct, total: t.total };
-    }
+/** Map the decided next action to its card presentation. */
+function toRecommendation(action: NextAction, dueIds: string[]): Recommendation {
+  switch (action.kind) {
+    case 'review':
+      return {
+        icon: CalendarClock,
+        title: `Review ${action.dueCount} due question${action.dueCount === 1 ? '' : 's'}`,
+        body: 'Spaced repetition resurfaced these — the highest-leverage thing to do right now.',
+        href: `/practice/session?ids=${dueIds.slice(0, 100).join(',')}`,
+        cta: 'Start review',
+      };
+    case 'diagnostic':
+      return {
+        icon: Sparkles,
+        title: 'Take the diagnostic',
+        body: 'Get a predicted GMAT Focus score and a personalized study plan in ~15 questions.',
+        href: '/diagnostic',
+        cta: 'Start',
+      };
+    case 'practice':
+      return {
+        icon: Target,
+        title: `Practice ${action.weakest.topic}`,
+        body: `Your weakest area — ${action.weakest.pct}% so far. A focused set will move your score most.`,
+        href: `/practice/session?section=${action.weakest.section}&topic=${encodeURIComponent(action.weakest.topic)}&count=10`,
+        cta: 'Practice',
+      };
+    case 'mock':
+      return {
+        icon: ClipboardList,
+        title: 'Take a full mock exam',
+        body: 'Simulate the real GMAT Focus under time, then review every question.',
+        href: '/mock',
+        cta: 'Start mock',
+      };
   }
-  return worst;
 }
