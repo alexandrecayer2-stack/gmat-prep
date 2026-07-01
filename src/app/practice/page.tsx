@@ -3,6 +3,12 @@ import { PracticeSetup } from '@/components/practice/practice-setup';
 import { SECTIONS } from '@/lib/domain/constants';
 import type { Section } from '@/lib/domain/types';
 
+export const metadata = {
+  title: 'Practice — GMAT Prep',
+  description:
+    'Practice GMAT Focus questions by section, type, and difficulty, with an instant explanation after every answer.',
+};
+
 export default async function PracticePage({
   searchParams,
 }: {

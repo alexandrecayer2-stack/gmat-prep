@@ -3,6 +3,8 @@ import { DiagnosticFlow } from '@/components/diagnostic/diagnostic-flow';
 
 export const metadata = {
   title: 'Diagnostic — GMAT Prep',
+  description:
+    'A short adaptive diagnostic that predicts your GMAT Focus score and builds a study plan toward your target.',
 };
 
 export default async function DiagnosticPage() {

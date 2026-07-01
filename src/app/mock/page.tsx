@@ -3,6 +3,8 @@ import { MockSetup } from '@/components/mock/mock-setup';
 
 export const metadata = {
   title: 'Mock Exam — GMAT Prep',
+  description:
+    'Take a full timed GMAT Focus mock exam across three sections, then get a predicted score and a per-question review.',
 };
 
 export default async function MockPage() {

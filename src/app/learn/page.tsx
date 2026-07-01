@@ -3,7 +3,11 @@ import type { LearnLesson } from '@/lib/domain/types';
 import { LearnBrowser } from '@/components/learn/learn-browser';
 import { ContinueLearningCard } from '@/components/learn/continue-learning';
 
-export const metadata = { title: 'Learn — GMAT Prep' };
+export const metadata = {
+  title: 'Learn — GMAT Prep',
+  description:
+    'Structured GMAT Focus lessons with worked examples and targeted practice across Quant, Verbal, and Data Insights.',
+};
 
 export default async function LearnPage() {
   const chapters = await getLearnChapters();
