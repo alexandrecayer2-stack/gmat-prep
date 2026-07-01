@@ -4,7 +4,7 @@
  * purged on activate. A new worker does NOT auto-activate: it waits until the
  * page tells it to (SKIP_WAITING), which is how the "new version available"
  * refresh prompt stays in the user's control. */
-const CACHE_VERSION = 'v3';
+const CACHE_VERSION = 'v4';
 const STATIC_CACHE = `gmat-static-${CACHE_VERSION}`; // hashed /_next assets, icons
 const PAGES_CACHE = `gmat-pages-${CACHE_VERSION}`; // visited HTML documents
 const BANK_CACHE = `gmat-bank-${CACHE_VERSION}`; // /api/bank + /api/learn payloads
@@ -13,15 +13,52 @@ const OFFLINE_URL = '/offline';
 // Content endpoints cached offline-first (refreshed in the background).
 const DATA_PATHS = ['/api/bank', '/api/learn'];
 
-// Best-effort precache of the offline fallback and the self-contained offline
-// routes, so a cold offline launch works even for never-visited routes.
+// Self-contained offline routes to precache so a cold offline launch works even
+// for never-visited routes.
 const PRECACHE_PAGES = [OFFLINE_URL, '/practice/offline', '/mock/offline', '/learn/offline'];
+// Root-served static files the shell needs (not under /_next/static/).
+const PRECACHE_STATIC = ['/manifest.webmanifest', '/icon-192.png', '/apple-touch-icon.png'];
+
+// Precache a page's HTML *and every build asset it references* (CSS, JS chunks,
+// fonts under /_next/static/). Without this the offline HTML loads but its
+// stylesheet/scripts don't — the page renders unstyled. Assets are content-
+// hashed and immutable, so caching them by URL is safe.
+async function precachePage(url, pagesCache, staticCache) {
+  try {
+    const res = await fetch(url, { cache: 'reload' });
+    if (!res || !res.ok) return;
+    await pagesCache.put(url, res.clone());
+    const html = await res.text();
+    // Grab every /_next/static/*.{js,css,woff2,…} path from anywhere in the HTML
+    // (tag attributes and the inline bootstrap/flight data alike).
+    const assets = new Set();
+    const re = /\/_next\/static\/[^"'`\s)]+?\.(?:js|css|woff2?|ttf|otf)/g;
+    let m;
+    while ((m = re.exec(html))) assets.add(m[0]);
+    await Promise.allSettled(
+      [...assets].map(async (a) => {
+        if (await staticCache.match(a)) return;
+        const r = await fetch(a);
+        if (r && r.ok) await staticCache.put(a, r.clone());
+      }),
+    );
+  } catch {
+    /* offline at install time / asset fetch failed — best effort */
+  }
+}
+
 self.addEventListener('install', (event) => {
   event.waitUntil(
-    caches
-      .open(PAGES_CACHE)
-      .then((cache) => Promise.allSettled(PRECACHE_PAGES.map((url) => cache.add(url))))
-      .catch(() => {}),
+    (async () => {
+      const [pagesCache, staticCache] = await Promise.all([
+        caches.open(PAGES_CACHE),
+        caches.open(STATIC_CACHE),
+      ]);
+      await Promise.allSettled([
+        ...PRECACHE_PAGES.map((u) => precachePage(u, pagesCache, staticCache)),
+        staticCache.addAll(PRECACHE_STATIC).catch(() => {}),
+      ]);
+    })(),
   );
 });
 
