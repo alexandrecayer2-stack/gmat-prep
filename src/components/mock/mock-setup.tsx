@@ -4,7 +4,7 @@ import { useState } from 'react';
 import { useRouter } from 'next/navigation';
 import { ArrowRight, ChevronDown, Clock } from 'lucide-react';
 import type { Section } from '@/lib/domain/types';
-import { SECTIONS, SECTION_LABELS, SECTION_MINUTES, SECTION_QUESTION_COUNT } from '@/lib/domain/constants';
+import { SECTION_LABELS, SECTION_MINUTES, SECTION_QUESTION_COUNT } from '@/lib/domain/constants';
 import {
   MOCK_DIFFICULTY_LABELS,
   serializeMockConfig,
@@ -25,7 +25,15 @@ const LENGTHS: { value: MockLength; label: string }[] = [
 
 const SECTION_ORDER: Section[] = ['quant', 'verbal', 'data_insights'];
 
-export function MockSetup({ counts }: { counts: Record<Section, number> }) {
+export function MockSetup({
+  counts,
+  onStart,
+}: {
+  counts: Record<Section, number>;
+  // When provided (offline mode) Start hands back the chosen config instead of
+  // navigating to the server-rendered mock session route.
+  onStart?: (config: MockConfig) => void;
+}) {
   const router = useRouter();
 
   // Default = full GMAT exam, all sections, timed, balanced
@@ -53,7 +61,22 @@ export function MockSetup({ counts }: { counts: Record<Section, number> }) {
 
   function start() {
     if (config.sections.length === 0) return;
-    router.push(`/mock/session?${new URLSearchParams(serializeMockConfig(config)).toString()}`);
+
+    // Offline mode: build the exam in-place from the cached bank.
+    if (onStart) {
+      onStart(config);
+      return;
+    }
+
+    const query = new URLSearchParams(serializeMockConfig(config)).toString();
+
+    // If the connection dropped, fall back to the self-contained offline route.
+    if (typeof navigator !== 'undefined' && navigator.onLine === false) {
+      window.location.assign(`/mock/offline?${query}`);
+      return;
+    }
+
+    router.push(`/mock/session?${query}`);
   }
 
   const noneSelected = config.sections.length === 0;

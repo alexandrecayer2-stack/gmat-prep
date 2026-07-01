@@ -4,7 +4,7 @@
  * purged on activate. A new worker does NOT auto-activate: it waits until the
  * page tells it to (SKIP_WAITING), which is how the "new version available"
  * refresh prompt stays in the user's control. */
-const CACHE_VERSION = 'v1';
+const CACHE_VERSION = 'v2';
 const STATIC_CACHE = `gmat-static-${CACHE_VERSION}`; // hashed /_next assets, icons
 const PAGES_CACHE = `gmat-pages-${CACHE_VERSION}`; // visited HTML documents
 const BANK_CACHE = `gmat-bank-${CACHE_VERSION}`; // /api/bank question payload
@@ -12,7 +12,7 @@ const OFFLINE_URL = '/offline';
 
 // Best-effort precache of the offline fallback and the self-contained offline
 // practice route, so a cold offline launch works even for never-visited routes.
-const PRECACHE_PAGES = [OFFLINE_URL, '/practice/offline'];
+const PRECACHE_PAGES = [OFFLINE_URL, '/practice/offline', '/mock/offline'];
 self.addEventListener('install', (event) => {
   event.waitUntil(
     caches

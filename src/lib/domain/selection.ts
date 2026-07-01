@@ -6,6 +6,7 @@ import type {
   QuestionWithGroup,
   Section,
 } from './types';
+import { targetCount, type MockConfig } from './mock';
 
 // Pure question-selection logic, shared by the server data layer (content.ts)
 // and the offline client so an offline session is assembled exactly like an
@@ -145,4 +146,30 @@ export function countMatching(bank: QuestionBank, filter: PracticeSelection): nu
   }
   if (filter.difficulty) qs = qs.filter((q) => q.difficulty === filter.difficulty);
   return qs.length;
+}
+
+export interface MockSectionSet {
+  section: Section;
+  questions: QuestionWithGroup[];
+}
+
+// Client-side equivalent of getMockQuestions: for each configured section draw
+// `targetCount` questions matching the difficulty preference (whole section when
+// "balanced", or falling back to it if a difficulty filter leaves too few),
+// keeping grouped questions contiguous. Mirrors the server exactly.
+export function selectMockQuestions(bank: QuestionBank, config: MockConfig): MockSectionSet[] {
+  const byId = groupsMap(bank);
+  const out: MockSectionSet[] = [];
+  for (const section of config.sections) {
+    const pool = bank.questions.filter((q) => q.section === section);
+    const narrowed =
+      config.difficulty === 'balanced'
+        ? pool
+        : pool.filter((q) => q.difficulty === config.difficulty);
+    const source = narrowed.length >= 1 ? narrowed : pool;
+    const picked = pickSpread(source, targetCount(section, config.length));
+    if (picked.length === 0) continue;
+    out.push({ section, questions: arrangeUnits(picked, byId) });
+  }
+  return out;
 }
