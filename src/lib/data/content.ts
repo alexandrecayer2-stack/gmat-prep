@@ -34,6 +34,8 @@ export interface QuestionFilter {
   section?: Section;
   types?: QuestionType[];
   difficulty?: Difficulty;
+  // Narrow to a single topic (e.g. a "practice this topic" deep link from Learn).
+  topic?: string;
   // Cap the session at roughly this many questions (groups kept whole), so a
   // practice session is a finite set rather than the entire filtered bank.
   count?: number;
@@ -87,6 +89,7 @@ export async function getPracticeQuestions(filter: QuestionFilter): Promise<Ques
     if (filter.section) query = query.eq('section', filter.section);
     if (filter.types && filter.types.length) query = query.in('type', filter.types);
     if (filter.difficulty) query = query.eq('difficulty', filter.difficulty);
+    if (filter.topic) query = query.eq('topic', filter.topic);
     return query;
   });
   const questions = rows.map(mapQuestion);

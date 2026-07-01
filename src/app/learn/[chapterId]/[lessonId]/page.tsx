@@ -1,7 +1,7 @@
 import type { CSSProperties } from 'react';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import { ChevronLeft, ChevronRight, Clock } from 'lucide-react';
+import { ArrowRight, ChevronLeft, ChevronRight, Clock, Target } from 'lucide-react';
 import {
   getLearnChapters,
   getLessonsByChapter,
@@ -50,6 +50,13 @@ export default async function LessonPage({ params }: Props) {
   const prevLesson = currentIdx > 0 ? lessons[currentIdx - 1] : null;
   const nextLesson = currentIdx < lessons.length - 1 ? lessons[currentIdx + 1] : null;
   const colors = SECTION_COLORS[chapter.section];
+
+  // The lesson's exercises share a topic; surface a "practice this topic" deep
+  // link to a focused set of that topic's questions across the whole bank.
+  const topicCounts = new Map<string, number>();
+  for (const e of exercises) topicCounts.set(e.topic, (topicCounts.get(e.topic) ?? 0) + 1);
+  const topTopic = [...topicCounts.entries()].sort((a, b) => b[1] - a[1])[0]?.[0];
+
   const wordCount = lesson.body.split(/\s+/).filter(Boolean).length;
   const readingMinutes = Math.max(1, Math.round(wordCount / 200));
   const progressPct = Math.round(((currentIdx + 1) / lessons.length) * 100);
@@ -116,6 +123,28 @@ export default async function LessonPage({ params }: Props) {
 
       {/* Exercises */}
       <LessonExercises lessonId={lessonId} exercises={exercises} />
+
+      {/* Practice this topic — a focused deep link into the full question bank */}
+      {topTopic && (
+        <div className="mt-10 flex flex-wrap items-center justify-between gap-3 rounded-xl border border-primary/30 bg-accent/30 p-4">
+          <div className="flex items-center gap-3">
+            <Target className="size-5 shrink-0 text-primary" />
+            <div>
+              <div className="font-medium capitalize">Practice this topic: {topTopic}</div>
+              <div className="text-sm text-muted-foreground">
+                A focused set of <span className="capitalize">{topTopic}</span> questions across
+                difficulties.
+              </div>
+            </div>
+          </div>
+          <Link
+            href={`/practice/session?section=${chapter.section}&topic=${encodeURIComponent(topTopic)}&count=10`}
+            className="btn-brand inline-flex items-center gap-1.5 rounded-lg px-4 py-2 text-sm font-medium"
+          >
+            Start <ArrowRight className="size-4" />
+          </Link>
+        </div>
+      )}
 
       {/* Lesson navigation */}
       <nav className="mt-12 grid gap-3 border-t border-border pt-8 sm:grid-cols-2">
