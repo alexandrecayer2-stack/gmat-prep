@@ -2,7 +2,8 @@
 
 import { useCallback, useEffect, useRef, useState } from 'react';
 import Link from 'next/link';
-import { Calculator as CalcIcon, Check, ChevronRight, Clock, RotateCcw, X } from 'lucide-react';
+import { useRouter } from 'next/navigation';
+import { Calculator as CalcIcon, Check, ChevronDown, ChevronRight, Clock, RotateCcw, X } from 'lucide-react';
 import type { QuestionWithGroup, SelectedAnswer } from '@/lib/domain/types';
 import {
   DIFFICULTY_LABELS,
@@ -19,10 +20,13 @@ import { QuestionPrompt } from './question-prompt';
 import { AnswerInputs } from './answer-inputs';
 import { Card } from '@/components/ui/card';
 import { useCountUp } from '@/components/ui/accuracy-ring';
+import { ReviewQuestionDetail } from '@/components/review/review-question-detail';
 
 interface Result {
   questionId: string;
   isCorrect: boolean;
+  selectedAnswer: SelectedAnswer;
+  timeSpent: number;
 }
 
 export function PracticeRunner({ questions }: { questions: QuestionWithGroup[] }) {
@@ -65,7 +69,7 @@ export function PracticeRunner({ questions }: { questions: QuestionWithGroup[] }
     const timeSpent = Math.floor((Date.now() - startRef.current) / 1000);
     setIsCorrect(correct);
     setSubmitted(true);
-    setResults((r) => [...r, { questionId: q.id, isCorrect: correct }]);
+    setResults((r) => [...r, { questionId: q.id, isCorrect: correct, selectedAnswer: selected, timeSpent }]);
 
     if (user) {
       // Offline-aware: saves to Supabase when online, otherwise queues locally
@@ -280,51 +284,98 @@ function Summary({
   questions: QuestionWithGroup[];
   results: Result[];
 }) {
+  const router = useRouter();
+  const [expandedId, setExpandedId] = useState<string | null>(null);
   const correct = results.filter((r) => r.isCorrect).length;
   const pct = results.length ? Math.round((correct / results.length) * 100) : 0;
   const animatedPct = useCountUp(pct);
+  const totalTime = results.reduce((s, r) => s + r.timeSpent, 0);
+  const avgTime = results.length ? Math.round(totalTime / results.length) : 0;
+  const missedIds = results.filter((r) => !r.isCorrect).map((r) => r.questionId);
 
   return (
     <div className="mx-auto max-w-2xl px-4 py-10">
-      <Card className="animate-fade-in-up p-6 text-center">
-        <h1 className="font-heading text-lg font-semibold">Session complete</h1>
-        <p className="mt-1 text-sm text-muted-foreground">
-          You answered {results.length} question{results.length === 1 ? '' : 's'}.
-        </p>
-        <div className="my-6" role="status" aria-live="polite">
-          <div className="font-heading text-5xl font-bold tabular-nums">{animatedPct}%</div>
-          <div className="mt-1 text-sm text-muted-foreground">
-            {correct} of {results.length} correct
+      <Card className="animate-fade-in-up p-6">
+        <div className="text-center">
+          <h1 className="font-heading text-lg font-semibold">Session complete</h1>
+          <div className="my-5" role="status" aria-live="polite">
+            <div className="font-heading text-5xl font-bold tabular-nums">{animatedPct}%</div>
+            <div className="mt-1 text-sm text-muted-foreground">
+              {correct} of {results.length} correct
+            </div>
+          </div>
+          {/* Time stats */}
+          <div className="mx-auto mb-6 flex max-w-xs justify-center gap-6 text-sm">
+            <div>
+              <div className="font-semibold tabular-nums">{formatTime(totalTime)}</div>
+              <div className="text-xs text-muted-foreground">total time</div>
+            </div>
+            <div>
+              <div className="font-semibold tabular-nums">{formatTime(avgTime)}</div>
+              <div className="text-xs text-muted-foreground">avg / question</div>
+            </div>
           </div>
         </div>
-        <ul className="mb-6 space-y-1 text-left text-sm">
+
+        {/* Per-question results — expand to review, no need to leave */}
+        <ul className="mb-6 space-y-1.5 text-sm">
           {results.map((r, i) => {
             const q = questions.find((x) => x.id === r.questionId);
+            const open = expandedId === r.questionId;
             return (
-              <li
-                key={r.questionId}
-                className="flex items-center gap-2 rounded-md border border-border px-3 py-2"
-              >
-                {r.isCorrect ? (
-                  <Check className="size-4 shrink-0 text-success" />
-                ) : (
-                  <X className="size-4 shrink-0 text-danger" />
+              <li key={r.questionId} className="overflow-hidden rounded-lg border border-border">
+                <button
+                  type="button"
+                  onClick={() => setExpandedId(open ? null : r.questionId)}
+                  aria-expanded={open}
+                  className="flex w-full items-center gap-2 px-3 py-2 text-left"
+                >
+                  {r.isCorrect ? (
+                    <Check className="size-4 shrink-0 text-success" />
+                  ) : (
+                    <X className="size-4 shrink-0 text-danger" />
+                  )}
+                  <span className="text-muted-foreground">Q{i + 1}</span>
+                  <span className="truncate">{q ? QUESTION_TYPE_LABELS[q.type] : ''}</span>
+                  <span className="ml-auto shrink-0 text-xs text-muted-foreground">
+                    {formatTime(r.timeSpent)}
+                  </span>
+                  <span className="shrink-0 text-xs text-muted-foreground">
+                    {q ? DIFFICULTY_LABELS[q.difficulty] : ''}
+                  </span>
+                  <ChevronDown
+                    className={cn('size-4 shrink-0 text-muted-foreground transition-transform', open && 'rotate-180')}
+                  />
+                </button>
+                {open && (
+                  <div className="border-t border-border p-3">
+                    <ReviewQuestionDetail
+                      questionId={r.questionId}
+                      selectedAnswer={r.selectedAnswer}
+                      isCorrect={r.isCorrect}
+                    />
+                  </div>
                 )}
-                <span className="text-muted-foreground">Q{i + 1}</span>
-                <span className="truncate">{q ? QUESTION_TYPE_LABELS[q.type] : ''}</span>
-                <span className="ml-auto text-xs text-muted-foreground">
-                  {q ? DIFFICULTY_LABELS[q.difficulty] : ''}
-                </span>
               </li>
             );
           })}
         </ul>
-        <div className="flex justify-center gap-3">
+
+        <div className="flex flex-wrap justify-center gap-3">
+          {missedIds.length > 0 && (
+            <button
+              type="button"
+              onClick={() => router.push(`/practice/session?ids=${missedIds.slice(0, 100).join(',')}`)}
+              className="btn-brand inline-flex items-center gap-1.5 rounded-lg px-4 py-2 text-sm font-medium"
+            >
+              <RotateCcw className="size-4" /> Redo {missedIds.length} missed
+            </button>
+          )}
           <Link
             href="/practice"
-            className="inline-flex items-center gap-1 rounded-lg bg-primary px-4 py-2 text-sm font-medium text-primary-foreground hover:opacity-90"
+            className="inline-flex items-center gap-1 rounded-lg border border-border px-4 py-2 text-sm font-medium hover:bg-muted"
           >
-            <RotateCcw className="size-4" /> Practice again
+            New session
           </Link>
           <Link
             href="/"
