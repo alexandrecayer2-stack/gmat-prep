@@ -3,8 +3,9 @@
 import { useEffect, useMemo, useState } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
-import { Check, ChevronDown, RotateCcw, X, CalendarClock } from 'lucide-react';
+import { Check, ChevronDown, RotateCcw, Search, X, CalendarClock } from 'lucide-react';
 import { ReviewQuestionDetail } from './review-question-detail';
+import { ReviewAnalytics } from './review-analytics';
 import { useAuth } from '@/lib/auth/auth-provider';
 import {
   getReviewItems,
@@ -18,13 +19,23 @@ import {
   SECTIONS,
   SECTION_SHORT,
 } from '@/lib/domain/constants';
-import type { Difficulty, Section } from '@/lib/domain/types';
+import type { Difficulty, QuestionType, Section } from '@/lib/domain/types';
 import { cn } from '@/lib/utils';
 import { Card } from '@/components/ui/card';
 
 type Correctness = 'all' | 'correct' | 'missed';
 type SectionFilter = 'all' | Section;
 type DifficultyFilter = 'all' | Difficulty;
+type TypeFilter = 'all' | QuestionType;
+type ContextFilter = 'all' | 'practice' | 'mock';
+type SortKey = 'recent' | 'hardest' | 'missed';
+
+const SORT_LABELS: Record<SortKey, string> = {
+  recent: 'Most recent',
+  hardest: 'Hardest first',
+  missed: 'Most missed',
+};
+const DIFFICULTY_RANK: Record<Difficulty, number> = { easy: 0, medium: 1, hard: 2 };
 
 export function ReviewView() {
   const { user, loading, supabase } = useAuth();
@@ -39,6 +50,10 @@ export function ReviewView() {
   const [section, setSection] = useState<SectionFilter>('all');
   const [difficulty, setDifficulty] = useState<DifficultyFilter>('all');
   const [correctness, setCorrectness] = useState<Correctness>('all');
+  const [typeFilter, setTypeFilter] = useState<TypeFilter>('all');
+  const [contextFilter, setContextFilter] = useState<ContextFilter>('all');
+  const [sort, setSort] = useState<SortKey>('recent');
+  const [query, setQuery] = useState('');
   const [expandedId, setExpandedId] = useState<string | null>(null);
 
   useEffect(() => {
@@ -68,16 +83,33 @@ export function ReviewView() {
     setReloadKey((k) => k + 1);
   }
 
+  // Which question types actually appear in the history (drives the type chips).
+  const presentTypes = useMemo(() => {
+    const set = new Set<QuestionType>();
+    for (const it of items ?? []) set.add(it.type);
+    return [...set];
+  }, [items]);
+  const hasMock = useMemo(() => (items ?? []).some((it) => it.context === 'mock'), [items]);
+
   const filtered = useMemo(() => {
     if (!items) return [];
-    return items.filter(
+    const q = query.trim().toLowerCase();
+    const out = items.filter(
       (it) =>
         (section === 'all' || it.section === section) &&
         (difficulty === 'all' || it.difficulty === difficulty) &&
-        (correctness === 'all' ||
-          (correctness === 'correct' ? it.isCorrect : !it.isCorrect)),
+        (typeFilter === 'all' || it.type === typeFilter) &&
+        (contextFilter === 'all' || it.context === contextFilter) &&
+        (correctness === 'all' || (correctness === 'correct' ? it.isCorrect : !it.isCorrect)) &&
+        (!q || plain(it.stem).toLowerCase().includes(q)),
     );
-  }, [items, section, difficulty, correctness]);
+    out.sort((a, b) => {
+      if (sort === 'hardest') return DIFFICULTY_RANK[b.difficulty] - DIFFICULTY_RANK[a.difficulty];
+      if (sort === 'missed') return b.wrongCount - a.wrongCount;
+      return a.lastSeen < b.lastSeen ? 1 : -1; // recent first
+    });
+    return out;
+  }, [items, section, difficulty, typeFilter, contextFilter, correctness, query, sort]);
 
   const missedIds = useMemo(() => filtered.filter((it) => !it.isCorrect).map((it) => it.questionId), [filtered]);
 
@@ -171,6 +203,32 @@ export function ReviewView() {
         </div>
       )}
 
+      {/* Performance analytics */}
+      <ReviewAnalytics items={items} />
+
+      {/* Search */}
+      <div className="relative mb-4">
+        <Search className="pointer-events-none absolute left-3 top-1/2 size-4 -translate-y-1/2 text-muted-foreground" />
+        <input
+          type="text"
+          value={query}
+          onChange={(e) => setQuery(e.target.value)}
+          placeholder="Search your attempted questions"
+          aria-label="Search review history"
+          className="w-full rounded-lg border border-border bg-card py-2 pl-9 pr-9 text-sm outline-none transition-colors focus:border-primary/50"
+        />
+        {query && (
+          <button
+            type="button"
+            onClick={() => setQuery('')}
+            aria-label="Clear search"
+            className="absolute right-2 top-1/2 -translate-y-1/2 rounded-md p-1 text-muted-foreground hover:bg-muted"
+          >
+            <X className="size-4" />
+          </button>
+        )}
+      </div>
+
       {/* Filters */}
       <div className="mb-5 flex flex-wrap gap-4">
         <FilterGroup label="Section">
@@ -181,6 +239,16 @@ export function ReviewView() {
             </Chip>
           ))}
         </FilterGroup>
+        {presentTypes.length > 1 && (
+          <FilterGroup label="Type">
+            <Chip active={typeFilter === 'all'} onClick={() => setTypeFilter('all')}>All</Chip>
+            {presentTypes.map((t) => (
+              <Chip key={t} active={typeFilter === t} onClick={() => setTypeFilter(t)}>
+                {QUESTION_TYPE_LABELS[t]}
+              </Chip>
+            ))}
+          </FilterGroup>
+        )}
         <FilterGroup label="Difficulty">
           <Chip active={difficulty === 'all'} onClick={() => setDifficulty('all')}>All</Chip>
           {(['easy', 'medium', 'hard'] as Difficulty[]).map((d) => (
@@ -194,12 +262,33 @@ export function ReviewView() {
           <Chip active={correctness === 'correct'} onClick={() => setCorrectness('correct')}>Correct</Chip>
           <Chip active={correctness === 'missed'} onClick={() => setCorrectness('missed')}>Missed</Chip>
         </FilterGroup>
+        {hasMock && (
+          <FilterGroup label="Source">
+            <Chip active={contextFilter === 'all'} onClick={() => setContextFilter('all')}>All</Chip>
+            <Chip active={contextFilter === 'practice'} onClick={() => setContextFilter('practice')}>Practice</Chip>
+            <Chip active={contextFilter === 'mock'} onClick={() => setContextFilter('mock')}>Mock</Chip>
+          </FilterGroup>
+        )}
       </div>
 
-      {/* List */}
-      <p className="mb-2 text-xs text-muted-foreground">
-        {filtered.length} shown
-      </p>
+      {/* List header: count + sort */}
+      <div className="mb-2 flex items-center justify-between gap-2">
+        <p className="text-xs text-muted-foreground">{filtered.length} shown</p>
+        <label className="flex items-center gap-1.5 text-xs text-muted-foreground">
+          Sort
+          <select
+            value={sort}
+            onChange={(e) => setSort(e.target.value as SortKey)}
+            className="rounded-md border border-border bg-card px-2 py-1 text-xs outline-none focus:border-primary/50"
+          >
+            {(Object.keys(SORT_LABELS) as SortKey[]).map((k) => (
+              <option key={k} value={k}>
+                {SORT_LABELS[k]}
+              </option>
+            ))}
+          </select>
+        </label>
+      </div>
       {filtered.length === 0 ? (
         <Card className="p-8 text-center text-sm text-muted-foreground">
           No questions match these filters.
