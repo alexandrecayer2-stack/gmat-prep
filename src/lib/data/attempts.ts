@@ -6,6 +6,7 @@ import {
   type DiagnosticEstimate,
   type GradedItem,
 } from '@/lib/domain/scoring';
+import { dueAtMs, leitnerBox } from '@/lib/domain/spaced-repetition';
 
 export interface RecordAttemptInput {
   userId: string;
@@ -89,6 +90,56 @@ export async function getReviewItems(supabase: SupabaseClient, userId: string): 
     });
   }
   return [...byQuestion.values()];
+}
+
+export interface ReviewQueueItem {
+  questionId: string;
+  section: Section;
+  type: QuestionType;
+  difficulty: Difficulty;
+  topic: string;
+  stem: string;
+  box: number; // Leitner box = trailing consecutive-correct streak (0 = last missed)
+  lastSeen: string; // ISO of the most recent attempt
+  dueAt: string; // ISO when it next becomes due for review
+}
+
+/**
+ * A spaced-repetition queue derived purely from attempt history: for each
+ * question, the trailing consecutive-correct streak sets its Leitner box, and
+ * `dueAt = lastSeen + interval(box)` (see spaced-repetition.ts). The caller
+ * decides what's "due now" by comparing `dueAt` to the current time.
+ */
+export async function getReviewQueue(
+  supabase: SupabaseClient,
+  userId: string,
+): Promise<ReviewQueueItem[]> {
+  const { data, error } = await supabase
+    .from('attempts')
+    .select('question_id, is_correct, created_at, questions(section, topic, difficulty, type, stem)')
+    .eq('user_id', userId)
+    .order('created_at', { ascending: true });
+  if (error) throw new Error(error.message);
+
+  const attemptsByQ = new Map<string, { correct: boolean; at: string }[]>();
+  const metaByQ = new Map<string, QuestionMeta & { stem: string }>();
+  for (const row of (data ?? []) as unknown as AttemptReviewRow[]) {
+    if (!row.questions) continue;
+    let list = attemptsByQ.get(row.question_id);
+    if (!list) attemptsByQ.set(row.question_id, (list = []));
+    list.push({ correct: row.is_correct, at: row.created_at ?? '' });
+    metaByQ.set(row.question_id, row.questions);
+  }
+
+  const out: ReviewQueueItem[] = [];
+  for (const [questionId, attempts] of attemptsByQ) {
+    const m = metaByQ.get(questionId)!;
+    const box = leitnerBox(attempts.map((a) => a.correct));
+    const lastSeen = attempts[attempts.length - 1].at;
+    const dueAt = new Date(dueAtMs(new Date(lastSeen).getTime(), box)).toISOString();
+    out.push({ questionId, section: m.section, type: m.type, difficulty: m.difficulty, topic: m.topic, stem: m.stem, box, lastSeen, dueAt });
+  }
+  return out;
 }
 
 export interface UserStats {

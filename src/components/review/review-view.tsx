@@ -3,9 +3,14 @@
 import { useEffect, useMemo, useState } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
-import { Check, RotateCcw, X } from 'lucide-react';
+import { Check, RotateCcw, X, CalendarClock } from 'lucide-react';
 import { useAuth } from '@/lib/auth/auth-provider';
-import { getReviewItems, type ReviewItem } from '@/lib/data/attempts';
+import {
+  getReviewItems,
+  getReviewQueue,
+  type ReviewItem,
+  type ReviewQueueItem,
+} from '@/lib/data/attempts';
 import {
   DIFFICULTY_LABELS,
   QUESTION_TYPE_LABELS,
@@ -24,6 +29,9 @@ export function ReviewView() {
   const { user, loading, supabase } = useAuth();
   const router = useRouter();
   const [items, setItems] = useState<ReviewItem[] | null>(null);
+  // Ids due for spaced review, computed at fetch time (most-overdue / freshly-
+  // missed first). Kept as derived state so `Date.now()` stays out of render.
+  const [dueIds, setDueIds] = useState<string[]>([]);
   const [error, setError] = useState(false);
   const [reloadKey, setReloadKey] = useState(0);
 
@@ -34,8 +42,12 @@ export function ReviewView() {
   useEffect(() => {
     if (loading || !user) return;
     let active = true;
-    getReviewItems(supabase, user.id)
-      .then((r) => active && setItems(r))
+    Promise.all([getReviewItems(supabase, user.id), getReviewQueue(supabase, user.id)])
+      .then(([r, q]) => {
+        if (!active) return;
+        setItems(r);
+        setDueIds(dueForReview(q));
+      })
       .catch((e) => {
         console.error('Failed to load review history:', e);
         if (active) setError(true);
@@ -132,6 +144,30 @@ export function ReviewView() {
           </button>
         )}
       </header>
+
+      {/* Spaced repetition — questions due for review today */}
+      {dueIds.length > 0 && (
+        <div className="mb-6 flex flex-wrap items-center justify-between gap-3 rounded-xl border border-primary/30 bg-accent/40 p-4">
+          <div className="flex items-center gap-3">
+            <CalendarClock className="size-6 shrink-0 text-primary" />
+            <div>
+              <div className="font-medium">
+                {dueIds.length} question{dueIds.length === 1 ? '' : 's'} due for review
+              </div>
+              <div className="text-sm text-muted-foreground">
+                Spaced repetition resurfaces missed questions on an expanding schedule.
+              </div>
+            </div>
+          </div>
+          <button
+            type="button"
+            onClick={() => redo(dueIds)}
+            className="bg-brand inline-flex items-center gap-1.5 rounded-lg px-4 py-2 text-sm font-medium text-white shadow-sm transition-transform hover:-translate-y-0.5"
+          >
+            <RotateCcw className="size-4" /> Start review
+          </button>
+        </div>
+      )}
 
       {/* Filters */}
       <div className="mb-5 flex flex-wrap gap-4">
@@ -262,6 +298,16 @@ function Empty({ title, body, cta }: { title: string; body: string; cta?: boolea
       )}
     </div>
   );
+}
+
+// Ids whose Leitner interval has elapsed (due now), most-overdue and freshly-
+// missed (low box) first. Module scope so Date.now() is out of React render.
+function dueForReview(queue: ReviewQueueItem[]): string[] {
+  const now = Date.now();
+  return queue
+    .filter((q) => new Date(q.dueAt).getTime() <= now)
+    .sort((a, b) => a.box - b.box || (a.dueAt < b.dueAt ? -1 : 1))
+    .map((q) => q.questionId);
 }
 
 // Strip Markdown/KaTeX noise for a readable one-line preview.
