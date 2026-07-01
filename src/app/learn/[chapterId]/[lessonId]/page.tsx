@@ -13,6 +13,7 @@ import type { Section } from '@/lib/domain/types';
 import { Markdown } from '@/components/markdown';
 import { LessonExercises } from '@/components/learn/lesson-exercises';
 import { ReadingProgress } from '@/components/learn/reading-progress';
+import { MarkAsReadButton } from '@/components/learn/mark-as-read-button';
 
 interface Props {
   params: Promise<{ chapterId: string; lessonId: string }>;
@@ -119,6 +120,12 @@ export default async function LessonPage({ params }: Props) {
         style={{ '--lesson-accent': SECTION_ACCENT[chapter.section] } as CSSProperties}
       >
         <Markdown>{lesson.body}</Markdown>
+      </div>
+
+      {/* Mark-as-read */}
+      <div className="mt-8 flex items-center justify-between gap-3 border-t border-border pt-6">
+        <span className="text-sm text-muted-foreground">Finished reading this lesson?</span>
+        <MarkAsReadButton lessonId={lessonId} />
       </div>
 
       {/* Exercises */}

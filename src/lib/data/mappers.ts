@@ -138,9 +138,16 @@ export function mapLesson(row: LessonRow): LearnLesson {
   };
 }
 
+// "Read" is stored as a reserved sentinel inside passed_exercise_ids (no schema
+// change needed). Keep it fully encapsulated here so the rest of the app sees a
+// clean `read` boolean and an exercise list with the sentinel stripped out.
+export const LESSON_READ_SENTINEL = '__read__';
+
 export function mapLessonProgress(row: LessonProgressRow): LessonProgress {
+  const raw = row.passed_exercise_ids ?? [];
   return {
     lessonId: row.lesson_id,
-    passedExerciseIds: row.passed_exercise_ids ?? [],
+    passedExerciseIds: raw.filter((id) => id !== LESSON_READ_SENTINEL),
+    read: raw.includes(LESSON_READ_SENTINEL),
   };
 }

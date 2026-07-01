@@ -1,13 +1,11 @@
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import { ChevronLeft, ChevronRight, Clock } from 'lucide-react';
+import { ChevronLeft, ChevronRight } from 'lucide-react';
 import { getLearnChapters, getLessonsByChapter } from '@/lib/data/content';
 import { SECTION_LABELS, SECTION_COLORS } from '@/lib/domain/constants';
 import { ChapterProgressBar } from '@/components/learn/chapter-progress';
+import { ChapterLessonList } from '@/components/learn/chapter-lesson-list';
 import { SECTION_ICONS } from '@/components/ui/section-icons';
-
-const readingMinutes = (body: string) =>
-  Math.max(1, Math.round(body.split(/\s+/).filter(Boolean).length / 200));
 
 interface Props {
   params: Promise<{ chapterId: string }>;
@@ -71,43 +69,7 @@ export default async function ChapterPage({ params }: Props) {
       </div>
 
       {/* Lessons */}
-      <div className="mb-8 overflow-hidden rounded-xl border border-border divide-y divide-border">
-        {lessons.length === 0 && (
-          <p className="px-6 py-8 text-center text-sm text-muted-foreground">
-            No lessons in this chapter yet.
-          </p>
-        )}
-        {lessons.map((lesson, i) => (
-          <Link
-            key={lesson.id}
-            href={`/learn/${chapterId}/${lesson.id}`}
-            className="group flex items-center gap-5 bg-card px-6 py-5 transition-colors hover:bg-accent/20"
-          >
-            <span
-              className={`w-7 shrink-0 text-2xl font-black leading-none tabular-nums transition-opacity ${colors.text} opacity-30 group-hover:opacity-60`}
-            >
-              {i + 1}
-            </span>
-            <div className="min-w-0 flex-1">
-              <p className="font-semibold leading-snug">{lesson.title}</p>
-              <p className="mt-0.5 flex items-center gap-1.5 text-xs text-muted-foreground">
-                <span className="inline-flex items-center gap-1">
-                  <Clock className="size-3" /> {readingMinutes(lesson.body)} min
-                </span>
-                {lesson.exerciseIds.length > 0 && (
-                  <>
-                    <span className="text-muted-foreground/40">·</span>
-                    <span>
-                      {lesson.exerciseIds.length} exercise{lesson.exerciseIds.length !== 1 ? 's' : ''}
-                    </span>
-                  </>
-                )}
-              </p>
-            </div>
-            <ChevronRight className="size-5 shrink-0 text-muted-foreground/30 transition-all group-hover:translate-x-0.5 group-hover:text-muted-foreground" />
-          </Link>
-        ))}
-      </div>
+      <ChapterLessonList chapterId={chapterId} lessons={lessons} section={chapter.section} />
 
       {/* Navigation */}
       <div className="flex items-center justify-between">

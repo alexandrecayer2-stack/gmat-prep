@@ -176,6 +176,7 @@ export interface LearnLesson {
 export interface LessonProgress {
   lessonId: string;
   passedExerciseIds: string[];
+  read?: boolean; // the user marked the lesson body as read
 }
 
 // ---------- User data ----------
