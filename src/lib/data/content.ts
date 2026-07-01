@@ -23,6 +23,12 @@ import {
   type QuestionRow,
 } from './mappers';
 import { targetCount, type MockConfig } from '@/lib/domain/mock';
+import {
+  arrangeUnits,
+  pickSpread,
+  takeUnits,
+  type QuestionBank,
+} from '@/lib/domain/selection';
 
 export interface QuestionFilter {
   section?: Section;
@@ -73,68 +79,6 @@ async function fetchGroupsFor(
   return groupsById;
 }
 
-function shuffle<T>(arr: T[]): T[] {
-  for (let i = arr.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [arr[i], arr[j]] = [arr[j], arr[i]];
-  }
-  return arr;
-}
-
-// Keep grouped questions (RC / Multi-Source) contiguous and ordered, treat each
-// standalone question as its own unit, then shuffle the units for variety.
-function arrangeUnits(
-  questions: Question[],
-  groupsById: Record<string, QuestionGroup>,
-): QuestionWithGroup[] {
-  const grouped = new Map<string, Question[]>();
-  const units: Question[][] = [];
-
-  for (const q of questions) {
-    if (q.groupId) {
-      if (!grouped.has(q.groupId)) {
-        const arr: Question[] = [];
-        grouped.set(q.groupId, arr);
-        units.push(arr); // preserve a stable slot for this group
-      }
-      grouped.get(q.groupId)!.push(q);
-    } else {
-      units.push([q]);
-    }
-  }
-
-  for (const arr of grouped.values()) arr.sort((a, b) => a.orderIndex - b.orderIndex);
-
-  return shuffle(units).flatMap((unit) =>
-    unit.map((q) => ({
-      ...q,
-      group: q.groupId ? (groupsById[q.groupId] ?? null) : null,
-    })),
-  );
-}
-
-// Take the first ~`count` questions while keeping RC/Multi-Source groups whole:
-// once we've reached the target we stop, but never split a group mid-way.
-function takeUnits(questions: QuestionWithGroup[], count: number): QuestionWithGroup[] {
-  if (count <= 0 || questions.length <= count) return questions;
-  const out: QuestionWithGroup[] = [];
-  let i = 0;
-  while (i < questions.length && out.length < count) {
-    const gid = questions[i].groupId;
-    if (!gid) {
-      out.push(questions[i]);
-      i += 1;
-    } else {
-      // Push the whole contiguous group, even if it slightly overshoots `count`.
-      while (i < questions.length && questions[i].groupId === gid) {
-        out.push(questions[i]);
-        i += 1;
-      }
-    }
-  }
-  return out;
-}
-
 export async function getPracticeQuestions(filter: QuestionFilter): Promise<QuestionWithGroup[]> {
   const supabase = await createClient();
 
@@ -152,26 +96,17 @@ export async function getPracticeQuestions(filter: QuestionFilter): Promise<Ques
   return filter.count ? takeUnits(arranged, filter.count) : arranged;
 }
 
-// Pick up to `n` items from a section, spread across difficulties.
-function pickSpread(items: Question[], n: number): Question[] {
-  const buckets: Record<Difficulty, Question[]> = { easy: [], medium: [], hard: [] };
-  for (const q of items) buckets[q.difficulty].push(q);
-  (['easy', 'medium', 'hard'] as Difficulty[]).forEach((d) => shuffle(buckets[d]));
-  const order: Difficulty[] = ['medium', 'easy', 'hard'];
-  const picked: Question[] = [];
-  let progressed = true;
-  while (picked.length < n && progressed) {
-    progressed = false;
-    for (const d of order) {
-      if (picked.length >= n) break;
-      const next = buckets[d].shift();
-      if (next) {
-        picked.push(next);
-        progressed = true;
-      }
-    }
-  }
-  return picked;
+/**
+ * The entire question bank (all questions + their groups), for the offline
+ * cache. Served by /api/bank; the client stores it and builds sessions locally
+ * when there's no connection. Corrections travel with each question, so offline
+ * grading and explanations need no extra data.
+ */
+export async function getQuestionBank(): Promise<QuestionBank> {
+  const supabase = await createClient();
+  const questions = (await fetchAllQuestions(supabase)).map(mapQuestion);
+  const groupsById = await fetchGroupsFor(supabase, questions);
+  return { questions, groups: Object.values(groupsById) };
 }
 
 /**

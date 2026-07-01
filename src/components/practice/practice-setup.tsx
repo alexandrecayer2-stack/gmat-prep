@@ -17,12 +17,23 @@ import { cn } from '@/lib/utils';
 import { SectionLabel } from '@/components/ui/section-label';
 import { SECTION_ICONS } from '@/components/ui/section-icons';
 
+export interface PracticeFilters {
+  section: Section;
+  types: QuestionType[];
+  difficulty: 'any' | Difficulty;
+  count: number;
+}
+
 export function PracticeSetup({
   counts,
   initialSection,
+  onStart,
 }: {
   counts: Record<Section, number>;
   initialSection?: Section;
+  // When provided (offline mode) Start hands back the chosen filters instead of
+  // navigating to the server-rendered session route.
+  onStart?: (filters: PracticeFilters) => void;
 }) {
   const router = useRouter();
   const [section, setSection] = useState<Section | null>(initialSection ?? null);
@@ -43,12 +54,27 @@ export function PracticeSetup({
 
   function start() {
     if (!section || types.length === 0) return;
+
+    // Offline mode: build the session in-place from the cached bank.
+    if (onStart) {
+      onStart({ section, types, difficulty, count });
+      return;
+    }
+
     const params = new URLSearchParams({
       section,
       types: types.join(','),
       difficulty,
       count: String(count),
     });
+
+    // If the connection dropped, fall back to the self-contained offline route
+    // (a hard nav the service worker can serve) instead of the server session.
+    if (typeof navigator !== 'undefined' && navigator.onLine === false) {
+      window.location.assign(`/practice/offline?${params.toString()}`);
+      return;
+    }
+
     router.push(`/practice/session?${params.toString()}`);
   }
 

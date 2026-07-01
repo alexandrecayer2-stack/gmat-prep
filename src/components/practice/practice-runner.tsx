@@ -11,7 +11,7 @@ import {
 } from '@/lib/domain/constants';
 import { emptySelection, gradeAnswer, isAnswerComplete } from '@/lib/domain/grade';
 import { useAuth } from '@/lib/auth/auth-provider';
-import { recordAttempt } from '@/lib/data/attempts';
+import { saveAttempt } from '@/lib/offline/save-attempt';
 import { cn, formatTime } from '@/lib/utils';
 import { Calculator } from '@/components/calculator';
 import { Markdown } from '@/components/markdown';
@@ -68,18 +68,16 @@ export function PracticeRunner({ questions }: { questions: QuestionWithGroup[] }
     setResults((r) => [...r, { questionId: q.id, isCorrect: correct }]);
 
     if (user) {
-      try {
-        await recordAttempt(supabase, {
-          userId: user.id,
-          questionId: q.id,
-          selectedAnswer: selected,
-          isCorrect: correct,
-          timeSpentSeconds: timeSpent,
-          context: 'practice',
-        });
-      } catch (e) {
-        console.error('Failed to record attempt:', e);
-      }
+      // Offline-aware: saves to Supabase when online, otherwise queues locally
+      // and syncs on reconnect. Never throws, so it can't break the session.
+      await saveAttempt(supabase, {
+        userId: user.id,
+        questionId: q.id,
+        selectedAnswer: selected,
+        isCorrect: correct,
+        timeSpentSeconds: timeSpent,
+        context: 'practice',
+      });
     }
   }, [submitted, q, selected, user, supabase]);
 
