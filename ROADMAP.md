@@ -19,13 +19,17 @@
   ✅ hours logged vs. the plan's weekly budget · ✅ dashboard **score trend over time**.
 - *Remaining polish (optional):* periodic check-in prompts; a full attempts-over-time chart on the dashboard beyond the score trend.
 
-### 2. Learn build-out · Priority **Medium** · Effort **M**
+### 2. Learn build-out · Priority **Medium** · mostly done
 - ✅ **Surface `distractorRationale`** (shown after answering; backfilled to 100%).
-- ⏳ **Topic-level Practice filter** → exact "practice this topic" deep links; more cards; search / filter / mark-as-read.
+- ✅ **Search + section filter** on the Learn index (chapter/lesson search).
+- ✅ **Topic-level "practice this topic" deep links** (lesson → topic-filtered session; `?topic=` on the practice route).
+- ⏳ More lesson cards (content authoring); explicit **mark-as-read** for a lesson (needs a small `user_lesson_progress` addition); offline honoring of `?topic=`.
 
 ### 3. Polish & scale · Priority **Low / ongoing**
 - ✅ **PWA** (installable, offline).
-- ⏳ Mobile + accessibility pass; more tests; **enable CI** (`.github/workflows/ci.yml` — needs a token with `workflow` scope); custom domain; real email (SMTP) for magic links at volume.
+- ✅ **CI** (`.github/workflows/ci.yml`: content gate + typecheck + unit tests on push/PR). *Pushing workflow files needs a token with `workflow` scope.*
+- ✅ **More tests** — 67 total (added adaptive, spaced-repetition, and shared selection-logic suites).
+- ⏳ Mobile + accessibility pass; custom domain; real email (SMTP) for magic links at volume.
 
 ### 4. Optional — AI assist (needs your go-ahead; paid API)
 - On-demand hints, and **AI-assisted question generation that runs through the content gate automatically** (generated questions are validated, never trusted).
@@ -33,6 +37,6 @@
 ---
 
 ## Recommended order
-**#2 (Learn build-out)** next, then the remaining **#3** items (CI, a11y, domain, SMTP), then #4.
+Remaining: the **#3** infra items (accessibility pass, custom domain, SMTP), the small **#2** follow-ups (mark-as-read, offline `?topic=`, more content), then **#4** (AI assist — needs go-ahead + paid API).
 
 > Note on growing the bank: the **Data Insights** bank is thin on **hard** items (~30 vs ~290 medium) — prioritize harder DI and more Multi-Source. Always run new content through the content gate (`npm run validate`), then `npm run seed`.
