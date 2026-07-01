@@ -22,9 +22,20 @@ describe('mock config — counts and timing', () => {
     expect(targetCount('quant', 'short')).toBe(MOCK_SHORT_COUNT);
   });
 
-  it('timed sections are 45 minutes; untimed is zero', () => {
+  it('full timed sections are 45 minutes; untimed is zero', () => {
     expect(sectionSeconds('quant', true)).toBe(45 * 60);
+    expect(sectionSeconds('quant', true, 'full')).toBe(45 * 60);
     expect(sectionSeconds('quant', false)).toBe(0);
+    expect(sectionSeconds('quant', false, 'short')).toBe(0);
+  });
+
+  it('a short section scales the clock to the real per-question pace', () => {
+    // Quant: 45 min over 21 questions → 10 short questions get ~21.4 min.
+    const shortQuant = sectionSeconds('quant', true, 'short');
+    expect(shortQuant).toBe(Math.round((45 * 60) / SECTION_QUESTION_COUNT.quant * MOCK_SHORT_COUNT));
+    // Definitively less than the full 45 minutes — the reported bug.
+    expect(shortQuant).toBeLessThan(45 * 60);
+    expect(shortQuant).toBeGreaterThan(0);
   });
 
   it('planned count sums the selected sections', () => {

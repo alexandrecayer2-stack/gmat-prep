@@ -152,7 +152,7 @@ export function MockRunner({ sections, config }: { sections: MockSectionSet[]; c
     setShowReview(false);
     enteredAt.current = Date.now();
     if (config.timed) {
-      deadlineRef.current = Date.now() + sectionSeconds(sections[sectionIdxRef.current].section, true) * 1000;
+      deadlineRef.current = Date.now() + sectionSeconds(sections[sectionIdxRef.current].section, true, config.length) * 1000;
     }
     setPhase('exam');
     window.scrollTo(0, 0);
@@ -162,7 +162,7 @@ export function MockRunner({ sections, config }: { sections: MockSectionSet[]; c
   useEffect(() => {
     enteredAt.current = Date.now();
     if (config.timed) {
-      deadlineRef.current = Date.now() + sectionSeconds(sections[0].section, true) * 1000;
+      deadlineRef.current = Date.now() + sectionSeconds(sections[0].section, true, config.length) * 1000;
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
@@ -239,7 +239,7 @@ export function MockRunner({ sections, config }: { sections: MockSectionSet[]; c
           <h1 className="text-xl font-bold tracking-tight">Section complete</h1>
           <p className="mt-2 text-sm text-muted-foreground">
             Next up: <span className="font-medium text-foreground">{SECTION_LABELS[current.section]}</span> —{' '}
-            {questions.length} questions{config.timed ? `, ${Math.round(sectionSeconds(current.section, true) / 60)} minutes` : ''}.
+            {questions.length} questions{config.timed ? `, ${Math.round(sectionSeconds(current.section, true, config.length) / 60)} minutes` : ''}.
             Take a breath; the clock starts when you begin.
           </p>
           <p className="mt-1 text-xs text-muted-foreground">{answeredInExam} answered so far.</p>

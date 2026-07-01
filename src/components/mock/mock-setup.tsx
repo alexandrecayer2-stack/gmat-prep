@@ -4,9 +4,10 @@ import { useState } from 'react';
 import { useRouter } from 'next/navigation';
 import { ArrowRight, ChevronDown, Clock } from 'lucide-react';
 import type { Section } from '@/lib/domain/types';
-import { SECTION_LABELS, SECTION_MINUTES, SECTION_QUESTION_COUNT } from '@/lib/domain/constants';
+import { SECTION_LABELS, SECTION_QUESTION_COUNT } from '@/lib/domain/constants';
 import {
   MOCK_DIFFICULTY_LABELS,
+  sectionSeconds,
   serializeMockConfig,
   targetCount,
   type MockConfig,
@@ -50,9 +51,8 @@ export function MockSetup({
     timed,
   };
 
-  const totalMinutes = config.sections.reduce(
-    (n, s) => n + (timed ? SECTION_MINUTES[s] : 0),
-    0,
+  const totalMinutes = Math.round(
+    config.sections.reduce((n, s) => n + sectionSeconds(s, timed, length), 0) / 60,
   );
   const totalQuestions = config.sections.reduce(
     (n, s) => n + Math.min(targetCount(s, length), counts[s] ?? 0),
@@ -107,7 +107,7 @@ export function MockSetup({
               </div>
               <div className="mt-1 flex items-center gap-1 text-xs text-muted-foreground">
                 <Clock className="size-3" />
-                {SECTION_MINUTES[s]} min
+                {Math.round(sectionSeconds(s, true, length) / 60)} min
                 {!enough && available > 0 && (
                   <span className="ml-1 text-warning">({available} available)</span>
                 )}
@@ -253,7 +253,7 @@ export function MockSetup({
                   )}
                 >
                   <Clock className="mr-1 inline size-3.5" />
-                  Timed · 45 min / section
+                  Timed · real GMAT pace
                 </button>
                 <button
                   type="button"

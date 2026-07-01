@@ -41,9 +41,19 @@ export function targetCount(section: Section, length: MockLength): number {
   return length === 'full' ? SECTION_QUESTION_COUNT[section] : MOCK_SHORT_COUNT;
 }
 
-/** Section time budget in seconds (0 when untimed). */
-export function sectionSeconds(section: Section, timed: boolean): number {
-  return timed ? SECTION_MINUTES[section] * 60 : 0;
+/** Section time budget in seconds (0 when untimed). A "short" section keeps the
+ *  real GMAT per-question pace, so 10 questions get proportionally less time —
+ *  not the full 45 minutes. */
+export function sectionSeconds(
+  section: Section,
+  timed: boolean,
+  length: MockLength = 'full',
+): number {
+  if (!timed) return 0;
+  const fullSeconds = SECTION_MINUTES[section] * 60;
+  if (length === 'full') return fullSeconds;
+  const perQuestion = fullSeconds / SECTION_QUESTION_COUNT[section];
+  return Math.round(perQuestion * MOCK_SHORT_COUNT);
 }
 
 /** Total questions the configured exam will draw (best case; capped by the bank). */
