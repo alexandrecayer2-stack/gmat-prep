@@ -3,7 +3,8 @@
 import { useEffect, useMemo, useState } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
-import { Check, RotateCcw, X, CalendarClock } from 'lucide-react';
+import { Check, ChevronDown, RotateCcw, X, CalendarClock } from 'lucide-react';
+import { ReviewQuestionDetail } from './review-question-detail';
 import { useAuth } from '@/lib/auth/auth-provider';
 import {
   getReviewItems,
@@ -38,6 +39,7 @@ export function ReviewView() {
   const [section, setSection] = useState<SectionFilter>('all');
   const [difficulty, setDifficulty] = useState<DifficultyFilter>('all');
   const [correctness, setCorrectness] = useState<Correctness>('all');
+  const [expandedId, setExpandedId] = useState<string | null>(null);
 
   useEffect(() => {
     if (loading || !user) return;
@@ -204,44 +206,72 @@ export function ReviewView() {
         </Card>
       ) : (
         <ul className="space-y-2">
-          {filtered.map((it) => (
-            <li key={it.questionId}>
-              <Card className="flex items-center gap-3 p-3">
-                <span
-                  className={cn(
-                    'flex size-7 shrink-0 items-center justify-center rounded-full',
-                    it.isCorrect ? 'bg-success/15 text-success' : 'bg-danger/15 text-danger',
-                  )}
-                  aria-label={it.isCorrect ? 'Correct' : 'Missed'}
-                >
-                  {it.isCorrect ? <Check className="size-4" /> : <X className="size-4" />}
-                </span>
-                <div className="min-w-0 flex-1">
-                  <p className="truncate text-sm">{plain(it.stem)}</p>
-                  <div className="mt-0.5 flex flex-wrap items-center gap-1.5 text-xs text-muted-foreground">
-                    <span>{SECTION_SHORT[it.section]}</span>
-                    <span>·</span>
-                    <span>{QUESTION_TYPE_LABELS[it.type]}</span>
-                    <span>·</span>
-                    <span>{DIFFICULTY_LABELS[it.difficulty]}</span>
-                    {it.attempts > 1 && (
-                      <>
+          {filtered.map((it) => {
+            const open = expandedId === it.questionId;
+            return (
+              <li key={it.questionId}>
+                <Card className="overflow-hidden">
+                  <div className="flex items-center gap-3 p-3">
+                    <span
+                      className={cn(
+                        'flex size-7 shrink-0 items-center justify-center rounded-full',
+                        it.isCorrect ? 'bg-success/15 text-success' : 'bg-danger/15 text-danger',
+                      )}
+                      aria-label={it.isCorrect ? 'Correct' : 'Missed'}
+                    >
+                      {it.isCorrect ? <Check className="size-4" /> : <X className="size-4" />}
+                    </span>
+                    <button
+                      type="button"
+                      onClick={() => setExpandedId(open ? null : it.questionId)}
+                      aria-expanded={open}
+                      className="min-w-0 flex-1 text-left"
+                    >
+                      <p className={cn('text-sm', !open && 'truncate')}>{plain(it.stem)}</p>
+                      <div className="mt-0.5 flex flex-wrap items-center gap-1.5 text-xs text-muted-foreground">
+                        <span>{SECTION_SHORT[it.section]}</span>
                         <span>·</span>
-                        <span>{it.attempts} attempts</span>
-                      </>
-                    )}
+                        <span>{QUESTION_TYPE_LABELS[it.type]}</span>
+                        <span>·</span>
+                        <span>{DIFFICULTY_LABELS[it.difficulty]}</span>
+                        {it.attempts > 1 && (
+                          <>
+                            <span>·</span>
+                            <span>{it.attempts} attempts</span>
+                          </>
+                        )}
+                        <span>·</span>
+                        <span className="text-primary">{open ? 'Hide' : 'Review'}</span>
+                      </div>
+                    </button>
+                    <ChevronDown
+                      className={cn(
+                        'size-4 shrink-0 text-muted-foreground transition-transform',
+                        open && 'rotate-180',
+                      )}
+                      aria-hidden="true"
+                    />
+                    <button
+                      type="button"
+                      onClick={() => redo([it.questionId])}
+                      className="shrink-0 rounded-md border border-border px-2.5 py-1.5 text-xs font-medium text-muted-foreground transition-colors hover:bg-muted hover:text-foreground"
+                    >
+                      Redo
+                    </button>
                   </div>
-                </div>
-                <button
-                  type="button"
-                  onClick={() => redo([it.questionId])}
-                  className="shrink-0 rounded-md border border-border px-2.5 py-1.5 text-xs font-medium text-muted-foreground transition-colors hover:bg-muted hover:text-foreground"
-                >
-                  Redo
-                </button>
-              </Card>
-            </li>
-          ))}
+                  {open && (
+                    <div className="border-t border-border p-4">
+                      <ReviewQuestionDetail
+                        questionId={it.questionId}
+                        selectedAnswer={it.selectedAnswer}
+                        isCorrect={it.isCorrect}
+                      />
+                    </div>
+                  )}
+                </Card>
+              </li>
+            );
+          })}
         </ul>
       )}
     </div>

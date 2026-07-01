@@ -1,5 +1,13 @@
 import type { SupabaseClient } from '@supabase/supabase-js';
-import type { AttemptContext, Difficulty, QuestionType, Section, SelectedAnswer } from '@/lib/domain/types';
+import type {
+  AttemptContext,
+  Difficulty,
+  QuestionGroup,
+  QuestionType,
+  QuestionWithGroup,
+  Section,
+  SelectedAnswer,
+} from '@/lib/domain/types';
 import {
   estimateDiagnostic,
   recencyWeight,
@@ -7,6 +15,7 @@ import {
   type GradedItem,
 } from '@/lib/domain/scoring';
 import { dueAtMs, leitnerBox } from '@/lib/domain/spaced-repetition';
+import { mapGroup, mapQuestion, type GroupRow, type QuestionRow } from './mappers';
 
 export interface RecordAttemptInput {
   userId: string;
@@ -44,13 +53,18 @@ export interface ReviewItem {
   topic: string;
   stem: string;
   isCorrect: boolean; // correctness of the most recent attempt
+  selectedAnswer: SelectedAnswer; // the answer chosen on the most recent attempt
   attempts: number;
+  wrongCount: number; // how many attempts were incorrect (for "most missed" sort)
+  context: string; // context of the most recent attempt (practice / mock / diagnostic)
   lastSeen: string; // ISO timestamp of the latest attempt
 }
 
 interface AttemptReviewRow {
   question_id: string;
   is_correct: boolean;
+  selected_answer: SelectedAnswer;
+  context: string;
   created_at: string;
   questions: (QuestionMeta & { stem: string }) | null;
 }
@@ -63,7 +77,7 @@ interface AttemptReviewRow {
 export async function getReviewItems(supabase: SupabaseClient, userId: string): Promise<ReviewItem[]> {
   const { data, error } = await supabase
     .from('attempts')
-    .select('question_id, is_correct, created_at, questions(section, topic, difficulty, type, stem)')
+    .select('question_id, is_correct, selected_answer, context, created_at, questions(section, topic, difficulty, type, stem)')
     .eq('user_id', userId)
     .order('created_at', { ascending: false });
   if (error) throw new Error(error.message);
@@ -74,8 +88,11 @@ export async function getReviewItems(supabase: SupabaseClient, userId: string): 
     if (!q) continue;
     const existing = byQuestion.get(row.question_id);
     if (existing) {
+      // Rows are newest-first, so the first seen is the latest attempt; later
+      // rows only add to the aggregate counters.
       existing.attempts += 1;
-      continue; // rows are newest-first, so the first seen is the latest attempt
+      if (!row.is_correct) existing.wrongCount += 1;
+      continue;
     }
     byQuestion.set(row.question_id, {
       questionId: row.question_id,
@@ -85,11 +102,39 @@ export async function getReviewItems(supabase: SupabaseClient, userId: string): 
       topic: q.topic,
       stem: q.stem,
       isCorrect: row.is_correct,
+      selectedAnswer: row.selected_answer,
       attempts: 1,
+      wrongCount: row.is_correct ? 0 : 1,
+      context: row.context ?? 'practice',
       lastSeen: row.created_at ?? '',
     });
   }
   return [...byQuestion.values()];
+}
+
+/**
+ * Fetch one question (with its group/passage, if any) for inline review, using
+ * the client Supabase. Kept here — not in content.ts — so it can be called from
+ * the client Review component. Returns null if the question is gone.
+ */
+export async function getReviewQuestion(
+  supabase: SupabaseClient,
+  questionId: string,
+): Promise<QuestionWithGroup | null> {
+  const { data, error } = await supabase.from('questions').select('*').eq('id', questionId).maybeSingle();
+  if (error) throw new Error(error.message);
+  if (!data) return null;
+  const question = mapQuestion(data as unknown as QuestionRow);
+  let group: QuestionGroup | null = null;
+  if (question.groupId) {
+    const { data: g } = await supabase
+      .from('question_groups')
+      .select('*')
+      .eq('id', question.groupId)
+      .maybeSingle();
+    if (g) group = mapGroup(g as unknown as GroupRow);
+  }
+  return { ...question, group };
 }
 
 export interface ReviewQueueItem {

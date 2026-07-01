@@ -5,6 +5,7 @@ import rehypeKatex from 'rehype-katex';
 import { isValidElement, type ReactNode } from 'react';
 import { AlertTriangle, Compass, Lightbulb, Target, Zap, type LucideIcon } from 'lucide-react';
 import { cn } from '@/lib/utils';
+import { preprocessMd } from '@/lib/markdown-preprocess';
 
 type CalloutKind = 'example' | 'trap' | 'strategy' | 'shortcut' | 'rule';
 
@@ -109,7 +110,7 @@ export function Markdown({ children, className }: { children: string; className?
         rehypePlugins={[rehypeKatex]}
         components={components}
       >
-        {children}
+        {preprocessMd(children)}
       </ReactMarkdown>
     </div>
   );
@@ -130,7 +131,7 @@ export function InlineMarkdown({ children }: { children: string }) {
       rehypePlugins={[rehypeKatex]}
       components={inlineComponents}
     >
-      {children}
+      {preprocessMd(children)}
     </ReactMarkdown>
   );
 }
