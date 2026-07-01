@@ -247,7 +247,7 @@
   {
     "id": "lesson-probability-counting",
     "chapterId": "ch-quant-advanced",
-    "title": "Probability & Counting",
+    "title": "Combinatorics: Permutations & Combinations",
     "orderIndex": 5,
     "exerciseIds": [
       "qd-quant-14",
@@ -261,9 +261,49 @@
   {
     "id": "lesson-rc-inference",
     "chapterId": "ch-verbal-rc",
-    "title": "Inference & Author's Attitude",
+    "title": "Author's Attitude & Tone",
     "orderIndex": 4,
     "exerciseIds": [],
     "body": "## What \"inference\" means on the GMAT\n\nA GMAT inference is **not** a prediction or a leap. The correct answer to an inference question is something that *must be true* given the passage — often a rephrasing of stated ideas, or a small, safe combination of two sentences.\n\nIf proving a choice requires *any* outside assumption, it is wrong.\n\n## The must-be-true test\n\nFor each choice, ask: **\"Could this be false while everything in the passage stays true?\"**\n\n- If yes → eliminate it.\n- If no → it is supported.\n\n**Example.** If the passage says \"every documented case occurred in coastal regions,\" you *can* infer \"no documented case occurred inland.\" You *cannot* infer \"coastal regions are more dangerous\" — that adds a causal claim the passage never made.\n\n## Common wrong-answer traps\n\n| Trap | Why it's wrong |\n|------|----------------|\n| Too strong | Uses *all*, *never*, *must* where the passage said *some*, *often*, *may* |\n| Out of scope | Introduces a topic the passage never addressed |\n| Half-right | One clause matches the passage; another contradicts it |\n| Reversed | Swaps cause and effect, or subject and object |\n\nExtreme wording is the most reliable elimination signal — the safest inferences are usually the *mildest* choices.\n\n## Author's attitude and tone\n\nSome questions ask how the author *feels* about the subject. Anchor to the passage's **evaluative language** — adjectives, adverbs, and contrast words (\"unfortunately,\" \"remarkably,\" \"so-called,\" \"however\").\n\n- Most GMAT authors are **measured**: \"cautiously optimistic,\" \"qualified support,\" \"skeptical but open.\"\n- Choices with strong emotion — \"outraged,\" \"dismissive,\" \"enthusiastic\" — are usually too extreme unless the passage is openly forceful.\n\n**Example.** A passage that presents a theory, reviews its evidence, then adds \"yet several findings remain unexplained\" signals a *qualified* or *critical-but-fair* attitude — not wholesale endorsement or rejection.\n\n## Strategy\n\n1. Answer inference questions **from the text**, not from prior knowledge of the topic.\n2. Prefer the mildest, most hedged choice; distrust *all / never / only*.\n3. For tone, find the author's own evaluative words and match their intensity — no more, no less."
+  },
+  {
+    "id": "lesson-cr-evaluate-boldface",
+    "chapterId": "ch-verbal-cr",
+    "title": "Evaluate, Boldface & Complete-the-Argument",
+    "orderIndex": 5,
+    "exerciseIds": [
+      "qd-cr-07",
+      "qd-cr-04",
+      "qd-cr-05",
+      "qd-cr-01"
+    ],
+    "body": "Beyond the core CR types lie three that trip up even strong test-takers. Each has a reliable method.\n\n## Evaluate the argument\n\nThe question asks which piece of information would be **most useful in judging** the argument. The answer is a question (or fact) whose two possible answers pull the argument in **opposite directions**.\n\n**The variance test.** For a candidate answer, imagine its two extremes:\n\n- If \"yes\" *strengthens* and \"no\" *weakens* → it's relevant. Keep it.\n- If both answers leave the argument unchanged → irrelevant. Eliminate.\n\n**Example.** Argument: \"Sales rose after we cut prices, so the price cut caused the rise.\" A useful evaluation question: *Did a competitor also change prices that month?* — because \"yes\" undermines the causal claim and \"no\" supports it.\n\n## Boldface (describe-the-role)\n\nTwo portions of the passage are in **bold**, and you must identify the *role each plays*. Do not re-judge the argument — just label the structural function.\n\nWork in two steps:\n\n1. Find the author's **main conclusion**. Is each bold part the conclusion, a premise for it, or a claim the author *argues against*?\n2. Match roles to the answer choices' abstract language (\"evidence supporting the conclusion,\" \"a position the argument opposes\").\n\nThe most common trap is a choice that reverses the two roles, so pin down *which* bold statement the author actually endorses.\n\n## Complete the argument\n\nThe passage ends with a blank after a keyword — usually **\"because,\" \"since,\" \"therefore,\"** or **\"however.\"** The blank is filled by whatever logically follows that connector.\n\n- After **because/since** → supply a *premise* (a reason).\n- After **therefore/thus** → supply the *conclusion*.\n- After **however/yet** → supply a contrast that cuts against the prior sentence.\n\nRead the keyword first; it tells you the logical job the missing piece must do.\n\n## Strategy\n\n1. **Evaluate:** test each choice with \"if yes / if no\" — the right one swings the argument both ways.\n2. **Boldface:** find the conclusion first, then label roles; watch for reversed pairs.\n3. **Complete:** obey the connecting word right before the blank."
+  },
+  {
+    "id": "lesson-ds-traps",
+    "chapterId": "ch-di-ds",
+    "title": "Common DS Traps: the C-Trap & Assumptions",
+    "orderIndex": 5,
+    "exerciseIds": [
+      "qd-ds-02",
+      "qd-ds-01",
+      "qd-ds-04",
+      "qd-ds-07"
+    ],
+    "body": "Data Sufficiency rewards discipline. Most missed DS questions come from a handful of predictable traps — know them and your accuracy jumps.\n\n## The C-Trap\n\nThe two statements *feel* incomplete alone but *obviously* work together, so **(C)** looks safe. That \"obvious\" feeling is the bait: the test writers designed one statement to be sufficient on its own.\n\n**Rule.** Before ever choosing (C), prove that **each** statement *fails* alone. If you can't build a concrete counterexample for a statement, it may actually be sufficient.\n\n**Example.** \"Is $x > 0$? (1) $x^2 = 9$. (2) $x = 3$.\" Statement (2) alone gives $x = 3 > 0$ — sufficient. Falling for \"I need both to be sure\" is the C-trap; the answer is (B)... check (1): $x = \\pm 3$, not sufficient. So (B).\n\n## Assuming values that aren't stated\n\nUnless a problem says \"integer,\" \"positive,\" or \"distinct,\" **you may not assume it.** Numbers can be negative, zero, or fractions.\n\n**Example.** \"Is $xy > 0$? (1) $x^2 y > 0$.\" Tempting to say yes, but if $x$ is negative and $y$ positive, $x^2 y > 0$ while $xy < 0$. Not sufficient — because nothing forced $x > 0$.\n\nThe three values that break the most DS arguments: **$0$, a negative, and a fraction between $0$ and $1$.** Test all three.\n\n## Yes/No sufficiency\n\nFor a yes/no question, a statement is sufficient when it forces a **consistent** answer — *always yes* **or** *always no*. A statement that yields \"sometimes yes, sometimes no\" is **not** sufficient, even though it gave you information.\n\n## Statement carry-over\n\nWhen you test statement (2), **forget statement (1) entirely.** Carrying information from (1) into (2) is a silent, common error that turns a real (A) or (B) into a wrong (D).\n\n## Strategy\n\n1. Never pick (C) until each statement has *failed* alone with a counterexample.\n2. Probe with $0$, a negative, and a fraction before declaring sufficiency.\n3. Reset your brain between statements — (2) stands on its own."
+  },
+  {
+    "id": "lesson-units-remainders",
+    "chapterId": "ch-quant-advanced",
+    "title": "Units Digits & Remainder Cycles",
+    "orderIndex": 6,
+    "exerciseIds": [
+      "qd-quant-05",
+      "qd-quant-18",
+      "qd-quant-25",
+      "qd-quant-26",
+      "g3-quant-06"
+    ],
+    "body": "Questions about the last digit of a huge power, or the remainder of a giant product, look impossible — until you spot the **cycle**. Nothing here requires a calculator.\n\n## Units-digit cycles\n\nThe units digit of $n^k$ depends only on the **units digit of $n$**, and it repeats in a short cycle as $k$ increases:\n\n| Units digit | Cycle of $n^1, n^2, n^3, n^4, \\dots$ | Length |\n|-------------|--------------------------------------|--------|\n| $2$ | $2, 4, 8, 6,\\ 2, 4, \\dots$ | 4 |\n| $3$ | $3, 9, 7, 1,\\ 3, 9, \\dots$ | 4 |\n| $7$ | $7, 9, 3, 1,\\ \\dots$ | 4 |\n| $8$ | $8, 4, 2, 6,\\ \\dots$ | 4 |\n| $0,1,5,6$ | always $0,1,5,6$ | 1 |\n| $4$ | $4, 6, 4, 6$ | 2 |\n| $9$ | $9, 1, 9, 1$ | 2 |\n\n**Method.** To find the units digit of $n^k$, take the units digit of $n$, then use $k \\bmod (\\text{cycle length})$ to pick the right spot in the cycle (a remainder of $0$ means the *last* entry).\n\n**Example.** Units digit of $7^{23}$: the cycle for $7$ has length $4$, and $23 = 4(5) + 3$, so we want the **3rd** entry, which is $3$.\n\n## Remainders\n\nThe remainder when $a$ is divided by $n$ is written $a \\bmod n$. Two facts make hard problems easy:\n\n- **Remainders add and multiply.** $(a \\cdot b) \\bmod n = \\big((a \\bmod n)(b \\bmod n)\\big) \\bmod n$. Reduce *before* multiplying.\n- A number is divisible by $n$ exactly when its remainder is $0$.\n\n**Example.** Remainder of $43 \\times 58$ divided by $5$: $43 \\equiv 3$ and $58 \\equiv 3 \\pmod 5$, so the product $\\equiv 3 \\times 3 = 9 \\equiv 4 \\pmod 5$.\n\n## Even/odd as a special case\n\nParity is just remainder mod $2$. Memorize the outcomes: even $\\pm$ even $=$ even; odd $\\pm$ odd $=$ even; even $\\times$ anything $=$ even; odd $\\times$ odd $=$ odd.\n\n## Strategy\n\n1. For a units digit, find the cycle, then use the exponent mod the cycle length.\n2. For remainders of products, reduce each factor first, then combine.\n3. A remainder of $0$ means divisible — the fast way to test divisibility of big expressions."
   }
 ]
