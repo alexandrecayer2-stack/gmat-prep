@@ -19,11 +19,13 @@
   ✅ hours logged vs. the plan's weekly budget · ✅ dashboard **score trend over time**.
 - *Remaining polish (optional):* periodic check-in prompts; a full attempts-over-time chart on the dashboard beyond the score trend.
 
-### 2. Learn build-out · Priority **Medium** · mostly done
+### 2. Learn build-out · Priority **Medium** · **✅ DONE**
 - ✅ **Surface `distractorRationale`** (shown after answering; backfilled to 100%).
 - ✅ **Search + section filter** on the Learn index (chapter/lesson search).
 - ✅ **Topic-level "practice this topic" deep links** (lesson → topic-filtered session; `?topic=` on the practice route).
-- ⏳ More lesson cards (content authoring); explicit **mark-as-read** for a lesson (needs a small `user_lesson_progress` addition); offline honoring of `?topic=`.
+- ✅ **Mark-as-read** per lesson (toggle + chapter-list checkmark; stored as a sentinel in `passed_exercise_ids`, no schema change).
+- ✅ **More lessons** — bank now **32 lessons** (added Circles/Sectors, Probability & Counting, RC Inference 2026-07-01).
+- *Optional follow-ups:* still more content; offline honoring of `?topic=`.
 
 ### 3. Polish & scale · Priority **Low / ongoing**
 - ✅ **PWA** (installable, offline).
