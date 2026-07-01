@@ -45,6 +45,24 @@ interface Tally {
   correct: number;
 }
 
+/** Recent attempt timestamps (newest first, capped) for computing a study
+ *  streak client-side in the user's local timezone. */
+export async function getAttemptTimestamps(
+  supabase: SupabaseClient,
+  userId: string,
+): Promise<string[]> {
+  const { data, error } = await supabase
+    .from('attempts')
+    .select('created_at')
+    .eq('user_id', userId)
+    .order('created_at', { ascending: false })
+    .limit(1000);
+  if (error) throw new Error(error.message);
+  return ((data ?? []) as { created_at: string | null }[])
+    .map((r) => r.created_at)
+    .filter((x): x is string => !!x);
+}
+
 export interface ReviewItem {
   questionId: string;
   section: Section;
