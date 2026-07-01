@@ -1,6 +1,7 @@
 import { getLearnChapters, getLessonsByChapter } from '@/lib/data/content';
 import type { LearnLesson } from '@/lib/domain/types';
 import { LearnBrowser } from '@/components/learn/learn-browser';
+import { ContinueLearningCard } from '@/components/learn/continue-learning';
 
 export const metadata = { title: 'Learn — GMAT Prep' };
 
@@ -47,6 +48,8 @@ export default async function LearnPage() {
           </div>
         </div>
       </header>
+
+      <ContinueLearningCard />
 
       <LearnBrowser chapters={chapters} lessonsByChapter={lessonsByChapter} />
     </div>

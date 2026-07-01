@@ -14,6 +14,7 @@ import { Markdown } from '@/components/markdown';
 import { LessonExercises } from '@/components/learn/lesson-exercises';
 import { ReadingProgress } from '@/components/learn/reading-progress';
 import { MarkAsReadButton } from '@/components/learn/mark-as-read-button';
+import { TrackLastLesson } from '@/components/learn/continue-learning';
 
 interface Props {
   params: Promise<{ chapterId: string; lessonId: string }>;
@@ -64,6 +65,7 @@ export default async function LessonPage({ params }: Props) {
 
   return (
     <>
+      <TrackLastLesson chapterId={chapterId} lessonId={lessonId} title={lesson.title} />
       <ReadingProgress className={colors.progressBar} />
       <div className="mx-auto max-w-3xl px-4 py-8">
       {/* Breadcrumb */}
