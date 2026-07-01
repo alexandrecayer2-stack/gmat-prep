@@ -10,6 +10,7 @@ import {
 import { DashboardStats } from '@/components/dashboard-stats';
 import { ScoreTrendCard } from '@/components/score-trend-card';
 import { OnboardingCard } from '@/components/onboarding-card';
+import { NextUpCard } from '@/components/next-up-card';
 import { PlanCard } from '@/components/plan/plan-card';
 import { Card } from '@/components/ui/card';
 import { SectionLabel } from '@/components/ui/section-label';
@@ -68,6 +69,8 @@ export default async function Home() {
       </section>
 
       <OnboardingCard />
+
+      <NextUpCard />
 
       <PlanCard />
 
