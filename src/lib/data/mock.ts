@@ -1,7 +1,7 @@
 import type { SupabaseClient } from '@supabase/supabase-js';
 import type { DiagnosticEstimate } from '@/lib/domain/scoring';
 import type { MockConfig } from '@/lib/domain/mock';
-import type { SelectedAnswer } from '@/lib/domain/types';
+import type { Difficulty, QuestionType, Section, SelectedAnswer } from '@/lib/domain/types';
 import { enqueueMockSession, readMockQueue, writeMockQueue } from '@/lib/offline/mock-queue';
 
 export interface MockAttempt {
@@ -70,6 +70,89 @@ export async function saveMockSession(
     return null;
   }
   return insertMockSession(supabase, userId, args);
+}
+
+// ---------------------------------------------------------------------------
+// Reviewing past exams (mocks + diagnostics share the mock_sessions table).
+// ---------------------------------------------------------------------------
+
+export interface ExamSession {
+  id: string;
+  type: 'mock' | 'diagnostic';
+  completedAt: string;
+  total: number;
+  low: number;
+  high: number;
+  perSection: DiagnosticEstimate['perSection'] | Record<string, never>;
+  questionCount: number;
+}
+
+/** Completed exams for a user (mock exams and diagnostics), newest first. */
+export async function getExamSessions(supabase: SupabaseClient, userId: string): Promise<ExamSession[]> {
+  const { data, error } = await supabase
+    .from('mock_sessions')
+    .select('id, config, scores, completed_at')
+    .eq('user_id', userId)
+    .order('completed_at', { ascending: false });
+  if (error) throw new Error(error.message);
+  return (
+    (data ?? []) as {
+      id: string;
+      config: { type?: string; questionCount?: number } | null;
+      scores: DiagnosticEstimate | null;
+      completed_at: string | null;
+    }[]
+  ).map((r) => ({
+    id: r.id,
+    type: r.config?.type === 'diagnostic' ? 'diagnostic' : 'mock',
+    completedAt: r.completed_at ?? '',
+    total: r.scores?.total ?? 0,
+    low: r.scores?.low ?? 0,
+    high: r.scores?.high ?? 0,
+    perSection: r.scores?.perSection ?? {},
+    questionCount: r.config?.questionCount ?? 0,
+  }));
+}
+
+export interface ExamAttemptItem {
+  questionId: string;
+  section: Section;
+  type: QuestionType;
+  difficulty: Difficulty;
+  stem: string;
+  selectedAnswer: SelectedAnswer;
+  isCorrect: boolean;
+}
+
+/** The per-question attempts for one exam session, in the order taken. */
+export async function getExamAttempts(
+  supabase: SupabaseClient,
+  sessionId: string,
+): Promise<ExamAttemptItem[]> {
+  const { data, error } = await supabase
+    .from('attempts')
+    .select('question_id, is_correct, selected_answer, created_at, questions(section, type, difficulty, stem)')
+    .eq('mock_session_id', sessionId)
+    .order('created_at', { ascending: true });
+  if (error) throw new Error(error.message);
+  return (
+    (data ?? []) as unknown as {
+      question_id: string;
+      is_correct: boolean;
+      selected_answer: SelectedAnswer;
+      questions: { section: Section; type: QuestionType; difficulty: Difficulty; stem: string } | null;
+    }[]
+  )
+    .filter((r) => r.questions)
+    .map((r) => ({
+      questionId: r.question_id,
+      section: r.questions!.section,
+      type: r.questions!.type,
+      difficulty: r.questions!.difficulty,
+      stem: r.questions!.stem,
+      selectedAnswer: r.selected_answer,
+      isCorrect: r.is_correct,
+    }));
 }
 
 let flushingMocks = false;

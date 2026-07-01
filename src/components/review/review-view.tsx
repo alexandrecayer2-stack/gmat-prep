@@ -6,6 +6,7 @@ import { useRouter } from 'next/navigation';
 import { Check, ChevronDown, RotateCcw, Search, X, CalendarClock } from 'lucide-react';
 import { ReviewQuestionDetail } from './review-question-detail';
 import { ReviewAnalytics } from './review-analytics';
+import { PastExams } from './past-exams';
 import { useAuth } from '@/lib/auth/auth-provider';
 import {
   getReviewItems,
@@ -205,6 +206,9 @@ export function ReviewView() {
 
       {/* Performance analytics */}
       <ReviewAnalytics items={items} />
+
+      {/* Past mock exams & diagnostics */}
+      <PastExams />
 
       {/* Search */}
       <div className="relative mb-4">
