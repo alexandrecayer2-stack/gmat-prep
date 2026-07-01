@@ -6,40 +6,42 @@ import { Sparkles } from 'lucide-react';
 import { useAuth } from '@/lib/auth/auth-provider';
 import { getActivePlan, type SavedPlan } from '@/lib/data/plans';
 import { PlanView } from './plan-view';
+import { PlanProgressCard } from './plan-progress-card';
 
 export function PlanPageContent() {
   const { user, loading, supabase } = useAuth();
   const [plan, setPlan] = useState<SavedPlan | null>(null);
-  const [busy, setBusy] = useState(true);
+  const [loaded, setLoaded] = useState(false);
   const [error, setError] = useState(false);
   const [reloadKey, setReloadKey] = useState(0);
 
   useEffect(() => {
-    if (loading) return;
-    if (!user) {
-      setBusy(false);
-      return;
-    }
+    if (loading || !user) return;
     let active = true;
     getActivePlan(supabase, user.id)
       .then((p) => {
         if (active) {
           setPlan(p);
-          setError(false);
-          setBusy(false);
+          setLoaded(true);
         }
       })
       .catch((e) => {
         console.error('Failed to load plan:', e);
-        if (active) {
-          setError(true);
-          setBusy(false);
-        }
+        if (active) setError(true);
       });
     return () => {
       active = false;
     };
   }, [user, loading, supabase, reloadKey]);
+
+  // Derived so the effect never calls setState synchronously.
+  const busy = loading || (!!user && !loaded && !error);
+
+  function retry() {
+    setLoaded(false);
+    setError(false);
+    setReloadKey((k) => k + 1);
+  }
 
   if (busy) {
     return (
@@ -56,7 +58,7 @@ export function PlanPageContent() {
           <p className="text-sm">Couldn&apos;t load your study plan.</p>
           <button
             type="button"
-            onClick={() => setReloadKey((k) => k + 1)}
+            onClick={retry}
             className="mt-3 inline-flex items-center rounded-lg border border-border bg-card px-4 py-2 text-sm font-medium hover:bg-muted"
           >
             Try again
@@ -92,6 +94,7 @@ export function PlanPageContent() {
           Retake diagnostic →
         </Link>
       </div>
+      <PlanProgressCard plan={plan} />
       <PlanView
         plan={plan.plan}
         predicted={{ total: plan.predictedTotal, low: plan.predictedLow, high: plan.predictedHigh }}
