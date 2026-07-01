@@ -9,6 +9,7 @@ import {
 } from '@/lib/domain/constants';
 import { DashboardStats } from '@/components/dashboard-stats';
 import { ScoreTrendCard } from '@/components/score-trend-card';
+import { OnboardingCard } from '@/components/onboarding-card';
 import { PlanCard } from '@/components/plan/plan-card';
 import { Card } from '@/components/ui/card';
 import { SectionLabel } from '@/components/ui/section-label';
@@ -65,6 +66,8 @@ export default async function Home() {
           </div>
         </dl>
       </section>
+
+      <OnboardingCard />
 
       <PlanCard />
 
