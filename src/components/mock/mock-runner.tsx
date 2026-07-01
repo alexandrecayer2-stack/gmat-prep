@@ -29,6 +29,7 @@ import { cn, formatTime } from '@/lib/utils';
 import { Markdown } from '@/components/markdown';
 import { QuestionPrompt } from '@/components/practice/question-prompt';
 import { AnswerInputs } from '@/components/practice/answer-inputs';
+import { TypeBreakdownCard } from '@/components/type-breakdown-card';
 import { Card } from '@/components/ui/card';
 import { SectionLabel } from '@/components/ui/section-label';
 import { CountUpNumber } from '@/components/ui/accuracy-ring';
@@ -105,6 +106,7 @@ export function MockRunner({ sections, config }: { sections: MockSectionSet[]; c
       section: g.question.section,
       difficulty: g.question.difficulty,
       isCorrect: g.isCorrect,
+      type: g.question.type,
       topic: g.question.topic,
     }));
     const est = estimateDiagnostic(items);
@@ -571,6 +573,8 @@ function MockResults({
           );
         })}
       </div>
+
+      <TypeBreakdownCard estimate={estimate} />
 
       <div className="flex items-center justify-between">
         <h2 className="text-lg font-semibold">Question review</h2>
