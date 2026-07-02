@@ -38,6 +38,7 @@ export const funnel = {
     track('diagnostic_completed', p),
   planGenerated: (p: { target: number }) => track('plan_generated', p),
   leadCaptured: () => track('lead_captured'),
+  scoreShared: () => track('score_shared'),
   practiceStarted: (section?: string) => track('practice_started', { section }),
   mockStarted: () => track('mock_started'),
 };

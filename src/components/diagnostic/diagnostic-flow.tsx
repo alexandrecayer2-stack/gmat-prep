@@ -16,6 +16,7 @@ import { funnel } from '@/lib/analytics';
 import { type DiagnosticResult } from './diagnostic-runner';
 import { AdaptiveDiagnosticRunner } from './adaptive-diagnostic-runner';
 import { SaveResultsCard } from './save-results-card';
+import { ShareScoreButton } from './share-score-button';
 import { PlanView } from '@/components/plan/plan-view';
 import { TypeBreakdownCard } from '@/components/type-breakdown-card';
 import { Card } from '@/components/ui/card';
@@ -166,7 +167,7 @@ export function DiagnosticFlow({ questions }: { questions: QuestionWithGroup[] }
   if (step === 'intro') {
     return (
       <div className="mx-auto max-w-2xl px-4 py-10">
-        <div className="animate-fade-in-up rounded-2xl border border-border bg-card p-6 text-center sm:p-8">
+        <div className="animate-fade-in-up elev rounded-xl border border-border bg-card p-6 text-center sm:p-8">
           <div className="mx-auto flex size-12 items-center justify-center rounded-full bg-accent text-accent-foreground">
             <Sparkles className="size-6" />
           </div>
@@ -213,6 +214,7 @@ export function DiagnosticFlow({ questions }: { questions: QuestionWithGroup[] }
           <div className="mt-1 text-sm text-muted-foreground">
             likely range {estimate.low}–{estimate.high} · based on {estimate.questionCount} questions
           </div>
+          <ShareScoreButton score={estimate.total} />
         </Card>
 
         <div className="grid gap-3 sm:grid-cols-3">
