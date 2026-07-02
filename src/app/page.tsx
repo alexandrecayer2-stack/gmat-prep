@@ -17,6 +17,31 @@ import { Card } from '@/components/ui/card';
 import { SectionLabel } from '@/components/ui/section-label';
 import { SECTION_ICONS } from '@/components/ui/section-icons';
 import { getSectionCounts } from '@/lib/data/content';
+import { getActivePlan } from '@/lib/data/plans';
+import { getAttemptTimestamps } from '@/lib/data/attempts';
+import { createClient } from '@/lib/supabase/server';
+import { MarketingLanding } from '@/components/marketing-landing';
+
+// A visitor is "engaged" once they've taken the diagnostic (→ study plan) or
+// answered any practice/mock question. Cold visitors see the marketing landing
+// instead of an empty dashboard. On any error we fall back to the dashboard so
+// the home page never 500s and real users are never shown marketing by mistake.
+async function hasEngaged(): Promise<boolean> {
+  try {
+    const supabase = await createClient();
+    const {
+      data: { user },
+    } = await supabase.auth.getUser();
+    if (!user) return false;
+    const [plan, attemptTimes] = await Promise.all([
+      getActivePlan(supabase, user.id),
+      getAttemptTimestamps(supabase, user.id),
+    ]);
+    return Boolean(plan) || attemptTimes.length > 0;
+  } catch {
+    return true;
+  }
+}
 
 export default async function Home() {
   // Derive the headline count from the live bank so it can never drift from
@@ -24,6 +49,11 @@ export default async function Home() {
   const counts = await getSectionCounts();
   const total = SECTIONS.reduce((sum, s) => sum + (counts[s] ?? 0), 0);
   const totalLabel = total > 0 ? `${(Math.floor(total / 100) * 100).toLocaleString()}+` : '1,000+';
+
+  // Cold visitors get the marketing landing; returning users get their dashboard.
+  if (!(await hasEngaged())) {
+    return <MarketingLanding totalLabel={totalLabel} />;
+  }
 
   return (
     <div className="mx-auto max-w-5xl space-y-10 px-4 py-8">
