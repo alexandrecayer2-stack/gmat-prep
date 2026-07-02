@@ -45,12 +45,12 @@ export function TypeBreakdownCard({ estimate }: { estimate: DiagnosticEstimate }
                     </span>
                     <span className="w-16 shrink-0 text-right">
                       {tag === 'strong' && (
-                        <span className="rounded-full bg-emerald-500/15 px-2 py-0.5 text-xs font-medium text-emerald-700 dark:text-emerald-400">
+                        <span className="rounded-full bg-success/15 px-2 py-0.5 text-xs font-medium text-success">
                           Strong
                         </span>
                       )}
                       {tag === 'weak' && (
-                        <span className="rounded-full bg-amber-500/15 px-2 py-0.5 text-xs font-medium text-amber-700 dark:text-amber-500">
+                        <span className="rounded-full bg-warning/15 px-2 py-0.5 text-xs font-medium text-warning">
                           Focus
                         </span>
                       )}

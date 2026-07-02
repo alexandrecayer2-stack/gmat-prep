@@ -72,7 +72,7 @@ export function PlanView({
         <SectionLabel className="mb-2">Where to focus · {plan.weeklyHours} h/week</SectionLabel>
         <div className="grid gap-3 sm:grid-cols-3">
           {plan.sectionFocus.map((f) => (
-            <Card key={f.section} className="flex flex-col p-4">
+            <Card key={f.section} className="card-hover flex flex-col p-4">
               <div className="flex items-center justify-between gap-2">
                 <h3 className="font-medium">{f.label}</h3>
                 <span

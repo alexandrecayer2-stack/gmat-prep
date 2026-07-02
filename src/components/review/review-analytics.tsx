@@ -114,7 +114,7 @@ function AccuracyBar({ label, tally, barClass }: { label: string; tally?: Tally;
     <div>
       <div className="mb-1 flex justify-between text-xs">
         <span className="truncate">{label}</span>
-        <span className="shrink-0 text-muted-foreground">
+        <span className="shrink-0 tabular-nums text-muted-foreground">
           {pct === null ? '—' : `${pct}% (${tally!.correct}/${tally!.total})`}
         </span>
       </div>

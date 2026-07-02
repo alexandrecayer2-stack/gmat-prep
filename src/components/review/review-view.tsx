@@ -182,7 +182,7 @@ export function ReviewView() {
 
       {/* Spaced repetition — questions due for review today */}
       {dueIds.length > 0 && (
-        <div className="mb-6 flex flex-wrap items-center justify-between gap-3 rounded-xl border border-primary/30 bg-accent/40 p-4">
+        <div className="mb-6 flex flex-wrap items-center justify-between gap-3 rounded-xl border border-primary/30 bg-accent/30 p-4">
           <div className="flex items-center gap-3">
             <CalendarClock className="size-6 shrink-0 text-primary" />
             <div>
@@ -197,7 +197,7 @@ export function ReviewView() {
           <button
             type="button"
             onClick={() => redo(dueIds)}
-            className="bg-brand inline-flex items-center gap-1.5 rounded-lg px-4 py-2 text-sm font-medium text-white shadow-sm transition-transform hover:-translate-y-0.5"
+            className="btn-brand inline-flex items-center gap-1.5 rounded-lg px-4 py-2 text-sm font-medium"
           >
             <RotateCcw className="size-4" /> Start review
           </button>
@@ -303,7 +303,7 @@ export function ReviewView() {
             const open = expandedId === it.questionId;
             return (
               <li key={it.questionId}>
-                <Card className="overflow-hidden">
+                <Card className="card-hover overflow-hidden">
                   <div className="flex items-center gap-3 p-3">
                     <span
                       className={cn(
@@ -414,7 +414,7 @@ function Empty({ title, body, cta }: { title: string; body: string; cta?: boolea
       {cta && (
         <Link
           href="/practice"
-          className="mt-5 inline-block rounded-lg bg-primary px-4 py-2 text-sm font-medium text-primary-foreground hover:opacity-90"
+          className="btn-brand mt-5 inline-flex items-center rounded-lg px-4 py-2 text-sm font-medium"
         >
           Go to Practice
         </Link>

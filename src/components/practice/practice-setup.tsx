@@ -100,7 +100,7 @@ export function PracticeSetup({
                 type="button"
                 onClick={() => pickSection(s)}
                 className={cn(
-                  'rounded-xl border p-4 text-left transition-colors',
+                  'card-hover rounded-xl border p-4 text-left',
                   section === s
                     ? 'border-primary bg-accent'
                     : 'border-border hover:border-primary/50 hover:bg-muted/50',
@@ -120,7 +120,7 @@ export function PracticeSetup({
       </section>
 
       {section && (
-        <section>
+        <section className="animate-fade-in-up">
           <SectionLabel className="mb-2">2 · Question types</SectionLabel>
           <div className="flex flex-wrap gap-2">
             {SECTION_TYPES[section].map((t) => {
@@ -147,7 +147,7 @@ export function PracticeSetup({
       )}
 
       {section && (
-        <section>
+        <section className="animate-fade-in-up">
           <SectionLabel className="mb-2">3 · Difficulty</SectionLabel>
           <div className="flex flex-wrap gap-2">
             <DiffButton
@@ -170,7 +170,7 @@ export function PracticeSetup({
       )}
 
       {section && (
-        <section>
+        <section className="animate-fade-in-up">
           <SectionLabel className="mb-2">4 · Number of questions</SectionLabel>
           <div className="flex flex-wrap gap-2">
             {[5, 10, 20, 40].map((n) => (

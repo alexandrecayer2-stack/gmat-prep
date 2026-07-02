@@ -26,8 +26,8 @@ export function StreakIndicator() {
   if (!state || state.streak < 1) return null;
 
   return (
-    <div className="flex items-center gap-3 rounded-xl border border-border bg-card px-4 py-2.5">
-      <Flame className="size-5 shrink-0 text-orange-500" />
+    <div className="animate-fade-in-up flex items-center gap-3 rounded-xl border border-border bg-card px-4 py-2.5">
+      <Flame className="size-5 shrink-0 text-gold" />
       <div className="min-w-0 flex-1">
         <span className="font-semibold tabular-nums">{state.streak}-day streak</span>
         <span className="ml-2 text-sm text-muted-foreground">
@@ -38,7 +38,7 @@ export function StreakIndicator() {
         {state.last7.map((on, i) => (
           <span
             key={i}
-            className={cn('size-2 rounded-full', on ? 'bg-orange-500' : 'bg-muted')}
+            className={cn('size-2 rounded-full', on ? 'bg-gold' : 'bg-muted')}
           />
         ))}
       </div>

@@ -235,7 +235,7 @@ export function MockRunner({ sections, config }: { sections: MockSectionSet[]; c
       .filter((qq) => isAnswerComplete(qq.correctAnswer, answers[qq.id])).length;
     return (
       <div className="mx-auto max-w-xl px-4 py-16 text-center">
-        <div className="rounded-2xl border border-border bg-card p-8">
+        <div className="rounded-xl border border-border bg-card elev p-8">
           <h1 className="text-xl font-bold tracking-tight">Section complete</h1>
           <p className="mt-2 text-sm text-muted-foreground">
             Next up: <span className="font-medium text-foreground">{SECTION_LABELS[current.section]}</span> —{' '}
@@ -246,7 +246,7 @@ export function MockRunner({ sections, config }: { sections: MockSectionSet[]; c
           <button
             type="button"
             onClick={beginSection}
-            className="mt-6 inline-flex items-center gap-1 rounded-lg bg-primary px-5 py-2.5 font-medium text-primary-foreground hover:opacity-90"
+            className="btn-brand mt-6 inline-flex items-center gap-1 rounded-lg px-5 py-2.5 font-medium"
           >
             Begin section <ChevronRight className="size-4" />
           </button>
@@ -549,7 +549,7 @@ function MockResults({
         )}
       </Card>
 
-      <div className="grid gap-3 sm:grid-cols-3">
+      <div className="animate-fade-in-up stagger-1 grid gap-3 sm:grid-cols-3">
         {sections.map((s) => {
           const r = estimate.perSection[s];
           const colors = SECTION_COLORS[s];

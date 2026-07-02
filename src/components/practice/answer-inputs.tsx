@@ -113,7 +113,7 @@ function Dropdowns({ question, selected, onChange, revealed }: AnswerInputsProps
                 onChange({ format: 'dropdowns', value: { ...vals, [b.key]: e.target.value } })
               }
               className={cn(
-                'mx-1 rounded-md border bg-card px-2 py-1 text-sm',
+                'mx-1 rounded-md border bg-card px-2 py-1 text-sm transition-colors',
                 revealed
                   ? right
                     ? 'border-success text-success'

@@ -41,7 +41,7 @@ export default async function ChapterPage({ params }: Props) {
       </nav>
 
       {/* Chapter hero */}
-      <div className={`animate-fade-in-up mb-8 rounded-2xl border p-6 ${colors.bg} ${colors.border}`}>
+      <div className={`animate-fade-in-up elev mb-8 rounded-2xl border p-6 ${colors.bg} ${colors.border}`}>
         <div className="mb-4 flex items-center gap-2.5">
           <span
             className={`flex size-9 items-center justify-center rounded-xl bg-background/60 ${colors.text}`}
@@ -54,7 +54,7 @@ export default async function ChapterPage({ params }: Props) {
             {SECTION_LABELS[chapter.section]}
           </span>
         </div>
-        <h1 className="mb-2 text-2xl font-bold tracking-tight">{chapter.title}</h1>
+        <h1 className="mb-2 font-heading text-2xl font-bold tracking-tight">{chapter.title}</h1>
         {chapter.description && (
           <p className="mb-4 text-muted-foreground">{chapter.description}</p>
         )}

@@ -54,12 +54,12 @@ export function DashboardStats() {
   }, [user, loading, supabase, reloadKey]);
 
   if (busy) {
-    return <div className="h-32 animate-pulse rounded-xl border border-border bg-muted/40" />;
+    return <div className="h-64 animate-pulse rounded-xl border border-border bg-muted/40" />;
   }
 
   if (error) {
     return (
-      <div className="rounded-xl border border-danger bg-danger/10 p-6 text-center">
+      <div className="rounded-xl border border-danger/30 bg-danger/10 p-6 text-center">
         <p className="text-sm">Couldn&apos;t load your stats.</p>
         <button
           type="button"
@@ -84,7 +84,7 @@ export function DashboardStats() {
         <div className="mt-3 flex flex-wrap justify-center gap-2">
           <Link
             href="/diagnostic"
-            className="inline-block rounded-lg bg-primary px-4 py-2 text-sm font-medium text-primary-foreground hover:opacity-90"
+            className="btn-brand inline-flex items-center rounded-lg px-4 py-2 text-sm font-medium"
           >
             Take the diagnostic
           </Link>

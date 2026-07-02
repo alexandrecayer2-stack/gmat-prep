@@ -196,7 +196,7 @@ export function PracticeRunner({ questions }: { questions: QuestionWithGroup[] }
         >
           <div
             className={cn(
-              'mb-2 flex items-center gap-2 font-semibold',
+              'mb-2 flex items-center gap-2 font-heading font-semibold',
               isCorrect ? 'text-success' : 'text-danger',
             )}
           >
@@ -226,7 +226,7 @@ export function PracticeRunner({ questions }: { questions: QuestionWithGroup[] }
               type="button"
               onClick={handleSubmit}
               disabled={!complete}
-              className="inline-flex items-center gap-1 rounded-lg bg-primary px-4 py-2 font-medium text-primary-foreground transition-opacity hover:opacity-90 disabled:cursor-not-allowed disabled:opacity-50"
+              className="btn-brand inline-flex items-center gap-1 rounded-lg px-4 py-2 font-medium disabled:cursor-not-allowed disabled:opacity-50"
             >
               Submit
             </button>
@@ -234,7 +234,7 @@ export function PracticeRunner({ questions }: { questions: QuestionWithGroup[] }
             <button
               type="button"
               onClick={handleNext}
-              className="inline-flex items-center gap-1 rounded-lg bg-primary px-4 py-2 font-medium text-primary-foreground transition-opacity hover:opacity-90"
+              className="btn-brand inline-flex items-center gap-1 rounded-lg px-4 py-2 font-medium"
             >
               {lastIndex ? 'Finish' : 'Next'} <ChevronRight className="size-4" />
             </button>
@@ -330,7 +330,7 @@ function Summary({
                   type="button"
                   onClick={() => setExpandedId(open ? null : r.questionId)}
                   aria-expanded={open}
-                  className="flex w-full items-center gap-2 px-3 py-2 text-left"
+                  className="flex w-full items-center gap-2 px-3 py-2 text-left transition-colors hover:bg-muted/50"
                 >
                   {r.isCorrect ? (
                     <Check className="size-4 shrink-0 text-success" />
@@ -375,13 +375,13 @@ function Summary({
           )}
           <Link
             href="/practice"
-            className="inline-flex items-center gap-1 rounded-lg border border-border px-4 py-2 text-sm font-medium hover:bg-muted"
+            className="inline-flex items-center gap-1 rounded-lg border border-border px-4 py-2 text-sm font-medium transition-colors hover:bg-muted"
           >
             New session
           </Link>
           <Link
             href="/"
-            className="inline-flex items-center gap-1 rounded-lg border border-border px-4 py-2 text-sm font-medium hover:bg-muted"
+            className="inline-flex items-center gap-1 rounded-lg border border-border px-4 py-2 text-sm font-medium transition-colors hover:bg-muted"
           >
             Dashboard
           </Link>

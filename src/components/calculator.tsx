@@ -136,7 +136,7 @@ export function Calculator() {
       aria-label="Calculator"
       tabIndex={0}
       onKeyDown={handleKey}
-      className="w-56 rounded-xl border border-border bg-card p-3 shadow-sm"
+      className="w-56 rounded-xl border border-border bg-card p-3 shadow-[var(--shadow-md)]"
     >
       <div
         role="status"

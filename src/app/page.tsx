@@ -112,7 +112,7 @@ export default async function Home() {
       <ScoreTrendCard />
 
       {/* Mock Exam banner */}
-      <section className="flex flex-wrap items-center justify-between gap-4 rounded-xl border border-primary/30 bg-accent/40 p-5">
+      <Card as="section" className="animate-fade-in-up flex flex-wrap items-center justify-between gap-4 border-primary/30 bg-accent/30 p-5">
         <div className="flex items-center gap-3">
           <ClipboardList className="size-6 shrink-0 text-primary" />
           <div>
@@ -128,7 +128,7 @@ export default async function Home() {
         >
           Start mock exam <ArrowRight className="size-4" />
         </Link>
-      </section>
+      </Card>
 
       <section>
         <SectionLabel className="mb-3">Practice by section</SectionLabel>

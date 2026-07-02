@@ -92,9 +92,12 @@ export function LearnBrowser({
       </div>
 
       {totalShown === 0 ? (
-        <div className="rounded-xl border border-dashed border-border p-10 text-center text-sm text-muted-foreground">
-          No chapters or lessons match{' '}
-          <span className="font-medium text-foreground">“{query}”</span>.
+        <div className="animate-fade-in-up flex flex-col items-center gap-3 rounded-xl border border-dashed border-border p-10 text-center text-sm text-muted-foreground">
+          <Search className="size-6 text-muted-foreground/40" />
+          <p>
+            No chapters or lessons match{' '}
+            <span className="font-medium text-foreground">“{query}”</span>.
+          </p>
         </div>
       ) : (
         <div className="space-y-12">
@@ -127,7 +130,7 @@ export function LearnBrowser({
                       <Link
                         key={ch.id}
                         href={`/learn/${ch.id}`}
-                        className={`animate-fade-in-up stagger-${Math.min(ci + 1, 5)} group relative overflow-hidden rounded-2xl border border-border bg-card transition-all duration-200 hover:-translate-y-0.5 hover:border-primary/30 hover:shadow-lg hover:shadow-black/20`}
+                        className={`animate-fade-in-up stagger-${Math.min(ci + 1, 5)} group card-hover elev relative overflow-hidden rounded-2xl border border-border bg-card`}
                       >
                         <div className={`h-1 w-full ${colors.accent}`} />
                         <div className="p-5">

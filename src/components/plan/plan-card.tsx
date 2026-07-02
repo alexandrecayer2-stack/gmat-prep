@@ -43,7 +43,7 @@ export function PlanCard() {
 
   if (!plan) {
     return (
-      <div className="flex flex-wrap items-center justify-between gap-3 rounded-xl border border-primary/30 bg-accent/40 p-5">
+      <div className="flex flex-wrap items-center justify-between gap-3 rounded-xl border border-primary/30 bg-accent/30 p-5">
         <div className="flex items-center gap-3">
           <Sparkles className="size-6 shrink-0 text-primary" />
           <div>

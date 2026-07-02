@@ -30,7 +30,7 @@ export default async function LearnPage() {
       <header className="mb-8">
         <div className="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
           <div>
-            <h1 className="text-3xl font-bold tracking-tight">Learn</h1>
+            <h1 className="font-heading text-3xl font-bold tracking-tight">Learn</h1>
             <p className="mt-2 max-w-xl text-muted-foreground">
               Structured lessons with worked examples and targeted practice. Complete exercises to
               track your progress.
@@ -44,7 +44,7 @@ export default async function LearnPage() {
                 ['exercises', totalExercises],
               ] as [string, number][]
             ).map(([label, n]) => (
-              <div key={label} className="rounded-xl bg-muted/50 px-4 py-2.5 text-center">
+              <div key={label} className="rounded-xl border border-border bg-card elev px-4 py-2.5 text-center">
                 <p className="text-2xl font-bold tabular-nums text-foreground">{n}</p>
                 <p className="text-xs text-muted-foreground">{label}</p>
               </div>

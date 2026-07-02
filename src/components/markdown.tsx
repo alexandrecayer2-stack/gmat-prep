@@ -18,8 +18,8 @@ const CALLOUT_STYLES: Record<CalloutKind, { Icon: LucideIcon; box: string; accen
   },
   strategy: {
     Icon: Target,
-    box: 'border-emerald-500/30 bg-emerald-500/10',
-    accent: 'text-emerald-600 dark:text-emerald-400',
+    box: 'border-success/30 bg-success/10',
+    accent: 'text-success',
   },
   shortcut: {
     Icon: Zap,
