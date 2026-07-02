@@ -12,8 +12,10 @@ import { saveDiagnostic } from '@/lib/data/diagnostic';
 import { saveStudyPlan } from '@/lib/data/plans';
 import { useToast } from '@/components/ui/toast';
 import { cn } from '@/lib/utils';
+import { funnel } from '@/lib/analytics';
 import { type DiagnosticResult } from './diagnostic-runner';
 import { AdaptiveDiagnosticRunner } from './adaptive-diagnostic-runner';
+import { SaveResultsCard } from './save-results-card';
 import { PlanView } from '@/components/plan/plan-view';
 import { TypeBreakdownCard } from '@/components/type-breakdown-card';
 import { Card } from '@/components/ui/card';
@@ -80,6 +82,12 @@ export function DiagnosticFlow({ questions }: { questions: QuestionWithGroup[] }
       topic: r.question.topic,
     }));
     const est = estimateDiagnostic(items);
+    funnel.diagnosticCompleted({
+      predicted: est.total,
+      low: est.low,
+      high: est.high,
+      questions: est.questionCount,
+    });
     setResults(res);
     setEstimate(est);
     setTarget(defaultTarget(est.total));
@@ -117,6 +125,7 @@ export function DiagnosticFlow({ questions }: { questions: QuestionWithGroup[] }
         weeksAvailable: targetDate ? weeksUntil(targetDate) : null,
       }),
     );
+    funnel.planGenerated({ target });
     setStep('plan');
     window.scrollTo(0, 0);
   }
@@ -179,6 +188,7 @@ export function DiagnosticFlow({ questions }: { questions: QuestionWithGroup[] }
           <button
             type="button"
             onClick={() => {
+              funnel.diagnosticStarted();
               setStep('test');
               window.scrollTo(0, 0);
             }}
@@ -231,6 +241,8 @@ export function DiagnosticFlow({ questions }: { questions: QuestionWithGroup[] }
         </div>
 
         <TypeBreakdownCard estimate={estimate} />
+
+        <SaveResultsCard />
 
         <Card className="p-6">
           <h2 className="text-lg font-semibold">Set your target</h2>
