@@ -14,11 +14,27 @@ const geistMono = Geist_Mono({ variable: '--font-geist-mono', subsets: ['latin']
 const spaceGrotesk = Space_Grotesk({ variable: '--font-space-grotesk', subsets: ['latin'] });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://gmat-prep-nine.vercel.app'),
   title: 'GMAT Prep — Focus Edition practice',
   description:
     'Practice and learn for the GMAT Focus Edition: Quantitative Reasoning, Verbal Reasoning, and Data Insights.',
   appleWebApp: { capable: true, statusBarStyle: 'default', title: 'GMAT Prep' },
   icons: { apple: '/apple-touch-icon.png' },
+  // Social share preview (the `opengraph-image`/`twitter-image` routes supply the image).
+  openGraph: {
+    title: 'Predict your GMAT score — free',
+    description:
+      'A free 15-minute adaptive diagnostic predicts your GMAT Focus score and builds a study plan. 1,400+ practice questions with instant explanations.',
+    url: 'https://gmat-prep-nine.vercel.app',
+    siteName: 'GMAT Prep',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Predict your GMAT score — free',
+    description:
+      'Free 15-minute adaptive diagnostic + 1,400+ practice questions with instant explanations.',
+  },
 };
 
 // Address-bar / status-bar tint, matched to the app in light and dark.
