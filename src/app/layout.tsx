@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from 'next';
 import { Geist, Geist_Mono, Space_Grotesk } from 'next/font/google';
 import './globals.css';
 import { Providers } from '@/components/providers';
+import { Analytics } from '@/components/analytics/analytics';
 import { Nav } from '@/components/nav';
 import { ServiceWorkerRegister } from '@/components/pwa/service-worker-register';
 import { OfflineSync } from '@/components/pwa/offline-sync';
@@ -50,6 +51,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
           <ServiceWorkerRegister />
           <OfflineSync />
           <InstallPrompt />
+          <Analytics />
         </Providers>
       </body>
     </html>
